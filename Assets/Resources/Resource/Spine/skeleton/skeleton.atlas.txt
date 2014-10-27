@@ -1,0 +1,97 @@
+
+skeleton.png
+size: 508,254
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skeleton/skeleton_attack_1
+  rotate: false
+  xy: 348, 159
+  size: 82, 95
+  orig: 82, 95
+  offset: 0, 0
+  index: -1
+skeleton/skeleton_attack_2
+  rotate: false
+  xy: 135, 2
+  size: 59, 79
+  orig: 59, 79
+  offset: 0, 0
+  index: -1
+skeleton/skeleton_attack_3
+  rotate: true
+  xy: 196, 2
+  size: 61, 66
+  orig: 61, 66
+  offset: 0, 0
+  index: -1
+skeleton/skeleton_attack_effect
+  rotate: false
+  xy: 221, 136
+  size: 125, 118
+  orig: 125, 118
+  offset: 0, 0
+  index: -1
+skeleton/skeleton_body
+  rotate: false
+  xy: 264, 3
+  size: 52, 60
+  orig: 52, 60
+  offset: 0, 0
+  index: -1
+skeleton/skeleton_chin
+  rotate: false
+  xy: 348, 142
+  size: 37, 15
+  orig: 37, 15
+  offset: 0, 0
+  index: -1
+skeleton/skeleton_face
+  rotate: false
+  xy: 2, 83
+  size: 217, 171
+  orig: 217, 171
+  offset: 0, 0
+  index: -1
+skeleton/skeleton_left
+  rotate: true
+  xy: 303, 68
+  size: 66, 56
+  orig: 66, 56
+  offset: 0, 0
+  index: -1
+skeleton/skeleton_leg
+  rotate: false
+  xy: 221, 65
+  size: 80, 69
+  orig: 80, 69
+  offset: 0, 0
+  index: -1
+skeleton/skeleton_neck
+  rotate: true
+  xy: 432, 172
+  size: 82, 76
+  orig: 82, 76
+  offset: 0, 0
+  index: -1
+skeleton/skeleton_rightarm
+  rotate: true
+  xy: 318, 23
+  size: 43, 36
+  orig: 43, 36
+  offset: 0, 0
+  index: -1
+skeleton/skeleton_righthand
+  rotate: false
+  xy: 361, 105
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+skeleton/skeleton_sword_d
+  rotate: true
+  xy: 2, 2
+  size: 79, 131
+  orig: 79, 131
+  offset: 0, 0
+  index: -1

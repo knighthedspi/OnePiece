@@ -1,0 +1,55 @@
+
+dragon.png
+size: 432,241
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dragon/dragon_attack_1
+  rotate: false
+  xy: 400, 209
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+dragon/dragon_attack_2
+  rotate: true
+  xy: 2, 2
+  size: 25, 44
+  orig: 25, 44
+  offset: 0, 0
+  index: -1
+dragon/dragon_body
+  rotate: false
+  xy: 2, 29
+  size: 163, 212
+  orig: 163, 212
+  offset: 0, 0
+  index: -1
+dragon/dragon_face_a
+  rotate: false
+  xy: 311, 143
+  size: 87, 98
+  orig: 87, 98
+  offset: 0, 0
+  index: -1
+dragon/dragon_face_d
+  rotate: false
+  xy: 311, 68
+  size: 77, 73
+  orig: 77, 73
+  offset: 0, 0
+  index: -1
+dragon/dragon_leftwing
+  rotate: false
+  xy: 167, 136
+  size: 142, 105
+  orig: 142, 105
+  offset: 0, 0
+  index: -1
+dragon/dragon_rightwing
+  rotate: false
+  xy: 167, 29
+  size: 142, 105
+  orig: 142, 105
+  offset: 0, 0
+  index: -1

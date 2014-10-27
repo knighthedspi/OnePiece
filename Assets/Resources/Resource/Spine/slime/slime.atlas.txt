@@ -1,0 +1,83 @@
+
+slime.png
+size: 783,254
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slime/slime_attack
+  rotate: false
+  xy: 2, 28
+  size: 261, 226
+  orig: 261, 226
+  offset: 0, 0
+  index: -1
+slime/slime_body
+  rotate: false
+  xy: 265, 57
+  size: 138, 113
+  orig: 138, 113
+  offset: 0, 0
+  index: -1
+slime/slime_bubble_1
+  rotate: false
+  xy: 462, 158
+  size: 21, 12
+  orig: 21, 12
+  offset: 0, 0
+  index: -1
+slime/slime_bubble_2
+  rotate: true
+  xy: 2, 2
+  size: 24, 20
+  orig: 24, 20
+  offset: 0, 0
+  index: -1
+slime/slime_bubble_3
+  rotate: false
+  xy: 265, 40
+  size: 31, 15
+  orig: 31, 15
+  offset: 0, 0
+  index: -1
+slime/slime_face_1
+  rotate: false
+  xy: 405, 62
+  size: 39, 55
+  orig: 39, 55
+  offset: 0, 0
+  index: -1
+slime/slime_face_2
+  rotate: false
+  xy: 405, 119
+  size: 55, 51
+  orig: 55, 51
+  offset: 0, 0
+  index: -1
+slime/slime_face_3
+  rotate: false
+  xy: 732, 203
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+slime/slime_left
+  rotate: true
+  xy: 535, 219
+  size: 35, 195
+  orig: 35, 195
+  offset: 0, 0
+  index: -1
+slime/slime_leg
+  rotate: false
+  xy: 265, 172
+  size: 268, 82
+  orig: 268, 82
+  offset: 0, 0
+  index: -1
+slime/slime_right
+  rotate: true
+  xy: 535, 182
+  size: 35, 195
+  orig: 35, 195
+  offset: 0, 0
+  index: -1
