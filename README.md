@@ -19,3 +19,5 @@ Task nào đang làm, task của mình là gì...
 ### JIRA plugin ###
 * [Plugin](https://onepiece.atlassian.net/plugins/)
 * [Admin](https://onepiece.atlassian.net/plugins/)
+
+Test hip chat
