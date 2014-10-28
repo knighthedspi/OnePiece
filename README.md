@@ -14,3 +14,8 @@ Task nào đang làm, task của mình là gì...
 1. Check những task mình phải làm. Tiến độ [here](https://onepiece.atlassian.net/secure/RapidBoard.jspa?rapidView=1&quickFilter=2)
 
 2. [Planning](https://onepiece.atlassian.net/secure/RapidBoard.jspa?rapidView=1&view=planning)
+
+
+### JIRA plugin ###
+* [Plugin](https://onepiece.atlassian.net/plugins/)
+* [Admin](https://onepiece.atlassian.net/plugins/)
