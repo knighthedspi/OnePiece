@@ -2,28 +2,12 @@
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
-### What is this repository for? ###
+### JIRA Dashboard ###
+Dashboard là màn hình hiển thị tổng quan về project. Như còn lai  bao nhiêu ngày.
+Task nào đang làm, task của mình là gì...
 
-* Quick summary
-* Version
+1. Login bằng account đã gửi
+1. Dashboard  -> manager Dashboard  -> Popular  -> click vào onepiece  -> add to favorites
+
+
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
