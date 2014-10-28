@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="13" actionName="heibaipei_1">
+        <frameInfo frame="0">
+            <frameData bitmapName="heibaipei01" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="2.150000,-1.550000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="heibaipei02" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="2.150000,-1.550000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="heibaipei03" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="2.150000,-1.550000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="heibaipei04" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="2.150000,-1.550000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="heibaipei05" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-2.650000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="heibaipei06" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-2.650000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="heibaipei07" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-2.650000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="heibaipei08" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="2.650000,-1.550000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="heibaipei09" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="2.150000,-1.050000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="heibaipei10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="2.150000,-1.550000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="heibaipei11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="2.150000,-1.550000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="heibaipei12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="2.150000,-1.550000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="heibaipei13" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="2.150000,-1.550000" />
+        </frameInfo>
+    </action>
+</animation>

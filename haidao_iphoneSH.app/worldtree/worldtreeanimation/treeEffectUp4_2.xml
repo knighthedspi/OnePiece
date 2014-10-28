@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="25" actionName="treeEffectUp4_2">
+        <frameInfo frame="0">
+            <frameData bitmapName="treeEffectUp4_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="1" />
+        <frameInfo frame="2" />
+        <frameInfo frame="3" />
+        <frameInfo frame="4">
+            <frameData alpha="0.1015625" bitmapName="treeEffectUp4_21" scaleX="-4.625488" scaleY="-4.237167" rotation="179.999985" position="10.000000,-880.000000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData alpha="0.1796875" bitmapName="treeEffectUp4_21" scaleX="-4.625351" scaleY="-4.272461" rotation="179.999985" position="10.050000,-887.549988" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData alpha="0.26953125" bitmapName="treeEffectUp4_21" scaleX="-4.625351" scaleY="-4.307770" rotation="179.999985" position="10.050000,-895.150024" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData alpha="0.3515625" bitmapName="treeEffectUp4_21" scaleX="-4.625351" scaleY="-4.343063" rotation="179.999985" position="10.050000,-902.799988" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData alpha="0.4296875" bitmapName="treeEffectUp4_21" scaleX="-4.625351" scaleY="-4.378357" rotation="179.999985" position="10.050000,-910.450012" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData alpha="0.51171875" bitmapName="treeEffectUp4_21" scaleX="-4.625351" scaleY="-4.413666" rotation="179.999985" position="10.050000,-918.000000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData alpha="0.58984375" bitmapName="treeEffectUp4_21" scaleX="-4.625351" scaleY="-4.448975" rotation="179.999985" position="10.050000,-925.650024" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData alpha="0.671875" bitmapName="treeEffectUp4_21" scaleX="-4.625351" scaleY="-4.484253" rotation="179.999985" position="10.050000,-933.200012" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData alpha="0.75" bitmapName="treeEffectUp4_21" scaleX="-4.625351" scaleY="-4.519638" rotation="179.999985" position="10.050000,-940.849976" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData alpha="0.83984375" bitmapName="treeEffectUp4_21" scaleX="-4.625351" scaleY="-4.554871" rotation="179.999985" position="10.050000,-948.500000" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData alpha="0.921875" bitmapName="treeEffectUp4_21" scaleX="-4.625351" scaleY="-4.590179" rotation="179.999985" position="10.050000,-956.049988" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData bitmapName="treeEffectUp4_21" scaleX="-4.625488" scaleY="-4.625488" rotation="179.999985" position="10.000000,-963.750000" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData alpha="0.828125" bitmapName="treeEffectUp4_21" scaleX="-4.625351" scaleY="-4.625351" rotation="179.999985" position="10.050000,-963.750000" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData alpha="0.671875" bitmapName="treeEffectUp4_21" scaleX="-4.625351" scaleY="-4.625351" rotation="179.999985" position="10.050000,-963.750000" />
+        </frameInfo>
+        <frameInfo frame="18">
+            <frameData alpha="0.5" bitmapName="treeEffectUp4_21" scaleX="-4.625351" scaleY="-4.625351" rotation="179.999985" position="10.050000,-963.750000" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData alpha="0.328125" bitmapName="treeEffectUp4_21" scaleX="-4.625351" scaleY="-4.625351" rotation="179.999985" position="10.050000,-963.750000" />
+        </frameInfo>
+        <frameInfo frame="20">
+            <frameData alpha="0.171875" bitmapName="treeEffectUp4_21" scaleX="-4.625351" scaleY="-4.625351" rotation="179.999985" position="10.050000,-963.750000" />
+        </frameInfo>
+        <frameInfo frame="21">
+            <frameData alpha="0" bitmapName="treeEffectUp4_21" scaleX="-4.625488" scaleY="-4.625488" rotation="179.999985" position="10.000000,-963.750000" />
+        </frameInfo>
+        <frameInfo frame="22" />
+        <frameInfo frame="23" />
+        <frameInfo frame="24" />
+    </action>
+</animation>

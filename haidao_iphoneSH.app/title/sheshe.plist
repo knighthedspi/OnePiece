@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>dingwei_sheshe.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2,2},{133,76}}</string>
+			<key>offset</key>
+			<string>{1,0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{2,0},{133,76}}</string>
+			<key>sourceSize</key>
+			<string>{135,76}</string>
+		</dict>
+		<key>sheshe01.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2,80},{133,76}}</string>
+			<key>offset</key>
+			<string>{1,0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{2,0},{133,76}}</string>
+			<key>sourceSize</key>
+			<string>{135,76}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>realTextureFileName</key>
+		<string>sheshe.png</string>
+		<key>size</key>
+		<string>{137,158}</string>
+		<key>smartupdate</key>
+		<string>$TexturePacker:SmartUpdate:de4f0e50503f22d622f9a617d51aa8b8$</string>
+		<key>textureFileName</key>
+		<string>sheshe.png</string>
+	</dict>
+</dict>
+</plist>

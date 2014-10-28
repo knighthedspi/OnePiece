@@ -1,0 +1,6 @@
+<root>
+  <tan_suo id="1001" exploreName="Bờ biển Đảo Curto, di tích Alabasta" icons="1.png,2.png" spend="5000,7000" droptableId="101,102" rate="10000,5000"/>
+  <tan_suo id="1002" exploreName="Bờ biển Đảo Curto, di tích Alabasta, rừng rậm băng tuyết" icons="1.png,2.png,3.png" spend="5000,7000,9000" droptableId="101,102,103" rate="10000,5000,4000"/>
+  <tan_suo id="1003" exploreName="Bờ biển Đảo Curto, di tích Alabasta, rừng rậm băng tuyết, khu núi lửa" icons="1.png,2.png,3.png,4.png" spend="5000,7000,9000,15000" droptableId="101,102,103,104" rate="10000,5000,4000,2000"/>
+  <tan_suo id="1004" exploreName="Bờ biển Đảo Curto, di tích Alabasta, rừng rậm băng tuyết, khu núi lửa, thành phố Xu" icons="1.png,2.png,3.png,4.png,5.png" spend="5000,7000,9000,15000,20000" droptableId="101,102,103,104,105" rate="10000,5000,4000,2000,1000"/>
+</root>

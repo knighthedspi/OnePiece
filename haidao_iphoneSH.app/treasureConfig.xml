@@ -1,0 +1,28 @@
+<root>
+	<robCdTime>600000</robCdTime>
+	<returnCdTime>1200000</returnCdTime>
+	<returnCostGoldPerSecond>1</returnCostGoldPerSecond>
+	<robCostGoldPerSecond>1</robCostGoldPerSecond>
+	<robTimes>4</robTimes>
+	<robbedTimes>2</robbedTimes>
+	<limitLevel>0,20,44,64,80,10000></limitLevel>
+	<experienceRefreshTimes>0,8,8,8,8,8</experienceRefreshTimes><!-- Cùng số liệu tương ứng của Lv hạn chế （limitLevel） ví dụ Lv0-20 số lần làm mới chiến tích là 8, Lv20-44 là 8,......tiếp tục-->
+
+	<huntTimes>0,5,5,5,5,5</huntTimes><!-- Cùng số liệu tương ứng của Lv hạn chế (limitLevel) ví dụ Lv0-20 số lần đào bảo là 5, Lv20-44 là 5 lần,...tiếp tục-->
+
+	<treasureMapOpenLevel>60,80</treasureMapOpenLevel>
+
+
+	<robLevel>5, 10, 15, 20, 25, 30, 10000</robLevel>
+	<robValue>0.1, 0.09, 0.08, 0.07, 0.06, 0.05, 0.05</robValue>
+
+	<treasureNormalLimitLevel>5</treasureNormalLimitLevel>
+	<experienceRefreshExpend>100</experienceRefreshExpend>
+
+	<playHuntLag>1000</playHuntLag><!-- ���Ŷ����ӳ�ʱ�� ���� -->
+
+
+	<goldRefreshTimes>0,1,2,3,4,4</goldRefreshTimes>
+
+	<robMsgNum>15</robMsgNum>
+</root>

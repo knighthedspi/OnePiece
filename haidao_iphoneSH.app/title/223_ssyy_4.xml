@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="45" actionName="223_ssyy_4">
+        <frameInfo frame="0" />
+        <frameInfo frame="1" />
+        <frameInfo frame="2" />
+        <frameInfo frame="3" />
+        <frameInfo frame="4" />
+        <frameInfo frame="5" />
+        <frameInfo frame="6" />
+        <frameInfo frame="7" />
+        <frameInfo frame="8" />
+        <frameInfo frame="9" />
+        <frameInfo frame="10" />
+        <frameInfo frame="11" />
+        <frameInfo frame="12" />
+        <frameInfo frame="13" />
+        <frameInfo frame="14" />
+        <frameInfo frame="15" />
+        <frameInfo frame="16" />
+        <frameInfo frame="17" />
+        <frameInfo frame="18">
+            <frameData bitmapName="223_ssyy_41" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-54.200001,-7.950000" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData bitmapName="223_ssyy_41" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-54.200001,-7.950000" />
+        </frameInfo>
+        <frameInfo frame="20">
+            <frameData bitmapName="223_ssyy_42" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-53.200001,-7.450000" />
+        </frameInfo>
+        <frameInfo frame="21">
+            <frameData bitmapName="223_ssyy_42" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-53.200001,-7.450000" />
+        </frameInfo>
+        <frameInfo frame="22">
+            <frameData bitmapName="223_ssyy_43" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-44.700001,-9.450000" />
+        </frameInfo>
+        <frameInfo frame="23">
+            <frameData bitmapName="223_ssyy_43" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-44.700001,-9.450000" />
+        </frameInfo>
+        <frameInfo frame="24">
+            <frameData bitmapName="223_ssyy_44" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-30.700001,-12.950000" />
+        </frameInfo>
+        <frameInfo frame="25">
+            <frameData bitmapName="223_ssyy_44" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-30.700001,-12.950000" />
+        </frameInfo>
+        <frameInfo frame="26">
+            <frameData bitmapName="223_ssyy_45" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-16.200001,-20.450001" />
+        </frameInfo>
+        <frameInfo frame="27">
+            <frameData bitmapName="223_ssyy_45" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-16.200001,-20.450001" />
+        </frameInfo>
+        <frameInfo frame="28">
+            <frameData bitmapName="223_ssyy_46" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-0.200000,-13.450000" />
+        </frameInfo>
+        <frameInfo frame="29">
+            <frameData bitmapName="223_ssyy_46" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-0.200000,-13.450000" />
+        </frameInfo>
+        <frameInfo frame="30">
+            <frameData bitmapName="223_ssyy_47" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="17.799999,-13.950000" />
+        </frameInfo>
+        <frameInfo frame="31">
+            <frameData bitmapName="223_ssyy_47" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="17.799999,-13.950000" />
+        </frameInfo>
+        <frameInfo frame="32">
+            <frameData bitmapName="223_ssyy_48" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="34.799999,-19.450001" />
+        </frameInfo>
+        <frameInfo frame="33">
+            <frameData bitmapName="223_ssyy_48" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="34.799999,-19.450001" />
+        </frameInfo>
+        <frameInfo frame="34">
+            <frameData bitmapName="223_ssyy_49" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="49.799999,-21.450001" />
+        </frameInfo>
+        <frameInfo frame="35">
+            <frameData bitmapName="223_ssyy_49" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="49.799999,-21.450001" />
+        </frameInfo>
+        <frameInfo frame="36">
+            <frameData bitmapName="223_ssyy_410" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="60.299999,-22.450001" />
+        </frameInfo>
+        <frameInfo frame="37">
+            <frameData bitmapName="223_ssyy_410" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="60.299999,-22.450001" />
+        </frameInfo>
+        <frameInfo frame="38">
+            <frameData bitmapName="223_ssyy_411" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="58.799999,-24.450001" />
+        </frameInfo>
+        <frameInfo frame="39">
+            <frameData bitmapName="223_ssyy_411" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="58.799999,-24.450001" />
+        </frameInfo>
+        <frameInfo frame="40" />
+        <frameInfo frame="41" />
+        <frameInfo frame="42" />
+        <frameInfo frame="43" />
+        <frameInfo frame="44" />
+    </action>
+</animation>

@@ -1,0 +1,5 @@
+<root>
+  <gemExp id="1" buyExpNeedGold="45" buyExp="1000" openVipGrade3="0"/>
+  <gemExp id="2" buyExpNeedGold="450" buyExp="10000" openVipGrade3="0"/>
+  <gemExp id="3" buyExpNeedGold="4500" buyExp="100000" openVipGrade3="9"/>
+</root>

@@ -1,0 +1,72 @@
+﻿<root>
+    <copyMapSelect ID="1" x="219" y="297" name="Chiến hạm"/>
+    <copyMapSelect ID="2" x="320" y="110" name="Đảo Coto"/>
+    <copyMapSelect ID="3" x="420" y="341" name="Sheilds"/>    
+	<copyMapSelect ID="4" x="90" y="115" name="Cam"/>
+    <copyMapSelect ID="5" x="421" y="119" name="Đảo Syrup"/>
+    <copyMapSelect ID="6" x="100" y="138" name="Quán ăn trên biển"/>
+    <copyMapSelect ID="7" x="298" y="273" name="Cocoyashi"/>
+    <copyMapSelect ID="8" x="525" y="332" name="Logue"/>
+    <copyMapSelect ID="9" x="345" y="151" name="Núi Reverse"/>
+    <copyMapSelect ID="10" x="82" y="143" name="Cá Kình Laboon"/>
+    <copyMapSelect ID="11" x="480" y="116" name="Đỉnh núi Whisky"/>
+    <copyMapSelect ID="12" x="227" y="116" name="Tiểu hoa viên"/>
+    <copyMapSelect ID="13" x="279" y="321" name="Đảo Sigu"/>
+    <copyMapSelect ID="14" x="36" y="345" name="Sa mạc Nahara"/>
+    <copyMapSelect ID="15" x="528" y="350" name="Alubarna"/>
+    <copyMapSelect ID="16" x="390" y="340" name="Cung điện vương thất"/>
+    <copyMapSelect ID="17" x="284" y="250" name="Sòng bài Rainbase"/>
+    <copyMapSelect ID="18" x="104" y="98" name="Quần đảo Dentures"/>
+    <copyMapSelect ID="19" x="93" y="325" name="Xoáy nước"/>
+    <copyMapSelect ID="20" x="515" y="340" name="Bờ biển Angle"/>
+    <copyMapSelect ID="21" x="435" y="143" name="Thần tế đàn Casey"/>
+    <copyMapSelect ID="22" x="255" y="123" name="Cây đậu"/>
+    <copyMapSelect ID="23" x="320" y="327" name="Cầu thất tình"/>
+    <copyMapSelect ID="24" x="114" y="252" name="Chuông vàng"/>
+    <copyMapSelect ID="25" x="526" y="350" name="Pháo đài G8"/>
+    <copyMapSelect ID="26" x="460" y="105" name="Đảo Long Ring Long"/>
+    <copyMapSelect ID="27" x="74" y="110" name="Gia tộc Franky"/>
+    <copyMapSelect ID="28" x="234" y="235" name="Bến tàu số 1"/>
+    <copyMapSelect ID="29" x="65" y="381" name="Đột kích núi băng"/>
+    <copyMapSelect ID="30" x="460" y="320" name="Xe lửa trên biển"/>
+    <copyMapSelect ID="31" x="240" y="160" name="Đảo tư pháp hượng"/>
+    <copyMapSelect ID="32" x="230" y="285" name="Đảo tư pháp hạ"/>
+    <copyMapSelect ID="33" x="95" y="170" name="Tháp Tư Pháp thượng"/>
+    <copyMapSelect ID="34" x="200" y="390" name="Tháp Tư Pháp hạ"/>
+    <copyMapSelect ID="35" x="28"  y="370" name="Cổng chính nghĩa"/>
+    <copyMapSelect ID="36" x="450" y="125" name="Thuyền hải tặc thần bí"/>
+    <copyMapSelect ID="37" x="105" y="150" name="Băng hải đạo"/>
+    <copyMapSelect ID="38" x="245" y="350" name="Lovelyland"/>
+    <copyMapSelect ID="39" x="453" y="363" name="Lâu đài Atchino"/>
+    <copyMapSelect ID="40" x="215" y="130" name="Thuyền buồm kinh dị"/>
+    <copyMapSelect ID="41" x="518" y="142" name="Lâu đài bác sĩ quái dị"/>
+    <copyMapSelect ID="42" x="358" y="143" name="Sân Paironne"/>
+    <copyMapSelect ID="43" x="462" y="377" name="Long mã quyết chiến"/>
+    <copyMapSelect ID="44" x="111" y="318" name="Hồn ma Perona"/>
+    <copyMapSelect ID="45" x="270" y="330" name="Ma nhân Oars"/>
+    <copyMapSelect ID="46" x="94" y="116" name="Moriah ánh trăng"/>
+    <copyMapSelect ID="47" x="535" y="115" name="Đảo Ôn Tuyền"/>
+    <copyMapSelect ID="48" x="243" y="164" name="Đoàn kị sĩ cá bay"/>
+    <copyMapSelect ID="49" x="560" y="370" name="Lãnh địa  Duval"/>
+    <copyMapSelect ID="50" x="288" y="370" name="Quần đảo Sabaody"/>
+    <copyMapSelect ID="51" x="160" y="320" name="Đấu giá"/>
+    <copyMapSelect ID="52" x="525" y="118" name="Thoát đấu giá"/>
+    <copyMapSelect ID="53" x="500" y="375" name="Miền vô pháp"/>
+    <copyMapSelect ID="54" x="104" y="350" name="Công viên Sabaody"/>
+    <copyMapSelect ID="55" x="267" y="120" name="Đường thăm quan Sabaody"/>
+    <copyMapSelect ID="56" x="360" y="235" name="Quảng trường thị dân"/>
+    <copyMapSelect ID="57" x="100" y="200" name="Hoàng hôn Sabaody"/>
+    <copyMapSelect ID="58" x="408" y="130" name="Rừng đảo Cửu Xà"/>
+    <copyMapSelect ID="59" x="490" y="313" name="Khu tù đảo Cửu Xà"/>
+    <copyMapSelect ID="60" x="172" y="350" name="Võ đài Cửu Xà"/>
+    <copyMapSelect ID="61" x="150" y="135" name="Yến tiệc Cửu Xà"/>
+    <copyMapSelect ID="62" x="185" y="130" name="Xông vào đảo Impel Down"/>
+    <copyMapSelect ID="63" x="480" y="370" name="Nơi rửa tội"/>
+    <copyMapSelect ID="64" x="100" y="230" name="Rừng kiếm Hồng Liên"/>
+    <copyMapSelect ID="65" x="435" y="130" name="Vùng ma thú"/>
+    <copyMapSelect ID="66" x="165" y="370" name="Sào huyệt cự thú"/>
+    <copyMapSelect ID="67" x="142" y="341" name="Hoang mạc"/>
+    <copyMapSelect ID="68" x="470" y="172" name="Tháp Thông Gió"/>
+    <copyMapSelect ID="69" x="45" y="120" name="Cầu đá cháy"/>
+    <copyMapSelect ID="70" x="496" y="294" name="Hồ máu nóng"/>
+</root>

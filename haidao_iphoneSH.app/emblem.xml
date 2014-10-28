@@ -1,0 +1,22 @@
+<root>
+  <emblem id="1" emname="Huy chương bang lv1" ename="Mắt của Đại dương" description="Đem theo huy chương này, đến được mọi ngóc ngách trên biển." res="0.png" type="1" lvl="1" score="" smallRes="1001.png"/>
+  <emblem id="2" emname="Huy chương bang lv6" ename="Qủa của rừng xanh" description="Món quà của thiên nhiên độ lượng hào phóng…" res="5.png" type="1" lvl="10" score="" smallRes="1011.png"/>
+  <emblem id="3" emname="Huy chương bang lv2" ename="Đôi cánh trời xanh" description="Cho dù không có cánh, chỉ cần có ý chí mạo hiểm, cũng có thể bay lên." res="1.png" type="1" lvl="20" score="" smallRes="1002.png"/>
+  <emblem id="4" emname="Huy chương bang lv7" ename="Mũ của chú hề" description="Nhớ rằng giữ lại tấm Joker cuối cùng trong tay nhé." res="6.png" type="1" lvl="30" score="" smallRes="1012.png"/>
+  <emblem id="5" emname="Huy chương bang lv3" ename="Vũ nữ quán ba" description="Bất luận thân ở chốn nào,cũng phải có vũ đài của chính mình." res="2.png" type="1" lvl="40" score="" smallRes="1003.png"/>
+  <emblem id="6" emname="Huy chương bang lv8" ename="Yêu tinh xấu hổ" description="Yên lặng quan sát bước nhảy của cô ấy, không được làm phiền…" res="7.png" type="1" lvl="50" score="" smallRes="1013.png"/>
+  <emblem id="7" emname="Huy chương bang lv4" ename="Trái tim đỏ thẫm" description="Cần phải quan tâm đến người khác, sẽ có ngày gặp mặt đồng đội" res="3.png" type="1" lvl="60" score="" smallRes="1004.png"/>
+  <emblem id="8" emname="Huy chương bang lv9" ename="Thiên Bình đổi ngôi" description="Cần luôn đảm bảo sự quyết đoán chính trực" res="8.png" type="1" lvl="70" score="" smallRes="1014.png"/>
+  <emblem id="9" emname="Huy chương bang lv5" ename="Mũ vàng tứ hải" description="Hiện giờ, đem theo đồng đội mạnh nhất của bạn, chinh phục đường biển vĩ đại nào！" res="4.png" type="1" lvl="80" score="" smallRes="1005.png"/>
+  <emblem id="10" emname="Huy chương bang lv10" ename="Bác học vương giả" description="Chỉ có người có trí tuệ nhất mới có thể giải được tất cả bí mật trên biển ." res="9.png" type="1" lvl="100" score="" smallRes="1015.png"/>
+  <emblem id="11" emname="Huy chương tích điểm bang 1" ename="Đoàn hải tặc siêu nhiên" description="Nghe nói mỗi người trong đoàn hải tặc đều có năng lực trái ác quỷ…" res="101.png" type="2" lvl="" score="100" smallRes="1006.png"/>
+  <emblem id="12" emname="Huy chương tích điểm bang 2" ename="Hải vương tham ăn" description="Chuyện vui nhất ở trên biển chính là có thể ngoặm một miếng thịt thật to." res="102.png" type="2" lvl="" score="150" smallRes="1008.png"/>
+  <emblem id="13" emname="Huy chương tích điểm bang 3" ename="Tung tích người cá" description="một số thủy thủ dành cả đời để tìm đảo người cá, nên bị gọi là công viên “mơ ước”." res="103.png" type="2" lvl="" score="200" smallRes="1007.png"/>
+  <emblem id="14" emname="Huy chương tích điểm bang 4" ename="Trưởng giả ẩn giật" description="Có lúc ở trong bụng cá voi vẽ hoa cỏ cũng là một lựa chọn không tồi." res="104.png" type="2" lvl="" score="250" smallRes="1009.png"/>
+  <emblem id="15" emname="Huy chương tích điểm bang 5" ename="Kinh thánh bạo chúa" description="Một bang mạnh đều có người bỏ sức ẩm thầm, bọn họ rất tín nhiệm vào đồng đội." res="105.png" type="2" lvl="" score="300" smallRes="1010.png"/>
+  <emblem id="16" emname="Huy chương tích điểm bang 6" ename="Cá vàng nhiệt đới" description="Nghe nói có vùng biển tồn tại cá nhiệt đới mình là vàng." res="106.png" type="2" lvl="" score="350" smallRes="1016.png"/>
+  <emblem id="17" emname="Huy chương tích điểm bang 7" ename="Bách hợp bất khuất" description="Hoa bách hợp có thể dùng cả đời đẻ tỏa hương thơm của nó." res="107.png" type="2" lvl="" score="400" smallRes="1017.png"/>
+  <emblem id="18" emname="Huy chương tích điểm bang 8" ename="Đinh ba Thần biển" description="Mỗi kỳ quốc vương trên đảo người cá đều được tiếp nhận Đinh Ba." res="108.png" type="2" lvl="" score="450" smallRes="1018.png"/>
+  <emblem id="19" emname="Huy chương tích điểm bang 9" ename="Người lái cừ khôi" description="Không có người lái cừ khôi, không thể ra khơi trên vùng đường biển vĩ đại được." res="109.png" type="2" lvl="" score="500" smallRes="1019.png"/>
+  <emblem id="20" emname="Huy chương tích điểm bang 10" ename="Dương Thụ Chi Tinh" description="Xương rồng dùng gỗ cây Adam tạo thành thì sẽ không bao giờ bị gẫy." res="110.png" type="2" lvl="" score="1000" smallRes="1020.png"/>
+</root>

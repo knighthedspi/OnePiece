@@ -1,0 +1,50 @@
+﻿<root>
+<content title="Cập nhật thông tin">
+a)	Tin tức
+	Các tham số, cũng như tướng, Pet, trang bị, trận, v.v của nhân vật sẽ ảnh hưởng đến sức mạnh khi chiến đấu
+b)	Cập nhật thông tin:
+	Click Cập nhật để cập nhật thông tin mới nhất của người chơi lên máy chủ game. Trong thời gian Vương Giả Chi Chiến, nếu người chơi chưa Cập nhật, thì dữ liệu chiến đấu lưu trong hệ thống Vương Giả Chi Chiến sẽ không cập nhật
+</content>
+<content title="Vương Giả Chi Chiến">
+a)	Thứ tự
+	Lực chiến cao đánh trước.
+b)	Chiến đấu
+i.	Chiến đấu Tân thế giới
+	1.	Ngẫu nhiên ghép đối thủ, mỗi trận một lượt, mỗi lượt cách nhau 20 phút
+	2.	Không gặp lại đối thủ của lượt trước
+	3.	Thất bại 3 trận, sẽ bị loại, đến khi xác định được TOP 32
+	4.	Có thể kiểm tra chiến tích tại khu Chiến tích
+ii.	Chiến đấu Đường biển vĩ đại
+	5.	Sau khi kết thúc bầu cử Tân thế giới, sẽ rơi vào vòng đối đầu Tân thế giới. Ngẫu nhiên phối hợp đối thủ, mỗi trận một lượt, mỗi lượt cách nhau 20 phút
+	6.	Không gặp lại đối thủ của lượt trước
+	7.	Thất bại 3 trận, sẽ bị loại, đến khi xác định được TOP 32 chiến đấu sẽ kết thúc
+	8.	Có thể kiểm tra chiến tích tại khu Chiến tích
+c)	Đấu cấp độ thường
+	1.	TOP 32 Tân thế giới cùng TOP 32 Đường biển lần lượt chia thành 16 nhóm, mỗi nhóm 2 người đấu 5 lượt thắng 3, mỗi lượt cách nhau 30 phút, mỗi vòng cách nhau một ngày.
+	2.	TOP 32 hai nhóm sẽ lần lượt quyết đấu để chọn ra quán quân của nhóm đó
+	3.  Người chơi vào đấu cấp thường sẽ tự động tiến vào trận Vương Giả Chi Chiến liên server
+</content>
+<content title="Vương Giả Chi Chiến Liên Server">
+a)	Thứ tự
+	Lực chiến cao đánh trước.
+b)	Quy tắc chiến đấu
+i.	Quy tắc chiến đấu Tân Thế giới
+	1.	Ngẫu nhiên phân công đối thủ, mỗi trận 1 lượt, mỗi lượt cách nhau 20 phút.
+	2.	Người chơi sẽ không gặp lại đối thủ của lượt trước.
+	3.	Nếu ng chơi thất bại 3 trận, sẽ bị loại,cho đến khi quyết định được TOP 32
+	4.	Người chơi có thể kiểm tra chiến tích của mình.
+ii.	Quy tắc chiến đấu Đường biển vĩ đại
+	5.	Sau khi kết thúc bầu cử Tân thế giới, sẽ rơi vào vòng đối đầu Tân thế giới
+	6.	Người chơi sẽ không gặp lại đối thủ của lượt trước.
+	7.	Ngẫu nhiên phân công đối thủ, mỗi trận 1 lượt. Mỗi lượt cách nhau 20 phút.
+	8.	Nếu người chơi thất bại 3 trận, sẽ bị loại,cho đến khi quyết định được TOP 32，chiến đấu kết thúc.
+	9.	Người chơi có thể kiểm tra chiến tích của mình.
+c)	Quy tắc đấu lv thường
+	1.	32 kẻ mạnh của chiến Tân thế giới sẽ cùng vs 32 kẻ mạnh của chiến đường biển lần lượt chia thành 16 nhóm, mỗi nhóm 2 ng tiến hành đấu 5 lượt thắng 3, ng chơi nhận được 3 lần thắng, mỗi lượt cách nhau 30 phút, mỗi vòng cách nhau một ngày.
+	2.	32 kẻ mạnh của hai nhóm sẽ lần lượt quyết đấu để chọn ra quân quân của nhóm đó
+	3.  Tất cả người chơi trong sv Quán quân Tân thế giới Vương giả chi chiến liên sv có thể nhận được lễ bao:  50000*beri, 100 danh vọng
+</content>
+<content title="Hỗ trợ">
+	Giai đoạn đấu lv thường, người chơi có thể chỉ trọn 1 ng khác trợ uy, 10 phút trước vòng đấu không thể trợ uy. Trong Vương Giả Chi Chiến, người được trợ uy nếu tiến vào vòng đấu tiếp theo, thì người trợ uy sẽ nhận được, 1000*beri,100 danh vọng, ở Vương Giả Chi Chiến liên sv, người được trợ uy tiến vào vòng tiếp theo, thì người trợ uy sẽ nhận được 5000beri*lv, 300 danh vọng.
+</content>
+</root>

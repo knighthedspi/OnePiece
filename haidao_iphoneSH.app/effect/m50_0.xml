@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="1" actionName="m50_0">
+        <frameInfo frame="0">
+            <frameData bitmapName="m50_1" scaleX="-0.010208" scaleY="-0.005493" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+    </action>
+</animation>

@@ -1,0 +1,17 @@
+﻿<root>
+  <sci_tech id="10001" tname="Công" name="Công" desc="Lên 1 cấp tăng Công 5 điểm." iconid="1" type="1" openlevel="1" addatrid="6" addition="5" costid="10001"/>
+  <sci_tech id="10002" tname="Thủ" name="Thủ" desc="Lên 1 cấp tăng Thủ 3 điểm." iconid="2" type="1" openlevel="1" addatrid="9" addition="3" costid="10002"/>
+  <sci_tech id="10003" tname="Tất công" name="Tất công" desc="Lên 1 cấp tăng tất công 5 điểm." iconid="3" type="1" openlevel="20" addatrid="7" addition="5" costid="10003"/>
+  <sci_tech id="10004" tname="Tất thủ" name="Tất thủ" desc="Lên 1 cấp tăng tất thủ 3 điểm." iconid="4" type="1" openlevel="25" addatrid="10" addition="3" costid="10004"/>
+  <sci_tech id="10005" tname="Công phép" name="Công phép" desc="Lên 1 cấp tăng công phép 5 điểm." iconid="5" type="1" openlevel="30" addatrid="8" addition="5" costid="10005"/>
+  <sci_tech id="10006" tname="Thủ phép" name="Thủ phép" desc="Lên 1 cấp tăng thủ phép 3 điểm." iconid="6" type="1" openlevel="35" addatrid="11" addition="3" costid="10006"/>
+  <sci_tech id="10007" tname="HP" name="HP" desc="Lên 1 cấp tăng HP 15 điểm." iconid="7" type="1" openlevel="40" addatrid="1" addition="15" costid="10007"/>
+  <sci_tech id="10011" tname="Kỹ thuyền chính" name="Kỹ thuyền chính" desc="Nâng kỹ thuật thuyền học được nhiều kỹ năng hơn" iconid="8" type="2" openlevel="999" addatrid="" addition="" costid="10008"/>
+  <sci_tech id="10021" tname="Tỷ lệ công" name="Công" desc="Lên 1 cấp tăng công 0.5%." iconid="1" type="1" openlevel="999" addatrid="25" addition="50" costid="10009"/>
+  <sci_tech id="10022" tname="Tỷ lệ thủ" name="Thủ" desc="Lên 1 cấp tăng thủ 0.5%." iconid="2" type="1" openlevel="999" addatrid="26" addition="50" costid="10010"/>
+  <sci_tech id="10023" tname="Tỷ lệ tất công" name="Tất công" desc="Lên 1 cấp tăng tất công 0.5%." iconid="3" type="1" openlevel="999" addatrid="27" addition="50" costid="10011"/>
+  <sci_tech id="10024" tname="Tỷ lệ tất thủ" name="Tất thủ" desc="Lên 1 cấp tăng tất thủ 0.5%." iconid="4" type="1" openlevel="999" addatrid="28" addition="50" costid="10012"/>
+  <sci_tech id="10025" tname="Tỷ lệ công phép" name="Công phép" desc="Lên 1 cấp tăng công phép 0.5%." iconid="5" type="1" openlevel="999" addatrid="29" addition="50" costid="10013"/>
+  <sci_tech id="10026" tname="Tỷ lệ thủ phép" name="Thủ phép" desc="Lên 1 cấp tăng thủ phép 0.5%." iconid="6" type="1" openlevel="999" addatrid="30" addition="50" costid="10014"/>
+  <sci_tech id="10027" tname="Tỷ lệ HP" name="HP" desc="Lên 1 cấp tăng HP 0.5%." iconid="7" type="1" openlevel="999" addatrid="2" addition="50" costid="10015"/>
+</root>

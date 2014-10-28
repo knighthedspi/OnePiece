@@ -1,0 +1,308 @@
+<root>
+  <tips ID="1" content="Mở giao diện hoạt động trong giao diện chính sẽ thấy được các loại hoạt động."/>
+  <tips ID="2" content="Mỗi ngày đều có thể tham gia báo danh, 7 ngày là một lượt."/>
+  <tips ID="3" content="Đấu trường mỗi ngày có thể tham gia 20 lần để nhận uy danh và chiến tích."/>
+  <tips ID="4" content="Đấu trường mỗi 3 ngày phát thưởng một lần, hạng càng cao thưởng càng nhiều."/>
+  <tips ID="5" content="Mỗi lượt Đấu Trường có hạng may mắn, người chơi ở hạng đó sẽ được nhận thưởng."/>
+  <tips ID="6" content="Màu sắc khoáng khác nhau thì sản lượng cũng sẽ khác nhau."/>
+  <tips ID="7" content="Sau khi chiếm khoáng sẽ có nửa tiếng thời gian bảo hộ, sẽ không bị người chơi khác tấn công."/>
+  <tips ID="8" content="Chiếm mỏ khoáng sẽ tiêu hao hành động và sinh lực."/>
+  <tips ID="9" content="Khi mỏ khoáng bị chiếm, người chơi cũ cũng sẽ nhận tài nguyên dựa vào thời gian đã chiếm."/>
+  <tips ID="10" content="Khi người chơi vào chương mới thì các mỏ nguyên liệu sẽ tự động kết thúc."/>
+  <tips ID="11" content="Nếu dùng vàng để chế tạo trang bị sẽ có thể nhận thuộc tính thêm."/>
+  <tips ID="12" content="Xưởng chế trang bị ở cấp 50 và 70 sẽ mở thợ cấp 2 và 3, cấp thợ càng cao thì trang bị chế tạo được càng mạnh."/>
+  <tips ID="13" content="Xưởng chế trang bị Tom và Iceberg sẽ không có cấp."/>
+  <tips ID="14" content="Người chơi VIP có thể dùng vàng gọi thợ để chế tạo trang bị cao cấp."/>
+  <tips ID="15" content="Hoạt động tìm kho báu mở bản đồ mới ở cấp 45 và 65."/>
+  <tips ID="16" content="Hoạt động tìm kho báu mỗi ngày có 4 lần khiêu chiến người chơi khác để nhận Beri và uy danh."/>
+  <tips ID="17" content="Hoạt động tìm kho báu có thể dùng chiến tích để làm mới bản đồ."/>
+  <tips ID="18" content="Phần thưởng trong hoạt động tìm kho báu có thể xem được trong giao diện tầm bảo."/>
+  <tips ID="19" content="Cấp bản đồ trong hoạt động tìm kho báu càng cao thì phần thưởng càng phong phú."/>
+  <tips ID="20" content="Có thể nhấn nút ẩn trong hoạt động tìm kho báu để ẩn thuyền màu đỏ trở xuống."/>
+  <tips ID="21" content="Nhiệm vụ ngày sẽ thăng cấp khi người chơi đạt cấp 50 và 70."/>
+  <tips ID="22" content="Hoàn thành nhiệm vụ ngày sẽ nhận lượng lớn tích điểm nhiệm vụ."/>
+  <tips ID="23" content="Tích điểm trong nhiệm vụ ngày có thể đổi thưởng."/>
+  <tips ID="24" content="Tích điểm nhiệm vụ ngày sẽ làm mới lúc 4:00 mỗi ngày."/>
+  <tips ID="25" content="Nhiệm vụ ngày là cách để nhận chiến tích."/>
+  <tips ID="26" content="Người chơi mỗi ngày có thể tham gia 5 lần Hải tặc phản công."/>
+  <tips ID="27" content="Hải tặc phản công có quan hệ với nhiệm vụ chính, chỉ khi vượt phụ bản mới xuất hiện Hải tặc phản công."/>
+  <tips ID="28" content="Độ khó của Hải tặc phản công sẽ khó hơn phụ bản thường."/>
+  <tips ID="29" content="Trong Hải tặc phản công, khi vào phụ bản sẽ không thể điều chỉnh trang bị và trận hình nữa."/>
+  <tips ID="30" content="Trong Hải tặc phản công có thể nhận lượng lớn Beri, chiến tích và bảo thạch."/>
+  <tips ID="31" content="Khung thưởng của Hải tặc phản công hiển thị những người chơi vượt qua sớm nhất."/>
+  <tips ID="32" content="Người chơi mỗi ngày có thể tra tìm miễn phí để nhận bảo thạch."/>
+  <tips ID="33" content="Tìm bảo thạch có tỷ lệ mở ra bản đồ mới, cấp bản đồ càng cao thì cấp bảo thạch tìm được sẽ càng nhiều."/>
+  <tips ID="34" content="Tìm bảo thạch có tỷ lệ nhận kinh nghiệm bảo thạch, kinh nghiệm bảo thạch không thể trực tiếp khảm, nhưng sẽ tăng cấp bảo thạch."/>
+  <tips ID="35" content="Tìm bảo thạch không phải lần nào cũng nhận được bảo thạch, sẽ có tỷ lệ nhận mảnh bảo thạch để bán lấy tiền."/>
+  <tips ID="36" content="Chế tạo trang bị được chia theo bộ, bộ càng cao thì càng dễ chế tạo ra trang bị cao cấp."/>
+  <tips ID="37" content="Vật phẩm mà người chơi bán ra đều có thể mua lại trong thời gian nhất định."/>
+  <tips ID="38" content="Tửu quán là nơi chiêu mộ đồng đội, tất cả đồng đội trong nhiệm vụ, uy danh, hội đàm đều có thể chiêu mộ trong đó."/>
+  <tips ID="39" content="Người chơi mỗi ngày có số lượng hội đàm nhất định, có thể hội đàm được Beri, chiến tích, uy danh, vàng, đồng đội."/>
+  <tips ID="40" content="Người chơi có thể dùng vàng để làm mới khung hội đàm, nhưng không thể dùng vàng tăng số lần hội đàm."/>
+  <tips ID="41" content="Cần phải kích hoạt trong tửu quán mới có thể chiêu mộ."/>
+  <tips ID="42" content="Đồng đội đã chiêu mộ có thể từ bỏ trong tửu quán."/>
+  <tips ID="43" content="Khi chiêu mộ lại đồng đội đã từ bỏ, cấp và số lần trùng sinh được giữ nguyên."/>
+  <tips ID="44" content="Đồng đội đang huấn luyện sẽ không thể rời đội."/>
+  <tips ID="45" content="Đồng đội trong hội đàm sẽ không trực tiếp vào đội, cần phải kích hoạt từ tửu quán."/>
+  <tips ID="46" content="Người chơi có thể dùng vàng để tăng giới hạn đồng đội."/>
+  <tips ID="47" content="Nhấn vào nút thế giới sẽ có thể về được các bản đồ trước."/>
+  <tips ID="48" content="Người chơi mỗi ngày có thể thông qua rèn luyện để tăng kinh nghiệm, có thể dùng vàng để tăng giới hạn kinh nghiệm."/>
+  <tips ID="49" content="Nếu người chơi cảm thấy lag trong game, có thể xóa cookie và tải lại trang."/>
+  <tips ID="50" content="Cường hóa có tỷ lệ thành công, khi đến vip5 có thể mở khóa tỷ lệ 100%."/>
+  <tips ID="51" content="Mỗi lần cường hóa có 1 phút thời gian chờ, tối đa tích lũy đến 10 phút."/>
+  <tips ID="52" content="Cấp cường hóa không thể lớn hơn cấp nhân vật."/>
+  <tips ID="53" content="Trang bị đỏ được ghép từ 3 mảnh, trang bị tím được ghép từ 5 mảnh."/>
+  <tips ID="54" content="Beri, chiến tích, uy danh có thể nhận từ Phòng thủy thủ, phòng thuyển trưởng, phòng mậu dịch."/>
+  <tips ID="55" content="Khi khởi hành có tỷ lệ xuất hiện kỳ ngộ, kỳ ngộ khác nhau sẽ nhận thưởng khác nhau."/>
+  <tips ID="56" content="Nâng cấp kho chứa vàng, khi khởi hành sẽ có tỷ lệ nhận 10 vàng."/>
+  <tips ID="57" content="Sau khi nhận dược thú nuôi, cần phải dùng trong túi trước."/>
+  <tips ID="58" content="Nâng cấp phòng thú nuôi để tăng tốc độ huấn luyện"/>
+  <tips ID="59" content="Nâng cấp phòng huấn luyện để tăng tốc độ huấn luyện."/>
+  <tips ID="60" content="Nâng cấp phòng nghiên cứu để tăng giới hạn nghiên cứu."/>
+  <tips ID="61" content="Nhà bếp có thể chế biến thức ăn để đổi thành Beri."/>
+  <tips ID="62" content="Nâng cấp Nhà bếp sẽ tăng giá trị thức ăn khi bán."/>
+  <tips ID="63" content="Chế biến thức ăn trong nhà bếp có thể nhận kinh nghiệm nấu nướng để chế biến món ăn cao cấp."/>
+  <tips ID="64" content="Thú nuôi có thể học kỹ năng trong phòng thú nuôi, kỹ năng được chia thành 7 loại."/>
+  <tips ID="65" content="Giới hạn kỹ năng và kỹ năng bị động của mỗi thú nuôi khác nhau sẽ khác nhau."/>
+  <tips ID="66" content="Thú nuôi mỗi tăng 3 cấp sẽ có 1 điểm kỹ năng."/>
+  <tips ID="67" content="Thú nuôi lĩnh ngộ kỹ năng có tỷ lệ thất bại."/>
+  <tips ID="68" content="Mở kỹ năng mới của thú nuôi cần tiêu hao điểm kỹ năng thú nuôi."/>
+  <tips ID="69" content="Nếu không hài lòng với kỹ năng của thú nuôi có thể tái lập kỹ năng thú nuôi."/>
+  <tips ID="70" content="Tăng cấp Phòng Trị Liệu để tăng tăng giới hạn sinh lực và giảm sinh lực mất đi sau khi chiến đấu."/>
+  <tips ID="71" content="Nhấn vào avatar nhân vật để nhận lương mỗi ngày."/>
+  <tips ID="72" content="Nhấn vào avatar nhân vật có thể dùng Beri mua sinh mệnh."/>
+  <tips ID="73" content="Nhấn vào avatar nhân vật có thể dùng vàng để mua hành động."/>
+  <tips ID="74" content="Thanh menu phải phải có thể tùy chỉnh lên xuống."/>
+  <tips ID="75" content="Khiêu chiến phụ bản sẽ tiêu hao điểm hành động."/>
+  <tips ID="76" content="Khiêu chiến phụ bản thất bại sẽ không tiêu hao hành động, nhưng sẽ tiêu hao sinh lực."/>
+  <tips ID="77" content="Khi đánh thắng quái vật trong phụ bản có thể chọn bỏ qua chiến đấu."/>
+  <tips ID="78" content="Quái vật trong phụ bản cần phải đánh bại lần lượt."/>
+  <tips ID="79" content="Trong phụ bản, sau khi hoàn thành nhiệm vụ chính thì quái vật phía sau sẽ xuất hiện."/>
+  <tips ID="80" content="Trong phụ bản không thể chỉnh đồng đội và trang bị."/>
+  <tips ID="81" content="Khi đạt điều kiện nhận thưởng phụ bản sẽ có thể nhận rương tương ứng."/>
+  <tips ID="82" content="Mở giao diện nhiệm vụ sẽ có thể xem các nhiệm vụ đang tiến hành và có thể nhận."/>
+  <tips ID="83" content="Cấp nhân vật càng cao thì trận hình mới càng nhiều."/>
+  <tips ID="84" content="Có thể dùng chiến tích để thăng cấp trận hình."/>
+  <tips ID="85" content="Lượt hành động của tất cả trận hình đều là trên xuống dưới, phải qua trái."/>
+  <tips ID="86" content="Khung túi có thể di chuyển trái phải."/>
+  <tips ID="87" content="Mảnh cùng loại có thể cộng dồn trong túi."/>
+  <tips ID="88" content="Số lượng mảnh sau khi đạt đến mức nhất định sẽ có thể ghép thành trang bị."/>
+  <tips ID="89" content="Muốn trang bị hoặc tháo vật phẩm, chỉ việc nhấn đôi vào vật phẩm đó."/>
+  <tips ID="90" content="Cần điều chỉnh vị trì đồng đội trong vật, chỉ việc nhấn kéo avatar của đồng đội đó."/>
+  <tips ID="91" content="Nhân vật đạt đến cấp nhất định sẽ có thể chuyển chức để tăng thuộc tính."/>
+  <tips ID="92" content="Vào giao diện kỹ năng của nhân vật để đổi kỹ năng hiện tại của nhân vật."/>
+  <tips ID="93" content="Đồng đội từ cấp 50 trở đi, mỗi 5 cấp có thể chuyển sinh một lần để tăng thuộc tính."/>
+  <tips ID="94" content="Nhấn vào quái vật trong phụ bản có thể xem chiến báo của 3 người gần nhất."/>
+  <tips ID="95" content="Trong hòm thư có thể xem thông tin tranh đoạt khoáng, tầm bảo, hệ thống, ..."/>
+  <tips ID="96" content="Vào bảng xếp hạng có thể xem thông tin trang bị và đồng đội của người chơi."/>
+  <tips ID="97" content="Vào thông tin đồng đội có thể xem được thuộc tính, thiên phú và kỹ năng của đồng đội."/>
+  <tips ID="98" content="Nếu đồng đội có trái ác quỷ, người chơi có thể nhấn vào để xem chi tiết chức năng trái ác quỷ đó."/>
+  <tips ID="99" content="Trong giao diện khảm, người chơi có thể kéo bảo thạch vào trang bị để khảm. trang bị khác nhau thì màu bảo thạch cần sẽ khác nhau."/>
+  <tips ID="100" content="Người chơi có thể nâng cấp bảo thạch của mình, bảo thạch khác nhau thì kinh nghiệm cũng sẽ khác nhau."/>
+  <tips ID="101" content="Đánh thường có thể đánh nhiều mục tiêu nhưng sẽ bị tăng nộ khí."/>
+  <tips ID="102" content="Nếu gặp địch đánh diện rộng cần phải tìm và diệt trước."/>
+  <tips ID="103" content="4 người đánh bại Mr.3, có thể dùng thử trận ám diệt, mang theo Alvida và Arlong."/>
+  <tips ID="104" content="3 người đánh bại Wapol, có thể dùng thử trận địa liệt, mang theo Alvida và Usopp."/>
+  <tips ID="105" content="Khiêu chiến Smoker đạt cấp A, có thể dùng thử trận địa liệt, mang theo Alvida và Chopper."/>
+  <tips ID="106" content="Đánh bại Nico Robin không tốn HP hơn 50%, có thể dùng thử trận lôi minh, mang theo Alvida và Miss Monday."/>
+  <tips ID="107" content="Đánh bại Mr.1 không tốn HP hơn 50%, có thể dùng thử trận địa liệt, mang theo Alvida、Dalton và Chopper."/>
+  <tips ID="108" content="4 người đánh bại Bellamy, có thể dùng thử trận hỏa liệt, mang theo Alvida và Dalton."/>
+  <tips ID="109" content="4 người đánh bại Sarquiss, có thể dùng thử trận băng phá, mang theo Alvida và Dalton."/>
+  <tips ID="110" content="Đánh bại Wipha không tốn HP hơn 50%, có thể dùng thử trận ám diệt, mang theo Alvida、Dalton và Nami."/>
+  <tips ID="111" content="4 người đánh bại Thần quan Seurat, có thể dùng thử trận xe gió, mang theo Dalton、Mr2 và Nami."/>
+  <tips ID="112" content="Khiêu chiến Thần quan Satori đạt cấp S, có thể dùng thử trận địa liệt, mang theo Dalton và Mr2."/>
+  <tips ID="113" content="4 người đánh bại Thần quan Ohm, có thể dùng thử trận xe gió, mang theo Robin và Dalton."/>
+  <tips ID="114" content="Khiêu chiến Enel đạt cấp S, có thể dùng thử trận lôi minh, mang theo Dalton và Nami."/>
+  <tips ID="115" content="Đánh bại Jonathan không tốn HP hơn 50%, có thể dùng thử trận hỏa liệt, mang theo Robin và Dalton."/>
+  <tips ID="116" content="4 người đánh bại Fox, có thể dùng thử trận lôi minh, mang theo Robin và Enel hoặc Crocodile."/>
+  <tips ID="117" content="Khiêu chiến Franky đạt cấp SS, có thể dùng thử trận địa liệt, mang theo Robin và Enel hoặc Crocodile."/>
+  <tips ID="118" content="Mr.1 là tướng vượt ải rất tốt."/>
+  <tips ID="119" content="Mr.3 là tướng mạnh trong giai đoạn đầu."/>
+  <tips ID="120" content="Tinh tinh là tướng có pháp công diện rộng cao."/>
+  <tips ID="121" content="Myure phòng ngự tốt hơn Kaya và Vivi."/>
+  <tips ID="122" content="Bellamy có sát thương đơn mục tiêu rất cao."/>
+  <tips ID="123" content="Ohm có khả năng đánh đường thẳng và làm choáng."/>
+  <tips ID="124" content="Sarquiss có thể gây sát thương lớn hàng ngang."/>
+  <tips ID="125" content="Sayo là tướng pháp công giai đoạn đầu cực mạnh."/>
+  <tips ID="126" content="Alvida là tướng có pháp công diện rộng cao."/>
+  <tips ID="127" content="Arlong là tướng có sát thương đường thẳng cao."/>
+  <tips ID="128" content="Kuro có khả năng đánh kẻ địch phía sau."/>
+  <tips ID="129" content="Dalton vừa tấn công diện rộng cao và phòng thủ cao."/>
+  <tips ID="130" content="Mr.2 có sát thương đơn mục tiêu cực cao."/>
+  <tips ID="131" content="Kaya là tướng cô vũ rất quan trọng."/>
+  <tips ID="132" content="Vivi là tướng cô vũ rất quan trọng."/>
+  <tips ID="133" content="Nami là tướng mạnh sau này, sát thương phép đơn cao và giảm nộ."/>
+  <tips ID="134" content="Tashigi có khả năng đánh kẻ địch phía sau và kỹ năng gây choáng rất mạnh."/>
+  <tips ID="135" content="Chopper có khả năng trị liệu cao, rất cần thiết cho mọi mặt trận."/>
+  <tips ID="136" content="Nico Robin là tướng gây sát thương phép cao, gây choáng và giảm nộ diện rộng."/>
+  <tips ID="137" content="Zoro là tướng gây sát thương đường thẳng rất mạnh sau này, kèm hiệu quả 100% bạo kích"/>
+  <tips ID="138" content="Crocodile rất mạnh về sát thương diện rộng."/>
+  <tips ID="139" content="Luffy là tướng cực mạnh khi gây sát thương đơn lẻ."/>
+  <tips ID="140" content="Nếu vượt ải gặp khó khăn, có thể về phụ bản cũ tìm thêm trang bị."/>
+  <tips ID="141" content="Những gợi ý ở đây đều là của người chơi tâm huyết viết ra?"/>
+  <tips ID="142" content="Đánh thường có thể đánh nhiều mục tiêu nhưng sẽ bị tăng nộ khí."/>
+  <tips ID="143" content="Nếu gặp địch đánh diện rộng cần phải tìm và diệt trước."/>
+  <tips ID="144" content="4 người đánh bại Mr.3, có thể dùng thử trận ám diệt, mang theo Alvida và Arlong."/>
+  <tips ID="145" content="3 người đánh bại Wapol, có thể dùng thử trận địa liệt, mang theo Alvida và Usopp."/>
+  <tips ID="146" content="Khiêu chiến Smoker đạt cấp A, có thể dùng thử trận địa liệt, mang theo Alvida và Chopper."/>
+  <tips ID="147" content="đánh bại Nico Robin không tốn HP hơn 50%, có thể dùng thử trận lôi minh, mang theo Alvida và Miss Monday."/>
+  <tips ID="148" content="Đánh bại Mr.1 không tốn HP hơn 50%, có thể dùng thử trận địa liệt, mang theo Alvida、Dalton và Chopper."/>
+  <tips ID="149" content="4 người đánh bại Bellamy, có thể dùng thử trận hỏa liệt, mang theo Alvida và Dalton."/>
+  <tips ID="150" content="4 người đánh bại Sarquiss, có thể dùng thử trận băng phá, mang theo Alvida và Dalton."/>
+  <tips ID="151" content="Đánh bại Wipha không tốn HP hơn 50%, có thể dùng thử trận ám diệt, mang theo Alvida、Dalton và Nami."/>
+  <tips ID="152" content="4 người đánh bại Thần quan Seurat, có thể dùng thử trận xe gió, mang theo Dalton、Mr2 và Nami."/>
+  <tips ID="153" content="Khiêu chiến Thần quan Satori đạt cấp S, có thể dùng thử trận địa liệt, mang theo Dalton và Mr2."/>
+  <tips ID="154" content="4 người đánh bại Thần quan Ohm, có thể dùng thử trận xe gió, mang theo Robin và Dalton."/>
+  <tips ID="155" content="Khiêu chiến Enel đạt cấp S, có thể dùng thử trận lôi minh, mang theo Dalton và Nami."/>
+  <tips ID="156" content="Đánh bại Jonathan không tốn HP hơn 50%, có thể dùng thử trận hỏa liệt, mang theo Robin và Dalton."/>
+  <tips ID="157" content="4 người đánh bại Fox, có thể dùng thử trận lôi minh, mang theo Robin và Enel hoặc Crocodile."/>
+  <tips ID="158" content="Khiêu chiến Franky đạt cấp SS, có thể dùng thử trận địa liệt, mang theo Robin và Enel hoặc Crocodile."/>
+  <tips ID="159" content="Mr.1 là tướng vượt ải rất tốt."/>
+  <tips ID="160" content="Mr.3 là tướng mạnh trong giai đoạn đầu."/>
+  <tips ID="161" content="Tinh tinh là tướng có pháp công diện rộng cao."/>
+  <tips ID="162" content="Myure phòng ngự tốt hơn Kaya và Vivi."/>
+  <tips ID="163" content="Bellamy có sát thương đơn mục tiêu rất cao."/>
+  <tips ID="164" content="Ohm có khả năng đánh đường thẳng và làm choáng."/>
+  <tips ID="165" content="Sarquiss có thể gây sát thương lớn hàng ngang."/>
+  <tips ID="166" content="Sayo là tướng pháp công giai đoạn đầu cực mạnh."/>
+  <tips ID="167" content="Alvida là tướng có pháp công diện rộng cao."/>
+  <tips ID="168" content="Arlong là tướng có sát thương đường thẳng cao."/>
+  <tips ID="169" content="Kuro có khả năng đánh kẻ địch phía sau."/>
+  <tips ID="170" content="Dalton vừa tấn công diện rộng cao và phòng thủ cao."/>
+  <tips ID="171" content="Mr.2 có sát thương đơn mục tiêu cực cao."/>
+  <tips ID="172" content="Kaya là tướng cô vũ rất quan trọng."/>
+  <tips ID="173" content="Vivi là tướng cô vũ rất quan trọng."/>
+  <tips ID="174" content="Nami là tướng mạnh sau này, sát thương phép đơn cao và giảm nộ."/>
+  <tips ID="175" content="Tashigi có khả năng đánh kẻ địch phía sau và kỹ năng gây choáng rất mạnh."/>
+  <tips ID="176" content="Chopper có khả năng trị liệu cao, rất cần thiết cho mọi mặt trận."/>
+  <tips ID="177" content="Nico Robin là tướng gây sát thương phép cao, gây choáng và giảm nộ diện rộng."/>
+  <tips ID="178" content="Zoro là tướng gây sát thương đường thẳng rất mạnh sau này, kèm hiệu quả 100% bạo kích"/>
+  <tips ID="179" content="Crocodile rất mạnh về sát thương diện rộng."/>
+  <tips ID="180" content="Luffy là tướng cực mạnh khi gây sát thương đơn lẻ."/>
+  <tips ID="181" content="Nếu vượt ải gặp khó khăn, có thể về phụ bản cũ tìm thêm trang bị."/>
+  <tips ID="182" content="【OnePiece】Gomu Gomu no Mi: Luffy. Có khả năng kéo dài cơ thể như cao su."/>
+  <tips ID="183" content="【OnePiece】Bara Bara no Mi: Buggy. Có thể ghép cơ thể đã bị tách rời."/>
+  <tips ID="184" content="【OnePiece】Sube Sube no Mi: Alvida. Có khả năng trơn tuột, tiêu hủy tấn công địch."/>
+  <tips ID="185" content="【OnePiece】Moku Moku no Mi: Smoker. Biến thân mình thành khói."/>
+  <tips ID="186" content="【OnePiece】Hiso Hiso no Mi: Apis. Có khả năng trò chuyện cùng động vật."/>
+  <tips ID="187" content="【OnePiece】Quả vết chém: Erik. Có thể biến gió thành nhát chém."/>
+  <tips ID="188" content="【OnePiece】Bomu Bomu no Mi: Mr.5. Gây nổ trên bộ phận cơ thể bất kỳ."/>
+  <tips ID="189" content="【OnePiece】Kilo Kilo no Mi: Ms.Valentine. Có thể điều khiển cân nặng của bản thân."/>
+  <tips ID="190" content="【OnePiece】Doru Doru no Mi: Mr.3. Có thể biến thân mình thành sáp."/>
+  <tips ID="191" content="【OnePiece】Baku Baku no Mi: Wapol. Có thể ăn tất cả mọi thứ và biến chúng thành cơ thể."/>
+  <tips ID="192" content="【OnePiece】Ushi Ushi no Mi: Dalton. Có thể biến thành trâu."/>
+  <tips ID="193" content="【OnePiece】Hito Hito no Mi: Chopper. Có thể biến thân từ động vật thành người."/>
+  <tips ID="194" content="【OnePiece】Suna Suna no Mi: Crocodile. Một trong thất vũ hải, sở hữu năng lực bão cát."/>
+  <tips ID="195" content="【OnePiece】Hana Hana no Mi: Nico Robin. Có thể biến mọi thứ xung quanh mọc ra cơ thể mình."/>
+  <tips ID="196" content="【OnePiece】Mane Mane no Mi: Mr.2. Có thể biến thành người khác."/>
+  <tips ID="197" content="【OnePiece】Mera Mera no Mi: Ace. Anh của Luffy, có thể biến thành lửa."/>
+  <tips ID="198" content="【OnePiece】Tori Tori no Mi: Pell. Hệ động vật, có thể biến thành chim cắt."/>
+  <tips ID="199" content="【OnePiece】Supa Supa no Mi: Mr.1. Toàn thân biến thành dao."/>
+  <tips ID="200" content="【OnePiece】Toge Toge no Mi: Ms.DoubleFinger. Toàn thân biến thành gai nhọn."/>
+  <tips ID="201" content="【OnePiece】Mogu Mogu no Mi: Miss.MerryChristmas. Có thể biến thân thành chuột chũi."/>
+  <tips ID="202" content="【OnePiece】Inu Inu no Mi: Súng của Mr.4. Có thể biến thân thành động vật."/>
+  <tips ID="203" content="【OnePiece】Inu Inu no Mi: Chaka.Hệ động vật, có thể biến thân thành chó."/>
+  <tips ID="204" content="【OnePiece】Ori Ori no Mi: Hina. Có khả năng biến cơ thể thành lồng sắt giam cầm kẻ địch."/>
+  <tips ID="205" content="【OnePiece】Bane Bane no Mi: Bellamy. Có thể biến thân mình thành lò xo."/>
+  <tips ID="206" content="【OnePiece】Quả hình nhân: Flamingo. Có khả năng điều khiển cơ thể người khác."/>
+  <tips ID="207" content="【OnePiece】Uma Uma no Mi: Pierre. Được một con chim ăn và biến thành ngựa."/>
+  <tips ID="208" content="【OnePiece】Goro Goro no Mi: Enel. Sở hữu năng lực sấm sét."/>
+  <tips ID="209" content="【OnePiece】Noro Noro no Mi: Fox. Làm chậm đối thủ đi 30 giây."/>
+  <tips ID="210" content="【OnePiece】Hie Hie no Mi: Aokiji. Năng lực băng giá mạnh mẽ."/>
+  <tips ID="211" content="【OnePiece】Doa Doa no Mi : Blueno. Có thể biến mọi thứ kể cả không gian thành cửa."/>
+  <tips ID="212" content="【OnePiece】Neko Neko no Mi: Lucci. Có thể biến thân thành báo."/>
+  <tips ID="213" content="【OnePiece】Zou Zou no Mi: Tượng Kiếm. Có thể biến thân thành voi."/>
+  <tips ID="214" content="【OnePiece】Inu Inu no Mi: Jyabura. Có thể biến thân thành sói."/>
+  <tips ID="215" content="【OnePiece】Ushi Ushi no Mi: Kaku. Có thể biến thân thành hươu cao cổ, năng lực chỉ dưới Lucci."/>
+  <tips ID="216" content="【OnePiece】Awa Awa no Mi: Kalifa. Có thể biến thân thành xà phòng, lấy đi sức mạnh kẻ địch."/>
+  <tips ID="217" content="【OnePiece】Quả màu sắc: Miss.Goldenweeks. Có thể điều khiển tâm trạng người khác."/>
+  <tips ID="218" content="【OnePiece】Nikyu Nikyu no Mi: Kuma. Đánh bật tất cả, kể cả đau đớn trong người."/>
+  <tips ID="219" content="【OnePiece】Horu Horu no Mi: Ivankov. Có thể cải tạo cơ thể con người."/>
+  <tips ID="220" content="【OnePiece】Mero Mero no Mi: Boa Handcock. Hóa đá mọi kẻ địch có tình cảm với mình."/>
+  <tips ID="221" content="【OnePiece】Choki Choki no Mi: Inazuma. Có thể cắt đứt mọi thứ như giấy."/>
+  <tips ID="222" content="【OnePiece】Quả từ tính: Kid. Hút và đẩy những vật dụng bằng sắt."/>
+  <tips ID="223" content="【OnePiece】Horo Horo no Mi: Perona. Có khả năng dùng u linh cướp đi ý chí chiến đấu của người khác."/>
+  <tips ID="224" content="【OnePiece】Kage Kage no Mi: Gekoc Moria. Có khả năng cắt bóng của người khác để làm quân linh cho mình."/>
+  <tips ID="225" content="【OnePiece】Suke Suke no Mi: Absalom. Có khả năng tàng hình."/>
+  <tips ID="226" content="【OnePiece】Pika Pika no Mi: Kizaru. Có năng lực ánh sáng, di chuyển cực nhanh."/>
+  <tips ID="227" content="【OnePiece】Quả người rơm: Hawkins. Có thể biến thành rơm rạ và dùng hình nhân đỡ sát thương."/>
+  <tips ID="228" content="【OnePiece】Quả khủng long: X Drake. Hệ động vật cô đại, có thể biến thân thành khủng long."/>
+  <tips ID="229" content="【OnePiece】Quả bánh xe: Sharinguru. Có thể biến bộ phận cơ thể thành bánh xe."/>
+  <tips ID="230" content="【OnePiece】Beri Beri no Mi: Very Good. Có thể biến thân mình thành vô số hạt đậu."/>
+  <tips ID="231" content="【OnePiece】Quả bùn nhão: Jaspade. Có thể biến dạng cơ thể mình, nuốt lấy kẻ địch."/>
+  <tips ID="232" content="【OnePiece】Quả phượng hoàng: Marco. Đội trưởng đội 1 của Râu Trắng, có thể biến thân thành chim phượng hoàng bất tử."/>
+  <tips ID="233" content="【OnePiece】Quả kim cương: Jozu. Đội trưởng đội 3 của Râu Trắng, biến thân thành kim cương."/>
+  <tips ID="234" content="【OnePiece】Gura Gura no Mi: Râu Trắng. Quả mạnh nhất trong hệ siêu nhiên, có thể gây động đất."/>
+  <tips ID="235" content="【OnePiece】Magu Magu no Mi: Akainu. Có thể biến thân thành nham thạch, khắc tinh của lửa."/>
+  <tips ID="236" content="【OnePiece】Yami Yami no Mi: Râu Đen. Năng lực nuốt chửng mọi thứ."/>
+  <tips ID="237" content="【OnePiece】Goe Goe no Mi: El Drago, biến tiếng hét của mình thành sát thương."/>
+  <tips ID="238" content="【OnePiece】Atsu Atsu no Mi: Don Accino. Có khả năng điều chỉnh nhiệt độ xung quanh."/>
+  <tips ID="239" content="【OnePiece】Hebi Hebi no Mi: Boa Marigold. Có thể biến thân thành rắn hổ mang."/>
+  <tips ID="240" content="【OnePiece】Hebi Hebi no Mi: Boa Sandersonia. Có thể biến thân thành mãng xà."/>
+  <tips ID="241" content="【OnePiece】Fuwa Fuwa no Mi: Shiki. Vật bị chạm vào đều bị bay lơ lửng????"/>
+  <tips ID="242" content="【OnePiece】Ushi Ushi no Mi: Ngục thú, là năng lực thức tỉnh động vật."/>
+  <tips ID="243" content="【OnePiece】Uma Uma no Mi: Ngục thú, là năng lực thức tỉnh động vật."/>
+  <tips ID="244" content="【OnePiece】Kuma Kuma no Mi: Ngục thú, là năng lực thức tỉnh động vật."/>
+  <tips ID="245" content="【OnePiece】Ushi Ushi no Mi: Ngục thú, là năng lực thức tỉnh động vật."/>
+  <tips ID="246" content="【OnePiece】Hito Hito no Mi: Sengoku. Biến thân thành Phật."/>
+  <tips ID="247" content="【OnePiece】Sabi Sabi no Mi: Shu. Có khả năng làm gỉ sét kim loại."/>
+  <tips ID="248" content="【OnePiece】Yomi Yomi no Mi: Brook. Khiến người dùng được hồi sinh một lần."/>
+  <tips ID="249" content="【OnePiece】Doku Doku no Mi: Magellan. Có thể biến thân mình thành độc dược."/>
+  <tips ID="250" content="【OnePiece】Woshu Woshu no Mi: Tsuru. Giặt và phơi người khác, làm cái xấu trong họ vơi dần đi."/>
+  <tips ID="251" content="【OnePiece】Ami Ami no Mi: Largo.Nuốt mọi thứ và biến chúng thành lưới."/>
+  <tips ID="252" content="【OnePiece】Mato Mato no Mi: Decken. Món đồ quăng ra từ tay hắn sẽ bay đến mục tiêu mà hắn từng chạm phải."/>
+  <tips ID="253" content="【OnePiece】Thực ra Ace chính là con trai của vua hải tặc Roger ..."/>
+  <tips ID="254" content="【OnePiece】Thanh viên của CP9 gồm Lucci, Kaku, Kalifa, Blueno, Jyabura, Kumadori, Fukuro."/>
+  <tips ID="255" content="【OnePiece】Tuyệt chiêu CP9:  Thiết khối, chỉ súng, nguyệt bộ, lam cước."/>
+  <tips ID="256" content="【OnePiece】“Ta muốn trở thành vua hải tặc!”: Luffy"/>
+  <tips ID="257" content="【OnePiece】“Nếu như ta chết như vậy thì có nghĩa trình độ của ta cũng chỉ có vậy!”: Zoro."/>
+  <tips ID="258" content="【OnePiece】“Bị thương ở phía sau là nỗi nhục của kiếm sĩ!”: Zoro."/>
+  <tips ID="259" content="【OnePiece】“Cô có thể cho ta xem quần trong không?”: Brook."/>
+  <tips ID="260" content="【OnePiece】“Ta là SUPER!!!” Franky."/>
+  <tips ID="261" content="【OnePiece】Người cá Arlong từng là thuộc hạ của thất vũ hải Jinbei."/>
+  <tips ID="262" content="【OnePiece】Râu Đen sau khi bắt sống được Ace giao cho hải quân đã được bổ nhiệm làm thất vũ hải mới."/>
+  <tips ID="263" content="【OnePiece】Râu Đen là người duy nhất gây ra vết thương cho Shanks."/>
+  <tips ID="264" content="【OnePiece】Thất vũ hải Kuma có giá treo thưởng là 296 triệu beri, và cũng từng là quân cách mạng."/>
+  <tips ID="265" content="【OnePiece】Thất vũ hải Law từng có giá treo thưởng là 200 triệu beri và là một trong 11 siêu tân tinh."/>
+  <tips ID="266" content="【OnePiece】Shanks là hải tặc mà Luffy ngưỡng mộ nhất."/>
+  <tips ID="267" content="【OnePiece】Râu trắng là người mạnh nhất thế giới, là người gần vua hải tặc nhất."/>
+  <tips ID="268" content="【OnePiece】Tứ hoàng là bốn thuyền trưởng mạnh nhất thế giới, gồm Râu Trắng, Shank, Big Mom, Kaido."/>
+  <tips ID="269" content="【OnePiece】“Là nam nhi thì phải biết giữ lời hứa của mình!”: Brook."/>
+  <tips ID="270" content="【OnePiece】Hai người khổng lồ ở vườn hoa nhỏ tên là Dorry và Brogy!"/>
+  <tips ID="271" content="【OnePiece】Trái ác quỷ được chia thành: Hệ tự nhiên, động vật và siêu nhân."/>
+  <tips ID="272" content="【OnePiece】Haki được chia thành Haki vũ trang, quan sát và bá vương."/>
+  <tips ID="273" content="【OnePiece】Luffy có một thành viên không chính thức là công chúa Vivi."/>
+  <tips ID="274" content="【OnePiece】Ông của Luffy là hải quân Garp, cha của Luffy là quân cách mạng Dragon, anh trai là Ace."/>
+  <tips ID="275" content="【OnePiece】Thành viên gia đình Luffy luôn có chữ D trong tên, những những người có tên D chưa hẳn là thành viên gia tộc Luffy."/>
+  <tips ID="276" content="【OnePiece】Thành viên gia tộc Luffy gồm Monkey D Luffy, Monkey D Dragon, Monkey D Garp, Portgas D Ace."/>
+  <tips ID="277" content="【OnePiece】Moria và Crocodile đều muốn trở thành vua hải tặc."/>
+  <tips ID="278" content="【OnePiece】Hải quân công bố con đường vào đại hải trình chỉ có Núi Reverse, nhưng thực tế có đến 3 đường vào."/>
+  <tips ID="279" content="【OnePiece】Crocodile khi bị Luffy đanh bại đã bị nhốt trong tù vì có ý định đảo chính, còn Moria khi bị Luffy đánh bại thì vẫn còn làm thất vũ hải."/>
+  <tips ID="280" content="【OnePiece】Ngoài Usopp và Robin thì 6 người còn lại đều được Luffy chủ động mời vào nhóm, và cũng từng từ chối Luffy."/>
+  <tips ID="281" content="【OnePiece】Tên chiêu thức của Zoro rất nhiều, phần lớn được đặt từ món ăn của Nhật."/>
+  <tips ID="282" content="【OnePiece】Tên của nguyên soái và các đô đốc đều không phải tên thật, vì sau khi lên chức này sẽ phải đổi tên."/>
+  <tips ID="283" content="【OnePiece】“Chết không phải là cách đền ơn!!! Người ta cứu anh không phải vì lý do đó!!!”: Monkey D Luffy"/>
+  <tips ID="284" content="【OnePiece】“Ta phải trở thành kiếm khách mạnh mẽ nhất!!!”: Zoro"/>
+  <tips ID="285" content="【OnePiece】“Dù bị thương, nhưng ta cũng sẽ không gục xuống!!! Cho dù người thường có chết thì ta cũng sẽ không chết ...”: Zoro"/>
+  <tips ID="286" content="【OnePiece】“Nếu là người thường sẽ không thắng nổi Mihawk, vì vậy ta không thể là người thường!!”: Zoro"/>
+  <tips ID="287" content="【OnePiece】“Vì dù như thế nào ta cũng là chiến sĩ dũng cảm trên biển!!!”: Usopp"/>
+  <tips ID="288" content="【OnePiece】“Nghe đây Chopper, nam nhi cho dù mạng sống bị đe dọa cũng không được ngã xuống! Là con trai sẽ không được trốn tránh!!“: Usopp"/>
+  <tips ID="289" content="【OnePiece】Mọi người:  ”Sao? Chopper là bác sĩ?“ Nami:  ”Không phải là nguyên nhân mọi người tìm Chopper gia nhập sao?“ Luffy:  ”Bởi cậu ta chỉ là tuần lộc biết biến hình!“ Sanji:  ”Một món ăn kịp thời!“"/>
+  <tips ID="290" content="【OnePiece】“Nếu một người bỏ sinh mạng của đồng đội mình qua một bên thì sẽ không thể ăn nổi cơm của ngày mai!”: MR.2"/>
+  <tips ID="291" content="【OnePiece】“Con người có thể mất đi nam tính, có thể mất đi nữ tính, nhưng không thể mất đi nhân tính!”: MR.2"/>
+  <tips ID="292" content="【OnePiece】“Chúng ta phải phấn đấu, vì một tương lai của nhân yêu!!!”: MR.2"/>
+  <tips ID="293" content="【OnePiece】“Trên thế giới có nam và nữ, nhân yêu là bất nam bất nữ nên sẽ mạnh nhất!”: MR.2"/>
+  <tips ID="294" content="【OnePiece】Zoro luôn mang theo ba thanh kiếm trên người, sau này tất cả đều là danh kiếm!"/>
+  <tips ID="295" content="【OnePiece】Tuy mũi của Chopper rất thính nhưng không thể phân biệt được đồng đội."/>
+  <tips ID="296" content="【OnePiece】Hải quân có đại tướng, trung tướng, thiếu tướng và chuẩn tướng, thượng tá, trung tá và thiếu tá."/>
+  <tips ID="297" content="【OnePiece】Hải quân có 1 nguyên soái, 3 đại tướng và các trung tướng. Ông nội của Luffy là một trong các trung tướng."/>
+  <tips ID="298" content="【OnePiece】Nguyên soái hải quân hiện là Sengoku, từng là đại tướng, đại tướng Aokiji từng là trung tướng."/>
+  <tips ID="299" content="【OnePiece】Hải quân, thất vũ hải và tứ hoàng là ba thế lực lớn trong đại hải trình."/>
+  <tips ID="300" content="【OnePiece】Đồng đội của Luffy chưa từng có quá khứ hải tặc là Zoro và Chopper."/>
+  <tips ID="301" content="【OnePiece】Lực đá của Sanji khi chưa vào đại hải trình có thể đá gãy 21 cây gậy gỗ."/>
+  <tips ID="302" content="【OnePiece】Hình xăm trên tay Nami tượng trưng cho mẹ của Nami, trước đó là hình xăm của băng hải tặc Arlong."/>
+  <tips ID="303" content="【OnePiece】Râu Trắng có đến 1600 thành viên, chia thành 16 đội."/>
+  <tips ID="304" content="【OnePiece】Ngũ lão tính quản lý CP1-9, thất vũ hải, hải quân, đảo tư pháp và một phần chính phủ. CP9 quản lý đảo tư pháp và một phần hải quân."/>
+  <tips ID="305" content="【OnePiece】Brook 89 tuổi, Shanks 37 tuổi, Franky 34 tuổi, Robin 28 tuổi, Zoro 19 tuổi, Sanji 19 tuổi, Nami 18 tuổi, Luffy 17 tuổi, Usopp 17 tuổi, Chopper 15 tuổi."/>
+  <tips ID="306" content="【OnePiece】Roger đến từ biển đông; Sanji, Bellamy từ biển bắc; Shanks, Robin, Brook, Laboon, Moria, Mr.1 đến từ biển tây; Franky đến từ biển nam."/>
+</root>

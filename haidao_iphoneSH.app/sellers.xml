@@ -1,0 +1,11 @@
+﻿<root>
+  <sellers id="1" name="Đốt chiến hạm" freshTime="7200" goods=""/>
+  <sellers id="2" name="Thôn cối xay" freshTime="7200" goods="112,113,175,176,1001,1002,1003,1004"/>
+  <sellers id="3" name="Thôn Syrup" freshTime="7200" goods="113,134,155,176,197,218,239,1001,1002,1003,1004"/>
+  <sellers id="4" name="Logue" freshTime="7200" goods="113,134,155,176,197,218,239,1001,1002,1003,1004"/>
+  <sellers id="5" name="Đảo Drum" freshTime="7200" goods="113,134,155,176,197,218,239,1001,1002,1003,1004"/>
+  <sellers id="6" name="Rainbase" freshTime="7200" goods="113,134,155,176,197,218,239,1001,1002,1003,1004"/>
+  <sellers id="7" name="Skypiea" freshTime="7200" goods="113,134,155,176,197,218,239,1001,1002,1003,1004"/>
+  <sellers id="8" name="Đảo Tư Pháp" freshTime="7200" goods="114,135,156,177,198,219,240,1001,1002,1003,1004"/>
+  <sellers id="9" name="Tiệm thay thế 1" freshTime="7200" goods="114,135,156,177,198,219,240,1001,1002,1003,1004"/>
+</root>

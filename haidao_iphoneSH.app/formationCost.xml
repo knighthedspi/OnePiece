@@ -1,0 +1,6 @@
+<formations>
+  <!--
+		<upgradeFormation id="ID phí nâng cấp" name="Tên phí thăng cấp"  lv=“Cấp, tiền game, chiến lực, đồ ăn, xu, thời gian” />
+	--> 
+  <upgradeFormation id="10001" name="Nâng cấp Phong Thi Trận" lv_2="2,0,200,0,0,200" lv_3="3,0,300,0,0,300" lv_4="4,0,400,0,0,400" lv_5="5,0,500,0,0,500" lv_6="6,0,600,0,0,600"/>
+</formations>

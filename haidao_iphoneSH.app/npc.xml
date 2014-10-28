@@ -1,0 +1,77 @@
+﻿<root>
+  <npc id="8" npcTemplate="Đốt chiến hạm_N.vụ_Thuyền trưởng" npcName="Thuyền trưởng Jack" headid="64" typeid="18" talkid="34" mapid="1" tx="17" ty="14" abilityid=""/>
+  <npc id="9" npcTemplate="Đốt chiến hạm_Tửu quán_Trợ thủ" npcName="Trợ thủ Angelina Lika" headid="51" typeid="12" talkid="35" mapid="1" tx="25" ty="14" abilityid=""/>
+  <npc id="12" npcTemplate="Đốt chiến hạm_Tửu quán_Mi Rui" npcName="Mi Rui" headid="73" typeid="37" talkid="580" mapid="1" tx="46" ty="14" abilityid="1"/>
+  <npc id="13" npcTemplate="Đốt chiến hạm_Ice" npcName="Ace" headid="35" typeid="49" talkid="2272" mapid="1" tx="40" ty="14" abilityid=""/>
+  <npc id="14" npcTemplate="Đốt chiến hạm_Râu trắng" npcName="Râu trắng" headid="65" typeid="50" talkid="2273" mapid="1" tx="33" ty="14" abilityid=""/>
+  <npc id="9001" npcTemplate="CLB bang_Bang_Bang chủ" npcName="" headid="9001" typeid="" talkid="68" mapid="20" tx="23" ty="13" abilityid="4"/>
+  <npc id="9002" npcTemplate="CLB bang_Shop_Thuyền trưởng" npcName="Thuyền trưởng" headid="66" typeid="20" talkid="435" mapid="20" tx="6" ty="14" abilityid=""/>
+  <npc id="9003" npcTemplate="CLB bang_N.vụ_Thủy thủ bị thương" npcName="Thủy thủ bị thương" headid="74" typeid="19" talkid="436" mapid="20" tx="33" ty="13" abilityid=""/>
+  <npc id="9004" npcTemplate="CLB bang_Tửu quán_Trợ thủ" npcName="Angelica" headid="51" typeid="12" talkid="1559" mapid="20" tx="14" ty="13" abilityid=""/>
+  <npc id="102" npcTemplate="Thôn cối xay gió_N.vụ_Trợ thủ" npcName="Trợ thủ Angelina Lika" headid="51" typeid="12" talkid="1559" mapid="2" tx="18" ty="14" abilityid=""/>
+  <npc id="103" npcTemplate="Thôn cối xay gió_Shop_Maya" npcName="Maya" headid="39" typeid="11" talkid="77" mapid="2" tx="28" ty="13" abilityid="2"/>
+  <npc id="104" npcTemplate="Thôn cối xay gió_Khác_Makino" npcName="Makino" headid="58" typeid="16" talkid="1056" mapid="2" tx="10" ty="13" abilityid=""/>
+  <npc id="105" npcTemplate="Thôn cối xay gió_N.vụ_Rika" npcName="Rika" headid="37" typeid="21" talkid="79" mapid="2" tx="51" ty="13" abilityid=""/>
+  <npc id="107" npcTemplate="Thôn cối xay gió_Tửu quán_Mi Rui" npcName="Mi Rui" headid="73" typeid="37" talkid="577" mapid="2" tx="39" ty="13" abilityid="1"/>
+  <npc id="106" npcTemplate="Thôn Syrup_N.vụ_Boodle" npcName="Boodle" headid="36" typeid="22" talkid="80" mapid="3" tx="36" ty="14" abilityid=""/>
+  <npc id="204" npcTemplate="Thôn Syrup_Tửu quán_Trợ thủ" npcName="Trợ thủ Angelina Lika" headid="51" typeid="12" talkid="1559" mapid="3" tx="42" ty="14" abilityid=""/>
+  <npc id="205" npcTemplate="Thôn Syrup_Bang_Yosaku" npcName="Yosaku" headid="48" typeid="13" talkid="81" mapid="3" tx="16" ty="14" abilityid="4"/>
+  <npc id="208" npcTemplate="Thôn Syrup_N.vụ_Merry" npcName="Merry" headid="46" typeid="15" talkid="84" mapid="3" tx="10" ty="14" abilityid="5"/>
+  <npc id="209" npcTemplate="Thôn Syrup_N.vụ_Zeff" npcName="Zeff" headid="50" typeid="23" talkid="85" mapid="3" tx="23" ty="14" abilityid="2"/>
+  <npc id="210" npcTemplate="Thôn Syrup_N.vụ_Birdie" npcName="Birdie" headid="67" typeid="24" talkid="86" mapid="3" tx="48" ty="15" abilityid=""/>
+  <npc id="211" npcTemplate="Thôn Syrup_N.vụ_Nojiko" npcName="Nojiko" headid="45" typeid="25" talkid="87" mapid="3" tx="54" ty="15" abilityid=""/>
+  <npc id="212" npcTemplate="Thôn Syrup_N.vụ_Gen" npcName="Gen" headid="41" typeid="26" talkid="88" mapid="3" tx="60" ty="14" abilityid=""/>
+  <npc id="213" npcTemplate="Thôn Syrup_Tửu quán_Mi Rui" npcName="Mi Rui" headid="73" typeid="37" talkid="577" mapid="3" tx="31" ty="14" abilityid="1"/>
+  <npc id="301" npcTemplate="Logue_Tìm hiểu_Benson" npcName="Benson" headid="60" typeid="10" talkid="76" mapid="4" tx="36" ty="14" abilityid="5"/>
+  <npc id="302" npcTemplate="Logue_Shop_Maya" npcName="Maya" headid="39" typeid="11" talkid="417" mapid="4" tx="29" ty="14" abilityid="2"/>
+  <npc id="303" npcTemplate="Logue_Kho_Makino" npcName="Makino" headid="58" typeid="16" talkid="78" mapid="4" tx="10" ty="15" abilityid="6"/>
+  <npc id="304" npcTemplate="Logue_Tửu quán_Trợ thủ" npcName="Trợ thủ Angelina Lika" headid="51" typeid="12" talkid="75" mapid="4" tx="44" ty="14" abilityid="8"/>
+  <npc id="305" npcTemplate="Logue_Bang_Yosaku" npcName="Yosaku" headid="48" typeid="13" talkid="81" mapid="4" tx="18" ty="14" abilityid="4"/>
+  <npc id="310" npcTemplate="Logue_N.vụ_Crocus" npcName="Crocus" headid="42" typeid="27" talkid="89" mapid="4" tx="51" ty="15" abilityid="3"/>
+  <npc id="311" npcTemplate="Logue_Tửu quán_Mi Rui" npcName="Mi Rui" headid="73" typeid="37" talkid="577" mapid="4" tx="59" ty="15" abilityid="1"/>
+  <npc id="402" npcTemplate="Đảo Drum_Shop_Maya" npcName="Maya" headid="39" typeid="11" talkid="418" mapid="5" tx="26" ty="14" abilityid="2"/>
+  <npc id="404" npcTemplate="Đảo Drum_Tửu quán_Trợ thủ" npcName="Trợ thủ Angelina Lika" headid="51" typeid="12" talkid="75" mapid="5" tx="45" ty="14" abilityid="8"/>
+  <npc id="405" npcTemplate="Đảo Drum_Bang_Yosaku" npcName="Yosaku" headid="48" typeid="13" talkid="81" mapid="5" tx="18" ty="14" abilityid="4"/>
+  <npc id="408" npcTemplate="Đảo Drum_N.vụ_Dalton" npcName="Dalton" headid="16" typeid="28" talkid="90" mapid="5" tx="53" ty="14" abilityid="3"/>
+  <npc id="409" npcTemplate="Đảo Drum_N.vụ_Dr.Kureha" npcName="Dr.Kureha" headid="38" typeid="29" talkid="91" mapid="5" tx="10" ty="14" abilityid="5"/>
+  <npc id="410" npcTemplate="Đảo Drum_Tìm hiểu_Benson" npcName="Benson" headid="60" typeid="10" talkid="421" mapid="5" tx="34" ty="15" abilityid="6"/>
+  <npc id="411" npcTemplate="Đảo Drum_Tửu quán_Mi Rui" npcName="Mi Rui" headid="73" typeid="37" talkid="577" mapid="5" tx="60" ty="14" abilityid="1"/>
+  <npc id="503" npcTemplate="Vũ địa_N.vụ_Pull yarn" npcName="Pull yarn" headid="43" typeid="30" talkid="92" mapid="6" tx="50" ty="15" abilityid="5"/>
+  <npc id="501" npcTemplate="Vũ địa_Tìm hiểu_Benson" npcName="Benson" headid="60" typeid="10" talkid="422" mapid="6" tx="10" ty="16" abilityid="6"/>
+  <npc id="502" npcTemplate="Vũ địa_Shop_Maya" npcName="Maya" headid="39" typeid="11" talkid="419" mapid="6" tx="26" ty="16" abilityid="2"/>
+  <npc id="504" npcTemplate="Vũ địa_Tửu quán_Trợ thủ" npcName="Trợ thủ Angelina Lika" headid="51" typeid="12" talkid="75" mapid="6" tx="42" ty="15" abilityid="8"/>
+  <npc id="505" npcTemplate="Vũ địa_Bang_Yosaku" npcName="Yosaku" headid="48" typeid="13" talkid="81" mapid="6" tx="18" ty="16" abilityid="4"/>
+  <npc id="508" npcTemplate="Vũ địa_N.vụ_Nefertari Cobra" npcName="Nefertari Cobra" headid="63" typeid="31" talkid="93" mapid="6" tx="34" ty="16" abilityid=""/>
+  <npc id="509" npcTemplate="Vũ địa_N.vụ_Pell the Falcon" npcName="Pell the Falcon" headid="26" typeid="32" talkid="94" mapid="6" tx="56" ty="15" abilityid="3"/>
+  <npc id="510" npcTemplate="Vũ địa_N.vụ_Mombran Cricket" npcName="Mombran Cricket" headid="62" typeid="33" talkid="95" mapid="6" tx="64" ty="15" abilityid=""/>
+  <npc id="511" npcTemplate="Vũ địa_Tửu quán_Mi Rui" npcName="Mi Rui" headid="73" typeid="37" talkid="577" mapid="6" tx="70" ty="15" abilityid="1"/>
+  <npc id="602" npcTemplate="Skypiea_Shop_Maya" npcName="Maya" headid="39" typeid="11" talkid="420" mapid="7" tx="34" ty="14" abilityid="2"/>
+  <npc id="604" npcTemplate="Skypiea_Tửu quán_Trợ thủ" npcName="Trợ thủ Angelina Lika" headid="51" typeid="12" talkid="75" mapid="7" tx="42" ty="14" abilityid="8"/>
+  <npc id="605" npcTemplate="Skypiea_Bang_Yosaku" npcName="Yosaku" headid="48" typeid="13" talkid="81" mapid="7" tx="18" ty="14" abilityid="4"/>
+  <npc id="608" npcTemplate="Skypiea_N.vụ_Conis" npcName="Conis" headid="32" typeid="34" talkid="96" mapid="7" tx="50" ty="14" abilityid="6"/>
+  <npc id="609" npcTemplate="Skypiea_N.vụ_Gan For" npcName="Gan For" headid="33" typeid="35" talkid="97" mapid="7" tx="10" ty="15" abilityid="3"/>
+  <npc id="610" npcTemplate="Skypiea_N.vụ_Laki" npcName="Laki" headid="34" typeid="36" talkid="98" mapid="7" tx="64" ty="15" abilityid="5"/>
+  <npc id="611" npcTemplate="Skypiea_Tửu quán_Mi Rui" npcName="Mi Rui" headid="73" typeid="37" talkid="577" mapid="7" tx="26" ty="14" abilityid="1"/>
+  <npc id="701" npcTemplate="Thành phố nước_Tonjit" npcName="Tonjit" headid="76" typeid="40" talkid="904" mapid="8" tx="38" ty="14" abilityid="5"/>
+  <npc id="702" npcTemplate="Thành phố nước_Head Sichuan" npcName="Head Sichuan" headid="75" typeid="42" talkid="905" mapid="8" tx="14" ty="14" abilityid=""/>
+  <npc id="703" npcTemplate="Thành phố nước_Kokoro" npcName="Kokoro" headid="77" typeid="41" talkid="906" mapid="8" tx="22" ty="14" abilityid="2"/>
+  <npc id="704" npcTemplate="Thành phố nước_Pauly" npcName="Pauly" headid="78" typeid="38" talkid="907" mapid="8" tx="30" ty="14" abilityid="3"/>
+  <npc id="705" npcTemplate="Thành phố nước_Iceberg" npcName="Ace" headid="79" typeid="39" talkid="908" mapid="8" tx="6" ty="14" abilityid="6"/>
+  <npc id="706" npcTemplate="Thành phố nước_Angelica" npcName="Trợ thủ Angelina Lika" headid="51" typeid="12" talkid="1204" mapid="8" tx="46" ty="14" abilityid="8"/>
+  <npc id="707" npcTemplate="Thành phố nước_Mi Rui" npcName="Mi Rui" headid="73" typeid="37" talkid="577" mapid="8" tx="54" ty="14" abilityid="1"/>
+  <npc id="708" npcTemplate="Thành phố nước_Yosaku" npcName="Yosaku" headid="48" typeid="13" talkid="81" mapid="8" tx="62" ty="14" abilityid="4"/>
+  <npc id="801" npcTemplate="Thuyền kinh dị_Laura" npcName="Laura" headid="104" typeid="44" talkid="1432" mapid="9" tx="22" ty="15" abilityid="2"/>
+  <npc id="803" npcTemplate="Thuyền kinh dị_Benson" npcName="Benson" headid="60" typeid="10" talkid="76" mapid="9" tx="38" ty="15" abilityid="5"/>
+  <npc id="804" npcTemplate="Thuyền kinh dị_Brook" npcName="Brook" headid="99" typeid="43" talkid="1433" mapid="9" tx="30" ty="15" abilityid="3"/>
+  <npc id="805" npcTemplate="Thuyền kinh dị_Makino" npcName="Makino" headid="58" typeid="16" talkid="78" mapid="9" tx="12" ty="15" abilityid="6"/>
+  <npc id="806" npcTemplate="Thuyền kinh dị_Angelica" npcName="Angelica" headid="51" typeid="12" talkid="1204" mapid="9" tx="46" ty="15" abilityid="8"/>
+  <npc id="807" npcTemplate="Thuyền kinh dị_Mi Rui" npcName="Mi Rui" headid="73" typeid="37" talkid="577" mapid="9" tx="54" ty="15" abilityid="1"/>
+  <npc id="808" npcTemplate="Thuyền kinh dị_Yosaku" npcName="Yosaku" headid="48" typeid="13" talkid="81" mapid="9" tx="62" ty="16" abilityid="4"/>
+  <npc id="901" npcTemplate="Đảo Cửu Xà_Kokoya" npcName="Kokoya" headid="128" typeid="47" talkid="1916" mapid="10" tx="22" ty="14" abilityid="6"/>
+  <npc id="902" npcTemplate="Đảo Cửu Xà_Kikyou" npcName="Kikyou" headid="129" typeid="48" talkid="1917" mapid="10" tx="38" ty="14" abilityid="3"/>
+  <npc id="903" npcTemplate="Đảo Cửu Xà_Margarita" npcName="Margarita" headid="127" typeid="46" talkid="1918" mapid="10" tx="30" ty="14" abilityid="5"/>
+  <npc id="904" npcTemplate="Đảo Cửu Xà_Makino" npcName="Makino" headid="58" typeid="16" talkid="1919" mapid="10" tx="14" ty="14" abilityid="2"/>
+  <npc id="905" npcTemplate="Đảo Cửu Xà_Angelica" npcName="Angelica" headid="51" typeid="12" talkid="1204" mapid="10" tx="46" ty="14" abilityid="8"/>
+  <npc id="906" npcTemplate="Đảo Cửu Xà_Mi Rui" npcName="Mi Rui" headid="73" typeid="37" talkid="577" mapid="10" tx="54" ty="14" abilityid="1"/>
+  <npc id="907" npcTemplate="Đảo Cửu Xà_Yosaku" npcName="Yosaku" headid="48" typeid="13" talkid="81" mapid="10" tx="63" ty="14" abilityid="4"/>
+</root>

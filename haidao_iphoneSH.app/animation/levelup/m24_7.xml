@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="12" actionName="m24_7">
+        <frameInfo frame="0">
+            <frameData bitmapName="m24_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="m24_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="m24_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="m24_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="m24_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData alpha="0" bitmapName="m24_7" scaleX="-1.000000" scaleY="-0.627533" rotation="179.999985" position="2.300000,-112.050003" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData alpha="0.328125" bitmapName="m24_7" scaleX="-1.000000" scaleY="-0.775848" rotation="179.999985" position="2.300000,-155.600006" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData alpha="0.671875" bitmapName="m24_7" scaleX="-1.000000" scaleY="-0.924164" rotation="179.999985" position="2.300000,-199.199997" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="m24_7" scaleX="-1.000000" scaleY="-1.072479" rotation="179.999985" position="2.300000,-242.750000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData alpha="0.69921875" bitmapName="m24_7" scaleX="-1.000000" scaleY="-1.072479" rotation="179.999985" position="2.300000,-257.100006" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData alpha="0.390625" bitmapName="m24_7" scaleX="-1.000000" scaleY="-1.072479" rotation="179.999985" position="2.300000,-271.399994" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData alpha="0.08984375" bitmapName="m24_7" scaleX="-1.000000" scaleY="-1.072479" rotation="179.999985" position="2.300000,-285.750000" />
+        </frameInfo>
+    </action>
+</animation>

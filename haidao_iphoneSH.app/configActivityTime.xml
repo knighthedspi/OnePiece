@@ -1,0 +1,4 @@
+﻿<root>
+<!--	<xiaofeileiji openDate="2012-04-25-23-59-59  Cấu hình không hỗ trợ tốt, hạn chế mở sever （Ví dụ：2012-04-25-23-59-59 chính là nút trước khi mở sv sẽ hiển thị 59 giây 59 phút 23 giờ ngày 25 tháng 4 năm 2012）" startTime="2012-04-25-23-59-59 Thời gian bắt đầu s.kiện" endTime="2012-04-25-23-59-59 Thời gian kết thúc s.kiện"/>-->
+	<xiaofeileiji openDate="2012-08-6-00-00-00" startTime="2012-09-18-04-00-00" endTime="2012-09-25-04-00-00"/>
+</root>

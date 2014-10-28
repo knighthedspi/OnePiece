@@ -1,0 +1,4 @@
+﻿<root>
+  <exit id="1" tomapid="2" toexitid="2" tips="Đại Hải Trình" mapid="1" showForceId="620"/>
+  <exit id="2" tomapid="1" toexitid="1" tips="Biển Đông" mapid="2" showForceId="620"/>
+</root>

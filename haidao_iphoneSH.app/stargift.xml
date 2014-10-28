@@ -1,0 +1,8 @@
+﻿<root>
+  <stargift giftID="2" phyattFac="22000" phydefFac="7500" ultattFac="21500" ultdefFac="6500" magattFac="23000" magdefFac="9500" normalatt="0" norattneed="0"/>
+  <stargift giftID="3" phyattFac="22000" phydefFac="7500" ultattFac="23000" ultdefFac="9500" magattFac="21500" magdefFac="6500" normalatt="0" norattneed="0"/>
+  <stargift giftID="4" phyattFac="23000" phydefFac="6500" ultattFac="21500" ultdefFac="6000" magattFac="25000" magdefFac="7500" normalatt="0" norattneed="0"/>
+  <stargift giftID="5" phyattFac="23000" phydefFac="6500" ultattFac="25000" ultdefFac="7500" magattFac="21500" magdefFac="6000" normalatt="0" norattneed="0"/>
+  <stargift giftID="6" phyattFac="23500" phydefFac="8500" ultattFac="23500" ultdefFac="8500" magattFac="23500" magdefFac="8500" normalatt="0" norattneed="0"/>
+  <stargift giftID="7" phyattFac="25000" phydefFac="8000" ultattFac="26000" ultdefFac="8500" magattFac="23000" magdefFac="7000" normalatt="0" norattneed="0"/>
+</root>

@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="23" actionName="huoju_7">
+        <frameInfo frame="0" />
+        <frameInfo frame="1" />
+        <frameInfo frame="2" />
+        <frameInfo frame="3">
+            <frameData bitmapName="huoju_41" scaleX="-0.248237" scaleY="-0.249233" rotation="15.056189" position="16.049999,-16.299999" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="huoju_41" scaleX="0.316707" scaleY="0.316921" rotation="177.699890" position="16.049999,-16.299999" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="huoju_41" scaleX="0.384821" scaleY="0.383994" rotation="160.175476" position="16.000000,-16.299999" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="huoju_41" scaleX="0.452993" scaleY="0.450900" rotation="142.625214" position="16.049999,-16.350000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="huoju_41" scaleX="0.521401" scaleY="0.517390" rotation="125.066750" position="16.049999,-16.350000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="huoju_41" scaleX="0.590117" scaleY="0.581855" rotation="107.519470" position="16.000000,-16.299999" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="huoju_41" scaleX="0.659180" scaleY="inf" rotation="90.000000" position="16.049999,-16.299999" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData alpha="0.89453125" bitmapName="huoju_41" scaleX="0.585175" scaleY="0.576913" rotation="72.479752" position="16.049999,-16.299999" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData alpha="0.78515625" bitmapName="huoju_41" scaleX="0.511487" scaleY="0.507476" rotation="54.932648" position="16.100000,-16.250000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData alpha="0.6796875" bitmapName="huoju_41" scaleX="0.438124" scaleY="0.436012" rotation="37.373562" position="16.049999,-16.299999" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData alpha="0.57421875" bitmapName="huoju_41" scaleX="0.364988" scaleY="0.364145" rotation="19.826548" position="16.049999,-16.299999" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData alpha="0.46484375" bitmapName="huoju_41" scaleX="0.291892" scaleY="0.292029" rotation="2.300867" position="16.100000,-16.299999" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData alpha="0.359375" bitmapName="huoju_41" scaleX="-0.218467" scaleY="-0.219336" rotation="164.944595" position="16.049999,-16.299999" />
+        </frameInfo>
+        <frameInfo frame="16" />
+        <frameInfo frame="17" />
+        <frameInfo frame="18" />
+        <frameInfo frame="19" />
+        <frameInfo frame="20" />
+        <frameInfo frame="21" />
+        <frameInfo frame="22" />
+    </action>
+</animation>

@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="35" actionName="218_mrlx_1">
+        <frameInfo frame="0">
+            <frameData bitmapName="218_mrlx_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-21.000000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="218_mrlx_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-21.000000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="218_mrlx_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-28.000000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="218_mrlx_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-28.000000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="218_mrlx_13" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-32.549999" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="218_mrlx_13" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-32.549999" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="218_mrlx_14" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-28.500000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="218_mrlx_14" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-28.500000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="218_mrlx_15" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-26.500000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="218_mrlx_15" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-26.500000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="218_mrlx_16" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-12.500000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="218_mrlx_16" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-12.500000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="218_mrlx_17" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-3.150000" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData bitmapName="218_mrlx_17" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-3.150000" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData bitmapName="218_mrlx_18" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-7.150000" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData bitmapName="218_mrlx_18" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-7.150000" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData bitmapName="218_mrlx_19" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-4.150000" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData bitmapName="218_mrlx_19" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-4.150000" />
+        </frameInfo>
+        <frameInfo frame="18">
+            <frameData bitmapName="218_mrlx_110" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-5.150000" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData bitmapName="218_mrlx_110" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-5.150000" />
+        </frameInfo>
+        <frameInfo frame="20">
+            <frameData bitmapName="218_mrlx_111" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-7.500000" />
+        </frameInfo>
+        <frameInfo frame="21">
+            <frameData bitmapName="218_mrlx_111" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-7.500000" />
+        </frameInfo>
+        <frameInfo frame="22">
+            <frameData bitmapName="218_mrlx_112" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.000000,-17.000000" />
+        </frameInfo>
+        <frameInfo frame="23">
+            <frameData bitmapName="218_mrlx_112" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.000000,-17.000000" />
+        </frameInfo>
+        <frameInfo frame="24">
+            <frameData bitmapName="218_mrlx_113" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.000000,-9.550000" />
+        </frameInfo>
+        <frameInfo frame="25">
+            <frameData bitmapName="218_mrlx_113" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.000000,-9.550000" />
+        </frameInfo>
+        <frameInfo frame="26">
+            <frameData bitmapName="218_mrlx_114" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="5.000000,-9.500000" />
+        </frameInfo>
+        <frameInfo frame="27">
+            <frameData bitmapName="218_mrlx_114" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="5.000000,-9.500000" />
+        </frameInfo>
+        <frameInfo frame="28">
+            <frameData bitmapName="218_mrlx_115" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="7.500000,-5.550000" />
+        </frameInfo>
+        <frameInfo frame="29">
+            <frameData bitmapName="218_mrlx_115" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="7.500000,-5.550000" />
+        </frameInfo>
+        <frameInfo frame="30">
+            <frameData bitmapName="218_mrlx_116" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="4.000000,-3.650000" />
+        </frameInfo>
+        <frameInfo frame="31">
+            <frameData bitmapName="218_mrlx_116" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="4.000000,-3.650000" />
+        </frameInfo>
+        <frameInfo frame="32">
+            <frameData bitmapName="218_mrlx_117" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-4.150000" />
+        </frameInfo>
+        <frameInfo frame="33">
+            <frameData bitmapName="218_mrlx_117" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-4.150000" />
+        </frameInfo>
+        <frameInfo frame="34">
+            <frameData bitmapName="218_mrlx_118" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.500000,-10.650000" />
+        </frameInfo>
+    </action>
+</animation>

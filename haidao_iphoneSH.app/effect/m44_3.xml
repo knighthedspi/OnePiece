@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="33" actionName="m44_3">
+        <frameInfo frame="0">
+            <frameData bitmapName="m44_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="m44_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="m44_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData alpha="0" bitmapName="m44_3" scaleX="-0.610504" scaleY="-0.516953" rotation="179.999985" position="-5.800000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData alpha="0.19921875" bitmapName="m44_3" scaleX="0.707233" scaleY="0.583711" rotation="11.768138" position="-5.900000,7.550000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData alpha="0.19921875" bitmapName="m44_3" scaleX="0.707233" scaleY="0.583711" rotation="11.768138" position="-5.900000,7.550000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData alpha="0.3984375" bitmapName="m44_3" scaleX="0.803928" scaleY="0.650443" rotation="23.550301" position="-5.800000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData alpha="0.3984375" bitmapName="m44_3" scaleX="0.803928" scaleY="0.650443" rotation="23.550301" position="-5.800000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData alpha="0.6015625" bitmapName="m44_3" scaleX="0.900704" scaleY="0.717253" rotation="35.342697" position="-5.850000,7.550000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData alpha="0.80078125" bitmapName="m44_3" scaleX="0.997676" scaleY="0.784251" rotation="47.140728" position="-5.800000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData alpha="0.80078125" bitmapName="m44_3" scaleX="0.997676" scaleY="0.784251" rotation="47.140728" position="-5.800000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="m44_3" scaleX="1.094901" scaleY="0.851429" rotation="58.937374" position="-5.850000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="m44_3" scaleX="1.192021" scaleY="0.918525" rotation="61.436363" position="-5.800000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData bitmapName="m44_3" scaleX="1.192021" scaleY="0.918525" rotation="61.436363" position="-5.800000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData bitmapName="m44_3" scaleX="1.289187" scaleY="0.985661" rotation="63.935966" position="-5.800000,7.550000" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData bitmapName="m44_3" scaleX="1.386399" scaleY="1.052854" rotation="66.438080" position="-5.800000,7.550000" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData bitmapName="m44_3" scaleX="1.386399" scaleY="1.052854" rotation="66.438080" position="-5.800000,7.550000" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData bitmapName="m44_3" scaleX="1.483634" scaleY="1.120017" rotation="68.935371" position="-5.800000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="18">
+            <frameData bitmapName="m44_3" scaleX="1.483634" scaleY="1.120017" rotation="68.935371" position="-5.800000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData alpha="0.75" bitmapName="m44_3" scaleX="1.581110" scaleY="1.187373" rotation="74.190559" position="-5.750000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="20">
+            <frameData alpha="0.75" bitmapName="m44_3" scaleX="1.581110" scaleY="1.187373" rotation="74.190559" position="-5.750000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="21">
+            <frameData alpha="0.5" bitmapName="m44_3" scaleX="1.678680" scaleY="1.254742" rotation="79.443550" position="-5.800000,7.450000" />
+        </frameInfo>
+        <frameInfo frame="22">
+            <frameData alpha="0.5" bitmapName="m44_3" scaleX="1.678680" scaleY="1.254742" rotation="79.443550" position="-5.800000,7.450000" />
+        </frameInfo>
+        <frameInfo frame="23">
+            <frameData alpha="0.25" bitmapName="m44_3" scaleX="1.776313" scaleY="1.322207" rotation="84.696083" position="-5.800000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="24">
+            <frameData alpha="0" bitmapName="m44_3" scaleX="1.874024" scaleY="1.390405" rotation="89.942154" position="-5.800000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="25">
+            <frameData alpha="0" bitmapName="m44_3" scaleX="1.874024" scaleY="1.390405" rotation="89.942154" position="-5.800000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="26">
+            <frameData alpha="0" bitmapName="m44_3" scaleX="1.874024" scaleY="1.390405" rotation="89.942154" position="-5.800000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="27">
+            <frameData alpha="0" bitmapName="m44_3" scaleX="1.874024" scaleY="1.390405" rotation="89.942154" position="-5.800000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="28">
+            <frameData alpha="0" bitmapName="m44_3" scaleX="1.874024" scaleY="1.390405" rotation="89.942154" position="-5.800000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="29">
+            <frameData alpha="0" bitmapName="m44_3" scaleX="1.874024" scaleY="1.390405" rotation="89.942154" position="-5.800000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="30">
+            <frameData alpha="0" bitmapName="m44_3" scaleX="1.874024" scaleY="1.390405" rotation="89.942154" position="-5.800000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="31">
+            <frameData alpha="0" bitmapName="m44_3" scaleX="1.874024" scaleY="1.390405" rotation="89.942154" position="-5.800000,7.500000" />
+        </frameInfo>
+        <frameInfo frame="32">
+            <frameData alpha="0" bitmapName="m44_3" scaleX="1.874024" scaleY="1.390405" rotation="89.942154" position="-5.800000,7.500000" />
+        </frameInfo>
+    </action>
+</animation>

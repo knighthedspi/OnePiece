@@ -1,0 +1,435 @@
+﻿<root>
+  <roleModelConfig roleName="Râu trắng Edward Newgate" fileName="A001.swf" id="A001" feetPoint="0,0" heartPoint="16,-145" headPoint="1,-198" direction="1" attack="213,-83" rageSkill="96,-107"/>
+  <roleModelConfig roleName="Dracule Mihawk" fileName="A002.swf" id="A002" feetPoint="0,0" heartPoint="9,-94" headPoint="3,-147" direction="1" attack="122,-67" rageSkill="170,-82"/>
+  <roleModelConfig roleName="Portgas D. Ace" fileName="A003.swf" id="A003" feetPoint="0,0" heartPoint="7,-74" headPoint="7,-126" direction="1" attack="96,-26" rageSkill="90,-68"/>
+  <roleModelConfig roleName="Aokiji Kuzan" fileName="A004.swf" id="A004" feetPoint="0,0" heartPoint="14,-106" headPoint="4,-158" direction="1" attack="131,-94" rageSkill="36,-72"/>
+  <roleModelConfig roleName="Monkey.D.Luffy" fileName="A005.swf" id="A005" feetPoint="0,0" heartPoint="9,-68" headPoint="9,-119" direction="1" attack="101,-64" rageSkill="130,-57"/>
+  <roleModelConfig roleName="Nami" fileName="A006.swf" id="A006" feetPoint="0,0" heartPoint="7,-77" headPoint="2,-123" direction="1" attack="72,-48" rageSkill="51,-62"/>
+  <roleModelConfig roleName="Roronoa Zoro" fileName="A007.swf" id="A007" feetPoint="0,0" heartPoint="0,-78" headPoint="-2,-132" direction="1" attack="111,-64" rageSkill="55,-39"/>
+  <roleModelConfig roleName="Sanji" fileName="A008.swf" id="A008" feetPoint="0,0" heartPoint="2,-80" headPoint="-4,-131" direction="1" attack="82,-68" rageSkill="73,-78"/>
+  <roleModelConfig roleName="Usopp" fileName="A009.swf" id="A009" feetPoint="0,0" heartPoint="8,-72" headPoint="7,-124" direction="1" attack="52,-75" rageSkill="52,-75"/>
+  <roleModelConfig roleName="Nico Robin" fileName="A010.swf" id="A010" feetPoint="0,0" heartPoint="8,-82" headPoint="6,-134" direction="1" attack="30,-73" rageSkill="30,-110"/>
+  <roleModelConfig roleName="Tony Tony Chopper" fileName="A011.swf" id="A011" feetPoint="0,0" heartPoint="5,-30" headPoint="-8,-83" direction="1" attack="123,-88" rageSkill="33,-32"/>
+  <roleModelConfig roleName="Chú hề Buggy" fileName="A012.swf" id="A012" feetPoint="0,0" heartPoint="11,-78" headPoint="9,-130" direction="1" attack="145,-76" rageSkill="10,-105"/>
+  <roleModelConfig roleName="Thuyền trưởng Jack" fileName="A013.swf" id="A013" feetPoint="0,0" heartPoint="8,-78" headPoint="5,-127" direction="1" attack="115,-94" rageSkill="50,-138"/>
+  <roleModelConfig roleName="Kaya" fileName="A014.swf" id="A014" feetPoint="0,0" heartPoint="9,-72" headPoint="2,-118" direction="1" attack="14,-78" rageSkill="14,-78"/>
+  <roleModelConfig roleName="Bá chủ Krieg" fileName="A015.swf" id="A015" feetPoint="0,0" heartPoint="12,-93" headPoint="1,-144" direction="1" attack="180,-70" rageSkill="43,-85"/>
+  <roleModelConfig roleName="Arlong（Ác Long）" fileName="A016.swf" id="A016" feetPoint="0,0" heartPoint="14,-99" headPoint="15,-143" direction="1" attack="140,-89" rageSkill="143,-93"/>
+  <roleModelConfig roleName="Tashigi" fileName="A017.swf" id="A017" feetPoint="0,0" heartPoint="7,-76" headPoint="0,-122" direction="1" attack="186,-47" rageSkill="146,-71"/>
+  <roleModelConfig roleName="Smoker" fileName="A018.swf" id="A018" feetPoint="0,0" heartPoint="10,-88" headPoint="7,-137" direction="1" attack="90,-69" rageSkill="30,-92"/>
+  <roleModelConfig roleName="Trái trơn·Alvida" fileName="A019.swf" id="A019" feetPoint="0,0" heartPoint="9,-79" headPoint="3,-132" direction="1" attack="157,-66" rageSkill="130,-67"/>
+  <roleModelConfig roleName="Nefertali Vivi" fileName="A020.swf" id="A020" feetPoint="0,0" heartPoint="6,-71" headPoint="2,-115" direction="1" attack="5,-68" rageSkill="5,-68"/>
+  <roleModelConfig roleName="Mr.2 Bon Kurei" fileName="A021.swf" id="A021" feetPoint="0,0" heartPoint="-1,-84" headPoint="2,-135" direction="1" attack="87,-78" rageSkill="73,-101"/>
+  <roleModelConfig roleName="Wapol·Ăn trái" fileName="A022.swf" id="A022" feetPoint="0,0" heartPoint="36,-89" headPoint="5,-156" direction="1" attack="88,-120" rageSkill="75,-151"/>
+  <roleModelConfig roleName="Sir Crocodile" fileName="A023.swf" id="A023" feetPoint="0,0" heartPoint="12,-106" headPoint="2,-149" direction="1" attack="100,-89" rageSkill="33,-107"/>
+  <roleModelConfig roleName="Su" fileName="A024.swf" id="A024" feetPoint="0,0" heartPoint="10,-47" headPoint="4,-120" direction="1" attack="33,-69" rageSkill="52,-79"/>
+  <roleModelConfig roleName="Thần Enel" fileName="A025.swf" id="A025" feetPoint="0,0" heartPoint="11,-121" headPoint="6,-182" direction="1" attack="76,-184" rageSkill="15,-170"/>
+  <roleModelConfig roleName="Franky" fileName="A026.swf" id="A026" feetPoint="0,0" heartPoint="11,-76" headPoint="9,-133" direction="1" attack="42,-87" rageSkill="75,-90"/>
+  <roleModelConfig roleName="Foxy" fileName="A027.swf" id="A027" feetPoint="0,0" heartPoint="3,-80" headPoint="-5,-145" direction="1" attack="85,-88" rageSkill="86,-82"/>
+  <roleModelConfig roleName="Kalifa" fileName="A028.swf" id="A028" feetPoint="0,0" heartPoint="6,-85" headPoint="5,-132" direction="1" attack="278,-90" rageSkill="52,-70"/>
+  <roleModelConfig roleName="Kaku" fileName="A029.swf" id="A029" feetPoint="0,0" heartPoint="11,-98" headPoint="-1,-146" direction="1" attack="91,-105" rageSkill="87,-77"/>
+  <roleModelConfig roleName="Rob Lucci" fileName="A030.swf" id="A030" feetPoint="0,0" heartPoint="3,-101" headPoint="7,-157" direction="1" attack="68,-104" rageSkill="182,-117"/>
+  <roleModelConfig roleName="Paulie" fileName="A031.swf" id="A031" feetPoint="0,0" heartPoint="6,-86" headPoint="14,-134" direction="1" attack="75,-81" rageSkill="103,-69"/>
+  <roleModelConfig roleName="Jabra·Inu Inu no Mi" fileName="A032.swf" id="A032" feetPoint="0,0" heartPoint="5,-92" headPoint="-1,-149" direction="1" attack="103,-93" rageSkill="208,-124"/>
+  <roleModelConfig roleName="Blueno·Doa Doa no Mi" fileName="A033.swf" id="A033" feetPoint="0,0" heartPoint="3,-113" headPoint="-1,-166" direction="1" attack="65,-74" rageSkill="30,-84"/>
+  <roleModelConfig roleName="Lv2-Nico·Robin" fileName="A034.swf" id="A034" feetPoint="0,0" heartPoint="5,-88" headPoint="1,-138" direction="1" attack="17,-78" rageSkill="18,-84"/>
+  <roleModelConfig roleName="Lv2-Usopp" fileName="A035.swf" id="A035" feetPoint="0,0" heartPoint="8,-82" headPoint="7,-128" direction="1" attack="3,-117" rageSkill="3,-117"/>
+  <roleModelConfig roleName="Lv2-Luffy" fileName="A036.swf" id="A036" feetPoint="0,0" heartPoint="6,-82" headPoint="7,-130" direction="1" attack="73,-73" rageSkill="129,-63"/>
+  <roleModelConfig roleName="Lv2-Vivi" fileName="A037.swf" id="A037" feetPoint="0,0" heartPoint="5,-87" headPoint="1,-130" direction="1" attack="26,-78" rageSkill="26,-78"/>
+  <roleModelConfig roleName="Lv2-Nami" fileName="A038.swf" id="A038" feetPoint="0,0" heartPoint="4,-87" headPoint="-2,-131" direction="1" attack="43,-99" rageSkill="24,-85"/>
+  <roleModelConfig roleName="Lv2 Sanji" fileName="A039.swf" id="A039" feetPoint="0,0" heartPoint="6,-86" headPoint="1,-135" direction="1" attack="81,-100" rageSkill="69,-129"/>
+  <roleModelConfig roleName="Lv2 Zoro" fileName="A040.swf" id="A040" feetPoint="0,0" heartPoint="7,-90" headPoint="6,-131" direction="1" attack="86,-73" rageSkill="163,-69"/>
+  <roleModelConfig roleName="Don·Atchino" fileName="A041.swf" id="A041" feetPoint="0,0" heartPoint="0,-93" headPoint="0,-162" direction="1" attack="93,-31" rageSkill="212,-13"/>
+  <roleModelConfig roleName="Puzzle" fileName="A042.swf" id="A042" feetPoint="0,0" heartPoint="9,-82" headPoint="11,-132" direction="1" attack="109,-83" rageSkill="84,-119"/>
+  <roleModelConfig roleName="Perona" fileName="A043.swf" id="A043" feetPoint="0,0" heartPoint="-2,-84" headPoint="-5,-147" direction="1" attack="10,-38" rageSkill="70,-92"/>
+  <roleModelConfig roleName="Brook" fileName="A044.swf" id="A044" feetPoint="0,0" heartPoint="1,-95" headPoint="-1,-158" direction="1" attack="116,-79" rageSkill="99,-90"/>
+  <roleModelConfig roleName="Gekko Moria" fileName="A045.swf" id="A045" feetPoint="0,0" heartPoint="7,-115" headPoint="-9,-226" direction="1" attack="122,-43" rageSkill="103,-114"/>
+  <roleModelConfig roleName="Batolomeo·gấu" fileName="A046.swf" id="A046" feetPoint="0,0" heartPoint="21,-137" headPoint="6,-202" direction="1" attack="111,-102" rageSkill="81,-126"/>
+  <roleModelConfig roleName="Gekko Moria Phẫn nộ" fileName="A047.swf" id="A047" feetPoint="0,0" heartPoint="-12,-134" headPoint="55,-353" direction="1" attack="151,-177" rageSkill="49,-319"/>
+  <roleModelConfig roleName="Eustace Kidd" fileName="A048.swf" id="A048" feetPoint="0,0" heartPoint="14,-93" headPoint="12,-149" direction="1" attack="170,-99" rageSkill="90,-69"/>
+  <roleModelConfig roleName="Trafalgar Law" fileName="A049.swf" id="A049" feetPoint="0,0" heartPoint="10,-96" headPoint="4,-148" direction="1" attack="140,-100" rageSkill="170,-75"/>
+  <roleModelConfig roleName="Scatchmen Apoo" fileName="A050.swf" id="A050" feetPoint="0,0" heartPoint="18,-78" headPoint="8,-140" direction="1" attack="7,-107" rageSkill="-3,-70"/>
+  <roleModelConfig roleName="Capone·Bege" fileName="A051.swf" id="A051" feetPoint="0,0" heartPoint="17,-73" headPoint="3,-134" direction="1" attack="81,-96" rageSkill="34,-65"/>
+  <roleModelConfig roleName="Basil Hawkins" fileName="A052.swf" id="A052" feetPoint="0,0" heartPoint="9,-90" headPoint="5,-149" direction="1" attack="128,-125" rageSkill="60,-140"/>
+  <roleModelConfig roleName="Girarin" fileName="A053.swf" id="A053" feetPoint="0,0" heartPoint="4,-90" headPoint="11,-133" direction="1" attack="154,-57" rageSkill="245,-52"/>
+  <roleModelConfig roleName="Qiao Yili · Boni" fileName="A054.swf" id="A054" feetPoint="0,0" heartPoint="0,0" headPoint="0,0" direction="1" attack="0,0" rageSkill="0,0"/>
+  <roleModelConfig roleName="Urouge" fileName="A055.swf" id="A055" feetPoint="0,0" heartPoint="7,-99" headPoint="8,-158" direction="1" attack="150,-108" rageSkill="118,-117"/>
+  <roleModelConfig roleName="Cờ đỏ  X·Drake" fileName="A056.swf" id="A056" feetPoint="0,0" heartPoint="12,-85" headPoint="3,-142" direction="1" attack="66,-72" rageSkill="205,-89"/>
+  <roleModelConfig roleName="Đại tướng Vượn Xu" fileName="A057.swf" id="A057" feetPoint="0,0" heartPoint="21,-105" headPoint="12,-156" direction="1" attack="170,-96" rageSkill="129,-90"/>
+  <roleModelConfig roleName="Khiêu chiến hoàn" fileName="A058.swf" id="A058" feetPoint="0,0" heartPoint="11,-97" headPoint="-2,-159" direction="1" attack="192,-97" rageSkill="63,-113"/>
+  <roleModelConfig roleName="Pluto Raleigh" fileName="A059.swf" id="A059" feetPoint="0,0" heartPoint="18,-100" headPoint="12,-155" direction="1" attack="112,-110" rageSkill="155,-93"/>
+  <roleModelConfig roleName="Boa Marigold" fileName="A060.swf" id="A060" feetPoint="0,0" heartPoint="17,-132" headPoint="1,-206" direction="1" attack="170,-105" rageSkill="221,-100"/>
+  <roleModelConfig roleName="Boa Sandersonia" fileName="A061.swf" id="A061" feetPoint="0,0" heartPoint="14,-126" headPoint="9,-201" direction="1" attack="176,-136" rageSkill="212,-92"/>
+  <roleModelConfig roleName="Boa Hancock" fileName="A062.swf" id="A062" feetPoint="0,0" heartPoint="4,-110" headPoint="0,-153" direction="1" attack="60,-125" rageSkill="42,-112"/>
+  <roleModelConfig roleName="Pluto Raleigh-Bá đạo" fileName="A063.swf" id="A063" feetPoint="0,0" heartPoint="18,-100" headPoint="12,-155" direction="1" attack="112,-110" rageSkill="155,-93"/>
+  <roleModelConfig roleName="Angelica" fileName="A064.swf" id="A064" feetPoint="0,0" heartPoint="2,-82" headPoint="0,-137" direction="1" attack="25,-98" rageSkill="10,-87"/>
+  <roleModelConfig roleName="Anh hùng nguyên bản 1" fileName="B001.swf" id="B001" feetPoint="0,0" heartPoint="12,-73" headPoint="31,-137" direction="1" attack="0,0" rageSkill="0,0"/>
+  <roleModelConfig roleName="Anh hùng nguyên bản 2" fileName="B002.swf" id="B002" feetPoint="0,0" heartPoint="1,-93" headPoint="-4,-147" direction="1" attack="185,-89" rageSkill="71,-91"/>
+  <roleModelConfig roleName="Anh hùng nguyên bản 3" fileName="B003.swf" id="B003" feetPoint="0,0" heartPoint="7,-80" headPoint="-3,-133" direction="1" attack="52,-115" rageSkill="60,-92"/>
+  <roleModelConfig roleName="Anh hùng nguyên bản 4" fileName="B004.swf" id="B004" feetPoint="0,0" heartPoint="12,-73" headPoint="31,-137" direction="1" attack="0,0" rageSkill="0,0"/>
+  <roleModelConfig roleName="Chùy sắt Alvida（3x3）" fileName="B005.swf" id="B005" feetPoint="0,0" heartPoint="41,-109" headPoint="11,-182" direction="1" attack="312,-103" rageSkill="285,-91"/>
+  <roleModelConfig roleName="Đại tá Morgan" fileName="B006.swf" id="B006" feetPoint="0,0" heartPoint="16,-104" headPoint="0,-150" direction="1" attack="59,-65" rageSkill="59,-65"/>
+  <roleModelConfig roleName="Khúc nghệ Cabaji" fileName="B007.swf" id="B007" feetPoint="0,0" heartPoint="11,-95" headPoint="12,-137" direction="1" attack="88,-36" rageSkill="100,-52"/>
+  <roleModelConfig roleName="Jango" fileName="B008.swf" id="B008" feetPoint="0,0" heartPoint="19,-75" headPoint="22,-129" direction="1" attack="40,-90" rageSkill="44,-89"/>
+  <roleModelConfig roleName="Bạch tuộc·Hachi" fileName="B009.swf" id="B009" feetPoint="0,0" heartPoint="15,-88" headPoint="16,-131" direction="1" attack="212,-79" rageSkill="125,-86"/>
+  <roleModelConfig roleName="Bò Biển·MohMoo（3x3）" fileName="B010.swf" id="B010" feetPoint="0,0" heartPoint="4,-187" headPoint="8,-459" direction="1" attack="235,-278" rageSkill="163,-294"/>
+  <roleModelConfig roleName="Laboon（3x3）" fileName="B011.swf" id="B011" feetPoint="0,0" heartPoint="-235,-109" headPoint="-25,-502" direction="1" attack="156,-165" rageSkill="459,-107"/>
+  <roleModelConfig roleName="Bomu Bomu no Mi·Mr.5" fileName="B012.swf" id="B012" feetPoint="0,0" heartPoint="-2,-88" headPoint="-10,-140" direction="1" attack="38,-93" rageSkill="109,-63"/>
+  <roleModelConfig roleName="Kilo Kilo no Mi  ·Ms.Valentine" fileName="B013.swf" id="B013" feetPoint="0,0" heartPoint="9,-79" headPoint="1,-155" direction="1" attack="39,-77" rageSkill="39,-77"/>
+  <roleModelConfig roleName="Quỷ xanh·Dorry" fileName="B014.swf" id="B014" feetPoint="0,0" heartPoint="50,-302" headPoint="9,-439" direction="1" attack="290,-214" rageSkill="332,-282"/>
+  <roleModelConfig roleName="Quỷ đỏ Brogy" fileName="B015.swf" id="B015" feetPoint="0,0" heartPoint="71,-232" headPoint="52,-378" direction="1" attack="362,-147" rageSkill="334,-272"/>
+  <roleModelConfig roleName="Mr.3 Doru Doru no Mi" fileName="B016.swf" id="B016" feetPoint="0,0" heartPoint="-1,-78" headPoint="0,-145" direction="1" attack="88,-37" rageSkill="88,-37"/>
+  <roleModelConfig roleName="Dalton·Ushi Ushi no Mi" fileName="B017.swf" id="B017" feetPoint="0,0" heartPoint="9,-97" headPoint="-1,-150" direction="1" attack="372,-127" rageSkill="19,-166"/>
+  <roleModelConfig roleName="Bò cạp sa mạc" fileName="B018.swf" id="B018" feetPoint="0,0" heartPoint="-106,-74" headPoint="18,-118" direction="1" attack="243,-72" rageSkill="716,-90"/>
+  <roleModelConfig roleName="Pell" fileName="B019.swf" id="B019" feetPoint="0,0" heartPoint="20,-84" headPoint="22,-137" direction="1" attack="174,-64" rageSkill="45,-112"/>
+  <roleModelConfig roleName="Toto" fileName="B020.swf" id="B020" feetPoint="0,0" heartPoint="13,-88" headPoint="13,-136" direction="1" attack="147,-54" rageSkill="18,-97"/>
+  <roleModelConfig roleName="Miss.DoubleFinger" fileName="B021.swf" id="B021" feetPoint="0,0" heartPoint="8,-88" headPoint="5,-137" direction="1" attack="97,-66" rageSkill="120,-77"/>
+  <roleModelConfig roleName="Mr.1 Daz Bones" fileName="B022.swf" id="B022" feetPoint="0,0" heartPoint="10,-94" headPoint="4,-144" direction="1" attack="90,-103" rageSkill="47,-120"/>
+  <roleModelConfig roleName="Bellamy linh cẩu" fileName="B023.swf" id="B023" feetPoint="0,0" heartPoint="6,-86" headPoint="1,-139" direction="1" attack="109,-69" rageSkill="108,-75"/>
+  <roleModelConfig roleName="Kỵ sĩ bầu trời Gan Fall" fileName="B024.swf" id="B024" feetPoint="0,0" heartPoint="10,-91" headPoint="11,-159" direction="1" attack="218,-75" rageSkill="218,-75"/>
+  <roleModelConfig roleName="Wipha" fileName="B025.swf" id="B025" feetPoint="0,0" heartPoint="12,-89" headPoint="18,-138" direction="1" attack="92,-99" rageSkill="93,-77"/>
+  <roleModelConfig roleName="Thần Casey" fileName="B026.swf" id="B026" feetPoint="0,0" heartPoint="-132,-158" headPoint="170,-396" direction="1" attack="195,-157" rageSkill="308,-212"/>
+  <roleModelConfig roleName="Sayo" fileName="B027.swf" id="B027" feetPoint="0,0" heartPoint="1,-65" headPoint="-3,-114" direction="1" attack="35,-70" rageSkill="35,-70"/>
+  <roleModelConfig roleName="Yorki" fileName="B028.swf" id="B028" feetPoint="0,0" heartPoint="1,-90" headPoint="1,-142" direction="1" attack="77,-105" rageSkill="77,-105"/>
+  <roleModelConfig roleName="Porche" fileName="B029.swf" id="B029" feetPoint="0,0" heartPoint="-1,-91" headPoint="-8,-154" direction="1" attack="95,-80" rageSkill="131,-88"/>
+  <roleModelConfig roleName="Kiwi" fileName="B030.swf" id="B030" feetPoint="0,0" heartPoint="3,-84" headPoint="-3,-137" direction="1" attack="17,-104" rageSkill="17,-104"/>
+  <roleModelConfig roleName="Mozu" fileName="B031.swf" id="B031" feetPoint="0,0" heartPoint="3,-84" headPoint="-3,-137" direction="1" attack="17,-104" rageSkill="17,-104"/>
+  <roleModelConfig roleName="Jonathan" fileName="B032.swf" id="B032" feetPoint="0,0" heartPoint="3,-101" headPoint="-3,-157" direction="1" attack="133,-83" rageSkill="9,-130"/>
+  <roleModelConfig roleName="Spandam" fileName="B033.swf" id="B033" feetPoint="0,0" heartPoint="3,-77" headPoint="9,-125" direction="1" attack="45,-74" rageSkill="55,-85"/>
+  <roleModelConfig roleName="T-Bone" fileName="B034.swf" id="B034" feetPoint="0,0" heartPoint="3,-83" headPoint="-4,-148" direction="1" attack="101,-86" rageSkill="171,-69"/>
+  <roleModelConfig roleName="Fukuro·CP9" fileName="B035.swf" id="B035" feetPoint="0,0" heartPoint="-2,-79" headPoint="-2,-151" direction="1" attack="164,-66" rageSkill="168,-108"/>
+  <roleModelConfig roleName="Beri Good·Beri Beri no Mi" fileName="B036.swf" id="B036" feetPoint="0,0" heartPoint="8,-94" headPoint="7,-161" direction="1" attack="139,-84" rageSkill="38,-83"/>
+  <roleModelConfig roleName="Brandy" fileName="B037.swf" id="B037" feetPoint="0,0" heartPoint="9,-100" headPoint="3,-149" direction="1" attack="106,-85" rageSkill="108,-80"/>
+  <roleModelConfig roleName="Peeply Lulu" fileName="B038.swf" id="B038" feetPoint="0,0" heartPoint="1,-73" headPoint="-5,-123" direction="1" attack="16,-74" rageSkill="19,-110"/>
+  <roleModelConfig roleName="Campacino" fileName="B039.swf" id="B039" feetPoint="0,0" heartPoint="9,-100" headPoint="3,-149" direction="1" attack="106,-85" rageSkill="33,-100"/>
+  <roleModelConfig roleName="Hogback" fileName="B040.swf" id="B040" feetPoint="0,0" heartPoint="17,-115" headPoint="8,-161" direction="1" attack="82,-75" rageSkill="80,-87"/>
+  <roleModelConfig roleName="Afusaromu" fileName="B041.swf" id="B041" feetPoint="0,0" heartPoint="7,-100" headPoint="-2,-165" direction="1" attack="102,-93" rageSkill="34,-105"/>
+  <roleModelConfig roleName="Jigoro" fileName="B042.swf" id="B042" feetPoint="0,0" heartPoint="9,-88" headPoint="6,-150" direction="1" attack="115,-71" rageSkill="256,-64"/>
+  <roleModelConfig roleName="Ryuma" fileName="B043.swf" id="B043" feetPoint="0,0" heartPoint="5,-86" headPoint="3,-129" direction="1" attack="56,-68" rageSkill="75,-83"/>
+  <roleModelConfig roleName="Ma nhân Oars" fileName="B044.swf" id="B044" feetPoint="0,0" heartPoint="-68,-105" headPoint="68,-391" direction="1" attack="239,-177" rageSkill="239,-177"/>
+  <roleModelConfig roleName="Oars đau 1 tay" fileName="B045.swf" id="B045" feetPoint="0,0" heartPoint="-68,-105" headPoint="68,-391" direction="1" attack="239,-177" rageSkill="239,-177"/>
+  <roleModelConfig roleName="Oars đau 2 tay" fileName="B046.swf" id="B046" feetPoint="0,0" heartPoint="-68,-105" headPoint="68,-391" direction="1" attack="321,-197" rageSkill="321,-197"/>
+  <roleModelConfig roleName="Oars đau toàn thân" fileName="B047.swf" id="B047" feetPoint="0,0" heartPoint="-68,-105" headPoint="68,-391" direction="1" attack="321,-197" rageSkill="321,-197"/>
+  <roleModelConfig roleName="Kemi" fileName="B048.swf" id="B048" feetPoint="0,0" heartPoint="21,-86" headPoint="11,-134" direction="1" attack="55,-110" rageSkill="47,-113"/>
+  <roleModelConfig roleName="Doran（Đại pháo）" fileName="B049.swf" id="B049" feetPoint="0,0" heartPoint="-185,-261" headPoint="-185,-320" direction="1" attack="260,-185" rageSkill="289,-160"/>
+  <roleModelConfig roleName="Bepo" fileName="B050.swf" id="B050" feetPoint="0,0" heartPoint="9,-79" headPoint="2,-136" direction="1" attack="76,-92" rageSkill="69,-108"/>
+  <roleModelConfig roleName="Bartholemew·Kuma PX-1" fileName="B051.swf" id="B051" feetPoint="0,0" heartPoint="20,-140" headPoint="6,-203" direction="1" attack="68,-150" rageSkill="15,-177"/>
+  <roleModelConfig roleName="Helmeppo" fileName="C001.swf" id="C001" feetPoint="0,0" heartPoint="-6,-66" headPoint="-10,-119" direction="1" attack="54,-77" rageSkill="54,-77"/>
+  <roleModelConfig roleName="Luyện thú Buggy" fileName="C002.swf" id="C002" feetPoint="0,0" heartPoint="12,-77" headPoint="22,-129" direction="1" attack="203,-58" rageSkill="203,-58"/>
+  <roleModelConfig roleName="Mãnh thú Rikich（3x3）" fileName="C003.swf" id="C003" feetPoint="0,0" heartPoint="12,-166" headPoint="76,-426" direction="1" attack="423,-128" rageSkill="423,-128"/>
+  <roleModelConfig roleName="Mèo vằn Buchi" fileName="C004.swf" id="C004" feetPoint="0,0" heartPoint="22,-90" headPoint="23,-137" direction="1" attack="162,-43" rageSkill="162,-43"/>
+  <roleModelConfig roleName="Sham" fileName="C005.swf" id="C005" feetPoint="0,0" heartPoint="4,-71" headPoint="13,-122" direction="1" attack="61,-98" rageSkill="61,-98"/>
+  <roleModelConfig roleName="Tường sắt·Bala" fileName="C006.swf" id="C006" feetPoint="0,0" heartPoint="13,-92" headPoint="15,-162" direction="1" attack="165,-83" rageSkill="165,-83"/>
+  <roleModelConfig roleName="Gin" fileName="C007.swf" id="C007" feetPoint="0,0" heartPoint="6,-79" headPoint="8,-132" direction="1" attack="112,-96" rageSkill="112,-96"/>
+  <roleModelConfig roleName="Người cá Sue" fileName="C008.swf" id="C008" feetPoint="0,0" heartPoint="7,-80" headPoint="6,-137" direction="1" attack="73,-89" rageSkill="73,-89"/>
+  <roleModelConfig roleName="Đai đen·Kuroobi" fileName="C009.swf" id="C009" feetPoint="0,0" heartPoint="9,-107" headPoint="4,-145" direction="1" attack="142,-112" rageSkill="142,-112"/>
+  <roleModelConfig roleName="Mr.9" fileName="C010.swf" id="C010" feetPoint="0,0" heartPoint="7,-74" headPoint="14,-129" direction="1" attack="153,-75" rageSkill="153,-75"/>
+  <roleModelConfig roleName="Karoo" fileName="C011.swf" id="C011" feetPoint="0,0" heartPoint="14,-43" headPoint="4,-101" direction="1" attack="0,0" rageSkill="0,0"/>
+  <roleModelConfig roleName="MR.8 ( Igaram )" fileName="C012.swf" id="C012" feetPoint="0,0" heartPoint="17,-88" headPoint="5,-139" direction="1" attack="23,-113" rageSkill="23,-113"/>
+  <roleModelConfig roleName="Ms.Monday" fileName="C013.swf" id="C013" feetPoint="0,0" heartPoint="5,-90" headPoint="7,-145" direction="1" attack="195,-78" rageSkill="195,-78"/>
+  <roleModelConfig roleName="Gấu đi bộ" fileName="C014.swf" id="C014" feetPoint="0,0" heartPoint="29,-97" headPoint="10,-153" direction="1" attack="152,-72" rageSkill="152,-72"/>
+  <roleModelConfig roleName="Lapin" fileName="C015.swf" id="C015" feetPoint="0,0" heartPoint="15,-91" headPoint="5,-132" direction="1" attack="134,-112" rageSkill="134,-112"/>
+  <roleModelConfig roleName="Robson" fileName="C016.swf" id="C016" feetPoint="0,0" heartPoint="-21,-87" headPoint="67,-125" direction="1" attack="169,-160" rageSkill="169,-160"/>
+  <roleModelConfig roleName="Jess " fileName="C017.swf" id="C017" feetPoint="0,0" heartPoint="16,-94" headPoint="2,-144" direction="1" attack="77,-113" rageSkill="77,-113"/>
+  <roleModelConfig roleName="Kuromarimo" fileName="C018.swf" id="C018" feetPoint="0,0" heartPoint="11,-78" headPoint="9,-141" direction="1" attack="60,-89" rageSkill="60,-89"/>
+  <roleModelConfig roleName="Mèo Biển" fileName="C019.swf" id="C019" feetPoint="0,0" heartPoint="100,-160" headPoint="-37,-401" direction="1" attack="291,-244" rageSkill="291,-244"/>
+  <roleModelConfig roleName="Hoa ăn thịt sa mạc" fileName="C020.swf" id="C020" feetPoint="0,0" heartPoint="-30,-130" headPoint="14,-209" direction="1" attack="157,-144" rageSkill="157,-144"/>
+  <roleModelConfig roleName="Bò cạp sa mạc" fileName="C021.swf" id="C021" feetPoint="0,0" heartPoint="16,-79" headPoint="128,-136" direction="1" attack="269,-70" rageSkill="269,-70"/>
+  <roleModelConfig roleName="Cá sấu chuối" fileName="C022.swf" id="C022" feetPoint="0,0" heartPoint="46,-60" headPoint="140,-134" direction="1" attack="259,-95" rageSkill="259,-95"/>
+  <roleModelConfig roleName="Mr.4" fileName="C023.swf" id="C023" feetPoint="0,0" heartPoint="11,-110" headPoint="-1,-158" direction="1" attack="32,-102" rageSkill="32,-102"/>
+  <roleModelConfig roleName="Miss.Merrychristams·Mogu Mogu no Mi" fileName="C024.swf" id="C024" feetPoint="0,0" heartPoint="7,-64" headPoint="7,-127" direction="1" attack="60,-71" rageSkill="60,-71"/>
+  <roleModelConfig roleName="Mr.7" fileName="C025.swf" id="C025" feetPoint="0,0" heartPoint="7,-79" headPoint="-1,-122" direction="1" attack="48,-99" rageSkill="48,-99"/>
+  <roleModelConfig roleName="Ms.Father‘sDay" fileName="C026.swf" id="C026" feetPoint="0,0" heartPoint="8,-73" headPoint="4,-123" direction="1" attack="67,-96" rageSkill="67,-96"/>
+  <roleModelConfig roleName="Đao găm·Sarquiss" fileName="C027.swf" id="C027" feetPoint="0,0" heartPoint="1,-92" headPoint="-2,-137" direction="1" attack="198,-74" rageSkill="198,-74"/>
+  <roleModelConfig roleName="Myure" fileName="C028.swf" id="C028" feetPoint="0,0" heartPoint="3,-73" headPoint="0,-117" direction="1" attack="67,-77" rageSkill="67,-77"/>
+  <roleModelConfig roleName="Vượn người " fileName="C029.swf" id="C029" feetPoint="0,0" heartPoint="19,-84" headPoint="20,-133" direction="1" attack="62,-91" rageSkill="62,-91"/>
+  <roleModelConfig roleName="Tinh tinh " fileName="C030.swf" id="C030" feetPoint="0,0" heartPoint="11,-94" headPoint="8,-132" direction="1" attack="64,-100" rageSkill="64,-100"/>
+  <roleModelConfig roleName="Đội du kích Shandian" fileName="C031.swf" id="C031" feetPoint="0,0" heartPoint="12,-68" headPoint="21,-119" direction="1" attack="94,-88" rageSkill="94,-88"/>
+  <roleModelConfig roleName="Đội quân mũ trắng" fileName="C032.swf" id="C032" feetPoint="0,0" heartPoint="2,-69" headPoint="-6,-111" direction="1" attack="67,-79" rageSkill="67,-79"/>
+  <roleModelConfig roleName="Tôm siêu tốc" fileName="C033.swf" id="C033" feetPoint="0,0" heartPoint="-42,-73" headPoint="73,-138" direction="1" attack="322,-82" rageSkill="322,-82"/>
+  <roleModelConfig roleName="Chim Fura" fileName="C034.swf" id="C034" feetPoint="0,0" heartPoint="10,-218" headPoint="90,-240" direction="1" attack="60,-270" rageSkill="60,-270"/>
+  <roleModelConfig roleName="Cá mập skypiea" fileName="C035.swf" id="C035" feetPoint="0,0" heartPoint="64,-169" headPoint="127,-316" direction="1" attack="287,-193" rageSkill="287,-193"/>
+  <roleModelConfig roleName="Bọ ngựa·Kamakiri" fileName="C036.swf" id="C036" feetPoint="0,0" heartPoint="13,-87" headPoint="12,-138" direction="1" attack="131,-62" rageSkill="131,-62"/>
+  <roleModelConfig roleName="Bilkan·Yama" fileName="C037.swf" id="C037" feetPoint="0,0" heartPoint="28,-94" headPoint="13,-156" direction="1" attack="158,-113" rageSkill="158,-113"/>
+  <roleModelConfig roleName="Thần binh tinh nhuệ" fileName="C038.swf" id="C038" feetPoint="0,0" heartPoint="8,-85" headPoint="3,-131" direction="1" attack="76,-86" rageSkill="76,-86"/>
+  <roleModelConfig roleName="Sói trắng" fileName="C039.swf" id="C039" feetPoint="0,0" heartPoint="24,-49" headPoint="70,-80" direction="1" attack="155,-87" rageSkill="155,-87"/>
+  <roleModelConfig roleName="Chuồng nuôi trống·Thần quan Ohm" fileName="C040.swf" id="C040" feetPoint="0,0" heartPoint="17,-100" headPoint="12,-145" direction="1" attack="81,-124" rageSkill="81,-124"/>
+  <roleModelConfig roleName="Chim khổng lồ skypea" fileName="C041.swf" id="C041" feetPoint="0,0" heartPoint="25,-186" headPoint="90,-270" direction="1" attack="238,-156" rageSkill="238,-156"/>
+  <roleModelConfig roleName="Thần quan Satori" fileName="C042.swf" id="C042" feetPoint="0,0" heartPoint="5,-110" headPoint="9,-160" direction="1" attack="143,-99" rageSkill="143,-99"/>
+  <roleModelConfig roleName="Thần quan Seurat" fileName="C043.swf" id="C043" feetPoint="0,0" heartPoint="2,-68" headPoint="4,-112" direction="1" attack="204,-78" rageSkill="204,-78"/>
+  <roleModelConfig roleName="Laki" fileName="C044.swf" id="C044" feetPoint="0,0" heartPoint="-3,-86" headPoint="-5,-136" direction="1" attack="75,-98" rageSkill="75,-98"/>
+  <roleModelConfig roleName="MissGoldenWeek" fileName="C045.swf" id="C045" feetPoint="0,0" heartPoint="6,-66" headPoint="2,-117" direction="1" attack="73,-100" rageSkill="73,-100"/>
+  <roleModelConfig roleName="Triệu trưởng lão đặc vụ" fileName="C046.swf" id="C046" feetPoint="0,0" heartPoint="6,-83" headPoint="1,-136" direction="1" attack="102,-92" rageSkill="102,-92"/>
+  <roleModelConfig roleName="Triệu trưởng lão kiếm sĩ" fileName="C047.swf" id="C047" feetPoint="0,0" heartPoint="-1,-87" headPoint="0,-145" direction="1" attack="111,-60" rageSkill="111,-60"/>
+  <roleModelConfig roleName="Tỷ trưởng lão đặc vụ" fileName="C048.swf" id="C048" feetPoint="0,0" heartPoint="-2,-84" headPoint="-4,-142" direction="1" attack="44,-101" rageSkill="44,-101"/>
+  <roleModelConfig roleName="Tỷ trưởng lão gián điệp" fileName="C049.swf" id="C049" feetPoint="0,0" heartPoint="10,-83" headPoint="-3,-152" direction="1" attack="100,-90" rageSkill="100,-90"/>
+  <roleModelConfig roleName="Tỷ trưởng lão gián điệp chùy" fileName="C050.swf" id="C050" feetPoint="0,0" heartPoint="4,-90" headPoint="-1,-145" direction="1" attack="103,-103" rageSkill="103,-103"/>
+  <roleModelConfig roleName="Shandian tay búa" fileName="C051.swf" id="C051" feetPoint="0,0" heartPoint="20,-90" headPoint="28,-154" direction="1" attack="97,-90" rageSkill="97,-90"/>
+  <roleModelConfig roleName="Mũ Bêrê tay cung" fileName="C052.swf" id="C052" feetPoint="0,0" heartPoint="1,-83" headPoint="-3,-144" direction="1" attack="17,-84" rageSkill="17,-84"/>
+  <roleModelConfig roleName="Mũ Bêrê tay gai" fileName="C053.swf" id="C053" feetPoint="0,0" heartPoint="-3,-77" headPoint="2,-139" direction="1" attack="54,-62" rageSkill="54,-62"/>
+  <roleModelConfig roleName="Shandian pháo thủ" fileName="C054.swf" id="C054" feetPoint="0,0" heartPoint="3,-94" headPoint="4,-144" direction="1" attack="89,-113" rageSkill="89,-113"/>
+  <roleModelConfig roleName="Shandian tay súng" fileName="C055.swf" id="C055" feetPoint="0,0" heartPoint="8,-80" headPoint="23,-136" direction="1" attack="122,-82" rageSkill="122,-82"/>
+  <roleModelConfig roleName="Holley(3x3)" fileName="C056.swf" id="C056" feetPoint="0,0" heartPoint="30,-218" headPoint="0,-429" direction="1" attack="198,-243" rageSkill="198,-243"/>
+  <roleModelConfig roleName="Thiếu úy Drake" fileName="C057.swf" id="C057" feetPoint="0,0" heartPoint="11,-96" headPoint="12,-150" direction="1" attack="156,-60" rageSkill="156,-60"/>
+  <roleModelConfig roleName="Jessica" fileName="C058.swf" id="C058" feetPoint="0,0" heartPoint="3,-88" headPoint="6,-159" direction="1" attack="81,-95" rageSkill="81,-95"/>
+  <roleModelConfig roleName="Kobato" fileName="C059.swf" id="C059" feetPoint="0,0" heartPoint="4,-93" headPoint="-1,-146" direction="1" attack="163,-95" rageSkill="163,-95"/>
+  <roleModelConfig roleName="Capote" fileName="C060.swf" id="C060" feetPoint="0,0" heartPoint="12,-96" headPoint="18,-143" direction="1" attack="100,-82" rageSkill="100,-82"/>
+  <roleModelConfig roleName="Hamburg" fileName="C061.swf" id="C061" feetPoint="0,0" heartPoint="10,-90" headPoint="7,-153" direction="1" attack="110,-90" rageSkill="110,-90"/>
+  <roleModelConfig roleName="Zambai" fileName="C062.swf" id="C062" feetPoint="0,0" heartPoint="2,-94" headPoint="-2,-153" direction="1" attack="167,-33" rageSkill="167,-33"/>
+  <roleModelConfig roleName="Tamagon" fileName="C063.swf" id="C063" feetPoint="0,0" heartPoint="15,-115" headPoint="-5,-169" direction="1" attack="128,-110" rageSkill="128,-110"/>
+  <roleModelConfig roleName="Hành Cang" fileName="C064.swf" id="C064" feetPoint="0,0" heartPoint="16,-116" headPoint="-17,-332" direction="1" attack="296,-174" rageSkill="296,-174"/>
+  <roleModelConfig roleName="Jerry" fileName="C065.swf" id="C065" feetPoint="0,0" heartPoint="5,-100" headPoint="1,-152" direction="1" attack="108,-93" rageSkill="108,-93"/>
+  <roleModelConfig roleName="Wanze" fileName="C066.swf" id="C066" feetPoint="0,0" heartPoint="4,-73" headPoint="-2,-154" direction="1" attack="92,-92" rageSkill="92,-92"/>
+  <roleModelConfig roleName="Oimo" fileName="C067.swf" id="C067" feetPoint="0,0" heartPoint="31,-234" headPoint="36,-377" direction="1" attack="354,-212" rageSkill="354,-212"/>
+  <roleModelConfig roleName="Kashi" fileName="C068.swf" id="C068" feetPoint="0,0" heartPoint="47,-263" headPoint="58,-373" direction="1" attack="250,-88" rageSkill="250,-88"/>
+  <roleModelConfig roleName="Kumadori" fileName="C069.swf" id="C069" feetPoint="0,0" heartPoint="11,-95" headPoint="9,-171" direction="1" attack="129,-117" rageSkill="129,-117"/>
+  <roleModelConfig roleName="Shu·Sabi Sabi no Mi" fileName="C070.swf" id="C070" feetPoint="0,0" heartPoint="7,-95" headPoint="1,-145" direction="1" attack="54,-74" rageSkill="54,-74"/>
+  <roleModelConfig roleName="Peeply Lulu" fileName="C071.swf" id="C071" feetPoint="0,0" heartPoint="11,-98" headPoint="6,-148" direction="1" attack="90,-108" rageSkill="90,-108"/>
+  <roleModelConfig roleName="Baskerville 3 đầu" fileName="C072.swf" id="C072" feetPoint="0,0" heartPoint="8,-95" headPoint="-2,-180" direction="1" attack="178,-62" rageSkill="178,-62"/>
+  <roleModelConfig roleName="Stansen" fileName="C073.swf" id="C073" feetPoint="0,0" heartPoint="10,-88" headPoint="6,-131" direction="1" attack="113,-68" rageSkill="113,-68"/>
+  <roleModelConfig roleName="Sutton" fileName="C074.swf" id="C074" feetPoint="0,0" heartPoint="6,-83" headPoint="6,-130" direction="1" attack="102,-27" rageSkill="102,-27"/>
+  <roleModelConfig roleName="Guyle" fileName="C075.swf" id="C075" feetPoint="0,0" heartPoint="7,-88" headPoint="3,-137" direction="1" attack="60,-76" rageSkill="60,-76"/>
+  <roleModelConfig roleName="Arabelle" fileName="C076.swf" id="C076" feetPoint="0,0" heartPoint="6,-84" headPoint="1,-136" direction="1" attack="86,-92" rageSkill="86,-92"/>
+  <roleModelConfig roleName="Salchow" fileName="C077.swf" id="C077" feetPoint="0,0" heartPoint="3,-88" headPoint="2,-132" direction="1" attack="90,-85" rageSkill="90,-85"/>
+  <roleModelConfig roleName="Hockera" fileName="C078.swf" id="C078" feetPoint="0,0" heartPoint="6,-65" headPoint="1,-126" direction="1" attack="114,-66" rageSkill="114,-66"/>
+  <roleModelConfig roleName="Hildon" fileName="C079.swf" id="C079" feetPoint="0,0" heartPoint="6,-55" headPoint="0,-117" direction="1" attack="60,-70" rageSkill="60,-70"/>
+  <roleModelConfig roleName="Cerberus" fileName="C080.swf" id="C080" feetPoint="0,0" heartPoint="-7,-203" headPoint="75,-366" direction="1" attack="320,-250" rageSkill="320,-250"/>
+  <roleModelConfig roleName="Cindry" fileName="C081.swf" id="C081" feetPoint="0,0" heartPoint="9,-93" headPoint="6,-146" direction="1" attack="66,-99" rageSkill="66,-99"/>
+  <roleModelConfig roleName="Inuppe" fileName="C082.swf" id="C082" feetPoint="0,0" heartPoint="5,-43" headPoint="4,-104" direction="1" attack="58,-37" rageSkill="58,-37"/>
+  <roleModelConfig roleName="Talara" fileName="C083.swf" id="C083" feetPoint="0,0" heartPoint="-63,-45" headPoint="74,-138" direction="1" attack="441,-76" rageSkill="441,-76"/>
+  <roleModelConfig roleName="Nola" fileName="C084.swf" id="C084" feetPoint="0,0" heartPoint="17,-91" headPoint="7,-142" direction="1" attack="100,-36" rageSkill="100,-36"/>
+  <roleModelConfig roleName="Huynh đệ sóc" fileName="C085.swf" id="C085" feetPoint="0,0" heartPoint="-2,-48" headPoint="0,-102" direction="1" attack="152,-70" rageSkill="152,-70"/>
+  <roleModelConfig roleName="Kumasy" fileName="C086.swf" id="C086" feetPoint="0,0" heartPoint="15,-68" headPoint="7,-156" direction="1" attack="107,-53" rageSkill="107,-53"/>
+  <roleModelConfig roleName="Gallant Hippo" fileName="C087.swf" id="C087" feetPoint="0,0" heartPoint="13,-50" headPoint="0,-146" direction="1" attack="95,-49" rageSkill="95,-49"/>
+  <roleModelConfig roleName="Zombie nhảy múa" fileName="C088.swf" id="C088" feetPoint="0,0" heartPoint="2,-86" headPoint="-1,-140" direction="1" attack="43,-99" rageSkill="43,-99"/>
+  <roleModelConfig roleName="Peter man " fileName="C089.swf" id="C089" feetPoint="0,0" heartPoint="15,-86" headPoint="5,-158" direction="1" attack="53,-93" rageSkill="53,-93"/>
+  <roleModelConfig roleName="Saint Charlos" fileName="C090.swf" id="C090" feetPoint="0,0" heartPoint="4,-74" headPoint="-5,-144" direction="1" attack="68,-88" rageSkill="68,-88"/>
+  <roleModelConfig roleName="Shalulia" fileName="C091.swf" id="C091" feetPoint="0,0" heartPoint="7,-90" headPoint="3,-158" direction="1" attack="69,-97" rageSkill="69,-97"/>
+  <roleModelConfig roleName="Disco" fileName="C092.swf" id="C092" feetPoint="0,0" heartPoint="5,-82" headPoint="2,-144" direction="1" attack="37,-83" rageSkill="37,-83"/>
+  <roleModelConfig roleName="Doran" fileName="C093.swf" id="C093" feetPoint="0,0" heartPoint="7,-88" headPoint="8,-143" direction="1" attack="56,-73" rageSkill="56,-73"/>
+  <roleModelConfig roleName="Dibaru" fileName="C094.swf" id="C094" feetPoint="0,0" heartPoint="14,-104" headPoint="5,-157" direction="1" attack="103,-119" rageSkill="103,-119"/>
+  <roleModelConfig roleName="Motola" fileName="C095.swf" id="C095" feetPoint="0,0" heartPoint="14,-93" headPoint="27,-181" direction="1" attack="146,-124" rageSkill="146,-124"/>
+  <roleModelConfig roleName="Macro" fileName="C096.swf" id="C096" feetPoint="0,0" heartPoint="4,-87" headPoint="3,-137" direction="1" attack="119,-86" rageSkill="119,-86"/>
+  <roleModelConfig roleName="Tansui" fileName="C097.swf" id="C097" feetPoint="0,0" heartPoint="14,-82" headPoint="15,-140" direction="1" attack="90,-94" rageSkill="90,-94"/>
+  <roleModelConfig roleName="Geil" fileName="C098.swf" id="C098" feetPoint="0,0" heartPoint="11,-90" headPoint="1,-154" direction="1" attack="144,-81" rageSkill="144,-81"/>
+  <roleModelConfig roleName="Chiến sĩ cá bay" fileName="C099.swf" id="C099" feetPoint="0,0" heartPoint="10,-103" headPoint="2,-158" direction="1" attack="168,-97" rageSkill="168,-97"/>
+  <roleModelConfig roleName="Sabaody" fileName="C100.swf" id="C100" feetPoint="0,0" heartPoint="8,-84" headPoint="36,-136" direction="1" attack="204,-75" rageSkill="204,-75"/>
+  <roleModelConfig roleName="Marguerite" fileName="C101.swf" id="C101" feetPoint="0,0" heartPoint="4,-106" headPoint="-3,-153" direction="1" attack="90,-112" rageSkill="90,-112"/>
+  <roleModelConfig roleName="Aphelandra" fileName="C102.swf" id="C102" feetPoint="0,0" heartPoint="42,-267" headPoint="25,-383" direction="1" attack="410,-234" rageSkill="410,-234"/>
+  <roleModelConfig roleName="Sweet Pea" fileName="C103.swf" id="C103" feetPoint="0,0" heartPoint="19,-97" headPoint="4,-160" direction="1" attack="169,-98" rageSkill="169,-98"/>
+  <roleModelConfig roleName="Kikyou" fileName="C104.swf" id="C104" feetPoint="0,0" heartPoint="8,-100" headPoint="1,-172" direction="1" attack="72,-114" rageSkill="72,-114"/>
+  <roleModelConfig roleName="Bacura" fileName="C105.swf" id="C105" feetPoint="0,0" heartPoint="34,-238" headPoint="281,-327" direction="1" attack="408,-145" rageSkill="408,-145"/>
+  <roleModelConfig roleName="Thánh Roswald" fileName="C106.swf" id="C106" feetPoint="0,0" heartPoint="14,-84" headPoint="5,-158" direction="1" attack="69,-97" rageSkill="69,-97"/>
+  <roleModelConfig roleName="Tinh tinh xanh " fileName="C107.swf" id="C107" feetPoint="0,0" heartPoint="17,-85" headPoint="7,-138" direction="1" attack="156,-100" rageSkill="156,-100"/>
+  <roleModelConfig roleName="Kê xà" fileName="C108.swf" id="C108" feetPoint="0,0" heartPoint="0,0" headPoint="0,0" direction="1" attack="0,0" rageSkill="0,0"/>
+  <roleModelConfig roleName="Thú mặt người mình sư" fileName="C109.swf" id="C109" feetPoint="0,0" heartPoint="0,0" headPoint="0,0" direction="1" attack="0,0" rageSkill="0,0"/>
+  <roleModelConfig roleName="Bò cạp Pazilu" fileName="C110.swf" id="C110" feetPoint="0,0" heartPoint="0,0" headPoint="0,0" direction="1" attack="0,0" rageSkill="0,0"/>
+  <roleModelConfig roleName="sư tử ăn thịt" fileName="C111.swf" id="C111" feetPoint="0,0" heartPoint="1.5,-54" headPoint="31,-141" direction="1" attack="107,-69" rageSkill="107,-69"/>
+  <roleModelConfig roleName="Hà mã lùn" fileName="C112.swf" id="C112" feetPoint="0,0" heartPoint="0,0" headPoint="0,0" direction="1" attack="0,0" rageSkill="0,0"/>
+  <roleModelConfig roleName="Bọ ngựa" fileName="C113.swf" id="C113" feetPoint="0,0" heartPoint="0,0" headPoint="0,0" direction="1" attack="0,0" rageSkill="0,0"/>
+  <roleModelConfig roleName="Saludaisi" fileName="C114.swf" id="C114" feetPoint="0,0" heartPoint="-3,-38" headPoint="10,-122" direction="1" attack="150,-25" rageSkill="150,-25"/>
+  <roleModelConfig roleName="Minotaur" fileName="C115.swf" id="C115" feetPoint="0,0" heartPoint="0,0" headPoint="0,0" direction="1" attack="0,0" rageSkill="0,0"/>
+  <roleModelConfig roleName="Hạ sĩ HQ" fileName="HJ001.swf" id="HJ001" feetPoint="0,0" heartPoint="11,-68" headPoint="12,-116" direction="1" attack="65,-102" rageSkill="65,-102"/>
+  <roleModelConfig roleName="Thiếu úy HQ" fileName="HJ002.swf" id="HJ002" feetPoint="0,0" heartPoint="7,-73" headPoint="3,-128" direction="1" attack="145,-57" rageSkill="145,-57"/>
+  <roleModelConfig roleName="Trung úy HQ" fileName="HJ003.swf" id="HJ003" feetPoint="0,0" heartPoint="9,-94" headPoint="0,-147" direction="1" attack="131,-74" rageSkill="131,-74"/>
+  <roleModelConfig roleName="Đấu sĩ HQ" fileName="HJ004.swf" id="HJ004" feetPoint="0,0" heartPoint="2,-70" headPoint="0,-120" direction="1" attack="113,-60" rageSkill="113,-60"/>
+  <roleModelConfig roleName="Tay búa HQ" fileName="HJ005.swf" id="HJ005" feetPoint="0,0" heartPoint="9,-73" headPoint="8,-122" direction="1" attack="40,-84" rageSkill="40,-84"/>
+  <roleModelConfig roleName="Tay búa chiến HQ" fileName="HJ006.swf" id="HJ006" feetPoint="0,0" heartPoint="3,-84" headPoint="13,-137" direction="1" attack="166,-97" rageSkill="166,-97"/>
+  <roleModelConfig roleName="Tay súng HQ" fileName="HJ007.swf" id="HJ007" feetPoint="0,0" heartPoint="10,-70" headPoint="-2,-118" direction="1" attack="57,-65" rageSkill="57,-65"/>
+  <roleModelConfig roleName="Súng máy HQ" fileName="HJ008.swf" id="HJ008" feetPoint="0,0" heartPoint="-2,-75" headPoint="-6,-124" direction="1" attack="106,-88" rageSkill="106,-88"/>
+  <roleModelConfig roleName="Bắn tỉa HQ" fileName="HJ009.swf" id="HJ009" feetPoint="0,0" heartPoint="7,-82" headPoint="3,-137" direction="1" attack="120,-102" rageSkill="120,-102"/>
+  <roleModelConfig roleName="Pháo thủ HQ" fileName="HJ010.swf" id="HJ010" feetPoint="0,0" heartPoint="6,-57" headPoint="9,-104" direction="1" attack="73,-76" rageSkill="73,-76"/>
+  <roleModelConfig roleName="Đại pháo thủ HQ" fileName="HJ011.swf" id="HJ011" feetPoint="0,0" heartPoint="15,-78" headPoint="12,-122" direction="1" attack="61,-113" rageSkill="61,-113"/>
+  <roleModelConfig roleName="Thợ máy HQ" fileName="HJ012.swf" id="HJ012" feetPoint="0,0" heartPoint="16,-97" headPoint="12,-150" direction="1" attack="70,-88" rageSkill="70,-88"/>
+  <roleModelConfig roleName="Tạp vụ HQ" fileName="HJ013.swf" id="HJ013" feetPoint="0,0" heartPoint="0,-65" headPoint="4,-115" direction="1" attack="111,-95" rageSkill="111,-95"/>
+  <roleModelConfig roleName="Đại úy HQ" fileName="HJ014.swf" id="HJ014" feetPoint="0,0" heartPoint="0,-84" headPoint="-1,-149" direction="1" attack="71,-107" rageSkill="71,-107"/>
+  <roleModelConfig roleName="Bác sỹ HQ" fileName="HJ015.swf" id="HJ015" feetPoint="0,0" heartPoint="5,-73" headPoint="7,-121" direction="1" attack="81,-72" rageSkill="81,-72"/>
+  <roleModelConfig roleName="Bác sỹ cao cấp HQ" fileName="HJ016.swf" id="HJ016" feetPoint="0,0" heartPoint="4,-87" headPoint="-2,-141" direction="1" attack="41,-55" rageSkill="41,-55"/>
+  <roleModelConfig roleName="Thích khách HQ" fileName="HJ017.swf" id="HJ017" feetPoint="0,0" heartPoint="12,-69" headPoint="19,-119" direction="1" attack="89,-113" rageSkill="89,-113"/>
+  <roleModelConfig roleName="Sát thủ HQ" fileName="HJ018.swf" id="HJ018" feetPoint="0,0" heartPoint="7,-85" headPoint="-2,-134" direction="1" attack="45,-98" rageSkill="45,-98"/>
+  <roleModelConfig roleName="Hoa tiêu HQ" fileName="HJ019.swf" id="HJ019" feetPoint="0,0" heartPoint="11,-91" headPoint="0,-141" direction="1" attack="53,-95" rageSkill="53,-95"/>
+  <roleModelConfig roleName="Pháp sư tập sự HQ" fileName="HJ020.swf" id="HJ020" feetPoint="0,0" heartPoint="2,-66" headPoint="-1,-116" direction="1" attack="60,-69" rageSkill="60,-69"/>
+  <roleModelConfig roleName="Pháp sư HQ" fileName="HJ021.swf" id="HJ021" feetPoint="0,0" heartPoint="4,-81" headPoint="-2,-126" direction="1" attack="27,-89" rageSkill="27,-89"/>
+  <roleModelConfig roleName="Đạo sư HQ" fileName="HJ022.swf" id="HJ022" feetPoint="0,0" heartPoint="11,-89" headPoint="1,-143" direction="1" attack="15,-175" rageSkill="15,-175"/>
+  <roleModelConfig roleName="Đặc pháo thủ HQ" fileName="HJ023.swf" id="HJ023" feetPoint="0,0" heartPoint="4,-73" headPoint="4,-125" direction="1" attack="46,-96" rageSkill="46,-96"/>
+  <roleModelConfig roleName="Hỏa pháo thủ HQ" fileName="HJ024.swf" id="HJ024" feetPoint="0,0" heartPoint="2,-84" headPoint="2,-143" direction="1" attack="86,-48" rageSkill="86,-48"/>
+  <roleModelConfig roleName="Tay súng đặc HQ" fileName="HJ025.swf" id="HJ025" feetPoint="0,0" heartPoint="3,-80" headPoint="-3,-132" direction="1" attack="79,-104" rageSkill="79,-104"/>
+  <roleModelConfig roleName="Súng pháo thủ HQ" fileName="HJ026.swf" id="HJ026" feetPoint="0,0" heartPoint="8,-87" headPoint="0,-142" direction="1" attack="119,-64" rageSkill="119,-64"/>
+  <roleModelConfig roleName="Đội trưởng HQ" fileName="HJ027.swf" id="HJ027" feetPoint="0,0" heartPoint="5,-90" headPoint="-7,-144" direction="1" attack="146,-88" rageSkill="146,-88"/>
+  <roleModelConfig roleName="Trung úy HQ-nguyên" fileName="HJ028.swf" id="HJ028" feetPoint="0,0" heartPoint="5,-82" headPoint="5,-135" direction="1" attack="102,-59" rageSkill="102,-59"/>
+  <roleModelConfig roleName="Súng máy HQ-nguyên" fileName="HJ029.swf" id="HJ029" feetPoint="0,0" heartPoint="17,-75" headPoint="17,-127" direction="1" attack="45,-73" rageSkill="45,-73"/>
+  <roleModelConfig roleName="Pháp sư tập sự HQ-nguyên" fileName="HJ030.swf" id="HJ030" feetPoint="0,0" heartPoint="-2,-74" headPoint="-5,-116" direction="1" attack="57,-94" rageSkill="57,-94"/>
+  <roleModelConfig roleName="Tay búa HQ-nguyên" fileName="HJ031.swf" id="HJ031" feetPoint="0,0" heartPoint="8,-58" headPoint="8,-108" direction="1" attack="77,-73" rageSkill="77,-73"/>
+  <roleModelConfig roleName="Tay súng HQ bạo" fileName="HJ032.swf" id="HJ032" feetPoint="0,0" heartPoint="-2,-80" headPoint="-6,-125" direction="1" attack="51,-77" rageSkill="51,-77"/>
+  <roleModelConfig roleName="Pháo thủ HQ bạo" fileName="HJ033.swf" id="HJ033" feetPoint="0,0" heartPoint="13,-94" headPoint="7,-144" direction="1" attack="95,-85" rageSkill="95,-85"/>
+  <roleModelConfig roleName="Quả đấm thép HQ" fileName="HJ034.swf" id="HJ034" feetPoint="0,0" heartPoint="6,-90" headPoint="5,-152" direction="1" attack="177,-87" rageSkill="177,-87"/>
+  <roleModelConfig roleName="Búa bổ trời HQ" fileName="HJ035.swf" id="HJ035" feetPoint="0,0" heartPoint="10,-94" headPoint="4,-148" direction="1" attack="177,-66" rageSkill="177,-66"/>
+  <roleModelConfig roleName="Súng thần HQ" fileName="HJ036.swf" id="HJ036" feetPoint="0,0" heartPoint="12,-96" headPoint="14,-150" direction="1" attack="97,-103" rageSkill="97,-103"/>
+  <roleModelConfig roleName="Ma pháo thủ HQ" fileName="HJ037.swf" id="HJ037" feetPoint="0,0" heartPoint="12,-89" headPoint="17,-141" direction="1" attack="117,-106" rageSkill="117,-106"/>
+  <roleModelConfig roleName="Đầu bếp HQ" fileName="HJ038.swf" id="HJ038" feetPoint="0,0" heartPoint="9,-86" headPoint="3,-157" direction="1" attack="50,-100" rageSkill="50,-100"/>
+  <roleModelConfig roleName="Chỉ huy HQ" fileName="HJ039.swf" id="HJ039" feetPoint="0,0" heartPoint="3,-89" headPoint="-3,-141" direction="1" attack="63,-102" rageSkill="63,-102"/>
+  <roleModelConfig roleName="Thánh giả HQ" fileName="HJ040.swf" id="HJ040" feetPoint="0,0" heartPoint="-2,-87" headPoint="1,-146" direction="1" attack="8,-103" rageSkill="8,-103"/>
+  <roleModelConfig roleName="Ảnh sĩ HQ" fileName="HJ041.swf" id="HJ041" feetPoint="0,0" heartPoint="1,-85" headPoint="14,-144" direction="1" attack="248,-115" rageSkill="248,-115"/>
+  <roleModelConfig roleName="Thầy nguyên tố HQ" fileName="HJ042.swf" id="HJ042" feetPoint="0,0" heartPoint="6,-89" headPoint="2,-139" direction="1" attack="87,-95" rageSkill="87,-95"/>
+  <roleModelConfig roleName="Pháo sáng HQ" fileName="HJ043.swf" id="HJ043" feetPoint="0,0" heartPoint="-4,-105" headPoint="-6,-152" direction="1" attack="71,-70" rageSkill="71,-70"/>
+  <roleModelConfig roleName="Súng thần HQ đặc biệt" fileName="HJ044.swf" id="HJ044" feetPoint="0,0" heartPoint="16,-102" headPoint="22,-146" direction="1" attack="105,-85" rageSkill="105,-85"/>
+  <roleModelConfig roleName="Nhóm pháp lý" fileName="HJ045.swf" id="HJ045" feetPoint="0,0" heartPoint="9,-106" headPoint="33,-161" direction="1" attack="140,-82" rageSkill="140,-82"/>
+  <roleModelConfig roleName="Thẩm phán có tội" fileName="HJ046.swf" id="HJ046" feetPoint="0,0" heartPoint="18,-106" headPoint="16,-160" direction="1" attack="109,-52" rageSkill="109,-52"/>
+  <roleModelConfig roleName="Kẻ ám sát tư pháp" fileName="HJ047.swf" id="HJ047" feetPoint="0,0" heartPoint="6,-95" headPoint="2,-150" direction="1" attack="91,-116" rageSkill="91,-116"/>
+  <roleModelConfig roleName="Tay chùy chính nghĩa" fileName="HJ048.swf" id="HJ048" feetPoint="0,0" heartPoint="11,-100" headPoint="11,-153" direction="1" attack="128,-69" rageSkill="128,-69"/>
+  <roleModelConfig roleName="Kẻ quyết đấu HQ" fileName="HJ049.swf" id="HJ049" feetPoint="0,0" heartPoint="4,-92" headPoint="-3,-144" direction="1" attack="86,-89" rageSkill="86,-89"/>
+  <roleModelConfig roleName="Thánh kiếm sĩ HQ" fileName="HJ050.swf" id="HJ050" feetPoint="0,0" heartPoint="2,-97" headPoint="7,-151" direction="1" attack="183,-67" rageSkill="183,-67"/>
+  <roleModelConfig roleName="Kiếm sĩ HT" fileName="HZ001.swf" id="HZ001" feetPoint="0,0" heartPoint="7,-69" headPoint="2,-113" direction="1" attack="148,-62" rageSkill="148,-62"/>
+  <roleModelConfig roleName="Song đao HT" fileName="HZ002.swf" id="HZ002" feetPoint="0,0" heartPoint="11,-76" headPoint="11,-125" direction="1" attack="96,-93" rageSkill="96,-93"/>
+  <roleModelConfig roleName="Trọng kiếm sĩ HT" fileName="HZ003.swf" id="HZ003" feetPoint="0,0" heartPoint="20,-82" headPoint="21,-139" direction="1" attack="212,-43" rageSkill="212,-43"/>
+  <roleModelConfig roleName="Tay côn HT" fileName="HZ004.swf" id="HZ004" feetPoint="0,0" heartPoint="0,-62" headPoint="-10,-127" direction="1" attack="94,-62" rageSkill="94,-62"/>
+  <roleModelConfig roleName="Tay búa HT" fileName="HZ005.swf" id="HZ005" feetPoint="0,0" heartPoint="4,-84" headPoint="-1,-132" direction="1" attack="68,-55" rageSkill="68,-55"/>
+  <roleModelConfig roleName="Tay chùy HT" fileName="HZ006.swf" id="HZ006" feetPoint="0,0" heartPoint="23,-92" headPoint="23,-142" direction="1" attack="154,-73" rageSkill="154,-73"/>
+  <roleModelConfig roleName="Tay súng HT" fileName="HZ007.swf" id="HZ007" feetPoint="0,0" heartPoint="-1,-79" headPoint="-3,-130" direction="1" attack="66,-69" rageSkill="66,-69"/>
+  <roleModelConfig roleName="Súng máy HT" fileName="HZ008.swf" id="HZ008" feetPoint="0,0" heartPoint="9,-90" headPoint="0,-135" direction="1" attack="76,-73" rageSkill="76,-73"/>
+  <roleModelConfig roleName="HT bắn tỉa" fileName="HZ009.swf" id="HZ009" feetPoint="0,0" heartPoint="3,-81" headPoint="2,-138" direction="1" attack="119,-96" rageSkill="119,-96"/>
+  <roleModelConfig roleName="Pháo thủ HT" fileName="HZ010.swf" id="HZ010" feetPoint="0,0" heartPoint="8,-70" headPoint="3,-122" direction="1" attack="84,-85" rageSkill="84,-85"/>
+  <roleModelConfig roleName="Pháo tiễn HT" fileName="HZ011.swf" id="HZ011" feetPoint="0,0" heartPoint="4,-77" headPoint="-4,-134" direction="1" attack="75,-100" rageSkill="75,-100"/>
+  <roleModelConfig roleName="Thầy thuốc HT" fileName="HZ012.swf" id="HZ012" feetPoint="0,0" heartPoint="10,-96" headPoint="-6,-143" direction="1" attack="72,-113" rageSkill="72,-113"/>
+  <roleModelConfig roleName="Đầu bếp HT" fileName="HZ013.swf" id="HZ013" feetPoint="0,0" heartPoint="2,-89" headPoint="-1,-143" direction="1" attack="111,-65" rageSkill="111,-65"/>
+  <roleModelConfig roleName="Đầu bếp HT cao cấp" fileName="HZ014.swf" id="HZ014" feetPoint="0,0" heartPoint="9,-86" headPoint="1,-154" direction="1" attack="43,-104" rageSkill="43,-104"/>
+  <roleModelConfig roleName="Nhạc công HT" fileName="HZ015.swf" id="HZ015" feetPoint="0,0" heartPoint="-5,-85" headPoint="-11,-134" direction="1" attack="13,-103" rageSkill="13,-103"/>
+  <roleModelConfig roleName="Nhạc sĩ HT" fileName="HZ016.swf" id="HZ016" feetPoint="0,0" heartPoint="5,-96" headPoint="1,-147" direction="1" attack="28,-107" rageSkill="28,-107"/>
+  <roleModelConfig roleName="Hoa tiêu HT" fileName="HZ017.swf" id="HZ017" feetPoint="0,0" heartPoint="6,-85" headPoint="4,-138" direction="1" attack="44,-88" rageSkill="44,-88"/>
+  <roleModelConfig roleName="Bác sĩ HT" fileName="HZ018.swf" id="HZ018" feetPoint="0,0" heartPoint="0,-79" headPoint="4,-126" direction="1" attack="55,-79" rageSkill="55,-79"/>
+  <roleModelConfig roleName="Bác sĩ HT cao cấp" fileName="HZ019.swf" id="HZ019" feetPoint="0,0" heartPoint="6,-86" headPoint="0,-140" direction="1" attack="102,-57" rageSkill="102,-57"/>
+  <roleModelConfig roleName="Thích khách nhỏ" fileName="HZ020.swf" id="HZ020" feetPoint="0,0" heartPoint="6,-78" headPoint="9,-128" direction="1" attack="83,-82" rageSkill="83,-82"/>
+  <roleModelConfig roleName="Thích khách lớn" fileName="HZ021.swf" id="HZ021" feetPoint="0,0" heartPoint="13,-84" headPoint="10,-140" direction="1" attack="57,-90" rageSkill="57,-90"/>
+  <roleModelConfig roleName="Pháp sư HT tập sự" fileName="HZ022.swf" id="HZ022" feetPoint="0,0" heartPoint="0,-66" headPoint="0,-115" direction="1" attack="44,-98" rageSkill="44,-98"/>
+  <roleModelConfig roleName="Pháp sư HT" fileName="HZ023.swf" id="HZ023" feetPoint="0,0" heartPoint="3,-81" headPoint="-4,-127" direction="1" attack="34,-79" rageSkill="34,-79"/>
+  <roleModelConfig roleName="Đạo sư HT" fileName="HZ024.swf" id="HZ024" feetPoint="0,0" heartPoint="11,-86" headPoint="4,-139" direction="1" attack="46,-80" rageSkill="46,-80"/>
+  <roleModelConfig roleName="pháo thủ HT đặc biệt" fileName="HZ025.swf" id="HZ025" feetPoint="0,0" heartPoint="-2,-79" headPoint="-1,-132" direction="1" attack="30,-103" rageSkill="30,-103"/>
+  <roleModelConfig roleName="Hỏa pháo HT đặc biệt" fileName="HZ026.swf" id="HZ026" feetPoint="0,0" heartPoint="-1,-94" headPoint="-8,-152" direction="1" attack="82,-115" rageSkill="82,-115"/>
+  <roleModelConfig roleName="Tay súng HT đặc biệt" fileName="HZ027.swf" id="HZ027" feetPoint="0,0" heartPoint="8,-85" headPoint="1,-131" direction="1" attack="78,-78" rageSkill="78,-78"/>
+  <roleModelConfig roleName="Súng pháo thủ đặc biệt" fileName="HZ028.swf" id="HZ028" feetPoint="0,0" heartPoint="10,-101" headPoint="1,-152" direction="1" attack="120,-81" rageSkill="120,-81"/>
+  <roleModelConfig roleName="HT song đao-nguyên" fileName="HZ029.swf" id="HZ029" feetPoint="0,0" heartPoint="11,-58" headPoint="24,-113" direction="1" attack="66,-88" rageSkill="66,-88"/>
+  <roleModelConfig roleName="HT chùy sắt-nguyên" fileName="HZ030.swf" id="HZ030" feetPoint="0,0" heartPoint="20,-70" headPoint="36,-120" direction="1" attack="108,-43" rageSkill="108,-43"/>
+  <roleModelConfig roleName="Tay súng HT-nguyên" fileName="HZ031.swf" id="HZ031" feetPoint="0,0" heartPoint="6,-76" headPoint="-1,-128" direction="1" attack="41,-68" rageSkill="41,-68"/>
+  <roleModelConfig roleName="Tay súng HT bạo" fileName="HZ032.swf" id="HZ032" feetPoint="0,0" heartPoint="12,-90" headPoint="3,-164" direction="1" attack="106,-90" rageSkill="106,-90"/>
+  <roleModelConfig roleName="Pháo thủ HT bạo" fileName="HZ033.swf" id="HZ033" feetPoint="0,0" heartPoint="9,-95" headPoint="2,-144" direction="1" attack="80,-71" rageSkill="80,-71"/>
+  <roleModelConfig roleName="HT kiếm lớn" fileName="HZ034.swf" id="HZ034" feetPoint="0,0" heartPoint="6,-100" headPoint="0,-155" direction="1" attack="173,-67" rageSkill="173,-67"/>
+  <roleModelConfig roleName="HT chùy sét" fileName="HZ035.swf" id="HZ035" feetPoint="0,0" heartPoint="3,-91" headPoint="5,-146" direction="1" attack="178,-49" rageSkill="178,-49"/>
+  <roleModelConfig roleName="Súng thần HT" fileName="HZ036.swf" id="HZ036" feetPoint="0,0" heartPoint="8,-95" headPoint="1,-148" direction="1" attack="134,-104" rageSkill="134,-104"/>
+  <roleModelConfig roleName="Pháo thủ diệt ma" fileName="HZ037.swf" id="HZ037" feetPoint="0,0" heartPoint="15,-95" headPoint="7,-145" direction="1" attack="108,-118" rageSkill="108,-118"/>
+  <roleModelConfig roleName="Đầu bếp thiên thần" fileName="HZ038.swf" id="HZ038" feetPoint="0,0" heartPoint="6,-91" headPoint="1,-139" direction="1" attack="58,-100" rageSkill="58,-100"/>
+  <roleModelConfig roleName="Chỉ huy HT" fileName="HZ039.swf" id="HZ039" feetPoint="0,0" heartPoint="1,-93" headPoint="-1,-142" direction="1" attack="40,-106" rageSkill="40,-106"/>
+  <roleModelConfig roleName="Thánh giả HT" fileName="HZ040.swf" id="HZ040" feetPoint="0,0" heartPoint="-2,-87" headPoint="1,-146" direction="1" attack="8,-103" rageSkill="8,-103"/>
+  <roleModelConfig roleName="Ảnh sĩ HT" fileName="HZ041.swf" id="HZ041" feetPoint="0,0" heartPoint="8,-84" headPoint="10,-147" direction="1" attack="260,-127" rageSkill="260,-127"/>
+  <roleModelConfig roleName="Thầy nguyên tố HT" fileName="HZ042.swf" id="HZ042" feetPoint="0,0" heartPoint="7,-91" headPoint="-1,-147" direction="1" attack="100,-126" rageSkill="100,-126"/>
+  <roleModelConfig roleName="Pháo sáng HT" fileName="HZ043.swf" id="HZ043" feetPoint="0,0" heartPoint="2,-93" headPoint="13,-147" direction="1" attack="66,-72" rageSkill="66,-72"/>
+  <roleModelConfig roleName="Súng thần HT đặc biệt" fileName="HZ044.swf" id="HZ044" feetPoint="0,0" heartPoint="6,-102" headPoint="0,-154" direction="1" attack="87,-60" rageSkill="87,-60"/>
+  <roleModelConfig roleName="Chùy ma HT" fileName="HZ045.swf" id="HZ045" feetPoint="0,0" heartPoint="5,-98" headPoint="14,-162" direction="1" attack="187,-41" rageSkill="187,-41"/>
+  <roleModelConfig roleName="Kẻ quyết đấu HT" fileName="HZ046.swf" id="HZ046" feetPoint="0,0" heartPoint="3,-91" headPoint="7,-146" direction="1" attack="148,-98" rageSkill="148,-98"/>
+  <roleModelConfig roleName="Kiếm ma HT" fileName="HZ047.swf" id="HZ047" feetPoint="0,0" heartPoint="10,-102" headPoint="3,-160" direction="1" attack="137,-71" rageSkill="137,-71"/>
+  <roleModelConfig roleName="Bạch tuộc（3x3）" fileName="S007.swf" id="S007" feetPoint="0,0" heartPoint="-149,-36" headPoint="-95,-359" direction="1" attack="57,-87" rageSkill="142,-135"/>
+  <roleModelConfig roleName="Rồng lớn（3x3）" fileName="S008.swf" id="S008" feetPoint="0,0" heartPoint="-132,-137" headPoint="-167,-243" direction="1" attack="77,-403" rageSkill="167,-207"/>
+  <roleModelConfig roleName="Thiếu niên nhiệt huyết" fileName="S001.swf" id="S001" feetPoint="0,0" heartPoint="8,-81" headPoint="6,-127" direction="1" attack="90,-54" rageSkill="96,-83"/>
+  <roleModelConfig roleName="Anh chàng đẹp trai" fileName="S002.swf" id="S002" feetPoint="0,0" heartPoint="-5,-84" headPoint="-1,-135" direction="1" attack="50,-62" rageSkill="132,-99"/>
+  <roleModelConfig roleName="Coldboy" fileName="S003.swf" id="S003" feetPoint="0,0" heartPoint="12,-97" headPoint="1,-147" direction="1" attack="127,-84" rageSkill="127,-84"/>
+  <roleModelConfig roleName="Công chúa Loli" fileName="S004.swf" id="S004" feetPoint="0,0" heartPoint="6,-61" headPoint="-1,-110" direction="1" attack="93,-121" rageSkill="93,-121"/>
+  <roleModelConfig roleName="Cô gái trẻ" fileName="S005.swf" id="S005" feetPoint="0,0" heartPoint="0,-94" headPoint="-8,-137" direction="1" attack="42,-107" rageSkill="36,-110"/>
+  <roleModelConfig roleName="Roya gợi cảm" fileName="S006.swf" id="S006" feetPoint="0,0" heartPoint="-3,-103" headPoint="6,-145" direction="1" attack="97,-68" rageSkill="97,-86"/>
+  <roleModelConfig roleName="Thiếu niên nhiệt huyết（Áo đen）" fileName="S009.swf" id="S009" feetPoint="0,0" heartPoint="8,-81" headPoint="6,-127" direction="1" attack="90,-54" rageSkill="96,-83"/>
+  <roleModelConfig roleName="Chàng đẹp trai（Áo đen）" fileName="S010.swf" id="S010" feetPoint="0,0" heartPoint="-5,-84" headPoint="-1,-135" direction="1" attack="50,-62" rageSkill="132,-99"/>
+  <roleModelConfig roleName="Coldboy（Áo đen）" fileName="S011.swf" id="S011" feetPoint="0,0" heartPoint="12,-97" headPoint="1,-147" direction="1" attack="127,-84" rageSkill="127,-84"/>
+  <roleModelConfig roleName="Công chúa Loli（Áo đen）" fileName="S012.swf" id="S012" feetPoint="0,0" heartPoint="6,-61" headPoint="-1,-110" direction="1" attack="93,-121" rageSkill="93,-121"/>
+  <roleModelConfig roleName="Cô gái trẻ（Áo đen）" fileName="S013.swf" id="S013" feetPoint="0,0" heartPoint="0,-94" headPoint="-8,-137" direction="1" attack="42,-107" rageSkill="36,-110"/>
+  <roleModelConfig roleName="Roya gợi cảm（Áo đen）" fileName="S014.swf" id="S014" feetPoint="0,0" heartPoint="-3,-103" headPoint="6,-145" direction="1" attack="97,-68" rageSkill="97,-86"/>
+  <roleModelConfig roleName="Ốc bươu" fileName="GW001.swf" id="GW001" feetPoint="0,0" heartPoint="-13,-42" headPoint="32,-92" direction="1" attack="90,-18" rageSkill="90,-18"/>
+  <roleModelConfig roleName="Cua" fileName="GW002.swf" id="GW002" feetPoint="0,0" heartPoint="13,-38" headPoint="12,-116" direction="1" attack="92,-25" rageSkill="92,-25"/>
+  <roleModelConfig roleName="Bò biển Kungfu" fileName="GW003.swf" id="GW003" feetPoint="0,0" heartPoint="14,-33" headPoint="6,-78" direction="1" attack="41,-35" rageSkill="41,-35"/>
+  <roleModelConfig roleName="Chim gấu trúc" fileName="GW004.swf" id="GW004" feetPoint="0,0" heartPoint="2,-68" headPoint="21,-114" direction="1" attack="38,-56" rageSkill="38,-56"/>
+  <roleModelConfig roleName="Gấu trúc" fileName="GW005.swf" id="GW005" feetPoint="0,0" heartPoint="7,-112" headPoint="-22,-169" direction="1" attack="97,-103" rageSkill="97,-103"/>
+  <roleModelConfig roleName="Gấu" fileName="GW006.swf" id="GW006" feetPoint="0,0" heartPoint="0,-85" headPoint="7,-163" direction="1" attack="90,-102" rageSkill="90,-102"/>
+  <roleModelConfig roleName="Chuột đồng" fileName="GW007.swf" id="GW007" feetPoint="0,0" heartPoint="2,-30" headPoint="-3,-83" direction="1" attack="72,-40" rageSkill="72,-40"/>
+  <roleModelConfig roleName="Dơi" fileName="GW008.swf" id="GW008" feetPoint="0,0" heartPoint="5,-100" headPoint="9,-167" direction="1" attack="40,-86" rageSkill="40,-86"/>
+  <roleModelConfig roleName="Rồng nhanh mạnh" fileName="GW009.swf" id="GW009" feetPoint="0,0" heartPoint="28,-68" headPoint="50,-135" direction="1" attack="83,-36" rageSkill="83,-36"/>
+  <roleModelConfig roleName="Ngựa cỏ" fileName="GW010.swf" id="GW010" feetPoint="0,0" heartPoint="20,-15" headPoint="24,-121" direction="1" attack="102,-59" rageSkill="102,-59"/>
+  <roleModelConfig roleName="Gấu mặc giáp" fileName="GW011.swf" id="GW011" feetPoint="0,0" heartPoint="5,-108" headPoint="1,-183" direction="1" attack="170,-119" rageSkill="170,-119"/>
+  <roleModelConfig roleName="Gấu trúc đấm thép" fileName="GW012.swf" id="GW012" feetPoint="0,0" heartPoint="8,-113" headPoint="-25,-177" direction="1" attack="128,-107" rageSkill="128,-107"/>
+  <roleModelConfig roleName="Ngựa chiến giáp" fileName="GW013.swf" id="GW013" feetPoint="0,0" heartPoint="12,-44" headPoint="25,-130" direction="1" attack="61,-47" rageSkill="61,-47"/>
+  <roleModelConfig roleName="Cua càng sắt" fileName="GW014.swf" id="GW014" feetPoint="0,0" heartPoint="15,-38" headPoint="16,-133" direction="1" attack="88,-48" rageSkill="88,-48"/>
+  <roleModelConfig roleName="Lạc đà Loli" fileName="GW015.swf" id="GW015" feetPoint="0,0" heartPoint="10,-31" headPoint="21,-113" direction="1" attack="56,-83" rageSkill="56,-83"/>
+  <roleModelConfig roleName="Vua cánh cụt" fileName="GW016.swf" id="GW016" feetPoint="0,0" heartPoint="6,-46" headPoint="-1,-87" direction="1" attack="72,-29" rageSkill="72,-29"/>
+  <roleModelConfig roleName="Zombie xung phong" fileName="GW017.swf" id="GW017" feetPoint="0,0" heartPoint="4,-89" headPoint="10,-155" direction="1" attack="85,-89" rageSkill="85,-89"/>
+  <roleModelConfig roleName="Zombie gấu trúc" fileName="GW018.swf" id="GW018" feetPoint="0,0" heartPoint="6,-95" headPoint="10,-142" direction="1" attack="111,-98" rageSkill="111,-98"/>
+  <roleModelConfig roleName="Zombie đồ tể" fileName="GW019.swf" id="GW019" feetPoint="0,0" heartPoint="18,-95" headPoint="28,-149" direction="1" attack="164,-101" rageSkill="164,-101"/>
+  <roleModelConfig roleName="Zombie ma linh" fileName="GW020.swf" id="GW020" feetPoint="0,0" heartPoint="-1,-93" headPoint="-4,-145" direction="1" attack="31,-90" rageSkill="31,-90"/>
+  <roleModelConfig roleName="Zombie gấu trúc" fileName="GW021.swf" id="GW021" feetPoint="0,0" heartPoint="29,-84" headPoint="30,-206" direction="1" attack="297,-91" rageSkill="297,-91"/>
+  <roleModelConfig roleName="Zombie chuột túi" fileName="GW022.swf" id="GW022" feetPoint="0,0" heartPoint="0,-76" headPoint="1,-143" direction="1" attack="133,-88" rageSkill="133,-88"/>
+  <roleModelConfig roleName="Zombie giáp sắt" fileName="GW023.swf" id="GW023" feetPoint="0,0" heartPoint="5,-91" headPoint="1,-142" direction="1" attack="99,-41" rageSkill="99,-41"/>
+  <roleModelConfig roleName="Thuyền trưởng John" fileName="GW024.swf" id="GW024" feetPoint="0,0" heartPoint="2,-88" headPoint="0,-140" direction="1" attack="160,-80" rageSkill="160,-80"/>
+  <roleModelConfig roleName="Zombie búa lớn" fileName="GW025.swf" id="GW025" feetPoint="0,0" heartPoint="7,-101" headPoint="-4,-162" direction="1" attack="148,-58" rageSkill="148,-58"/>
+  <roleModelConfig roleName="Zombie đầu bò" fileName="GW026.swf" id="GW026" feetPoint="0,0" heartPoint="9,-100" headPoint="4,-167" direction="1" attack="190,-78" rageSkill="190,-78"/>
+  <roleModelConfig roleName="Zombie nhân mã" fileName="GW027.swf" id="GW027" feetPoint="0,0" heartPoint="20,-99" headPoint="18,-152" direction="1" attack="223,-58" rageSkill="223,-58"/>
+  <roleModelConfig roleName="Cung thủ Cửu Xà" fileName="GW028.swf" id="GW028" feetPoint="0,0" heartPoint="-1,-102" headPoint="-3,-152" direction="1" attack="61,-100" rageSkill="61,-100"/>
+  <roleModelConfig roleName="Quyền thủ Cửu Xà" fileName="GW029.swf" id="GW029" feetPoint="0,0" heartPoint="3,-102" headPoint="1,-149" direction="1" attack="74,-96" rageSkill="74,-96"/>
+  <roleModelConfig roleName="Hoa tiêu Cửu Xà" fileName="GW030.swf" id="GW030" feetPoint="0,0" heartPoint="-2,-95" headPoint="-4,-151" direction="1" attack="29,-107" rageSkill="29,-107"/>
+  <roleModelConfig roleName="Kiếm sĩ Cửu Xà" fileName="GW031.swf" id="GW031" feetPoint="0,0" heartPoint="9,-98" headPoint="5,-152" direction="1" attack="189,-75" rageSkill="189,-75"/>
+  <roleModelConfig roleName="Đầu bếp Cửu Xà" fileName="GW032.swf" id="GW032" feetPoint="0,0" heartPoint="3,-97" headPoint="0,-153" direction="1" attack="53,-104" rageSkill="53,-104"/>
+  <roleModelConfig roleName="Pháp sư Cửu Xà" fileName="GW033.swf" id="GW033" feetPoint="0,0" heartPoint="13,-103" headPoint="9,-175" direction="1" attack="59,-217" rageSkill="59,-217"/>
+  <roleModelConfig roleName="Ngựa vằn biển" fileName="GW034.swf" id="GW034" feetPoint="0,0" heartPoint="69,-171" headPoint="50,-420" direction="1" attack="327,-225" rageSkill="327,-225"/>
+  <roleModelConfig roleName="Sư tử biển" fileName="GW035.swf" id="GW035" feetPoint="0,0" heartPoint="14,-120" headPoint="144,-392" direction="1" attack="188,-179" rageSkill="188,-179"/>
+  <roleModelConfig roleName="Gấu biển" fileName="GW036.swf" id="GW036" feetPoint="0,0" heartPoint="20,-132" headPoint="38,-400" direction="1" attack="169,-208" rageSkill="169,-208"/>
+  <roleModelConfig roleName="Râu trắng（3x3）" fileName="YC001.swf" id="YC001" feetPoint="0,0" heartPoint="18,-148" headPoint="3,-204" direction="1" attack="124,-113" rageSkill="78,-124"/>
+  <roleModelConfig roleName="Mắt ưng" fileName="YC002.swf" id="YC002" feetPoint="0,0" heartPoint="1,-105" headPoint="1,-149" direction="1" attack="136,-105" rageSkill="155,-49"/>
+  <roleModelConfig roleName="Portgas D. Ace" fileName="YC003.swf" id="YC003" feetPoint="0,0" heartPoint="4,-74" headPoint="7,-124" direction="1" attack="93,-7" rageSkill="103,-73"/>
+  <roleModelConfig roleName="Aokiji Kuzan" fileName="YC004.swf" id="YC004" feetPoint="0,0" heartPoint="8,-98" headPoint="2,-146" direction="1" attack="142,-80" rageSkill="90,-96"/>
+  <roleModelConfig roleName="Monkey·D·.Luffy" fileName="YC005.swf" id="YC005" feetPoint="0,0" heartPoint="5,-70" headPoint="4,-110" direction="1" attack="114,-64" rageSkill="110,-60"/>
+  <roleModelConfig roleName="Nami" fileName="YC006.swf" id="YC006" feetPoint="0,0" heartPoint="8,-80" headPoint="2,-127" direction="1" attack="68,-38" rageSkill="48,-74"/>
+  <roleModelConfig roleName="Roronoa.Zoro" fileName="YC007.swf" id="YC007" feetPoint="0,0" heartPoint="1,-84" headPoint="-4,-135" direction="1" attack="60,-30" rageSkill="80,-51"/>
+  <roleModelConfig roleName="Shanji" fileName="YC008.swf" id="YC008" feetPoint="0,0" heartPoint="9,-90" headPoint="7,-137" direction="1" attack="66,-103" rageSkill="64,-126"/>
+  <roleModelConfig roleName="Usopp" fileName="YC009.swf" id="YC009" feetPoint="0,0" heartPoint="8,-75" headPoint="2,-120" direction="1" attack="97,-83" rageSkill="97,-83"/>
+  <roleModelConfig roleName="Nico Robin" fileName="YC010.swf" id="YC010" feetPoint="0,0" heartPoint="7,-83" headPoint="1,-126" direction="1" attack="15,-82" rageSkill="15,-82"/>
+  <roleModelConfig roleName="Tony Tony Chopper" fileName="YC011.swf" id="YC011" feetPoint="0,0" heartPoint="1,-33" headPoint="-3,-81" direction="1" attack="124,-88" rageSkill="34,-31"/>
+  <roleModelConfig roleName="Chú hề Buggy" fileName="YC012.swf" id="YC012" feetPoint="0,0" heartPoint="0,-77" headPoint="-8,-136" direction="1" attack="165,-70" rageSkill="75,-123"/>
+  <roleModelConfig roleName="Alvida" fileName="YC013.swf" id="YC013" feetPoint="0,0" heartPoint="6,-88" headPoint="1,-145" direction="1" attack="147,-14" rageSkill="102,-14"/>
+  <roleModelConfig roleName="Alvida mập" fileName="YC014.swf" id="YC014" feetPoint="0,0" heartPoint="27,-118" headPoint="-4,-198" direction="1" attack="165,-82" rageSkill="165,-82"/>
+  <roleModelConfig roleName="Đại tá Monkey" fileName="YC015.swf" id="YC015" feetPoint="0,0" heartPoint="8,-100" headPoint="-8,-152" direction="1" attack="155,-10" rageSkill="155,-10"/>
+  <roleModelConfig roleName="Thuyền trưởng Jack" fileName="YC016.swf" id="YC016" feetPoint="0,0" heartPoint="9,-81" headPoint="6,-126" direction="1" attack="95,-113" rageSkill="50,-128"/>
+  <roleModelConfig roleName="Don Krieg" fileName="YC017.swf" id="YC017" feetPoint="0,0" heartPoint="8,-93" headPoint="5,-144" direction="1" attack="177,-83" rageSkill="21,-85"/>
+  <roleModelConfig roleName="MR.2" fileName="YC018.swf" id="YC018" feetPoint="0,0" heartPoint="-1,-84" headPoint="2,-135" direction="1" attack="87,-78" rageSkill="73,-101"/>
+  <roleModelConfig roleName="Smoker" fileName="YC019.swf" id="YC019" feetPoint="0,0" heartPoint="8,-80" headPoint="11,-137" direction="1" attack="199,-73" rageSkill="141,-20"/>
+  <roleModelConfig roleName="Franky" fileName="YC020.swf" id="YC020" feetPoint="0,0" heartPoint="1,-91" headPoint="3,-136" direction="1" attack="69,-80" rageSkill="79,-94"/>
+  <roleModelConfig roleName="Thần. Enel" fileName="YC021.swf" id="YC021" feetPoint="0,0" heartPoint="11,-121" headPoint="6,-182" direction="1" attack="76,-184" rageSkill="15,-170"/>
+  <roleModelConfig roleName="Crocodile" fileName="YC022.swf" id="YC022" feetPoint="0,0" heartPoint="12,-106" headPoint="2,-149" direction="1" attack="100,-89" rageSkill="33,-107"/>
+  <roleModelConfig roleName="Keya" fileName="YC023.swf" id="YC023" feetPoint="0,0" heartPoint="4,-75" headPoint="-1,-120" direction="1" attack="18,-73" rageSkill="18,-73"/>
+  <roleModelConfig roleName="Wapol" fileName="YC024.swf" id="YC024" feetPoint="0,0" heartPoint="20,-86" headPoint="25,-144" direction="1" attack="101,-116" rageSkill="101,-138"/>
+  <roleModelConfig roleName="Vivi" fileName="YC025.swf" id="YC025" feetPoint="0,0" heartPoint="3,-70" headPoint="-1,-117" direction="1" attack="52,-68" rageSkill="52,-68"/>
+  <roleModelConfig roleName="Helmeppo" fileName="YC026.swf" id="YC026" feetPoint="0,0" heartPoint="-6,-66" headPoint="-10,-119" direction="1" attack="54,-77" rageSkill="54,-77"/>
+  <roleModelConfig roleName="Tashigi" fileName="YC027.swf" id="YC027" feetPoint="0,0" heartPoint="7,-76" headPoint="0,-122" direction="1" attack="186,-47" rageSkill="146,-71"/>
+  <roleModelConfig roleName="Luyện thú Moki" fileName="YC028.swf" id="YC028" feetPoint="0,0" heartPoint="12,-77" headPoint="22,-129" direction="1" attack="203,-58" rageSkill="203,-58"/>
+  <roleModelConfig roleName="Yorki" fileName="YC029.swf" id="YC029" feetPoint="0,0" heartPoint="-4,-95" headPoint="-3,-154" direction="1" attack="103,-92" rageSkill="116,-90"/>
+  <roleModelConfig roleName="Miss Monday" fileName="YC030.swf" id="YC030" feetPoint="0,0" heartPoint="9,-90" headPoint="10,-142" direction="1" attack="163,-80" rageSkill="163,-80"/>
+  <roleModelConfig roleName="Miss Valentine" fileName="YC031.swf" id="YC031" feetPoint="0,0" heartPoint="3,-78" headPoint="1,-122" direction="1" attack="35,-78" rageSkill="35,-78"/>
+  <roleModelConfig roleName="Dalton[Bò]" fileName="YC032.swf" id="YC032" feetPoint="0,0" heartPoint="4,-103" headPoint="-3,-150" direction="1" attack="149,-85" rageSkill="42,-163"/>
+  <roleModelConfig roleName="Thầy thôi miên Jango" fileName="YC033.swf" id="YC033" feetPoint="0,0" heartPoint="1,-77" headPoint="-2,-147" direction="1" attack="79,-89" rageSkill="90,-84"/>
+  <roleModelConfig roleName="Hachi lục đạo" fileName="YC034.swf" id="YC034" feetPoint="0,0" heartPoint="13,-81" headPoint="14,-130" direction="1" attack="158,-85" rageSkill="107,-83"/>
+  <roleModelConfig roleName="Mr.5[Thuốc nổ]" fileName="YC035.swf" id="YC035" feetPoint="0,0" heartPoint="7,-88" headPoint="2,-135" direction="1" attack="40,-73" rageSkill="95,-119"/>
+  <roleModelConfig roleName="Miss Pola[Dùi]" fileName="YC036.swf" id="YC036" feetPoint="0,0" heartPoint="8,-85" headPoint="4,-131" direction="1" attack="71,-53" rageSkill="96,-83"/>
+  <roleModelConfig roleName="Mr.1[Đao nam]" fileName="YC037.swf" id="YC037" feetPoint="0,0" heartPoint="4,-96" headPoint="5,-144" direction="1" attack="110,-57" rageSkill="75,-113"/>
+  <roleModelConfig roleName="Mr.3[Nến]" fileName="YC038.swf" id="YC038" feetPoint="0,0" heartPoint="8,-79" headPoint="6,-123" direction="1" attack="67,-23" rageSkill="69,-8"/>
+  <roleModelConfig roleName="Bellamy linh cẩu" fileName="YC039.swf" id="YC039" feetPoint="0,0" heartPoint="5,-88" headPoint="7.-136" direction="1" attack="149,-76" rageSkill="193,-79"/>
+  <roleModelConfig roleName="Wiper[Lính du ký]" fileName="YC040.swf" id="YC040" feetPoint="0,0" heartPoint="9,-83" headPoint="16,-137" direction="1" attack="113,-96" rageSkill="103,-73"/>
+  <roleModelConfig roleName="Kohza" fileName="YC041.swf" id="YC041" feetPoint="0,0" heartPoint="4,-86" headPoint="10,-132" direction="1" attack="119,-52" rageSkill="30,-169"/>
+  <roleModelConfig roleName="Kaku[C9 Hươu cao cổ]" fileName="YC042.swf" id="YC042" feetPoint="0,0" heartPoint="7,-94" headPoint="0,-144" direction="1" attack="95,-109" rageSkill="106,-88"/>
+  <roleModelConfig roleName="Spandam[C9 thủ lĩnh]" fileName="YC043.swf" id="YC043" feetPoint="0,0" heartPoint="3,-82" headPoint="-2,-142" direction="1" attack="107,-98" rageSkill="119,-81"/>
+  <roleModelConfig roleName="Fukuro[C9]" fileName="YC044.swf" id="YC044" feetPoint="0,0" heartPoint="9,-90" headPoint="-11,-151" direction="1" attack="146,-78" rageSkill="146,-78"/>
+  <roleModelConfig roleName="Gan Fall" fileName="YC045.swf" id="YC045" feetPoint="0,0" heartPoint="14,-87" headPoint="13,-141" direction="1" attack="231,-48" rageSkill="231,-48"/>
+  <roleModelConfig roleName="Falcon" fileName="YC046.swf" id="YC046" feetPoint="0,0" heartPoint="10,-86" headPoint="16,-138" direction="1" attack="162,-90" rageSkill="82,-74"/>
+  <roleModelConfig roleName="Kumadori[C9]" fileName="YC047.swf" id="YC047" feetPoint="0,0" heartPoint="16,-122" headPoint="9,-179" direction="1" attack="107,-119" rageSkill="107,-119"/>
+  <roleModelConfig roleName="Cabaji" fileName="YC048.swf" id="YC048" feetPoint="0,0" heartPoint="9,-100" headPoint="12,-137" direction="1" attack="66,-72" rageSkill="83,-72"/>
+  <roleModelConfig roleName="Arlong" fileName="YC049.swf" id="YC049" feetPoint="0,0" heartPoint="11,-100" headPoint="13,-162" direction="1" attack="138,-105" rageSkill="114,-77"/>
+  <roleModelConfig roleName="Conis" fileName="YC050.swf" id="YC050" feetPoint="0,0" heartPoint="4,-73" headPoint="-4,-126" direction="1" attack="20,-86" rageSkill="34,-83"/>
+  <roleModelConfig roleName="Foxy" fileName="YC051.swf" id="YC051" feetPoint="0,0" heartPoint="6,-85" headPoint="4,-144" direction="1" attack="89,-80" rageSkill="86,-83"/>
+  <roleModelConfig roleName="Kalifa" fileName="YC052.swf" id="YC052" feetPoint="0,0" heartPoint="6,-90" headPoint="2,-140" direction="1" attack="261,-90" rageSkill="92,-74"/>
+  <roleModelConfig roleName="Rob Lucci" fileName="YC053.swf" id="YC053" feetPoint="0,0" heartPoint="2,-103" headPoint="3,-152" direction="1" attack="70,-108" rageSkill="119,-89"/>
+  <roleModelConfig roleName="Paulie" fileName="YC054.swf" id="YC054" feetPoint="0,0" heartPoint="5,-87" headPoint="14,-138" direction="1" attack="75,-81" rageSkill="110,-80"/>
+  <roleModelConfig roleName="Inu Inu no Mi" fileName="YC055.swf" id="YC055" feetPoint="0,0" heartPoint="6,-93" headPoint="3,-144" direction="1" attack="81,-86" rageSkill="105,-84"/>
+  <roleModelConfig roleName="Blueno·Doa Doa no Mi " fileName="YC056.swf" id="YC056" feetPoint="0,0" heartPoint="15,-95" headPoint="8,-157" direction="1" attack="50,-91" rageSkill="45,-88"/>
+</root>

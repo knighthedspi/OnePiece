@@ -1,0 +1,22 @@
+<root>
+  <zhuanshengbiao num="1" level="50" need_item=""/>
+  <zhuanshengbiao num="2" level="55" need_item=""/>
+  <zhuanshengbiao num="3" level="60" need_item=""/>
+  <zhuanshengbiao num="4" level="65" need_item=""/>
+  <zhuanshengbiao num="5" level="70" need_item=""/>
+  <zhuanshengbiao num="6" level="75" need_item=""/>
+  <zhuanshengbiao num="7" level="80" need_item=""/>
+  <zhuanshengbiao num="8" level="85" need_item=""/>
+  <zhuanshengbiao num="9" level="90" need_item=""/>
+  <zhuanshengbiao num="10" level="95" need_item=""/>
+  <zhuanshengbiao num="11" level="100" need_item=""/>
+  <zhuanshengbiao num="12" level="105" need_item=""/>
+  <zhuanshengbiao num="13" level="110" need_item=""/>
+  <zhuanshengbiao num="14" level="115" need_item=""/>
+  <zhuanshengbiao num="15" level="120" need_item=""/>
+  <zhuanshengbiao num="16" level="125" need_item=""/>
+  <zhuanshengbiao num="17" level="130" need_item=""/>
+  <zhuanshengbiao num="18" level="135" need_item=""/>
+  <zhuanshengbiao num="19" level="140" need_item=""/>
+  <zhuanshengbiao num="20" level="145" need_item=""/>
+</root>

@@ -1,0 +1,134 @@
+﻿<root>
+	<mail id='1' title='Chinh phục' />
+	<mail id='2' title='Chinh phục' />
+	<mail id='3' title='Cướp đoạt' />
+	<mail id='4' title='Cướp đoạt' />
+	<mail id='5' title='Thay đổi' />
+	<mail id='6' title='Chinh phục' />
+	<mail id='7' title='Chinh phục' />
+	<mail id='8' title='Cướp đoạt' />
+	<mail id='9' title='Cướp đoạt' />
+	<mail id='10' title='Đổi chủ cảng' />
+	<mail id='11' title='Đổi thuộc hạ cảng' />
+	<mail id='12' title='Phản kháng' />
+	<mail id='13' title='Phản kháng' />
+	<mail id='14' title='Thuộc hạ phản kháng' />
+	<mail id='15' title='Thuộc hạ phản kháng' />
+	<mail id='16' title='Bỏ' />
+	<mail id='101' title='Chiếm khoáng sản' />
+	<mail id='102' title='Cướp t.nguyên' />
+	<mail id='103' title='Cướp t.nguyên' />
+	<mail id='104' title='Đến hạn' />
+	<mail id='105' title='Cướp t.nguyên' />
+	<mail id='106' title='Cướp t.nguyên' />
+	<mail id='107' title='Cướp t.nguyên' />
+	<mail id='108' title='Cướp t.nguyên' />
+	<mail id='109' title='Cướp t.nguyên' />
+	<mail id='110' title='Cướp t.nguyên' />
+	<mail id='111' title='Cướp t.nguyên' />
+	<mail id='112' title='Cướp t.nguyên' />
+	<mail id='201' title='T.tin xin vào bang' />
+	<mail id='202' title='T.tin xin vào bang' />
+	<mail id='203' title='T.tin hệ thống bang' />
+	<mail id='204' title='T.tin tiệc bang' />
+	<mail id='205' title='T.tin tiệc bang' />
+	<mail id='206' title='Phát t.nguyên bang' />
+	<mail id='207' title='Tranh đoạt t.nguyên TG'/>
+	<mail id='208' title='Tranh đoạt t.nguyên TG' />
+	<mail id='301' title='Đánh thuyền chính' />
+	<mail id='302' title='Đánh thuyền chính' />
+	<mail id='303' title='Đánh thuyền chính' />
+	<mail id='304' title='Đánh thuyền chính' />
+	<mail id='401' title='Thêm bạn' />
+	<mail id='501' title='Quà may mắn đấu trường' />
+	<mail id='502' title='Quà đấu trường' />
+	<mail id='601' title='Thành tựu mới' />
+	<mail id='701' title='Quà tầm bảo' />
+	<mail id='702' title='Thất bại' />
+	<mail id='703' title='Thành công' />
+	<mail id='704' title='Đã bị cướp' />
+	<mail id='705' title='Đẩy lùi cướp' />
+	<mail id='801' title='T.tin hàng' />
+	<mail id='901' title='Quà tấn công cuối' />
+	<mail id='902' title='Sát thương TOP1' />
+	<mail id='903' title='Sát thương TOP2' />
+	<mail id='904' title='Sát thương TOP3' />
+	<mail id='905' title='Lực lượng dũng cảm' />
+	<mail id='1001' title='Dọn toilet' />
+	<mail id='1002' title='Đồ ăn vặt' />
+	<mail id='1003' title='Bắt rận' />
+	<mail id='1004' title='Chơi cờ phi hành' />
+	<mail id='1005' title='Ngăn chặn' />
+	<mail id='1006' title='Đáng ghét' />
+	<mail id='1007' title='Thú cưỡi' />
+	<mail id='1008' title='Giáo dục' />
+	<mail id='1009' title='Tiếng hát' />
+	<mail id='1010' title='Dọn toilet' />
+	<mail id='1011' title='Đồ ăn vặt' />
+	<mail id='1012' title='Bắt rận' />
+	<mail id='1013' title='Chơi cờ phi hành' />
+	<mail id='1014' title='Ngăn chặn' />
+	<mail id='1015' title='Đáng ghét' />
+	<mail id='1016' title='Thú cưỡi' />
+	<mail id='1017' title='Giáo dục' />
+	<mail id='1018' title='Showtime' />
+	<mail id='1101' title='Đổi quà' />
+	<mail id='906' title='Tự tham gia' />
+	<mail id='907' title='Tự tham gia' />
+
+
+	<mail id='1201' title='Thưởng Lôi Đài' />
+	<mail id='1202' title='Thưởng Lôi Đài' />
+	<mail id='1203' title='Thưởng Lôi Đài' />
+	<mail id='1204' title='Thưởng Lôi Đài' />
+	<mail id='1205' title='Thưởng Lôi Đài' />
+	<mail id='1206' title='Thưởng Lôi Đài' />
+
+	<mail id='1207' title='Thưởng trợ uy lôi đài' />
+	<mail id='1208' title='Thưởng trợ uy lôi đài' />
+	<mail id='1209' title='Thưởng trợ uy lôi đài' />
+	<mail id='1210' title='Thưởng trợ uy lôi đài' />
+	<mail id='1211' title='Thưởng trợ uy lôi đài' />
+
+	<mail id='1212' title='Quà may mắn' />
+	<mail id='1209' title='Quà siêu may mắn' />
+	<mail id='1213' title='Quà Lôi Đài' />
+	
+	<mail id='1301' title='Nâng VIP' />
+	<mail id='1401' title='Quà nạp gộp server' />
+	
+	<mail id='1501' title='Nuôi cá' />
+	<mail id='1502' title='Cá bị bắt' />
+	<mail id='1503' title='Cá con chúc phúc' />
+	<mail id='1504' title='Cá con được chúc phúc' />
+	<mail id='1505' title='Bắt cá thuộc hạ' />
+	<mail id='1506' title='Cá bị chủ nhân bắt' />
+	
+	<mail id='1601' title='Quà chiến trường hải tặc'/>
+	
+	<mail id='1701' title='Quà trợ uy Vương Giả Chiến' />
+	<mail id='1702' title='Thưởng TOP32 Vương Giả Chiến' />
+	<mail id='1703' title='Thưởng TOP16 Vương Giả Chiến' />
+	<mail id='1704' title='Thưởng TOP6 Vương Giả Chiến' />
+	<mail id='1705' title='Thưởng TOP4 Vương Giả Chiến' />
+	<mail id='1706' title='Á quân Vương Giả Chiến' />
+	<mail id='1707' title='Quán quân Vương Giả Chiến' />
+	<mail id='1708' title='Quà trợ uy Chiến liên server' />
+	<mail id='1709' title='Thưởng TOP32 Chiến liên server' />
+	<mail id='1710' title='Thưởng TOP16 Chiến liên server' />
+	<mail id='1711' title='Thưởng TOP6 Chiến liên server' />
+	<mail id='1712' title='Thưởng TOP4 Chiến liên server' />
+	<mail id='1713' title='Á quân Chiến liên server' />
+	<mail id='1714' title='Quán quân Chiến liên server' />
+	
+	<mail id='1801' title='Phòng thủ t.nguyên thất bại' />
+	<mail id='1802' title='Đoạt t.nguyên thành công' />
+	<mail id='1803' title='Thất bại' />
+	<mail id='1804' title='Bị chiếm tài nguyên' />
+	<mail id='1805' title='NPC t.nguyên hết hạn' />
+	
+	<mail id='1901' title='Thông báo công viên' />
+	
+	<mail id='2001' title='Thưởng cây ác quỷ (cá nhân)' />
+	<mail id='2002' title='Thưởng cây ác quỷ (Bang hội)' />
+</root>

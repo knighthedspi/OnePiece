@@ -1,0 +1,6 @@
+<root>
+  <item projectID="1" icon="1.jpg" projectName="Dọn nhà xí" reward_baseBelly="5" projectInfo="{vassal} bị {host} lôi đi dọn nhà xí rồi ngã luôn trong đó..." openLv="1"/>
+  <item projectID="2" icon="2.jpg" projectName="An ủi" reward_baseBelly="10" projectInfo="{host} thưởng {vassal} 1 cây xương rồng" openLv="10"/>
+  <item projectID="3" icon="3.jpg" projectName="Chọc léc" reward_baseBelly="15" projectInfo="{host} chọc {vassal} cả ngày" openLv="20"/>
+  <item projectID="4" icon="4.jpg" projectName="Cùng chơi" reward_baseBelly="20" projectInfo="{host} và {vassal} cùng chơi rất vui" openLv="30"/>
+</root>

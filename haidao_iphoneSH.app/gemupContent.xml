@@ -1,0 +1,8 @@
+﻿<root>
+Mê trận ngọc:
+1. Mê trận ngọc là hệ thống nhận điểm tích ngọc, có thể trừ ngọc để nhận điểm tích ngọc, dùng điểm tích để nâng ngọc 6 sao lên ngọc 7 sao.
+2. Có thể chọn các phạm vi khác nhau, sau khi trừ ngọc trong phạm vi tương ứng sẽ nhận điểm tích và exp ngọc.
+3. Nếu trong phạm vi chọn có bom, trong quá trình sẽ trừ ngọc trong phạm vi 3*3.
+4. Ngọc gồm 3 cấp, lần lượt là 10 - 30 - 50 điểm và 10 - 30 - 50 exp ngọc.
+5. Đạt VIP2 có thể mở "Lưu ý điểm tích trong mê trận ngọc", có thể xem trước số điểm nhận được của mỗi mức.
+</root>

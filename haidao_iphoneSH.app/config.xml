@@ -1,0 +1,5 @@
+<config>
+	<host>192.168.1.206</host>
+	<port>7777</port>
+	<AMF>3</AMF>
+</config>

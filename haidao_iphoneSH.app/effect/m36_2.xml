@@ -1,0 +1,366 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="120" actionName="m36_2">
+        <frameInfo frame="0">
+            <frameData bitmapName="m36_1" scaleX="-1.191010" scaleY="-1.191010" rotation="179.999985" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="m36_1" scaleX="1.190801" scaleY="1.190801" rotation="3.005633" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="m36_1" scaleX="1.190606" scaleY="1.190606" rotation="6.014673" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="m36_1" scaleX="1.190403" scaleY="1.190403" rotation="9.022232" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="m36_1" scaleX="1.190216" scaleY="1.190216" rotation="12.033405" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="m36_1" scaleX="1.190024" scaleY="1.190024" rotation="15.042484" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="m36_1" scaleX="1.189851" scaleY="1.189851" rotation="18.055977" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="m36_1" scaleX="1.189686" scaleY="1.189686" rotation="21.066954" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="m36_1" scaleX="1.189555" scaleY="1.189555" rotation="24.080765" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="m36_1" scaleX="1.189443" scaleY="1.189443" rotation="27.093952" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="m36_1" scaleX="1.190994" scaleY="1.190994" rotation="30.249937" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="m36_1" scaleX="1.189234" scaleY="1.189234" rotation="33.311848" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="m36_1" scaleX="1.189140" scaleY="1.189140" rotation="36.328773" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData bitmapName="m36_1" scaleX="1.189086" scaleY="1.189086" rotation="39.342690" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData bitmapName="m36_1" scaleX="1.189067" scaleY="1.189067" rotation="42.360043" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData bitmapName="m36_1" scaleX="1.189060" scaleY="1.189060" rotation="45.375370" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData bitmapName="m36_1" scaleX="1.189079" scaleY="1.189079" rotation="48.392227" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData bitmapName="m36_1" scaleX="1.189103" scaleY="1.189103" rotation="51.406902" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="18">
+            <frameData bitmapName="m36_1" scaleX="1.189179" scaleY="1.189179" rotation="54.423691" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData bitmapName="m36_1" scaleX="1.189240" scaleY="1.189240" rotation="57.438148" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="20">
+            <frameData bitmapName="m36_1" scaleX="1.191008" scaleY="1.191008" rotation="60.500492" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="21">
+            <frameData bitmapName="m36_1" scaleX="1.189455" scaleY="1.189455" rotation="63.655182" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="22">
+            <frameData bitmapName="m36_1" scaleX="1.189583" scaleY="1.189583" rotation="66.671135" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="23">
+            <frameData bitmapName="m36_1" scaleX="1.189744" scaleY="1.189744" rotation="69.682709" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="24">
+            <frameData bitmapName="m36_1" scaleX="1.189888" scaleY="1.189888" rotation="72.695724" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="25">
+            <frameData bitmapName="m36_1" scaleX="1.190074" scaleY="1.190074" rotation="75.708435" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="26">
+            <frameData bitmapName="m36_1" scaleX="1.190250" scaleY="1.190250" rotation="78.718445" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="27">
+            <frameData bitmapName="m36_1" scaleX="1.190454" scaleY="1.190454" rotation="81.728447" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="28">
+            <frameData bitmapName="m36_1" scaleX="1.190645" scaleY="1.190645" rotation="84.735901" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="29">
+            <frameData bitmapName="m36_1" scaleX="1.190849" scaleY="1.190849" rotation="87.744102" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="30">
+            <frameData bitmapName="m36_1" scaleX="1.191005" scaleY="1.191005" rotation="90.750229" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="31">
+            <frameData bitmapName="m36_1" scaleX="1.190747" scaleY="1.190747" rotation="93.758202" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="32">
+            <frameData bitmapName="m36_1" scaleX="1.190540" scaleY="1.190540" rotation="96.765053" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="33">
+            <frameData bitmapName="m36_1" scaleX="1.190348" scaleY="1.190348" rotation="99.775299" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="34">
+            <frameData bitmapName="m36_1" scaleX="1.190165" scaleY="1.190165" rotation="102.784569" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="35">
+            <frameData bitmapName="m36_1" scaleX="1.189991" scaleY="1.189991" rotation="105.796646" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="36">
+            <frameData bitmapName="m36_1" scaleX="1.189817" scaleY="1.189817" rotation="108.806259" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="37">
+            <frameData bitmapName="m36_1" scaleX="1.189659" scaleY="1.189659" rotation="111.821465" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="38">
+            <frameData bitmapName="m36_1" scaleX="1.189519" scaleY="1.189519" rotation="114.833252" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="39">
+            <frameData bitmapName="m36_1" scaleX="1.189404" scaleY="1.189404" rotation="117.848824" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="40">
+            <frameData bitmapName="m36_1" scaleX="1.191007" scaleY="1.191007" rotation="121.000275" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="41">
+            <frameData bitmapName="m36_1" scaleX="1.189195" scaleY="1.189195" rotation="124.065865" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="42">
+            <frameData bitmapName="m36_1" scaleX="1.189132" scaleY="1.189132" rotation="127.081055" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="43">
+            <frameData bitmapName="m36_1" scaleX="1.189090" scaleY="1.189090" rotation="130.097687" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="44">
+            <frameData bitmapName="m36_1" scaleX="1.189054" scaleY="1.189054" rotation="133.112396" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="45">
+            <frameData bitmapName="m36_1" scaleX="1.189061" scaleY="1.189061" rotation="136.129822" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="46">
+            <frameData bitmapName="m36_1" scaleX="1.189081" scaleY="1.189081" rotation="139.145111" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="47">
+            <frameData bitmapName="m36_1" scaleX="1.189119" scaleY="1.189119" rotation="142.161774" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="48">
+            <frameData bitmapName="m36_1" scaleX="1.189182" scaleY="1.189182" rotation="145.178604" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="49">
+            <frameData bitmapName="m36_1" scaleX="1.189249" scaleY="1.189249" rotation="148.192383" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="50">
+            <frameData bitmapName="m36_1" scaleX="1.189373" scaleY="1.189373" rotation="151.397064" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="51">
+            <frameData bitmapName="m36_1" scaleX="1.189496" scaleY="1.189496" rotation="154.409912" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="52">
+            <frameData bitmapName="m36_1" scaleX="1.189620" scaleY="1.189620" rotation="157.424515" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="53">
+            <frameData bitmapName="m36_1" scaleX="1.189776" scaleY="1.189776" rotation="160.436829" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="54">
+            <frameData bitmapName="m36_1" scaleX="1.189943" scaleY="1.189943" rotation="163.449188" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="55">
+            <frameData bitmapName="m36_1" scaleX="1.190122" scaleY="1.190122" rotation="166.459793" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="56">
+            <frameData bitmapName="m36_1" scaleX="1.190298" scaleY="1.190298" rotation="169.471390" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="57">
+            <frameData bitmapName="m36_1" scaleX="1.190494" scaleY="1.190494" rotation="172.479004" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="58">
+            <frameData bitmapName="m36_1" scaleX="1.190700" scaleY="1.190700" rotation="175.489288" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="59">
+            <frameData bitmapName="m36_1" scaleX="1.190886" scaleY="1.190886" rotation="178.494934" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="60">
+            <frameData bitmapName="m36_1" scaleX="-1.190885" scaleY="-1.190885" rotation="1.502199" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="61">
+            <frameData bitmapName="m36_1" scaleX="-1.190696" scaleY="-1.190696" rotation="4.508499" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="62">
+            <frameData bitmapName="m36_1" scaleX="-1.190501" scaleY="-1.190501" rotation="7.517969" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="63">
+            <frameData bitmapName="m36_1" scaleX="-1.190302" scaleY="-1.190302" rotation="10.525586" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="64">
+            <frameData bitmapName="m36_1" scaleX="-1.190111" scaleY="-1.190111" rotation="13.538074" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="65">
+            <frameData bitmapName="m36_1" scaleX="-1.189940" scaleY="-1.189940" rotation="16.547798" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="66">
+            <frameData bitmapName="m36_1" scaleX="-1.189775" scaleY="-1.189775" rotation="19.560852" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="67">
+            <frameData bitmapName="m36_1" scaleX="-1.189625" scaleY="-1.189625" rotation="22.572205" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="68">
+            <frameData bitmapName="m36_1" scaleX="-1.189483" scaleY="-1.189483" rotation="25.587122" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="69">
+            <frameData bitmapName="m36_1" scaleX="-1.189365" scaleY="-1.189365" rotation="28.600664" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="70">
+            <frameData bitmapName="m36_1" scaleX="-1.189264" scaleY="-1.189264" rotation="31.804571" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="71">
+            <frameData bitmapName="m36_1" scaleX="-1.189172" scaleY="-1.189172" rotation="34.818134" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="72">
+            <frameData bitmapName="m36_1" scaleX="-1.189115" scaleY="-1.189115" rotation="37.835587" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="73">
+            <frameData bitmapName="m36_1" scaleX="-1.189084" scaleY="-1.189084" rotation="40.852818" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="74">
+            <frameData bitmapName="m36_1" scaleX="-1.189062" scaleY="-1.189062" rotation="43.868092" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="75">
+            <frameData bitmapName="m36_1" scaleX="-1.189063" scaleY="-1.189063" rotation="46.884995" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="76">
+            <frameData bitmapName="m36_1" scaleX="-1.189087" scaleY="-1.189087" rotation="49.900246" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="77">
+            <frameData bitmapName="m36_1" scaleX="-1.189138" scaleY="-1.189138" rotation="52.917332" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="78">
+            <frameData bitmapName="m36_1" scaleX="-1.189204" scaleY="-1.189204" rotation="55.930889" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="79">
+            <frameData bitmapName="m36_1" scaleX="-1.189291" scaleY="-1.189291" rotation="58.947487" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="80">
+            <frameData bitmapName="m36_1" scaleX="-1.189391" scaleY="-1.189391" rotation="62.149193" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="81">
+            <frameData bitmapName="m36_1" scaleX="-1.189524" scaleY="-1.189524" rotation="65.164436" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="82">
+            <frameData bitmapName="m36_1" scaleX="-1.189656" scaleY="-1.189656" rotation="68.176903" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="83">
+            <frameData bitmapName="m36_1" scaleX="-1.189822" scaleY="-1.189822" rotation="71.190720" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="84">
+            <frameData bitmapName="m36_1" scaleX="-1.189989" scaleY="-1.189989" rotation="74.201027" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="85">
+            <frameData bitmapName="m36_1" scaleX="-1.190157" scaleY="-1.190157" rotation="77.213837" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="86">
+            <frameData bitmapName="m36_1" scaleX="-1.190343" scaleY="-1.190343" rotation="80.221680" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="87">
+            <frameData bitmapName="m36_1" scaleX="-1.190547" scaleY="-1.190547" rotation="83.232033" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="88">
+            <frameData bitmapName="m36_1" scaleX="-1.190736" scaleY="-1.190736" rotation="86.238808" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="89">
+            <frameData bitmapName="m36_1" scaleX="-1.190944" scaleY="-1.190944" rotation="89.247536" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="90">
+            <frameData bitmapName="m36_1" scaleX="-1.190847" scaleY="-1.190847" rotation="92.252960" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="91">
+            <frameData bitmapName="m36_1" scaleX="-1.190641" scaleY="-1.190641" rotation="95.261909" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="92">
+            <frameData bitmapName="m36_1" scaleX="-1.190447" scaleY="-1.190447" rotation="98.269379" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="93">
+            <frameData bitmapName="m36_1" scaleX="-1.190244" scaleY="-1.190244" rotation="101.280121" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="94">
+            <frameData bitmapName="m36_1" scaleX="-1.190059" scaleY="-1.190059" rotation="104.288727" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="95">
+            <frameData bitmapName="m36_1" scaleX="-1.189885" scaleY="-1.189885" rotation="107.301247" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="96">
+            <frameData bitmapName="m36_1" scaleX="-1.189742" scaleY="-1.189742" rotation="110.314972" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="97">
+            <frameData bitmapName="m36_1" scaleX="-1.189585" scaleY="-1.189585" rotation="113.327225" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="98">
+            <frameData bitmapName="m36_1" scaleX="-1.189442" scaleY="-1.189442" rotation="116.341866" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="99">
+            <frameData bitmapName="m36_1" scaleX="-1.189335" scaleY="-1.189335" rotation="119.355194" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="100">
+            <frameData bitmapName="m36_1" scaleX="-1.189241" scaleY="-1.189241" rotation="122.559204" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="101">
+            <frameData bitmapName="m36_1" scaleX="-1.189156" scaleY="-1.189156" rotation="125.573494" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="102">
+            <frameData bitmapName="m36_1" scaleX="-1.189120" scaleY="-1.189120" rotation="128.590576" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="103">
+            <frameData bitmapName="m36_1" scaleX="-1.189071" scaleY="-1.189071" rotation="131.605148" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="104">
+            <frameData bitmapName="m36_1" scaleX="-1.189061" scaleY="-1.189061" rotation="134.622559" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="105">
+            <frameData bitmapName="m36_1" scaleX="-1.189053" scaleY="-1.189053" rotation="137.637375" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="106">
+            <frameData bitmapName="m36_1" scaleX="-1.189101" scaleY="-1.189101" rotation="140.654099" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="107">
+            <frameData bitmapName="m36_1" scaleX="-1.189155" scaleY="-1.189155" rotation="143.669006" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="108">
+            <frameData bitmapName="m36_1" scaleX="-1.189212" scaleY="-1.189212" rotation="146.685715" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="109">
+            <frameData bitmapName="m36_1" scaleX="-1.189299" scaleY="-1.189299" rotation="149.699005" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="110">
+            <frameData bitmapName="m36_1" scaleX="-1.189416" scaleY="-1.189416" rotation="152.903732" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="111">
+            <frameData bitmapName="m36_1" scaleX="-1.189552" scaleY="-1.189552" rotation="155.915955" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="112">
+            <frameData bitmapName="m36_1" scaleX="-1.189688" scaleY="-1.189688" rotation="158.930740" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="113">
+            <frameData bitmapName="m36_1" scaleX="-1.189851" scaleY="-1.189851" rotation="161.941696" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="114">
+            <frameData bitmapName="m36_1" scaleX="-1.190025" scaleY="-1.190025" rotation="164.954498" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="115">
+            <frameData bitmapName="m36_1" scaleX="-1.190207" scaleY="-1.190207" rotation="167.964996" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="116">
+            <frameData bitmapName="m36_1" scaleX="-1.190412" scaleY="-1.190412" rotation="170.974854" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="117">
+            <frameData bitmapName="m36_1" scaleX="-1.190595" scaleY="-1.190595" rotation="173.983047" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="118">
+            <frameData bitmapName="m36_1" scaleX="-1.190804" scaleY="-1.190804" rotation="176.992142" position="-0.600000,6.500000" />
+        </frameInfo>
+        <frameInfo frame="119">
+            <frameData bitmapName="m36_1" scaleX="-1.191010" scaleY="-1.191010" rotation="179.999985" position="-0.600000,6.500000" />
+        </frameInfo>
+    </action>
+</animation>

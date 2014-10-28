@@ -1,0 +1,4 @@
+<root>
+  <item_fragment id="130001" name="Mảnh 1" info="Mảnh 1" itemSmall="itemSmall/30004.jpg" itemBig="itemBig/30004.jpg" quality="1" sellable="0" sellType="" sellNum="" maxStacking="3" canDestroy="1" need_part_num="3" aimItem="50001"/>
+  <item_fragment id="130002" name="Mảnh 2" info="Mảnh 2" itemSmall="itemSmall/30004.jpg" itemBig="itemBig/30004.jpg" quality="2" sellable="0" sellType="" sellNum="" maxStacking="3" canDestroy="1" need_part_num="3" aimItem="50002"/>
+</root>

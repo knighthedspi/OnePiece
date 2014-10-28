@@ -1,0 +1,20 @@
+<root>
+  <material_exchange id="1" aimItem="120102" num="1" needItem="120101" needNum="10"/>
+  <material_exchange id="2" aimItem="120202" num="1" needItem="120201" needNum="10"/>
+  <material_exchange id="3" aimItem="120302" num="1" needItem="120301" needNum="10"/>
+  <material_exchange id="4" aimItem="120402" num="1" needItem="120401" needNum="10"/>
+  <material_exchange id="5" aimItem="120502" num="1" needItem="120501" needNum="10"/>
+  <material_exchange id="6" aimItem="121102" num="1" needItem="121101" needNum="10"/>
+  <material_exchange id="7" aimItem="121202" num="1" needItem="121201" needNum="10"/>
+  <material_exchange id="8" aimItem="121302" num="1" needItem="121301" needNum="10"/>
+  <material_exchange id="9" aimItem="121402" num="1" needItem="121401" needNum="10"/>
+  <material_exchange id="10" aimItem="120102" num="10" needItem="120103" needNum="1"/>
+  <material_exchange id="11" aimItem="120202" num="10" needItem="120203" needNum="1"/>
+  <material_exchange id="12" aimItem="120302" num="10" needItem="120303" needNum="1"/>
+  <material_exchange id="13" aimItem="120402" num="10" needItem="120403" needNum="1"/>
+  <material_exchange id="14" aimItem="120502" num="10" needItem="120503" needNum="1"/>
+  <material_exchange id="15" aimItem="121102" num="10" needItem="121103" needNum="1"/>
+  <material_exchange id="16" aimItem="121202" num="10" needItem="121203" needNum="1"/>
+  <material_exchange id="17" aimItem="121302" num="10" needItem="121303" needNum="1"/>
+  <material_exchange id="18" aimItem="121402" num="10" needItem="121403" needNum="1"/>
+</root>

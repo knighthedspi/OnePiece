@@ -1,0 +1,8 @@
+﻿<root>
+  <win_streak id="1" killNum="10" winStreak="{0} thắng liên tiếp 10!" winStreakEnd="{0} kết thúc liên thắng{2} của {1}!" color="#F77105,#07F90D"/>
+  <win_streak id="2" killNum="15" winStreak="{0} thắng liên tiếp 15!" winStreakEnd="{0} kết thúc liên thắng {2} của {1}, {2}, đều là màu đỏ tím!"  color="#F77105,#07F90D"/>
+  <win_streak id="3" killNum="20" winStreak="{0} thắng liên tiếp 20!" winStreakEnd="{0} kết thúc liên thắng {2} của {1}, chỉ số IQ của {2} không còn đủ?"  color="#F77105,#07F90D"/>
+  <win_streak id="4" killNum="25" winStreak="{0} thắng liên tiếp 25!" winStreakEnd="{0} người lợi hại xuất hiện，đánh chí mạng {1}!"  color="#F77105,#07F90D"/>
+  <win_streak id="5" killNum="30" winStreak="{0} thắng liên tiếp 30, ngươi gây ra chuyện rồi!" winStreakEnd="{0}kết thúc liên thắng{2} của {1}!"  color="#F77105,#07F90D"/>
+  <win_streak id="6" killNum="50" winStreak="Tiêu diệt 50!{0} trở thành truyền thuyết!" winStreakEnd="Ngươi không nhìn nhầm!!{0} kết thúc liên thắng {2} của{1}!!!!!"  color="#F77105,#07F90D"/>
+</root>

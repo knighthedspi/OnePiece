@@ -1,0 +1,23 @@
+<root>
+  <huodong_jifen id="1" opration="Dùng 100 Xu" score="15" gold="100"/>
+  <huodong_jifen id="2" opration="Ra khơi" score="1" gold="0"/>
+  <huodong_jifen id="3" opration="Sản xuất" score="2" gold="0"/>
+  <huodong_jifen id="4" opration="Đặt hàng" score="0" gold="0"/>
+  <huodong_jifen id="5" opration="Xong n.vụ ngày" score="0" gold="0"/>
+  <huodong_jifen id="6" opration="Nhận" score="0" gold="0"/>
+  <huodong_jifen id="7" opration="Điều chỉnh" score="0" gold="0"/>
+  <huodong_jifen id="8" opration="Cường hóa" score="0" gold="0"/>
+  <huodong_jifen id="9" opration="Khiêu chiến" score="0" gold="0"/>
+  <huodong_jifen id="10" opration="Tìm ngọc" score="0" gold="0"/>
+  <huodong_jifen id="11" opration="Đấu lôi đài" score="0" gold="0"/>
+  <huodong_jifen id="12" opration="Cướp ngọc" score="0" gold="0"/>
+  <huodong_jifen id="13" opration="Đánh cảng" score="0" gold="0"/>
+  <huodong_jifen id="14" opration="Cống hiến bang" score="0" gold="0"/>
+  <huodong_jifen id="15" opration="Chiếm tài nguyên" score="0" gold="0"/>
+  <huodong_jifen id="16" opration="Đàm phán" score="0" gold="0"/>
+  <huodong_jifen id="17" opration="Đào bảo" score="0" gold="0"/>
+  <huodong_jifen id="18" opration="Chế tạo" score="0" gold="0"/>
+  <huodong_jifen id="19" opration="Đột phá" score="0" gold="0"/>
+  <huodong_jifen id="20" opration="Tặng Xu" score="0" gold="0"/>
+  <huodong_jifen id="22" opration="Nhận chúc phúc" score="0" gold="0"/>
+</root>

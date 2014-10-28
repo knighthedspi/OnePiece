@@ -1,0 +1,96 @@
+<root>
+  <foreground/>
+  <background>1.swf</background>
+  <models>
+    <normal>
+      <model x="141" y="391">
+        <looks currentLooks="0">
+          <look modelURL="56.swf" armyID="16"/>
+        </looks>
+      </model>
+      <model x="683" y="417">
+        <looks currentLooks="0">
+          <look modelURL="60.swf" armyID="24"/>
+        </looks>
+      </model>
+      <model x="250" y="413">
+        <looks currentLooks="0">
+          <look modelURL="56.swf" armyID="18"/>
+        </looks>
+      </model>
+      <model x="183" y="489">
+        <looks currentLooks="0">
+          <look modelURL="56.swf" armyID="17"/>
+        </looks>
+      </model>
+      <model x="304" y="485">
+        <looks currentLooks="0">
+          <look modelURL="56.swf" armyID="19"/>
+        </looks>
+      </model>
+      <model x="360" y="385">
+        <looks currentLooks="0">
+          <look modelURL="56.swf" armyID="20"/>
+        </looks>
+      </model>
+      <model x="414" y="436">
+        <looks currentLooks="0">
+          <look modelURL="64.swf" armyID="22"/>
+        </looks>
+      </model>
+      <model x="522" y="394">
+        <looks currentLooks="0">
+          <look modelURL="64.swf" armyID="23"/>
+        </looks>
+      </model>
+      <model x="786" y="310">
+        <looks currentLooks="0">
+          <look modelURL="56.swf" armyID="25"/>
+        </looks>
+      </model>
+      <model x="669" y="313">
+        <looks currentLooks="0">
+          <look modelURL="56.swf" armyID="26"/>
+        </looks>
+      </model>
+      <model x="734" y="220">
+        <looks currentLooks="0">
+          <look modelURL="64.swf" armyID="27"/>
+        </looks>
+      </model>
+      <model x="728" y="120">
+        <looks currentLooks="0">
+          <look modelURL="56.swf" armyID="29"/>
+        </looks>
+      </model>
+      <model x="811" y="169">
+        <looks currentLooks="0">
+          <look modelURL="56.swf" armyID="30"/>
+        </looks>
+      </model>
+      <model x="882" y="213">
+        <looks currentLooks="0">
+          <look modelURL="56.swf" armyID="31"/>
+        </looks>
+      </model>
+      <model x="963" y="177">
+        <looks currentLooks="0">
+          <look modelURL="96.swf" armyID="32"/>
+        </looks>
+      </model>
+      <model x="404" y="290">
+        <looks currentLooks="0">
+          <look modelURL="97.swf" armyID="21"/>
+        </looks>
+      </model>
+      <model x="619" y="209">
+        <looks currentLooks="0">
+          <look modelURL="98.swf" armyID="28"/>
+        </looks>
+      </model>
+    </normal>
+    <special/>
+    <copyEntrance/>
+    <corps/>
+  </models>
+</root>

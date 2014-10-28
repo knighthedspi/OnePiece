@@ -1,0 +1,3 @@
+﻿<root>
+  <online_gift id="1" start_time="20120101000000" end_time="20991231235959" phase_1="60" prize_1="1" phase_2="120" prize_2="2" phase_3="300" prize_3="3" phase_4="600" prize_4="4" phase_5="1200" prize_5="5" phase_6="1800" prize_6="6" phase_7="3600" prize_7="7" phase_8="5400" prize_8="8" phase_9="7200" prize_9="16" phase_10="" prize_10="" phase_11="" prize_11="" phase_12="" prize_12="" phase_13="" prize_13="" phase_14="" prize_14="" phase_15="" prize_15="" max_step="9"/>
+</root>

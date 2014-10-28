@@ -1,0 +1,276 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="90" actionName="npc_33_stand_1">
+        <frameInfo frame="0">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="npc_33_stand_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="npc_33_stand_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="npc_33_stand_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="npc_33_stand_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="npc_33_stand_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="npc_33_stand_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="npc_33_stand_13" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="npc_33_stand_13" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="npc_33_stand_13" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="npc_33_stand_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData bitmapName="npc_33_stand_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData bitmapName="npc_33_stand_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData bitmapName="npc_33_stand_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData bitmapName="npc_33_stand_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData bitmapName="npc_33_stand_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="18">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="20">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="21">
+            <frameData bitmapName="npc_33_stand_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="22">
+            <frameData bitmapName="npc_33_stand_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="23">
+            <frameData bitmapName="npc_33_stand_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="24">
+            <frameData bitmapName="npc_33_stand_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="25">
+            <frameData bitmapName="npc_33_stand_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="26">
+            <frameData bitmapName="npc_33_stand_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="27">
+            <frameData bitmapName="npc_33_stand_13" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="28">
+            <frameData bitmapName="npc_33_stand_13" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="29">
+            <frameData bitmapName="npc_33_stand_13" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="30">
+            <frameData bitmapName="npc_33_stand_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="31">
+            <frameData bitmapName="npc_33_stand_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="32">
+            <frameData bitmapName="npc_33_stand_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="33">
+            <frameData bitmapName="npc_33_stand_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="34">
+            <frameData bitmapName="npc_33_stand_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="35">
+            <frameData bitmapName="npc_33_stand_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="36">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="37">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="38">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="39">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="40">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="41">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="42">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="4.000000,-82.449997" />
+        </frameInfo>
+        <frameInfo frame="43">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999804" scaleY="-0.999804" rotation="176.692825" position="3.700000,-83.449997" />
+        </frameInfo>
+        <frameInfo frame="44">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999609" scaleY="-0.999609" rotation="173.196182" position="3.350000,-84.349998" />
+        </frameInfo>
+        <frameInfo frame="45">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999418" scaleY="-0.999418" rotation="169.698349" position="2.900000,-85.250000" />
+        </frameInfo>
+        <frameInfo frame="46">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999243" scaleY="-0.999243" rotation="166.199722" position="2.350000,-86.099998" />
+        </frameInfo>
+        <frameInfo frame="47">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999071" scaleY="-0.999071" rotation="162.699692" position="1.700000,-87.050003" />
+        </frameInfo>
+        <frameInfo frame="48">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.998908" scaleY="-0.998908" rotation="159.197998" position="1.100000,-87.750000" />
+        </frameInfo>
+        <frameInfo frame="49">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.998751" scaleY="-0.998751" rotation="155.695496" position="0.400000,-88.550003" />
+        </frameInfo>
+        <frameInfo frame="50">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.998632" scaleY="-0.998632" rotation="152.191406" position="-0.400000,-89.150002" />
+        </frameInfo>
+        <frameInfo frame="51">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.998518" scaleY="-0.998518" rotation="148.688477" position="-1.250000,-89.800003" />
+        </frameInfo>
+        <frameInfo frame="52">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.998435" scaleY="-0.998435" rotation="145.183731" position="-2.100000,-90.300003" />
+        </frameInfo>
+        <frameInfo frame="53">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.998390" scaleY="-0.998390" rotation="141.866577" position="-2.900000,-90.650002" />
+        </frameInfo>
+        <frameInfo frame="54">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999994" scaleY="-0.999994" rotation="138.274536" position="-3.850000,-91.150002" />
+        </frameInfo>
+        <frameInfo frame="55">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999994" scaleY="-0.999994" rotation="138.274536" position="-3.850000,-91.150002" />
+        </frameInfo>
+        <frameInfo frame="56">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999994" scaleY="-0.999994" rotation="138.274536" position="-3.850000,-91.150002" />
+        </frameInfo>
+        <frameInfo frame="57">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999994" scaleY="-0.999994" rotation="138.274536" position="-3.850000,-91.150002" />
+        </frameInfo>
+        <frameInfo frame="58">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999994" scaleY="-0.999994" rotation="138.274536" position="-3.850000,-91.150002" />
+        </frameInfo>
+        <frameInfo frame="59">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999994" scaleY="-0.999994" rotation="138.274536" position="-3.850000,-91.150002" />
+        </frameInfo>
+        <frameInfo frame="60">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999994" scaleY="-0.999994" rotation="138.274536" position="-3.850000,-91.150002" />
+        </frameInfo>
+        <frameInfo frame="61">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999994" scaleY="-0.999994" rotation="138.274536" position="-3.850000,-91.150002" />
+        </frameInfo>
+        <frameInfo frame="62">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999994" scaleY="-0.999994" rotation="138.274536" position="-3.850000,-91.150002" />
+        </frameInfo>
+        <frameInfo frame="63">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999994" scaleY="-0.999994" rotation="138.274536" position="-3.850000,-91.150002" />
+        </frameInfo>
+        <frameInfo frame="64">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999994" scaleY="-0.999994" rotation="138.274536" position="-3.850000,-91.150002" />
+        </frameInfo>
+        <frameInfo frame="65">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999994" scaleY="-0.999994" rotation="138.274536" position="-3.850000,-91.150002" />
+        </frameInfo>
+        <frameInfo frame="66">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999994" scaleY="-0.999994" rotation="138.274536" position="-3.850000,-91.150002" />
+        </frameInfo>
+        <frameInfo frame="67">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999994" scaleY="-0.999994" rotation="138.274536" position="-3.850000,-91.150002" />
+        </frameInfo>
+        <frameInfo frame="68">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999994" scaleY="-0.999994" rotation="138.274536" position="-3.850000,-91.150002" />
+        </frameInfo>
+        <frameInfo frame="69">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999994" scaleY="-0.999994" rotation="138.274536" position="-3.850000,-91.150002" />
+        </frameInfo>
+        <frameInfo frame="70">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.998365" scaleY="-0.998365" rotation="142.134384" position="-2.850000,-90.750000" />
+        </frameInfo>
+        <frameInfo frame="71">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.998432" scaleY="-0.998432" rotation="145.906784" position="-1.850000,-90.199997" />
+        </frameInfo>
+        <frameInfo frame="72">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.998550" scaleY="-0.998550" rotation="149.678467" position="-0.900000,-89.599998" />
+        </frameInfo>
+        <frameInfo frame="73">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.998663" scaleY="-0.998663" rotation="153.449036" position="-0.050000,-88.949997" />
+        </frameInfo>
+        <frameInfo frame="74">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.998800" scaleY="-0.998800" rotation="157.218735" position="0.650000,-88.250000" />
+        </frameInfo>
+        <frameInfo frame="75">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.998985" scaleY="-0.998985" rotation="161.176498" position="1.500000,-87.400002" />
+        </frameInfo>
+        <frameInfo frame="76">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999156" scaleY="-0.999156" rotation="164.944412" position="2.150000,-86.550003" />
+        </frameInfo>
+        <frameInfo frame="77">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999350" scaleY="-0.999350" rotation="168.709976" position="2.750000,-85.599998" />
+        </frameInfo>
+        <frameInfo frame="78">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999576" scaleY="-0.999576" rotation="172.474884" position="3.200000,-84.599998" />
+        </frameInfo>
+        <frameInfo frame="79">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-0.999760" scaleY="-0.999760" rotation="176.237030" position="3.650000,-83.550003" />
+        </frameInfo>
+        <frameInfo frame="80">
+            <frameData bitmapName="npc_33_stand_14" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="4.000000,-82.449997" />
+        </frameInfo>
+        <frameInfo frame="81">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="82">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="83">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="84">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="85">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="86">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="87">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="88">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+        <frameInfo frame="89">
+            <frameData bitmapName="npc_33_stand_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.250000,-67.400002" />
+        </frameInfo>
+    </action>
+</animation>

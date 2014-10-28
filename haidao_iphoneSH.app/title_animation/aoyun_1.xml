@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="9" actionName="aoyun_1">
+        <frameInfo frame="0">
+            <frameData bitmapName="aoyun01" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.250000,-5.600000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="aoyun02" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.250000,-5.600000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="aoyun03" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.250000,-5.600000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="aoyun04" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.250000,-5.600000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="aoyun05" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.250000,-5.600000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="aoyun06" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.250000,-5.600000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="aoyun07" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.250000,-5.600000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="aoyun08" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.250000,-5.600000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="aoyun09" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.250000,-5.600000" />
+        </frameInfo>
+    </action>
+</animation>

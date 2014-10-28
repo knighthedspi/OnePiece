@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>dahaizei_1_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2,2},{89,39}}</string>
+			<key>offset</key>
+			<string>{0,0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0,0},{89,39}}</string>
+			<key>sourceSize</key>
+			<string>{89,39}</string>
+		</dict>
+		<key>dingwei_dahaizei.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2,43},{89,39}}</string>
+			<key>offset</key>
+			<string>{0,0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0,0},{89,39}}</string>
+			<key>sourceSize</key>
+			<string>{89,39}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>realTextureFileName</key>
+		<string>dahaizei.png</string>
+		<key>size</key>
+		<string>{93,84}</string>
+		<key>smartupdate</key>
+		<string>$TexturePacker:SmartUpdate:6aeaf4cfcf33345a316b59fcedd2f437$</string>
+		<key>textureFileName</key>
+		<string>dahaizei.png</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="45" actionName="shss_2">
+        <frameInfo frame="0">
+            <frameData bitmapName="shss_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="1" />
+        <frameInfo frame="2" />
+        <frameInfo frame="3" />
+        <frameInfo frame="4" />
+        <frameInfo frame="5" />
+        <frameInfo frame="6" />
+        <frameInfo frame="7" />
+        <frameInfo frame="8" />
+        <frameInfo frame="9" />
+        <frameInfo frame="10" />
+        <frameInfo frame="11" />
+        <frameInfo frame="12">
+            <frameData bitmapName="shss_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="46.500000,30.400000" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData bitmapName="shss_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="46.500000,30.400000" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData bitmapName="shss_22" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="80.500000,64.900002" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData bitmapName="shss_22" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="80.500000,64.900002" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData bitmapName="shss_23" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="88.500000,90.900002" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData bitmapName="shss_23" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="88.500000,90.900002" />
+        </frameInfo>
+        <frameInfo frame="18">
+            <frameData bitmapName="shss_24" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="91.500000,93.400002" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData bitmapName="shss_24" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="91.500000,93.400002" />
+        </frameInfo>
+        <frameInfo frame="20">
+            <frameData bitmapName="shss_25" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="82.000000,105.400002" />
+        </frameInfo>
+        <frameInfo frame="21">
+            <frameData bitmapName="shss_25" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="82.000000,105.400002" />
+        </frameInfo>
+        <frameInfo frame="22">
+            <frameData bitmapName="shss_26" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="88.000000,105.400002" />
+        </frameInfo>
+        <frameInfo frame="23">
+            <frameData bitmapName="shss_26" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="88.000000,105.400002" />
+        </frameInfo>
+        <frameInfo frame="24">
+            <frameData bitmapName="shss_27" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="87.000000,108.400002" />
+        </frameInfo>
+        <frameInfo frame="25">
+            <frameData bitmapName="shss_27" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="87.000000,108.400002" />
+        </frameInfo>
+        <frameInfo frame="26">
+            <frameData bitmapName="shss_28" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="92.000000,109.400002" />
+        </frameInfo>
+        <frameInfo frame="27">
+            <frameData bitmapName="shss_28" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="92.000000,109.400002" />
+        </frameInfo>
+        <frameInfo frame="28">
+            <frameData bitmapName="shss_29" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="85.000000,98.400002" />
+        </frameInfo>
+        <frameInfo frame="29">
+            <frameData bitmapName="shss_29" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="85.000000,98.400002" />
+        </frameInfo>
+        <frameInfo frame="30">
+            <frameData bitmapName="shss_210" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="92.000000,94.400002" />
+        </frameInfo>
+        <frameInfo frame="31">
+            <frameData bitmapName="shss_210" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="92.000000,94.400002" />
+        </frameInfo>
+        <frameInfo frame="32">
+            <frameData bitmapName="shss_211" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="89.500000,109.400002" />
+        </frameInfo>
+        <frameInfo frame="33">
+            <frameData bitmapName="shss_211" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="89.500000,109.400002" />
+        </frameInfo>
+        <frameInfo frame="34">
+            <frameData bitmapName="shss_212" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="91.000000,102.400002" />
+        </frameInfo>
+        <frameInfo frame="35">
+            <frameData bitmapName="shss_212" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="91.000000,102.400002" />
+        </frameInfo>
+        <frameInfo frame="36">
+            <frameData bitmapName="shss_213" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="97.000000,97.900002" />
+        </frameInfo>
+        <frameInfo frame="37">
+            <frameData bitmapName="shss_213" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="97.000000,97.900002" />
+        </frameInfo>
+        <frameInfo frame="38">
+            <frameData bitmapName="shss_214" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="93.000000,98.400002" />
+        </frameInfo>
+        <frameInfo frame="39">
+            <frameData bitmapName="shss_214" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="93.000000,98.400002" />
+        </frameInfo>
+        <frameInfo frame="40" />
+        <frameInfo frame="41" />
+        <frameInfo frame="42" />
+        <frameInfo frame="43" />
+        <frameInfo frame="44" />
+    </action>
+</animation>

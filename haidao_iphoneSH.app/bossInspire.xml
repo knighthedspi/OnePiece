@@ -1,0 +1,3 @@
+<root>
+  <bossInspire attackLevel="10" inspireExp="10" inspireGold="5" clearCdGold="10" clearCDTime="30" vipReliveLevel="6" vipGoldStart="5" vipGoldAdd="5" fightCdTime="45"/>
+</root>

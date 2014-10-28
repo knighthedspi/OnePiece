@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="8" actionName="46_run_1">
+        <frameInfo frame="0">
+            <frameData bitmapName="46_run_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-7.800000,-51.000000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="46_run_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-7.800000,-51.000000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="46_run_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-7.800000,-51.000000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="46_run_13" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-7.800000,-51.000000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="46_run_14" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-7.800000,-51.000000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="46_run_15" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-7.800000,-51.000000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="46_run_16" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-7.800000,-51.000000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="46_run_17" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-7.800000,-51.000000" />
+        </frameInfo>
+    </action>
+</animation>

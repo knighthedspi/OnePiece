@@ -1,0 +1,11 @@
+<root>
+  <tiaojiao_shijian projectID="1" icon="matong.png" projectName="Thông bồn cầu" reward_baseBelly="75" projectInfo="{host} suy nghĩ một chút vứt {vassal} vào, không đến 3 phút bồn cầu đã thông." openLv="1"/>
+  <tiaojiao_shijian projectID="2" icon="anfu.png" projectName="Thức ăn vặt" reward_baseBelly="75" projectInfo="Thức ăn năm ngoái vẫn còn, {host} nghĩ ngợi rồi tặng hết cho {vassal}." openLv="1"/>
+  <tiaojiao_shijian projectID="3" icon="yangyang.png" projectName="Bắt rận" reward_baseBelly="75" projectInfo="{host} dùng rận trên người {vassal} xếp thành một đĩa." openLv="10"/>
+  <tiaojiao_shijian projectID="4" icon="youxi.png" projectName="Cờ bay" reward_baseBelly="75" projectInfo="Đêm nay gió mát trăng thanh, {host} và {vassal} cùng chơi cờ." openLv="10"/>
+  <tiaojiao_shijian projectID="5" icon="baoda.png" projectName="Cấm game" reward_baseBelly="75" projectInfo="{host} hôm nay uống chút rượu, muốn cùng {vassal} chơi game." openLv="20"/>
+  <tiaojiao_shijian projectID="6" icon="kuajiang.png" projectName="Đáng ghét" reward_baseBelly="75" projectInfo="{vassal} vừa đánh {host} vừa nói “Người ta không có tốt như thế đâu!”" openLv="30"/>
+  <tiaojiao_shijian projectID="7" icon="zuoqi.png" projectName="Thú cưỡi" reward_baseBelly="75" projectInfo="{vassal} rưng rưng nhìn {host} như muốn nói “Mong cho mặt trời đi nhanh!”" openLv="30"/>
+  <tiaojiao_shijian projectID="8" icon="qiuqiu.png" projectName="Đào tạo vỡ lòng" reward_baseBelly="75" projectInfo="{vassal} đang ngủ trưa, {host} làm rơi trái táo xuống đầu khiến ông ấy nghĩ ra định luật." openLv="40"/>
+  <tiaojiao_shijian projectID="9" icon="showtime.png" projectName="Âm thanh hay" reward_baseBelly="75" projectInfo="{vassal} quen thuộc, mùi vị quen thuộc! Âm thanh hay, đúng là hải tặc!" openLv="40"/>
+</root>

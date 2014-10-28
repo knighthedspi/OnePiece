@@ -1,0 +1,5 @@
+<root>
+  <sign start_time="20120101000000" end_time="20991231235959" day_1="9" day_2="10" day_3="11" day_4="12" day_5="13" day_6="14" day_7="15" level="0" id="1"/>
+  <sign start_time="20120101000000" end_time="20991231235959" day_1="21" day_2="22" day_3="23" day_4="24" day_5="25" day_6="26" day_7="27" level="80" id="2"/>
+  <sign start_time="20120101000000" end_time="20991231235959" day_1="28" day_2="29" day_3="30" day_4="31" day_5="32" day_6="33" day_7="34" level="100" id="3"/>
+</root>

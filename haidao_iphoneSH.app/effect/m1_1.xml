@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="15" actionName="m1_1">
+        <frameInfo frame="0">
+            <frameData bitmapName="m1_1" scaleX="-1.200012" scaleY="-1.200012" rotation="179.999985" position="2.200000,41.450001" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="m1_1" scaleX="-1.200012" scaleY="-1.200012" rotation="179.999985" position="2.200000,41.450001" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="m1_1" scaleX="-1.200012" scaleY="-1.200012" rotation="179.999985" position="2.200000,41.450001" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="m1_2" scaleX="-1.199997" scaleY="-1.199997" rotation="179.999985" position="2.200000,41.450001" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="m1_2" scaleX="-1.199997" scaleY="-1.199997" rotation="179.999985" position="2.200000,41.450001" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="m1_2" scaleX="-1.199997" scaleY="-1.199997" rotation="179.999985" position="2.200000,41.450001" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="m1_3" scaleX="-1.199997" scaleY="-1.199997" rotation="179.999985" position="2.200000,41.450001" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="m1_3" scaleX="-1.199997" scaleY="-1.199997" rotation="179.999985" position="2.200000,41.450001" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="m1_3" scaleX="-1.199997" scaleY="-1.199997" rotation="179.999985" position="2.200000,41.450001" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="m1_4" scaleX="-1.199997" scaleY="-1.199997" rotation="179.999985" position="2.200000,41.450001" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="m1_4" scaleX="-1.199997" scaleY="-1.199997" rotation="179.999985" position="2.200000,41.450001" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="m1_4" scaleX="-1.199997" scaleY="-1.199997" rotation="179.999985" position="2.200000,41.450001" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="m1_5" scaleX="-1.199997" scaleY="-1.199997" rotation="179.999985" position="2.200000,41.450001" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData bitmapName="m1_5" scaleX="-1.199997" scaleY="-1.199997" rotation="179.999985" position="2.200000,41.450001" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData bitmapName="m1_5" scaleX="-1.199997" scaleY="-1.199997" rotation="179.999985" position="2.200000,41.450001" />
+        </frameInfo>
+    </action>
+</animation>

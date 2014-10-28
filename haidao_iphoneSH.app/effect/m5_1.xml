@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="15" actionName="m5_1">
+        <frameInfo frame="0">
+            <frameData bitmapName="m5_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.400000,0.300000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="m5_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.400000,0.300000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="m5_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.400000,0.300000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="m5_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.400000,0.300000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData alpha="1" bitmapName="m5_2" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.300000,-7.150000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData alpha="1" bitmapName="m5_2" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.300000,-0.650000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData alpha="1" bitmapName="m5_2" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.300000,5.900000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData alpha="1" bitmapName="m5_2" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.300000,12.450000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData alpha="1" bitmapName="m5_2" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.300000,19.000000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData alpha="1" bitmapName="m5_2" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.300000,25.500000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData alpha="1" bitmapName="m5_2" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.300000,32.049999" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData alpha="1" bitmapName="m5_2" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.300000,38.599998" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData alpha="1" bitmapName="m5_2" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.300000,45.150002" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData alpha="0.48828125" bitmapName="m5_2" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.300000,51.650002" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData alpha="0" bitmapName="m5_2" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.300000,58.200001" />
+        </frameInfo>
+    </action>
+</animation>

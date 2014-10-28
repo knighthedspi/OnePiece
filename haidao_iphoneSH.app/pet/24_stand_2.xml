@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="18" actionName="24_stand_2">
+        <frameInfo frame="0">
+            <frameData bitmapName="24_stand_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.450000,-43.599998" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="24_stand_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.450000,-43.599998" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="24_stand_22" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.650000,-43.500000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="24_stand_22" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.650000,-43.500000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="24_stand_23" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.700000,-43.400002" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="24_stand_23" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.700000,-43.400002" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="24_stand_24" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.350000,-42.900002" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="24_stand_24" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.350000,-42.900002" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="24_stand_25" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="2.300000,-42.700001" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="24_stand_25" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="2.300000,-42.700001" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="24_stand_26" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="7.200000,-45.299999" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="24_stand_26" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="7.200000,-45.299999" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="24_stand_27" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.600000,-43.200001" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData bitmapName="24_stand_27" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.600000,-43.200001" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData bitmapName="24_stand_28" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-1.200000,-43.200001" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData bitmapName="24_stand_28" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-1.200000,-43.200001" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData bitmapName="24_stand_29" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.650000,-43.549999" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData bitmapName="24_stand_29" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.650000,-43.549999" />
+        </frameInfo>
+    </action>
+</animation>

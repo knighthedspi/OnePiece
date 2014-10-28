@@ -1,0 +1,38 @@
+<root>
+  <valuablebook nodeId="1" openTips="Lv3, sắp mở |{d181ff●Tướng}" descText="{d181ff●Giới thiệu tướng}|Mở {ffd700●[Chủ]Hải quân boong tầu 1}" iconUrl="huoban" belly="1000" experence="500" itemId=""/>
+  <valuablebook nodeId="2" openTips="Lv4, sắp mở |{d181ff●Cường hóa}" descText="{d181ff●Giới thiệu cường hóa}|Mở  {ffd700●[Chủ] Hải quân boong tầu 2}" iconUrl="qianghua" belly="3000" experence="1000" itemId=""/>
+  <valuablebook nodeId="4" openTips="Lv7, sắp mở |{d181ff●Trận}" descText="{d181ff●Giới thiệu trận hình}| Mở {ffd700●[Chủ] Kéo tướng ra trận}" iconUrl="zhenxing" belly="5000" experence="1500" itemId=""/>
+  <valuablebook nodeId="6" openTips="Lv10, sắp mở |{d181ff●Thuyền chính}" descText="{d181ff●Giới thiệu thuyền chính}|Mở {ffd700●[Chủ] Thuyền chính mới}" iconUrl="zhuchuan" belly="7000" experence="2000" itemId=""/>
+  <valuablebook nodeId="7" openTips="Lv11, sắp mở |{d181ff●Cảng}" descText="{d181ff●Giới thiệu cảng}|Mở {ffd700●[Chủ]Kiểm tra cảng}" iconUrl="gangkou" belly="9000" experence="2500" itemId=""/>
+  <valuablebook nodeId="8" openTips="Lv11, sắp mở |{d181ff●Bạn}" descText="{d181ff●Giới thiệu hảo hữu}|Mở hoàn thành {ffd700●[Chủ]Kiểm tra cảng}" iconUrl="haoyou" belly="11000" experence="3000" itemId=""/>
+  <valuablebook nodeId="9" openTips="Lv13, sắp mở |{d181ff●Huấn luyện}" descText="{d181ff●Giới thiệu phòng huấn luyện}|Mở{ffd700●[Chủ] giáo trình huấn luyện}" iconUrl="xunlian" belly="13000" experence="3500" itemId=""/>
+  <valuablebook nodeId="38" openTips="Lv13, sắp mở |{d181ff●Thăng cấp trận}" descText="{d181ff●Giới thiệu thăng cấp trận hình}|Mở {ffd700●[Chủ] giáo trình huấn luyện}" iconUrl="shengji" belly="15000" experence="4000" itemId=""/>
+  <valuablebook nodeId="19" openTips="Lv14, sắp mở |{d181ff●Đấu trường}" descText="{d181ff●Giới thiệu đấu trường}|Mở{ffd700●[Chủ] đấu trường}" iconUrl="jingji" belly="17000" experence="4500" itemId=""/>
+  <valuablebook nodeId="14" openTips="Lv15, sắp mở |{d181ff●Luyện tập}" descText="{d181ff●Giới thiệu luyện tập}|Mở {ffd700●[Chủ]Luyện tập}" iconUrl="lilian" belly="19000" experence="5000" itemId=""/>
+  <valuablebook nodeId="15" openTips="Lv16, sắp mở |{d181ff●Công liên tiếp}" descText="{d181ff●Giới thiệu tấn công liên tiếp}|Mở{ffd700●[Chủ] Hải quân chặn đường 2}" iconUrl="lianxu" belly="21000" experence="5500" itemId=""/>
+  <valuablebook nodeId="12" openTips="Lv18, sắp mở |{d181ff●Viện nghiên cứu}" descText="{d181ff●Giới thiệu viện nghiên cứu}|Mở{ffd700●[Chủ]Viện nghiên cứu}" iconUrl="yanjiu" belly="23000" experence="6000" itemId=""/>
+  <valuablebook nodeId="20" openTips="Lv20, sắp mở |{d181ff●Tổ đội}" descText="{d181ff●Giới thiệu tổ đội}|Mở{ffd700●[Chủ] Tổ đội}" iconUrl="zudui" belly="25000" experence="6500" itemId=""/>
+  <valuablebook nodeId="22" openTips="Lv21, sắp mở |{d181ff●Bang}" descText="{d181ff●Giới thiệu bang}|Mở{ffd700●[Chủ]Bang}" iconUrl="gonghui" belly="27000" experence="7000" itemId=""/>
+  <valuablebook nodeId="10" openTips="Lv21, sắp mở |{d181ff●Phòng trị liệu}" descText="{d181ff●Giới thiệu phòng trị liệu}|Mở{ffd700●[Chủ]Phòng trị liệu}" iconUrl="yiliao|gailv" belly="29000" experence="7500" itemId=""/>
+  <valuablebook nodeId="13" openTips="Lv22, sắp mở |{d181ff●Hội đàm}" descText="{d181ff●Giới thiệu hội đàm}|Mở{ffd700●[Chủ]Khúc nghệ Khúc nghệ Cabaji}" iconUrl="huitan" belly="31000" experence="8000" itemId=""/>
+  <valuablebook nodeId="16" openTips="Lv23, sắp mở |{d181ff●Phòng Pet}" descText="{d181ff●Giới thiệu phòng Pet}|Mở{ffd700●[Chủ]phòng Pet}" iconUrl="chongwu" belly="33000" experence="8500" itemId=""/>
+  <valuablebook nodeId="21" openTips="Lv24,sắp mở |{d181ff●Hoạt động}" descText="{d181ff●Giới thiệu hoạt động}|Mở{ffd700●[Chủ]Hoạt động}" iconUrl="huodong" belly="35000" experence="9000" itemId=""/>
+  <valuablebook nodeId="23" openTips="Lv26, sắp mở |{d181ff●Tài nguyên}" descText="{d181ff●Giới thiệu tài nguyên}|Mở{ffd700●[Chủ]Tính năng mới của cảng}" iconUrl="zhengfu|ziyuan" belly="37000" experence="9500" itemId=""/>
+  <valuablebook nodeId="40" openTips="Lv27, sắp mở |{d181ff●Tinh bàn}" descText="{d181ff●Giới thiệu tinh bàn}|Mở{ffd700●[Chủ]Người thôi miên Jango}" iconUrl="xingpan" belly="38000" experence="9750" itemId=""/>
+  <valuablebook nodeId="24" openTips="Lv29, sắp mở |{d181ff●Khám phá}" descText="{d181ff●Giới thiệu khám phá}|Mở{ffd700●[Chủ] khám phá}" iconUrl="tansuo" belly="39000" experence="10000" itemId=""/>
+  <valuablebook nodeId="25" openTips="Lv29, sắp mở |{d181ff●Ngọc}" descText="{d181ff●Giới thiệu ngọc}|Mở{ffd700●[Chủ]Khám phá}" iconUrl="baoshi" belly="41000" experence="10500" itemId=""/>
+  <valuablebook nodeId="26" openTips="Lv32, sắp mở |{d181ff●Chế tạo đồ}" descText="{d181ff●Giới thiệu chế tạo trang bị}|Mở{ffd700●[Chủ]Tạm biệt! Triết phu}" iconUrl="zhuangb" belly="43000" experence="11000" itemId=""/>
+  <valuablebook nodeId="27" openTips="Lv34, sắp mở |{d181ff●Tầm bảo}" descText="{d181ff●Giới thiệu tầm bảo}|Mở{ffd700●[Chủ]Tâm nguyện của Nami}" iconUrl="xunbao" belly="45000" experence="11500" itemId=""/>
+  <valuablebook nodeId="36" openTips="Lv34, sắp mở |{d181ff●Phòng bếp}" descText="{d181ff●Giới thiệu phòng bếp}|Mở{ffd700●[Chủ]phòng bếp}" iconUrl="chufang" belly="47000" experence="12000" itemId=""/>
+  <valuablebook nodeId="29" openTips="Lv35, sắp mở |{d181ff●Tấn công}" descText="{d181ff●Giới thiệu tấn công}|Mở {ffd700●[Chủ]Cabaji kinh ngạc}" iconUrl="gongda" belly="49000" experence="12500" itemId=""/>
+  <valuablebook nodeId="28" openTips="Lv37, sắp mở |{d181ff●Nhiệm vụ ngày}" descText="{d181ff●Giới thiệu nhiệm vụ hàng ngày}|Mở{ffd700●[Chủ]Thượng giáo của thị trấn Longue}" iconUrl="meiri" belly="51000" experence="13000" itemId=""/>
+  <valuablebook nodeId="31" openTips="Lv40, sắp mở |{d181ff●Giao dịch}" descText="{d181ff●Giới thiệu giao dịch}|Mở{ffd700●[Chủ]To lớn như núi}" iconUrl="dingdan" belly="53000" experence="13500" itemId=""/>
+   <valuablebook nodeId="32" openTips="Lv43, sắp mở |{d181ff●Kho vàng}" descText="{d181ff●Giới thiệu kho vàng}|Hoàn thành {ffd700●[Chủ]Hướng tới kênh vĩ đại}" iconUrl="cangjin" belly="55000" experence="14000" itemId=""/>
+  <valuablebook nodeId="47" openTips="Lv.49, sắp mở |{d181ff●Phụ bản thâm uyên}" descText="{d181ff●Giới thiệu phụ bản thâm uyên}| hoàn thành {ffd700●[Chủ]Vua Đảo Drum}mở" iconUrl="shenyuan" belly="56500" experence="14500" itemId=""/>
+ <valuablebook nodeId="45" openTips="Lv50, sắp mở |{d181ff●Hệ thống Pet}" descText="{d181ff●Giới thiệu báu vật}|Mở {ffd700●[Chủ] truy đuổi Nanohana}" iconUrl="baowu1" belly="55500" experence="14000" itemId=""/>
+  <valuablebook nodeId="46" openTips="Lv50, sắp mở |{d181ff● H.thống cường bảo vật}" descText="{d181ff●Giới thiệu cường hóa bảo vật}|Mở{ffd700●[Chủ] đi tới Rainbase}" iconUrl="baowu2" belly="55500" experence="14000" itemId=""/>
+  <valuablebook nodeId="43" openTips="Lv50, sắp mở |{d181ff●AllBlue Nuôi cá}" descText="{d181ff●AllBlue Giới thiệu nuôi cá}|Mở{ffd700●[Chủ]đi tới Rainbase}" iconUrl="allblue01" belly="56000" experence="14000" itemId=""/>
+  <valuablebook nodeId="44" openTips="Lv60, sắp mở |{d181ff●Impel Down}" descText="{d181ff●Giới thiếu giám ngục biển sâu}|Mở {ffd700●[Chủ]Hải tặc tầm bảo 1}" iconUrl="tuijincheng1" belly="56500" experence="14000" itemId=""/>
+  <valuablebook nodeId="41" openTips="Lv90, sắp mở |{d181ff●AllBlue Thu thập}" descText="{d181ff●AllBlue Giới thiệu thu thập}|Mở {ffd700●[Chủ] Hươu cao cổ hình vuông}" iconUrl="allblue" belly="57000" experence="14500" itemId=""/>
+  <valuablebook nodeId="49" openTips="Lv.97, sắp mở |{d181ff●Ngọc mê trận}" descText="{d181ff●Giới thiệu ngọc mê trận}|Hoàn thành mở{ffd700●[Chủ]Zombie}" iconUrl="baoshimizhen" belly="57500" experence="15000" itemId=""/>
+</root>

@@ -1,0 +1,186 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="60" actionName="217_ylcz_1">
+        <frameInfo frame="0">
+            <frameData bitmapName="217_ylcz_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-7.650000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="217_ylcz_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-7.650000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="217_ylcz_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-5.150000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="217_ylcz_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-5.150000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="217_ylcz_13" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-6.550000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="217_ylcz_13" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-6.550000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="217_ylcz_14" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-12.350000,-7.150000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="217_ylcz_14" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-12.350000,-7.150000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="217_ylcz_15" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-10.850000,-16.200001" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="217_ylcz_15" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-10.850000,-16.200001" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="217_ylcz_16" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.650000,-13.650000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="217_ylcz_16" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.650000,-13.650000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="217_ylcz_17" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="17.650000,-0.650000" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData bitmapName="217_ylcz_17" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="17.650000,-0.650000" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData bitmapName="217_ylcz_18" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="5.700000,-3.650000" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData bitmapName="217_ylcz_18" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="5.700000,-3.650000" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData bitmapName="217_ylcz_19" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.700000,-8.650000" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData bitmapName="217_ylcz_19" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.700000,-8.650000" />
+        </frameInfo>
+        <frameInfo frame="18">
+            <frameData bitmapName="217_ylcz_110" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.700000,-9.650000" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData bitmapName="217_ylcz_110" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.700000,-9.650000" />
+        </frameInfo>
+        <frameInfo frame="20">
+            <frameData bitmapName="217_ylcz_111" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.700000,-9.650000" />
+        </frameInfo>
+        <frameInfo frame="21">
+            <frameData bitmapName="217_ylcz_111" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.700000,-9.650000" />
+        </frameInfo>
+        <frameInfo frame="22">
+            <frameData bitmapName="217_ylcz_112" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-12.150000" />
+        </frameInfo>
+        <frameInfo frame="23">
+            <frameData bitmapName="217_ylcz_112" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-12.150000" />
+        </frameInfo>
+        <frameInfo frame="24">
+            <frameData bitmapName="217_ylcz_113" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-13.650000" />
+        </frameInfo>
+        <frameInfo frame="25">
+            <frameData bitmapName="217_ylcz_113" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-13.650000" />
+        </frameInfo>
+        <frameInfo frame="26">
+            <frameData bitmapName="217_ylcz_114" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-14.650000" />
+        </frameInfo>
+        <frameInfo frame="27">
+            <frameData bitmapName="217_ylcz_114" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-14.650000" />
+        </frameInfo>
+        <frameInfo frame="28">
+            <frameData bitmapName="217_ylcz_115" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-15.650000" />
+        </frameInfo>
+        <frameInfo frame="29">
+            <frameData bitmapName="217_ylcz_115" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-15.650000" />
+        </frameInfo>
+        <frameInfo frame="30">
+            <frameData bitmapName="217_ylcz_116" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-16.650000" />
+        </frameInfo>
+        <frameInfo frame="31">
+            <frameData bitmapName="217_ylcz_116" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-16.650000" />
+        </frameInfo>
+        <frameInfo frame="32">
+            <frameData bitmapName="217_ylcz_117" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-18.150000" />
+        </frameInfo>
+        <frameInfo frame="33">
+            <frameData bitmapName="217_ylcz_117" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-18.150000" />
+        </frameInfo>
+        <frameInfo frame="34">
+            <frameData bitmapName="217_ylcz_118" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.300000,-19.150000" />
+        </frameInfo>
+        <frameInfo frame="35">
+            <frameData bitmapName="217_ylcz_118" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-2.300000,-19.150000" />
+        </frameInfo>
+        <frameInfo frame="36">
+            <frameData bitmapName="217_ylcz_119" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-1.800000,-20.650000" />
+        </frameInfo>
+        <frameInfo frame="37">
+            <frameData bitmapName="217_ylcz_119" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-1.800000,-20.650000" />
+        </frameInfo>
+        <frameInfo frame="38">
+            <frameData bitmapName="217_ylcz_120" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-0.800000,-21.650000" />
+        </frameInfo>
+        <frameInfo frame="39">
+            <frameData bitmapName="217_ylcz_120" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-0.800000,-21.650000" />
+        </frameInfo>
+        <frameInfo frame="40">
+            <frameData bitmapName="217_ylcz_121" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.200000,-23.150000" />
+        </frameInfo>
+        <frameInfo frame="41">
+            <frameData bitmapName="217_ylcz_121" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.200000,-23.150000" />
+        </frameInfo>
+        <frameInfo frame="42">
+            <frameData bitmapName="217_ylcz_122" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.200000,-24.650000" />
+        </frameInfo>
+        <frameInfo frame="43">
+            <frameData bitmapName="217_ylcz_122" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.200000,-24.650000" />
+        </frameInfo>
+        <frameInfo frame="44">
+            <frameData bitmapName="217_ylcz_123" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="2.200000,-26.200001" />
+        </frameInfo>
+        <frameInfo frame="45">
+            <frameData bitmapName="217_ylcz_123" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="2.200000,-26.200001" />
+        </frameInfo>
+        <frameInfo frame="46">
+            <frameData bitmapName="217_ylcz_124" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="3.200000,-28.150000" />
+        </frameInfo>
+        <frameInfo frame="47">
+            <frameData bitmapName="217_ylcz_124" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="3.200000,-28.150000" />
+        </frameInfo>
+        <frameInfo frame="48">
+            <frameData bitmapName="217_ylcz_125" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="3.700000,-29.650000" />
+        </frameInfo>
+        <frameInfo frame="49">
+            <frameData bitmapName="217_ylcz_125" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="3.700000,-29.650000" />
+        </frameInfo>
+        <frameInfo frame="50">
+            <frameData bitmapName="217_ylcz_126" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="4.200000,-31.150000" />
+        </frameInfo>
+        <frameInfo frame="51">
+            <frameData bitmapName="217_ylcz_126" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="4.200000,-31.150000" />
+        </frameInfo>
+        <frameInfo frame="52">
+            <frameData bitmapName="217_ylcz_127" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="5.200000,-32.650002" />
+        </frameInfo>
+        <frameInfo frame="53">
+            <frameData bitmapName="217_ylcz_127" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="5.200000,-32.650002" />
+        </frameInfo>
+        <frameInfo frame="54">
+            <frameData bitmapName="217_ylcz_128" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="3.700000,-22.700001" />
+        </frameInfo>
+        <frameInfo frame="55">
+            <frameData bitmapName="217_ylcz_128" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="3.700000,-22.700001" />
+        </frameInfo>
+        <frameInfo frame="56">
+            <frameData bitmapName="217_ylcz_129" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-22.200001" />
+        </frameInfo>
+        <frameInfo frame="57">
+            <frameData bitmapName="217_ylcz_129" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-22.200001" />
+        </frameInfo>
+        <frameInfo frame="58">
+            <frameData bitmapName="217_ylcz_130" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-12.150000" />
+        </frameInfo>
+        <frameInfo frame="59">
+            <frameData bitmapName="217_ylcz_130" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.300000,-12.150000" />
+        </frameInfo>
+    </action>
+</animation>

@@ -1,0 +1,7 @@
+<root>
+  <guildScience id="1" name="Cấp bang" desc="Tăng giới hạn thành viên bang và kĩ thuật" icon="level.png" needSourceType="1"/>
+  <guildScience id="2" name="C.tích" desc="Tăng c.tích nhận được trong game" icon="yueli.png" needSourceType="1"/>
+  <guildScience id="3" name="EXP" desc="Tăng EXP nhận trong game" icon="exp.png" needSourceType="1"/>
+  <guildScience id="4" name="Mỏ" desc="Tăng lượng tài nguyên" icon="res.png" needSourceType="1"/>
+  <guildScience id="5" name="Tiệc" desc="Tăng thu hoạch tiệc" icon="yanhui.png" needSourceType="2"/>
+</root>

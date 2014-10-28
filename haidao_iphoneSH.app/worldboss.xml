@@ -1,0 +1,4 @@
+<root>
+  <worldboss id="15" name="Rồng Punk" icon="1009171" tx="54" ty="16" activityId="1" typeid="25"/>
+  <worldboss id="16" name="Kraken" icon="1009181" tx="54" ty="16" activityId="3" typeid="26"/>
+</root>

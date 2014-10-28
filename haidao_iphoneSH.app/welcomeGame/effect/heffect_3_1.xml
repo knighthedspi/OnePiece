@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="13" actionName="heffect_3_1">
+        <frameInfo frame="0">
+            <frameData bitmapName="heffect_3_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.950000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="heffect_3_10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="1.950000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="heffect_3_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="2.000000,1.050000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="heffect_3_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="2.000000,1.050000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="heffect_3_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="14.200000,-26.549999" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="heffect_3_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="14.200000,-26.549999" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="heffect_3_13" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="46.000000,-45.049999" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="heffect_3_13" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="46.000000,-45.049999" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="heffect_3_14" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="47.000000,-40.549999" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="heffect_3_14" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="47.000000,-40.549999" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="heffect_3_15" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="3.500000,10.450000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="heffect_3_15" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="3.500000,10.450000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="heffect_3_16" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="3.500000,10.450000" />
+        </frameInfo>
+    </action>
+</animation>

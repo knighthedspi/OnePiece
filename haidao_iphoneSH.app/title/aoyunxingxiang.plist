@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>aoyunxingxiang_1_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2,2},{120,39}}</string>
+			<key>offset</key>
+			<string>{0,0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0,0},{120,39}}</string>
+			<key>sourceSize</key>
+			<string>{120,39}</string>
+		</dict>
+		<key>dingwei_aoyunxingxiang.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2,43},{120,39}}</string>
+			<key>offset</key>
+			<string>{0,0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0,0},{120,39}}</string>
+			<key>sourceSize</key>
+			<string>{120,39}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>realTextureFileName</key>
+		<string>aoyunxingxiang.png</string>
+		<key>size</key>
+		<string>{124,84}</string>
+		<key>smartupdate</key>
+		<string>$TexturePacker:SmartUpdate:ce60b384665fa631a9c3e9f585b129a1$</string>
+		<key>textureFileName</key>
+		<string>aoyunxingxiang.png</string>
+	</dict>
+</dict>
+</plist>

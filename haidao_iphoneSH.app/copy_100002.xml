@@ -1,0 +1,36 @@
+<root>
+  <foreground/>
+  <background>100001.jpg</background>
+  <models>
+    <normal>
+      <model x="285" y="468">
+        <looks currentLooks="0">
+          <look modelURL="66.swf" armyID="100006"/>
+        </looks>
+      </model>
+      <model x="451" y="523">
+        <looks currentLooks="0">
+          <look modelURL="40.swf" armyID="100007"/>
+        </looks>
+      </model>
+      <model x="650" y="483">
+        <looks currentLooks="0">
+          <look modelURL="33.swf" armyID="100008"/>
+        </looks>
+      </model>
+      <model x="584" y="328">
+        <looks currentLooks="0">
+          <look modelURL="31.swf" armyID="100009"/>
+        </looks>
+      </model>
+      <model x="786" y="290">
+        <looks currentLooks="0">
+          <look modelURL="11.swf" armyID="100010"/>
+        </looks>
+      </model>
+    </normal>
+    <special/>
+    <copyEntrance/>
+    <corps/>
+  </models>
+</root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="14" actionName="xinshijie_1">
+        <frameInfo frame="0">
+            <frameData bitmapName="xinshijie01" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="269.000000,177.600006" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="xinshijie02" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="211.600006,177.600006" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="xinshijie03" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="219.100006,178.100006" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="xinshijie04" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="238.100006,177.600006" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="xinshijie05" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="251.600006,181.350006" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="xinshijie06" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="264.600006,173.350006" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="xinshijie07" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="267.700012,177.350006" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="xinshijie08" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="284.700012,181.600006" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="xinshijie09" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="298.200012,179.600006" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="xinshijie10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="314.200012,177.600006" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="xinshijie11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="326.200012,177.600006" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="xinshijie12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="298.200012,177.600006" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="xinshijie13" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="298.200012,177.600006" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData bitmapName="xinshijie14" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="271.700012,177.600006" />
+        </frameInfo>
+    </action>
+</animation>

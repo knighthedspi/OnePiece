@@ -1,0 +1,7 @@
+<explore>
+	<!--
+		<exploreNpc id="npcid" tempName="Tên loại thám hiểm" armIcons="Icon sự kiện vũ khí" armSpend="Vũ khí tiêu xu" armItemsId="bảng ID rớt vũ khí" armProbability="Xác suất xuất hiện sự kiện tên vũ khí" armorIcons="Icon sự kiện phòng cụ" armorSpend="Phòng cụ tiêu xu" armorItemsId="ID bảng rớt phòng cụ" armorProbability="Xác suất xuất hiện sự kiện tên phòng cụ" addCdTime="Thám hiểm thêm Time CD" clearCdTime="1 xu xóa Time CD">
+		</exploreNpc>
+	-->
+	<exploreNpc id="1" armIcons="icon/disIcon0.jpg,icon/disIcon1.jpg,icon/disIcon2.jpg,icon/disIcon3.jpg" armSpend="100,200,300,400" armorIcons="icon/treaIcon0.jpg,icon/treaIcon1.jpg,icon/treaIcon2.jpg" armorSpend="1000,2000,3000" addCdTime="600" clearCdTime="600"/>
+</explore>

@@ -1,0 +1,405 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="133" actionName="m46_4">
+        <frameInfo frame="0">
+            <frameData alpha="1" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData alpha="0.98046875" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData alpha="0.9609375" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData alpha="0.94140625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData alpha="0.921875" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData alpha="0.91015625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData alpha="0.890625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData alpha="0.87109375" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData alpha="0.8515625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData alpha="0.83984375" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData alpha="0.8203125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData alpha="0.80078125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData alpha="0.78125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData alpha="0.76953125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData alpha="0.75" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData alpha="0.73046875" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData alpha="0.7109375" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData alpha="0.69921875" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="18">
+            <frameData alpha="0.6796875" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData alpha="0.66015625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="20">
+            <frameData alpha="0.640625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="21">
+            <frameData alpha="0.62890625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="22">
+            <frameData alpha="0.609375" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="23">
+            <frameData alpha="0.58984375" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="24">
+            <frameData alpha="0.5703125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="25">
+            <frameData alpha="0.55859375" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="26">
+            <frameData alpha="0.5390625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="27">
+            <frameData alpha="0.51953125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="28">
+            <frameData alpha="0.5" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="29">
+            <frameData alpha="0.48828125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="30">
+            <frameData alpha="0.46875" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="31">
+            <frameData alpha="0.44921875" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="32">
+            <frameData alpha="0.4296875" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="33">
+            <frameData alpha="0.421875" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="34">
+            <frameData alpha="0.3984375" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="35">
+            <frameData alpha="0.37890625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="36">
+            <frameData alpha="0.359375" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="37">
+            <frameData alpha="0.3515625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="38">
+            <frameData alpha="0.328125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="39">
+            <frameData alpha="0.30859375" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="40">
+            <frameData alpha="0.2890625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="41">
+            <frameData alpha="0.28125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="42">
+            <frameData alpha="0.26171875" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="43">
+            <frameData alpha="0.23828125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="44">
+            <frameData alpha="0.21875" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="45">
+            <frameData alpha="0.2109375" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="46">
+            <frameData alpha="0.19140625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="47">
+            <frameData alpha="0.171875" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="48">
+            <frameData alpha="0.1484375" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="49">
+            <frameData alpha="0.140625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="50">
+            <frameData alpha="0.12109375" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="51">
+            <frameData alpha="0.1015625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="52">
+            <frameData alpha="0.078125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="53">
+            <frameData alpha="0.0703125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="54">
+            <frameData alpha="0.05078125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="55">
+            <frameData alpha="0.03125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="56">
+            <frameData alpha="0.01171875" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="57">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="58">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="59">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="60">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="61">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="62">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="63">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="64">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="65">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="66">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="67">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="68">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="69">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="70">
+            <frameData alpha="0.08984375" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="71">
+            <frameData alpha="0.1796875" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="72">
+            <frameData alpha="0.26953125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="73">
+            <frameData alpha="0.359375" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="74">
+            <frameData alpha="0.44921875" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="75">
+            <frameData alpha="0.5390625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="76">
+            <frameData alpha="0.62890625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="77">
+            <frameData alpha="0.71875" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="78">
+            <frameData alpha="0.80859375" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="79">
+            <frameData alpha="0.8984375" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="80">
+            <frameData alpha="1" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="81">
+            <frameData alpha="0.828125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="82">
+            <frameData alpha="0.66015625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="83">
+            <frameData alpha="0.5" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="84">
+            <frameData alpha="0.328125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="85">
+            <frameData alpha="0.16015625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="86">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="87">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="88">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="89">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="90">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="91">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="92">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="93">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="94">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="95">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="96">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="97">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="98">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="99">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="100">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="101">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="102">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="103">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="104">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="105">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="106">
+            <frameData alpha="0.16015625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="107">
+            <frameData alpha="0.328125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="108">
+            <frameData alpha="0.48828125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="109">
+            <frameData alpha="0.66015625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="110">
+            <frameData alpha="0.828125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="111">
+            <frameData alpha="1" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="112">
+            <frameData alpha="0.87890625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="113">
+            <frameData alpha="0.76953125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="114">
+            <frameData alpha="0.66015625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="115">
+            <frameData alpha="0.55078125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="116">
+            <frameData alpha="0.44140625" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="117">
+            <frameData alpha="0.328125" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="118">
+            <frameData alpha="0.21875" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="119">
+            <frameData alpha="0.109375" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="120">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="121">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="122">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="123">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="124">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="125">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="126">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="127">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="128">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="129">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="130">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="131">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+        <frameInfo frame="132">
+            <frameData alpha="0" bitmapName="m46_4" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="171.350006,112.349998" />
+        </frameInfo>
+    </action>
+</animation>

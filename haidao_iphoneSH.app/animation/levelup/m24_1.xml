@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="6" actionName="m24_1">
+        <frameInfo frame="0">
+            <frameData alpha="0" bitmapName="m24_11" scaleX="-2.673614" scaleY="-1.000000" rotation="179.999985" position="1.600000,-102.900002" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData alpha="0.25" bitmapName="m24_11" scaleX="-1.884949" scaleY="-1.000000" rotation="179.999985" position="1.600000,-147.100006" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData alpha="0.5" bitmapName="m24_11" scaleX="-1.999985" scaleY="-1.374023" rotation="179.999985" position="1.600000,-191.250000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData alpha="0.75" bitmapName="m24_11" scaleX="-2.000015" scaleY="-1.687027" rotation="179.999985" position="1.600000,-235.449997" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="m24_11" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="1.600000,-225.149994" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="m24_11" scaleX="-2.000000" scaleY="-2.015320" rotation="179.999985" position="1.600000,-287.700012" />
+        </frameInfo>
+    </action>
+</animation>

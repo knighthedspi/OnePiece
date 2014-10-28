@@ -1,0 +1,126 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="40" actionName="m45_2">
+        <frameInfo frame="0">
+            <frameData alpha="0" bitmapName="m45_2" scaleX="-0.585709" scaleY="-0.585709" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData alpha="0.03125" bitmapName="m45_2" scaleX="-0.633179" scaleY="-0.633179" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData alpha="0.05859375" bitmapName="m45_2" scaleX="-0.680649" scaleY="-0.680649" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData alpha="0.1015625" bitmapName="m45_2" scaleX="-0.728119" scaleY="-0.728119" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData alpha="0.12890625" bitmapName="m45_2" scaleX="-0.775589" scaleY="-0.775589" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData alpha="0.171875" bitmapName="m45_2" scaleX="-0.823059" scaleY="-0.823059" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData alpha="0.19921875" bitmapName="m45_2" scaleX="-0.870529" scaleY="-0.870529" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData alpha="0.23828125" bitmapName="m45_2" scaleX="-0.917999" scaleY="-0.917999" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData alpha="0.26953125" bitmapName="m45_2" scaleX="-0.965469" scaleY="-0.965469" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData alpha="0.30859375" bitmapName="m45_2" scaleX="-1.012939" scaleY="-1.012939" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData alpha="0.33984375" bitmapName="m45_2" scaleX="-1.060410" scaleY="-1.060410" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData alpha="0.37109375" bitmapName="m45_2" scaleX="-1.107880" scaleY="-1.107880" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData alpha="0.41015625" bitmapName="m45_2" scaleX="-1.155350" scaleY="-1.155350" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData alpha="0.44140625" bitmapName="m45_2" scaleX="-1.202820" scaleY="-1.202820" rotation="179.999985" position="0.550000,0.550000" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData alpha="0.48046875" bitmapName="m45_2" scaleX="-1.250290" scaleY="-1.250290" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData alpha="0.51171875" bitmapName="m45_2" scaleX="-1.297760" scaleY="-1.297760" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData alpha="0.55078125" bitmapName="m45_2" scaleX="-1.345230" scaleY="-1.345230" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData alpha="0.578125" bitmapName="m45_2" scaleX="-1.392700" scaleY="-1.392700" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="18">
+            <frameData alpha="0.62109375" bitmapName="m45_2" scaleX="-1.440170" scaleY="-1.440170" rotation="179.999985" position="0.550000,0.550000" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData alpha="0.6484375" bitmapName="m45_2" scaleX="-1.487640" scaleY="-1.487640" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="20">
+            <frameData alpha="0.6796875" bitmapName="m45_2" scaleX="-1.535111" scaleY="-1.535111" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="21">
+            <frameData alpha="0.71875" bitmapName="m45_2" scaleX="-1.582581" scaleY="-1.582581" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="22">
+            <frameData alpha="0.75" bitmapName="m45_2" scaleX="-1.630051" scaleY="-1.630051" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="23">
+            <frameData alpha="0.7890625" bitmapName="m45_2" scaleX="-1.677521" scaleY="-1.677521" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="24">
+            <frameData alpha="0.8203125" bitmapName="m45_2" scaleX="-1.724991" scaleY="-1.724991" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="25">
+            <frameData alpha="0.859375" bitmapName="m45_2" scaleX="-1.772461" scaleY="-1.772461" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="26">
+            <frameData alpha="0.890625" bitmapName="m45_2" scaleX="-1.819931" scaleY="-1.819931" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="27">
+            <frameData alpha="0.9296875" bitmapName="m45_2" scaleX="-1.867401" scaleY="-1.867401" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="28">
+            <frameData alpha="0.9609375" bitmapName="m45_2" scaleX="-1.914871" scaleY="-1.914871" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="29">
+            <frameData bitmapName="m45_2" scaleX="-1.962341" scaleY="-1.962341" rotation="179.999985" position="0.550000,0.550000" />
+        </frameInfo>
+        <frameInfo frame="30">
+            <frameData alpha="0.8984375" bitmapName="m45_2" scaleX="-1.962341" scaleY="-1.962341" rotation="179.999985" position="0.550000,0.550000" />
+        </frameInfo>
+        <frameInfo frame="31">
+            <frameData alpha="0.80078125" bitmapName="m45_2" scaleX="-1.962341" scaleY="-1.962341" rotation="179.999985" position="0.550000,0.550000" />
+        </frameInfo>
+        <frameInfo frame="32">
+            <frameData alpha="0.69921875" bitmapName="m45_2" scaleX="-1.962341" scaleY="-1.962341" rotation="179.999985" position="0.550000,0.550000" />
+        </frameInfo>
+        <frameInfo frame="33">
+            <frameData alpha="0.6015625" bitmapName="m45_2" scaleX="-1.962341" scaleY="-1.962341" rotation="179.999985" position="0.550000,0.550000" />
+        </frameInfo>
+        <frameInfo frame="34">
+            <frameData alpha="0.5" bitmapName="m45_2" scaleX="-1.962341" scaleY="-1.962341" rotation="179.999985" position="0.550000,0.550000" />
+        </frameInfo>
+        <frameInfo frame="35">
+            <frameData alpha="0.3984375" bitmapName="m45_2" scaleX="-1.962341" scaleY="-1.962341" rotation="179.999985" position="0.550000,0.550000" />
+        </frameInfo>
+        <frameInfo frame="36">
+            <frameData alpha="0.30078125" bitmapName="m45_2" scaleX="-1.962341" scaleY="-1.962341" rotation="179.999985" position="0.550000,0.550000" />
+        </frameInfo>
+        <frameInfo frame="37">
+            <frameData alpha="0.19921875" bitmapName="m45_2" scaleX="-1.962341" scaleY="-1.962341" rotation="179.999985" position="0.550000,0.550000" />
+        </frameInfo>
+        <frameInfo frame="38">
+            <frameData alpha="0.1015625" bitmapName="m45_2" scaleX="-1.962341" scaleY="-1.962341" rotation="179.999985" position="0.550000,0.550000" />
+        </frameInfo>
+        <frameInfo frame="39">
+            <frameData alpha="0" bitmapName="m45_2" scaleX="-1.962341" scaleY="-1.962341" rotation="179.999985" position="0.550000,0.550000" />
+        </frameInfo>
+    </action>
+</animation>

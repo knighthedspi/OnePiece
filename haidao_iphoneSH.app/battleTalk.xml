@@ -1,0 +1,47 @@
+﻿<root>
+ <showWords des= "Ra trận">
+<word>Hãy xem sự lợi hại của ta</word>
+<word>Người có bản lĩnh gì</word>
+</showWords>
+
+<winOneTimes des= "Thắng 1 trận">
+<word>Thắng 1 trận</word>
+</winOneTimes>
+
+<winTwoTimes des= "Thắng 2 trận">
+<word>Thắng 2 trận liên tiếp！</word>
+</winTwoTimes>
+
+<winThreeTimes des= "Thắng 3 trận">
+<word>Thắng 3 trận liên tiếp</word>
+</winThreeTimes>
+
+<winFourTimes des= "Thắng 4 trận">
+<word>Thắng 4 trận, đã thành thần！</word>
+</winFourTimes>
+
+<winFiveTimes des= "Thắng 5 trận">
+<word>Thắng 5 trận, giết 5 người！</word>
+</winFiveTimes>
+
+<winSixTimes des= "Thắng 6 trận">
+<word>Thắng liên tiếp 6 trận！</word>
+</winSixTimes>
+			
+			
+<win3End des= "Thắng liên tiếp 3 trận">
+<word>Thắng liên tiếp 3 trận，hoan hô！</word>
+</win3End>
+
+<win4End des= "Thắng liên tiếp 4 trận">
+<word>Thắng liên tiếp 4 trận，hoan hô！</word>
+</win4End>
+
+<win5End des= "Thắng liên tiếp 5 trận">
+<word>Thắng liên tiếp 5 trận，hoan hô！</word>
+</win5End>
+			
+<win6End des= "Thắng liên tiếp 6 trận">
+<word>Thắng liên tiếp 6 trận，hoan hô！</word>
+</win6End>
+</root>

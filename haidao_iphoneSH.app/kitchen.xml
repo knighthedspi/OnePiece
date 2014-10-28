@@ -1,0 +1,3 @@
+<root>
+  <kitchen id="2" name="Bếp" info="Nấu xong có thể bán để nhận beri." resourceID="" icon="chufang.png" lv="1" upgradeID="2" produceNumperDay="10" kitchen_baseBelly="60" giveOrderNum="10" receiveOrderNum="10" receive_param="2000" give_param="4000" growCD_num="0" timepergold="60" basegold_num="2" growgold_num="2" orderGrowCD_num="30" ordertimepergold="60"/>
+</root>

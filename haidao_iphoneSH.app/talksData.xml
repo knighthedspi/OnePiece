@@ -1,0 +1,18 @@
+﻿<root>
+	<spendGold>10</spendGold>
+	
+	<lvNeeds>
+		<lvNeed>
+			<lv>39</lv>
+			<times>4</times>
+		</lvNeed>
+		<lvNeed>
+			<lv>59</lv>
+			<times>5</times>
+		</lvNeed>
+		<lvNeed>
+			<lv>999</lv>
+			<times>6</times>
+		</lvNeed>
+	</lvNeeds>
+</root>

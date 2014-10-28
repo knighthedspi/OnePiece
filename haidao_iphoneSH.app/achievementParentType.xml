@@ -1,0 +1,8 @@
+<root>
+  <achievementParentType id="1" name="Phụ bản" icon="106" subIds="101,102,103,104"/>
+  <achievementParentType id="2" name="Nhân vật" icon="207" subIds="201,202,203,204,205,206,207,208,209,210,211,212,213,214"/>
+  <achievementParentType id="3" name="Chiến đấu" icon="206" subIds="301,302,303,304,305,306"/>
+  <achievementParentType id="4" name="Đoàn hải tặc" icon="402" subIds="401,402"/>
+  <achievementParentType id="5" name="Sự kiện" icon="504" subIds="501,502"/>
+  <achievementParentType id="6" name="Ẩn thành tựu" icon="602" subIds="602"/>
+</root>

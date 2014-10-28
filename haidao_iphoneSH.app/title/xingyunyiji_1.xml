@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="17" actionName="xingyunyiji_1">
+        <frameInfo frame="0">
+            <frameData bitmapName="xingyunyiji01" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="275.149994,200.449997" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="xingyunyiji02" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="275.149994,200.449997" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="xingyunyiji03" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="275.149994,200.449997" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="xingyunyiji04" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="275.149994,200.449997" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="xingyunyiji05" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="275.149994,200.449997" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="xingyunyiji06" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="275.149994,200.449997" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="xingyunyiji07" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="275.149994,200.449997" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="xingyunyiji08" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="275.149994,200.449997" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="xingyunyiji09" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="275.149994,200.449997" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="xingyunyiji10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="275.149994,200.449997" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="xingyunyiji11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="275.149994,200.449997" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="xingyunyiji12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="275.149994,200.449997" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="xingyunyiji13" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="275.149994,200.449997" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData bitmapName="xingyunyiji14" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="275.149994,200.449997" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData bitmapName="xingyunyiji15" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="275.149994,200.449997" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData bitmapName="xingyunyiji16" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="275.149994,200.449997" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData bitmapName="xingyunyiji17" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="275.149994,200.449997" />
+        </frameInfo>
+    </action>
+</animation>

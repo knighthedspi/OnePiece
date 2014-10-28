@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="13" actionName="haiziwang_0">
+        <frameInfo frame="0">
+            <frameData bitmapName="haiziwang_dingwei" scaleX="-0.009995" scaleY="-0.021744" rotation="179.999985" position="2.500000,-1.500000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="haiziwang_dingwei" scaleX="-0.009995" scaleY="-0.021744" rotation="179.999985" position="2.500000,-1.500000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="haiziwang_dingwei" scaleX="-0.009995" scaleY="-0.021744" rotation="179.999985" position="2.500000,-1.500000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="haiziwang_dingwei" scaleX="-0.009995" scaleY="-0.021744" rotation="179.999985" position="2.500000,-1.500000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="haiziwang_dingwei" scaleX="-0.009995" scaleY="-0.021744" rotation="179.999985" position="2.500000,-1.500000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="haiziwang_dingwei" scaleX="-0.009995" scaleY="-0.021744" rotation="179.999985" position="2.500000,-1.500000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="haiziwang_dingwei" scaleX="-0.009995" scaleY="-0.021744" rotation="179.999985" position="2.500000,-1.500000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="haiziwang_dingwei" scaleX="-0.009995" scaleY="-0.021744" rotation="179.999985" position="2.500000,-1.500000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="haiziwang_dingwei" scaleX="-0.009995" scaleY="-0.021744" rotation="179.999985" position="2.500000,-1.500000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="haiziwang_dingwei" scaleX="-0.009995" scaleY="-0.021744" rotation="179.999985" position="2.500000,-1.500000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="haiziwang_dingwei" scaleX="-0.009995" scaleY="-0.021744" rotation="179.999985" position="2.500000,-1.500000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="haiziwang_dingwei" scaleX="-0.009995" scaleY="-0.021744" rotation="179.999985" position="2.500000,-1.500000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="haiziwang_dingwei" scaleX="-0.009995" scaleY="-0.021744" rotation="179.999985" position="2.500000,-1.500000" />
+        </frameInfo>
+    </action>
+</animation>

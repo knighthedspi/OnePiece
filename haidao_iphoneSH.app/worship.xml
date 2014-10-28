@@ -1,0 +1,5 @@
+<root>
+  <worship id="1" costBellyBase="500000" costGold="0" addBellyBase="0" addExperience="100" addPrestige="200" addExecution="0" addGoods="120010|1" defaultComment="Cảm ơn ủng hộ" worshipChannel="0" worshipCountPeriod="1" worshipCountDay="" name="Thịt luộc"/>
+  <worship id="2" costBellyBase="0" costGold="100" addBellyBase="1000" addExperience="500" addPrestige="500" addExecution="0" addGoods="120010|2" defaultComment="" worshipChannel="0" worshipCountPeriod="1" worshipCountDay="" name="Bạch tuộc"/>
+  <worship id="3" costBellyBase="0" costGold="500" addBellyBase="2000" addExperience="1000" addPrestige="1000" addExecution="0" addGoods="120010|6,1100245|2" defaultComment="" worshipChannel="0" worshipCountPeriod="1" worshipCountDay="" name="Sushi"/>
+</root>

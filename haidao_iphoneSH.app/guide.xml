@@ -1,0 +1,77 @@
+<root>
+	<guide id="1" url="1.jpg" type="Tướng" width="522" height="352" />
+	<guide id="2" url="2.jpg" type="Cường" width="522" height="352" />
+	<guide id="4" url="4.jpg" type="Trận" width="522" height="352" />
+	<guide id="7" url="7.jpg" type="Cảng" width="522" height="352" />
+	<guide id="6" url="6.jpg" type="Thuyền chính" width="522" height="352" />
+	<guide id="8" url="8.jpg" type="Bạn" width="522" height="352" />
+	<guide id="19" url="19.jpg" type="Đấu trường" width="522" height="352" />
+	<guide id="14" url="14.jpg" type="Luyện" width="522" height="352" />
+	<guide id="15" url="15.jpg" type="Liên kích" width="522" height="352" />
+	<guide id="12" url="12.jpg" type="Viện nghiên cứu" width="522" height="352" />
+	<guide id="9" url="9.jpg" type="Luyện" width="522" height="352" />
+	<guide id="20" url="20.jpg" type="Đội" width="522" height="352" />
+	<guide id="22" url="22.jpg" type="Bang" width="522" height="352" />
+	<guide id="10" url="10.jpg" type="Trị liệu" width="522" height="352" />
+	<guide id="13" url="13.jpg" type="Hội đàm" width="522" height="352" />
+	<guide id="21" url="21.jpg" type="SK" width="522" height="352" />
+	<guide id="24" url="24.jpg" type="Ngọc thăm dò" width="522" height="352" />
+	<guide id="25" url="25.jpg" type="Ngọc ghép" width="522" height="352" />
+	<guide id="26" url="26.jpg" type="Chế tạo" width="522" height="352" />
+	<guide id="27" url="27.jpg" type="Đào bảo" width="522" height="352" />
+	<guide id="28" url="28.jpg" type="N.vụ ngày" width="522" height="352" />
+	<guide id="29" url="29.jpg" type="Công" width="522" height="352" />
+	<guide id="31" url="31.jpg" type="Mở giao dịch" width="522" height="352" />
+
+	<guide id="23" url="23.jpg" type="Mở tài nguyên" width="522" height="352" />
+	<guide id="38" url="38.jpg" type="Nâng trận" width="522" height="352" />
+	<guide id="39" url="39.jpg" type="Lần đầu qua ải" width="522" height="352" />
+	<guide id="11" url="11.jpg" type="Mất HP" width="522" height="352" />
+	<guide id="16" url="16.jpg" type="Pet" width="522" height="352" />
+
+	<guide id="36" url="36.jpg" type="Mở Bếp" width="522" height="352" />
+
+	<guide id="41" url="41.jpg" type="Mở ALLblue" width="522" height="352" />
+	<guide id="40" url="40.jpg" type="Mở tử vi" width="522" height="352" />
+	<guide id="43" url="43.jpg" type="Allblue mở nuôi cá" width="522" height="352" />
+	
+	<guide id="48" url="48.jpg" type="Luyện địa ngục" width="522" height="352" />
+	<guide id="49" url="49.jpg" type="Mê trận ngọc" width="522" height="352" />
+
+	<guide id="101" url="101.jpg" type="Lần đầu vào phụ bản" width="522" height="352" />
+	
+	
+	<guide id="45" url="baowu.jpg" type="Bảo vật" width="522" height="352" />
+	<guide id="44" url="tuijincheng.jpg" type="Ngục tù biển sâu" width="522" height="352" />
+	<guide id="46" url="baowuqianghua.jpg" type="Bảo vật cường hóa" width="522" height="352" />
+	<guide id="47" url="shenyuanfuben.jpg" type="P.bản siêu" width="522" height="352" />
+	
+
+	<newhero id="1" heroID="10022" goto="12" text="" heroName="Kent"
+		step="1" />
+	<newhero id="2" heroID="10023" goto="107" text="" heroName="Lena" />
+	<newhero id="3" heroID="10021" goto="107" text="" heroName="Yorki" />
+
+	<girl id="1" text="Đầu tiên chọn trang bị cần cường hóa, sau đó ấn nút cường hóa!" type="1" next="0"
+		step="7" />
+	<girl id="2" text="Cổng cảng là nơi thuyền chủ đậu, Thay đổi lời nhắn của bạn tại giao diện cổng cảng" type="2" next="3" />
+	<girl id="3" text="Đồng thời click thuyền chủ của người chơi khác để xem lời nhắn của họ" type="1" next="0" step="17" />
+
+	<girl id="4" text="Chiếm lĩnh tài nguyên trong giao diện tài nguyên nhận beri" type="1" next="0"
+		step="28" />
+
+	<girl id="5" text="Mời chọn trận doanh để vào bang" type="1" next="0" />
+
+	<girl id="6" text="Có thể mở phòng giữ bảo, kiểm tra tại giao diện thuyền chủ." type="2" next="7" />
+	<girl id="7" text="Khi phòng giữ bảo tăng ra khơi có xác suất nhận Xu." type="1" next="0" />
+	<girl id="8" text="Thăng cấp cabin có thời gian chờ" type="1" next="0" step="32" />
+
+	<girl id="10" text="Sau khi Pet thăng cấp nhận điểm kỹ năng, tiêu hao điểm kỹ năng để lĩnh ngộ kỹ năng Pet" type="1" next="0"
+		step="24" />
+	<girl id="11" text="Chọn Pet, click luyện trong đảo thú để luyện Pet!" type="1" next="0"
+		step="24" />
+	<girl id="12" text="Pet sau khi trang bị sẽ hiển thị trong thị trấn" type="1" next="0"
+		step="24" />
+
+	<petegg id="1" eggID="110001" text="Sue Sue..." eggName="Sue Sue" />
+</root>

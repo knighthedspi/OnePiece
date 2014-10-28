@@ -1,0 +1,25 @@
+﻿<root>
+1. Hoạt động cây ác ma là hoạt động liên sv định kỳ, trong thời gian hoạt động người chơi có thể thông qua cách quyên góp khác nhau để nhận độ cống hiến, ngày cuối cùng của hoạt động dựa vào bảng xếp hạng cá nhân và bảng xếp hạng bang tiến hành tính toán, quà sẽ gửi qua thư.
+
+2. Tích lũy độ cống hiến, là người chơi tích lũy độ cống hiến cá nhân, người chơi quyên góp vật phẩm, tưới nước, bón phân cho cây ác ma sẽ nhận được độ cống hiến, tích lũy độ cống hiến là tích lũy lịch sử, sẽ không bị xóa, người chơ có thể đổi độ cống hiến lấy vật phẩm ở shop ác ma.
+
+3. Độ cống hiến của vòng này, là độ cống hiến của người chơi và bang, dựa vào xếp hạng, độ cống hiến càng cao thì xếp hạng càng cao, qua vòng này sẽ xóa về 0.
+
+4. Điểm thành trưởng, là điểm thành trưởng của cây ác ma, điểm thành trưởng càng nhiều, lv cây càng cao, quà cuối cùng càng tốt.
+
+5. Xếp hạng cá nhân, dựa vào độ cống hiến cá nhân của vòng này để xếp hạng. Xếp hạng bang, dựa vào tổng điểm độ cống hiến hiện tại của tất ca người chơi bang để xếp hạng, khi phát quà cuối cùng toàn thể người chơ bang sẽ nhận được quà bang.
+
+6. Xếp hạng cần làm mới mới nhìn thấy sự thay đổi mới nhất. Lv VIP càng cao, CD càng ngắn.
+
+7. Quyên góp chia thành góp vật phẩm, tưới nước, bón phân. Quyên góp vật phẩm là quyên góp cho cât ác ma sẽ nhận được điểm cống hiến, tưới cây là quyên góp beri, bón phân là quyên góp beri.
+
+8. Sau 22h mỗi ngày không thể quyên góp, 1 ngày cuối cùng của hoạt động cũng không thể quyên góp, 22h tối ngày hôm kết thúc hoạt đông sẽ phát quà.
+
+9. 1 ngày cuối cùng của hoạt động sẽ gửi quà cho người chơi và bang qua thư.
+
+10.Lv cây ác ma cứ 15 phút làm mới 1 lần, có thể xem lv cây mới nhất; Xếp hạng bang 30 phút làm mới 1 lần 
+
+11.Độ cống hiến người chơi trong thời gian bang nhỏ hơn 7 ngày thì sẽ không tính vào xếp hạng độ cống hiến bang.
+
+12.VIP càng cao, giới hạn quyên góp beri mỗi ngày càng cao.
+</root>

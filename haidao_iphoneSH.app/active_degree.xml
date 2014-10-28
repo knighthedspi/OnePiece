@@ -1,0 +1,25 @@
+<root>
+  <active_degree ID="2" TitleText="Ra khơi" count="5" value="8" buttonText="Đến ra khơi" type="2"/>
+  <active_degree ID="3" TitleText="Nhà bếp" count="5" value="8" buttonText="Đến sản xuất" type="3"/>
+  <active_degree ID="4" TitleText="Đơn hàng" count="2" value="8" buttonText="Đơn hàng bạn bè" type="4"/>
+  <active_degree ID="5" TitleText="Nhiệm vụ ngày" count="5" value="8" buttonText="Nhiệm vụ ngày" type="5"/>
+  <active_degree ID="6" TitleText="Nhận lương" count="1" value="4" buttonText="Nhận lương" type="6"/>
+  <active_degree ID="7" TitleText="Đào tạo" count="1" value="4" buttonText="Đào tạo thuộc hạ" type="7"/>
+  <active_degree ID="8" TitleText="Cường hóa" count="1" value="8" buttonText="Cường hóa" type="8"/>
+  <active_degree ID="9" TitleText="P.bản tinh" count="1" value="4" buttonText="Khiêu chiến" type="9"/>
+  <active_degree ID="10" TitleText="Tìm Đá quý" count="1" value="6" buttonText="Đến tìm" type="10"/>
+  <active_degree ID="11" TitleText="Đấu trường" count="2" value="8" buttonText="Đến đấu trường" type="11"/>
+  <active_degree ID="12" TitleText="Đánh cướp" count="1" value="4" buttonText="Đến cướp" type="12"/>
+  <active_degree ID="13" TitleText="Chiếm cảng" count="1" value="4" buttonText="" type="13"/>
+  <active_degree ID="14" TitleText="Cống hiến" count="1" value="4" buttonText="Đến góp" type="14"/>
+  <active_degree ID="15" TitleText="Chiếm t.nguyên" count="1" value="4" buttonText="Đến chiếm" type="15"/>
+  <active_degree ID="16" TitleText="Đàm phán" count="3" value="6" buttonText="Bắt đầu" type="16"/>
+  <active_degree ID="17" TitleText="Tìm bảo" count="3" value="8" buttonText="Đến tìm bảo" type="17"/>
+  <active_degree ID="18" TitleText="Chế tạo" count="3" value="8" buttonText="Đến chế tạo" type="18"/>
+  <active_degree ID="19" TitleText="Tăng tốc" count="2" value="6" buttonText="Đến tăng tốc" type="19"/>
+  <active_degree ID="20" TitleText="Dùng xu tặng" count="1" value="6" buttonText="Đến tặng" type="20"/>
+  <active_degree ID="22" TitleText="Chúc phúc vòng sao" count="1" value="4" buttonText="Đến nhận" type="22"/>
+  <active_degree ID="23" TitleText="Beri tụ hồn" count="1" value="4" buttonText="Đến tụ hồn" type="23"/>
+  <active_degree ID="24" TitleText="Thưởng nhà tù" count="1" value="2" buttonText="Đến nhận" type="24"/>
+  <active_degree ID="25" TitleText="Thưởng ngày" count="1" value="2" buttonText="Đến nhận" type="25"/>
+</root>

@@ -1,0 +1,20 @@
+<root>
+  <!-- 
+	<compose composeID="" sourceID="" targetID="" num="" needBely="" needGold=""/>
+	-->
+  <compose composeID="1" sourceID="40001" num="2" needBely="10000" needGold="" targetID="40004"/>
+  <compose composeID="2" sourceID="40002" num="2" needBely="" needGold="10" targetID="40005"/>
+  <compose composeID="3" sourceID="40003" num="2" needBely="10000" needGold="" targetID="40006"/>
+  <compose composeID="4" sourceID="30006" num="1" needBely="" needGold="" targetID="30007"/>
+  <compose composeID="5" sourceID="30007" num="1" needBely="" needGold="" targetID="30008"/>
+  <compose composeID="6" sourceID="30008" num="1" needBely="" needGold="" targetID="30009"/>
+  <compose composeID="7" sourceID="30010" num="1" needBely="" needGold="" targetID="30011"/>
+  <compose composeID="8" sourceID="30011" num="1" needBely="" needGold="" targetID="30012"/>
+  <compose composeID="9" sourceID="30012" num="1" needBely="" needGold="" targetID="30013"/>
+  <compose composeID="10" sourceID="30014" num="1" needBely="" needGold="" targetID="30015"/>
+  <compose composeID="11" sourceID="30015" num="1" needBely="" needGold="" targetID="30016"/>
+  <compose composeID="12" sourceID="30016" num="1" needBely="" needGold="" targetID="30017"/>
+  <compose composeID="13" sourceID="30001" num="1" needBely="" needGold="" targetID="30006"/>
+  <compose composeID="14" sourceID="30002" num="1" needBely="" needGold="" targetID="30010"/>
+  <compose composeID="15" sourceID="30003" num="1" needBely="" needGold="" targetID="30014"/>
+</root>

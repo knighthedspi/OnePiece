@@ -1,0 +1,31 @@
+﻿<root>
+  <starattri order="1" ID="1" name="HP" rate="0" factor="1" br="0" decimal="0"/>
+  <starattri order="2" ID="3" name="Sức" rate="0" factor="100" br="0" decimal="1"/>
+  <starattri order="3" ID="4" name="Nhanh" rate="0" factor="100" br="0" decimal="1"/>
+  <starattri order="4" ID="5" name="Trí" rate="0" factor="100" br="0" decimal="1"/>
+  <starattri order="5" ID="6" name="Công" rate="0" factor="1" br="0" decimal="0"/>
+  <starattri order="6" ID="7" name="Tất công" rate="0" factor="1" br="0" decimal="0"/>
+  <starattri order="7" ID="8" name="Công phép" rate="0" factor="1" br="0" decimal="0"/>
+  <starattri order="8" ID="9" name="Thủ" rate="0" factor="1" br="0" decimal="0"/>
+  <starattri order="9" ID="10" name="Tất thủ" rate="0" factor="1" br="0" decimal="0"/>
+  <starattri order="10" ID="11" name="Thủ phép" rate="0" factor="1" br="0" decimal="0"/>
+  <starattri order="11" ID="2" name="HP" rate="1" factor="100" br="0" decimal="2"/>
+  <starattri order="12" ID="25" name="Công" rate="1" factor="10000" br="0" decimal="2"/>
+  <starattri order="13" ID="26" name="Thủ" rate="1" factor="10000" br="0" decimal="2"/>
+  <starattri order="14" ID="27" name="Tất công" rate="1" factor="10000" br="0" decimal="2"/>
+  <starattri order="15" ID="28" name="Tất thủ" rate="1" factor="10000" br="0" decimal="2"/>
+  <starattri order="16" ID="29" name="Công phép" rate="1" factor="10000" br="0" decimal="2"/>
+  <starattri order="17" ID="30" name="Thủ phép" rate="1" factor="10000" br="0" decimal="2"/>
+  <starattri order="18" ID="13" name="Trúng" rate="0" factor="1" br="0" decimal="0"/>
+  <starattri order="19" ID="14" name="Bạo" rate="0" factor="1" br="0" decimal="0"/>
+  <starattri order="20" ID="15" name="Đỡ" rate="0" factor="1" br="0" decimal="0"/>
+  <starattri order="21" ID="16" name="Né" rate="0" factor="1" br="0" decimal="0"/>
+  <starattri order="31" ID="35" name="Công thiên phú" rate="0" factor="10000" br="1" decimal="2"/>
+  <starattri order="32" ID="36" name="Thủ thiên phú" rate="0" factor="10000" br="1" decimal="2"/>
+  <starattri order="33" ID="37" name="Tất công thiên phú" rate="0" factor="10000" br="1" decimal="2"/>
+  <starattri order="34" ID="38" name="Tất thủ thiên phú" rate="0" factor="10000" br="1" decimal="2"/>
+  <starattri order="35" ID="39" name="Công phép thiên phú" rate="0" factor="10000" br="1" decimal="2"/>
+  <starattri order="36" ID="40" name="Thủ phép thiên phú" rate="0" factor="10000" br="1" decimal="2"/>
+  <starattri order="37" ID="41" name="Sát thương cuối" rate="0" factor="1" br="1" decimal="0"/>
+  <starattri order="38" ID="42" name="Miễn thương cuối" rate="0" factor="1" br="1" decimal="0"/>
+</root>

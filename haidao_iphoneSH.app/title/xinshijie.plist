@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>dingwei_xinshijie.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2,2},{109,48}}</string>
+			<key>offset</key>
+			<string>{0,0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0,0},{109,48}}</string>
+			<key>sourceSize</key>
+			<string>{109,48}</string>
+		</dict>
+		<key>xinshijie_1_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2,52},{109,48}}</string>
+			<key>offset</key>
+			<string>{0,0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0,0},{109,48}}</string>
+			<key>sourceSize</key>
+			<string>{109,48}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>realTextureFileName</key>
+		<string>xinshijie.png</string>
+		<key>size</key>
+		<string>{113,102}</string>
+		<key>smartupdate</key>
+		<string>$TexturePacker:SmartUpdate:6f2ee152f3e98b78cb08aa90b7683fa1$</string>
+		<key>textureFileName</key>
+		<string>xinshijie.png</string>
+	</dict>
+</dict>
+</plist>

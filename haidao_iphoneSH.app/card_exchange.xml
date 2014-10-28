@@ -1,0 +1,25 @@
+<root>
+  <card_exchange id="1" itemTempId="129002" getNum="1" consumeChip="250000" needPrestige="" neeLevel="100" limitTime="1" canBatch="0"/>
+  <card_exchange id="2" itemTempId="81125" getNum="1" consumeChip="500000" needPrestige="" neeLevel="" limitTime="1" canBatch="0"/>
+  <card_exchange id="3" itemTempId="60035" getNum="1" consumeChip="4000" needPrestige="" neeLevel="" limitTime="" canBatch="1"/>
+  <card_exchange id="4" itemTempId="2257101" getNum="1" consumeChip="80000" needPrestige="" neeLevel="" limitTime="" canBatch="0"/>
+  <card_exchange id="5" itemTempId="2216102" getNum="1" consumeChip="40000" needPrestige="" neeLevel="" limitTime="" canBatch="0"/>
+  <card_exchange id="6" itemTempId="2226102" getNum="1" consumeChip="60000" needPrestige="" neeLevel="" limitTime="" canBatch="0"/>
+  <card_exchange id="7" itemTempId="2236103" getNum="1" consumeChip="60000" needPrestige="" neeLevel="" limitTime="" canBatch="0"/>
+  <card_exchange id="8" itemTempId="2246103" getNum="1" consumeChip="80000" needPrestige="" neeLevel="" limitTime="" canBatch="0"/>
+  <card_exchange id="9" itemTempId="2256104" getNum="1" consumeChip="100000" needPrestige="" neeLevel="" limitTime="" canBatch="0"/>
+  <card_exchange id="10" itemTempId="2266104" getNum="1" consumeChip="120000" needPrestige="" neeLevel="" limitTime="" canBatch="0"/>
+  <card_exchange id="11" itemTempId="120012" getNum="1" consumeChip="20000" needPrestige="" neeLevel="" limitTime="" canBatch="1"/>
+  <card_exchange id="12" itemTempId="121501" getNum="1" consumeChip="1200" needPrestige="" neeLevel="" limitTime="" canBatch="1"/>
+  <card_exchange id="13" itemTempId="121502" getNum="1" consumeChip="1750" needPrestige="" neeLevel="" limitTime="" canBatch="1"/>
+  <card_exchange id="14" itemTempId="121503" getNum="1" consumeChip="2300" needPrestige="" neeLevel="" limitTime="" canBatch="1"/>
+  <card_exchange id="15" itemTempId="121504" getNum="1" consumeChip="2850" needPrestige="" neeLevel="" limitTime="" canBatch="1"/>
+  <card_exchange id="16" itemTempId="121505" getNum="1" consumeChip="3400" needPrestige="" neeLevel="" limitTime="" canBatch="1"/>
+  <card_exchange id="17" itemTempId="121506" getNum="1" consumeChip="3950" needPrestige="" neeLevel="" limitTime="" canBatch="1"/>
+  <card_exchange id="18" itemTempId="121507" getNum="1" consumeChip="4500" needPrestige="" neeLevel="" limitTime="" canBatch="1"/>
+  <card_exchange id="19" itemTempId="70122" getNum="1" consumeChip="40000" needPrestige="" neeLevel="" limitTime="" canBatch="0"/>
+  <card_exchange id="20" itemTempId="70123" getNum="1" consumeChip="40000" needPrestige="" neeLevel="" limitTime="" canBatch="0"/>
+  <card_exchange id="21" itemTempId="70124" getNum="1" consumeChip="40000" needPrestige="" neeLevel="" limitTime="" canBatch="0"/>
+  <card_exchange id="22" itemTempId="70125" getNum="1" consumeChip="40000" needPrestige="" neeLevel="" limitTime="" canBatch="0"/>
+  <card_exchange id="23" itemTempId="70126" getNum="1" consumeChip="40000" needPrestige="" neeLevel="" limitTime="" canBatch="0"/>
+</root>

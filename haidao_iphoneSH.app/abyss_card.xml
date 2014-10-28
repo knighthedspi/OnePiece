@@ -1,0 +1,301 @@
+<root>
+  <abyss_card id="5111" tempId="50_P.bản_1_Berry_1" idAndCount="" addBelly="216000" addExperience="" elementTone="" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="5112" tempId="50_P.bản_1_Berry_2" idAndCount="" addBelly="198000" addExperience="" elementTone="" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="5113" tempId="50_P.bản_1_Berry_3" idAndCount="" addBelly="180000" addExperience="" elementTone="" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="5114" tempId="50_P.bản_1_Berry_4" idAndCount="" addBelly="162000" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="5115" tempId="50_P.bản_1_Berry_5" idAndCount="" addBelly="144000" addExperience="" elementTone="" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="5121" tempId="50_P.bản_1_Đá Nguyên Tố_1" idAndCount="" addBelly="" addExperience="" elementTone="290" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="5122" tempId="50_P.bản_1_Đá Nguyên Tố_2" idAndCount="" addBelly="" addExperience="" elementTone="250" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="5123" tempId="50_P.bản_1_Đá Nguyên Tố_3" idAndCount="" addBelly="" addExperience="" elementTone="210" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="5124" tempId="50_P.bản_1_Đá Nguyên Tố_4" idAndCount="" addBelly="" addExperience="" elementTone="165" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="5125" tempId="50_P.bản_1_Đá Nguyên Tố_5" idAndCount="" addBelly="" addExperience="" elementTone="125" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="5131" tempId="50_P.bản_1_Đá Năng Lượng_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="225" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="5132" tempId="50_P.bản_1_Đá Năng Lượng_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="185" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="5133" tempId="50_P.bản_1_Đá Năng Lượng_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="150" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="5134" tempId="50_P.bản_1_Đá Năng Lượng_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="110" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="5135" tempId="50_P.bản_1_Đá Năng Lượng_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="75" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="5141" tempId="50_P.bản_1_Đá định hướng tẩy_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="10000"/>
+  <abyss_card id="5151" tempId="50_P.bản_1_Bảo Vật Đỏ_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="5152" tempId="50_P.bản_1_Bảo Vật Đỏ_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="5153" tempId="50_P.bản_1_Bảo Vật Đỏ_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="5154" tempId="50_P.bản_1_Bảo Vật Đỏ_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="5155" tempId="50_P.bản_1_Bảo Vật Đỏ_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="5171" tempId="50_P.bản_1_Đá Chuyển Phong Ấn_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="5000" openWeight="5000"/>
+  <abyss_card id="5161" tempId="50_P.bản_1_Bảo Vật Tím Cam_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="5000"/>
+  <abyss_card id="6111" tempId="60_P.bản_1_Berry_1" idAndCount="" addBelly="288000" addExperience="" elementTone="" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="6112" tempId="60_P.bản_1_Berry_2" idAndCount="" addBelly="264000" addExperience="" elementTone="" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="6113" tempId="60_P.bản_1_Berry_3" idAndCount="" addBelly="240000" addExperience="" elementTone="" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="6114" tempId="60_P.bản_1_Berry_4" idAndCount="" addBelly="216000" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="6115" tempId="60_P.bản_1_Berry_5" idAndCount="" addBelly="192000" addExperience="" elementTone="" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="6121" tempId="60_P.bản_1_Đá Nguyên Tố_1" idAndCount="" addBelly="" addExperience="" elementTone="350" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="6122" tempId="60_P.bản_1_Đá Nguyên Tố_2" idAndCount="" addBelly="" addExperience="" elementTone="300" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="6123" tempId="60_P.bản_1_Đá Nguyên Tố_3" idAndCount="" addBelly="" addExperience="" elementTone="250" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="6124" tempId="60_P.bản_1_Đá Nguyên Tố_4" idAndCount="" addBelly="" addExperience="" elementTone="200" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="6125" tempId="60_P.bản_1_Đá Nguyên Tố_5" idAndCount="" addBelly="" addExperience="" elementTone="150" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="6131" tempId="60_P.bản_1_Đá Năng Lượng_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="225" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="6132" tempId="60_P.bản_1_Đá Năng Lượng_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="185" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="6133" tempId="60_P.bản_1_Đá Năng Lượng_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="150" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="6134" tempId="60_P.bản_1_Đá Năng Lượng_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="110" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="6135" tempId="60_P.bản_1_Đá Năng Lượng_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="75" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="6141" tempId="60_P.bản_1_Đá định hướng tẩy_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="10000"/>
+  <abyss_card id="6151" tempId="60_P.bản_1_Bảo Vật Đỏ_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="6152" tempId="60_P.bản_1_Bảo Vật Đỏ_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="6153" tempId="60_P.bản_1_Bảo Vật Đỏ_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="6154" tempId="60_P.bản_1_Bảo Vật Đỏ_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="6155" tempId="60_P.bản_1_Bảo Vật Đỏ_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="6171" tempId="60_P.bản_1_Đá Chuyển Phong Ấn_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="5000" openWeight="5000"/>
+  <abyss_card id="6161" tempId="60_P.bản_1_Bảo Vật Tím Cam_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="5000"/>
+  <abyss_card id="7211" tempId="70_P.bản_2_Berry_1" idAndCount="" addBelly="336000" addExperience="" elementTone="" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="7212" tempId="70_P.bản_2_Berry_2" idAndCount="" addBelly="308000" addExperience="" elementTone="" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="7213" tempId="70_P.bản_2_Berry_3" idAndCount="" addBelly="280000" addExperience="" elementTone="" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="7214" tempId="70_P.bản_2_Berry_4" idAndCount="" addBelly="252000" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="7215" tempId="70_P.bản_2_Berry_5" idAndCount="" addBelly="224000" addExperience="" elementTone="" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="7221" tempId="70_P.bản_2_Đá Nguyên Tố_1" idAndCount="" addBelly="" addExperience="" elementTone="410" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="7222" tempId="70_P.bản_2_Đá Nguyên Tố_2" idAndCount="" addBelly="" addExperience="" elementTone="350" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="7223" tempId="70_P.bản_2_Đá Nguyên Tố_3" idAndCount="" addBelly="" addExperience="" elementTone="290" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="7224" tempId="70_P.bản_2_Đá Nguyên Tố_4" idAndCount="" addBelly="" addExperience="" elementTone="235" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="7225" tempId="70_P.bản_2_Đá Nguyên Tố_5" idAndCount="" addBelly="" addExperience="" elementTone="175" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="7231" tempId="70_P.bản_2_Đá Năng Lượng_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="225" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="7232" tempId="70_P.bản_2_Đá Năng Lượng_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="185" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="7233" tempId="70_P.bản_2_Đá Năng Lượng_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="150" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="7234" tempId="70_P.bản_2_Đá Năng Lượng_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="110" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="7235" tempId="70_P.bản_2_Đá Năng Lượng_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="75" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="7241" tempId="70_P.bản_2_Đá định hướng tẩy_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="10000"/>
+  <abyss_card id="7251" tempId="70_P.bản_2_Bảo Vật Đỏ_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="7252" tempId="70_P.bản_2_Bảo Vật Đỏ_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="7253" tempId="70_P.bản_2_Bảo Vật Đỏ_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="7254" tempId="70_P.bản_2_Bảo Vật Đỏ_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="7255" tempId="70_P.bản_2_Bảo Vật Đỏ_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="7271" tempId="70_P.bản_2_Đá Chuyển Phong Ấn_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="5000" openWeight="5000"/>
+  <abyss_card id="7261" tempId="70_P.bản_2_Bảo Vật Tím Cam_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="5000"/>
+  <abyss_card id="8111" tempId="80_P.bản_1_Berry_1" idAndCount="" addBelly="408000" addExperience="" elementTone="" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="8112" tempId="80_P.bản_1_Berry_2" idAndCount="" addBelly="374000" addExperience="" elementTone="" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="8113" tempId="80_P.bản_1_Berry_3" idAndCount="" addBelly="340000" addExperience="" elementTone="" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="8114" tempId="80_P.bản_1_Berry_4" idAndCount="" addBelly="306000" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="8115" tempId="80_P.bản_1_Berry_5" idAndCount="" addBelly="272000" addExperience="" elementTone="" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="8121" tempId="80_P.bản_1_Đá Nguyên Tố_1" idAndCount="" addBelly="" addExperience="" elementTone="470" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="8122" tempId="80_P.bản_1_Đá Nguyên Tố_2" idAndCount="" addBelly="" addExperience="" elementTone="400" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="8123" tempId="80_P.bản_1_Đá Nguyên Tố_3" idAndCount="" addBelly="" addExperience="" elementTone="335" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="8124" tempId="80_P.bản_1_Đá Nguyên Tố_4" idAndCount="" addBelly="" addExperience="" elementTone="265" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="8125" tempId="80_P.bản_1_Đá Nguyên Tố_5" idAndCount="" addBelly="" addExperience="" elementTone="200" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="8131" tempId="80_P.bản_1_Đá Năng Lượng_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="210" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="8132" tempId="80_P.bản_1_Đá Năng Lượng_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="180" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="8133" tempId="80_P.bản_1_Đá Năng Lượng_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="150" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="8134" tempId="80_P.bản_1_Đá Năng Lượng_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="110" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="8135" tempId="80_P.bản_1_Đá Năng Lượng_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="75" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="8141" tempId="80_P.bản_1_Đá định hướng tẩy_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="10000"/>
+  <abyss_card id="8151" tempId="80_P.bản_1_Bảo Vật Đỏ_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="8152" tempId="80_P.bản_1_Bảo Vật Đỏ_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="8153" tempId="80_P.bản_1_Bảo Vật Đỏ_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="8154" tempId="80_P.bản_1_Bảo Vật Đỏ_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="8155" tempId="80_P.bản_1_Bảo Vật Đỏ_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="8171" tempId="70_P.bản_2_Đá Chuyển Phong Ấn_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="5000" openWeight="5000"/>
+  <abyss_card id="8161" tempId="80_P.bản_1_Bảo Vật Tím Cam_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="5000"/>
+  <abyss_card id="8211" tempId="80_P.bản_2_Berry_1" idAndCount="" addBelly="408000" addExperience="" elementTone="" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="8212" tempId="80_P.bản_2_Berry_2" idAndCount="" addBelly="374000" addExperience="" elementTone="" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="8213" tempId="80_P.bản_2_Berry_3" idAndCount="" addBelly="340000" addExperience="" elementTone="" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="8214" tempId="80_P.bản_2_Berry_4" idAndCount="" addBelly="306000" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="8215" tempId="80_P.bản_2_Berry_5" idAndCount="" addBelly="272000" addExperience="" elementTone="" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="8221" tempId="80_P.bản_2_Đá Nguyên Tố_1" idAndCount="" addBelly="" addExperience="" elementTone="470" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="8222" tempId="80_P.bản_2_Đá Nguyên Tố_2" idAndCount="" addBelly="" addExperience="" elementTone="400" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="8223" tempId="80_P.bản_2_Đá Nguyên Tố_3" idAndCount="" addBelly="" addExperience="" elementTone="335" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="8224" tempId="80_P.bản_2_Đá Nguyên Tố_4" idAndCount="" addBelly="" addExperience="" elementTone="265" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="8225" tempId="80_P.bản_2_Đá Nguyên Tố_5" idAndCount="" addBelly="" addExperience="" elementTone="200" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="8231" tempId="80_P.bản_2_Đá Năng Lượng_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="210" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="8232" tempId="80_P.bản_2_Đá Năng Lượng_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="180" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="8233" tempId="80_P.bản_2_Đá Năng Lượng_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="150" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="8234" tempId="80_P.bản_2_Đá Năng Lượng_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="110" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="8235" tempId="80_P.bản_2_Đá Năng Lượng_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="75" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="8241" tempId="80_P.bản_2_Đá định hướng tẩy_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="10000"/>
+  <abyss_card id="8251" tempId="80_P.bản_2_Bảo Vật Đỏ_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="8252" tempId="80_P.bản_2_Bảo Vật Đỏ_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="8253" tempId="80_P.bản_2_Bảo Vật Đỏ_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="8254" tempId="80_P.bản_2_Bảo Vật Đỏ_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="8255" tempId="80_P.bản_2_Bảo Vật Đỏ_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="8271" tempId="70_P.bản_2_Đá Chuyển Phong Ấn_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="5000" openWeight="5000"/>
+  <abyss_card id="8261" tempId="80_P.bản_2_Bảo Vật Tím Cam_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="5000"/>
+  <abyss_card id="9111" tempId="90_P.bản_1_Berry_1" idAndCount="" addBelly="480000" addExperience="" elementTone="" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="9112" tempId="90_P.bản_1_Berry_2" idAndCount="" addBelly="440000" addExperience="" elementTone="" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="9113" tempId="90_P.bản_1_Berry_3" idAndCount="" addBelly="400000" addExperience="" elementTone="" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="9114" tempId="90_P.bản_1_Berry_4" idAndCount="" addBelly="360000" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="9115" tempId="90_P.bản_1_Berry_5" idAndCount="" addBelly="320000" addExperience="" elementTone="" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="9121" tempId="90_P.bản_1_Đá Nguyên Tố_1" idAndCount="" addBelly="" addExperience="" elementTone="525" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="9122" tempId="90_P.bản_1_Đá Nguyên Tố_2" idAndCount="" addBelly="" addExperience="" elementTone="450" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="9123" tempId="90_P.bản_1_Đá Nguyên Tố_3" idAndCount="" addBelly="" addExperience="" elementTone="375" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="9124" tempId="90_P.bản_1_Đá Nguyên Tố_4" idAndCount="" addBelly="" addExperience="" elementTone="300" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="9125" tempId="90_P.bản_1_Đá Nguyên Tố_5" idAndCount="" addBelly="" addExperience="" elementTone="225" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="9131" tempId="90_P.bản_1_Đá Năng Lượng_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="210" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="9132" tempId="90_P.bản_1_Đá Năng Lượng_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="180" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="9133" tempId="90_P.bản_1_Đá Năng Lượng_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="150" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="9134" tempId="90_P.bản_1_Đá Năng Lượng_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="110" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="9135" tempId="90_P.bản_1_Đá Năng Lượng_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="75" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="9141" tempId="90_P.bản_1_Đá định hướng tẩy_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="10000"/>
+  <abyss_card id="9151" tempId="90_P.bản_1_Bảo Vật Đỏ_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="9152" tempId="90_P.bản_1_Bảo Vật Đỏ_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="9153" tempId="90_P.bản_1_Bảo Vật Đỏ_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="9154" tempId="90_P.bản_1_Bảo Vật Đỏ_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="9155" tempId="90_P.bản_1_Bảo Vật Đỏ_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="9171" tempId="70_P.bản_2_Đá Chuyển Phong Ấn_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="5000" openWeight="5000"/>
+  <abyss_card id="9161" tempId="90_P.bản_1_Bảo Vật Tím Cam_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="5000"/>
+  <abyss_card id="9211" tempId="90_P.bản_2_Berry_1" idAndCount="" addBelly="480000" addExperience="" elementTone="" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="9212" tempId="90_P.bản_2_Berry_2" idAndCount="" addBelly="440000" addExperience="" elementTone="" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="9213" tempId="90_P.bản_2_Berry_3" idAndCount="" addBelly="400000" addExperience="" elementTone="" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="9214" tempId="90_P.bản_2_Berry_4" idAndCount="" addBelly="360000" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="9215" tempId="90_P.bản_2_Berry_5" idAndCount="" addBelly="320000" addExperience="" elementTone="" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="9221" tempId="90_P.bản_2_Đá Nguyên Tố_1" idAndCount="" addBelly="" addExperience="" elementTone="525" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="9222" tempId="90_P.bản_2_Đá Nguyên Tố_2" idAndCount="" addBelly="" addExperience="" elementTone="450" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="9223" tempId="90_P.bản_2_Đá Nguyên Tố_3" idAndCount="" addBelly="" addExperience="" elementTone="375" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="9224" tempId="90_P.bản_2_Đá Nguyên Tố_4" idAndCount="" addBelly="" addExperience="" elementTone="300" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="9225" tempId="90_P.bản_2_Đá Nguyên Tố_5" idAndCount="" addBelly="" addExperience="" elementTone="225" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="9231" tempId="90_P.bản_2_Đá Năng Lượng_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="210" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="9232" tempId="90_P.bản_2_Đá Năng Lượng_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="180" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="9233" tempId="90_P.bản_2_Đá Năng Lượng_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="150" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="9234" tempId="90_P.bản_2_Đá Năng Lượng_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="110" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="9235" tempId="90_P.bản_2_Đá Năng Lượng_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="75" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="9241" tempId="90_P.bản_2_Đá định hướng tẩy_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="10000"/>
+  <abyss_card id="9251" tempId="90_P.bản_2_Bảo Vật Đỏ_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="9252" tempId="90_P.bản_2_Bảo Vật Đỏ_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="9253" tempId="90_P.bản_2_Bảo Vật Đỏ_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="9254" tempId="90_P.bản_2_Bảo Vật Đỏ_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="9255" tempId="90_P.bản_2_Bảo Vật Đỏ_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="9271" tempId="70_P.bản_2_Đá Chuyển Phong Ấn_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="5000" openWeight="5000"/>
+  <abyss_card id="9261" tempId="90_P.bản_2_Bảo Vật Tím Cam_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="5000"/>
+  <abyss_card id="10111" tempId="100_P.bản_1_Berry_1" idAndCount="" addBelly="552000" addExperience="" elementTone="" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="10112" tempId="100_P.bản_1_Berry_2" idAndCount="" addBelly="506000" addExperience="" elementTone="" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="10113" tempId="100_P.bản_1_Berry_3" idAndCount="" addBelly="460000" addExperience="" elementTone="" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="10114" tempId="100_P.bản_1_Berry_4" idAndCount="" addBelly="414000" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="10115" tempId="100_P.bản_1_Berry_5" idAndCount="" addBelly="368000" addExperience="" elementTone="" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="10121" tempId="100_P.bản_1_Đá Nguyên Tố_1" idAndCount="" addBelly="" addExperience="" elementTone="585" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="10122" tempId="100_P.bản_1_Đá Nguyên Tố_2" idAndCount="" addBelly="" addExperience="" elementTone="500" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="10123" tempId="100_P.bản_1_Đá Nguyên Tố_3" idAndCount="" addBelly="" addExperience="" elementTone="420" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="10124" tempId="100_P.bản_1_Đá Nguyên Tố_4" idAndCount="" addBelly="" addExperience="" elementTone="335" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="10125" tempId="100_P.bản_1_Đá Nguyên Tố_5" idAndCount="" addBelly="" addExperience="" elementTone="250" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="10131" tempId="100_P.bản_1_Đá Năng Lượng_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="210" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="10132" tempId="100_P.bản_1_Đá Năng Lượng_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="180" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="10133" tempId="100_P.bản_1_Đá Năng Lượng_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="150" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="10134" tempId="100_P.bản_1_Đá Năng Lượng_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="110" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="10135" tempId="100_P.bản_1_Đá Năng Lượng_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="75" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="10141" tempId="100_P.bản_1_Đá định hướng tẩy_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="10000"/>
+  <abyss_card id="10151" tempId="100_P.bản_1_Bảo Vật Đỏ_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="10152" tempId="100_P.bản_1_Bảo Vật Đỏ_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="10153" tempId="100_P.bản_1_Bảo Vật Đỏ_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="10154" tempId="100_P.bản_1_Bảo Vật Đỏ_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="10155" tempId="100_P.bản_1_Bảo Vật Đỏ_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="10171" tempId="70_P.bản_2_Đá Chuyển Phong Ấn_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="5000" openWeight="5000"/>
+  <abyss_card id="10161" tempId="100_P.bản_1_Bảo Vật Tím Cam_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="5000"/>
+  <abyss_card id="10211" tempId="100_P.bản_2_Berry_1" idAndCount="" addBelly="552000" addExperience="" elementTone="" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="10212" tempId="100_P.bản_2_Berry_2" idAndCount="" addBelly="506000" addExperience="" elementTone="" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="10213" tempId="100_P.bản_2_Berry_3" idAndCount="" addBelly="460000" addExperience="" elementTone="" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="10214" tempId="100_P.bản_2_Berry_4" idAndCount="" addBelly="414000" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="10215" tempId="100_P.bản_2_Berry_5" idAndCount="" addBelly="368000" addExperience="" elementTone="" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="10221" tempId="100_P.bản_2_Đá Nguyên Tố_1" idAndCount="" addBelly="" addExperience="" elementTone="585" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="10222" tempId="100_P.bản_2_Đá Nguyên Tố_2" idAndCount="" addBelly="" addExperience="" elementTone="500" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="10223" tempId="100_P.bản_2_Đá Nguyên Tố_3" idAndCount="" addBelly="" addExperience="" elementTone="420" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="10224" tempId="100_P.bản_2_Đá Nguyên Tố_4" idAndCount="" addBelly="" addExperience="" elementTone="335" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="10225" tempId="100_P.bản_2_Đá Nguyên Tố_5" idAndCount="" addBelly="" addExperience="" elementTone="250" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="10231" tempId="100_P.bản_2_Đá Năng Lượng_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="210" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="10232" tempId="100_P.bản_2_Đá Năng Lượng_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="180" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="10233" tempId="100_P.bản_2_Đá Năng Lượng_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="150" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="10234" tempId="100_P.bản_2_Đá Năng Lượng_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="110" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="10235" tempId="100_P.bản_2_Đá Năng Lượng_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="75" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="10241" tempId="100_P.bản_2_Đá định hướng tẩy_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="10000"/>
+  <abyss_card id="10251" tempId="100_P.bản_2_Bảo Vật Đỏ_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="10252" tempId="100_P.bản_2_Bảo Vật Đỏ_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="10253" tempId="100_P.bản_2_Bảo Vật Đỏ_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="10254" tempId="100_P.bản_2_Bảo Vật Đỏ_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="10255" tempId="100_P.bản_2_Bảo Vật Đỏ_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="10271" tempId="70_P.bản_2_Đá Chuyển Phong Ấn_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="5000" openWeight="5000"/>
+  <abyss_card id="10261" tempId="100_P.bản_2_Bảo Vật Tím Cam_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="5000"/>
+  <abyss_card id="11111" tempId="110_P.bản_1_Berry_1" idAndCount="" addBelly="624000" addExperience="" elementTone="" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="11112" tempId="110_P.bản_1_Berry_2" idAndCount="" addBelly="572000" addExperience="" elementTone="" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="11113" tempId="110_P.bản_1_Berry_3" idAndCount="" addBelly="520000" addExperience="" elementTone="" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="11114" tempId="110_P.bản_1_Berry_4" idAndCount="" addBelly="468000" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="11115" tempId="110_P.bản_1_Berry_5" idAndCount="" addBelly="416000" addExperience="" elementTone="" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="11121" tempId="110_P.bản_1_Đá Nguyên Tố_1" idAndCount="" addBelly="" addExperience="" elementTone="645" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="11122" tempId="110_P.bản_1_Đá Nguyên Tố_2" idAndCount="" addBelly="" addExperience="" elementTone="550" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="11123" tempId="110_P.bản_1_Đá Nguyên Tố_3" idAndCount="" addBelly="" addExperience="" elementTone="460" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="11124" tempId="110_P.bản_1_Đá Nguyên Tố_4" idAndCount="" addBelly="" addExperience="" elementTone="365" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="11125" tempId="110_P.bản_1_Đá Nguyên Tố_5" idAndCount="" addBelly="" addExperience="" elementTone="275" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="11131" tempId="110_P.bản_1_Đá Năng Lượng_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="210" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="11132" tempId="110_P.bản_1_Đá Năng Lượng_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="180" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="11133" tempId="110_P.bản_1_Đá Năng Lượng_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="150" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="11134" tempId="110_P.bản_1_Đá Năng Lượng_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="110" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="11135" tempId="110_P.bản_1_Đá Năng Lượng_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="75" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="11141" tempId="110_P.bản_1_Đá định hướng tẩy_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="10000"/>
+  <abyss_card id="11151" tempId="110_P.bản_1_Bảo Vật Đỏ_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="11152" tempId="110_P.bản_1_Bảo Vật Đỏ_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="11153" tempId="110_P.bản_1_Bảo Vật Đỏ_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="11154" tempId="110_P.bản_1_Bảo Vật Đỏ_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="11155" tempId="110_P.bản_1_Bảo Vật Đỏ_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="11171" tempId="70_P.bản_1_Đá Chuyển Phong Ấn_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="5000" openWeight="5000"/>
+  <abyss_card id="11161" tempId="110_P.bản_1_Bảo Vật Tím Cam_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="5000"/>
+  <abyss_card id="11211" tempId="110_P.bản_2_Berry_1" idAndCount="" addBelly="624000" addExperience="" elementTone="" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="11212" tempId="110_P.bản_2_Berry_2" idAndCount="" addBelly="572000" addExperience="" elementTone="" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="11213" tempId="110_P.bản_2_Berry_3" idAndCount="" addBelly="520000" addExperience="" elementTone="" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="11214" tempId="110_P.bản_2_Berry_4" idAndCount="" addBelly="468000" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="11215" tempId="110_P.bản_2_Berry_5" idAndCount="" addBelly="416000" addExperience="" elementTone="" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="11221" tempId="110_P.bản_2_Đá Nguyên Tố_1" idAndCount="" addBelly="" addExperience="" elementTone="645" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="11222" tempId="110_P.bản_2_Đá Nguyên Tố_2" idAndCount="" addBelly="" addExperience="" elementTone="550" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="11223" tempId="110_P.bản_2_Đá Nguyên Tố_3" idAndCount="" addBelly="" addExperience="" elementTone="460" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="11224" tempId="110_P.bản_2_Đá Nguyên Tố_4" idAndCount="" addBelly="" addExperience="" elementTone="365" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="11225" tempId="110_P.bản_2_Đá Nguyên Tố_5" idAndCount="" addBelly="" addExperience="" elementTone="275" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="11231" tempId="110_P.bản_2_Đá Năng Lượng_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="210" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="11232" tempId="110_P.bản_2_Đá Năng Lượng_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="180" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="11233" tempId="110_P.bản_2_Đá Năng Lượng_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="150" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="11234" tempId="110_P.bản_2_Đá Năng Lượng_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="110" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="11235" tempId="110_P.bản_2_Đá Năng Lượng_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="75" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="11241" tempId="110_P.bản_2_Đá định hướng tẩy_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="10000"/>
+  <abyss_card id="11251" tempId="110_P.bản_2_Bảo Vật Đỏ_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="11252" tempId="110_P.bản_2_Bảo Vật Đỏ_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="11253" tempId="110_P.bản_2_Bảo Vật Đỏ_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="11254" tempId="110_P.bản_2_Bảo Vật Đỏ_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="11255" tempId="110_P.bản_2_Bảo Vật Đỏ_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="11271" tempId="70_P.bản_2_Đá Chuyển Phong Ấn_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="5000" openWeight="5000"/>
+  <abyss_card id="11261" tempId="110_P.bản_2_Bảo Vật Tím Cam_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="5000"/>
+  <abyss_card id="12111" tempId="120_P.bản_1_Berry_1" idAndCount="" addBelly="720000" addExperience="" elementTone="" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="12122" tempId="120_P.bản_1_Berry_2" idAndCount="" addBelly="660000" addExperience="" elementTone="" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="12113" tempId="120_P.bản_1_Berry_3" idAndCount="" addBelly="600000" addExperience="" elementTone="" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="12114" tempId="120_P.bản_1_Berry_4" idAndCount="" addBelly="540000" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="12115" tempId="120_P.bản_1_Berry_5" idAndCount="" addBelly="480000" addExperience="" elementTone="" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="12121" tempId="120_P.bản_1_Đá Nguyên Tố_1" idAndCount="" addBelly="" addExperience="" elementTone="705" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="12122" tempId="120_P.bản_1_Đá Nguyên Tố_2" idAndCount="" addBelly="" addExperience="" elementTone="600" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="12123" tempId="120_P.bản_1_Đá Nguyên Tố_3" idAndCount="" addBelly="" addExperience="" elementTone="500" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="12124" tempId="120_P.bản_1_Đá Nguyên Tố_4" idAndCount="" addBelly="" addExperience="" elementTone="400" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="12125" tempId="120_P.bản_1_Đá Nguyên Tố_5" idAndCount="" addBelly="" addExperience="" elementTone="300" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="12131" tempId="120_P.bản_1_Đá Năng Lượng_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="210" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="12132" tempId="120_P.bản_1_Đá Năng Lượng_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="180" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="12133" tempId="120_P.bản_1_Đá Năng Lượng_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="150" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="12134" tempId="120_P.bản_1_Đá Năng Lượng_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="110" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="12135" tempId="120_P.bản_1_Đá Năng Lượng_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="75" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="12141" tempId="120_P.bản_1_Đá định hướng tẩy_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="10000"/>
+  <abyss_card id="12151" tempId="120_P.bản_1_Bảo Vật Đỏ_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="12152" tempId="120_P.bản_1_Bảo Vật Đỏ_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="12153" tempId="120_P.bản_1_Bảo Vật Đỏ_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="12154" tempId="120_P.bản_1_Bảo Vật Đỏ_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="12155" tempId="120_P.bản_1_Bảo Vật Đỏ_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="12171" tempId="70_P.bản_1_Đá Chuyển Phong Ấn_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="5000" openWeight="5000"/>
+  <abyss_card id="12161" tempId="120_P.bản_1_Bảo Vật Tím Cam_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="5000"/>
+  <abyss_card id="12211" tempId="120_P.bản_2_Berry_1" idAndCount="" addBelly="720000" addExperience="" elementTone="" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="12212" tempId="120_P.bản_2_Berry_2" idAndCount="" addBelly="660000" addExperience="" elementTone="" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="12213" tempId="120_P.bản_2_Berry_3" idAndCount="" addBelly="600000" addExperience="" elementTone="" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="12214" tempId="120_P.bản_2_Berry_4" idAndCount="" addBelly="540000" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="12215" tempId="120_P.bản_2_Berry_5" idAndCount="" addBelly="480000" addExperience="" elementTone="" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="12221" tempId="120_P.bản_2_Đá Nguyên Tố_1" idAndCount="" addBelly="" addExperience="" elementTone="705" powerTone="" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="12222" tempId="120_P.bản_2_Đá Nguyên Tố_2" idAndCount="" addBelly="" addExperience="" elementTone="600" powerTone="" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="12223" tempId="120_P.bản_2_Đá Nguyên Tố_3" idAndCount="" addBelly="" addExperience="" elementTone="500" powerTone="" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="12224" tempId="120_P.bản_2_Đá Nguyên Tố_4" idAndCount="" addBelly="" addExperience="" elementTone="400" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="12225" tempId="120_P.bản_2_Đá Nguyên Tố_5" idAndCount="" addBelly="" addExperience="" elementTone="300" powerTone="" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="12231" tempId="120_P.bản_2_Đá Năng Lượng_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="210" downWeight="20000" openWeight="10000"/>
+  <abyss_card id="12232" tempId="120_P.bản_2_Đá Năng Lượng_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="180" downWeight="30000" openWeight="10000"/>
+  <abyss_card id="12233" tempId="120_P.bản_2_Đá Năng Lượng_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="150" downWeight="40000" openWeight="10000"/>
+  <abyss_card id="12234" tempId="120_P.bản_2_Đá Năng Lượng_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="110" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="12235" tempId="120_P.bản_2_Đá Năng Lượng_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="75" downWeight="60000" openWeight="10000"/>
+  <abyss_card id="12241" tempId="120_P.bản_2_Đá định hướng tẩy_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="10000"/>
+  <abyss_card id="12251" tempId="120_P.bản_2_Bảo Vật Đỏ_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="12252" tempId="120_P.bản_2_Bảo Vật Đỏ_2" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="12253" tempId="120_P.bản_2_Bảo Vật Đỏ_3" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="12254" tempId="120_P.bản_2_Bảo Vật Đỏ_4" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="12255" tempId="120_P.bản_2_Bảo Vật Đỏ_5" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="50000" openWeight="10000"/>
+  <abyss_card id="12271" tempId="70_P.bản_2_Đá Chuyển Phong Ấn_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="5000" openWeight="5000"/>
+  <abyss_card id="12261" tempId="120_P.bản_2_Bảo Vật Tím Cam_1" idAndCount="" addBelly="" addExperience="" elementTone="" powerTone="" downWeight="100000" openWeight="5000"/>
+</root>

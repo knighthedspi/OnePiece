@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<item mapid="1" id="1" type="1" name="Cửa phụ bản" data="Cửa phụ bản"  tx="56" ty="17" typeid="1"></item>
+	<item mapid="2" id="3" type="1" name="Cửa phụ bản" data="Cửa phụ bản"  tx="59" ty="14" typeid="1"></item>
+	<item mapid="3" id="4" type="1" name="Cửa phụ bản" data="Cửa phụ bản"  tx="66" ty="16" typeid="1"></item>
+	<item mapid="4" id="5" type="1" name="Cửa phụ bản" data="Cửa phụ bản"  tx="65" ty="17" typeid="1"></item>
+        <item mapid="5" id="6" type="1" name="Cửa phụ bản" data="Cửa phụ bản"  tx="66" ty="17" typeid="1"></item>
+        <item mapid="6" id="7" type="1" name="Cửa phụ bản" data="Cửa phụ bản"  tx="80" ty="17" typeid="1"></item>
+        <item mapid="7" id="8" type="1" name="Cửa phụ bản" data="Cửa phụ bản"  tx="76" ty="18" typeid="1"></item>
+        <item mapid="8" id="9" type="1" name="Cửa phụ bản" data="Cửa phụ bản"  tx="78" ty="18" typeid="1"></item>
+        <item mapid="9" id="10" type="1" name="Cửa phụ bản" data="Cửa phụ bản"  tx="76" ty="18" typeid="1"></item>
+        <item mapid="10" id="11" type="1" name="Cửa phụ bản" data="Cửa phụ bản"  tx="79" ty="18" typeid="1"></item>
+	<item mapid="20" id="2" type="2" name="Cửa CLB" data="Cửa CLB"  tx="38" ty="16" typeid="1"></item>
+        <item mapid="7" id="12" type="3" name="Cửa phụ bản vực sâu" data="Cửa phụ bản vực sâu"  tx="73" ty="16" typeid="800"></item>     
+        <item mapid="8" id="13" type="3" name="Cửa phụ bản vực sâu" data="Cửa phụ bản vực sâu"  tx="75" ty="15" typeid="800"></item>  
+        <item mapid="9" id="14" type="3" name="Cửa phụ bản vực sâu" data="Cửa phụ bản vực sâu"  tx="72" ty="16" typeid="800"></item>  
+        <item mapid="10" id="15" type="3" name="Cửa phụ bản vực sâu" data="Cửa phụ bản vực sâu"  tx="75" ty="16" typeid="800"></item>
+        <item mapid="5" id="16" type="3" name="Cửa phụ bản vực sâu" data="Cửa phụ bản vực sâu"  tx="63" ty="15" typeid="800"></item>
+        <item mapid="6" id="17" type="3" name="Cửa phụ bản vực sâu" data="Cửa phụ bản vực sâu"  tx="75" ty="16" typeid="800"></item>
+
+
+</root>

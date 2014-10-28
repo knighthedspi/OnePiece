@@ -1,0 +1,54 @@
+﻿<root>
+  <affix id="1" affixName="Điều chỉnh HP cơ bản" affixType="life" print="HP" class="0"/>
+  <affix id="2" affixName="Điều chỉnh %HP" affixType="lifeRate" print="HP %" class="1"/>
+  <affix id="3" affixName="Điều chỉnh sức mạnh" affixType="str" print="Sức" class="1"/>
+  <affix id="4" affixName="Điều chỉnh nhanh nhẹn" affixType="agi" print="Nhanh" class="1"/>
+  <affix id="5" affixName="Điều chỉnh trí tuệ" affixType="intel" print="Trí" class="1"/>
+  <affix id="6" affixName="Điều chỉnh công cơ bản" affixType="phyAtt" print="Công" class="0"/>
+  <affix id="7" affixName="Điều chỉnh tất công cơ bản" affixType="kilAtt" print="Tất công" class="0"/>
+  <affix id="8" affixName="Điều chỉnh công phép cơ bản" affixType="magAtt" print="Công P" class="0"/>
+  <affix id="9" affixName="Điều chỉnh thủ cơ bản" affixType="phyDef" print="Thủ" class="0"/>
+  <affix id="10" affixName="Điều chỉnh tất thủ cơ bản" affixType="kilDef" print="Tất thủ" class="0"/>
+  <affix id="11" affixName="Điều chỉnh thủ phép cơ bản" affixType="magDef" print="Thủ P" class="0"/>
+  <affix id="12" affixName="Điều chỉnh nộ khí" affixType="" print="Nộ" class="0"/>
+  <affix id="13" affixName="Điều chỉnh tỷ lệ chính xác" affixType="HRRate" print="C.xác" class="0"/>
+  <affix id="14" affixName="Điều chỉnh tỷ lệ đòn chí mạng" affixType="FTRate" print="Chí mạng" class="0"/>
+  <affix id="15" affixName="Điều chỉnh tỷ lệ đỡ" affixType="BloRate" print="Đỡ" class="0"/>
+  <affix id="16" affixName="Điều chỉnh tỷ lệ né" affixType="DodRate" print="Né" class="0"/>
+  <affix id="17" affixName="Điều chỉnh phong kích cơ bản" affixType="winAtt" print="Phong kích" class="0"/>
+  <affix id="18" affixName="Điều chỉnh lôi kích cơ bản" affixType="thuAtt" print="Lôi kích" class="0"/>
+  <affix id="19" affixName="Điều chỉnh thủy kích cơ bản" affixType="watAtt" print="Thủy kích" class="0"/>
+  <affix id="20" affixName="Điều chỉnh hỏa kích cơ bản" affixType="firAtt" print="Hỏa kích" class="0"/>
+  <affix id="21" affixName="Điều chỉnh kháng phong" affixType="winDef" print="Kháng phong" class="0"/>
+  <affix id="22" affixName="Điều chỉnh kháng lôi" affixType="thuDef" print="Kháng lôi" class="0"/>
+  <affix id="23" affixName="Điều chỉnh kháng thủy" affixType="watDef" print="Kháng thủy" class="0"/>
+  <affix id="24" affixName="Điều chỉnh kháng hỏa" affixType="firDef" print="Kháng hỏa" class="0"/>
+  <affix id="25" affixName="Điều chỉnh % công" affixType="phyAttRate" print="Công %" class="1"/>
+  <affix id="26" affixName="Điều chỉnh % thủ" affixType="phyDefRate" print="Thủ %" class="1"/>
+  <affix id="27" affixName="Điều chỉnh % tất công" affixType="kilAttRate" print="Tất công %" class="1"/>
+  <affix id="28" affixName="Điều chỉnh % tất thủ" affixType="kilDefRate" print="Tất thủ %" class="1"/>
+  <affix id="29" affixName="Điều chỉnh % công phép" affixType="magAttRate" print="Công P %" class="1"/>
+  <affix id="30" affixName="Điều chỉnh % thủ phép" affixType="magDefRate" print="Thủ P %" class="1"/>
+  <affix id="31" affixName="Điều chỉnh % phong kích" affixType="winAttRate" print="Phong kích %" class="1"/>
+  <affix id="32" affixName="Điều chỉnh % lôi kích" affixType="thuAttRate" print="Lôi kích %" class="1"/>
+  <affix id="33" affixName="Điều chỉnh % thủy kích" affixType="watAttRate" print="Thủy kích %" class="1"/>
+  <affix id="34" affixName="Điều chỉnh % hỏa kích" affixType="firAttRate" print="Hỏa kích %" class="1"/>
+  <affix id="35" affixName="Điều chỉnh tỉ lệ sát thương vật lý" affixType="phyAttgift" print="Thiên phú công" class="2"/>
+  <affix id="36" affixName="Điều chỉnh tỉ lệ  miễn thương vật lý" affixType="phyDefgift" print="Thiên phú thủ" class="2"/>
+  <affix id="37" affixName="Điều chỉnh tỉ lệ  sát thương tất công" affixType="kilAttgift" print="Thiên phú tất công" class="2"/>
+  <affix id="38" affixName="Điều chỉnh tỉ lệ miễn thương tất thủ" affixType="kilDefgift" print="Thiên phú tất thủ" class="2"/>
+  <affix id="39" affixName="Điều chỉnh tỉ lệ  sát thương công phép" affixType="magAttgift" print="Thiên phú công P" class="2"/>
+  <affix id="40" affixName="Điều chỉnh tỉ lệ miễn thương thủ phép" affixType="magDefgift" print="Thiên phú thủ P" class="2"/>
+  <affix id="41" affixName="Điều chỉnh sát thương cuối" affixType="" print="Sát thương cuối"/>
+  <affix id="42" affixName="Điều chỉnh miễn sát thương cuối" affixType="" print="Giảm sát thương cuối" class="0"/>
+  <affix id="43" affixName="Điều chỉnh % sức" affixType="strRate" print="Sức %" class="1"/>
+  <affix id="44" affixName="Điều chỉnh % nhanh" affixType="agiRate" print="Nhanh %" class="1"/>
+  <affix id="45" affixName="Điều chỉnh % trí" affixType="intelRate" print="Trí %" class="1"/>
+  <affix id="53" affixName="Điều chỉnh sát thương công" affixType="phyAttgift" print="Sát thương công %" class="1"/>
+  <affix id="54" affixName="Điều chỉnh miễn thương công" affixType="phyDefgift" print="Miễn thương công %" class="1"/>
+  <affix id="55" affixName="Điều chỉnh sát thương nộ" affixType="kilAttgift" print="Sát thương nộ %" class="1"/>
+  <affix id="56" affixName="Điều chỉnh miễn thương nộ" affixType="kilDefgift" print="Miễn thương nộ %" class="1"/>
+  <affix id="57" affixName="Điều chỉnh tỷ lệ trị liệu" affixType="magAttgift" print="Trị liệu %" class="1"/>
+  <affix id="58" affixName="Điều chỉnh tỷ lệ được trị liệu" affixType="magDefgift" print="Được trị liệu" class="1"/>
+  <affix id="59" affixName="Điều chỉnh nộ đầu" affixType="magDefgift" print="Nộ đầu" class="0"/>	
+</root>

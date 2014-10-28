@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="21" actionName="m2_1">
+        <frameInfo frame="0">
+            <frameData bitmapName="m2_1" scaleX="-2.299957" scaleY="-2.299957" rotation="179.999985" position="4.550000,1.200000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="m2_1" scaleX="-2.299957" scaleY="-2.299957" rotation="179.999985" position="4.550000,1.200000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="m2_1" scaleX="-2.299957" scaleY="-2.299957" rotation="179.999985" position="4.550000,1.200000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="m2_2" scaleX="-2.299988" scaleY="-2.299988" rotation="179.999985" position="1.250000,-0.550000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="m2_2" scaleX="-2.299988" scaleY="-2.299988" rotation="179.999985" position="1.250000,-0.550000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="m2_2" scaleX="-2.299988" scaleY="-2.299988" rotation="179.999985" position="1.250000,-0.550000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="m2_3" scaleX="-2.299988" scaleY="-2.299988" rotation="179.999985" position="0.000000,0.000000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="m2_3" scaleX="-2.299988" scaleY="-2.299988" rotation="179.999985" position="0.000000,0.000000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="m2_3" scaleX="-2.299988" scaleY="-2.299988" rotation="179.999985" position="0.000000,0.000000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="m2_4" scaleX="-2.299988" scaleY="-2.299988" rotation="179.999985" position="1.200000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="m2_4" scaleX="-2.299988" scaleY="-2.299988" rotation="179.999985" position="1.200000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="m2_4" scaleX="-2.299988" scaleY="-2.299988" rotation="179.999985" position="1.200000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="m2_5" scaleX="-2.299988" scaleY="-2.299988" rotation="179.999985" position="0.950000,2.700000" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData bitmapName="m2_5" scaleX="-2.299988" scaleY="-2.299988" rotation="179.999985" position="0.950000,2.700000" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData bitmapName="m2_5" scaleX="-2.299988" scaleY="-2.299988" rotation="179.999985" position="0.950000,2.700000" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData bitmapName="m2_6" scaleX="-2.299988" scaleY="-2.299988" rotation="179.999985" position="1.150000,1.300000" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData bitmapName="m2_6" scaleX="-2.299988" scaleY="-2.299988" rotation="179.999985" position="1.150000,1.300000" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData bitmapName="m2_6" scaleX="-2.299988" scaleY="-2.299988" rotation="179.999985" position="1.150000,1.300000" />
+        </frameInfo>
+        <frameInfo frame="18">
+            <frameData alpha="0.2890625" bitmapName="m2_7" scaleX="-2.299988" scaleY="-2.299988" rotation="179.999985" position="0.200000,-1.450000" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData alpha="0.2890625" bitmapName="m2_7" scaleX="-2.299988" scaleY="-2.299988" rotation="179.999985" position="0.200000,-1.450000" />
+        </frameInfo>
+        <frameInfo frame="20">
+            <frameData alpha="0.2890625" bitmapName="m2_7" scaleX="-2.299988" scaleY="-2.299988" rotation="179.999985" position="0.200000,-1.450000" />
+        </frameInfo>
+    </action>
+</animation>

@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="14" actionName="m12_2">
+        <frameInfo frame="0">
+            <frameData bitmapName="m12_21" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-3.100000,3.450000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="m12_21" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-3.100000,3.450000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="m12_22" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-3.500000,3.500000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="m12_22" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-3.500000,3.500000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="m12_23" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-4.100000,3.850000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="m12_23" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-4.100000,3.850000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="m12_24" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-3.000000,2.000000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="m12_24" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-3.000000,2.000000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="m12_25" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-3.000000,2.000000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="m12_25" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-3.000000,2.000000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="m12_26" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-4.000000,0.000000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="m12_26" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-4.000000,0.000000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="m12_27" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-3.000000,-3.350000" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData bitmapName="m12_27" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-3.000000,-3.350000" />
+        </frameInfo>
+    </action>
+</animation>

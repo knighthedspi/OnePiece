@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="17" actionName="m31_2">
+        <frameInfo frame="0">
+            <frameData alpha="0" bitmapName="m31_2" scaleX="-0.298508" scaleY="-0.298508" rotation="179.999985" position="-9.600000,-3.150000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData alpha="0.19921875" bitmapName="m31_2" scaleX="0.459621" scaleY="0.459621" rotation="3.052488" position="-9.550000,-4.650000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData alpha="0.3984375" bitmapName="m31_2" scaleX="0.620655" scaleY="0.620655" rotation="6.295101" position="-9.650000,-6.200000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData alpha="0.6015625" bitmapName="m31_2" scaleX="0.781669" scaleY="0.781669" rotation="9.539740" position="-9.600000,-7.750000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData alpha="0.80078125" bitmapName="m31_2" scaleX="0.942619" scaleY="0.942619" rotation="12.784535" position="-9.550000,-9.300000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="m31_2" scaleX="1.103507" scaleY="1.103507" rotation="16.031366" position="-9.600000,-10.800000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="m31_2" scaleX="1.118407" scaleY="1.213911" rotation="19.278170" position="-9.550000,-12.450000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="m31_2" scaleX="1.133305" scaleY="1.324304" rotation="22.337458" position="-9.600000,-13.900000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="m31_2" scaleX="1.148226" scaleY="1.434699" rotation="25.587740" position="-9.600000,-15.450000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="m31_2" scaleX="1.163167" scaleY="1.545071" rotation="28.836250" position="-9.600000,-17.000000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="m31_2" scaleX="1.178102" scaleY="1.655463" rotation="32.088375" position="-9.600000,-18.500000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="m31_2" scaleX="1.193087" scaleY="1.765875" rotation="35.337925" position="-9.550000,-20.049999" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="m31_2" scaleX="1.208076" scaleY="1.876293" rotation="38.590637" position="-9.600000,-21.600000" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData bitmapName="m31_2" scaleX="1.223089" scaleY="1.986752" rotation="41.841419" position="-9.600000,-23.150000" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData alpha="0.66015625" bitmapName="m31_2" scaleX="0.810300" scaleY="1.460642" rotation="44.903870" position="-9.600000,-23.100000" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData alpha="0.328125" bitmapName="m31_2" scaleX="0.810300" scaleY="1.460642" rotation="44.903870" position="-9.600000,-23.100000" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData alpha="0" bitmapName="m31_2" scaleX="0.810300" scaleY="1.460642" rotation="44.903870" position="-9.600000,-23.100000" />
+        </frameInfo>
+    </action>
+</animation>

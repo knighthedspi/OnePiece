@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="35" actionName="zhanchangwushuang_2">
+        <frameInfo frame="0">
+            <frameData alpha="0.19921875" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData alpha="0.24609375" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData alpha="0.29296875" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData alpha="0.33984375" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData alpha="0.38671875" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData alpha="0.43359375" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData alpha="0.48046875" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData alpha="0.52734375" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData alpha="0.57421875" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData alpha="0.625" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData alpha="0.671875" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData alpha="0.71875" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData alpha="0.765625" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData alpha="0.8125" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData alpha="0.859375" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData alpha="0.90625" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData alpha="0.953125" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="18">
+            <frameData alpha="0.953125" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData alpha="0.90625" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="20">
+            <frameData alpha="0.859375" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="21">
+            <frameData alpha="0.8125" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="22">
+            <frameData alpha="0.765625" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="23">
+            <frameData alpha="0.71875" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="24">
+            <frameData alpha="0.671875" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="25">
+            <frameData alpha="0.625" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="26">
+            <frameData alpha="0.57421875" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="27">
+            <frameData alpha="0.52734375" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="28">
+            <frameData alpha="0.48046875" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="29">
+            <frameData alpha="0.43359375" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="30">
+            <frameData alpha="0.38671875" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="31">
+            <frameData alpha="0.33984375" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="32">
+            <frameData alpha="0.29296875" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="33">
+            <frameData alpha="0.24609375" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+        <frameInfo frame="34">
+            <frameData alpha="0.19921875" bitmapName="zhanchangwushuang_21" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-3.050000,-8.550000" />
+        </frameInfo>
+    </action>
+</animation>

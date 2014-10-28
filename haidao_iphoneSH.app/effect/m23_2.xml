@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="30" actionName="m23_2">
+        <frameInfo frame="0">
+            <frameData alpha="0" bitmapName="m23_1" scaleX="-0.028564" scaleY="-0.028564" rotation="179.999985" position="0.500000,-2.000000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData alpha="0.140625" bitmapName="m23_1" scaleX="-0.076035" scaleY="-0.076035" rotation="179.999985" position="0.500000,-2.050000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData alpha="0.28125" bitmapName="m23_1" scaleX="-0.123520" scaleY="-0.123520" rotation="179.999985" position="0.500000,-2.100000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData alpha="0.421875" bitmapName="m23_1" scaleX="-0.171005" scaleY="-0.171005" rotation="179.999985" position="0.500000,-2.200000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData alpha="0.5703125" bitmapName="m23_1" scaleX="-0.218491" scaleY="-0.218491" rotation="179.999985" position="0.500000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData alpha="0.7109375" bitmapName="m23_1" scaleX="-0.265961" scaleY="-0.265961" rotation="179.999985" position="0.500000,-2.350000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData alpha="0.8515625" bitmapName="m23_1" scaleX="-0.313446" scaleY="-0.313446" rotation="179.999985" position="0.500000,-2.400000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="m23_1" scaleX="-0.360931" scaleY="-0.360931" rotation="179.999985" position="0.500000,-2.450000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData alpha="0.94921875" bitmapName="m23_1" scaleX="-0.408417" scaleY="-0.408417" rotation="179.999985" position="0.500000,-2.450000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData alpha="0.8984375" bitmapName="m23_1" scaleX="-0.455902" scaleY="-0.455902" rotation="179.999985" position="0.500000,-2.450000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData alpha="0.859375" bitmapName="m23_1" scaleX="-0.503372" scaleY="-0.503372" rotation="179.999985" position="0.500000,-2.450000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData alpha="0.80859375" bitmapName="m23_1" scaleX="-0.550858" scaleY="-0.550858" rotation="179.999985" position="0.500000,-2.450000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData alpha="0.76953125" bitmapName="m23_1" scaleX="-0.598343" scaleY="-0.598343" rotation="179.999985" position="0.500000,-2.450000" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData alpha="0.71875" bitmapName="m23_1" scaleX="-0.645828" scaleY="-0.645828" rotation="179.999985" position="0.500000,-2.450000" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData alpha="0.6796875" bitmapName="m23_1" scaleX="-0.693314" scaleY="-0.693314" rotation="179.999985" position="0.500000,-2.450000" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData alpha="0.62890625" bitmapName="m23_1" scaleX="-0.740784" scaleY="-0.740784" rotation="179.999985" position="0.500000,-2.450000" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData alpha="0.58984375" bitmapName="m23_1" scaleX="-0.788269" scaleY="-0.788269" rotation="179.999985" position="0.500000,-2.450000" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData alpha="0.5390625" bitmapName="m23_1" scaleX="-0.835754" scaleY="-0.835754" rotation="179.999985" position="0.500000,-2.450000" />
+        </frameInfo>
+        <frameInfo frame="18">
+            <frameData alpha="0.5" bitmapName="m23_1" scaleX="-0.883240" scaleY="-0.883240" rotation="179.999985" position="0.500000,-2.450000" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData alpha="0.44921875" bitmapName="m23_1" scaleX="-0.930725" scaleY="-0.930725" rotation="179.999985" position="0.500000,-2.450000" />
+        </frameInfo>
+        <frameInfo frame="20">
+            <frameData alpha="0.3984375" bitmapName="m23_1" scaleX="-0.978195" scaleY="-0.978195" rotation="179.999985" position="0.500000,-2.500000" />
+        </frameInfo>
+        <frameInfo frame="21">
+            <frameData alpha="0.359375" bitmapName="m23_1" scaleX="-1.025681" scaleY="-1.025681" rotation="179.999985" position="0.500000,-2.450000" />
+        </frameInfo>
+        <frameInfo frame="22">
+            <frameData alpha="0.30859375" bitmapName="m23_1" scaleX="-1.073166" scaleY="-1.073166" rotation="179.999985" position="0.500000,-2.500000" />
+        </frameInfo>
+        <frameInfo frame="23">
+            <frameData alpha="0.26953125" bitmapName="m23_1" scaleX="-1.120651" scaleY="-1.120651" rotation="179.999985" position="0.500000,-2.450000" />
+        </frameInfo>
+        <frameInfo frame="24">
+            <frameData alpha="0.21875" bitmapName="m23_1" scaleX="-1.168137" scaleY="-1.168137" rotation="179.999985" position="0.500000,-2.500000" />
+        </frameInfo>
+        <frameInfo frame="25">
+            <frameData alpha="0.1796875" bitmapName="m23_1" scaleX="-1.215607" scaleY="-1.215607" rotation="179.999985" position="0.550000,-2.450000" />
+        </frameInfo>
+        <frameInfo frame="26">
+            <frameData alpha="0.12890625" bitmapName="m23_1" scaleX="-1.263092" scaleY="-1.263092" rotation="179.999985" position="0.500000,-2.500000" />
+        </frameInfo>
+        <frameInfo frame="27">
+            <frameData alpha="0.08984375" bitmapName="m23_1" scaleX="-1.310577" scaleY="-1.310577" rotation="179.999985" position="0.500000,-2.450000" />
+        </frameInfo>
+        <frameInfo frame="28">
+            <frameData alpha="0.0390625" bitmapName="m23_1" scaleX="-1.358063" scaleY="-1.358063" rotation="179.999985" position="0.500000,-2.500000" />
+        </frameInfo>
+        <frameInfo frame="29">
+            <frameData alpha="0" bitmapName="m23_1" scaleX="-1.405548" scaleY="-1.405548" rotation="179.999985" position="0.500000,-2.450000" />
+        </frameInfo>
+    </action>
+</animation>

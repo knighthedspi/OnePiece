@@ -1,0 +1,12 @@
+<root>
+  <treasure id="101" name="Đốt chiến hạm" icon="101" rate="10000" openLevel="1" belly="30000" prestige="75" droptable_id="2601" itemIds="16101,16102,16103,16201,16202" refreshCostExperience="" treasureLevel="2"/>
+  <treasure id="102" name="Sheilds" icon="102" rate="5000" openLevel="1" belly="40000" prestige="100" droptable_id="2602" itemIds="16103,16201,16202,16203,16204,16301" refreshCostExperience="300" treasureLevel="3"/>
+  <treasure id="103" name="Cam" icon="103" rate="2500" openLevel="1" belly="50000" prestige="150" droptable_id="2603" itemIds="16203,16204,16301,16302,16303,16304,164013" refreshCostExperience="400" treasureLevel="4"/>
+  <treasure id="104" name="Thôn Syrup" icon="104" rate="1666" openLevel="1" belly="60000" prestige="200" droptable_id="2604" itemIds="16304,16305,164013,164023,164033,164043" refreshCostExperience="500" treasureLevel="5"/>
+  <treasure id="105" name="Logue" icon="105" rate="1111" openLevel="1" belly="75000" prestige="250" droptable_id="2605" itemIds="164013,164023,164033,164043,165015,165025,165035" refreshCostExperience="600" treasureLevel="6"/>
+  <treasure id="201" name="Đốt chiến hạm" icon="201" rate="10000" openLevel="1" belly="30000" prestige="75" droptable_id="2501" itemIds="15101,15102,15103,15201,15202" refreshCostExperience="" treasureLevel="2"/>
+  <treasure id="202" name="Sheilds" icon="202" rate="5000" openLevel="1" belly="40000" prestige="100" droptable_id="2502" itemIds="15103,15201,15202,15203,15204,15301" refreshCostExperience="300" treasureLevel="3"/>
+  <treasure id="203" name="Cam" icon="203" rate="2500" openLevel="1" belly="50000" prestige="150" droptable_id="2503" itemIds="15203,15204,15301,15302,15303,15304,154013" refreshCostExperience="400" treasureLevel="4"/>
+  <treasure id="204" name="Thôn Syrup" icon="204" rate="1666" openLevel="1" belly="60000" prestige="200" droptable_id="2504" itemIds="15304,15305,154013,154023,154033,154043" refreshCostExperience="500" treasureLevel="5"/>
+  <treasure id="205" name="Logue" icon="205" rate="1111" openLevel="1" belly="75000" prestige="250" droptable_id="2505" itemIds="154013,154023,154033,154043,155015,155025,155035" refreshCostExperience="600" treasureLevel="6"/>
+</root>

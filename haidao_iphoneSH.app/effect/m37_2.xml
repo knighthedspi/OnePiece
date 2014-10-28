@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="31" actionName="m37_2">
+        <frameInfo frame="0">
+            <frameData alpha="0" bitmapName="m37_1" scaleX="-0.126984" scaleY="-0.126984" rotation="179.999985" position="1.000000,1.000000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData alpha="0.25" bitmapName="m37_1" scaleX="-0.226013" scaleY="-0.226013" rotation="179.999985" position="1.000000,1.000000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData alpha="0.5" bitmapName="m37_1" scaleX="-0.325043" scaleY="-0.325043" rotation="179.999985" position="1.000000,1.000000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData alpha="0.75" bitmapName="m37_1" scaleX="-0.424072" scaleY="-0.424072" rotation="179.999985" position="1.000000,1.000000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="m37_1" scaleX="-0.523102" scaleY="-0.523102" rotation="179.999985" position="0.950000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="m37_1" scaleX="-0.622131" scaleY="-0.622131" rotation="179.999985" position="1.000000,1.000000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="m37_1" scaleX="-0.721161" scaleY="-0.721161" rotation="179.999985" position="1.000000,1.000000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="m37_1" scaleX="-0.820190" scaleY="-0.820190" rotation="179.999985" position="0.950000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="m37_1" scaleX="-0.919220" scaleY="-0.919220" rotation="179.999985" position="1.000000,1.000000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="m37_1" scaleX="-1.018250" scaleY="-1.018250" rotation="179.999985" position="0.950000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="m37_1" scaleX="-1.117279" scaleY="-1.117279" rotation="179.999985" position="0.950000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="m37_1" scaleX="-1.216309" scaleY="-1.216309" rotation="179.999985" position="1.000000,1.000000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="m37_1" scaleX="-1.251160" scaleY="-1.280685" rotation="179.999985" position="0.950000,1.000000" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData bitmapName="m37_1" scaleX="-1.286011" scaleY="-1.345078" rotation="179.999985" position="1.000000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData bitmapName="m37_1" scaleX="-1.320877" scaleY="-1.409470" rotation="179.999985" position="0.950000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData bitmapName="m37_1" scaleX="-1.355728" scaleY="-1.473846" rotation="179.999985" position="1.000000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData bitmapName="m37_1" scaleX="-1.390579" scaleY="-1.538239" rotation="179.999985" position="0.950000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData bitmapName="m37_1" scaleX="-1.425446" scaleY="-1.602631" rotation="179.999985" position="1.000000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="18">
+            <frameData bitmapName="m37_1" scaleX="-1.460297" scaleY="-1.667007" rotation="179.999985" position="0.950000,1.000000" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData bitmapName="m37_1" scaleX="-1.495148" scaleY="-1.731400" rotation="179.999985" position="0.950000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="20">
+            <frameData bitmapName="m37_1" scaleX="-1.530014" scaleY="-1.795792" rotation="179.999985" position="0.950000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="21">
+            <frameData alpha="0.8984375" bitmapName="m37_1" scaleX="-1.507217" scaleY="-1.778793" rotation="179.999985" position="0.950000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="22">
+            <frameData alpha="0.80078125" bitmapName="m37_1" scaleX="-1.484421" scaleY="-1.761810" rotation="179.999985" position="0.950000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="23">
+            <frameData alpha="0.69921875" bitmapName="m37_1" scaleX="-1.461639" scaleY="-1.744827" rotation="179.999985" position="0.950000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="24">
+            <frameData alpha="0.6015625" bitmapName="m37_1" scaleX="-1.294159" scaleY="-1.556580" rotation="179.999985" position="1.000000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="25">
+            <frameData alpha="0.5" bitmapName="m37_1" scaleX="-1.126678" scaleY="-1.368332" rotation="179.999985" position="0.950000,1.000000" />
+        </frameInfo>
+        <frameInfo frame="26">
+            <frameData alpha="0.3984375" bitmapName="m37_1" scaleX="-0.959198" scaleY="-1.180084" rotation="179.999985" position="0.950000,1.000000" />
+        </frameInfo>
+        <frameInfo frame="27">
+            <frameData alpha="0.30078125" bitmapName="m37_1" scaleX="-0.791718" scaleY="-0.991837" rotation="179.999985" position="1.000000,0.950000" />
+        </frameInfo>
+        <frameInfo frame="28">
+            <frameData alpha="0.19921875" bitmapName="m37_1" scaleX="-0.624237" scaleY="-0.803589" rotation="179.999985" position="0.950000,1.000000" />
+        </frameInfo>
+        <frameInfo frame="29">
+            <frameData alpha="0.1015625" bitmapName="m37_1" scaleX="-0.456757" scaleY="-0.615341" rotation="179.999985" position="1.000000,1.000000" />
+        </frameInfo>
+        <frameInfo frame="30">
+            <frameData alpha="0" bitmapName="m37_1" scaleX="-0.289291" scaleY="-0.427109" rotation="179.999985" position="1.000000,1.000000" />
+        </frameInfo>
+    </action>
+</animation>

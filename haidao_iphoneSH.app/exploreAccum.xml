@@ -1,0 +1,13 @@
+<exploreAccum>
+	<!--
+		<accumItem id="npcid" accumItemName="Vật phẩm nhận" accumId="ID vật phẩm nhận" accumNum="Lần tích lũy cần">
+	-->
+	<accumItem id="1" accumItemName="Nhẫn đỏ" accumId="10046" accumNum="10"/>
+	<accumItem id="2" accumItemName="Nhẫn tím" accumId="10052" accumNum="10"/>
+	<accumItem id="3" accumItemName="Sách đỏ" accumId="10032" accumNum="10"/>
+	<accumItem id="4" accumItemName="Sách tím" accumId="10047" accumNum="10"/>
+	<accumItem id="5" accumItemName="Mũ đỏ" accumId="10037" accumNum="10"/>
+	<accumItem id="6" accumItemName="Mũ tím" accumId="10049" accumNum="10"/>
+	<accumItem id="7" accumItemName="Áo choàng đỏ" accumId="10041" accumNum="10"/>
+	<accumItem id="8" accumItemName="Áo choàng tím" accumId="10050" accumNum="10"/>
+</exploreAccum>

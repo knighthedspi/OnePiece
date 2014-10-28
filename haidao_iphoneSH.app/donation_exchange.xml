@@ -1,0 +1,8 @@
+<root>
+  <donation_exchange id="1" needDonation="750" itemTempId="81119" getNum="1" needPrestige="0" neeLevel="0" limitTime="0" canBatch="1"/>
+  <donation_exchange id="2" needDonation="3000" itemTempId="81120" getNum="1" needPrestige="0" neeLevel="0" limitTime="0" canBatch="1"/>
+  <donation_exchange id="3" needDonation="7500" itemTempId="81121" getNum="1" needPrestige="0" neeLevel="0" limitTime="0" canBatch="1"/>
+  <donation_exchange id="4" needDonation="30000" itemTempId="81122" getNum="1" needPrestige="0" neeLevel="0" limitTime="0" canBatch="1"/>
+  <donation_exchange id="5" needDonation="73000" itemTempId="81123" getNum="1" needPrestige="0" neeLevel="0" limitTime="0" canBatch="1"/>
+  <donation_exchange id="6" needDonation="500" itemTempId="120014" getNum="1" needPrestige="0" neeLevel="0" limitTime="0" canBatch="1"/>
+</root>

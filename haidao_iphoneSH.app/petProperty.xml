@@ -1,0 +1,9 @@
+﻿<pets>
+  <!--
+		<pet tid="宠物id" name="宠物名称" description="宠物描述" action_tempID="动作模型ID" icon="头像图片" halfBody="半身像" body="全身" base_sellValue="出售基础值"
+			 reset_needID="重置需要的宠物蛋ID" reset_needLv="转生功能开启等级" quality="宠物品质" 
+			 base_comprehend="宠物领悟点初始值" grow_comprehend="每5级的增长数" maxSkillLv="技能等级上限" natural_skills="宠物的天赋技能"
+			 initSkills="初始技能表" initSkillLv="初始技能等级" canLearnSkills="可领悟技能" maxSkillSlot="技能槽上限数" initSkillSlot="初始技能槽数"/>
+	-->
+  <pet tid="1" name="Oa Oa" description="Chỉ biết khóc" action_tempID="" icon="1.jpg" halfBody="" body="" base_sellValue="1000" reset_needID="110001" reset_needLv="50" quality="2" base_comprehend="1" grow_comprehend="1" maxSkillLv="4" natural_skills="1" initSkills="1,2" initSkillLv="1,2" canLearnSkills="1,2,3,4" maxSkillSlot="4" initSkillSlot="2"/>
+</pets>

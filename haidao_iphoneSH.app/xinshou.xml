@@ -1,0 +1,39 @@
+<root>
+  <xinshou id="1" taskid="15" startpoint="Vào game sẽ khởi động" dec="Nút chuyển hướng nhiệm vụ" dialog="Bạn tới rồi, thuyền trưởng đang tìm bạn.|Kích nút phải trên tìm ông ta." head="Giữa" shadow="70" arrowdirection="Trái dưới" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="2" taskid="15" startpoint="Kết nối" dec="Nút nhiệm vụ khung đối thoại（Bắt đầu mạo hiểm）" dialog="" head="Trống" shadow="0" arrowdirection="Phải dưới" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="3" taskid="15" startpoint="Kết nối" dec="Nút nhiệm vụ khung đối thoại（Bắt đầu mạo hiểm）" dialog="" head="Trống" shadow="0" arrowdirection="Phải dưới" arrowdistance="10" continuation="Không"/>
+  <xinshou id="4" taskid="16" startpoint="Kết nối，Sau khi đối thoại, khởi động chuyển hướng nhiệm vụ" dec="Nút chuyển hướng nhiệm vụ" dialog="" head="Trống" shadow="0" arrowdirection="Trái dưới" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="5" taskid="16" startpoint="Kết nối" dec="Nút nhiệm vụ khung đối thoại（Đốt chiến hạm）" dialog="" head="Trống" shadow="0" arrowdirection="Phải dưới" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="6" taskid="16" startpoint="Kết nối" dec="Nút nhiệm vụ khung đối thoại（Đốt chiến hạm）" dialog="" head="Trống" shadow="0" arrowdirection="Phải dưới" arrowdistance="10" continuation="Không"/>
+  <xinshou id="7" taskid="26" startpoint="Kết nối，Sau khi đối thoại, khởi động chuyển hướng nhiệm vụ" dec="Nút chuyển hướng nhiệm vụ" dialog="" head="Trống" shadow="0" arrowdirection="Trái dưới" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="8" taskid="26" startpoint="Kết nối" dec="Nút nhiệm vụ khung đối thoại（Công nhận của phó quan）" dialog="" head="Trống" shadow="0" arrowdirection="Phải dưới" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="9" taskid="26" startpoint="Kết nối" dec="Nút nhiệm vụ khung đối thoại（Công nhận của phó quan）" dialog="" head="Trống" shadow="0" arrowdirection="Phải dưới" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="10" taskid="17" startpoint="Kết nối" dec="Nút nhiệm vụ khung đối thoại（Boong hải quân 1）" dialog="" head="Trống" shadow="0" arrowdirection="Phải dưới" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="11" taskid="17" startpoint="Kết nối" dec="Nút nhiệm vụ khung đối thoại（Boong hải quân 1）" dialog="" head="Trống" shadow="0" arrowdirection="Phải dưới" arrowdistance="10" continuation="Không"/>
+  <xinshou id="12" taskid="17" startpoint="Kết nối，Sau khi đối thoại, khởi động chuyển hướng nhiệm vụ" dec="Nút chuyển hướng nhiệm vụ" dialog="" head="Trống" shadow="0" arrowdirection="Trái dưới" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="13" taskid="17" startpoint="Kết nối" dec="Biểu tưởng“Chiến dịch trên biển” của bảng chọn phụ bản" dialog="Chiến đấu chuẩn bị bắt đầu rồi!|Hãy chuẩn bị!" head="Dưới" shadow="70" arrowdirection="Trái trên" arrowdistance="10" continuation="Không"/>
+  <xinshou id="14" taskid="17" startpoint="Kết nối, khởi động sau khi đối thoại" dec="Phụ bản tiểu nhân" dialog="Quân địch đầu tiên xuất hiện rồi,|Kích vào hắn bắt đầu chiến đấu!" head="Dưới" shadow="70" arrowdirection="Phải trên" arrowdistance="10" continuation="Không"/>
+  <xinshou id="15" taskid="17" startpoint="Kết nối，khởi động sau khi đối thoại" dec="Nút bắt đầu chiến đấu" dialog="" head="Trống" shadow="0" arrowdirection="Trái dưới" arrowdistance="10" continuation="Không"/>
+  <xinshou id="16" taskid="17" startpoint="Sau khi chiến đấu kết thúc" dec="Nút xác nhận" dialog="Làm rất tốt!|Kích xác nhận quay về chiến trường, càng nhiều quân địch đang tới!" head="Trên" shadow="70" arrowdirection="Phải trên" arrowdistance="10" continuation="Không"/>
+  <xinshou id="17" taskid="17" startpoint="Kết nối，khởi động sau khi đối thoại" dec="Phụ bản tiểu nhân" dialog="" head="Trống" shadow="0" arrowdirection="Phải trên" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="18" taskid="17" startpoint="Kết nối" dec="Nút bắt đầu chiến đấu" dialog="" head="Trống" shadow="0" arrowdirection="Trái dưới" arrowdistance="10" continuation="Không"/>
+  <xinshou id="19" taskid="17" startpoint="Sau khi chiến đấu kết thúc" dec="Nút xác nhận" dialog="" head="Trống" shadow="0" arrowdirection="Phải trên" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="20" taskid="17" startpoint="Kết nối" dec="Phụ bản tiểu nhân" dialog="" head="Trống" shadow="0" arrowdirection="Phải trên" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="21" taskid="17" startpoint="Kết nối" dec="Nút bắt đầu chiến đấu" dialog="" head="Trống" shadow="0" arrowdirection="Trái dưới" arrowdistance="10" continuation="Không"/>
+  <xinshou id="22" taskid="17" startpoint="Sau khi chiến đấu kết thúc" dec="Nút xác nhận" dialog="" head="Trống" shadow="0" arrowdirection="Phải trên" arrowdistance="10" continuation="Không"/>
+  <xinshou id="23" taskid="17" startpoint="Kết nối，khởi động sau khi đối thoại" dec="Nút quay về" dialog="Kích“Quay về”, Thuyền trưởng Jack muốn thưởng cho bạn!" head="Giữa" shadow="70" arrowdirection="Trái dưới" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="24" taskid="17" startpoint="Kết nối" dec="Nút chuyển hướng nhiệm vụ" dialog="" head="Trống" shadow="0" arrowdirection="Trái dưới" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="25" taskid="17" startpoint="Kết nối" dec="Nút nhiệm vụ khung đối thoại（Boong hải quân 1）" dialog="" head="Trống" shadow="0" arrowdirection="Phải dưới" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="26" taskid="17" startpoint="Kết nối" dec="Nút nhiệm vụ khung đối thoại（Boong hải quân 1）" dialog="" head="Trống" shadow="0" arrowdirection="Phải dưới" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="27" taskid="19" startpoint="Kết nối" dec="Nút nhiệm vụ khung đối thoại（Boong hải quân 2）" dialog="" head="Trống" shadow="0" arrowdirection="Phải dưới" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="28" taskid="19" startpoint="Kết nối" dec="Nút nhiệm vụ khung đối thoại（Boong hải quân 2）" dialog="" head="Trống" shadow="0" arrowdirection="Phải dưới" arrowdistance="10" continuation="Không"/>
+  <xinshou id="29" taskid="19" startpoint="Kết nối, đối thoại kết thúc, sau khi nút tướng xuất hiện sẽ khởi động" dec="Nút tướng" dialog="Ngay lập tức đeo dao hải tặc vừa nhận được!|Kích“Tướng” có thể xem trang bị hiện tại ở trên người." head="Giữa" shadow="70" arrowdirection="Trái dưới" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="30" taskid="19" startpoint="Kết nối" dec="Biểu tưởng hải tặc" dialog="" head="Trống" shadow="70" arrowdirection="Phải dưới" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="31" taskid="19" startpoint="Kết nối" dec="Nút trang bị" dialog="" head="Trống" shadow="70" arrowdirection="Phải dưới" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="32" taskid="19" startpoint="Kết nối" dec="Nút đóng Giao diện Tướng" dialog="Giỏi quá! Mang theo 1 con dao quả nhiên tốt!" head="Trống" shadow="70" arrowdirection="Phải dưới" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="33" taskid="19" startpoint="Kết nối" dec="Nút chuyển hướng nhiệm vụ" dialog="" head="Trống" shadow="0" arrowdirection="Trái dưới" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="34" taskid="19" startpoint="Kết nối" dec="Biểu tưởng Chiến dịch biển bảng chọn phụ bản" dialog="" head="Trống" shadow="0" arrowdirection="Trái dưới" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="35" taskid="19" startpoint="Kết nối" dec="Phụ bản tiểu nhân" dialog="" head="Trống" shadow="0" arrowdirection="Phải trên" arrowdistance="10" continuation="Đúng"/>
+  <xinshou id="36" taskid="19" startpoint="Kết nối" dec="Nút bắt đầu chiến" dialog="" head="Trống" shadow="0" arrowdirection="Trái dưới" arrowdistance="10" continuation="Không"/>
+  <xinshou id="37" taskid="19" startpoint="Sau khi chiến đấu kết thúc" dec="Nút OK" dialog="" head="Trống" shadow="0" arrowdirection="Phải trên" arrowdistance="10" continuation="Không"/>
+</root>

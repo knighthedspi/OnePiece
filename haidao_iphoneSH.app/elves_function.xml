@@ -1,0 +1,5 @@
+<root>
+  <elves_function id="1" icon="001.png" name="Gia hạn" desc="Mở gia hạn, gia hạn không mất Xu, tinh linh nhận 40 EXP/ngày" day="10" price="400" discount="350" exp="40" level="0"/>
+  <elves_function id="2" icon="002.png" name="Nuôi trồng" desc="Mở đội nuôi trồng, mở đội ngũ nuôi trồng không mất Xu, tinh linh nhận 10 EXP/ngày" day="10" price="100" discount="88" exp="10" level="0"/>
+  <elves_function id="3" icon="003.png" name="Tìm báu" desc="Mở tinh linh tìm báu, tự tiêu c.tích để làm mới bản đồ, tinh linh nhận 10 EXP/ngày" day="10" price="100" discount="50" exp="10" level="0"/>
+</root>

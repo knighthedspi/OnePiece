@@ -1,0 +1,72 @@
+﻿<root>
+    <openterm type="1" state="4" taskid="17"/>
+    <openterm type="2" state="4" taskid="19"/>
+    <openterm type="3" state="3" taskid="22"/>
+    <openterm type="4" state="3" taskid="1004"/>
+    <openterm type="5" state="4" taskid="24"/>
+    <openterm type="6" state="3" taskid="11001"/>
+    <openterm type="7" state="3" taskid="11006"/>
+    <openterm type="8" state="4" taskid="11006"/>
+    <openterm type="9" state="3" taskid="1047"/>
+    <openterm type="10" state="3" taskid="12001"/>
+    <openterm type="11" state="4" taskid="12001"/>
+    <openterm type="12" state="3" taskid="12007"/>
+    <openterm type="13" state="4" taskid="13003"/>
+    <openterm type="14" state="4" taskid="1014"/>
+    <openterm type="15" state="4" taskid="12013"/>
+    <openterm type="16" state="3" taskid="1016"/>
+    <openterm type="17" state="3" taskid="1017"/>
+    <openterm type="18" state="3" taskid="1037"/>
+    <openterm type="19" state="3" taskid="1019"/>
+    <openterm type="20" state="3" taskid="143"/>
+    <openterm type="21" state="3" taskid="143"/>
+    <openterm type="22" state="4" taskid="143"/>
+    <openterm type="23" state="3" taskid="1023"/>
+    <openterm type="24" state="3" taskid="1024"/>
+    <openterm type="25" state="4" taskid="1024"/>
+    <openterm type="26" state="4" taskid="15006"/>
+    <openterm type="27" state="4" taskid="16010"/>
+    <openterm type="28" state="4" taskid="17008"/>
+    <openterm type="29" state="4" taskid="17003"/>
+    <openterm type="30" state="3" taskid="1030"/>
+    <openterm type="31" state="4" taskid="18003"/>
+    <openterm type="32" state="4" taskid="19006"/>
+    <openterm type="33" state="3" taskid="24007"/>
+    <openterm type="35" state="3" taskid="16010"/>
+    <openterm type="36" state="3" taskid="1044"/>
+    <openterm type="37" state="3" taskid="11005"/>
+    <openterm type="38" state="4" taskid="1047"/>
+    <openterm type="39" state="4" taskid="18003"/>
+    <openterm type="40" state="4" taskid="14004"/>
+    <openterm type="41" state="4" taskid="43005"/>
+    <openterm type="42" state="4" taskid="34001"/>
+    <openterm type="43" state="4" taskid="23006"/>
+    <openterm type="44" state="3" taskid="28001"/>
+    <openterm type="45" state="3" taskid="23001"/>
+    <openterm type="46" state="3" taskid="23006"/>
+    <openterm type="47" state="4" taskid="22008"/>
+    <openterm type="49" state="3" taskid="49002"/>
+    <!-- 前段单独添加的 -->
+    <openterm type="10001" state="4" taskid="16011" />
+    <openterm type="10002" state="4" taskid="28001" />
+    <openterm type="10003" state="3" taskid="24" />
+    <openterm type="10004" state="3" taskid="24" />
+    <openterm type="10005" state="3" taskid="32" />
+    <openterm type="10006" state="3" taskid="32" />
+    <openterm type="10007" state="3" taskid="32" />
+    <openterm type="10008" state="3" taskid="11009" />
+    <openterm type="10009" state="4" taskid="18003" />
+    <openterm type="10010" state="3" taskid="33001" />
+    <openterm type="10011" state="4" taskid="1023"  />
+    <openterm type="10012" state="4" taskid="32" />
+    <openterm type="10013" state="3" taskid="12002" />
+    <openterm type="10014" state="3" taskid="13007" />
+    
+    <openterm type="10015" state="3" taskid="24" />
+    <openterm type="10016" state="4" taskid="32" />
+    <openterm type="10017" state="4" taskid="32" />
+    <openterm type="10018" state="4" taskid="32" />
+    <openterm type="10032" state="3" taskid="38001" />
+    
+    <openterm type="10033" state="4" taskid="11002" />
+</root>

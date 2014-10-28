@@ -1,0 +1,138 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="60" actionName="youlingchuanzhang_1">
+        <frameInfo frame="0" />
+        <frameInfo frame="1" />
+        <frameInfo frame="2" />
+        <frameInfo frame="3" />
+        <frameInfo frame="4" />
+        <frameInfo frame="5" />
+        <frameInfo frame="6" />
+        <frameInfo frame="7" />
+        <frameInfo frame="8" />
+        <frameInfo frame="9" />
+        <frameInfo frame="10" />
+        <frameInfo frame="11" />
+        <frameInfo frame="12" />
+        <frameInfo frame="13" />
+        <frameInfo frame="14" />
+        <frameInfo frame="15" />
+        <frameInfo frame="16" />
+        <frameInfo frame="17" />
+        <frameInfo frame="18" />
+        <frameInfo frame="19" />
+        <frameInfo frame="20" />
+        <frameInfo frame="21" />
+        <frameInfo frame="22">
+            <frameData bitmapName="youlingchuanzhang_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="5.650000,-15.050000" />
+        </frameInfo>
+        <frameInfo frame="23">
+            <frameData bitmapName="youlingchuanzhang_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="5.650000,-15.050000" />
+        </frameInfo>
+        <frameInfo frame="24">
+            <frameData bitmapName="youlingchuanzhang_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="5.150000,-16.549999" />
+        </frameInfo>
+        <frameInfo frame="25">
+            <frameData bitmapName="youlingchuanzhang_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="5.150000,-16.549999" />
+        </frameInfo>
+        <frameInfo frame="26">
+            <frameData bitmapName="youlingchuanzhang_13" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="5.650000,-18.049999" />
+        </frameInfo>
+        <frameInfo frame="27">
+            <frameData bitmapName="youlingchuanzhang_13" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="5.650000,-18.049999" />
+        </frameInfo>
+        <frameInfo frame="28">
+            <frameData bitmapName="youlingchuanzhang_14" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="5.650000,-18.549999" />
+        </frameInfo>
+        <frameInfo frame="29">
+            <frameData bitmapName="youlingchuanzhang_14" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="5.650000,-18.549999" />
+        </frameInfo>
+        <frameInfo frame="30">
+            <frameData bitmapName="youlingchuanzhang_15" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="6.650000,-19.549999" />
+        </frameInfo>
+        <frameInfo frame="31">
+            <frameData bitmapName="youlingchuanzhang_15" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="6.650000,-19.549999" />
+        </frameInfo>
+        <frameInfo frame="32">
+            <frameData bitmapName="youlingchuanzhang_16" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="6.650000,-21.049999" />
+        </frameInfo>
+        <frameInfo frame="33">
+            <frameData bitmapName="youlingchuanzhang_16" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="6.650000,-21.049999" />
+        </frameInfo>
+        <frameInfo frame="34">
+            <frameData bitmapName="youlingchuanzhang_17" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="7.150000,-22.049999" />
+        </frameInfo>
+        <frameInfo frame="35">
+            <frameData bitmapName="youlingchuanzhang_17" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="7.150000,-22.049999" />
+        </frameInfo>
+        <frameInfo frame="36">
+            <frameData bitmapName="youlingchuanzhang_18" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="6.650000,-24.049999" />
+        </frameInfo>
+        <frameInfo frame="37">
+            <frameData bitmapName="youlingchuanzhang_18" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="6.650000,-24.049999" />
+        </frameInfo>
+        <frameInfo frame="38">
+            <frameData bitmapName="youlingchuanzhang_19" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="7.150000,-25.049999" />
+        </frameInfo>
+        <frameInfo frame="39">
+            <frameData bitmapName="youlingchuanzhang_19" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="7.150000,-25.049999" />
+        </frameInfo>
+        <frameInfo frame="40">
+            <frameData bitmapName="youlingchuanzhang_110" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="7.650000,-27.549999" />
+        </frameInfo>
+        <frameInfo frame="41">
+            <frameData bitmapName="youlingchuanzhang_110" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="7.650000,-27.549999" />
+        </frameInfo>
+        <frameInfo frame="42">
+            <frameData bitmapName="youlingchuanzhang_111" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="8.150000,-29.049999" />
+        </frameInfo>
+        <frameInfo frame="43">
+            <frameData bitmapName="youlingchuanzhang_111" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="8.150000,-29.049999" />
+        </frameInfo>
+        <frameInfo frame="44">
+            <frameData bitmapName="youlingchuanzhang_112" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="8.150000,-31.100000" />
+        </frameInfo>
+        <frameInfo frame="45">
+            <frameData bitmapName="youlingchuanzhang_112" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="8.150000,-31.100000" />
+        </frameInfo>
+        <frameInfo frame="46">
+            <frameData bitmapName="youlingchuanzhang_113" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="8.650000,-33.549999" />
+        </frameInfo>
+        <frameInfo frame="47">
+            <frameData bitmapName="youlingchuanzhang_113" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="8.650000,-33.549999" />
+        </frameInfo>
+        <frameInfo frame="48">
+            <frameData bitmapName="youlingchuanzhang_114" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="8.700000,-36.049999" />
+        </frameInfo>
+        <frameInfo frame="49">
+            <frameData bitmapName="youlingchuanzhang_114" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="8.700000,-36.049999" />
+        </frameInfo>
+        <frameInfo frame="50">
+            <frameData bitmapName="youlingchuanzhang_115" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="9.150000,-38.549999" />
+        </frameInfo>
+        <frameInfo frame="51">
+            <frameData bitmapName="youlingchuanzhang_115" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="9.150000,-38.549999" />
+        </frameInfo>
+        <frameInfo frame="52">
+            <frameData bitmapName="youlingchuanzhang_116" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="9.650000,-41.549999" />
+        </frameInfo>
+        <frameInfo frame="53">
+            <frameData bitmapName="youlingchuanzhang_116" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="9.650000,-41.549999" />
+        </frameInfo>
+        <frameInfo frame="54">
+            <frameData bitmapName="youlingchuanzhang_117" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="17.150000,-32.599998" />
+        </frameInfo>
+        <frameInfo frame="55">
+            <frameData bitmapName="youlingchuanzhang_117" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="17.150000,-32.599998" />
+        </frameInfo>
+        <frameInfo frame="56">
+            <frameData bitmapName="youlingchuanzhang_118" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-9.350000,-36.599998" />
+        </frameInfo>
+        <frameInfo frame="57">
+            <frameData bitmapName="youlingchuanzhang_118" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-9.350000,-36.599998" />
+        </frameInfo>
+        <frameInfo frame="58" />
+        <frameInfo frame="59" />
+    </action>
+</animation>

@@ -1,0 +1,24 @@
+﻿<root>
+1, Xu và Sò Skypiea trong khu vui chơi chỉ dùng ở hệ thống khu vui chơi, cần ít nhất {0} sò Skypiea mới có thể chơi. 
+2, Xu và người chơi đem theo, Sò Skypiea và Sò Skypiea người chơi đem theo được để riêng, muốn chơi ở khu vui chơi cần Xu và Sò Skypiea trong khu vui chơi. Cất hoặc lấy để chuyển đổi 2 loại này. 
+
+3, Game gồm các giai đoạn: Ghép cặp, phát thẻ bài, thêm Sò Skypiea, dùng Xu đấu trước, bày trận, chiến đấu, tổng kết chiến đấu. 
+
+4, Ghép cặp: vào đại sảnh game và ấn ghép cặp, sau đó đấu bài, đối thủ là người ở server khác. 
+
+5, Chuẩn bị: mỗi ván đấu hệ thống tự cho 1 số Sò Skypiea cơ bản, số lượng {1}, sau đó hệ thống tự chọn 1 người làm chủ phòng, có quyền trên cơ trong đấu thầu. (Nếu 2 người ra cùng giá, chủ phòng sẽ giành quyền chủ động) 
+
+6, Phát bài: hệ thống phát cho mỗi người 2 thẻ bài tướng, 2 bên không thể thấy thẻ đối phương, tiếp theo hệ thống phát 5 thẻ tướng chung. 2 tướng trong tay và 3 tướng chung sẽ là tướng xuất trận khi người chơi bày trận. 
+
+7, Thêm Sò: do chủ phòng được ra tay trước, không phải chủ phòng có thể chọn "Thêm" hoặc "Nhường". Chọn "Thêm" thì phe còn lại phải chọn "Thêm", "Theo" hoặc "Bỏ"; Chọn "Nhường" thì phe mình mất tư cách "Thêm", phe còn lại có thể chọn "Thêm" hoặc "Mở". 2 phe đều chọn "Nhường" và "Mở" thì sẽ vào giai đoạn giành quyền đấu trước bằng Xu. Khi người chơi có thể chọn "Thêm", muốn chọn thêm toàn bộ Sò Skypiea, hoặc Sò Skypiea của đối thủ hơn mình, thì click "Toàn bộ" để thêm toàn bộ Sò Skypiea đang có. 
+
+8, Dùng xu đấu trước: người chơi ra Xu để tranh quyền đấu trước với đối thủ, ra giá chỉ được tăng, không được giảm, phe ra giá cao hơn sẽ được đấu trước, phe này bị trừ Xu khi kết thúc, phe không được quyền sẽ không bị trừ Xu, chọn “Ra giá cuối cùng” thì giá ra hiện tại sẽ là giá ra cuối cùng. 
+
+9, Bày trận: người chơi sắp xếp tướng ở 9 ô bất kỳ, 2 tướng thẻ cuối cần ra trận, có thể đưa 3 trong 5 tướng chung ra trận, tạo thành trận cuối cùng. 
+
+10, Kết thúc chiến đấu, hệ thống sẽ thu 1 ít {2}%Sò Skypiea của phe thắng làm phí dịch vụ. 
+
+11, Người chơi bỏ trốn sẽ bị phạt, trừ 30% số Sò Skypiea đã ra cho phe thắng, và đóng băng toàn bộ Sò Skypiea đã bỏ trốn còn lại.
+
+12, Mỗi ngày chơi ở khu vui chơi có thể rút ra được 100000 Xu, 2000000 Sò Skypiea.  
+</root>

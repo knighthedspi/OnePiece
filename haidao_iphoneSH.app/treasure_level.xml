@@ -1,0 +1,5 @@
+<root>
+  <treasure_level id="1" level="1" hatIds="201,202,203,204,205" cloakIds="101,102,103,104,105"/>
+  <treasure_level id="2" level="1" hatIds="201,202,203,204,205" cloakIds="101,102,103,104,105"/>
+  <treasure_level id="3" level="1" hatIds="201,202,203,204,205" cloakIds="101,102,103,104,105"/>
+</root>

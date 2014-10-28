@@ -1,0 +1,38 @@
+<root>
+  <daytask taskid="100" taskname="Ra khơi" desc="Ra khơi trong giao diện thuyền chính có thể được thưởng Beri" icon="" quality="1" type="0" count="1" experience="750" integral="1"/>
+  <daytask taskid="101" taskname="Cường hóa" desc="Chọn trang bị để cường hóa tăng chỉ số cơ bản của trang bị" icon="" quality="1" type="1" count="1" experience="750" integral="1"/>
+  <daytask taskid="102" taskname="Chiến" desc="Khiêu chiến người chơi khác trong đấu trường！" icon="" quality="1" type="2" count="1" experience="750" integral="1"/>
+  <daytask taskid="103" taskname="Tìm kiếm" desc="Tìm kiếm ngọc, ngọc có thể tăng chỉ số cơ sở của trang bị" icon="" quality="1" type="3" count="1" experience="750" integral="1"/>
+  <daytask taskid="104" taskname="Chiến thắng" desc="Thắng NPC trong phụ bản có thể nhận được trang bị và EXP" icon="" quality="1" type="4" count="1" experience="750" integral="1"/>
+  <daytask taskid="107" taskname="Tiêu Xu" desc="Khéo léo, tích tiểu thành đại!" icon="" quality="1" type="7" count="1" experience="750" integral="1"/>
+  <daytask taskid="108" taskname="Nhà bếp" desc="Bán đi công thức nấu ăn từ nhà bếp có thể nhận được Beri" icon="" quality="1" type="8" count="1" experience="750" integral="1"/>
+  <daytask taskid="109" taskname="Bay cao" desc="Bay đến chỗ bạn bè có thể nâng cấp cấp độ của bạn" icon="" quality="1" type="9" count="1" experience="750" integral="1"/>
+  <daytask taskid="110" taskname="Tẩy luyện" desc="Thông qua tẩy luyện trang bị hoặc báu vật sẽ thay đổi thuộc tính" icon="" quality="1" type="10" count="1" experience="750" integral="1"/>
+  <daytask taskid="200" taskname="Ra khơi" desc="Ra khơi trong giao diện thuyền chính có thể được thưởng Beri" icon="" quality="2" type="0" count="2" experience="1000" integral="2"/>
+  <daytask taskid="201" taskname="Cường hóa" desc="Chọn trang bị để cường hóa tăng chỉ số cơ bản của trang bị" icon="" quality="2" type="1" count="2" experience="1000" integral="2"/>
+  <daytask taskid="202" taskname="Khiêu chiến" desc="Khiêu chiến người chơi khác trong đấu trường！" icon="" quality="2" type="2" count="2" experience="1000" integral="2"/>
+  <daytask taskid="203" taskname="Tìm kiếm" desc="Tìm kiếm ngọc, ngọc có thể tăng chỉ số cơ sở của trang bị" icon="" quality="2" type="3" count="2" experience="1000" integral="2"/>
+  <daytask taskid="204" taskname="Chiến thắng" desc="Thắng NPC trong phụ bản có thể nhận được trang bị và EXP" icon="" quality="2" type="4" count="2" experience="1000" integral="2"/>
+  <daytask taskid="207" taskname="Tiêu Xu" desc="Khéo léo, tích tiểu thành đại!" icon="" quality="2" type="7" count="2" experience="1000" integral="2"/>
+  <daytask taskid="208" taskname="Nhà bếp" desc="Bán đi công thức nấu ăn từ nhà bếp có thể nhận được Beri" icon="" quality="2" type="8" count="2" experience="1000" integral="2"/>
+  <daytask taskid="209" taskname="Bay cao" desc="Bay đến chỗ bạn bè có thể nâng cấp cấp độ của bạn" icon="" quality="2" type="9" count="2" experience="1000" integral="2"/>
+  <daytask taskid="210" taskname="Tẩy luyện" desc="Thông qua tẩy luyện trang bị hoặc báu vật sẽ thay đổi thuộc tính" icon="" quality="2" type="10" count="2" experience="1000" integral="2"/>
+  <daytask taskid="300" taskname="Ra khơi" desc="Ra khơi trong giao diện thuyền chính có thể được thưởng Beri" icon="" quality="3" type="0" count="2" experience="1250" integral="3"/>
+  <daytask taskid="301" taskname="Cường hóa" desc="Chọn trang bị để cường hóa tăng chỉ số cơ bản của trang bị" icon="" quality="3" type="1" count="2" experience="1250" integral="3"/>
+  <daytask taskid="302" taskname="Khiêu chiến" desc="Khiêu chiến người chơi khác trong đấu trường！" icon="" quality="3" type="2" count="2" experience="1250" integral="3"/>
+  <daytask taskid="303" taskname="Tìm kiếm" desc="Tìm kiếm ngọc, ngọc có thể tăng chỉ số cơ sở của trang bị" icon="" quality="3" type="3" count="2" experience="1250" integral="3"/>
+  <daytask taskid="304" taskname="Chiến thắng" desc="Thắng NPC trong phụ bản có thể nhận được trang bị và EXP" icon="" quality="3" type="4" count="2" experience="1250" integral="3"/>
+  <daytask taskid="307" taskname="Tiêu Xu" desc="Khéo léo, tích tiểu thành đại!" icon="" quality="3" type="7" count="2" experience="1250" integral="3"/>
+  <daytask taskid="308" taskname="Nhà bếp" desc="Bán đi công thức nấu ăn từ nhà bếp có thể nhận được Beri" icon="" quality="3" type="8" count="2" experience="1250" integral="3"/>
+  <daytask taskid="309" taskname="Bay cao" desc="Bay đến chỗ bạn bè có thể nâng cấp cấp độ của bạn" icon="" quality="3" type="9" count="2" experience="1250" integral="3"/>
+  <daytask taskid="310" taskname="Tẩy luyện" desc="Thông qua tẩy luyện trang bị hoặc báu vật sẽ thay đổi thuộc tính" icon="" quality="3" type="10" count="2" experience="1250" integral="3"/>
+  <daytask taskid="400" taskname="Ra khơi" desc="Ra khơi trong giao diện thuyền chính có thể được thưởng Beri" icon="" quality="4" type="0" count="3" experience="1500" integral="4"/>
+  <daytask taskid="401" taskname="Cường hóa" desc="Chọn trang bị để cường hóa tăng chỉ số cơ bản của trang bị" icon="" quality="4" type="1" count="3" experience="1500" integral="4"/>
+  <daytask taskid="402" taskname="Khiêu chiến" desc="Khiêu chiến người chơi khác trong đấu trường！" icon="" quality="4" type="2" count="3" experience="1500" integral="4"/>
+  <daytask taskid="403" taskname="Tìm kiếm" desc="Tìm kiếm ngọc, ngọc có thể tăng chỉ số cơ sở của trang bị" icon="" quality="4" type="3" count="3" experience="1500" integral="4"/>
+  <daytask taskid="404" taskname="Chiến thắng" desc="Thắng NPC trong phụ bản có thể nhận được trang bị và EXP" icon="" quality="4" type="4" count="3" experience="1500" integral="4"/>
+  <daytask taskid="407" taskname="Tiêu Xu" desc="Khéo léo, tích tiểu thành đại!" icon="" quality="4" type="7" count="3" experience="1500" integral="4"/>
+  <daytask taskid="408" taskname="Nhà bếp" desc="Bán đi công thức nấu ăn từ nhà bếp có thể nhận được Beri" icon="" quality="4" type="8" count="3" experience="1500" integral="4"/>
+  <daytask taskid="409" taskname="Bay cao" desc="Bay đến chỗ bạn bè có thể nâng cấp cấp độ của bạn" icon="" quality="4" type="9" count="3" experience="1500" integral="4"/>
+  <daytask taskid="410" taskname="Tẩy luyện" desc="Thông qua tẩy luyện trang bị hoặc báu vật sẽ thay đổi thuộc tính" icon="" quality="4" type="10" count="3" experience="1500" integral="4"/>
+</root>

@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="55" actionName="m53_2">
+        <frameInfo frame="0">
+            <frameData bitmapName="m53_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="1" />
+        <frameInfo frame="2" />
+        <frameInfo frame="3" />
+        <frameInfo frame="4">
+            <frameData bitmapName="m53_21" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-5.000000,-0.300000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="m53_21" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-5.000000,-0.300000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="m53_22" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-4.000000,14.700000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="m53_22" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-4.000000,14.700000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="m53_23" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-1.000000,23.700001" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="m53_23" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-1.000000,23.700001" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="m53_24" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="0.000000,16.700001" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="m53_24" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="0.000000,16.700001" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="m53_25" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="2.000000,10.700000" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData bitmapName="m53_25" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="2.000000,10.700000" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData bitmapName="m53_26" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-1.050000,-0.250000" />
+        </frameInfo>
+        <frameInfo frame="15" />
+        <frameInfo frame="16" />
+        <frameInfo frame="17" />
+        <frameInfo frame="18" />
+        <frameInfo frame="19" />
+        <frameInfo frame="20" />
+        <frameInfo frame="21" />
+        <frameInfo frame="22" />
+        <frameInfo frame="23" />
+        <frameInfo frame="24" />
+        <frameInfo frame="25" />
+        <frameInfo frame="26" />
+        <frameInfo frame="27" />
+        <frameInfo frame="28" />
+        <frameInfo frame="29" />
+        <frameInfo frame="30" />
+        <frameInfo frame="31" />
+        <frameInfo frame="32" />
+        <frameInfo frame="33" />
+        <frameInfo frame="34" />
+        <frameInfo frame="35" />
+        <frameInfo frame="36" />
+        <frameInfo frame="37" />
+        <frameInfo frame="38" />
+        <frameInfo frame="39" />
+        <frameInfo frame="40" />
+        <frameInfo frame="41" />
+        <frameInfo frame="42" />
+        <frameInfo frame="43" />
+        <frameInfo frame="44" />
+        <frameInfo frame="45" />
+        <frameInfo frame="46" />
+        <frameInfo frame="47" />
+        <frameInfo frame="48" />
+        <frameInfo frame="49" />
+        <frameInfo frame="50" />
+        <frameInfo frame="51" />
+        <frameInfo frame="52" />
+        <frameInfo frame="53" />
+        <frameInfo frame="54" />
+    </action>
+</animation>

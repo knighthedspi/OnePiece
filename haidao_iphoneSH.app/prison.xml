@@ -1,0 +1,3 @@
+<root>
+  <prison awardNumEachDay="2" challengeNumEachDay="5" buyNumBaseCost="5|0" MaxBuyNumEachDay="20" MaxValue="50" refreshNPCCost="10|0" buyNumEachCost="5|0" goldAwardPowerStoneEachCost="7500" goldAwardElementStoneEachCost="2000"/>
+</root>

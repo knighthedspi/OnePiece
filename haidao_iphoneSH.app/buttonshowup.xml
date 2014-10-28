@@ -1,0 +1,47 @@
+﻿<root>
+    <buttonshowup id="1" taskid="11006" state="4" button="Bạn" area="3" type="8"/>
+    <buttonshowup id="2" taskid="1016" state="3" button="Đảo PET" area="3" type="16"/>
+    <buttonshowup id="3" taskid="17" state="4" button="Tướng" area="3" type="1"/>
+    <buttonshowup id="4" taskid="1004" state="3" button="Trận" area="3" type="4"/>
+    <buttonshowup id="5" taskid="32" state="3" button="TG" area="3" type="5"/>
+    <buttonshowup id="6" taskid="1014" state="4" button="Luyện" area="3" type="14"/>
+    <buttonshowup id="7" taskid="1017" state="4" button="Bang" area="3" type="22"/>
+    <buttonshowup id="8" taskid="14004" state="4" button="Tinh bàn" area="3" type="40"/>
+    <buttonshowup id="9" taskid="1024" state="4" button="Khảm" area="3" type="25"/>
+    <buttonshowup id="10" taskid="143" state="3" button="Đội" area="3" type="20"/>
+    <buttonshowup id="11" taskid="19" state="4" button="Cường" area="1" type="2"/>
+    <buttonshowup id="12" taskid="11005" state="3" button="Ra khơi" area="1" type="37"/>
+    <buttonshowup id="13" taskid="12007" state="3" button="N.cứu" area="1" type="12"/>
+    <buttonshowup id="14" taskid="1044" state="3" button="Bếp" area="1" type="36"/>
+    <buttonshowup id="15" taskid="11001" state="3" button="Thuyền" area="2" type="6"/>
+    <buttonshowup id="16" taskid="1019" state="3" button="Đấu" area="4" type="19"/>
+    <buttonshowup id="17" taskid="1023" state="3" button="Tài nguyên" area="4" type="23"/>
+    <buttonshowup id="18" taskid="23006" state="4" button="Allblue" area="4" type="43"/>
+    <buttonshowup id="19" taskid="28001" state="3" button="Ngục biển" area="4" type="44"/>
+    <buttonshowup id="20" taskid="143" state="3" button="Hải tặc" area="4" type="21"/>
+    <buttonshowup id="21" taskid="143" state="3" button="Lôi đài" area="4" type="21"/>
+    <buttonshowup id="22" taskid="143" state="3" button="Rồng Punk" area="4" type="21"/>
+    <buttonshowup id="23" taskid="143" state="3" button="Kraken" area="4" type="21"/>
+    <buttonshowup id="24" taskid="143" state="3" button="Đội" area="4" type="21"/>
+    <buttonshowup id="25" taskid="34001" state="4" button="Ảnh hồn" area="4" type="42"/>
+    <buttonshowup id="26" taskid="17008" state="4" button="Hàng ngày" area="4" type="28"/>
+    <buttonshowup id="27" taskid="15006" state="4" button="Chế tạo" area="4" type="26"/>
+    <buttonshowup id="28" taskid="16010" state="4" button="Đào bảo" area="4" type="27"/>
+    <buttonshowup id="29" taskid="1017" state="4" button="Tài nguyên chiến" area="4" type="22"/>
+    <buttonshowup id="30" taskid="28001" state="4" button="Trái ác quỷ" area="4" type="10002"/>
+    <buttonshowup id="31" taskid="16011" state="4" button="Quà" area="3" type="10001"/>
+    <buttonshowup id="32" taskid="11002" state="3" button="Tặng xu" area="2" type="10003"/>
+    <buttonshowup id="33" taskid="11003" state="3" button="Quà online" area="2" type="10004"/>
+    <buttonshowup id="34" taskid="32" state="3" button="Quà nạp đầu" area="2" type="10005"/>
+    <buttonshowup id="35" taskid="32" state="3" button="Nạp khuyến mãi" area="2" type="10006"/>
+    <buttonshowup id="36" taskid="32" state="3" button="Nạp hoàn tiền" area="2" type="10007"/>
+    <buttonshowup id="36" taskid="32" state="3" button="Sự kiện mở server" area="2" type="10012"/>
+    <buttonshowup id="37" taskid="11009" state="3" button="Ghi danh" area="4" type="10008"/>
+    <buttonshowup id="38" taskid="18003" state="4" button="Chiến Trường" area="4" type="10009"/>
+    <buttonshowup id="39" taskid="33001" state="3" button="Vương giả chiến" area="4" type="10010"/>
+    <buttonshowup id="40" taskid="1023" state="4" button="Tinh linh" area="4" type="10011"/>
+    <buttonshowup id="43" taskid="10013" state="3" button="Thư" area="3" type="10013"/>
+    <buttonshowup id="45" taskid="10014" state="3" button="Hạng" area="3" type="10014"/>
+    <buttonshowup id="46" taskid="38001" state="3" button="Khu vui chơi" area="4" type="10032"/>
+    <buttonshowup id="47" taskid="11002" state="4" button="Thông báo" area="2" type="10033"/>
+</root>

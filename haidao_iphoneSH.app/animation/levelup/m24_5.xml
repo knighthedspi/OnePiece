@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="20" actionName="m24_5">
+        <frameInfo frame="0">
+            <frameData bitmapName="m24_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="m24_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="m24_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="m24_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="m24_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData alpha="0" bitmapName="m24_5" scaleX="-0.292679" scaleY="-0.303711" rotation="179.999985" position="1.500000,2.050000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData alpha="0.19921875" bitmapName="m24_5" scaleX="-0.442261" scaleY="-0.490372" rotation="179.999985" position="1.450000,2.050000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData alpha="0.3984375" bitmapName="m24_5" scaleX="-0.591858" scaleY="-0.677032" rotation="179.999985" position="1.500000,2.050000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData alpha="0.6015625" bitmapName="m24_5" scaleX="-0.741455" scaleY="-0.863693" rotation="179.999985" position="1.500000,2.050000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData alpha="0.80078125" bitmapName="m24_5" scaleX="-0.891052" scaleY="-1.050354" rotation="179.999985" position="1.450000,2.050000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="m24_5" scaleX="-1.040649" scaleY="-1.237030" rotation="179.999985" position="1.500000,2.050000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData alpha="0.87890625" bitmapName="m24_5" scaleX="-1.237778" scaleY="-1.472443" rotation="179.999985" position="1.500000,2.050000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData alpha="0.76953125" bitmapName="m24_5" scaleX="-1.434906" scaleY="-1.707870" rotation="179.999985" position="1.450000,2.050000" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData alpha="0.66015625" bitmapName="m24_5" scaleX="-1.632050" scaleY="-1.943283" rotation="179.999985" position="1.450000,2.050000" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData alpha="0.55078125" bitmapName="m24_5" scaleX="-1.829163" scaleY="-2.178711" rotation="179.999985" position="1.450000,2.050000" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData alpha="0.44140625" bitmapName="m24_5" scaleX="-2.026306" scaleY="-2.414123" rotation="179.999985" position="1.450000,2.050000" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData alpha="0.328125" bitmapName="m24_5" scaleX="-2.223450" scaleY="-2.649536" rotation="179.999985" position="1.450000,2.050000" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData alpha="0.21875" bitmapName="m24_5" scaleX="-2.420578" scaleY="-2.884949" rotation="179.999985" position="1.450000,2.050000" />
+        </frameInfo>
+        <frameInfo frame="18">
+            <frameData alpha="0.109375" bitmapName="m24_5" scaleX="-2.617706" scaleY="-3.120392" rotation="179.999985" position="1.400000,2.050000" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData alpha="0" bitmapName="m24_5" scaleX="-2.814850" scaleY="-3.355820" rotation="179.999985" position="1.450000,2.050000" />
+        </frameInfo>
+    </action>
+</animation>

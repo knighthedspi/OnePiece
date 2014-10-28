@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="30" actionName="dhzqd_6">
+        <frameInfo frame="0">
+            <frameData bitmapName="dhzqd_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="1" />
+        <frameInfo frame="2" />
+        <frameInfo frame="3" />
+        <frameInfo frame="4" />
+        <frameInfo frame="5" />
+        <frameInfo frame="6" />
+        <frameInfo frame="7" />
+        <frameInfo frame="8" />
+        <frameInfo frame="9" />
+        <frameInfo frame="10" />
+        <frameInfo frame="11">
+            <frameData bitmapName="dhzqd_5" scaleX="-1.374512" scaleY="-1.374512" rotation="179.999985" position="25.850000,1.100000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData alpha="0.91015625" bitmapName="dhzqd_5" scaleX="-1.460144" scaleY="-1.460144" rotation="179.999985" position="25.850000,1.100000" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData alpha="0.8203125" bitmapName="dhzqd_5" scaleX="-1.545807" scaleY="-1.545807" rotation="179.999985" position="25.850000,1.100000" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData alpha="0.71875" bitmapName="dhzqd_5" scaleX="-1.631409" scaleY="-1.631409" rotation="179.999985" position="25.900000,1.100000" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData alpha="0.62890625" bitmapName="dhzqd_5" scaleX="-1.717072" scaleY="-1.717072" rotation="179.999985" position="25.850000,1.100000" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData alpha="0.5390625" bitmapName="dhzqd_5" scaleX="-1.802719" scaleY="-1.802719" rotation="179.999985" position="25.850000,1.100000" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData alpha="0.44921875" bitmapName="dhzqd_5" scaleX="-1.888367" scaleY="-1.888367" rotation="179.999985" position="25.850000,1.100000" />
+        </frameInfo>
+        <frameInfo frame="18">
+            <frameData alpha="0.359375" bitmapName="dhzqd_5" scaleX="-1.973999" scaleY="-1.973999" rotation="179.999985" position="25.850000,1.100000" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData alpha="0.26953125" bitmapName="dhzqd_5" scaleX="-2.059631" scaleY="-2.059631" rotation="179.999985" position="25.900000,1.100000" />
+        </frameInfo>
+        <frameInfo frame="20">
+            <frameData alpha="0.171875" bitmapName="dhzqd_5" scaleX="-2.145325" scaleY="-2.145325" rotation="179.999985" position="25.850000,1.100000" />
+        </frameInfo>
+        <frameInfo frame="21" />
+        <frameInfo frame="22" />
+        <frameInfo frame="23" />
+        <frameInfo frame="24" />
+        <frameInfo frame="25" />
+        <frameInfo frame="26" />
+        <frameInfo frame="27" />
+        <frameInfo frame="28" />
+        <frameInfo frame="29" />
+    </action>
+</animation>

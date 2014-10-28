@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="28" actionName="GoAnimaition_2">
+        <frameInfo frame="0">
+            <frameData alpha="0.6015625" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData alpha="0.671875" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData alpha="0.73046875" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData alpha="0.80078125" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData alpha="0.87109375" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData alpha="0.9296875" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData alpha="0.94140625" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData alpha="0.890625" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData alpha="0.828125" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData alpha="0.76953125" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData alpha="0.7109375" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData alpha="0.66015625" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData alpha="0.6015625" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData alpha="0.671875" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData alpha="0.73046875" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData alpha="0.80078125" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData alpha="0.87109375" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="18">
+            <frameData alpha="0.9296875" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="20">
+            <frameData alpha="0.94921875" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="21">
+            <frameData alpha="0.8984375" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="22">
+            <frameData alpha="0.8515625" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="23">
+            <frameData alpha="0.80078125" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="24">
+            <frameData alpha="0.75" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="25">
+            <frameData alpha="0.69921875" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="26">
+            <frameData alpha="0.6484375" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+        <frameInfo frame="27">
+            <frameData alpha="0.6015625" bitmapName="GoAnimaition_20" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="33.349998,0.300000" />
+        </frameInfo>
+    </action>
+</animation>

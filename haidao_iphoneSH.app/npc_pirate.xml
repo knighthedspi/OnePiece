@@ -1,0 +1,52 @@
+﻿<root>
+  <npc_pirate npcID="1" npcName="Băng Buggy" npcIcon="4" npcTroops="16011|16012|16013" npcWeight="10000"/>
+  <npc_pirate npcID="2" npcName="Băng Mèo Đen" npcIcon="5" npcTroops="16021|16022|16023" npcWeight="20000"/>
+  <npc_pirate npcID="3" npcName="Băng Băng Krieg" npcIcon="6" npcTroops="16031|16032|16033" npcWeight="30000"/>
+  <npc_pirate npcID="4" npcName="Băng Arlong" npcIcon="7" npcTroops="16041|16042|16043" npcWeight="40000"/>
+  <npc_pirate npcID="5" npcName="Băng Niche" npcIcon="8" npcTroops="16051|16052|16053" npcWeight="50000"/>
+  <npc_pirate npcID="6" npcName="Băng Lạc Đà" npcIcon="9" npcTroops="16061|16062|16063" npcWeight="60000"/>
+  <npc_pirate npcID="7" npcName="Baroque Work" npcIcon="10" npcTroops="16071|16072|16073" npcWeight="70000"/>
+  <npc_pirate npcID="8" npcName="Băng Bạch Thiết" npcIcon="11" npcTroops="16081|16082|16083" npcWeight="80000"/>
+  <npc_pirate npcID="9" npcName="Hải quân chính nghĩa" npcIcon="12" npcTroops="16091|16092|16093" npcWeight="90000"/>
+  <npc_pirate npcID="10" npcName="Liên hợp Viên Sơn" npcIcon="13" npcTroops="16101|16102|16103" npcWeight="100000"/>
+  <npc_pirate npcID="11" npcName="Băng Bellamy" npcIcon="14" npcTroops="16111|16112|16113" npcWeight="110000"/>
+  <npc_pirate npcID="12" npcName="Băng Enel" npcIcon="15" npcTroops="16121|16122|16123" npcWeight="120000"/>
+  <npc_pirate npcID="13" npcName="Băng Fox" npcIcon="16" npcTroops="16131|16132|16133" npcWeight="130000"/>
+  <npc_pirate npcID="14" npcName="Nhà Franky" npcIcon="17" npcTroops="16141|16142|16143" npcWeight="140000"/>
+  <npc_pirate npcID="15" npcName="Thuyền viên bạo động" npcIcon="18" npcTroops="16151|16152|16153" npcWeight="150000"/>
+  <npc_pirate npcID="16" npcName="Đội thủ vệ xe lửa" npcIcon="19" npcTroops="16161|16162|16163" npcWeight="160000"/>
+  <npc_pirate npcID="17" npcName="Tổ chức CP9" npcIcon="20" npcTroops="16171|16172|16173" npcWeight="170000"/>
+  <npc_pirate npcID="18" npcName="Hải quân đồ ma" npcIcon="21" npcTroops="16181|16182|16183" npcWeight="180000"/>
+  <npc_pirate npcID="19" npcName="Băng Phượng Hoàng" npcIcon="22" npcTroops="16191|16192|16193" npcWeight="190000"/>
+  <npc_pirate npcID="20" npcName="Cờ thợ săn" npcIcon="23" npcTroops="16201|16202|16203" npcWeight="200000"/>
+  <npc_pirate npcID="21" npcName="Băng Moria" npcIcon="24" npcTroops="16211|16212|16213" npcWeight="210000"/>
+  <npc_pirate npcID="22" npcName="Thủ vệ đảo Ôn Tuyền" npcIcon="25" npcTroops="16221|16222|16223" npcWeight="220000"/>
+  <npc_pirate npcID="23" npcName="Đoàn kỵ sĩ hoa hồng" npcIcon="26" npcTroops="16231|16232|16233" npcWeight="230000"/>
+  <npc_pirate npcID="24" npcName="Người Thiên Long phản công" npcIcon="27" npcTroops="16241|16242|16243" npcWeight="240000"/>
+  <npc_pirate npcID="25" npcName="Râu trắng 25" npcIcon="28" npcTroops="301|308" npcWeight="250000"/>
+  <npc_pirate npcID="26" npcName="Râu trắng 26" npcIcon="29" npcTroops="301|309" npcWeight="260000"/>
+  <npc_pirate npcID="27" npcName="Râu trắng 27" npcIcon="30" npcTroops="301|310" npcWeight="270000"/>
+  <npc_pirate npcID="28" npcName="Râu trắng 28" npcIcon="31" npcTroops="401|402" npcWeight="280000"/>
+  <npc_pirate npcID="29" npcName="Râu trắng 29" npcIcon="32" npcTroops="401|403" npcWeight="290000"/>
+  <npc_pirate npcID="30" npcName="Râu trắng 30" npcIcon="33" npcTroops="401|404" npcWeight="300000"/>
+  <npc_pirate npcID="31" npcName="Râu trắng 31" npcIcon="34" npcTroops="401|405" npcWeight="310000"/>
+  <npc_pirate npcID="32" npcName="Râu trắng 32" npcIcon="35" npcTroops="401|406" npcWeight="320000"/>
+  <npc_pirate npcID="33" npcName="Râu trắng 33" npcIcon="36" npcTroops="401|407" npcWeight="330000"/>
+  <npc_pirate npcID="34" npcName="Râu trắng 34" npcIcon="37" npcTroops="401|408" npcWeight="340000"/>
+  <npc_pirate npcID="35" npcName="Râu trắng 35" npcIcon="38" npcTroops="401|409" npcWeight="350000"/>
+  <npc_pirate npcID="36" npcName="Râu trắng 36" npcIcon="39" npcTroops="401|410" npcWeight="360000"/>
+  <npc_pirate npcID="37" npcName="Râu trắng 37" npcIcon="40" npcTroops="501|502" npcWeight="370000"/>
+  <npc_pirate npcID="38" npcName="Râu trắng 38" npcIcon="41" npcTroops="501|503" npcWeight="380000"/>
+  <npc_pirate npcID="39" npcName="Râu trắng 39" npcIcon="42" npcTroops="501|504" npcWeight="390000"/>
+  <npc_pirate npcID="40" npcName="Râu trắng 40" npcIcon="43" npcTroops="501|505" npcWeight="400000"/>
+  <npc_pirate npcID="41" npcName="Râu trắng 41" npcIcon="44" npcTroops="501|506" npcWeight="410000"/>
+  <npc_pirate npcID="42" npcName="Râu trắng 42" npcIcon="45" npcTroops="501|507" npcWeight="420000"/>
+  <npc_pirate npcID="43" npcName="Râu trắng 43" npcIcon="46" npcTroops="501|508" npcWeight="430000"/>
+  <npc_pirate npcID="44" npcName="Râu trắng 44" npcIcon="47" npcTroops="501|509" npcWeight="440000"/>
+  <npc_pirate npcID="45" npcName="Râu trắng 45" npcIcon="48" npcTroops="501|510" npcWeight="450000"/>
+  <npc_pirate npcID="46" npcName="Râu trắng 46" npcIcon="49" npcTroops="501|511" npcWeight="460000"/>
+  <npc_pirate npcID="47" npcName="Râu trắng 47" npcIcon="50" npcTroops="501|512" npcWeight="470000"/>
+  <npc_pirate npcID="48" npcName="Râu trắng 48" npcIcon="51" npcTroops="501|513" npcWeight="480000"/>
+  <npc_pirate npcID="49" npcName="Râu trắng 49" npcIcon="52" npcTroops="501|514" npcWeight="490000"/>
+  <npc_pirate npcID="50" npcName="Râu trắng 50" npcIcon="53" npcTroops="501|515" npcWeight="500000"/>
+</root>

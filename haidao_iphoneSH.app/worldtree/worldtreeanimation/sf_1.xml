@@ -1,0 +1,171 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="55" actionName="sf_1">
+        <frameInfo frame="0">
+            <frameData alpha="0.01171875" bitmapName="sf_1" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-151.149994,57.549999" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData alpha="0.01171875" bitmapName="sf_1" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-151.149994,57.549999" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData alpha="0.2109375" bitmapName="sf_1" scaleX="0.999189" scaleY="0.999189" rotation="14.825070" position="-120.650002,45.599998" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData alpha="0.2109375" bitmapName="sf_1" scaleX="0.999189" scaleY="0.999189" rotation="14.825070" position="-120.650002,45.599998" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData alpha="0.41015625" bitmapName="sf_1" scaleX="0.997959" scaleY="0.997959" rotation="29.826050" position="-90.150002,33.650002" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData alpha="0.41015625" bitmapName="sf_1" scaleX="0.997959" scaleY="0.997959" rotation="29.826050" position="-90.150002,33.650002" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData alpha="0.609375" bitmapName="sf_1" scaleX="0.997004" scaleY="0.997004" rotation="44.875988" position="-59.599998,21.650000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData alpha="0.609375" bitmapName="sf_1" scaleX="0.997004" scaleY="0.997004" rotation="44.875988" position="-59.599998,21.650000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData alpha="0.80078125" bitmapName="sf_1" scaleX="0.997061" scaleY="0.997061" rotation="59.936882" position="-29.100000,9.700000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData alpha="0.80078125" bitmapName="sf_1" scaleX="0.997061" scaleY="0.997061" rotation="59.936882" position="-29.100000,9.700000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData bitmapName="sf_1" scaleX="0.999987" scaleY="0.999987" rotation="60.001579" position="-0.550000,-14.200000" />
+        </frameInfo>
+        <frameInfo frame="18">
+            <frameData bitmapName="sf_1" scaleX="0.999987" scaleY="0.999987" rotation="60.001579" position="-0.550000,-14.200000" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData bitmapName="sf_1" scaleX="0.999987" scaleY="0.999987" rotation="60.001579" position="-0.550000,-14.200000" />
+        </frameInfo>
+        <frameInfo frame="20">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="21">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="22">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="23">
+            <frameData bitmapName="sf_1" scaleX="0.999987" scaleY="0.999987" rotation="60.001579" position="-0.550000,-14.200000" />
+        </frameInfo>
+        <frameInfo frame="24">
+            <frameData bitmapName="sf_1" scaleX="0.999987" scaleY="0.999987" rotation="60.001579" position="-0.550000,-14.200000" />
+        </frameInfo>
+        <frameInfo frame="25">
+            <frameData bitmapName="sf_1" scaleX="0.999987" scaleY="0.999987" rotation="60.001579" position="-0.550000,-14.200000" />
+        </frameInfo>
+        <frameInfo frame="26">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="27">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="28">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="29">
+            <frameData bitmapName="sf_1" scaleX="0.999987" scaleY="0.999987" rotation="60.001579" position="-0.550000,-14.200000" />
+        </frameInfo>
+        <frameInfo frame="30">
+            <frameData bitmapName="sf_1" scaleX="0.999987" scaleY="0.999987" rotation="60.001579" position="-0.550000,-14.200000" />
+        </frameInfo>
+        <frameInfo frame="31">
+            <frameData bitmapName="sf_1" scaleX="0.999987" scaleY="0.999987" rotation="60.001579" position="-0.550000,-14.200000" />
+        </frameInfo>
+        <frameInfo frame="32">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="33">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="34">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="35">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="36">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="37">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="38">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="39">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="40">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="41">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="42">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="43">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="44">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="45">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="46">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="47">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="48">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="49">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="50">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="51">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="52">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="53">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+        <frameInfo frame="54">
+            <frameData bitmapName="sf_1" scaleX="0.999997" scaleY="0.999997" rotation="75.000832" position="1.450000,-2.250000" />
+        </frameInfo>
+    </action>
+</animation>

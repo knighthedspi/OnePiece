@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="36" actionName="A001_rageskill_1">
+        <frameInfo frame="0">
+            <frameData bitmapName="A001_rageskill_dingwei" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="1" />
+        <frameInfo frame="2" />
+        <frameInfo frame="3" />
+        <frameInfo frame="4" />
+        <frameInfo frame="5" />
+        <frameInfo frame="6" />
+        <frameInfo frame="7" />
+        <frameInfo frame="8" />
+        <frameInfo frame="9" />
+        <frameInfo frame="10" />
+        <frameInfo frame="11" />
+        <frameInfo frame="12" />
+        <frameInfo frame="13" />
+        <frameInfo frame="14" />
+        <frameInfo frame="15" />
+        <frameInfo frame="16" />
+        <frameInfo frame="17" />
+        <frameInfo frame="18" />
+        <frameInfo frame="19" />
+        <frameInfo frame="20" />
+        <frameInfo frame="21" />
+        <frameInfo frame="22">
+            <frameData bitmapName="A001_rageskill_11" scaleX="-1.695984" scaleY="-1.695984" rotation="179.999985" position="167.649994,-106.750000" />
+        </frameInfo>
+        <frameInfo frame="23">
+            <frameData bitmapName="A001_rageskill_11" scaleX="-2.847992" scaleY="-2.847992" rotation="179.999985" position="232.199997,-110.199997" />
+        </frameInfo>
+        <frameInfo frame="24">
+            <frameData bitmapName="A001_rageskill_11" scaleX="-4.000000" scaleY="-4.000000" rotation="179.999985" position="296.649994,-113.800003" />
+        </frameInfo>
+        <frameInfo frame="25">
+            <frameData bitmapName="A001_rageskill_11" scaleX="-4.284058" scaleY="-4.284058" rotation="179.999985" position="329.200012,-115.300003" />
+        </frameInfo>
+        <frameInfo frame="26">
+            <frameData bitmapName="A001_rageskill_11" scaleX="-4.568054" scaleY="-4.568054" rotation="179.999985" position="361.750000,-116.800003" />
+        </frameInfo>
+        <frameInfo frame="27">
+            <frameData bitmapName="A001_rageskill_11" scaleX="-4.852112" scaleY="-4.852112" rotation="179.999985" position="394.250000,-118.300003" />
+        </frameInfo>
+        <frameInfo frame="28">
+            <frameData bitmapName="A001_rageskill_11" scaleX="-5.136108" scaleY="-5.136108" rotation="179.999985" position="426.700012,-119.800003" />
+        </frameInfo>
+        <frameInfo frame="29">
+            <frameData alpha="0.66796875" bitmapName="A001_rageskill_11" scaleX="-5.768723" scaleY="-5.442932" rotation="179.999985" position="472.950012,-119.650002" />
+        </frameInfo>
+        <frameInfo frame="30">
+            <frameData alpha="0.33203125" bitmapName="A001_rageskill_11" scaleX="-6.401322" scaleY="-5.749756" rotation="179.999985" position="519.400024,-119.650002" />
+        </frameInfo>
+        <frameInfo frame="31">
+            <frameData alpha="0" bitmapName="A001_rageskill_11" scaleX="-7.033783" scaleY="-6.056412" rotation="179.999985" position="565.950012,-119.800003" />
+        </frameInfo>
+        <frameInfo frame="32" />
+        <frameInfo frame="33" />
+        <frameInfo frame="34" />
+        <frameInfo frame="35" />
+    </action>
+</animation>

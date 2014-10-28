@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="17" actionName="gaofushuai_1">
+        <frameInfo frame="0">
+            <frameData bitmapName="gaofushuai01" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="276.649994,201.949997" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="gaofushuai02" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="276.649994,201.949997" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="gaofushuai03" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="276.649994,201.949997" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="gaofushuai04" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="276.649994,200.850006" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="gaofushuai05" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="276.649994,200.850006" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="gaofushuai06" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="276.649994,200.850006" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="gaofushuai07" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="276.649994,201.949997" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="gaofushuai08" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="276.649994,201.949997" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="gaofushuai09" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="276.649994,201.949997" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="gaofushuai10" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="276.649994,201.949997" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="gaofushuai11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="276.649994,201.949997" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="gaofushuai12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="276.649994,201.949997" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="gaofushuai13" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="276.649994,201.949997" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData bitmapName="gaofushuai14" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="276.649994,201.949997" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData bitmapName="gaofushuai15" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="276.649994,201.949997" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData bitmapName="gaofushuai16" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="276.649994,201.949997" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData bitmapName="gaofushuai17" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="276.649994,201.949997" />
+        </frameInfo>
+    </action>
+</animation>

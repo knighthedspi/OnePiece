@@ -1,0 +1,8 @@
+<root>
+  <goodwilltypeitem id="1" name="Thực phẩm" des="Thực phẩm, tặng tướng yêu thích tăng 125% thiện cảm, tướng đáng ghét nhận 75% thiện cảm" pach="itemSmall/tongshi.png"/>
+  <goodwilltypeitem id="2" name="Máy móc" des="Máy móc, tặng tướng yêu thích tăng 125% thiện cảm, tướng đáng ghét nhận 75% thiện cảm" pach="itemSmall/tongji.png"/>
+  <goodwilltypeitem id="3" name="Sách" des="Sách, tặng tướng yêu thích tăng 125% thiện cảm, tướng đáng ghét nhận 75% thiện cảm" 
+  pach="itemSmall/tognshu.png"/>
+  <goodwilltypeitem id="4" name="Đồ bếp" des="Dụng cụ bếp, tặng tướng yêu thích tăng 125% thiện cảm, tướng đáng ghét nhận 75% thiện cảm" pach="itemSmall/tongchu.png"/>
+  <goodwilltypeitem id="5" name="Nhạc khí" des="Nhạc khí, tặng tướng yêu thích tăng 125% thiện cảm, tướng đáng ghét nhận 75% thiện cảm" pach="itemSmall/tongyue.png"/>
+</root>

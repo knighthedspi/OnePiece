@@ -1,0 +1,732 @@
+﻿<root>
+  <prize prizeId='101' armyId='24' scores='5' prizeTempName='Chiến dịch biển_HQ binh tam' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='102' armyId='31' scores='5' prizeTempName='Chiến dịch biển_HQ binh nhị' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='103' armyId='32' scores='5' prizeTempName='Chiến dịch biển_Ngũ trưởng HQ' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='104' armyId='32' scores='5' prizeTempName='Chiến dịch biển_Ngũ trưởng HQ' type='2' defeatNum='2' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='201' armyId='109' scores='5' prizeTempName='Đảo Cactus_Thủ lĩnh HT đốn gỗ' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='202' armyId='113' scores='5' prizeTempName='Đảo Cactus_Chỉ huy lính HT' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='203' armyId='118' scores='5' prizeTempName='Đảo Cactus_HT công mạnh' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='204' armyId='121' scores='5' prizeTempName='Đảo Cactus_Số lần thắnglvida_1 lần' type='2' defeatNum='1' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='301' armyId='208' scores='5' prizeTempName='Shells_Hộ vệ HQ' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='302' armyId='218' scores='5' prizeTempName='Shells_Helmeppo' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='303' armyId='221' scores='5' prizeTempName='Shells_Morgan' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='304' armyId='218' scores='5' prizeTempName='Shells_Số lần thắng_Helmeppo_10' type='2' defeatNum='5' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='305' armyId='221' scores='5' prizeTempName='Shells_Số lần thắng_Morgan_10' type='2' defeatNum='5' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='401' armyId='310' scores='5' prizeTempName='Cam_Thủ vệ Buggy' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='402' armyId='314' scores='5' prizeTempName='Cam_Khúc nghệ Cabaji' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='403' armyId='317' scores='5' prizeTempName='Cam_Luyện thú Moki' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='404' armyId='318' scores='5' prizeTempName='Cam_Sư tử Niche' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='405' armyId='321' scores='5' prizeTempName='Cam_Buggy' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='406' armyId='314' scores='5' prizeTempName='Cam_Số lần thắng_Khúc nghệ Cabaji_5' type='2' defeatNum='5' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='407' armyId='317' scores='5' prizeTempName='Cam_Số lần thắng_Luyện thú Moki_5' type='2' defeatNum='5' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='408' armyId='318' scores='5' prizeTempName='Cam_Số lần thắng_Sư tử Niche_5' type='2' defeatNum='5' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='409' armyId='321' scores='5' prizeTempName='Cam_Số lần thắng_Buggy_5' type='2' defeatNum='5' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='501' armyId='404' scores='5' prizeTempName='Syrup_Sham' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='502' armyId='410' scores='5' prizeTempName='Syrup_Jango' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='503' armyId='413' scores='5' prizeTempName='Syrup_Buchi' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='504' armyId='419' scores='5' prizeTempName='Syrup_Thuyền trưởng Jack' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='505' armyId='404' scores='5' prizeTempName='Syrup_Số lần thắng_Sham_10' type='2' defeatNum='5' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='506' armyId='410' scores='5' prizeTempName='Syrup_Số lần thắng_Jango_10' type='2' defeatNum='5' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='507' armyId='413' scores='5' prizeTempName='Syrup_Số lần thắng_Buchi_10' type='2' defeatNum='5' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='508' armyId='419' scores='5' prizeTempName='Syrup_Số lần thắng_Thuyền trưởng Jack_10' type='2' defeatNum='5' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='509' armyId='419' scores='10' prizeTempName='Syrup_Chiến đặc biệt_Thuyền trưởng Jack_10' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Thuyền trưởng Jack”, ra trận không quá 2 người.'/>
+  <prize prizeId='601' armyId='506' scores='5' prizeTempName='Nhà hàng biển_HQ báo thù' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='602' armyId='509' scores='5' prizeTempName='Nhà hàng biển_Tường sắt Pearl' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='603' armyId='519' scores='5' prizeTempName='Nhà hàng biển_Gin_10' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='604' armyId='514' scores='5' prizeTempName='Nhà hàng biển_Băng Krieg5' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='605' armyId='522' scores='5' prizeTempName='Nhà hàng biển_Bá chủ Krieg' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='606' armyId='509' scores='5' prizeTempName='Nhà hàng biển_Số lần thắng_Tường sắt Pearl_10' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='607' armyId='519' scores='5' prizeTempName='Nhà hàng biển_Số lần thắng_Gin_10' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='608' armyId='522' scores='5' prizeTempName='Nhà hàng biển_Số lần thắng_Bá chủ Krieg_10' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='609' armyId='522' scores='10' prizeTempName='Nhà hàng biển_Bá chủ Krieg_11' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Bá chủ Krieg”, ra trận không quá 2 người.'/>
+  <prize prizeId='701' armyId='604' scores='5' prizeTempName='Cocoyashi_Moo' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='702' armyId='616' scores='5' prizeTempName='Cocoyashi_Chew' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='703' armyId='617' scores='5' prizeTempName='Cocoyashi_Hachi lục đạo' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='704' armyId='619' scores='5' prizeTempName='Cocoyashi_Kuroobi' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='705' armyId='621' scores='5' prizeTempName='Cocoyashirlong' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='706' armyId='616' scores='5' prizeTempName='Cocoyashi_Số lần thắng_Chew' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='707' armyId='617' scores='5' prizeTempName='Cocoyashi_Số lần thắng_Hachi lục đạo' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='708' armyId='619' scores='5' prizeTempName='Cocoyashi_Số lần thắng_Kuroobi' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='709' armyId='621' scores='5' prizeTempName='Cocoyashi_Số lần thắngrlong' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='710' armyId='621' scores='10' prizeTempName='Cocoyashi_Chiến dịch Rlong' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Arlong”, ra trận không quá 3 người.'/>
+  <prize prizeId='801' armyId='711' scores='5' prizeTempName='Logue_HQ Logue' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='802' armyId='713' scores='5' prizeTempName='Logue_Khúc nghệ Cabaji' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='803' armyId='714' scores='5' prizeTempName='Loguelvida' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='804' armyId='715' scores='5' prizeTempName='Logue_Buggy' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='805' armyId='718' scores='5' prizeTempName='Logue_Luyện thú Moki' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='806' armyId='713' scores='5' prizeTempName='Logue_Số lần thắng_Khúc nghệ Cabaji_10' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='807' armyId='714' scores='5' prizeTempName='Logue_Số lần thắnglvida_10' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='808' armyId='715' scores='5' prizeTempName='Logue_Số lần thắng_Buggy_10' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='809' armyId='718' scores='5' prizeTempName='Logue_Số lần thắng_Luyện thú Moki_10' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='810' armyId='715' scores='10' prizeTempName='Logue_Chiến đặc biệt_Buggy_' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Buggy”, ra trận không quá 3 người.'/>
+  <prize prizeId='901' armyId='810' scores='5' prizeTempName='Núi Reverse_Thủ vệ' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='902' armyId='818' scores='5' prizeTempName='Núi Reverse_Hắc miêu bí mật' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='903' armyId='821' scores='5' prizeTempName='Núi Reverse_Cá voi Laboon' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='904' armyId='821' scores='15' prizeTempName='Núi Reverse_Số lần thắng_Cá voi Laboon_20' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='905' armyId='821' scores='10' prizeTempName='Núi Reverse_Chiến đặc biệt_Cá voi Laboon_' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Laboon”, không mất quá 50% máu.'/>
+  <prize prizeId='1001' armyId='907' scores='5' prizeTempName='Cá voi Laboon_Mực Lớn' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1002' armyId='912' scores='5' prizeTempName='Cá voi Laboon_tinh thần bí' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1003' armyId='915' scores='5' prizeTempName='Cá voi Laboon_Mr9' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1004' armyId='916' scores='5' prizeTempName='Cá voi Laboon_Vi vi' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1005' armyId='915' scores='5' prizeTempName='Cá voi Laboon_Số lần thắng_Mr9_10' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1006' armyId='916' scores='5' prizeTempName='Cá voi Laboon_Số lần thắng_Vi vi_10' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1007' armyId='916' scores='10' prizeTempName='Cá voi Laboon_Chiến đặc biệt_Vi vi_' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Vi vi”, ra trận không quá 3 người.'/>
+  <prize prizeId='1101' armyId='1005' scores='5' prizeTempName='Đỉnh Whisky_Mr.8' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1102' armyId='1008' scores='5' prizeTempName='Đỉnh Whisky_Ms.Monday' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1103' armyId='1012' scores='5' prizeTempName='Đỉnh Whisky_Vi vi' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1104' armyId='1016' scores='5' prizeTempName='Đỉnh Whisky_Miss.Valentine' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1105' armyId='1020' scores='5' prizeTempName='Đỉnh Whisky_Mr.5 Bomu Bomu' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='1106' armyId='1005' scores='10' prizeTempName='Đỉnh Whisky_Số lần thắng_Mr.8' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1107' armyId='1008' scores='10' prizeTempName='Đỉnh Whisky_Số lần thắng_Ms.Monday' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1108' armyId='1012' scores='10' prizeTempName='Đỉnh Whisky_Số lần thắng_Vi vi' type='2' defeatNum='15' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1109' armyId='1016' scores='10' prizeTempName='Đỉnh Whisky_Số lần thắng_Miss.Valentine' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1110' armyId='1020' scores='10' prizeTempName='Đỉnh Whisky_Số lần thắng_Mr.5 Bomu Bomu' type='2' defeatNum='15' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1111' armyId='1020' scores='10' prizeTempName='Đỉnh Whisky_Chiến đặc biệt_Mr.5 Bomu Bomu' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Mr.5”, ra trận không quá 4 người.'/>
+  <prize prizeId='1201' armyId='1107' scores='5' prizeTempName='Tiểu hoa viên_Miss.Valentine' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1202' armyId='1112' scores='5' prizeTempName='Tiểu hoa viên_Mr.5 Bomu Bomu' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1203' armyId='1114' scores='5' prizeTempName='Tiểu hoa viên_Quỷ đỏ Brogy' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='1204' armyId='1117' scores='5' prizeTempName='Tiểu hoa viên_Quỷ xanh Dorry' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='1205' armyId='1119' scores='5' prizeTempName='Tiểu hoa viên_Miss Tuần lễ vàng' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1206' armyId='1120' scores='5' prizeTempName='Tiểu hoa viên_Mr.3' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='1207' armyId='1107' scores='10' prizeTempName='Tiểu hoa viên_Số lần thắng_Miss.Valentine' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1208' armyId='1112' scores='10' prizeTempName='Tiểu hoa viên_Số lần thắng_Mr.5 Bomu Bomu' type='2' defeatNum='15' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1209' armyId='1119' scores='10' prizeTempName='Tiểu hoa viên_Số lần thắng_Miss Tuần lễ vàng' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1210' armyId='1120' scores='10' prizeTempName='Tiểu hoa viên_Số lần thắng_Mr.3' type='2' defeatNum='15' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1211' armyId='1120' scores='10' prizeTempName='Tiểu hoa viên_Chiến đặc biệt_Mr.3' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Mr.3”, ra trận không quá 4 người.'/>
+  <prize prizeId='1301' armyId='1207' scores='5' prizeTempName='Đảo Drum_Robson' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1302' armyId='1211' scores='5' prizeTempName='Đảo Drum_Lapin' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1303' armyId='1215' scores='5' prizeTempName='Đảo Drum_Kuromariomo' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1304' armyId='1219' scores='5' prizeTempName='Đảo Drum_Chess' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1305' armyId='1221' scores='5' prizeTempName='Đảo Drum_Wapol' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1306' armyId='1207' scores='10' prizeTempName='Đảo Drum_Số lần thắng_Robson' type='2' defeatNum='15' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1307' armyId='1215' scores='10' prizeTempName='Đảo Drum_Số lần thắng_Kuromariomo' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1308' armyId='1219' scores='10' prizeTempName='Đảo Drum_Số lần thắng_Chess' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1309' armyId='1221' scores='10' prizeTempName='Đảo Drum_Số lần thắng_Wapol' type='2' defeatNum='15' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1310' armyId='1221' scores='10' prizeTempName='Đảo Drum_Chiến đặc biệt_Wapol' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Wapol”, ra trận không quá 3 người.'/>
+  <prize prizeId='1401' armyId='1305' scores='5' prizeTempName='Nanohana_Mèo biển' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1402' armyId='1308' scores='5' prizeTempName='Nanohana_Hoa ăn thịt' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1403' armyId='1316' scores='5' prizeTempName='Nanohana_Tashigi' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='1404' armyId='1321' scores='5' prizeTempName='Nanohana_Smoker' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='1405' armyId='1305' scores='10' prizeTempName='Nanohana_Số lần thắng_Mèo biển' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1406' armyId='1308' scores='10' prizeTempName='Nanohana_Số lần thắng_Hoa ăn thịt' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1407' armyId='1316' scores='10' prizeTempName='Nanohana_Số lần thắng_Tashigi' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1408' armyId='1321' scores='10' prizeTempName='Nanohana_Số lần thắng_Smoker' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1409' armyId='1321' scores='10' prizeTempName='Nanohana_Chiến đặc biệt_Smoker' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Đánh “Smoker”, đạt loại chiến đấu “A”.'/>
+  <prize prizeId='1501' armyId='1403' scores='5' prizeTempName='Rainbase_Thằn lằn sa mạc' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1502' armyId='1407' scores='5' prizeTempName='Rainbase_Bò cạp sa mạc' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1503' armyId='1412' scores='5' prizeTempName='Rainbase_Cá Sấu Chuối' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1504' armyId='1420' scores='5' prizeTempName='Rainbase_Nico·Robin' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='1505' armyId='1403' scores='10' prizeTempName='Rainbase_Số lần thắng_Thằn lằn sa mạc' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1506' armyId='1407' scores='10' prizeTempName='Rainbase_Số lần thắng_Bò cạp sa mạc' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1507' armyId='1412' scores='10' prizeTempName='Rainbase_Số lần thắng_Cá Sấu Chuối' type='2' defeatNum='15' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1508' armyId='1420' scores='10' prizeTempName='Rainbase_Số lần thắng_Nico·Robin' type='2' defeatNum='15' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1509' armyId='1420' scores='10' prizeTempName='Rainbase_Chiến đặc biệt_Nico·Robin' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Nico·Robin”, không mất quá 50% máu.'/>
+  <prize prizeId='1601' armyId='1504' scores='5' prizeTempName='Thành Alubarna_Thằn lằn sa mạc' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1602' armyId='1512' scores='5' prizeTempName='Thành Alubarna_Miss Christmas' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1603' armyId='1513' scores='5' prizeTempName='Thành Alubarna_Mr.4' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1604' armyId='1517' scores='5' prizeTempName='Thành Alubarna_Mr.2 Bon Kurei' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='1605' armyId='1520' scores='5' prizeTempName='Thành Alubarna_Miss.Pola' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='1606' armyId='1521' scores='5' prizeTempName='Thành Alubarna_Mr.1' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='1607' armyId='1512' scores='10' prizeTempName='Thành Alubarna_Số lần thắng_Miss Christmas' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1608' armyId='1513' scores='10' prizeTempName='Thành Alubarna_Số lần thắng_Mr.4' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1609' armyId='1517' scores='10' prizeTempName='Thành Alubarna_Số lần thắng_Mr.2 Bon Kurei' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1610' armyId='1520' scores='10' prizeTempName='Thành Alubarna_Số lần thắng_Miss.Pola' type='2' defeatNum='10' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1611' armyId='1521' scores='10' prizeTempName='Thành Alubarna_Số lần thắng_Mr.1' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1612' armyId='1521' scores='10' prizeTempName='Thành Alubarna_Chiến đặc biệt_Mr.1' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Mr.1”, không mất quá 50% máu.'/>
+  <prize prizeId='1701' armyId='1604' scores='5' prizeTempName='Vương thất_Miss Christmas' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1702' armyId='1608' scores='5' prizeTempName='Vương thất_Mr.4' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1703' armyId='1612' scores='5' prizeTempName='Vương thất_Mr.2 Bon Kurei' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1704' armyId='1616' scores='5' prizeTempName='Vương thất_Miss.Pola' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1705' armyId='1620' scores='5' prizeTempName='Vương thất_Mr.7' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1706' armyId='1621' scores='5' prizeTempName='Vương thất_Miss.Fathers Day' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1707' armyId='1622' scores='5' prizeTempName='Vương thất_Nico·Robin' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='1708' armyId='1623' scores='5' prizeTempName='Vương thất_Mr.1' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='1709' armyId='1624' scores='5' prizeTempName='Vương thất_Crocodile' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='1710' armyId='1612' scores='10' prizeTempName='Vương thất_Số lần thắng_Mr.2 Bon Kurei' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1711' armyId='1616' scores='10' prizeTempName='Vương thất_Số lần thắng_Miss.Pola' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1712' armyId='1622' scores='10' prizeTempName='Vương thất_Số lần thắng_Nico·Robin' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1713' armyId='1623' scores='10' prizeTempName='Vương thất_Số lần thắng_Mr.1' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1714' armyId='1624' scores='10' prizeTempName='Vương thất_Số lần thắng_Crocodile' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1715' armyId='1624' scores='10' prizeTempName='Vương thất_Chiến đặc biệt_Crocodile' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Đánh “Crocodile”, đạt loại chiến đấu “A”.'/>
+  <prize prizeId='1801' armyId='1704' scores='5' prizeTempName='Đảo Jaya_Vượn người' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1802' armyId='1708' scores='5' prizeTempName='Đảo Jaya_Tinh tinh' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1803' armyId='1712' scores='5' prizeTempName='Đảo Jaya_Myure' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1804' armyId='1716' scores='5' prizeTempName='Đảo Jaya_Sarquiss' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='1805' armyId='1720' scores='5' prizeTempName='Đảo Jaya_Bellamy' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='1806' armyId='1704' scores='10' prizeTempName='Đảo Jaya_Số lần thắng_Vượn người' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1807' armyId='1708' scores='10' prizeTempName='Đảo Jaya_Số lần thắng_Tinh tinh' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1808' armyId='1712' scores='10' prizeTempName='Đảo Jaya_Số lần thắng_Myure' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1809' armyId='1716' scores='10' prizeTempName='Đảo Jaya_Số lần thắng_Sarquiss' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1810' armyId='1720' scores='10' prizeTempName='Đảo Jaya_Số lần thắng_Bellamy' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1811' armyId='1720' scores='10' prizeTempName='Đảo Jaya_Chiến đặc biệt_Bellamy' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Bellamy”, ra trận không quá 4 người.'/>
+  <prize prizeId='1901' armyId='1808' scores='5' prizeTempName='Lốc xoáy_Mèo biển' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1902' armyId='1815' scores='5' prizeTempName='Lốc xoáy_Myure' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='1903' armyId='1816' scores='5' prizeTempName='Lốc xoáy_Sarquiss' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='1904' armyId='1808' scores='10' prizeTempName='Lốc xoáy_Số lần thắng_Mèo biển' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1905' armyId='1815' scores='10' prizeTempName='Lốc xoáy_Số lần thắng_Myure' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1906' armyId='1816' scores='10' prizeTempName='Lốc xoáy_Số lần thắng_Sarquiss' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='1907' armyId='1816' scores='10' prizeTempName='Lốc xoáy_Chiến đặc biệt_Sarquiss' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Sarquiss”, ra trận không quá 4 người.'/>
+  <prize prizeId='2001' armyId='1906' scores='5' prizeTempName='Biển Angle_Tôm siêu tốc' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2002' armyId='1911' scores='5' prizeTempName='Biển Angle_Laki' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2003' armyId='1915' scores='5' prizeTempName='Biển Angle_Kamakiri' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2004' armyId='1920' scores='5' prizeTempName='Biển Angle_Wiper' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2005' armyId='1906' scores='10' prizeTempName='Biển Angle_Số lần chiến_Tôm siêu tốc' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2006' armyId='1911' scores='10' prizeTempName='Biển Angle_Số lần chiến_Laki' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2007' armyId='1915' scores='10' prizeTempName='Biển Angle_Số lần chiến_Kamakiri' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2008' armyId='1920' scores='10' prizeTempName='Biển Angle_Số lần chiến_Wiper' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2009' armyId='1920' scores='10' prizeTempName='Biển Angle_Đánh giá đặc biệt_Wiper' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Wiper”, không mất quá 50% máu.'/>
+  <prize prizeId='2101' armyId='2006' scores='5' prizeTempName='Tế đàn_Skypea' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2102' armyId='2013' scores='5' prizeTempName='Tế đàn_Chim Fura' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2103' armyId='2017' scores='5' prizeTempName='Tế đàn_Cá mập Skypiea' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2104' armyId='2021' scores='5' prizeTempName='Tế đàn_Thần Seurat' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2105' armyId='2006' scores='10' prizeTempName='Tế đàn_Số lần chiến_Skypea' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2106' armyId='2013' scores='10' prizeTempName='Tế đàn_Số lần chiến_Chim Fura' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2107' armyId='2017' scores='10' prizeTempName='Tế đàn_Số lần chiến_Cá mập Skypiea' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2108' armyId='2021' scores='10' prizeTempName='Tế đàn_Số lần chiến_Thần Seurat' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2109' armyId='2021' scores='10' prizeTempName='Tế đàn_Chiến đặc biệt_Thần Seurat' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Thần Seurat”, ra trận không quá 4 người.'/>
+  <prize prizeId='2201' armyId='2104' scores='5' prizeTempName='Thử nghiệm bóng_Cá mập Skypiea' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2202' armyId='2107' scores='5' prizeTempName='Thử nghiệm bóng_Laki' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2203' armyId='2112' scores='5' prizeTempName='Thử nghiệm bóng_Wiper' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2204' armyId='2116' scores='5' prizeTempName='Thử nghiệm bóng_Thần Yama' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2205' armyId='2120' scores='5' prizeTempName='Thử nghiệm bóng_Thần Satori' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2206' armyId='2104' scores='10' prizeTempName='Thử nghiệm bóng_Số lần chiến_Cá mập Skypiea' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2207' armyId='2107' scores='10' prizeTempName='Thử nghiệm bóng_Số lần chiến_Laki' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2208' armyId='2112' scores='10' prizeTempName='Thử nghiệm bóng_Số lần chiến_Wiper' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2209' armyId='2116' scores='10' prizeTempName='Thử nghiệm bóng_Số lần chiến_Thần Yama' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2210' armyId='2120' scores='10' prizeTempName='Thử nghiệm bóng_Số lần chiến_Thần Satori' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2211' armyId='2120' scores='10' prizeTempName='Thử nghiệm bóng_Chiến đặc biệt_Thần Satori' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Đánh “Thần Satori”, chiến đấu loại “S”.'/>
+  <prize prizeId='2301' armyId='2205' scores='5' prizeTempName='Đậu khổng lồ_Holy' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2302' armyId='2209' scores='5' prizeTempName='Đậu khổng lồ_Wiper' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2303' armyId='2212' scores='5' prizeTempName='Đậu khổng lồ_Thần Casey' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2304' armyId='2220' scores='5' prizeTempName='Đậu khổng lồ_Thần Ohm' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2305' armyId='2205' scores='10' prizeTempName='Đậu khổng lồ_Số lần chiến_Holy' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2306' armyId='2209' scores='10' prizeTempName='Đậu khổng lồ_Số lần chiến_Wiper' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2307' armyId='2212' scores='10' prizeTempName='Đậu khổng lồ_Số lần chiến_Thần Casey' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2308' armyId='2220' scores='10' prizeTempName='Đậu khổng lồ_Số lần chiến_Thần Ohm' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2309' armyId='2220' scores='10' prizeTempName='Đậu khổng lồ_Chiến đặc biệt_Thần Ohm' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Thần Ohm”, ra trận không quá 4 người.'/>
+  <prize prizeId='2401' armyId='2304' scores='5' prizeTempName='Chuông vàng_Thần Yama' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2402' armyId='2308' scores='5' prizeTempName='Chuông vàng_Thần Casey' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2403' armyId='2312' scores='5' prizeTempName='Chuông vàng_Thần Seurat' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2404' armyId='2316' scores='5' prizeTempName='Chuông vàng_Thần Satori' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2405' armyId='2320' scores='5' prizeTempName='Chuông vàng_Thần Ohm' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2406' armyId='2324' scores='5' prizeTempName='Chuông vàng_Thần Enel' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2407' armyId='2304' scores='10' prizeTempName='Chuông vàng_Số lần thắng_Thần Yama' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2408' armyId='2308' scores='10' prizeTempName='Chuông vàng_Số lần thắng_Thần Casey' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2409' armyId='2312' scores='10' prizeTempName='Chuông vàng_Số lần thắng_Thần Seurat' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2410' armyId='2316' scores='10' prizeTempName='Chuông vàng_Số lần thắng_Thần Satori' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2411' armyId='2320' scores='10' prizeTempName='Chuông vàng_Số lần thắng_Thần Ohm' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2412' armyId='2324' scores='10' prizeTempName='Chuông vàng_Số lần thắng_Thần Enel' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2413' armyId='2324' scores='10' prizeTempName='Chuông vàng_Chiến đặc biệt_Thần Enel' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Thần-Enel”, chiến đấu loại “S”.'/>
+  <prize prizeId='2501' armyId='2417' scores='5' prizeTempName='Pháo đài G8_Navarone 1' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2502' armyId='2418' scores='5' prizeTempName='Pháo đài G8_Navarone 2' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2503' armyId='2404' scores='5' prizeTempName='Pháo đài G8_Batuo' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2504' armyId='2412' scores='5' prizeTempName='Pháo đài G8_Thiếu giáo Drake' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2505' armyId='2416' scores='5' prizeTempName='Pháo đài G8_Jessica' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2506' armyId='2420' scores='5' prizeTempName='Pháo đài G8_Jonathan' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='2507' armyId='2417' scores='10' prizeTempName='Pháo đài G8_Số lần chiến_Navarone 1' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2508' armyId='2418' scores='10' prizeTempName='Pháo đài G8_Số lần chiến_Navarone 2' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2509' armyId='2404' scores='10' prizeTempName='Pháo đài G8_Số lần chiến_Batuo' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2510' armyId='2412' scores='10' prizeTempName='Pháo đài G8_Số lần chiến_Thiếu giáo Drake' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2511' armyId='2416' scores='10' prizeTempName='Pháo đài G8_Số lần chiến_Jessica' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2512' armyId='2420' scores='10' prizeTempName='Pháo đài G8_Số lần chiến_Jonathan' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2513' armyId='2420' scores='10' prizeTempName='Pháo đài G8_Chiến đặc biệt_Jonathan' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Jonathan”, không mất quá 50% máu.'/>
+  <prize prizeId='2601' armyId='2511' scores='5' prizeTempName='Đảo Long Ring_Đội  mai phục 1' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2602' armyId='2516' scores='5' prizeTempName='Đảo Long Ring_Đội  Chồn bạc 1' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2603' armyId='2505' scores='5' prizeTempName='Đảo Long Ring_Capote' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2604' armyId='2510' scores='5' prizeTempName='Đảo Long Ring_Hamburg' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2605' armyId='2515' scores='5' prizeTempName='Đảo Long Ring_Porche' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2606' armyId='2520' scores='5' prizeTempName='Đảo Long Ring_Foxy' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='2607' armyId='2511' scores='10' prizeTempName='Đảo Long Ring_Số lần chiến_Đội  mai phục 1' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2608' armyId='2516' scores='10' prizeTempName='Đảo Long Ring_Số lần chiến_Đội  Chồn bạc 1' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2609' armyId='2505' scores='10' prizeTempName='Đảo Long Ring_Số lần chiến_Capote' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2610' armyId='2510' scores='10' prizeTempName='Đảo Long Ring_Số lần chiến_Hamburg' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2611' armyId='2515' scores='10' prizeTempName='Đảo Long Ring_Số lần chiến_Porche' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2612' armyId='2520' scores='10' prizeTempName='Đảo Long Ring_Số lần chiến_Foxy' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2613' armyId='2520' scores='10' prizeTempName='Đảo Long Ring_Chiến đặc biệt_Foxy' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Foxy”, ra trận không quá 4 người.'/>
+  <prize prizeId='2701' armyId='2622' scores='5' prizeTempName='Tộc Franky_Tiểu đệ Franky 2' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2702' armyId='2624' scores='5' prizeTempName='Tộc Franky_Tiểu đệ Franky 4' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2703' armyId='2605' scores='5' prizeTempName='Tộc Franky_Tamagon' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2704' armyId='2610' scores='5' prizeTempName='Tộc Franky_Zambai' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2705' armyId='2615' scores='5' prizeTempName='Tộc Franky_Kivi' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2706' armyId='2620' scores='5' prizeTempName='Tộc Franky_Mozu' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2707' armyId='2625' scores='5' prizeTempName='Tộc Franky_Franky' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='2708' armyId='2624' scores='10' prizeTempName='Tộc Franky_Số lần chiến_Tiểu đệ Franky 4' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2709' armyId='2605' scores='10' prizeTempName='Tộc Franky_Số lần chiến_Tamagon' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2710' armyId='2610' scores='10' prizeTempName='Tộc Franky_Số lần chiến_Zambai' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2711' armyId='2615' scores='10' prizeTempName='Tộc Franky_Số lần chiến_Kivi' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2712' armyId='2620' scores='10' prizeTempName='Tộc Franky_Số lần chiến_Mozu' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2713' armyId='2625' scores='10' prizeTempName='Tộc Franky_Số lần chiến_Franky' type='2' defeatNum='20' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2714' armyId='2625' scores='10' prizeTempName='Tộc Franky_Chiến đặc biệt_Franky' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Franky”, đạt “SS”Đánh giá.'/>
+  <prize prizeId='2801' armyId='2705' scores='5' prizeTempName='Bến tàu số 1_Kivi' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='2802' armyId='2710' scores='5' prizeTempName='Bến tàu số 1_Mozu' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='2803' armyId='2715' scores='5' prizeTempName='Bến tàu số 1_Franky' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='2804' armyId='2720' scores='5' prizeTempName='Bến tàu số 1_Peeply.LuLu' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='2805' armyId='2725' scores='5' prizeTempName='Bến tàu số 1_Pauly' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='2806' armyId='2705' scores='10' prizeTempName='Bến tàu số 1_Số lần chiến_Kivi' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2807' armyId='2710' scores='10' prizeTempName='Bến tàu số 1_Số lần chiến_Mozu' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2808' armyId='2715' scores='10' prizeTempName='Bến tàu số 1_Số lần chiến_Franky' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2809' armyId='2720' scores='10' prizeTempName='Bến tàu số 1_Số lần chiến_Peeply.LuLu' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2810' armyId='2725' scores='10' prizeTempName='Bến tàu số 1_Số lần chiến_Pauly' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2811' armyId='2725' scores='10' prizeTempName='Bến tàu số 1_Chiến đặc biệt_Pauly' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Pauly”, ra trận không quá 4 người.'/>
+  <prize prizeId='2901' armyId='2805' scores='5' prizeTempName='Đ.kích núi băng_Peeply.LuLu' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='2902' armyId='2810' scores='5' prizeTempName='Đ.kích núi băng_Pauly' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='2903' armyId='2823' scores='5' prizeTempName='Đ.kích núi băng_Bruno' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='2904' armyId='2824' scores='5' prizeTempName='Đ.kích núi băng_Kalifa' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='2905' armyId='2825' scores='5' prizeTempName='Đ.kích núi băng_Nico·Robin' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='2906' armyId='2805' scores='10' prizeTempName='Đ.kích núi băng_Số lần chiến_Peeply.LuLu' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2907' armyId='2810' scores='10' prizeTempName='Đ.kích núi băng_Số lần chiến_Pauly' type='2' defeatNum='50' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2908' armyId='2825' scores='10' prizeTempName='Đ.kích núi băng_Số lần chiến_Nico·Robin' type='2' defeatNum='50' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='2909' armyId='2825' scores='10' prizeTempName='Đ.kích núi băng_Chiến đặc biệt_Nico·Robin' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Nico·Robin”, chiến đấu loại “S”.'/>
+  <prize prizeId='3001' armyId='2905' scores='5' prizeTempName='Xe lửa biển_Jerry' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='3002' armyId='2910' scores='5' prizeTempName='Xe lửa biển_Đại tá T- Bone' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='3003' armyId='2915' scores='5' prizeTempName='Xe lửa biển_Wanze' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='3004' armyId='2920' scores='5' prizeTempName='Xe lửa biển_Yokozuna' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='3005' armyId='2925' scores='5' prizeTempName='Xe lửa biển_Bruno' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='3006' armyId='2905' scores='10' prizeTempName='Xe lửa biển_Số lần chiến_Jerry' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3007' armyId='2910' scores='10' prizeTempName='Xe lửa biển_Số lần chiến_Đại tá T- Bone' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3008' armyId='2915' scores='10' prizeTempName='Xe lửa biển_Số lần chiến_Wanze' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3009' armyId='2920' scores='10' prizeTempName='Xe lửa biển_Số lần chiến_Yokozuna' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3010' armyId='2925' scores='10' prizeTempName='Xe lửa biển_Số lần chiến_Bruno' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3011' armyId='2925' scores='10' prizeTempName='Xe lửa biển_Chiến đặc biệt_Bruno' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Bruno”, không mất quá 60% máu.'/>
+  <prize prizeId='3101' armyId='3005' scores='5' prizeTempName='Đảo Tư Pháp Thượng_Thủ vệ cổng' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='3102' armyId='3010' scores='5' prizeTempName='Đảo Tư Pháp Thượng_Thủ vệ tường' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='3103' armyId='3015' scores='5' prizeTempName='Đảo Tư Pháp Thượng_Oimo' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='3104' armyId='3020' scores='5' prizeTempName='Đảo Tư Pháp Thượng_Kashi' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='3105' armyId='3025' scores='5' prizeTempName='Đảo Tư Pháp Thượng_Baskerville' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='3106' armyId='3005' scores='10' prizeTempName='Đảo Tư Pháp Thượng_Số lần chiến_Thủ vệ cổng' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3107' armyId='3010' scores='10' prizeTempName='Đảo Tư Pháp Thượng_Số lần chiến_Thủ vệ tường' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3108' armyId='3015' scores='10' prizeTempName='Đảo Tư Pháp Thượng_Số lần chiến_Oimo' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3109' armyId='3020' scores='10' prizeTempName='Đảo Tư Pháp Thượng_Số lần chiến_Kashi' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3110' armyId='3025' scores='10' prizeTempName='Đảo Tư Pháp Thượng_Số lần chiến_Baskerville' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3111' armyId='3025' scores='10' prizeTempName='Đảo Tư Pháp Thượng_Chiến đặc biệt_Baskerville' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Baskerville”, ra trận không quá 4 người.'/>
+  <prize prizeId='3201' armyId='3105' scores='5' prizeTempName='Đảo Tư Pháp hạ_Đội  thực thi' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='3202' armyId='3110' scores='5' prizeTempName='Đảo Tư Pháp hạ_Oimo' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='3203' armyId='3115' scores='5' prizeTempName='Đảo Tư Pháp hạ_Kashi' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='3204' armyId='3120' scores='5' prizeTempName='Đảo Tư Pháp hạ_Baskerville' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='3205' armyId='3126' scores='5' prizeTempName='Đảo Tư Pháp hạ_Bruno' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3206' armyId='3110' scores='10' prizeTempName='Đảo Tư Pháp hạ_Số lần chiến_Oimo' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3207' armyId='3115' scores='10' prizeTempName='Đảo Tư Pháp hạ_Số lần chiến_Kashi' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3208' armyId='3120' scores='10' prizeTempName='Đảo Tư Pháp hạ_Số lần chiến_Baskerville' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3209' armyId='3126' scores='10' prizeTempName='Đảo Tư Pháp hạ_Số lần chiến_Bruno' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3210' armyId='3126' scores='10' prizeTempName='Đảo Tư Pháp hạ_Chiến đặc biệt_Bruno' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Bruno”, chiến đấu loại “S”.'/>
+  <prize prizeId='3301' armyId='3205' scores='5' prizeTempName='Tháp Tư Pháp thượng_Fukuro' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='3302' armyId='3210' scores='5' prizeTempName='Tháp Tư Pháp thượng_Kumadori' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='3303' armyId='3216' scores='5' prizeTempName='Tháp Tư Pháp thượng_Kalifa' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3304' armyId='3221' scores='5' prizeTempName='Tháp Tư Pháp thượng_Kaku' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3305' armyId='3226' scores='5' prizeTempName='Tháp Tư Pháp thượng_Jabra' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3306' armyId='3205' scores='10' prizeTempName='Tháp Tư Pháp thượng_Số lần chiến_Fukuro' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3307' armyId='3210' scores='10' prizeTempName='Tháp Tư Pháp thượng_Số lần chiến_Kumadori' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3308' armyId='3216' scores='10' prizeTempName='Tháp Tư Pháp thượng_Số lần chiến_Kalifa' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3309' armyId='3221' scores='10' prizeTempName='Tháp Tư Pháp thượng_Số lần chiến_Kaku' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3310' armyId='3226' scores='10' prizeTempName='Tháp Tư Pháp thượng_Số lần chiến_Jabra' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3311' armyId='3226' scores='10' prizeTempName='Tháp Tư Pháp thượng_Chiến đặc biệt_Jabra' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Jabra”, không mất quá 60% máu.'/>
+  <prize prizeId='3401' armyId='3305' scores='5' prizeTempName='Tháp Tư Pháp hạ_Fukuro' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='3402' armyId='3310' scores='5' prizeTempName='Tháp Tư Pháp hạ_Kumadori' type='1' defeatNum='' defeatEvalu='3' specialTypeDesc=''/>
+  <prize prizeId='3403' armyId='3316' scores='5' prizeTempName='Tháp Tư Pháp hạ_Kalifa' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3404' armyId='3322' scores='5' prizeTempName='Tháp Tư Pháp hạ_Jabra' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3405' armyId='3328' scores='5' prizeTempName='Tháp Tư Pháp hạ_Kaku' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3406' armyId='3305' scores='10' prizeTempName='Tháp Tư Pháp hạ_Số lần chiến_Fukuro' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3407' armyId='3310' scores='10' prizeTempName='Tháp Tư Pháp hạ_Số lần chiến_Kumadori' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3408' armyId='3316' scores='10' prizeTempName='Tháp Tư Pháp hạ_Số lần chiến_Kalifa' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3409' armyId='3322' scores='10' prizeTempName='Tháp Tư Pháp hạ_Số lần chiến_Jabra' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3410' armyId='3328' scores='10' prizeTempName='Tháp Tư Pháp hạ_Số lần chiến_Kaku' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3411' armyId='3328' scores='10' prizeTempName='Tháp Tư Pháp hạ_Chiến đặc biệt_Kaku' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Kaku”, không mất quá 60% máu.'/>
+  <prize prizeId='3501' armyId='3405' scores='5' prizeTempName='Cổng chính nghĩa_Bruno' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3502' armyId='3410' scores='5' prizeTempName='Cổng chính nghĩa_Beri Good' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3503' armyId='3415' scores='5' prizeTempName='Cổng chính nghĩa_Shu' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3504' armyId='3421' scores='5' prizeTempName='Cổng chính nghĩa_Spandam' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3505' armyId='3423' scores='5' prizeTempName='Cổng chính nghĩa_Kalifa' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3506' armyId='3424' scores='5' prizeTempName='Cổng chính nghĩa_Jabra' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3507' armyId='3425' scores='5' prizeTempName='Cổng chính nghĩa_Kaku' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3508' armyId='3427' scores='5' prizeTempName='Cổng chính nghĩa_Lucci' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3509' armyId='3405' scores='10' prizeTempName='Cổng chính nghĩa_Số lần chiến_Bruno' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3510' armyId='3410' scores='10' prizeTempName='Cổng chính nghĩa_Số lần chiến_Beri Good' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3511' armyId='3415' scores='10' prizeTempName='Cổng chính nghĩa_Số lần chiến_Shu' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3512' armyId='3421' scores='10' prizeTempName='Cổng chính nghĩa_Số lần chiến_Spandam' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3513' armyId='3425' scores='10' prizeTempName='Cổng chính nghĩa_Số lần chiến_Kaku' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3514' armyId='3427' scores='10' prizeTempName='Cổng chính nghĩa_Số lần chiến_Lucci' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3515' armyId='3427' scores='10' prizeTempName='Cổng chính nghĩa_Chiến đặc biệt_Lucci' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Lucci”, chiến đấu loại “S”.'/>
+  <prize prizeId='3601' armyId='3505' scores='5' prizeTempName='Thuyền HT thần bí_Vua Cánh cụt' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3602' armyId='3510' scores='5' prizeTempName='Thuyền HT thần bí_Sarton' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3603' armyId='3515' scores='5' prizeTempName='Thuyền HT thần bí_Guyle' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3604' armyId='3520' scores='5' prizeTempName='Thuyền HT thần bí_Stansen' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3605' armyId='3525' scores='5' prizeTempName='Thuyền HT thần bí_Puzzle' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3606' armyId='3505' scores='10' prizeTempName='Thuyền HT thần bí_Số lần chiến_Vua Cánh cụt' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3607' armyId='3510' scores='10' prizeTempName='Thuyền HT thần bí_Số lần chiến_Sarton' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3608' armyId='3515' scores='10' prizeTempName='Thuyền HT thần bí_Số lần chiến_Guyle' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3609' armyId='3520' scores='10' prizeTempName='Thuyền HT thần bí_Số lần chiến_Stansen' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3610' armyId='3525' scores='10' prizeTempName='Thuyền HT thần bí_Số lần chiến_Puzzle' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3611' armyId='3525' scores='10' prizeTempName='Thuyền HT thần bí_Chiến đặc biệt_Puzzle' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Puzzle”, chiến đấu loại “S”.'/>
+  <prize prizeId='3701' armyId='3605' scores='5' prizeTempName='Băng Hải Đạo_Salchow' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3702' armyId='3610' scores='5' prizeTempName='Băng Hải Đạorabelle' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3703' armyId='3615' scores='5' prizeTempName='Băng Hải Đạo_Hockera' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3704' armyId='3620' scores='5' prizeTempName='Băng Hải Đạo_Lil' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3705' armyId='3625' scores='5' prizeTempName='Băng Hải Đạo_Campacino' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3706' armyId='3605' scores='10' prizeTempName='Băng Hải Đạo_Số lần chiến_Salchow' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3707' armyId='3610' scores='10' prizeTempName='Băng Hải Đạo_Số lần chiếnrabelle' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3708' armyId='3615' scores='10' prizeTempName='Băng Hải Đạo_Số lần chiến_Hockera' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3709' armyId='3620' scores='10' prizeTempName='Băng Hải Đạo_Số lần chiến_Lil' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3710' armyId='3625' scores='10' prizeTempName='Băng Hải Đạo_Số lần chiến_Campacino' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3711' armyId='3625' scores='10' prizeTempName='Băng Hải Đạo_Chiến đặc biệt_Campacino' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Campacino”, không mất quá 60% máu.'/>
+  <prize prizeId='3801' armyId='3705' scores='5' prizeTempName='Lovelyland_Salchow' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3802' armyId='3710' scores='5' prizeTempName='Lovelyland_Hockera' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3803' armyId='3715' scores='5' prizeTempName='Lovelyland_Brindo' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3804' armyId='3720' scores='5' prizeTempName='Lovelyland_Lil' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3805' armyId='3725' scores='5' prizeTempName='Lovelyland_Campacino' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3806' armyId='3705' scores='10' prizeTempName='Lovelyland_Số lần chiến_Salchow' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3807' armyId='3710' scores='10' prizeTempName='Lovelyland_Số lần chiến_Hockera' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3808' armyId='3715' scores='10' prizeTempName='Lovelyland_Số lần chiến_Brindo' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3809' armyId='3720' scores='10' prizeTempName='Lovelyland_Số lần chiến_Lil' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3810' armyId='3725' scores='10' prizeTempName='Lovelyland_Số lần chiến_Campacino' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3811' armyId='3725' scores='10' prizeTempName='Lovelyland_Chiến đặc biệt_Campacino' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Campacino”, chiến đấu loại “S”.'/>
+  <prize prizeId='3901' armyId='3805' scores='5' prizeTempName='Lâu đài Atchinorabelle' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3902' armyId='3810' scores='5' prizeTempName='Lâu đài Atchino_Hockera' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3903' armyId='3815' scores='5' prizeTempName='Lâu đài Atchino_Lil' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3904' armyId='3820' scores='5' prizeTempName='Lâu đài Atchino_Campacino' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3905' armyId='3825' scores='5' prizeTempName='Lâu đài Atchino_Don.Atchino' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='3906' armyId='3805' scores='10' prizeTempName='Lâu đài Atchino_Số lần chiếnrabelle' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3907' armyId='3810' scores='10' prizeTempName='Lâu đài Atchino_Số lần chiến_Hockera' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3908' armyId='3815' scores='10' prizeTempName='Lâu đài Atchino_Số lần chiến_Lil' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3909' armyId='3820' scores='10' prizeTempName='Lâu đài Atchino_Số lần chiến_Campacino' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3910' armyId='3825' scores='10' prizeTempName='Lâu đài Atchino_Số lần chiến_Don.Atchino' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='3911' armyId='3825' scores='10' prizeTempName='Lâu đài Atchino_Chiến đặc biệt_Don.Atchino' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Don.Atchino”, không mất quá 50% máu.'/>
+  <prize prizeId='4001' armyId='3905' scores='5' prizeTempName='Đổ bộ thuyền buồm_Zombie hầm' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4002' armyId='3910' scores='5' prizeTempName='Đổ bộ thuyền buồm_Cerberus' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4003' armyId='3915' scores='5' prizeTempName='Đổ bộ thuyền buồm_Zombie rừng cây' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4004' armyId='3920' scores='5' prizeTempName='Đổ bộ thuyền buồm_Zombie rừng rậm' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4005' armyId='3925' scores='5' prizeTempName='Đổ bộ thuyền buồm_Hildon' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4006' armyId='3905' scores='10' prizeTempName='Đổ bộ thuyền buồm_Số lần chiến_Zombie hầm' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4007' armyId='3910' scores='10' prizeTempName='Đổ bộ thuyền buồm_Số lần chiến_Cerberus' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4008' armyId='3915' scores='10' prizeTempName='Đổ bộ thuyền buồm_Số lần chiến_Zombie rừng cây' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4009' armyId='3920' scores='10' prizeTempName='Đổ bộ thuyền buồm_Số lần chiến_Zombie rừng rậm' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4010' armyId='3925' scores='10' prizeTempName='Đổ bộ thuyền buồm_Số lần chiến_Hildon' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4011' armyId='3925' scores='10' prizeTempName='Đổ bộ thuyền buồm_Chiến đặc biệt_Hildon' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Hildon”, không mất quá 50% máu.'/>
+  <prize prizeId='4101' armyId='4005' scores='5' prizeTempName='Thành Quái Y_Nghĩa địa ma' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4102' armyId='4010' scores='5' prizeTempName='Thành Quái Y_Cerberus' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4103' armyId='4020' scores='5' prizeTempName='Thành Quái Y_Cindry' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4104' armyId='4025' scores='5' prizeTempName='Thành Quái Y_Hogback' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4105' armyId='4005' scores='10' prizeTempName='Thành Quái Y_Số lần chiến_Nghĩa địa ma' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4106' armyId='4010' scores='10' prizeTempName='Thành Quái Y_Số lần chiến_Cerberus' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4107' armyId='4020' scores='10' prizeTempName='Thành Quái Y_Số lần chiến_Cindry' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4108' armyId='4025' scores='10' prizeTempName='Thành Quái Y_Số lần chiến_Hogback' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4109' armyId='4025' scores='10' prizeTempName='Thành Quái Y_Chiến đặc biệt_Hogback' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Hogback”, chiến đấu loại “S”.'/>
+  <prize prizeId='4201' armyId='4105' scores='5' prizeTempName='Sân Perona_Huynh đệ sóc' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4202' armyId='4110' scores='5' prizeTempName='Sân Perona_Inuppe' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4203' armyId='4115' scores='5' prizeTempName='Sân Perona_Jigoro' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4204' armyId='4120' scores='5' prizeTempName='Sân Peronabsalom' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4205' armyId='4125' scores='5' prizeTempName='Sân Perona_Lola' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4206' armyId='4105' scores='10' prizeTempName='Sân Perona_Số lần chiến_Huynh đệ sóc' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4207' armyId='4110' scores='10' prizeTempName='Sân Perona_Số lần chiến_Inuppe' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4208' armyId='4115' scores='10' prizeTempName='Sân Perona_Số lần chiến_Jigoro' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4209' armyId='4120' scores='10' prizeTempName='Sân Perona_Số lần chiếnbsalom' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4210' armyId='4125' scores='10' prizeTempName='Sân Perona_Số lần chiến_Lola' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4211' armyId='4125' scores='10' prizeTempName='Sân Perona_Chiến đặc biệt_Lola' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Lola”, chiến đấu loại “S”.'/>
+  <prize prizeId='4301' armyId='4205' scores='5' prizeTempName='Quyết chiến Ryuma_Tướng Zombie' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4302' armyId='4210' scores='5' prizeTempName='Quyết chiến Ryuma_Inuppe' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4303' armyId='4215' scores='5' prizeTempName='Quyết chiến Ryuma_Jigoro' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4304' armyId='4220' scores='5' prizeTempName='Quyết chiến Ryuma_Talara' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4305' armyId='4226' scores='5' prizeTempName='Quyết chiến Ryuma_Ryuma' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4306' armyId='4205' scores='10' prizeTempName='Quyết chiến Ryuma_Số lần chiến_Tướng Zombie' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4307' armyId='4210' scores='10' prizeTempName='Quyết chiến Ryuma_Số lần chiến_Inuppe' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4308' armyId='4215' scores='10' prizeTempName='Quyết chiến Ryuma_Số lần chiến_Jigoro' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4309' armyId='4220' scores='10' prizeTempName='Quyết chiến Ryuma_Số lần chiến_Talara' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4310' armyId='4226' scores='10' prizeTempName='Quyết chiến Ryuma_Số lần chiến_Ryuma' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4311' armyId='4226' scores='10' prizeTempName='Quyết chiến Ryuma_Chiến đặc biệt_Ryuma' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Ryuma”, ra trận không quá 4 người.'/>
+  <prize prizeId='4401' armyId='4310' scores='5' prizeTempName='Hồn ma Perona_Cột thây ma' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4402' armyId='4315' scores='5' prizeTempName='Hồn ma Perona_Gallant Hippo' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4403' armyId='4320' scores='5' prizeTempName='Hồn ma Perona_Kumasy' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4404' armyId='4324' scores='5' prizeTempName='Hồn ma Perona_Công tử Zombie 4' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4405' armyId='4326' scores='5' prizeTempName='Hồn ma Perona_Perona' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4406' armyId='4310' scores='10' prizeTempName='Hồn ma Perona_Số lần chiến_Cột thây ma' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4407' armyId='4315' scores='10' prizeTempName='Hồn ma Perona_Số lần chiến_Gallant Hippo' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4408' armyId='4320' scores='10' prizeTempName='Hồn ma Perona_Số lần chiến_Kumasy' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4409' armyId='4324' scores='10' prizeTempName='Hồn ma Perona_Số lần chiến_Công tử Zombie 4' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4410' armyId='4326' scores='10' prizeTempName='Hồn ma Perona_Số lần chiến_Perona' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4411' armyId='4326' scores='10' prizeTempName='Hồn ma Perona_Chiến đặc biệt_Perona' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Perona”, không mất quá 60% máu.'/>
+  <prize prizeId='4501' armyId='4405' scores='5' prizeTempName='Ma nhân Oars_Inuppe' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4502' armyId='4410' scores='5' prizeTempName='Ma nhân Oars_Jigoro' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4503' armyId='4415' scores='5' prizeTempName='Ma nhân Oars_Lola' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4504' armyId='4420' scores='5' prizeTempName='Ma nhân Oarsbsalom' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4505' armyId='4429' scores='5' prizeTempName='Ma nhân Oars_Oars' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='4506' armyId='4405' scores='10' prizeTempName='Ma nhân Oars_Số lần chiến_Inuppe' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4507' armyId='4410' scores='10' prizeTempName='Ma nhân Oars_Số lần chiến_Jigoro' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4508' armyId='4415' scores='10' prizeTempName='Ma nhân Oars_Số lần chiến_Lola' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4509' armyId='4420' scores='10' prizeTempName='Ma nhân Oars_Số lần chiếnbsalom' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4510' armyId='4429' scores='10' prizeTempName='Ma nhân Oars_Số lần chiến_Oars' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4511' armyId='4429' scores='10' prizeTempName='Ma nhân Oars_Chiến đặc biệt_Oars' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Oars”, đạt loại chiến đấu “A”.'/>
+  <prize prizeId='4601' armyId='4505' scores='5' prizeTempName='Gekko Moria_Hildon' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4602' armyId='4510' scores='5' prizeTempName='Gekko Moria_Hogback' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4603' armyId='4515' scores='5' prizeTempName='Gekko Moriabsalom' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4604' armyId='4520' scores='5' prizeTempName='Gekko Moria_Perona' type='1' defeatNum='' defeatEvalu='4' specialTypeDesc=''/>
+  <prize prizeId='4605' armyId='4527' scores='5' prizeTempName='Gekko Moria_Moria cuồng bạo' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='4606' armyId='4505' scores='10' prizeTempName='Gekko Moria_Số lần chiến_Hildon' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4607' armyId='4510' scores='10' prizeTempName='Gekko Moria_Số lần chiến_Hogback' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4608' armyId='4515' scores='10' prizeTempName='Gekko Moria_Số lần chiếnbsalom' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4609' armyId='4520' scores='10' prizeTempName='Gekko Moria_Số lần chiến_Perona' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4610' armyId='4527' scores='10' prizeTempName='Gekko Moria_Số lần chiến_Moria cuồng bạo' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4611' armyId='4527' scores='10' prizeTempName='Gekko Moria_Chiến đặc biệt_Moria cuồng bạo' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Moria cuồng bạo”, ra trận không quá 4 người.'/>
+  <prize prizeId='4701' armyId='4605' scores='5' prizeTempName='Đảo Ôn Tuyền_Thủ vệ tuần tra' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='4702' armyId='4610' scores='5' prizeTempName='Đảo Ôn Tuyền_Hamburg' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='4703' armyId='4615' scores='5' prizeTempName='Đảo Ôn Tuyền_Porche' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='4704' armyId='4620' scores='5' prizeTempName='Đảo Ôn Tuyền_Foxy' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='4705' armyId='4626' scores='5' prizeTempName='Đảo Ôn Tuyền_Doran' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='4706' armyId='4605' scores='10' prizeTempName='Đảo Ôn Tuyền_Số lần chiến_Thủ vệ tuần tra' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4707' armyId='4610' scores='10' prizeTempName='Đảo Ôn Tuyền_Số lần chiến_Hamburg' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4708' armyId='4615' scores='10' prizeTempName='Đảo Ôn Tuyền_Số lần chiến_Porche' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4709' armyId='4620' scores='10' prizeTempName='Đảo Ôn Tuyền_Số lần chiến_Foxy' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4710' armyId='4626' scores='10' prizeTempName='Đảo Ôn Tuyền_Số lần chiến_Doran' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4711' armyId='4626' scores='10' prizeTempName='Đảo Ôn Tuyền_Chiến đặc biệt_Doran' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Doran”, đạt loại chiến đấu “A”.'/>
+  <prize prizeId='4801' armyId='4704' scores='5' prizeTempName='Kỵ sĩ cá bay_Chiến sĩ cá bay tinh anh' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='4802' armyId='4708' scores='5' prizeTempName='Kỵ sĩ cá bay_Kỵ sĩ cá bay' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='4803' armyId='4712' scores='5' prizeTempName='Kỵ sĩ cá bay_Geil' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='4804' armyId='4716' scores='5' prizeTempName='Kỵ sĩ cá bay_Tansui' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='4805' armyId='4720' scores='5' prizeTempName='Kỵ sĩ cá bay_Macro' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='4806' armyId='4704' scores='10' prizeTempName='Kỵ sĩ cá bay_Số lần chiến_Chiến sĩ cá bay tinh anh' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4807' armyId='4708' scores='10' prizeTempName='Kỵ sĩ cá bay_Số lần chiến_Kỵ sĩ cá bay' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4808' armyId='4712' scores='10' prizeTempName='Kỵ sĩ cá bay_Số lần chiến_Geil' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4809' armyId='4716' scores='10' prizeTempName='Kỵ sĩ cá bay_Số lần chiến_Tansui' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4810' armyId='4720' scores='10' prizeTempName='Kỵ sĩ cá bay_Số lần chiến_Macro' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4811' armyId='4720' scores='10' prizeTempName='Kỵ sĩ cá bay_Số lần chiến_Macro' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Macro”, không mất quá 60% máu.'/>
+  <prize prizeId='4901' armyId='4805' scores='5' prizeTempName='Lãnh địa Duval_Geil' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='4902' armyId='4810' scores='5' prizeTempName='Lãnh địa Duval_Tansui' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='4903' armyId='4815' scores='5' prizeTempName='Lãnh địa Duval_Macro' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='4904' armyId='4821' scores='5' prizeTempName='Lãnh địa Duval_Motobaro' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='4905' armyId='4825' scores='5' prizeTempName='Lãnh địa Duval_Thợ săn thẩm mỹ 4' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='4906' armyId='4805' scores='10' prizeTempName='Lãnh địa Duval_Số lần chiến_Geil' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4907' armyId='4810' scores='10' prizeTempName='Lãnh địa Duval_Số lần chiến_Tansui' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4908' armyId='4815' scores='10' prizeTempName='Lãnh địa Duval_Số lần chiến_Macro' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4909' armyId='4821' scores='10' prizeTempName='Lãnh địa Duval_Số lần chiến_Motobaro' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4910' armyId='4825' scores='10' prizeTempName='Lãnh địa Duval_Số lần chiến_Thợ săn thẩm mỹ 4' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='4911' armyId='4821' scores='10' prizeTempName='Lãnh địa Duval_Chiến đặc biệt_Motobaro' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Motobaro”, ra trận không quá 4 người.'/>
+  <prize prizeId='5001' armyId='4905' scores='5' prizeTempName='Đảo bong bóng_Tội phạm tinh' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5002' armyId='4910' scores='5' prizeTempName='Đảo bong bóng_Thợ săn bong bóng' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5003' armyId='4915' scores='5' prizeTempName='Đảo bong bóng_Thợ săn đước' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5004' armyId='4920' scores='5' prizeTempName='Đảo bong bóng_Jean bart' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5005' armyId='4925' scores='5' prizeTempName='Đảo bong bóng_Peter man' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5006' armyId='4905' scores='10' prizeTempName='Đảo bong bóng_Số lần chiến_Tội phạm tinh' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5007' armyId='4910' scores='10' prizeTempName='Đảo bong bóng_Số lần chiến_Thợ săn bong bóng' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5008' armyId='4915' scores='10' prizeTempName='Đảo bong bóng_Số lần chiến_Thợ săn đước' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5009' armyId='4920' scores='10' prizeTempName='Đảo bong bóng_Số lần chiến_Jean bart' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5010' armyId='4925' scores='10' prizeTempName='Đảo bong bóng_Số lần chiến_Peter man' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5011' armyId='4925' scores='10' prizeTempName='Đảo bong bóng_Chiến đặc biệt_Peter man' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Peter man”, đạt loại chiến đấu “A”.'/>
+  <prize prizeId='5101' armyId='5005' scores='5' prizeTempName='Cuộc đấu giá_Peter man' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5102' armyId='5010' scores='5' prizeTempName='Cuộc đấu giá_Saint Charlos' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5103' armyId='5015' scores='5' prizeTempName='Cuộc đấu giá_Shalulia' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5104' armyId='5020' scores='5' prizeTempName='Cuộc đấu giá_Thánh Roswald' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5105' armyId='5025' scores='5' prizeTempName='Cuộc đấu giá_Disco' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5106' armyId='5005' scores='10' prizeTempName='Cuộc đấu giá_Số lần chiến_Peter man' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5107' armyId='5010' scores='10' prizeTempName='Cuộc đấu giá_Số lần chiến_Saint Charlos' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5108' armyId='5015' scores='10' prizeTempName='Cuộc đấu giá_Số lần chiến_Shalulia' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5109' armyId='5020' scores='10' prizeTempName='Cuộc đấu giá_Số lần chiến_Thánh Roswald' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5110' armyId='5025' scores='10' prizeTempName='Cuộc đấu giá_Số lần chiến_Disco' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5111' armyId='5025' scores='10' prizeTempName='Cuộc đấu giá_Chiến đặc biệt_Disco' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Disco”, đạt loại chiến đấu “A”.'/>
+  <prize prizeId='5201' armyId='5105' scores='5' prizeTempName='Thoát đấu giá_Đội  HQ tinh 5' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5202' armyId='5109' scores='5' prizeTempName='Thoát đấu giá_HQ 9' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5203' armyId='5114' scores='5' prizeTempName='Thoát đấu giá_HQ 14' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5204' armyId='5119' scores='5' prizeTempName='Thoát đấu giá_HQ 19' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5205' armyId='5125' scores='5' prizeTempName='Thoát đấu giá_Boss HQ tinh 25' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5206' armyId='5105' scores='10' prizeTempName='Thoát đấu giá_Số lần chiến_HQ tinh 5' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5207' armyId='5109' scores='10' prizeTempName='Thoát đấu giá_Số lần chiến_HQ 9' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5208' armyId='5114' scores='10' prizeTempName='Thoát đấu giá_Số lần chiến_HQ 14' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5209' armyId='5119' scores='10' prizeTempName='Thoát đấu giá_Số lần chiến_HQ 19' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5210' armyId='5125' scores='10' prizeTempName='Thoát đấu giá_Số lần chiến_Boss HQ tinh 25' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5211' armyId='5125' scores='10' prizeTempName='Thoát đấu giá_Chiến đặc biệt_Boss HQ tinh 25' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “HQ Thiên Long TA”, đạt loại chiến đấu “A” và không mất quá 60% máu.'/>
+  <prize prizeId='5301' armyId='5205' scores='5' prizeTempName='Miền Vô Pháp_HQ tinh 5' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5302' armyId='5210' scores='5' prizeTempName='Miền Vô Pháp_HQ tinh 10' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5303' armyId='5215' scores='5' prizeTempName='Miền Vô Pháp_HT tinh 1515' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5304' armyId='5221' scores='5' prizeTempName='Miền Vô Pháp_HQ tinh 21' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5305' armyId='5227' scores='5' prizeTempName='Miền Vô Pháp_Đội  HQ tinh 27' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5306' armyId='5205' scores='10' prizeTempName='Miền Vô Pháp_Số lần chiến_HQ tinh 5' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5307' armyId='5210' scores='10' prizeTempName='Miền Vô Pháp_Số lần chiến_HQ tinh 10' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5308' armyId='5215' scores='10' prizeTempName='Miền Vô Pháp_Số lần chiến_HQ tinh 15' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5309' armyId='5221' scores='10' prizeTempName='Miền Vô Pháp_Số lần chiến_HQ tinh 21' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5310' armyId='5227' scores='10' prizeTempName='Miền Vô Pháp_Số lần chiến_Đội  HQ tinh 27' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5311' armyId='5227' scores='10' prizeTempName='Miền Vô Pháp_Chiến đặc biệt_Đội  HQ tinh 27' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “thảo phạt hắc bang TA”, ra trận không quá 4 người.'/>
+  <prize prizeId='5401' armyId='5305' scores='5' prizeTempName='Sabaody Park_HQ tinh 5' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5402' armyId='5310' scores='5' prizeTempName='Sabaody Park_HQ tinh 10' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5403' armyId='5315' scores='5' prizeTempName='Sabaody Park_HQ tinh 15' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5404' armyId='5320' scores='5' prizeTempName='Sabaody Park_HQ tinh 20' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5405' armyId='5326' scores='5' prizeTempName='Sabaody Park_Đội  HQ tinh 26' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5406' armyId='5305' scores='10' prizeTempName='Sabaody Park_Số lần chiến_HQ tinh 5' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5407' armyId='5310' scores='10' prizeTempName='Sabaody Park_Số lần chiến_HQ tinh 10' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5408' armyId='5315' scores='10' prizeTempName='Sabaody Park_Số lần chiến_HQ tinh 15' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5409' armyId='5320' scores='10' prizeTempName='Sabaody Park_Số lần chiến_HQ tinh 20' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5410' armyId='5326' scores='10' prizeTempName='Sabaody Park_Số lần chiến_Đội  HQ tinh 26' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5411' armyId='5326' scores='10' prizeTempName='Sabaody Park_Chiến đặc biệt_Đội  HQ tinh 26' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “HQ đu quay tinh”, đạt loại chiến đấu “A”.'/>
+  <prize prizeId='5501' armyId='5405' scores='5' prizeTempName='Đường Sabaody_HQ tinh 5' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5502' armyId='5410' scores='5' prizeTempName='Đường Sabaody_HQ tinh 10' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5503' armyId='5415' scores='5' prizeTempName='Đường Sabaody_HQ tinh 15' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5504' armyId='5421' scores='5' prizeTempName='Đường Sabaody_HQ tinh 21' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5505' armyId='5427' scores='5' prizeTempName='Đường Sabaody_Quân hòa bình 27' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5506' armyId='5405' scores='10' prizeTempName='Đường Sabaody_Số lần chiến_HQ tinh 5' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5507' armyId='5410' scores='10' prizeTempName='Đường Sabaody_Số lần chiến_HQ tinh 10' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5508' armyId='5415' scores='10' prizeTempName='Đường Sabaody_Số lần chiến_HQ tinh 15' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5509' armyId='5421' scores='10' prizeTempName='Đường Sabaody_Số lần chiến_HQ tinh 21' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5510' armyId='5427' scores='10' prizeTempName='Đường Sabaody_Số lần chiến_Quân hòa bình 27' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5511' armyId='5427' scores='10' prizeTempName='Đường Sabaody_Chiến đặc biệt_Quân hòa bình 27' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Quân hòa bình”, không mất quá 60% máu.'/>
+  <prize prizeId='5601' armyId='5505' scores='5' prizeTempName='Quảng trường Saobaody_HQ tinh 5' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5602' armyId='5510' scores='5' prizeTempName='Quảng trường Saobaody_HQ tinh 10' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5603' armyId='5515' scores='5' prizeTempName='Quảng trường Saobaody_HQ tinh 15' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5604' armyId='5520' scores='5' prizeTempName='Quảng trường Saobaody_HQ tinh 20' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5605' armyId='5526' scores='5' prizeTempName='Quảng trường Saobaody_Boss HQ tinh 26' type='1' defeatNum='' defeatEvalu='5' specialTypeDesc=''/>
+  <prize prizeId='5606' armyId='5505' scores='10' prizeTempName='Quảng trường Saobaody_Số lần chiến_HQ tinh 5' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5607' armyId='5510' scores='10' prizeTempName='Quảng trường Saobaody_Số lần chiến_HQ tinh 10' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5608' armyId='5515' scores='10' prizeTempName='Quảng trường Saobaody_Số lần chiến_HQ tinh 15' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5609' armyId='5520' scores='10' prizeTempName='Quảng trường Saobaody_Số lần chiến_HQ tinh 20' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5610' armyId='5526' scores='10' prizeTempName='Quảng trường Saobaody_Số lần chiến_Boss HQ tinh 26' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5611' armyId='5526' scores='10' prizeTempName='Quảng trường Saobaody_Chiến đặc biệt_Boss HQ tinh 26' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Nhà ảo thuật TA”, đạt loại chiến đấu “A” và không mất quá 60% máu.'/>
+  <prize prizeId='5701' armyId='5605' scores='5' prizeTempName='Hoàng hôn Sabaody_HQ tinh 5' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='5702' armyId='5611' scores='5' prizeTempName='Hoàng hôn Sabaody_HQ tinh 11' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='5703' armyId='5615' scores='5' prizeTempName='Hoàng hôn Sabaody_HQ 15' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='5704' armyId='5621' scores='5' prizeTempName='Hoàng hôn Sabaody_HQ 21' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='5705' armyId='5629' scores='5' prizeTempName='Hoàng hôn Sabaody_HQ và quân hòa bình 29' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='5706' armyId='5605' scores='10' prizeTempName='Hoàng hôn Sabaody_HQ tinh 5' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5707' armyId='5611' scores='10' prizeTempName='Hoàng hôn Sabaody_HQ tinh 11' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5708' armyId='5615' scores='10' prizeTempName='Hoàng hôn Sabaody_HQ 15' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5709' armyId='5621' scores='10' prizeTempName='Hoàng hôn Sabaody_HQ 21' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5710' armyId='5629' scores='10' prizeTempName='Hoàng hôn Sabaody_HQ và quân hòa bình 29' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5711' armyId='5629' scores='10' prizeTempName='Hoàng hôn Sabaody_HQ và quân hòa bình 29' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Người chủ nghĩa hòa bình”, chiến đấu loại “B”.'/>
+  <prize prizeId='5801' armyId='5705' scores='5' prizeTempName='Rừng Kuja_HT Kuja 5' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='5802' armyId='5710' scores='5' prizeTempName='Rừng Kuja_HT Kuja 10' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='5803' armyId='5715' scores='5' prizeTempName='Rừng Kuja_HT Kuja Aphelandra 15' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='5804' armyId='5720' scores='5' prizeTempName='Rừng Kuja_HT Kuja SweetPea 20' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='5805' armyId='5725' scores='5' prizeTempName='Rừng Kuja_HT Kuja Margarita 25' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='5806' armyId='5705' scores='10' prizeTempName='Rừng Kuja_HT Kuja 5' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5807' armyId='5710' scores='10' prizeTempName='Rừng Kuja_HT Kuja 10' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5808' armyId='5715' scores='10' prizeTempName='Rừng Kuja_HT Kuja Aphelandra 15' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5809' armyId='5720' scores='10' prizeTempName='Rừng Kuja_HT Kuja SweetPea 20' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5810' armyId='5725' scores='10' prizeTempName='Rừng Kuja_HT Kuja Margarita 25' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5811' armyId='5725' scores='10' prizeTempName='Rừng Kuja_HT Kuja Margarita 25' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Margarita”, không mất quá 60% máu.'/>
+  <prize prizeId='5901' armyId='5805' scores='5' prizeTempName='Nhà tù Kuja_Đội  HT tinh Kuja 155' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='5902' armyId='5810' scores='5' prizeTempName='Nhà tù Kuja_HT Aphelandra ' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='5903' armyId='5815' scores='5' prizeTempName='Nhà tù Kuja_HT Aphelandra Kuja 15' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='5904' armyId='5821' scores='5' prizeTempName='Nhà tù Kuja_Đội  HT tinh Kuja 1521' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='5905' armyId='5826' scores='5' prizeTempName='Nhà tù Kuja_Đội  HT tinh Kuja 26' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='5906' armyId='5805' scores='10' prizeTempName='Nhà tù Kuja_Đội  HT tinh Kuja 155' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5907' armyId='5810' scores='10' prizeTempName='Nhà tù Kuja_HT Aphelandra ' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5908' armyId='5815' scores='10' prizeTempName='Nhà tù Kuja_HT Aphelandra Kuja 15' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5909' armyId='5821' scores='10' prizeTempName='Nhà tù Kuja_Đội  HT tinh Kuja 1521' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5910' armyId='5826' scores='10' prizeTempName='Nhà tù Kuja_Đội  HT tinh Kuja 26' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='5911' armyId='5826' scores='10' prizeTempName='Nhà tù Kuja_Đội  HT tinh Kuja 26' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Kikyo”, chiến đấu loại “B” và không mất quá 60% máu.'/>
+  <prize prizeId='6001' armyId='5905' scores='5' prizeTempName='Nơi luyện võ_Đội  HT tinh Kuja 5' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6002' armyId='5910' scores='5' prizeTempName='Nơi luyện võ_Đội  HT tinh Kuja 10' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6003' armyId='5915' scores='5' prizeTempName='Nơi luyện võ_Đội  HT Vaqura 15' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6004' armyId='5921' scores='5' prizeTempName='Nơi luyện võ_Đội  HT Margarita 21' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6005' armyId='5926' scores='5' prizeTempName='Nơi luyện võ_Đội  HT Sandersonia 26' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6006' armyId='5905' scores='10' prizeTempName='Nơi luyện võ_Đội  HT tinh Kuja 5' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6007' armyId='5910' scores='10' prizeTempName='Nơi luyện võ_Đội  HT tinh Kuja 10' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6008' armyId='5915' scores='10' prizeTempName='Nơi luyện võ_Đội  HT Vaqura 15' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6009' armyId='5921' scores='10' prizeTempName='Nơi luyện võ_Đội  HT Margarita 21' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6010' armyId='5926' scores='10' prizeTempName='Nơi luyện võ_Đội  HT Sandersonia 26' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6011' armyId='5926' scores='10' prizeTempName='Nơi luyện võ_Đội  HT Sandersonia 26' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Sandersonia”, đạt loại chiến đấu “A”.'/>
+  <prize prizeId='6101' armyId='6005' scores='5' prizeTempName='Dạ hội_Đội  HT tinh cung Kuja 5' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6102' armyId='6010' scores='5' prizeTempName='Dạ hội_Đội  HT Vaqura cung Kuja 10' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6103' armyId='6015' scores='5' prizeTempName='Dạ hội_Đội  HT Margarita cung Kuja 15' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6104' armyId='6020' scores='5' prizeTempName='Dạ hội_Đội  HT Sandersonia cung Kuja 20' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6105' armyId='6026' scores='5' prizeTempName='Dạ hội_Đội  HT Boa Hancock cung Kuja 26' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6106' armyId='6005' scores='10' prizeTempName='Dạ hội_Đội  HT tinh cung Kuja 5' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6107' armyId='6010' scores='10' prizeTempName='Dạ hội_Đội  HT Vaqura cung Kuja 10' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6108' armyId='6015' scores='10' prizeTempName='Dạ hội_Đội  HT Margarita cung Kuja 15' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6109' armyId='6020' scores='10' prizeTempName='Dạ hội_Đội  HT Sandersonia cung Kuja 20' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6110' armyId='6026' scores='10' prizeTempName='Dạ hội_Đội  HT Boa Hancock cung Kuja 26' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6111' armyId='6026' scores='10' prizeTempName='Dạ hội_Đội  HT Boa Hancock cung Kuja 26' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Boa Hancock”, đạt loại chiến đấu “A” và không mất quá 60% máu.'/>
+  <prize prizeId='6201' armyId='6105' scores='5' prizeTempName='Xông vào Thành Impel Down_Đội tinh 5' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6202' armyId='6110' scores='5' prizeTempName='Xông vào Thành Impel Down_Đội tinh 10' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6203' armyId='6115' scores='5' prizeTempName='Xông vào Thành Impel Down_Đội tinh 15' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6204' armyId='6120' scores='5' prizeTempName='Xông vào Thành Impel Down_Đội tinh 20' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6205' armyId='6125' scores='5' prizeTempName='Xông vào Thành Impel Down_Đội tinh 25' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6206' armyId='6105' scores='10' prizeTempName='Xông vào Thành Impel Down_Đội tinh 5' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6207' armyId='6110' scores='10' prizeTempName='Xông vào Thành Impel Down_Đội tinh 10' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6208' armyId='6115' scores='10' prizeTempName='Xông vào Thành Impel Down_Đội tinh 15' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6209' armyId='6120' scores='10' prizeTempName='Xông vào Thành Impel Down_Đội tinh 20' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6210' armyId='6125' scores='10' prizeTempName='Xông vào Thành Impel Down_Đội tinh 25' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6211' armyId='6125' scores='10' prizeTempName='Xông vào Thành Impel Down_Đội tinh 25' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “thủ vệ tinh”, ra trận không quá 4 người.'/>
+  <prize prizeId='6301' armyId='6205' scores='5' prizeTempName='Xông vào thành_Đội máu 5' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6302' armyId='6210' scores='5' prizeTempName='Xông vào thành_Đội máu 10' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6303' armyId='6215' scores='5' prizeTempName='Xông vào thành_Đội máu 15' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6304' armyId='6220' scores='5' prizeTempName='Xông vào thành_Đội máu 20' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6305' armyId='6226' scores='5' prizeTempName='Xông vào thành_Đội máu 26' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6306' armyId='6205' scores='10' prizeTempName='Xông vào thành_Số lần chiến_Đội máu 5' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6307' armyId='6210' scores='10' prizeTempName='Xông vào thành_Số lần chiến_Đội máu 10' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6308' armyId='6215' scores='10' prizeTempName='Xông vào thành_Số lần chiến_Đội máu 15' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6309' armyId='6220' scores='10' prizeTempName='Xông vào thành_Số lần chiến_Đội máu 20' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6310' armyId='6226' scores='10' prizeTempName='Xông vào thành_Số lần chiến_Đội máu 26' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6311' armyId='6226' scores='10' prizeTempName='Xông vào thành_Chiến đặc biệt_Đội máu 26' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “cai ngục TA”, không mất quá 60% máu.'/>
+  <prize prizeId='6401' armyId='6305' scores='5' prizeTempName='Xông vào thành_Đội máu 5' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6402' armyId='6310' scores='5' prizeTempName='Xông vào thành_Đội máu 10' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6403' armyId='6315' scores='5' prizeTempName='Xông vào thành_Đội máu 15' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6404' armyId='6320' scores='5' prizeTempName='Xông vào thành_Đội máu 20' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6405' armyId='6325' scores='5' prizeTempName='Xông vào thành_Đội tinh tinh lam 25' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6406' armyId='6305' scores='10' prizeTempName='Xông vào thành_Số lần chiến_Đội máu 5' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6407' armyId='6310' scores='10' prizeTempName='Xông vào thành_Số lần chiến_Đội máu 10' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6408' armyId='6315' scores='10' prizeTempName='Xông vào thành_Số lần chiến_Đội máu 15' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6409' armyId='6320' scores='10' prizeTempName='Xông vào thành_Số lần chiến_Đội máu 20' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6410' armyId='6325' scores='10' prizeTempName='Xông vào thành_Số lần chiến_Đội tinh tinh lam 25' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6411' armyId='6325' scores='10' prizeTempName='Xông vào thành_Chiến đặc biệt_Đội tinh tinh lam 25' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Tinh tinh lam”, đạt loại chiến đấu “A”.'/>
+  <prize prizeId='6501' armyId='6405' scores='5' prizeTempName='Xông vào thành_Đội hà mã 5' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6502' armyId='6410' scores='5' prizeTempName='Xông vào thành_Đội ma tinh lam  10' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6503' armyId='6415' scores='5' prizeTempName='Xông vào thành_Đội bọ ngựa ma   15' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6504' armyId='6420' scores='5' prizeTempName='Xông vào thành_Đội bọ sư tử ma 20' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6505' armyId='6426' scores='5' prizeTempName='Xông vào thành_Đội rắn gà 26' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6506' armyId='6405' scores='10' prizeTempName='Xông vào thành_Số lần chiến_Đội hà mã 5' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6507' armyId='6410' scores='10' prizeTempName='Xông vào thành_Số lần chiến_Đội ma tinh lam  10' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6508' armyId='6415' scores='10' prizeTempName='Xông vào thành_Số lần chiến_Đội bọ ngựa ma   15' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6509' armyId='6420' scores='10' prizeTempName='Xông vào thành_Số lần chiến_Đội bọ sư tử ma 20' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6510' armyId='6426' scores='10' prizeTempName='Xông vào thành_Số lần chiến_Đội rắn gà 26' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6511' armyId='6426' scores='10' prizeTempName='Xông vào thành_Chiến đặc biệt_Đội rắn gà 26' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “rắn gà”, chiến đấu loại “B” và không mất quá 60% máu.'/>
+  <prize prizeId='6601' armyId='6505' scores='5' prizeTempName='Xông vào thành_Đội bọ ngựa ma   5' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6602' armyId='6510' scores='5' prizeTempName='Xông vào thành_Đội rắn gà 10' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6603' armyId='6515' scores='5' prizeTempName='Xông vào thành_Đội bọ sư tử ma 15' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6604' armyId='6520' scores='5' prizeTempName='Xông vào thành_Đội bọ cạp  20' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6605' armyId='6526' scores='5' prizeTempName='Xông vào thành_Đội Sphinx   26' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6606' armyId='6505' scores='10' prizeTempName='Xông vào thành_Số lần chiến_Đội bọ ngựa ma   5' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6607' armyId='6510' scores='10' prizeTempName='Xông vào thành_Số lần chiến_Đội rắn gà 10' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6608' armyId='6515' scores='10' prizeTempName='Xông vào thành_Số lần chiến_Đội bọ sư tử ma 15' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6609' armyId='6520' scores='10' prizeTempName='Xông vào thành_Số lần chiến_Đội bọ cạp  20' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6610' armyId='6526' scores='10' prizeTempName='Xông vào thành_Số lần chiến_Đội Sphinx   26' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6611' armyId='6526' scores='10' prizeTempName='Xông vào thành_Chiến đặc biệt_Đội Sphinx   26' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “sư tử mặt người”, đạt loại chiến đấu “A” và không mất quá 60% máu.'/>
+  <prize prizeId='6701' armyId='6605' scores='5' prizeTempName='Địa ngục đói_Đội sa mạc tinh 5' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6702' armyId='6610' scores='5' prizeTempName='Địa ngục đói_Đội sa mạc tinh 10' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6703' armyId='6616' scores='5' prizeTempName='Địa ngục đói_Đội Sphinx tinh 16' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6704' armyId='6621' scores='5' prizeTempName='Địa ngục đói_Đội sa mạc tinh 21' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6705' armyId='6626' scores='5' prizeTempName='Địa ngục đói_Đội Sarudesu 26' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6706' armyId='6605' scores='10' prizeTempName='Địa ngục đói_Số lần chiến_Đội sa mạc tinh 5' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6707' armyId='6610' scores='10' prizeTempName='Địa ngục đói_Số lần chiến_Đội sa mạc tinh 10' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6708' armyId='6616' scores='10' prizeTempName='Địa ngục đói_Số lần chiến_Đội Sphinx tinh 16' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6709' armyId='6621' scores='10' prizeTempName='Địa ngục đói_Số lần chiến_Đội sa mạc tinh 21' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6710' armyId='6626' scores='10' prizeTempName='Địa ngục đói_Số lần chiến_Đội Sarudesu 26' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6711' armyId='6626' scores='10' prizeTempName='Địa ngục đói_Chiến đặc biệt_Đội Sarudesu 26' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Sarudesu”, không mất quá 60% máu.'/>
+  <prize prizeId='6801' armyId='6705' scores='5' prizeTempName='Địa ngục đói_Đội tháp 5' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6802' armyId='6710' scores='5' prizeTempName='Địa ngục đói_Đội tháp 10' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6803' armyId='6716' scores='5' prizeTempName='Địa ngục đói_Đội tháp 16' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6804' armyId='6721' scores='5' prizeTempName='Địa ngục đói_Đội tháp Sarudesu 21' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6805' armyId='6727' scores='5' prizeTempName='Địa ngục đói_Đội tháp Minotaurus 27' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6806' armyId='6705' scores='10' prizeTempName='Địa ngục đói_Số lần chiến_Đội tháp 5' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6807' armyId='6710' scores='10' prizeTempName='Địa ngục đói_Số lần chiến_Đội tháp 10' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6808' armyId='6716' scores='10' prizeTempName='Địa ngục đói_Số lần chiến_Đội tháp 16' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6809' armyId='6721' scores='10' prizeTempName='Địa ngục đói_Số lần chiến_Đội tháp Sarudesu 21' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6810' armyId='6727' scores='10' prizeTempName='Địa ngục đói_Số lần chiến_Đội tháp Minotaurus 27' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6811' armyId='6727' scores='10' prizeTempName='Địa ngục đói_Chiến đặc biệt_Đội tháp Minotaurus 27' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Minotaurus”, đạt loại chiến đấu “A”.'/>
+  <prize prizeId='6901' armyId='6805' scores='5' prizeTempName='Địa ngục nóng_Đội Stonebridge tinh 5' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6902' armyId='6810' scores='5' prizeTempName='Địa ngục nóng_Đội Minozebra 10' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6903' armyId='6815' scores='5' prizeTempName='Địa ngục nóng_Đội Minorhinoceros 15' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6904' armyId='6820' scores='5' prizeTempName='Địa ngục nóng_Đội Minokoala 20' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6905' armyId='6826' scores='5' prizeTempName='Địa ngục nóng_Đội Hannibal 26' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='6906' armyId='6805' scores='10' prizeTempName='Địa ngục nóng_Số lần chiến_Đội Stonebridge tinh 5' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6907' armyId='6810' scores='10' prizeTempName='Địa ngục nóng_Số lần chiến_Đội Minozebra 10' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6908' armyId='6815' scores='10' prizeTempName='Địa ngục nóng_Số lần chiến_Đội Minorhinoceros 15' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6909' armyId='6820' scores='10' prizeTempName='Địa ngục nóng_Số lần chiến_Đội Minokoala 20' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6910' armyId='6826' scores='10' prizeTempName='Địa ngục nóng_Số lần chiến_Đội Hannibal 26' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='6911' armyId='6826' scores='10' prizeTempName='Địa ngục nóng_Chiến đặc biệt_Đội Hannibal 26' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “Hannibal”, ra trận không quá 4 người.'/>
+  <prize prizeId='7001' armyId='6905' scores='5' prizeTempName='Địa ngục nóng_Đội  Minozebra 5' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='7002' armyId='6910' scores='5' prizeTempName='Địa ngục nóng_Đội  Minorhinoceros10' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='7003' armyId='6915' scores='5' prizeTempName='Địa ngục nóng_Đội  Minokoala 15' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='7004' armyId='6920' scores='5' prizeTempName='Địa ngục nóng_Đội  tinh MR.1 20' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='7005' armyId='6924' scores='5' prizeTempName='Địa ngục nóng_Đội  24' type='1' defeatNum='' defeatEvalu='6' specialTypeDesc=''/>
+  <prize prizeId='7006' armyId='6905' scores='10' prizeTempName='Địa ngục nóng_Số lần chiến_Đội Minozebra 5' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='7007' armyId='6910' scores='10' prizeTempName='Địa ngục nóng_Số lần chiến_Đội Minorhinoceros10' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='7008' armyId='6915' scores='10' prizeTempName='Địa ngục nóng_Số lần chiến_Đội Minokoala 15' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='7009' armyId='6920' scores='10' prizeTempName='Địa ngục nóng_Số lần chiến_Đội tinh MR.1 20' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='7010' armyId='6924' scores='10' prizeTempName='Địa ngục nóng_Số lần chiến_Đội 24' type='2' defeatNum='30' defeatEvalu='' specialTypeDesc=''/>
+  <prize prizeId='7011' armyId='6924' scores='10' prizeTempName='Địa ngục nóng_Chiến đặc biệt_Đội 24' type='3' defeatNum='' defeatEvalu='' specialTypeDesc='Thắng “cai ngục 4”, chiến đấu loại “B” và không mất quá 60% máu.'/>
+</root>

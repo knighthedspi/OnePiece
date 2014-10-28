@@ -1,0 +1,3 @@
+﻿<root>
+  <starstone dailyBelly="1" bellyCost="100000" bellyStone="500" vip="0,0,0,0,0,0,0,0,0,0,0,0,0" goldCost="50" goldStone="125" advCost="500" advStone="1250" platinumCost="5000" platinumStone="12500" resetCostConfig1="129010|1|0" resetCostConfig2="129010|0|250" resetCostConfig3="" needVip="9"/>
+</root>

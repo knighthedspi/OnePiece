@@ -1,0 +1,84 @@
+﻿<store>
+  <!--<goods>
+		<good id="商品id" itemTemplateID="商品模板id" currencyType="货币类型" num="货币数量或者需要物品数量" needItemTemplate="需要物品的物品id" stock="库存" />
+	</goods>-->
+  <goods>
+    <good id="1" itemTemplateID="10001" currencyType="1" cost="99999" needItemTemplate="" stock=""/>
+    <good id="2" itemTemplateID="10002" currencyType="1" cost="99999" needItemTemplate="" stock=""/>
+    <good id="3" itemTemplateID="20001" currencyType="4" cost="100" needItemTemplate="" stock="5"/>
+    <good id="4" itemTemplateID="20002" currencyType="4" cost="500" needItemTemplate="" stock="3"/>
+    <good id="5" itemTemplateID="40001" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="6" itemTemplateID="40002" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="7" itemTemplateID="40003" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="8" itemTemplateID="10001" currencyType="1" cost="0" needItemTemplate="" stock=""/>
+    <good id="9" itemTemplateID="10002" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="10" itemTemplateID="10003" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="11" itemTemplateID="10004" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="12" itemTemplateID="10005" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="13" itemTemplateID="10006" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="14" itemTemplateID="10007" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="15" itemTemplateID="10008" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="16" itemTemplateID="10009" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="17" itemTemplateID="10010" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="18" itemTemplateID="10011" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="19" itemTemplateID="10012" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="20" itemTemplateID="10013" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="21" itemTemplateID="30001" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="22" itemTemplateID="30002" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="23" itemTemplateID="30003" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="24" itemTemplateID="30004" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="25" itemTemplateID="30005" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="26" itemTemplateID="50001" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="27" itemTemplateID="50002" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="28" itemTemplateID="110001" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="29" itemTemplateID="90001" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="30" itemTemplateID="80001" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="31" itemTemplateID="80002" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="32" itemTemplateID="80003" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="33" itemTemplateID="60001" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="34" itemTemplateID="60002" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="35" itemTemplateID="70001" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="36" itemTemplateID="70002" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="37" itemTemplateID="70003" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="38" itemTemplateID="70004" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="39" itemTemplateID="70005" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="40" itemTemplateID="70006" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="41" itemTemplateID="70007" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="42" itemTemplateID="10124" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="43" itemTemplateID="10125" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="44" itemTemplateID="10126" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="45" itemTemplateID="10127" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="46" itemTemplateID="10128" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="47" itemTemplateID="10129" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="48" itemTemplateID="10130" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="49" itemTemplateID="10131" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="50" itemTemplateID="10132" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="51" itemTemplateID="10133" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="52" itemTemplateID="10134" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="53" itemTemplateID="10135" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="54" itemTemplateID="10136" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="55" itemTemplateID="10137" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="56" itemTemplateID="10138" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="57" itemTemplateID="10139" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="58" itemTemplateID="10140" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="59" itemTemplateID="10141" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="60" itemTemplateID="10142" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="61" itemTemplateID="10143" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="62" itemTemplateID="10144" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="63" itemTemplateID="10145" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="64" itemTemplateID="10146" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="65" itemTemplateID="10147" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="66" itemTemplateID="10148" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="67" itemTemplateID="10149" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="68" itemTemplateID="10150" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="69" itemTemplateID="10151" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+    <good id="70" itemTemplateID="10152" currencyType="1" cost="1" needItemTemplate="" stock=""/>
+  </goods>
+  <!--<sellers>
+		<seller  id="商人id" name="商店名称" freshTime="刷新时间" goods="所出售的商品数组"/>
+	</sellers>-->
+  <sellers>
+    <seller id="1" name="Shop test 1" freshTime="10:00:00" goods="1,2,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70"/>
+    <seller id="2" name="Shop test 2" freshTime="" goods="3,4,21,22,23,24,25"/>
+  </sellers>
+</store>

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="2" actionName="S_0">
+        <frameInfo frame="0">
+            <frameData bitmapName="S_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="1" />
+    </action>
+</animation>

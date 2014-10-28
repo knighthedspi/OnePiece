@@ -1,0 +1,14 @@
+<root>
+  <vipSalary vip="1" prizeID="201"/>
+  <vipSalary vip="2" prizeID="202"/>
+  <vipSalary vip="3" prizeID="203"/>
+  <vipSalary vip="4" prizeID="204"/>
+  <vipSalary vip="5" prizeID="205"/>
+  <vipSalary vip="6" prizeID="206"/>
+  <vipSalary vip="7" prizeID="207"/>
+  <vipSalary vip="8" prizeID="208"/>
+  <vipSalary vip="9" prizeID="209"/>
+  <vipSalary vip="10" prizeID="210"/>
+  <vipSalary vip="11" prizeID="211"/>
+  <vipSalary vip="12" prizeID="212"/>
+</root>

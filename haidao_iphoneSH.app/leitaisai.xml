@@ -1,0 +1,3 @@
+<root>
+  <leitaisai startTime="123000" lastTimeArr="300,60,60,300,60,60" prizeID="1,2,3,4,5,6" prizePoint="4,5,6,8,12,20" cdTime="30" clearCDCostGold="1" joinCostBelly="0" infoLen="200" cheerCostBelly="200" cheerPrizeID="7" cheerLuckyPoint="4" cheerLuckyPrizeID="8" finalPrizePoint="15" finalPrizeID="9"/>
+</root>

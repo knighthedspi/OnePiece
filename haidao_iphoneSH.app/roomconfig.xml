@@ -1,0 +1,267 @@
+﻿<root>
+  <!--属性集合 模板中配置的属性是策划不用填写,但是前端需要展示的属性-->
+  <!--<property id="属性id" name="属性名称" type="属性类型" description="属性描述"/>-->
+  <properties>
+    <property id="1" name="roomClass" type="int" description="Loại phòng"/>
+    <property id="2" name="id" type="int" description="ID phòng này"/>
+    <property id="3" name="name" type="String" description=""/>
+    <property id="4" name="info" type="String" description="Chữ hiển thị trên phòng"/>
+    <property id="5" name="resourceID" type="int" description="ID mô hình thuyền chính"/>
+    <property id="6" name="icon" type="String" description="ID biểu tượng trên phòng"/>
+    <property id="7" name="lv" type="int" description="Cấp phòng thuyền trưởng là 1"/>
+    <property id="8" name="upgradeID" type="int" description=""/>
+    <property id="9" name="sailingIcon" type="String" description="Hình khi ra khơi(GIF or ảnh động)"/>
+    <property id="10" name="sail_baseBelly" type="int" description="Tính số tiền dùng khi ra khơi&#xA;Tiền cần ra khơi=Tiền cơ sở của phòng thuyền trưởng*cấp phòng thuyền trưởng+Tiền cơ sở của phòng thủy thủ*cấp phòng thủy thủ +Giá trị sửa đổi của cảng ra khơi)*Hệ số cảng*1+Tỷ lệ % tiền của phòng mậu dịch khi ra khơi*Cấp phòng mậu dịch+Tỷ lệ % tiền ra khơi do cảng cung cấp)*(1-Độ mệt mỏi*Hệ số độ mệt mỏi)&#xA;Giá trị sửa đổi của cảng ra khơi  và  Tỷ lệ % tiền ra khơi của cảng   Hệ số cảng  Nhận ở bảng tương quan thành trấn và cảng&#xA;Cấp phòng thủy thủ là cấp mọi phòng thủy thủ"/>
+    <property id="11" name="fatigue_param" type="int" description="Tính số tiền nhận khi ra khơi dùng đến.Số này nhân 10000)"/>
+    <property id="12" name="baseSailnum" type="int" description="4h sáng mỗi ngày tăng giá trị này, ví dụ điền 10 lần, tức là mỗi ngày có 10 lần ra khơi, có thể tích lũy. Giá trị tối đa liên quan đến số lần ra khơi tối đa của phòng thuyền trưởng."/>
+    <property id="13" name="maxSailnum" type="int" description="Số lần ra khơi tối đa"/>
+    <property id="14" name="basegold_num" type="int" description="Tính số Xu dùng cưỡng chế ra khơi. Dùng Xu ra khơi không tiêu hao số lần ra khơi. Không hồi thời gian. &#xA;"/>
+    <property id="15" name="growgold_num" type="int" description="Xu tăng thêm khi cưỡng chế, &#xA;Xu cần ra khơi=Giá trị cơ sở+Điểm tăng trưởng*Số lần đã dùng Xu ra khơi&#xA;Ví dụ Giá trị cơ sở là 2  Điểm tăng trưởng là 1, thì lần đầu là 2 Xu Lần 2 là 3 Xu Lần 3 là 4 Xu, cứ thế tăng lên&#xA;Số lần dùng Xu ra khơi làm mới mỗi ngày ví dụ 4h sáng làm mới, sau đó lần đầu dùng Xu ra khơi được tính là lần đầu."/>
+    <property id="16" name="timepergold" type="int" description="Đơn vị là giây)&#xA;Nếu là 60, tức thời gian chờ ra khơi mỗi phút cần 1 Xu, &#xA;vượt quá thì tính là 1, ví dụ CD là 1 phút 10 giây, sẽ tính là 2 phút, số tiền xóa CD cần 2 Xu"/>
+    <property id="17" name="CD_num" type="int" description="TG cố định, đơn vị giây&#xA;TG hồi sau mỗi lần ra khơi"/>
+    <property id="18" name="answerID" type="int" description="ID gói câu hỏi"/>
+    <property id="19" name="subordinate_maxNumPerLv" type="Array" description="Ví dụ &#xA;1|20,2|40,3|70,4|100,5|120)&#xA;trước là số thành sở hữu tối đa, sau là cấp nhân vật"/>
+    <property id="20" name="needVIPShowPrize" type="int" description="VIP đạt cấp sau, khi ra khơi sẽ hiện ra quà kỳ ngộ"/>
+    <property id="21" name="train_param" type="int" description="Tính toán EXP nhận được khi huấn luyện&#xA;Mỗi 10 phút tăng EXP=Hệ số huấn luyện phòng huấn luyện*Cấp phòng huấn luyện*Tỷ lệ gấp bội ECP cường độ huấn luyện"/>
+    <property id="22" name="rapid_needResourceBase" type="Array" description="Tính số trải nghiệm dùng mỗi lần đột phá,     &#xA;Ví dụ0,10,0)&#xA;Tùy chọn lần lượt ứng với Tiền trong game, trải nghiệm, Xu)&#xA;Tính số tài nguyên dùng mỗi lần đột phá,    &#xA;Tài nguyên cần đột phá phòng huấn luyện=Giá trị cơ sở tài nguyên cần đột phá thường phòng huấn luyện*cấp phòng huấn luyện"/>
+    <property id="23" name="rapid_getExpBase" type="int" description="Tính EXP đột phá thường phòng huấn luyện nhận được, &#xA;EXP=cấp phòng huấn luyện*Giá trị cơ sở EXP đột phá&#xA;Đột phá dùng Xu và đột phá thường nhận được EXP như nhau"/>
+    <property id="24" name="growCD_num" type="int" description="Đơn vị là giây)&#xA;TG hồi tăng mỗi lần đột phá, &#xA;Ví dụ180, tức mỗi lần đột phá tăng 3 phút chờ"/>
+    <property id="25" name="maxCD_num" type="int" description="TG hồi đột phá tăng đến mức nhất định sẽ không thể đột phá, cần chờ hết thời gian hoặc dùng Xu cắt CD&#xA;Ví dụ7200, tức 2h"/>
+    <property id="26" name="trainLv_name" type="Array" description="Tên huấn luyện, ví dụ1|Thường, 2|Tăng cường, 3|Ác ma, 4|Địa ngục, 5|Ma quỷ)ứng với 1, 2, 3, 4, 5"/>
+    <property id="27" name="expRate_pergrade" type="Array" description="Tỷ lệ gấp bội EXP là tỷ lệ nhận được khi chọn cường độ huấn luyện tương ứng, tính số EXP nhận được khi huấn luyện, Xu là vang cần khi chọn mức huấn luyện tương ứngTỷ lệ gấp bội là số thừa sau 10000)&#xA;Ví dụ10000, 12000, 15000, 20000, 25000) lần lượt ứng với cường độ huấn luyện 1, 2, 3, 4, 5&#xA;EXP tăng mỗi phút huấn luyện=Hệ số huấn luyện phòng huấn luyện*cấp phòng huấn luyện*Tỷ lệ gấp bội EXP cường độ huấn luyện"/>
+    <property id="28" name="gold__pergrade" type="Array" description="Tỷ lệ gấp bội EXP là tỷ lệ nhận được khi chọn cường độ huấn luyện tương ứng, tính số EXP nhận được khi huấn luyện, Xu là vang cần khi chọn mức huấn luyện tương ứngTỷ lệ gấp bội là số thừa sau 10000)&#xA;Ví dụ0, 1, 5, 15, 30) lần lượt ứng với cường độ huấn luyện 1, 2, 3, 4, 5&#xA;EXP tăng mỗi phút huấn luyện=Hệ số huấn luyện phòng huấn luyện*cấp phòng huấn luyện*Tỷ lệ gấp bội EXP cường độ huấn luyện"/>
+    <property id="29" name="trainTimes" type="Array" description="Số nhóm TG huấn luyện có thể chọn của phòngTính bằng giây)&#xA;Ví dụ3600, 14400, 28800, 86400, 172800, 259200)biểu thị có thể chọn, huấn luyện 1, 4, 8, 24, 48, 72 tiếng"/>
+    <property id="30" name="trainTime_bellyAndGold" type="Array" description="Chọn tiền và Xu cần khi chọn cấp TG huấn luyện tương ứng&#xA;Ví dụ0|0, 1000|0, 2000|0, 4000|5, 8000|15, 15000|30)&#xA;biểu thị tiền và Xu cần khi huấn luyện cấp 1, 2, 3, 4, 5, 6&#xA;Trước là số Xu cần, sau là số tiền (game) cần"/>
+    <property id="31" name="initTrainSlots" type="int" description="Ô phòng huấn luyện ban đầu"/>
+    <property id="32" name="produceNumperDay" type="int" description="Số lần tối đa nhà bếp sản xuất mỗi ngày, ví dụ điền 10, tức mỗi ngày được sản xuất 10 lần, làm mới vào 4h sáng, không thể tích lũy.&#xD;"/>
+    <property id="33" name="kitchen_baseBelly" type="int" description="Tính số tiền thu bởi bán đồ ăn, &#xA;giá bán đồ ăn=Giá trị tiền (game) cơ sở của đồ ăn+Giá trị tiền (game) cơ sở của nhà bếp*Cấp bếp)*Hệ số cảng*1+% tiền (game) của đồ ăn phòng mậu dịch*cấp phòng mậu dịch+% tiền (game) của đồ ăn ở cảng+% tiền (game) khoa kỹ bang*Cấp khoa kỹ)&#xA;% tiền (game) đồ ăn ở cảng  Hệ số cảng lấy ở bảng tương quan cảng và thành trấn&#xD;"/>
+    <property id="34" name="giveOrderNum" type="int" description="Số lần đặt hàng mỗi ngày  &#xD;"/>
+    <property id="35" name="receiveOrderNum" type="int" description="Số lần được đặt hàng mỗi ngày    &#xA;Làm mới ở thời gian bất kỳ, tạm thời là 8h tối&#xD;"/>
+    <property id="36" name="receive_param" type="int" description="Tính số tiền người được đặt hàng nhận được Hệ số này phải nhân với 10000)&#xA;Tiền người nhận đơn hàng có được=giá bán đồ ăn*Hệ số người nhận đơn hàng&#xD;"/>
+    <property id="37" name="give_param" type="int" description="Tính số tiền game người đặt hàng nhận được Số này phải nhân với 10000)&#xA;Tiền người đặt hàng nhận được=giá bán đồ ăn*hệ số người đặt hàng&#xD;"/>
+    <property id="38" name="orderGrowCD_num" type="int" description="Đơn vị là giây)&#xA;TG hồi tăng mỗi lần bếp sản xuất&#xA;Hết thời gian chờ hoặc dùng Xu xóa tgian chờ hồi mới có thể đặt hàng&#xD;"/>
+    <property id="39" name="ordertimepergold" type="int" description="Đơn vị là giây)&#xA;nếu là 60, tức xóa chờ mỗi phút cần 1 Xu, &#xA;Vượt quá tính là 1, nếu chờ là 1 phút 10 giây, tính là 2 phút, xóa hồi cần 2 Xu&#xD;"/>
+    <property id="40" name="sail_rateBelly" type="int" description="Tính số tiền nhận được khi ra khơi&#xD;"/>
+    <property id="41" name="kitchen_rateBelly" type="int" description="Tính số tiền nhận được khi bán đồ ăn&#xD;"/>
+    <property id="42" name="maxBloodRate" type="int" description="Tính HP tối đa dùng đến&#xA;HP tối đa=(Cấp phòng khám+1)*Hệ số HP tối đa phòng khám+Cấp N.vật*hệ số Hp tối đa N.vật&#xD;"/>
+    
+    <property id="43" name="LvperKnowPoints" type="int" description="Thêm thủ công;"/>
+    <property id="44" name="exp_param" type="int" description="Thêm thủ công;"/>
+    <property id="45" name="basegold_num" type="int" description="Thêm thủ công;"/>
+    <property id="46" name="initSlots" type="int" description="Thêm thủ công;"/>
+    <property id="47" name="nextTrainSlotneed" type="int" description="Thêm thủ công;"/>
+    <property id="48" name="expUpgradeID" type="int" description="Thêm thủ công;"/>
+    <property id="49" name="rebornLv" type="int" description="Thêm thủ công;"/>
+    <property id="50" name="depot_freeSlotNum" type="int" description="Thêm thủ công;"/>
+    <property id="51" name="depot_initOpenGold" type="int" description="Thêm thủ công;"/>
+    <property id="52" name="depot_riseOpenGold" type="int" description="Thêm thủ công;"/>
+    <property id="53" name="strengthFishitems" type="int" description="Thêm thủ công;"/>
+    <property id="54" name="costItems_heritage" type="int" description="Thêm thủ công;"/>
+    <property id="55" name="cost_gold" type="int" description="Thêm thủ công;"/>
+    <property id="56" name="heritage_expRate" type="int" description="Thêm thủ công;"/>
+    <property id="57" name="heritage_growExpRate" type="int" description="Thêm thủ công;"/>
+    <property id="58" name="heritage_qualityRate" type="int" description="Thêm thủ công;"/>
+    <property id="59" name="transfer_times" type="int" description="Thêm thủ công;"/>
+    <property id="60" name="be_transfer_times" type="int" description="Thêm thủ công;"/>
+    <property id="61" name="heritage_qualityRate2" type="int" description="Thêm thủ công;"/>
+    <property id="62" name="costItems_heritage2" type="int" description="Thêm thủ công;"/>
+    <property id="63" name="cost_gold2" type="int" description="Thêm thủ công;"/>      
+      
+  </properties>
+  <!-- 功能集合 -->
+  <!--一个功能包括了一系列的属性,每一个模板都是由一系列功能组成-->
+  <!--基础功能-->
+  <!--
+		<function id="功能ID" properties="属性集合" name="功能名称,会被编译成接口名" description="功能描述"/>
+		-->
+  <functions>
+    <function id="1" properties="1,2,3,4,5,6,7,8" name="IBasicRoomInterface" description="API tính năng cơ bản"/>
+    <function id="2" properties="13,14,17,34,35,36,37,38,39,40,41" name="ICaptainRoomInterface" description="API phòng thuyền trưởng"/>
+    <function id="3" properties="9,10,11,13,14,15,16,17,19,20,21,23,24,25" name="IPetRoomInterface" description="API phòng thứ cưng"/>
+    <function id="4" properties="10,11,13,14,15,16,17,21,26,28,29,30,32,33" name="ITrainRoomInterface" description="API phòng huấn luyện"/>
+    <function id="5" properties="13,14,15,17,23,43,44,45,46,47,48,49,50" name="IKitchenRoomInterface" description="API nhà bếp"/>
+    <function id="6" properties="52,51" name="ITradeRoomInterface" description="API phòng mậu dịch"/>
+    <function id="7" properties="" name="IStudyRoomInterface" description="API phòng nghiên cứu"/>
+    <function id="8" properties="53" name="IHospitalRoomInterface" description="API phòng khám"/>
+    <function id="9" properties="" name="IGoldRoomInterface" description="API kho vàng"/>
+    <function id="10" properties="35" name="ISailorRoomInterface" description="API phòng thủy thủ"/>
+  </functions>
+  <!-- 模板集合 -->
+  <!--一个模板由父模板(可选)和一系列功能集合构成-->
+  <!--
+		<template id="模板ID,即itemID" name="模板名称,会被编译成类名" superTemplates="超模板ID, 0表示无超模板" functions="专有功能id集合,0表示无专有功能" description="模板描述"/>
+		-->
+  <templates>
+    <template id="1" name="Template_BaseRoom" superTemplates="0" functions="1" description="Tiêu bản phòng"/>
+    <template id="2" name="Template_CaptainRoom" superTemplates="1" functions="2" description="Tiêu bản phòng thuyền trưởng"/>
+    <template id="3" name="Template_PetRoom" superTemplates="1" functions="3" description="Tiêu bản phòng Pet"/>
+    <template id="4" name="Template_TrainRoom" superTemplates="1" functions="4" description="Tiêu bản phòng huấn luyện"/>
+    <template id="5" name="Template_KitchenRoom" superTemplates="1" functions="5" description="Tiêu bản bếp"/>
+    <template id="6" name="Template_TradeRoom" superTemplates="1" functions="6" description="Tiêu bản phòng mậu dịch"/>
+    <template id="7" name="Template_StudyRoom" superTemplates="1" functions="7" description="Tiêu bản phòng nghiên cứu"/>
+    <template id="8" name="Template_HospitalRoom" superTemplates="1" functions="8" description="Tiêu bản phòng khám"/>
+    <template id="9" name="Template_GoldRoom" superTemplates="1" functions="9" description="Tiêu bản kho vàng"/>
+    <template id="10" name="Template_SailorRoom" superTemplates="1" functions="10" description="Tiêu bản phòng thủy thủ"/>
+  </templates>
+  <items>
+    <room>
+      <roomClass>4</roomClass>
+      <id>4</id>
+      <name>Phòng Pet</name>
+      <info>Năng cấp sẽ tăng số ô huấn luyện PET và EXP nhận được.</info>
+      <resourceID/>
+      <icon>chongwushi.png</icon>
+      <lv>1</lv>
+      <upgradeID>4</upgradeID>
+      <exp_param>20</exp_param>
+      <rapid_needResourceBase>0,40,0</rapid_needResourceBase>
+      <rapid_getExpBase>800</rapid_getExpBase>
+      <basegold_num>2</basegold_num>
+      <growgold_num>0</growgold_num>
+      <growCD_num>300</growCD_num>
+      <maxCD_num>7200</maxCD_num>
+      <timepergold>600</timepergold>
+      <initSlots>2</initSlots>
+      <nextTrainSlotneed>20,50,80</nextTrainSlotneed>
+      <initTrainSlots>2</initTrainSlots>
+      <expUpgradeID>3</expUpgradeID>
+      <rebornLv>30</rebornLv>
+      <LvperKnowPoints>3</LvperKnowPoints>
+      <depot_freeSlotNum>3</depot_freeSlotNum>
+      <depot_initOpenGold>25</depot_initOpenGold>
+      <depot_riseOpenGold>25</depot_riseOpenGold>
+      <strengthFishitems>200002,200008,200009</strengthFishitems>
+      <costItems_heritage>120011|1</costItems_heritage>
+      <cost_gold>500</cost_gold>
+      <heritage_expRate>5000</heritage_expRate>
+      <heritage_growExpRate>5000</heritage_growExpRate>
+      <heritage_qualityRate>4000</heritage_qualityRate>
+      <transfer_times>2</transfer_times>
+      <be_transfer_times>2</be_transfer_times>
+      <heritage_qualityRate2>4000</heritage_qualityRate2>
+      <costItems_heritage2>120011|2</costItems_heritage2>
+      <cost_gold2>1000</cost_gold2>
+    </room>
+    <room>
+      <roomClass>1</roomClass>
+      <id>1</id>
+      <name>Phòng thuyền trưởng</name>
+      <info>Nơi làm việc của thuyền trưởng.Tăng cấp tăng thu nhập khi ra khơi.</info>
+      <resourceID/>
+      <icon>chuanzhangshi.png</icon>
+      <lv>1</lv>
+      <upgradeID>1</upgradeID>
+      <sailingIcon/>
+      <sail_baseBelly>240</sail_baseBelly>
+      <fatigue_param>0</fatigue_param>
+      <baseSailnum>10</baseSailnum>
+      <maxSailnum>30</maxSailnum>
+      <basegold_num>1</basegold_num>
+      <growgold_num>1</growgold_num>
+      <timepergold>60</timepergold>
+      <CD_num>0</CD_num>
+      <answerID>1</answerID>
+      <subordinate_maxNumPerLv>1|20,2|40,3|70,4|100,5|120</subordinate_maxNumPerLv>
+    </room>
+    <room>
+      <roomClass>3</roomClass>
+      <id>3</id>
+      <name>Phòng huấn luyện</name>
+      <info>Nơi huấn luyện đồng đội, tăng cấp giúp tăng EXP</info>
+      <resourceID/>
+      <icon>xunlianshi.png</icon>
+      <lv>1</lv>
+      <upgradeID>3</upgradeID>
+      <train_param>80</train_param>
+      <rapid_needResourceBase>0,30,0</rapid_needResourceBase>
+      <rapid_getExpBase>2400</rapid_getExpBase>
+      <basegold_num>2</basegold_num>
+      <growgold_num>0</growgold_num>
+      <growCD_num>180</growCD_num>
+      <maxCD_num>14400</maxCD_num>
+      <timepergold>600</timepergold>
+      <trainLv_name>1|Nhẹ,2|Thường,3|Tăng cường,4|Ác ma,5|Địa ngục,6|Ma quỷ,7|kỳ tích,8|Cửu xà</trainLv_name>
+      <expRate_pergrade>10000,12000,15000,20000,25000,30000,40000,50000</expRate_pergrade>
+      <gold__pergrade>0,1,5,15,30,50,75,100</gold__pergrade>
+      <trainTimes>3600,14400,28800,86400,172800,259200,345600,432000</trainTimes>
+      <trainTime_bellyAndGold>0|0,1000|0,2000|0,0|5,0|15,0|30,0|50,0|75</trainTime_bellyAndGold>
+      <initTrainSlots>2</initTrainSlots>
+    </room>
+    <room>
+      <roomClass>2</roomClass>
+      <id>2</id>
+      <name>Nhà bếp</name>
+      <info>Tăng cấp Nhà bếp giúp tăng thu nhập bán đồ ăn.</info>
+      <resourceID/>
+      <icon>chufang.png</icon>
+      <lv>1</lv>
+      <upgradeID>2</upgradeID>
+      <produceNumperDay>10</produceNumperDay>
+      <kitchen_baseBelly>60</kitchen_baseBelly>
+      <giveOrderNum>10</giveOrderNum>
+      <receiveOrderNum>10</receiveOrderNum>
+      <receive_param>2000</receive_param>
+      <give_param>4000</give_param>
+      <growCD_num>0</growCD_num>
+      <timepergold>60</timepergold>
+      <basegold_num>2</basegold_num>
+      <growgold_num>2</growgold_num>
+      <orderGrowCD_num>30</orderGrowCD_num>
+      <ordertimepergold>60</ordertimepergold>
+    </room>
+    <room>
+      <roomClass>5</roomClass>
+      <id>5</id>
+      <name>Phòng mậu dịch</name>
+      <info>Tăng cấp Phòng mậu dịch giúp tăng thu nhập bán đồ ăn và ra khơi.</info>
+      <resourceID/>
+      <icon>maoyishi.png</icon>
+      <lv>1</lv>
+      <upgradeID>5</upgradeID>
+      <sail_rateBelly>50</sail_rateBelly>
+      <kitchen_rateBelly>50</kitchen_rateBelly>
+    </room>
+    <room>
+      <roomClass>6</roomClass>
+      <id>6</id>
+      <name>Viện nghiên cứu</name>
+      <info>Nơi nghiên cứu khoa kỹ, khoa kỹ giúp tăng năng lực</info>
+      <resourceID/>
+      <icon>yanjiuyuan.png</icon>
+      <lv>1</lv>
+      <upgradeID>6</upgradeID>
+    </room>
+    <room>
+      <roomClass>8</roomClass>
+      <id>8</id>
+      <name>Kho vàng</name>
+      <info>Tăng cấp giúp tăng tỷ lệ được Xu khi ra khơi.</info>
+      <resourceID/>
+      <icon>cangjinshi.png</icon>
+      <lv>1</lv>
+      <upgradeID>8</upgradeID>
+    </room>
+    <room>
+      <roomClass>7</roomClass>
+      <id>7</id>
+      <name>Phòng khám</name>
+      <info>Tăng cấp giúp tăng HP tối đa và giảm mất máu khi chiến đấu.</info>
+      <resourceID/>
+      <icon>yiwushi.png</icon>
+      <lv>1</lv>
+      <upgradeID>7</upgradeID>
+      <maxBloodRate>115000</maxBloodRate>
+    </room>
+    <room>
+      <roomClass>9</roomClass>
+      <id>9</id>
+      <name>Phòng thủy thủ</name>
+      <info>Nơi thủy thủ nghỉ, tăng cấp giúp tăng thu nhập khi ra khơi.</info>
+      <resourceID/>
+      <icon>shuishoushi</icon>
+      <lv>1</lv>
+      <upgradeID>9</upgradeID>
+      <sail_baseBelly>50</sail_baseBelly>
+    </room>
+  </items>
+</root>

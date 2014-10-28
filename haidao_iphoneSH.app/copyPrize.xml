@@ -1,0 +1,4 @@
+<root>
+  <copyPrize copyId="1" prizeId="101,102,103,104,105,106,107,108,109" scores="5,10,20,40" bronzeBox="1|1000,2|10,0|10001,2|20" silverBox="1|2000,2|20,0|10002,2|30" goldBox="1|3000,2|30,0|10003,2|40" platinaBox="1|4000,2|40,0|10005,2|50" completeScores="20"/>
+  <copyPrize copyId="2" prizeId="201,202,203,204,205,206,207,208,209" scores="5,10,20,40" bronzeBox="1|5000,2|50,0|10006,2|100" silverBox="1|6000,2|30,0|10007,2|40" goldBox="1|7000,2|40,0|10008,2|50" platinaBox="1|8000,2|50,0|10009,2|60" completeScores="20"/>
+</root>

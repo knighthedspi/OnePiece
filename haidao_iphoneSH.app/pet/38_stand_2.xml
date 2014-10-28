@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="21" actionName="38_stand_2">
+        <frameInfo frame="0">
+            <frameData bitmapName="38_stand_31" scaleX="-0.009995" scaleY="-0.009995" rotation="179.999985" position="12.300000,-35.000000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="38_stand_31" scaleX="-0.009995" scaleY="-0.009995" rotation="179.999985" position="12.300000,-35.000000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="38_stand_31" scaleX="-0.009995" scaleY="-0.009995" rotation="179.999985" position="12.300000,-35.000000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="38_stand_31" scaleX="-0.009995" scaleY="-0.009995" rotation="179.999985" position="12.300000,-35.000000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="38_stand_31" scaleX="-0.009995" scaleY="-0.009995" rotation="179.999985" position="12.300000,-35.000000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="38_stand_31" scaleX="-0.009995" scaleY="-0.009995" rotation="179.999985" position="12.300000,-35.000000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="38_stand_31" scaleX="-0.009995" scaleY="-0.009995" rotation="179.999985" position="12.300000,-35.000000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="38_stand_31" scaleX="-0.009995" scaleY="-0.009995" rotation="179.999985" position="12.300000,-35.000000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="38_stand_31" scaleX="-0.009995" scaleY="-0.009995" rotation="179.999985" position="12.300000,-35.000000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="38_stand_31" scaleX="-0.009995" scaleY="-0.009995" rotation="179.999985" position="12.300000,-35.000000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="38_stand_31" scaleX="-0.009995" scaleY="-0.009995" rotation="179.999985" position="12.300000,-35.000000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="38_stand_31" scaleX="0.111093" scaleY="0.111093" rotation="9.997942" position="12.200000,-34.750000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="38_stand_31" scaleX="0.222218" scaleY="0.222218" rotation="20.000252" position="12.050000,-34.450001" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData bitmapName="38_stand_31" scaleX="0.333328" scaleY="0.333328" rotation="30.001558" position="11.900000,-34.150002" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData bitmapName="38_stand_31" scaleX="0.444441" scaleY="0.444441" rotation="40.001518" position="11.800000,-33.849998" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData bitmapName="38_stand_31" scaleX="0.555544" scaleY="0.555544" rotation="49.999386" position="11.650000,-33.599998" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData bitmapName="38_stand_31" scaleX="0.666661" scaleY="0.666661" rotation="60.000229" position="11.550000,-33.299999" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData bitmapName="38_stand_31" scaleX="0.777774" scaleY="0.777774" rotation="69.999420" position="11.650000,-33.349998" />
+        </frameInfo>
+        <frameInfo frame="18">
+            <frameData bitmapName="38_stand_31" scaleX="0.888886" scaleY="0.888886" rotation="79.999710" position="11.750000,-33.450001" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData bitmapName="38_stand_31" scaleX="1.000000" scaleY="inf" rotation="90.000000" position="11.800000,-33.500000" />
+        </frameInfo>
+        <frameInfo frame="20">
+            <frameData bitmapName="38_stand_31" scaleX="1.000000" scaleY="inf" rotation="90.000000" position="11.800000,-33.500000" />
+        </frameInfo>
+    </action>
+</animation>

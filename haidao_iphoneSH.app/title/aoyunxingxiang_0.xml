@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="1" actionName="aoyunxingxiang_0">
+        <frameInfo frame="0">
+            <frameData bitmapName="dingwei_aoyunxingxiang" scaleX="-0.009995" scaleY="-0.012817" rotation="179.999985" position="274.950012,200.449997" />
+        </frameInfo>
+    </action>
+</animation>

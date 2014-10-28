@@ -1,0 +1,11 @@
+﻿<root>
+  <smeltIntro gradeId="2" quality="1500-2299" ringDropId="12102|12103|12201|12301" magicDropId="13102|13103|13201|13301"/>
+  <smeltIntro gradeId="3" quality="2300-3399" ringDropId="12201|12202|12203|12301" magicDropId="13201|13202|13203|13301"/>
+  <smeltIntro gradeId="4" quality="3400-3899" ringDropId="12204|12301|12302" magicDropId="13204|13301|13302"/>
+  <smeltIntro gradeId="5" quality="3900-4899" ringDropId="12301|12302|12303|12304|12305|124013" magicDropId="13301|13302|13303|13304|13305|134013"/>
+  <smeltIntro gradeId="6" quality="4900-5799" ringDropId="12304|12305|124013|124023|124033|125015" magicDropId="13304|13305|134013|134023|134033|135015"/>
+  <smeltIntro gradeId="7" quality="5800-6949" ringDropId="124013|124023|124033|125015|125025|125035" magicDropId="134013|134023|134033|135015|135025|135035"/>
+  <smeltIntro gradeId="8" quality="6950-7699" ringDropId="124033|124043|125015|125025|125035" magicDropId="134033|134043|135015|135025|135035"/>
+  <smeltIntro gradeId="9" quality="7700-8800" ringDropId="124043|125015|125025|125035" magicDropId="134043|135015|135025|135035"/>
+  <smeltIntro gradeId="10" quality="" ringDropId="12501|12502|12503" magicDropId="13501|13502|13503"/>
+</root>

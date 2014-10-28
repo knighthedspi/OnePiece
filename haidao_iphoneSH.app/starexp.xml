@@ -1,0 +1,722 @@
+﻿<root>
+  <starexp id="1" name="T.bàn chính_1_1" lv_1="20|1"/>
+  <starexp id="2" name="T.bàn chính_1_2" lv_1="30|1"/>
+  <starexp id="3" name="T.bàn chính_1_3" lv_1="35|1"/>
+  <starexp id="4" name="T.bàn chính_1_4" lv_1="45|1"/>
+  <starexp id="5" name="T.bàn chính_1_5" lv_1="55|1"/>
+  <starexp id="6" name="T.bàn chính_1_6" lv_1="65|1"/>
+  <starexp id="7" name="T.bàn chính_1_7" lv_1="75|1"/>
+  <starexp id="8" name="T.bàn chính_1_8" lv_1="90|1"/>
+  <starexp id="9" name="T.bàn chính_1_9" lv_1="100|1"/>
+  <starexp id="10" name="T.bàn chính_1_10" lv_1="120|1"/>
+  <starexp id="11" name="T.bàn chính_1_11" lv_1="50|1"/>
+  <starexp id="12" name="T.bàn chính_1_12" lv_1="60|1"/>
+  <starexp id="13" name="T.bàn chính_1_13" lv_1="75|1"/>
+  <starexp id="14" name="T.bàn chính_1_14" lv_1="90|1"/>
+  <starexp id="15" name="T.bàn chính_1_15" lv_1="105|1"/>
+  <starexp id="16" name="T.bàn chính_1_16" lv_1="120|1"/>
+  <starexp id="17" name="T.bàn chính_1_17" lv_1="135|1"/>
+  <starexp id="18" name="T.bàn chính_1_18" lv_1="155|1"/>
+  <starexp id="19" name="T.bàn chính_1_19" lv_1="175|1"/>
+  <starexp id="20" name="T.bàn chính_1_20" lv_1="195|1"/>
+  <starexp id="21" name="T.bàn chính_1_21" lv_1="80|1"/>
+  <starexp id="22" name="T.bàn chính_1_22" lv_1="95|1"/>
+  <starexp id="23" name="T.bàn chính_1_23" lv_1="115|1"/>
+  <starexp id="24" name="T.bàn chính_1_24" lv_1="135|1"/>
+  <starexp id="25" name="T.bàn chính_1_25" lv_1="155|1"/>
+  <starexp id="26" name="T.bàn chính_1_26" lv_1="180|1"/>
+  <starexp id="27" name="T.bàn chính_1_27" lv_1="200|1"/>
+  <starexp id="28" name="T.bàn chính_1_28" lv_1="225|1"/>
+  <starexp id="29" name="T.bàn chính_1_29" lv_1="250|1"/>
+  <starexp id="30" name="T.bàn chính_1_30" lv_1="275|1"/>
+  <starexp id="31" name="T.bàn chính_1_31" lv_1="110|1"/>
+  <starexp id="32" name="T.bàn chính_1_32" lv_1="135|1"/>
+  <starexp id="33" name="T.bàn chính_1_33" lv_1="155|1"/>
+  <starexp id="34" name="T.bàn chính_1_34" lv_1="180|1"/>
+  <starexp id="35" name="T.bàn chính_1_35" lv_1="210|1"/>
+  <starexp id="36" name="T.bàn chính_1_36" lv_1="235|1"/>
+  <starexp id="37" name="T.bàn chính_1_37" lv_1="265|1"/>
+  <starexp id="38" name="T.bàn chính_1_38" lv_1="295|1"/>
+  <starexp id="39" name="T.bàn chính_1_39" lv_1="325|1"/>
+  <starexp id="40" name="T.bàn chính_1_40" lv_1="360|1"/>
+  <starexp id="41" name="T.bàn chính_1_41" lv_1="140|1"/>
+  <starexp id="42" name="T.bàn chính_1_42" lv_1="170|1"/>
+  <starexp id="43" name="T.bàn chính_1_43" lv_1="200|1"/>
+  <starexp id="44" name="T.bàn chính_1_44" lv_1="230|1"/>
+  <starexp id="45" name="T.bàn chính_1_45" lv_1="260|1"/>
+  <starexp id="46" name="T.bàn chính_1_46" lv_1="295|1"/>
+  <starexp id="47" name="T.bàn chính_1_47" lv_1="330|1"/>
+  <starexp id="48" name="T.bàn chính_1_48" lv_1="365|1"/>
+  <starexp id="49" name="T.bàn chính_1_49" lv_1="405|1"/>
+  <starexp id="50" name="T.bàn chính_1_50" lv_1="440|1"/>
+  <starexp id="51" name="T.bàn chính_1_51" lv_1="185|1"/>
+  <starexp id="52" name="T.bàn chính_1_52" lv_1="225|1"/>
+  <starexp id="53" name="T.bàn chính_1_53" lv_1="265|1"/>
+  <starexp id="54" name="T.bàn chính_1_54" lv_1="305|1"/>
+  <starexp id="55" name="T.bàn chính_1_55" lv_1="345|1"/>
+  <starexp id="56" name="T.bàn chính_1_56" lv_1="390|1"/>
+  <starexp id="57" name="T.bàn chính_1_57" lv_1="435|1"/>
+  <starexp id="58" name="T.bàn chính_1_58" lv_1="480|1"/>
+  <starexp id="59" name="T.bàn chính_1_59" lv_1="525|1"/>
+  <starexp id="60" name="T.bàn chính_1_60" lv_1="575|1"/>
+  <starexp id="61" name="T.bàn chính_1_61" lv_1="240|1"/>
+  <starexp id="62" name="T.bàn chính_1_62" lv_1="290|1"/>
+  <starexp id="63" name="T.bàn chính_1_63" lv_1="340|1"/>
+  <starexp id="64" name="T.bàn chính_1_64" lv_1="390|1"/>
+  <starexp id="65" name="T.bàn chính_1_65" lv_1="440|1"/>
+  <starexp id="66" name="T.bàn chính_1_66" lv_1="495|1"/>
+  <starexp id="67" name="T.bàn chính_1_67" lv_1="550|1"/>
+  <starexp id="68" name="T.bàn chính_1_68" lv_1="610|1"/>
+  <starexp id="69" name="T.bàn chính_1_69" lv_1="665|1"/>
+  <starexp id="70" name="T.bàn chính_1_70" lv_1="725|1"/>
+  <starexp id="71" name="T.bàn chính_1_71" lv_1="280|1"/>
+  <starexp id="72" name="T.bàn chính_1_72" lv_1="335|1"/>
+  <starexp id="73" name="T.bàn chính_1_73" lv_1="390|1"/>
+  <starexp id="74" name="T.bàn chính_1_74" lv_1="450|1"/>
+  <starexp id="75" name="T.bàn chính_1_75" lv_1="510|1"/>
+  <starexp id="76" name="T.bàn chính_1_76" lv_1="570|1"/>
+  <starexp id="77" name="T.bàn chính_1_77" lv_1="635|1"/>
+  <starexp id="78" name="T.bàn chính_1_78" lv_1="700|1"/>
+  <starexp id="79" name="T.bàn chính_1_79" lv_1="760|1"/>
+  <starexp id="80" name="T.bàn chính_1_80" lv_1="960|1"/>
+  <starexp id="81" name="T.bàn chính_1_81" lv_1="370|1"/>
+  <starexp id="82" name="T.bàn chính_1_82" lv_1="445|1"/>
+  <starexp id="83" name="T.bàn chính_1_83" lv_1="515|1"/>
+  <starexp id="84" name="T.bàn chính_1_84" lv_1="595|1"/>
+  <starexp id="85" name="T.bàn chính_1_85" lv_1="670|1"/>
+  <starexp id="86" name="T.bàn chính_1_86" lv_1="750|1"/>
+  <starexp id="87" name="T.bàn chính_1_87" lv_1="830|1"/>
+  <starexp id="88" name="T.bàn chính_1_88" lv_1="915|1"/>
+  <starexp id="89" name="T.bàn chính_1_89" lv_1="1000|1"/>
+  <starexp id="90" name="T.bàn chính_1_90" lv_1="1085|1"/>
+  <starexp id="91" name="T.bàn chính_1_91" lv_1="475|1"/>
+  <starexp id="92" name="T.bàn chính_1_92" lv_1="565|1"/>
+  <starexp id="93" name="T.bàn chính_1_93" lv_1="660|1"/>
+  <starexp id="94" name="T.bàn chính_1_94" lv_1="760|1"/>
+  <starexp id="95" name="T.bàn chính_1_95" lv_1="855|1"/>
+  <starexp id="96" name="T.bàn chính_1_96" lv_1="955|1"/>
+  <starexp id="97" name="T.bàn chính_1_97" lv_1="1060|1"/>
+  <starexp id="98" name="T.bàn chính_1_98" lv_1="1165|1"/>
+  <starexp id="99" name="T.bàn chính_1_99" lv_1="1270|1"/>
+  <starexp id="100" name="T.bàn chính_1_100" lv_1="1380|1"/>
+  <starexp id="101" name="T.bàn chính_1_101" lv_1="595|1"/>
+  <starexp id="102" name="T.bàn chính_1_102" lv_1="785|1"/>
+  <starexp id="103" name="T.bàn chính_1_103" lv_1="1005|1"/>
+  <starexp id="104" name="T.bàn chính_1_104" lv_1="1250|1"/>
+  <starexp id="105" name="T.bàn chính_1_105" lv_1="1525|1"/>
+  <starexp id="106" name="T.bàn chính_1_106" lv_1="1835|1"/>
+  <starexp id="107" name="T.bàn chính_1_107" lv_1="2170|1"/>
+  <starexp id="108" name="T.bàn chính_1_108" lv_1="2540|1"/>
+  <starexp id="109" name="T.bàn chính_1_109" lv_1="2940|1"/>
+  <starexp id="110" name="T.bàn chính_1_110" lv_1="3375|1"/>
+  <starexp id="111" name="T.bàn chính_1_111" lv_1="1365|1"/>
+  <starexp id="112" name="T.bàn chính_1_112" lv_1="1715|1"/>
+  <starexp id="113" name="T.bàn chính_1_113" lv_1="2090|1"/>
+  <starexp id="114" name="T.bàn chính_1_114" lv_1="2510|1"/>
+  <starexp id="115" name="T.bàn chính_1_115" lv_1="2955|1"/>
+  <starexp id="116" name="T.bàn chính_1_116" lv_1="3440|1"/>
+  <starexp id="117" name="T.bàn chính_1_117" lv_1="3960|1"/>
+  <starexp id="118" name="T.bàn chính_1_118" lv_1="4520|1"/>
+  <starexp id="119" name="T.bàn chính_1_119" lv_1="5110|1"/>
+  <starexp id="120" name="T.bàn chính_1_120" lv_1="5745|1"/>
+  <starexp id="121" name="T.bàn chính_1_121" lv_1="2275|1"/>
+  <starexp id="122" name="T.bàn chính_1_122" lv_1="2810|1"/>
+  <starexp id="123" name="T.bàn chính_1_123" lv_1="3270|1"/>
+  <starexp id="124" name="T.bàn chính_1_124" lv_1="3740|1"/>
+  <starexp id="125" name="T.bàn chính_1_125" lv_1="4215|1"/>
+  <starexp id="126" name="T.bàn chính_1_126" lv_1="4700|1"/>
+  <starexp id="127" name="T.bàn chính_1_127" lv_1="5190|1"/>
+  <starexp id="128" name="T.bàn chính_1_128" lv_1="5695|1"/>
+  <starexp id="129" name="T.bàn chính_1_129" lv_1="6195|1"/>
+  <starexp id="130" name="T.bàn chính_1_130" lv_1="6720|1"/>
+  <starexp id="131" name="T.bàn chính_1_131" lv_1="2570|1"/>
+  <starexp id="132" name="T.bàn chính_1_132" lv_1="3065|1"/>
+  <starexp id="133" name="T.bàn chính_1_133" lv_1="3560|1"/>
+  <starexp id="134" name="T.bàn chính_1_134" lv_1="4075|1"/>
+  <starexp id="135" name="T.bàn chính_1_135" lv_1="4585|1"/>
+  <starexp id="136" name="T.bàn chính_1_136" lv_1="5115|1"/>
+  <starexp id="137" name="T.bàn chính_1_137" lv_1="5640|1"/>
+  <starexp id="138" name="T.bàn chính_1_138" lv_1="6190|1"/>
+  <starexp id="139" name="T.bàn chính_1_139" lv_1="6730|1"/>
+  <starexp id="140" name="T.bàn chính_1_140" lv_1="7295|1"/>
+  <starexp id="141" name="T.bàn chính_1_141" lv_1="2880|1"/>
+  <starexp id="142" name="T.bàn chính_1_142" lv_1="3545|1"/>
+  <starexp id="143" name="T.bàn chính_1_143" lv_1="4245|1"/>
+  <starexp id="144" name="T.bàn chính_1_144" lv_1="4995|1"/>
+  <starexp id="145" name="T.bàn chính_1_145" lv_1="5785|1"/>
+  <starexp id="146" name="T.bàn chính_1_146" lv_1="6635|1"/>
+  <starexp id="147" name="T.bàn chính_1_147" lv_1="7520|1"/>
+  <starexp id="148" name="T.bàn chính_1_148" lv_1="8460|1"/>
+  <starexp id="149" name="T.bàn chính_1_149" lv_1="9440|1"/>
+  <starexp id="150" name="T.bàn chính_1_150" lv_1="10485|1"/>
+  <starexp id="151" name="T.bàn chính_1_151" lv_1="4105|1"/>
+  <starexp id="152" name="T.bàn chính_1_152" lv_1="5010|1"/>
+  <starexp id="153" name="T.bàn chính_1_153" lv_1="5955|1"/>
+  <starexp id="154" name="T.bàn chính_1_154" lv_1="6965|1"/>
+  <starexp id="155" name="T.bàn chính_1_155" lv_1="8010|1"/>
+  <starexp id="156" name="T.bàn chính_1_156" lv_1="9120|1"/>
+  <starexp id="157" name="T.bàn chính_1_157" lv_1="10270|1"/>
+  <starexp id="158" name="T.bàn chính_1_158" lv_1="11490|1"/>
+  <starexp id="159" name="T.bàn chính_1_159" lv_1="12750|1"/>
+  <starexp id="160" name="T.bàn chính_1_160" lv_1="14080|1"/>
+  <starexp id="161" name="T.bàn chính_1_161" lv_1="5485|1"/>
+  <starexp id="162" name="T.bàn chính_1_162" lv_1="6660|1"/>
+  <starexp id="163" name="T.bàn chính_1_163" lv_1="7880|1"/>
+  <starexp id="164" name="T.bàn chính_1_164" lv_1="9165|1"/>
+  <starexp id="165" name="T.bàn chính_1_165" lv_1="10500|1"/>
+  <starexp id="166" name="T.bàn chính_1_166" lv_1="11905|1"/>
+  <starexp id="167" name="T.bàn chính_1_167" lv_1="13350|1"/>
+  <starexp id="168" name="T.bàn chính_1_168" lv_1="14875|1"/>
+  <starexp id="169" name="T.bàn chính_1_169" lv_1="16440|1"/>
+  <starexp id="170" name="T.bàn chính_1_170" lv_1="18090|1"/>
+  <starexp id="171" name="T.bàn chính_1_171" lv_1="7020|1"/>
+  <starexp id="172" name="T.bàn chính_1_172" lv_1="8495|1"/>
+  <starexp id="173" name="T.bàn chính_1_173" lv_1="10015|1"/>
+  <starexp id="174" name="T.bàn chính_1_174" lv_1="11615|1"/>
+  <starexp id="175" name="T.bàn chính_1_175" lv_1="13260|1"/>
+  <starexp id="176" name="T.bàn chính_1_176" lv_1="14990|1"/>
+  <starexp id="177" name="T.bàn chính_1_177" lv_1="16760|1"/>
+  <starexp id="178" name="T.bàn chính_1_178" lv_1="18620|1"/>
+  <starexp id="179" name="T.bàn chính_1_179" lv_1="20520|1"/>
+  <starexp id="180" name="T.bàn chính_1_180" lv_1="22520|1"/>
+  <starexp id="181" name="T.bàn chính_1_181" lv_1="8715|1"/>
+  <starexp id="182" name="T.bàn chính_1_182" lv_1="10515|1"/>
+  <starexp id="183" name="T.bàn chính_1_183" lv_1="12370|1"/>
+  <starexp id="184" name="T.bàn chính_1_184" lv_1="14310|1"/>
+  <starexp id="185" name="T.bàn chính_1_185" lv_1="16295|1"/>
+  <starexp id="186" name="T.bàn chính_1_186" lv_1="18380|1"/>
+  <starexp id="187" name="T.bàn chính_1_187" lv_1="20505|1"/>
+  <starexp id="188" name="T.bàn chính_1_188" lv_1="22735|1"/>
+  <starexp id="189" name="T.bàn chính_1_189" lv_1="25000|1"/>
+  <starexp id="190" name="T.bàn chính_1_190" lv_1="27375|1"/>
+  <starexp id="191" name="T.bàn chính_1_191" lv_1="10570|1"/>
+  <starexp id="192" name="T.bàn chính_1_192" lv_1="12735|1"/>
+  <starexp id="193" name="T.bàn chính_1_193" lv_1="14945|1"/>
+  <starexp id="194" name="T.bàn chính_1_194" lv_1="17260|1"/>
+  <starexp id="195" name="T.bàn chính_1_195" lv_1="19620|1"/>
+  <starexp id="196" name="T.bàn chính_1_196" lv_1="22090|1"/>
+  <starexp id="197" name="T.bàn chính_1_197" lv_1="24595|1"/>
+  <starexp id="198" name="T.bàn chính_1_198" lv_1="27225|1"/>
+  <starexp id="199" name="T.bàn chính_1_199" lv_1="29885|1"/>
+  <starexp id="200" name="T.bàn chính_1_200" lv_1="32675|1"/>
+  <starexp id="201" name="T.bàn chính_1_201" lv_1="12595|1"/>
+  <starexp id="202" name="T.bàn chính_1_202" lv_1="15145|1"/>
+  <starexp id="203" name="T.bàn chính_1_203" lv_1="17755|1"/>
+  <starexp id="204" name="T.bàn chính_1_204" lv_1="20470|1"/>
+  <starexp id="205" name="T.bàn chính_1_205" lv_1="23235|1"/>
+  <starexp id="206" name="T.bàn chính_1_206" lv_1="26115|1"/>
+  <starexp id="207" name="T.bàn chính_1_207" lv_1="29040|1"/>
+  <starexp id="208" name="T.bàn chính_1_208" lv_1="32095|1"/>
+  <starexp id="209" name="T.bàn chính_1_209" lv_1="35185|1"/>
+  <starexp id="210" name="T.bàn chính_1_210" lv_1="38415|1"/>
+  <starexp id="211" name="T.bàn chính_1_211" lv_1="14790|1"/>
+  <starexp id="212" name="T.bàn chính_1_212" lv_1="17760|1"/>
+  <starexp id="213" name="T.bàn chính_1_213" lv_1="20790|1"/>
+  <starexp id="214" name="T.bàn chính_1_214" lv_1="23940|1"/>
+  <starexp id="215" name="T.bàn chính_1_215" lv_1="27140|1"/>
+  <starexp id="216" name="T.bàn chính_1_216" lv_1="30470|1"/>
+  <starexp id="217" name="T.bàn chính_1_217" lv_1="33845|1"/>
+  <starexp id="218" name="T.bàn chính_1_218" lv_1="37360|1"/>
+  <starexp id="219" name="T.bàn chính_1_219" lv_1="40910|1"/>
+  <starexp id="220" name="T.bàn chính_1_220" lv_1="44615|1"/>
+  <starexp id="221" name="T.bàn chính_1_221" lv_1="17155|1"/>
+  <starexp id="222" name="T.bàn chính_1_222" lv_1="20580|1"/>
+  <starexp id="223" name="T.bàn chính_1_223" lv_1="24065|1"/>
+  <starexp id="224" name="T.bàn chính_1_224" lv_1="27685|1"/>
+  <starexp id="225" name="T.bàn chính_1_225" lv_1="31350|1"/>
+  <starexp id="226" name="T.bàn chính_1_226" lv_1="35160|1"/>
+  <starexp id="227" name="T.bàn chính_1_227" lv_1="39010|1"/>
+  <starexp id="228" name="T.bàn chính_1_228" lv_1="43020|1"/>
+  <starexp id="229" name="T.bàn chính_1_229" lv_1="47060|1"/>
+  <starexp id="230" name="T.bàn chính_1_230" lv_1="51275|1"/>
+  <starexp id="231" name="T.bàn chính_1_231" lv_1="19700|1"/>
+  <starexp id="232" name="T.bàn chính_1_232" lv_1="23610|1"/>
+  <starexp id="233" name="T.bàn chính_1_233" lv_1="27580|1"/>
+  <starexp id="234" name="T.bàn chính_1_234" lv_1="31700|1"/>
+  <starexp id="235" name="T.bàn chính_1_235" lv_1="35865|1"/>
+  <starexp id="236" name="T.bàn chính_1_236" lv_1="40190|1"/>
+  <starexp id="237" name="T.bàn chính_1_237" lv_1="44555|1"/>
+  <starexp id="238" name="T.bàn chính_1_238" lv_1="49090|1"/>
+  <starexp id="239" name="T.bàn chính_1_239" lv_1="53655|1"/>
+  <starexp id="240" name="T.bàn chính_1_240" lv_1="58410|1"/>
+  <starexp id="241" name="T.bàn chính_1_241" lv_1="22420|1"/>
+  <starexp id="242" name="T.bàn chính_1_242" lv_1="26850|1"/>
+  <starexp id="243" name="T.bàn chính_1_243" lv_1="31345|1"/>
+  <starexp id="244" name="T.bàn chính_1_244" lv_1="35990|1"/>
+  <starexp id="245" name="T.bàn chính_1_245" lv_1="40690|1"/>
+  <starexp id="246" name="T.bàn chính_1_246" lv_1="45565|1"/>
+  <starexp id="247" name="T.bàn chính_1_247" lv_1="50475|1"/>
+  <starexp id="248" name="T.bàn chính_1_248" lv_1="55570|1"/>
+  <starexp id="249" name="T.bàn chính_1_249" lv_1="60695|1"/>
+  <starexp id="250" name="T.bàn chính_1_250" lv_1="66025|1"/>
+  <starexp id="251" name="T.bàn chính_1_251" lv_1="25325|1"/>
+  <starexp id="252" name="T.bàn chính_1_252" lv_1="30310|1"/>
+  <starexp id="253" name="T.bàn chính_1_253" lv_1="35355|1"/>
+  <starexp id="254" name="T.bàn chính_1_254" lv_1="40570|1"/>
+  <starexp id="255" name="T.bàn chính_1_255" lv_1="45840|1"/>
+  <starexp id="256" name="T.bàn chính_1_256" lv_1="51290|1"/>
+  <starexp id="257" name="T.bàn chính_1_257" lv_1="56780|1"/>
+  <starexp id="258" name="T.bàn chính_1_258" lv_1="62475|1"/>
+  <starexp id="259" name="T.bàn chính_1_259" lv_1="68190|1"/>
+  <starexp id="260" name="T.bàn chính_1_260" lv_1="74130|1"/>
+  <starexp id="261" name="T.bàn chính_1_261" lv_1="28415|1"/>
+  <starexp id="262" name="T.bàn chính_1_262" lv_1="33985|1"/>
+  <starexp id="263" name="T.bàn chính_1_263" lv_1="39620|1"/>
+  <starexp id="264" name="T.bàn chính_1_264" lv_1="45440|1"/>
+  <starexp id="265" name="T.bàn chính_1_265" lv_1="51310|1"/>
+  <starexp id="266" name="T.bàn chính_1_266" lv_1="57375|1"/>
+  <starexp id="267" name="T.bàn chính_1_267" lv_1="63480|1"/>
+  <starexp id="268" name="T.bàn chính_1_268" lv_1="69805|1"/>
+  <starexp id="269" name="T.bàn chính_1_269" lv_1="76150|1"/>
+  <starexp id="270" name="T.bàn chính_1_270" lv_1="82735|1"/>
+  <starexp id="271" name="T.bàn chính_1_271" lv_1="31695|1"/>
+  <starexp id="272" name="T.bàn chính_1_272" lv_1="37890|1"/>
+  <starexp id="273" name="T.bàn chính_1_273" lv_1="44150|1"/>
+  <starexp id="274" name="T.bàn chính_1_274" lv_1="50600|1"/>
+  <starexp id="275" name="T.bàn chính_1_275" lv_1="57105|1"/>
+  <starexp id="276" name="T.bàn chính_1_276" lv_1="63825|1"/>
+  <starexp id="277" name="T.bàn chính_1_277" lv_1="70580|1"/>
+  <starexp id="278" name="T.bàn chính_1_278" lv_1="77575|1"/>
+  <starexp id="279" name="T.bàn chính_1_279" lv_1="84580|1"/>
+  <starexp id="280" name="T.bàn chính_1_280" lv_1="91845|1"/>
+  <starexp id="281" name="T.bàn chính_1_281" lv_1="35170|1"/>
+  <starexp id="282" name="T.bàn chính_1_282" lv_1="42020|1"/>
+  <starexp id="283" name="T.bàn chính_1_283" lv_1="48940|1"/>
+  <starexp id="284" name="T.bàn chính_1_284" lv_1="56065|1"/>
+  <starexp id="285" name="T.bàn chính_1_285" lv_1="63240|1"/>
+  <starexp id="286" name="T.bàn chính_1_286" lv_1="70650|1"/>
+  <starexp id="287" name="T.bàn chính_1_287" lv_1="78090|1"/>
+  <starexp id="288" name="T.bàn chính_1_288" lv_1="85785|1"/>
+  <starexp id="289" name="T.bàn chính_1_289" lv_1="93490|1"/>
+  <starexp id="290" name="T.bàn chính_1_290" lv_1="101475|1"/>
+  <starexp id="291" name="T.bàn chính_1_291" lv_1="38840|1"/>
+  <starexp id="292" name="T.bàn chính_1_292" lv_1="46380|1"/>
+  <starexp id="293" name="T.bàn chính_1_293" lv_1="53995|1"/>
+  <starexp id="294" name="T.bàn chính_1_294" lv_1="61830|1"/>
+  <starexp id="295" name="T.bàn chính_1_295" lv_1="69715|1"/>
+  <starexp id="296" name="T.bàn chính_1_296" lv_1="77850|1"/>
+  <starexp id="297" name="T.bàn chính_1_297" lv_1="86010|1"/>
+  <starexp id="298" name="T.bàn chính_1_298" lv_1="94445|1"/>
+  <starexp id="299" name="T.bàn chính_1_299" lv_1="102885|1"/>
+  <starexp id="300" name="T.bàn chính_1_300" lv_1="111630|1"/>
+  <starexp id="301" name="T.bàn chính_1_301" lv_1="42920|1"/>
+  <starexp id="302" name="T.bàn chính_1_302" lv_1="51490|1"/>
+  <starexp id="303" name="T.bàn chính_1_303" lv_1="60215|1"/>
+  <starexp id="304" name="T.bàn chính_1_304" lv_1="69265|1"/>
+  <starexp id="305" name="T.bàn chính_1_305" lv_1="78450|1"/>
+  <starexp id="306" name="T.bàn chính_1_306" lv_1="87995|1"/>
+  <starexp id="307" name="T.bàn chính_1_307" lv_1="97655|1"/>
+  <starexp id="308" name="T.bàn chính_1_308" lv_1="107710|1"/>
+  <starexp id="309" name="T.bàn chính_1_309" lv_1="117855|1"/>
+  <starexp id="310" name="T.bàn chính_1_310" lv_1="128430|1"/>
+  <starexp id="311" name="T.bàn chính_1_311" lv_1="49350|1"/>
+  <starexp id="312" name="T.bàn chính_1_312" lv_1="59170|1"/>
+  <starexp id="313" name="T.bàn chính_1_313" lv_1="69155|1"/>
+  <starexp id="314" name="T.bàn chính_1_314" lv_1="79500|1"/>
+  <starexp id="315" name="T.bàn chính_1_315" lv_1="89990|1"/>
+  <starexp id="316" name="T.bàn chính_1_316" lv_1="100880|1"/>
+  <starexp id="317" name="T.bàn chính_1_317" lv_1="111890|1"/>
+  <starexp id="318" name="T.bàn chính_1_318" lv_1="123335|1"/>
+  <starexp id="319" name="T.bàn chính_1_319" lv_1="134880|1"/>
+  <starexp id="320" name="T.bàn chính_1_320" lv_1="146900|1"/>
+  <starexp id="321" name="T.bàn chính_1_321" lv_1="56420|1"/>
+  <starexp id="322" name="T.bàn chính_1_322" lv_1="67600|1"/>
+  <starexp id="323" name="T.bàn chính_1_323" lv_1="78965|1"/>
+  <starexp id="324" name="T.bàn chính_1_324" lv_1="90730|1"/>
+  <starexp id="325" name="T.bàn chính_1_325" lv_1="102650|1"/>
+  <starexp id="326" name="T.bàn chính_1_326" lv_1="115005|1"/>
+  <starexp id="327" name="T.bàn chính_1_327" lv_1="127490|1"/>
+  <starexp id="328" name="T.bàn chính_1_328" lv_1="140460|1"/>
+  <starexp id="329" name="T.bàn chính_1_329" lv_1="153530|1"/>
+  <starexp id="330" name="T.bàn chính_1_330" lv_1="167125|1"/>
+  <starexp id="331" name="T.bàn chính_1_331" lv_1="64155|1"/>
+  <starexp id="332" name="T.bàn chính_1_332" lv_1="76830|1"/>
+  <starexp id="333" name="T.bàn chính_1_333" lv_1="89705|1"/>
+  <starexp id="334" name="T.bàn chính_1_334" lv_1="103015|1"/>
+  <starexp id="335" name="T.bàn chính_1_335" lv_1="116490|1"/>
+  <starexp id="336" name="T.bàn chính_1_336" lv_1="130450|1"/>
+  <starexp id="337" name="T.bàn chính_1_337" lv_1="144540|1"/>
+  <starexp id="338" name="T.bàn chính_1_338" lv_1="159165|1"/>
+  <starexp id="339" name="T.bàn chính_1_339" lv_1="173890|1"/>
+  <starexp id="340" name="T.bàn chính_1_340" lv_1="189200|1"/>
+  <starexp id="341" name="T.bàn chính_1_341" lv_1="72590|1"/>
+  <starexp id="342" name="T.bàn chính_1_342" lv_1="86895|1"/>
+  <starexp id="343" name="T.bàn chính_1_343" lv_1="101410|1"/>
+  <starexp id="344" name="T.bàn chính_1_344" lv_1="116405|1"/>
+  <starexp id="345" name="T.bàn chính_1_345" lv_1="131570|1"/>
+  <starexp id="346" name="T.bàn chính_1_346" lv_1="147270|1"/>
+  <starexp id="347" name="T.bàn chính_1_347" lv_1="163105|1"/>
+  <starexp id="348" name="T.bàn chính_1_348" lv_1="179530|1"/>
+  <starexp id="349" name="T.bàn chính_1_349" lv_1="196050|1"/>
+  <starexp id="350" name="T.bàn chính_1_350" lv_1="213215|1"/>
+  <starexp id="351" name="T.bàn chính_1_351" lv_1="81770|1"/>
+  <starexp id="352" name="T.bàn chính_1_352" lv_1="97845|1"/>
+  <starexp id="353" name="T.bàn chính_1_353" lv_1="114135|1"/>
+  <starexp id="354" name="T.bàn chính_1_354" lv_1="130955|1"/>
+  <starexp id="355" name="T.bàn chính_1_355" lv_1="147955|1"/>
+  <starexp id="356" name="T.bàn chính_1_356" lv_1="165540|1"/>
+  <starexp id="357" name="T.bàn chính_1_357" lv_1="183265|1"/>
+  <starexp id="358" name="T.bàn chính_1_358" lv_1="201635|1"/>
+  <starexp id="359" name="T.bàn chính_1_359" lv_1="220105|1"/>
+  <starexp id="360" name="T.bàn chính_1_360" lv_1="239275|1"/>
+  <starexp id="361" name="T.bàn chính_1_361" lv_1="91730|1"/>
+  <starexp id="362" name="T.bàn chính_1_362" lv_1="109715|1"/>
+  <starexp id="363" name="T.bàn chính_1_363" lv_1="127935|1"/>
+  <starexp id="364" name="T.bàn chính_1_364" lv_1="146725|1"/>
+  <starexp id="365" name="T.bàn chính_1_365" lv_1="165710|1"/>
+  <starexp id="366" name="T.bàn chính_1_366" lv_1="185330|1"/>
+  <starexp id="367" name="T.bàn chính_1_367" lv_1="205100|1"/>
+  <starexp id="368" name="T.bàn chính_1_368" lv_1="225570|1"/>
+  <starexp id="369" name="T.bàn chính_1_369" lv_1="246140|1"/>
+  <starexp id="370" name="T.bàn chính_1_370" lv_1="267475|1"/>
+  <starexp id="371" name="T.bàn chính_1_371" lv_1="102505|1"/>
+  <starexp id="372" name="T.bàn chính_1_372" lv_1="122555|1"/>
+  <starexp id="373" name="T.bàn chính_1_373" lv_1="142850|1"/>
+  <starexp id="374" name="T.bàn chính_1_374" lv_1="163775|1"/>
+  <starexp id="375" name="T.bàn chính_1_375" lv_1="184900|1"/>
+  <starexp id="376" name="T.bàn chính_1_376" lv_1="206715|1"/>
+  <starexp id="377" name="T.bàn chính_1_377" lv_1="228685|1"/>
+  <starexp id="378" name="T.bàn chính_1_378" lv_1="251415|1"/>
+  <starexp id="379" name="T.bàn chính_1_379" lv_1="274245|1"/>
+  <starexp id="380" name="T.bàn chính_1_380" lv_1="297915|1"/>
+  <starexp id="381" name="T.bàn chính_1_381" lv_1="114130|1"/>
+  <starexp id="382" name="T.bàn chính_1_382" lv_1="136405|1"/>
+  <starexp id="383" name="T.bàn chính_1_383" lv_1="158940|1"/>
+  <starexp id="384" name="T.bàn chính_1_384" lv_1="182160|1"/>
+  <starexp id="385" name="T.bàn chính_1_385" lv_1="205585|1"/>
+  <starexp id="386" name="T.bàn chính_1_386" lv_1="229765|1"/>
+  <starexp id="387" name="T.bàn chính_1_387" lv_1="254100|1"/>
+  <starexp id="388" name="T.bàn chính_1_388" lv_1="279265|1"/>
+  <starexp id="389" name="T.bàn chính_1_389" lv_1="304525|1"/>
+  <starexp id="390" name="T.bàn chính_1_390" lv_1="330695|1"/>
+  <starexp id="391" name="T.bàn chính_1_391" lv_1="126645|1"/>
+  <starexp id="392" name="T.bàn chính_1_392" lv_1="151315|1"/>
+  <starexp id="393" name="T.bàn chính_1_393" lv_1="176260|1"/>
+  <starexp id="394" name="T.bàn chính_1_394" lv_1="201940|1"/>
+  <starexp id="395" name="T.bàn chính_1_395" lv_1="227840|1"/>
+  <starexp id="396" name="T.bàn chính_1_396" lv_1="254555|1"/>
+  <starexp id="397" name="T.bàn chính_1_397" lv_1="281430|1"/>
+  <starexp id="398" name="T.bàn chính_1_398" lv_1="309200|1"/>
+  <starexp id="399" name="T.bàn chính_1_399" lv_1="337065|1"/>
+  <starexp id="400" name="T.bàn chính_1_400" lv_1="365920|1"/>
+  <starexp id="401" name="T.bàn chính_1_401" lv_1="140090|1"/>
+  <starexp id="402" name="T.bàn chính_1_402" lv_1="167330|1"/>
+  <starexp id="403" name="T.bàn chính_1_403" lv_1="194855|1"/>
+  <starexp id="404" name="T.bàn chính_1_404" lv_1="223180|1"/>
+  <starexp id="405" name="T.bàn chính_1_405" lv_1="251730|1"/>
+  <starexp id="406" name="T.bàn chính_1_406" lv_1="281165|1"/>
+  <starexp id="407" name="T.bàn chính_1_407" lv_1="310755|1"/>
+  <starexp id="408" name="T.bàn chính_1_408" lv_1="341320|1"/>
+  <starexp id="409" name="T.bàn chính_1_409" lv_1="371970|1"/>
+  <starexp id="410" name="T.bàn chính_1_410" lv_1="403695|1"/>
+  <starexp id="411" name="T.bàn chính_1_411" lv_1="154510|1"/>
+  <starexp id="412" name="T.bàn chính_1_412" lv_1="184495|1"/>
+  <starexp id="413" name="T.bàn chính_1_413" lv_1="214790|1"/>
+  <starexp id="414" name="T.bàn chính_1_414" lv_1="245940|1"/>
+  <starexp id="415" name="T.bàn chính_1_415" lv_1="277325|1"/>
+  <starexp id="416" name="T.bàn chính_1_416" lv_1="309660|1"/>
+  <starexp id="417" name="T.bàn chính_1_417" lv_1="342160|1"/>
+  <starexp id="418" name="T.bàn chính_1_418" lv_1="375710|1"/>
+  <starexp id="419" name="T.bàn chính_1_419" lv_1="409340|1"/>
+  <starexp id="420" name="T.bàn chính_1_420" lv_1="444125|1"/>
+  <starexp id="421" name="T.bàn chính_1_421" lv_1="169940|1"/>
+  <starexp id="422" name="T.bàn chính_1_422" lv_1="202865|1"/>
+  <starexp id="423" name="T.bàn chính_1_423" lv_1="236110|1"/>
+  <starexp id="424" name="T.bàn chính_1_424" lv_1="270280|1"/>
+  <starexp id="425" name="T.bàn chính_1_425" lv_1="304695|1"/>
+  <starexp id="426" name="T.bàn chính_1_426" lv_1="340130|1"/>
+  <starexp id="427" name="T.bàn chính_1_427" lv_1="375730|1"/>
+  <starexp id="428" name="T.bàn chính_1_428" lv_1="412465|1"/>
+  <starexp id="429" name="T.bàn chính_1_429" lv_1="449270|1"/>
+  <starexp id="430" name="T.bàn chính_1_430" lv_1="487320|1"/>
+  <starexp id="431" name="T.bàn chính_1_431" lv_1="186420|1"/>
+  <starexp id="432" name="T.bàn chính_1_432" lv_1="222485|1"/>
+  <starexp id="433" name="T.bàn chính_1_433" lv_1="258880|1"/>
+  <starexp id="434" name="T.bàn chính_1_434" lv_1="296270|1"/>
+  <starexp id="435" name="T.bàn chính_1_435" lv_1="333910|1"/>
+  <starexp id="436" name="T.bàn chính_1_436" lv_1="372655|1"/>
+  <starexp id="437" name="T.bàn chính_1_437" lv_1="411555|1"/>
+  <starexp id="438" name="T.bàn chính_1_438" lv_1="451680|1"/>
+  <starexp id="439" name="T.bàn chính_1_439" lv_1="491865|1"/>
+  <starexp id="440" name="T.bàn chính_1_440" lv_1="533395|1"/>
+  <starexp id="441" name="T.bàn chính_1_441" lv_1="204000|1"/>
+  <starexp id="442" name="T.bàn chính_1_442" lv_1="243400|1"/>
+  <starexp id="443" name="T.bàn chính_1_443" lv_1="283155|1"/>
+  <starexp id="444" name="T.bàn chính_1_444" lv_1="323975|1"/>
+  <starexp id="445" name="T.bàn chính_1_445" lv_1="365045|1"/>
+  <starexp id="446" name="T.bàn chính_1_446" lv_1="407305|1"/>
+  <starexp id="447" name="T.bàn chính_1_447" lv_1="449720|1"/>
+  <starexp id="448" name="T.bàn chính_1_448" lv_1="493450|1"/>
+  <starexp id="449" name="T.bàn chính_1_449" lv_1="537235|1"/>
+  <starexp id="450" name="T.bàn chính_1_450" lv_1="582460|1"/>
+  <starexp id="451" name="T.bàn chính_1_451" lv_1="222715|1"/>
+  <starexp id="452" name="T.bàn chính_1_452" lv_1="265670|1"/>
+  <starexp id="453" name="T.bàn chính_1_453" lv_1="308990|1"/>
+  <starexp id="454" name="T.bàn chính_1_454" lv_1="353455|1"/>
+  <starexp id="455" name="T.bàn chính_1_455" lv_1="398175|1"/>
+  <starexp id="456" name="T.bàn chính_1_456" lv_1="444170|1"/>
+  <starexp id="457" name="T.bàn chính_1_457" lv_1="490320|1"/>
+  <starexp id="458" name="T.bàn chính_1_458" lv_1="537875|1"/>
+  <starexp id="459" name="T.bàn chính_1_459" lv_1="585480|1"/>
+  <starexp id="460" name="T.bàn chính_1_460" lv_1="634620|1"/>
+  <starexp id="461" name="T.bàn chính_1_461" lv_1="242605|1"/>
+  <starexp id="462" name="T.bàn chính_1_462" lv_1="289340|1"/>
+  <starexp id="463" name="T.bàn chính_1_463" lv_1="336450|1"/>
+  <starexp id="464" name="T.bàn chính_1_464" lv_1="384780|1"/>
+  <starexp id="465" name="T.bàn chính_1_465" lv_1="433375|1"/>
+  <starexp id="466" name="T.bàn chính_1_466" lv_1="483335|1"/>
+  <starexp id="467" name="T.bàn chính_1_467" lv_1="533445|1"/>
+  <starexp id="468" name="T.bàn chính_1_468" lv_1="585055|1"/>
+  <starexp id="469" name="T.bàn chính_1_469" lv_1="636705|1"/>
+  <starexp id="470" name="T.bàn chính_1_470" lv_1="690005|1"/>
+  <starexp id="471" name="T.bàn chính_1_471" lv_1="263725|1"/>
+  <starexp id="472" name="T.bàn chính_1_472" lv_1="314460|1"/>
+  <starexp id="473" name="T.bàn chính_1_473" lv_1="365590|1"/>
+  <starexp id="474" name="T.bàn chính_1_474" lv_1="418020|1"/>
+  <starexp id="475" name="T.bàn chính_1_475" lv_1="470725|1"/>
+  <starexp id="476" name="T.bàn chính_1_476" lv_1="524875|1"/>
+  <starexp id="477" name="T.bàn chính_1_477" lv_1="579180|1"/>
+  <starexp id="478" name="T.bàn chính_1_478" lv_1="635095|1"/>
+  <starexp id="479" name="T.bàn chính_1_479" lv_1="691025|1"/>
+  <starexp id="480" name="T.bàn chính_1_480" lv_1="748725|1"/>
+  <starexp id="481" name="T.bàn chính_1_481" lv_1="286115|1"/>
+  <starexp id="482" name="T.bàn chính_1_482" lv_1="341085|1"/>
+  <starexp id="483" name="T.bàn chính_1_483" lv_1="396470|1"/>
+  <starexp id="484" name="T.bàn chính_1_484" lv_1="453240|1"/>
+  <starexp id="485" name="T.bàn chính_1_485" lv_1="510290|1"/>
+  <starexp id="486" name="T.bàn chính_1_486" lv_1="568890|1"/>
+  <starexp id="487" name="T.bàn chính_1_487" lv_1="627630|1"/>
+  <starexp id="488" name="T.bàn chính_1_488" lv_1="688085|1"/>
+  <starexp id="489" name="T.bàn chính_1_489" lv_1="748550|1"/>
+  <starexp id="490" name="T.bàn chính_1_490" lv_1="810895|1"/>
+  <starexp id="491" name="T.bàn chính_1_491" lv_1="309815|1"/>
+  <starexp id="492" name="T.bàn chính_1_492" lv_1="369275|1"/>
+  <starexp id="493" name="T.bàn chính_1_493" lv_1="429160|1"/>
+  <starexp id="494" name="T.bàn chính_1_494" lv_1="490515|1"/>
+  <starexp id="495" name="T.bàn chính_1_495" lv_1="552160|1"/>
+  <starexp id="496" name="T.bàn chính_1_496" lv_1="615455|1"/>
+  <starexp id="497" name="T.bàn chính_1_497" lv_1="678885|1"/>
+  <starexp id="498" name="T.bàn chính_1_498" lv_1="744140|1"/>
+  <starexp id="499" name="T.bàn chính_1_499" lv_1="809390|1"/>
+  <starexp id="500" name="T.bàn chính_1_500" lv_1="876645|1"/>
+  <starexp id="501" name="T.bàn chính_1_501" lv_1="334880|1"/>
+  <starexp id="502" name="T.bàn chính_1_502" lv_1="399075|1"/>
+  <starexp id="503" name="T.bàn chính_1_503" lv_1="463715|1"/>
+  <starexp id="504" name="T.bàn chính_1_504" lv_1="529920|1"/>
+  <starexp id="505" name="T.bàn chính_1_505" lv_1="596415|1"/>
+  <starexp id="506" name="T.bàn chính_1_506" lv_1="664660|1"/>
+  <starexp id="507" name="T.bàn chính_1_507" lv_1="733040|1"/>
+  <starexp id="508" name="T.bàn chính_1_508" lv_1="803365|1"/>
+  <starexp id="509" name="T.bàn chính_1_509" lv_1="873660|1"/>
+  <starexp id="510" name="T.bàn chính_1_510" lv_1="946090|1"/>
+  <starexp id="511" name="T.bàn chính_1_511" lv_1="361350|1"/>
+  <starexp id="512" name="T.bàn chính_1_512" lv_1="430545|1"/>
+  <starexp id="513" name="T.bàn chính_1_513" lv_1="500200|1"/>
+  <starexp id="514" name="T.bàn chính_1_514" lv_1="571515|1"/>
+  <starexp id="515" name="T.bàn chính_1_515" lv_1="643130|1"/>
+  <starexp id="516" name="T.bàn chính_1_516" lv_1="716600|1"/>
+  <starexp id="517" name="T.bàn chính_1_517" lv_1="790200|1"/>
+  <starexp id="518" name="T.bàn chính_1_518" lv_1="865860|1"/>
+  <starexp id="519" name="T.bàn chính_1_519" lv_1="941475|1"/>
+  <starexp id="520" name="T.bàn chính_1_520" lv_1="1019360|1"/>
+  <starexp id="521" name="T.bàn chính_1_521" lv_1="389270|1"/>
+  <starexp id="522" name="T.bàn chính_1_522" lv_1="463740|1"/>
+  <starexp id="523" name="T.bàn chính_1_523" lv_1="538680|1"/>
+  <starexp id="524" name="T.bàn chính_1_524" lv_1="615385|1"/>
+  <starexp id="525" name="T.bàn chính_1_525" lv_1="692390|1"/>
+  <starexp id="526" name="T.bàn chính_1_526" lv_1="771360|1"/>
+  <starexp id="527" name="T.bàn chính_1_527" lv_1="850455|1"/>
+  <starexp id="528" name="T.bàn chính_1_528" lv_1="931740|1"/>
+  <starexp id="529" name="T.bàn chính_1_529" lv_1="1012955|1"/>
+  <starexp id="530" name="T.bàn chính_1_530" lv_1="1096580|1"/>
+  <starexp id="531" name="T.bàn chính_1_531" lv_1="418700|1"/>
+  <starexp id="532" name="T.bàn chính_1_532" lv_1="498715|1"/>
+  <starexp id="533" name="T.bàn chính_1_533" lv_1="579225|1"/>
+  <starexp id="534" name="T.bàn chính_1_534" lv_1="661600|1"/>
+  <starexp id="535" name="T.bàn chính_1_535" lv_1="744275|1"/>
+  <starexp id="536" name="T.bàn chính_1_536" lv_1="829040|1"/>
+  <starexp id="537" name="T.bàn chính_1_537" lv_1="913915|1"/>
+  <starexp id="538" name="T.bàn chính_1_538" lv_1="1001110|1"/>
+  <starexp id="539" name="T.bàn chính_1_539" lv_1="1088215|1"/>
+  <starexp id="540" name="T.bàn chính_1_540" lv_1="1177875|1"/>
+  <starexp id="541" name="T.bàn chính_1_541" lv_1="449675|1"/>
+  <starexp id="542" name="T.bàn chính_1_542" lv_1="535530|1"/>
+  <starexp id="543" name="T.bàn chính_1_543" lv_1="621895|1"/>
+  <starexp id="544" name="T.bàn chính_1_544" lv_1="710230|1"/>
+  <starexp id="545" name="T.bàn chính_1_545" lv_1="798875|1"/>
+  <starexp id="546" name="T.bàn chính_1_546" lv_1="889725|1"/>
+  <starexp id="547" name="T.bàn chính_1_547" lv_1="980680|1"/>
+  <starexp id="548" name="T.bàn chính_1_548" lv_1="1074085|1"/>
+  <starexp id="549" name="T.bàn chính_1_549" lv_1="1167380|1"/>
+  <starexp id="550" name="T.bàn chính_1_550" lv_1="1263380|1"/>
+  <starexp id="551" name="T.bàn chính_1_551" lv_1="482250|1"/>
+  <starexp id="552" name="T.bàn chính_1_552" lv_1="574245|1"/>
+  <starexp id="553" name="T.bàn chính_1_553" lv_1="666760|1"/>
+  <starexp id="554" name="T.bàn chính_1_554" lv_1="761360|1"/>
+  <starexp id="555" name="T.bàn chính_1_555" lv_1="856270|1"/>
+  <starexp id="556" name="T.bàn chính_1_556" lv_1="953515|1"/>
+  <starexp id="557" name="T.bàn chính_1_557" lv_1="1050845|1"/>
+  <starexp id="558" name="T.bàn chính_1_558" lv_1="1150775|1"/>
+  <starexp id="559" name="T.bàn chính_1_559" lv_1="1250565|1"/>
+  <starexp id="560" name="T.bàn chính_1_560" lv_1="1353220|1"/>
+  <starexp id="561" name="T.bàn chính_1_561" lv_1="516475|1"/>
+  <starexp id="562" name="T.bàn chính_1_562" lv_1="614915|1"/>
+  <starexp id="563" name="T.bàn chính_1_563" lv_1="713890|1"/>
+  <starexp id="564" name="T.bàn chính_1_564" lv_1="815065|1"/>
+  <starexp id="565" name="T.bàn chính_1_565" lv_1="916550|1"/>
+  <starexp id="566" name="T.bàn chính_1_566" lv_1="1020500|1"/>
+  <starexp id="567" name="T.bàn chính_1_567" lv_1="1124530|1"/>
+  <starexp id="568" name="T.bàn chính_1_568" lv_1="1231300|1"/>
+  <starexp id="569" name="T.bàn chính_1_569" lv_1="1337905|1"/>
+  <starexp id="570" name="T.bàn chính_1_570" lv_1="1447530|1"/>
+  <starexp id="571" name="T.bàn chính_1_571" lv_1="552400|1"/>
+  <starexp id="572" name="T.bàn chính_1_572" lv_1="657600|1"/>
+  <starexp id="573" name="T.bàn chính_1_573" lv_1="763350|1"/>
+  <starexp id="574" name="T.bàn chính_1_574" lv_1="871420|1"/>
+  <starexp id="575" name="T.bàn chính_1_575" lv_1="979805|1"/>
+  <starexp id="576" name="T.bàn chính_1_576" lv_1="1090785|1"/>
+  <starexp id="577" name="T.bàn chính_1_577" lv_1="1201830|1"/>
+  <starexp id="578" name="T.bàn chính_1_578" lv_1="1315770|1"/>
+  <starexp id="579" name="T.bàn chính_1_579" lv_1="1429510|1"/>
+  <starexp id="580" name="T.bàn chính_1_580" lv_1="1546450|1"/>
+  <starexp id="581" name="T.bàn chính_1_581" lv_1="590080|1"/>
+  <starexp id="582" name="T.bàn chính_1_582" lv_1="702360|1"/>
+  <starexp id="583" name="T.bàn chính_1_583" lv_1="815215|1"/>
+  <starexp id="584" name="T.bàn chính_1_584" lv_1="930510|1"/>
+  <starexp id="585" name="T.bàn chính_1_585" lv_1="1046115|1"/>
+  <starexp id="586" name="T.bàn chính_1_586" lv_1="1164465|1"/>
+  <starexp id="587" name="T.bàn chính_1_587" lv_1="1282860|1"/>
+  <starexp id="588" name="T.bàn chính_1_588" lv_1="1404300|1"/>
+  <starexp id="589" name="T.bàn chính_1_589" lv_1="1525520|1"/>
+  <starexp id="590" name="T.bàn chính_1_590" lv_1="1650105|1"/>
+  <starexp id="591" name="T.bàn chính_1_591" lv_1="629560|1"/>
+  <starexp id="592" name="T.bàn chính_1_592" lv_1="749265|1"/>
+  <starexp id="593" name="T.bàn chính_1_593" lv_1="869555|1"/>
+  <starexp id="594" name="T.bàn chính_1_594" lv_1="992410|1"/>
+  <starexp id="595" name="T.bàn chính_1_595" lv_1="1115580|1"/>
+  <starexp id="596" name="T.bàn chính_1_596" lv_1="1241635|1"/>
+  <starexp id="597" name="T.bàn chính_1_597" lv_1="1367720|1"/>
+  <starexp id="598" name="T.bàn chính_1_598" lv_1="1497020|1"/>
+  <starexp id="599" name="T.bàn chính_1_599" lv_1="1626060|1"/>
+  <starexp id="600" name="T.bàn chính_1_600" lv_1="1758645|1"/>
+  <starexp id="2001" name="T.bàn thiên phú_2_1" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="2002" name="T.bàn thiên phú_2_2" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="2003" name="T.bàn thiên phú_2_3" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="2004" name="T.bàn thiên phú_2_4" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="2005" name="T.bàn thiên phú_2_5" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="2006" name="T.bàn thiên phú_2_6" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="2007" name="T.bàn thiên phú_2_7" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="2008" name="T.bàn thiên phú_2_8" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="2009" name="T.bàn thiên phú_2_9" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="2010" name="T.bàn thiên phú_2_10" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="2011" name="T.bàn thiên phú_2_11" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="2012" name="T.bàn thiên phú_2_12" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="2013" name="T.bàn thiên phú_2_13" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="2014" name="T.bàn thiên phú_2_14" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="2015" name="T.bàn thiên phú_2_15" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="2016" name="T.bàn thiên phú_2_16" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="2017" name="T.bàn thiên phú_2_17" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="2018" name="T.bàn thiên phú_2_18" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="2019" name="T.bàn thiên phú_2_19" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="2020" name="T.bàn thiên phú_2_20" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="3001" name="T.bàn thiên phú_3_1" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="3002" name="T.bàn thiên phú_3_2" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="3003" name="T.bàn thiên phú_3_3" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="3004" name="T.bàn thiên phú_3_4" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="3005" name="T.bàn thiên phú_3_5" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="3006" name="T.bàn thiên phú_3_6" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="3007" name="T.bàn thiên phú_3_7" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="3008" name="T.bàn thiên phú_3_8" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="3009" name="T.bàn thiên phú_3_9" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="3010" name="T.bàn thiên phú_3_10" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="3011" name="T.bàn thiên phú_3_11" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="3012" name="T.bàn thiên phú_3_12" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="3013" name="T.bàn thiên phú_3_13" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="3014" name="T.bàn thiên phú_3_14" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="3015" name="T.bàn thiên phú_3_15" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="3016" name="T.bàn thiên phú_3_16" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="3017" name="T.bàn thiên phú_3_17" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="3018" name="T.bàn thiên phú_3_18" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="3019" name="T.bàn thiên phú_3_19" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="3020" name="T.bàn thiên phú_3_20" lv_1="30|1" lv_2="90|1" lv_3="190|1" lv_4="330|1" lv_5="510|1" lv_6="730|1" lv_7="990|1" lv_8="1290|1" lv_9="1630|1" lv_10="2010|1"/>
+  <starexp id="4001" name="T.bàn thiên phú_4_1" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="4002" name="T.bàn thiên phú_4_2" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="4003" name="T.bàn thiên phú_4_3" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="4004" name="T.bàn thiên phú_4_4" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="4005" name="T.bàn thiên phú_4_5" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="4006" name="T.bàn thiên phú_4_6" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="4007" name="T.bàn thiên phú_4_7" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="4008" name="T.bàn thiên phú_4_8" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="4009" name="T.bàn thiên phú_4_9" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="4010" name="T.bàn thiên phú_4_10" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="4011" name="T.bàn thiên phú_4_11" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="4012" name="T.bàn thiên phú_4_12" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="4013" name="T.bàn thiên phú_4_13" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="4014" name="T.bàn thiên phú_4_14" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="4015" name="T.bàn thiên phú_4_15" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="4016" name="T.bàn thiên phú_4_16" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="4017" name="T.bàn thiên phú_4_17" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="4018" name="T.bàn thiên phú_4_18" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="4019" name="T.bàn thiên phú_4_19" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="4020" name="T.bàn thiên phú_4_20" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="5001" name="T.bàn thiên phú_5_1" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="5002" name="T.bàn thiên phú_5_2" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="5003" name="T.bàn thiên phú_5_3" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="5004" name="T.bàn thiên phú_5_4" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="5005" name="T.bàn thiên phú_5_5" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="5006" name="T.bàn thiên phú_5_6" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="5007" name="T.bàn thiên phú_5_7" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="5008" name="T.bàn thiên phú_5_8" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="5009" name="T.bàn thiên phú_5_9" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="5010" name="T.bàn thiên phú_5_10" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="5011" name="T.bàn thiên phú_5_11" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="5012" name="T.bàn thiên phú_5_12" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="5013" name="T.bàn thiên phú_5_13" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="5014" name="T.bàn thiên phú_5_14" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="5015" name="T.bàn thiên phú_5_15" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="5016" name="T.bàn thiên phú_5_16" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="5017" name="T.bàn thiên phú_5_17" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="5018" name="T.bàn thiên phú_5_18" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="5019" name="T.bàn thiên phú_5_19" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="5020" name="T.bàn thiên phú_5_20" lv_1="40|1" lv_2="130|1" lv_3="280|1" lv_4="490|1" lv_5="760|1" lv_6="1090|1" lv_7="1480|1" lv_8="1930|1" lv_9="2440|1" lv_10="3010|1"/>
+  <starexp id="6001" name="T.bàn thiên phú_6_1" lv_1="55|1" lv_2="190|1" lv_3="415|1" lv_4="730|1" lv_5="1135|1" lv_6="1630|1" lv_7="2215|1" lv_8="2890|1" lv_9="3655|1" lv_10="4510|1"/>
+  <starexp id="6002" name="T.bàn thiên phú_6_2" lv_1="55|1" lv_2="190|1" lv_3="415|1" lv_4="730|1" lv_5="1135|1" lv_6="1630|1" lv_7="2215|1" lv_8="2890|1" lv_9="3655|1" lv_10="4510|1"/>
+  <starexp id="6003" name="T.bàn thiên phú_6_3" lv_1="55|1" lv_2="190|1" lv_3="415|1" lv_4="730|1" lv_5="1135|1" lv_6="1630|1" lv_7="2215|1" lv_8="2890|1" lv_9="3655|1" lv_10="4510|1"/>
+  <starexp id="6004" name="T.bàn thiên phú_6_4" lv_1="55|1" lv_2="190|1" lv_3="415|1" lv_4="730|1" lv_5="1135|1" lv_6="1630|1" lv_7="2215|1" lv_8="2890|1" lv_9="3655|1" lv_10="4510|1"/>
+  <starexp id="6005" name="T.bàn thiên phú_6_5" lv_1="55|1" lv_2="190|1" lv_3="415|1" lv_4="730|1" lv_5="1135|1" lv_6="1630|1" lv_7="2215|1" lv_8="2890|1" lv_9="3655|1" lv_10="4510|1"/>
+  <starexp id="6006" name="T.bàn thiên phú_6_6" lv_1="55|1" lv_2="190|1" lv_3="415|1" lv_4="730|1" lv_5="1135|1" lv_6="1630|1" lv_7="2215|1" lv_8="2890|1" lv_9="3655|1" lv_10="4510|1"/>
+  <starexp id="6007" name="T.bàn thiên phú_6_7" lv_1="55|1" lv_2="190|1" lv_3="415|1" lv_4="730|1" lv_5="1135|1" lv_6="1630|1" lv_7="2215|1" lv_8="2890|1" lv_9="3655|1" lv_10="4510|1"/>
+  <starexp id="6008" name="T.bàn thiên phú_6_8" lv_1="55|1" lv_2="190|1" lv_3="415|1" lv_4="730|1" lv_5="1135|1" lv_6="1630|1" lv_7="2215|1" lv_8="2890|1" lv_9="3655|1" lv_10="4510|1"/>
+  <starexp id="6009" name="T.bàn thiên phú_6_9" lv_1="55|1" lv_2="190|1" lv_3="415|1" lv_4="730|1" lv_5="1135|1" lv_6="1630|1" lv_7="2215|1" lv_8="2890|1" lv_9="3655|1" lv_10="4510|1"/>
+  <starexp id="6010" name="T.bàn thiên phú_6_10" lv_1="100|1" lv_2="370|1" lv_3="820|1" lv_4="1450|1" lv_5="2260|1" lv_6="3250|1" lv_7="4420|1" lv_8="5770|1" lv_9="7300|1" lv_10="9010|1"/>
+  <starexp id="6011" name="T.bàn thiên phú_6_11" lv_1="55|1" lv_2="190|1" lv_3="415|1" lv_4="730|1" lv_5="1135|1" lv_6="1630|1" lv_7="2215|1" lv_8="2890|1" lv_9="3655|1" lv_10="4510|1"/>
+  <starexp id="6012" name="T.bàn thiên phú_6_12" lv_1="55|1" lv_2="190|1" lv_3="415|1" lv_4="730|1" lv_5="1135|1" lv_6="1630|1" lv_7="2215|1" lv_8="2890|1" lv_9="3655|1" lv_10="4510|1"/>
+  <starexp id="6013" name="T.bàn thiên phú_6_13" lv_1="55|1" lv_2="190|1" lv_3="415|1" lv_4="730|1" lv_5="1135|1" lv_6="1630|1" lv_7="2215|1" lv_8="2890|1" lv_9="3655|1" lv_10="4510|1"/>
+  <starexp id="6014" name="T.bàn thiên phú_6_14" lv_1="55|1" lv_2="190|1" lv_3="415|1" lv_4="730|1" lv_5="1135|1" lv_6="1630|1" lv_7="2215|1" lv_8="2890|1" lv_9="3655|1" lv_10="4510|1"/>
+  <starexp id="6015" name="T.bàn thiên phú_6_15" lv_1="55|1" lv_2="190|1" lv_3="415|1" lv_4="730|1" lv_5="1135|1" lv_6="1630|1" lv_7="2215|1" lv_8="2890|1" lv_9="3655|1" lv_10="4510|1"/>
+  <starexp id="6016" name="T.bàn thiên phú_6_16" lv_1="55|1" lv_2="190|1" lv_3="415|1" lv_4="730|1" lv_5="1135|1" lv_6="1630|1" lv_7="2215|1" lv_8="2890|1" lv_9="3655|1" lv_10="4510|1"/>
+  <starexp id="6017" name="T.bàn thiên phú_6_17" lv_1="55|1" lv_2="190|1" lv_3="415|1" lv_4="730|1" lv_5="1135|1" lv_6="1630|1" lv_7="2215|1" lv_8="2890|1" lv_9="3655|1" lv_10="4510|1"/>
+  <starexp id="6018" name="T.bàn thiên phú_6_18" lv_1="55|1" lv_2="190|1" lv_3="415|1" lv_4="730|1" lv_5="1135|1" lv_6="1630|1" lv_7="2215|1" lv_8="2890|1" lv_9="3655|1" lv_10="4510|1"/>
+  <starexp id="6019" name="T.bàn thiên phú_6_19" lv_1="55|1" lv_2="190|1" lv_3="415|1" lv_4="730|1" lv_5="1135|1" lv_6="1630|1" lv_7="2215|1" lv_8="2890|1" lv_9="3655|1" lv_10="4510|1"/>
+  <starexp id="6020" name="T.bàn thiên phú_6_20" lv_1="55|1" lv_2="190|1" lv_3="415|1" lv_4="730|1" lv_5="1135|1" lv_6="1630|1" lv_7="2215|1" lv_8="2890|1" lv_9="3655|1" lv_10="4510|1"/>
+  <starexp id="7001" name="T.bàn thiên phú_7_1" lv_1="70|1" lv_2="250|1" lv_3="550|1" lv_4="970|1" lv_5="1510|1" lv_6="2170|1" lv_7="2950|1" lv_8="3850|1" lv_9="4870|1" lv_10="6010|1"/>
+  <starexp id="7002" name="T.bàn thiên phú_7_2" lv_1="70|1" lv_2="250|1" lv_3="550|1" lv_4="970|1" lv_5="1510|1" lv_6="2170|1" lv_7="2950|1" lv_8="3850|1" lv_9="4870|1" lv_10="6010|1"/>
+  <starexp id="7003" name="T.bàn thiên phú_7_3" lv_1="70|1" lv_2="250|1" lv_3="550|1" lv_4="970|1" lv_5="1510|1" lv_6="2170|1" lv_7="2950|1" lv_8="3850|1" lv_9="4870|1" lv_10="6010|1"/>
+  <starexp id="7004" name="T.bàn thiên phú_7_4" lv_1="70|1" lv_2="250|1" lv_3="550|1" lv_4="970|1" lv_5="1510|1" lv_6="2170|1" lv_7="2950|1" lv_8="3850|1" lv_9="4870|1" lv_10="6010|1"/>
+  <starexp id="7005" name="T.bàn thiên phú_7_5" lv_1="70|1" lv_2="250|1" lv_3="550|1" lv_4="970|1" lv_5="1510|1" lv_6="2170|1" lv_7="2950|1" lv_8="3850|1" lv_9="4870|1" lv_10="6010|1"/>
+  <starexp id="7006" name="T.bàn thiên phú_7_6" lv_1="70|1" lv_2="250|1" lv_3="550|1" lv_4="970|1" lv_5="1510|1" lv_6="2170|1" lv_7="2950|1" lv_8="3850|1" lv_9="4870|1" lv_10="6010|1"/>
+  <starexp id="7007" name="T.bàn thiên phú_7_7" lv_1="70|1" lv_2="250|1" lv_3="550|1" lv_4="970|1" lv_5="1510|1" lv_6="2170|1" lv_7="2950|1" lv_8="3850|1" lv_9="4870|1" lv_10="6010|1"/>
+  <starexp id="7008" name="T.bàn thiên phú_7_8" lv_1="70|1" lv_2="250|1" lv_3="550|1" lv_4="970|1" lv_5="1510|1" lv_6="2170|1" lv_7="2950|1" lv_8="3850|1" lv_9="4870|1" lv_10="6010|1"/>
+  <starexp id="7009" name="T.bàn thiên phú_7_9" lv_1="70|1" lv_2="250|1" lv_3="550|1" lv_4="970|1" lv_5="1510|1" lv_6="2170|1" lv_7="2950|1" lv_8="3850|1" lv_9="4870|1" lv_10="6010|1"/>
+  <starexp id="7010" name="T.bàn thiên phú_7_10" lv_1="130|1" lv_2="490|1" lv_3="1090|1" lv_4="1930|1" lv_5="3010|1" lv_6="4330|1" lv_7="5890|1" lv_8="7690|1" lv_9="9730|1" lv_10="12010|1"/>
+  <starexp id="7011" name="T.bàn thiên phú_7_11" lv_1="130|1" lv_2="490|1" lv_3="1090|1" lv_4="1930|1" lv_5="3010|1" lv_6="4330|1" lv_7="5890|1" lv_8="7690|1" lv_9="9730|1" lv_10="12010|1"/>
+  <starexp id="7012" name="T.bàn thiên phú_7_12" lv_1="130|1" lv_2="490|1" lv_3="1090|1" lv_4="1930|1" lv_5="3010|1" lv_6="4330|1" lv_7="5890|1" lv_8="7690|1" lv_9="9730|1" lv_10="12010|1"/>
+  <starexp id="7013" name="T.bàn thiên phú_7_13" lv_1="130|1" lv_2="490|1" lv_3="1090|1" lv_4="1930|1" lv_5="3010|1" lv_6="4330|1" lv_7="5890|1" lv_8="7690|1" lv_9="9730|1" lv_10="12010|1"/>
+  <starexp id="7014" name="T.bàn thiên phú_7_14" lv_1="130|1" lv_2="490|1" lv_3="1090|1" lv_4="1930|1" lv_5="3010|1" lv_6="4330|1" lv_7="5890|1" lv_8="7690|1" lv_9="9730|1" lv_10="12010|1"/>
+  <starexp id="7015" name="T.bàn thiên phú_7_15" lv_1="130|1" lv_2="490|1" lv_3="1090|1" lv_4="1930|1" lv_5="3010|1" lv_6="4330|1" lv_7="5890|1" lv_8="7690|1" lv_9="9730|1" lv_10="12010|1"/>
+  <starexp id="7016" name="T.bàn thiên phú_7_16" lv_1="130|1" lv_2="490|1" lv_3="1090|1" lv_4="1930|1" lv_5="3010|1" lv_6="4330|1" lv_7="5890|1" lv_8="7690|1" lv_9="9730|1" lv_10="12010|1"/>
+  <starexp id="7017" name="T.bàn thiên phú_7_17" lv_1="130|1" lv_2="490|1" lv_3="1090|1" lv_4="1930|1" lv_5="3010|1" lv_6="4330|1" lv_7="5890|1" lv_8="7690|1" lv_9="9730|1" lv_10="12010|1"/>
+  <starexp id="7018" name="T.bàn thiên phú_7_18" lv_1="130|1" lv_2="490|1" lv_3="1090|1" lv_4="1930|1" lv_5="3010|1" lv_6="4330|1" lv_7="5890|1" lv_8="7690|1" lv_9="9730|1" lv_10="12010|1"/>
+  <starexp id="7019" name="T.bàn thiên phú_7_19" lv_1="130|1" lv_2="490|1" lv_3="1090|1" lv_4="1930|1" lv_5="3010|1" lv_6="4330|1" lv_7="5890|1" lv_8="7690|1" lv_9="9730|1" lv_10="12010|1"/>
+  <starexp id="7020" name="T.bàn thiên phú_7_20" lv_1="130|1" lv_2="490|1" lv_3="1090|1" lv_4="1930|1" lv_5="3010|1" lv_6="4330|1" lv_7="5890|1" lv_8="7690|1" lv_9="9730|1" lv_10="12010|1"/>
+</root>

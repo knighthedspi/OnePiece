@@ -1,0 +1,22 @@
+<worldResBattleTimeConfig>
+	<firstSignupStartTime>
+		<year>2012</year>
+		<month>4</month>
+		<day>1</day>
+		<hour>20</hour>
+		<minute>0</minute>
+		<second>0</second>
+	</firstSignupStartTime>
+	<circle>172800</circle>
+	<signupCD>172800</signupCD>
+	<canSignupTime>86400</canSignupTime>
+	<signupOverRestTime>82800</signupOverRestTime>
+	
+	<fight1StartTime>169200</fight1StartTime>
+	<fight2StartTime>170400</fight2StartTime>
+	<battleTime>600</battleTime>
+
+	<fightOverRestTime>600</fightOverRestTime>
+	<challengeTimeSpan>240</challengeTimeSpan>
+	<challengeTimes>4</challengeTimes>
+</worldResBattleTimeConfig>

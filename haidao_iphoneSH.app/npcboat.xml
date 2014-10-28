@@ -1,0 +1,12 @@
+﻿<root>
+  <npcboat id="1" mid="baji" quality="2" return_time="1800" npc_name="Băng Buggy" npc_icon="samll_10008" loot_num="9999" winer_get="0|50000,1|100" loser_get="0|25000,1|50" loot_goods="" arms_id="15001,15002,15003" arms_num="50000"/>
+  <npcboat id="2" mid="kelike" quality="3" return_time="1800" npc_name="Băng Krieg" npc_icon="samll_10011" loot_num="9999" winer_get="0|60000,1|125" loser_get="0|30000,1|60" loot_goods="" arms_id="15004,15005,15006" arms_num="45000"/>
+  <npcboat id="3" mid="baluoke" quality="4" return_time="1800" npc_name="Baroque Work" npc_icon="samll_10044" loot_num="9999" winer_get="0|70000,1|150" loser_get="0|35000,1|70" loot_goods="" arms_id="15007,15008,15009" arms_num="40000"/>
+  <npcboat id="4" mid="ainilu" quality="5" return_time="1800" npc_name="Băng Enel" npc_icon="samll_10045" loot_num="9999" winer_get="0|80000,1|175" loser_get="0|40000,1|80" loot_goods="" arms_id="15010,15011,15012" arms_num="35000"/>
+  <npcboat id="5" mid="CP9" quality="6" return_time="1800" npc_name="Tổ chức CP9" npc_icon="samll_luqi" loot_num="9999" winer_get="0|90000,1|200" loser_get="0|45000,1|100" loot_goods="" arms_id="15013,15014,15015" arms_num="30000"/>
+  <npcboat id="6" mid="6" quality="6" return_time="1800" npc_name="Băng Buggy_6" npc_icon="" loot_num="1" winer_get="0|10000,1|100" loser_get="0|10000,1|100" loot_goods="" arms_id="15001,15002,15003" arms_num="20000"/>
+  <npcboat id="7" mid="7" quality="6" return_time="1800" npc_name="Băng Buggy_7" npc_icon="" loot_num="1" winer_get="0|10000,1|100" loser_get="0|10000,1|100" loot_goods="" arms_id="15001,15002,15003" arms_num="20000"/>
+  <npcboat id="8" mid="8" quality="6" return_time="1800" npc_name="Băng Buggy_8" npc_icon="" loot_num="1" winer_get="0|10000,1|100" loser_get="0|10000,1|100" loot_goods="" arms_id="15001,15002,15003" arms_num="20000"/>
+  <npcboat id="9" mid="9" quality="6" return_time="1800" npc_name="Băng Buggy_9" npc_icon="" loot_num="1" winer_get="0|10000,1|100" loser_get="0|10000,1|100" loot_goods="" arms_id="15001,15002,15003" arms_num="20000"/>
+  <npcboat id="10" mid="10" quality="6" return_time="1800" npc_name="Băng Buggy_10" npc_icon="" loot_num="1" winer_get="0|10000,1|100" loser_get="0|10000,1|100" loot_goods="" arms_id="15001,15002,15003" arms_num="20000"/>
+</root>

@@ -1,0 +1,8 @@
+﻿<roles>
+<role id = "1" name="Thiếu niên" sex="1" desc="Thiếu niên sống trên 1 hòn đảo, tách biệt thế giới bên ngoài. Để khôi phục hòn đảo, cậu bé đã đi tìm 'Thuyền báu' trong truyền thuyết" uiID="" icon="shaonian.png" halfBodyID="halfBody/2.png" halfbody2="53" bodyID="body/1.png" rewardIcon="1.png" x="40" y="100" imgID="10" htid="11002"/>
+<role id = "2" name="Công chúa" sex="2" desc="Thiếu nữ đến từ 1 thị trấn ven biển, cùng anh trai. Anh trai ăn phải trái ác quỷ, để cứu anh, cô gái đã bước lên con đường mạo hiểm" uiID="" icon="luoli.png" halfBodyID="halfBody/5.png" halfbody2="56" bodyID="body/1.png" rewardIcon="2.png" x="40" y="100" imgID="13" htid="11001"/>
+<role id = "3" name="Điển trai" sex="1" desc="Quý tộc Alabasta, phiền não vì không ai hiểu được vẻ đẹp của anh ta" uiID="" icon="niaonan.png" halfBodyID="halfBody/3.png" halfbody2="54" bodyID="body/1.png" rewardIcon="3.png" x="40" y="100" imgID="11" htid="11003"/>
+<role id = "4" name="Thiếu nữ" sex="2" desc="Cô gái lưu lạc tới Skypie trên biểm lam sau đại loạn thần Enel" uiID="" icon="shaonv.png" halfBodyID="halfBody/1.png" halfbody2="52" bodyID="body/1.png" rewardIcon="4.png" x="40" y="100" imgID="14" htid="11006"/>
+<role id = "5" name="Coldboy" sex="1" desc="Người bắn tỉa, luyện tập mỗi ngày cho đến lúc bách phát bách trúng" uiID="" icon="qiangshou.png" halfBodyID="halfBody/4.png" halfbody2="55" bodyID="body/1.png" rewardIcon="5.png" x="40" y="100" imgID="12" htid="11005"/>
+<role id = "6" name="Roya" sex="2" desc="Là 1 cựu hải quân, tác phong quyết liệt, năng lực xuất chúng" uiID="" icon="yujie.png" halfBodyID="halfBody/6.png" halfbody2="57" bodyID="halfBody/6.png" rewardIcon="6.png" x="40" y="100" imgID="15" htid="11004"/>
+</roles>

@@ -1,0 +1,22 @@
+<root>
+  <reward level="1" pay="5000" nextLv_need="500000"/>
+  <reward level="2" pay="10000" nextLv_need="2000000"/>
+  <reward level="3" pay="15000" nextLv_need="4500000"/>
+  <reward level="4" pay="20000" nextLv_need="8000000"/>
+  <reward level="5" pay="25000" nextLv_need="12500000"/>
+  <reward level="6" pay="30000" nextLv_need="18000000"/>
+  <reward level="7" pay="35000" nextLv_need="24500000"/>
+  <reward level="8" pay="40000" nextLv_need="32000000"/>
+  <reward level="9" pay="45000" nextLv_need="40500000"/>
+  <reward level="10" pay="50000" nextLv_need="50000000"/>
+  <reward level="11" pay="55000" nextLv_need="60500000"/>
+  <reward level="12" pay="60000" nextLv_need="72000000"/>
+  <reward level="13" pay="65000" nextLv_need="84500000"/>
+  <reward level="14" pay="70000" nextLv_need="98000000"/>
+  <reward level="15" pay="75000" nextLv_need="112500000"/>
+  <reward level="16" pay="80000" nextLv_need="128000000"/>
+  <reward level="17" pay="85000" nextLv_need="144500000"/>
+  <reward level="18" pay="90000" nextLv_need="162000000"/>
+  <reward level="19" pay="95000" nextLv_need="180500000"/>
+  <reward level="20" pay="100000" nextLv_need="200000000"/>
+</root>

@@ -1,0 +1,24 @@
+<root>
+  <gem_jifen id="1" gemColorName="Trắng 3" type="0" bombSpace="0" baseIntegral="10" iconUrl="itemSmall/exp_gem1.png" getExp="10" luckilyColor="1"/>
+  <gem_jifen id="2" gemColorName="Trắng 4" type="0" bombSpace="0" baseIntegral="30" iconUrl="itemSmall/exp_gem3.png" getExp="30" luckilyColor="1"/>
+  <gem_jifen id="3" gemColorName="Trắng 5" type="0" bombSpace="0" baseIntegral="50" iconUrl="itemSmall/exp_gem6.png" getExp="50" luckilyColor="1"/>
+  <gem_jifen id="4" gemColorName="Lục 3" type="0" bombSpace="0" baseIntegral="10" iconUrl="itemSmall/life_gem1.png" getExp="10" luckilyColor="2"/>
+  <gem_jifen id="5" gemColorName="Lục 4" type="0" bombSpace="0" baseIntegral="30" iconUrl="itemSmall/life_gem3.png" getExp="30" luckilyColor="2"/>
+  <gem_jifen id="6" gemColorName="Lục 5" type="0" bombSpace="0" baseIntegral="50" iconUrl="itemSmall/life_gem6.png" getExp="50" luckilyColor="2"/>
+  <gem_jifen id="7" gemColorName="Lam 3" type="0" bombSpace="0" baseIntegral="10" iconUrl="itemSmall/phy_def_gem1.png" getExp="10" luckilyColor="3"/>
+  <gem_jifen id="8" gemColorName="Lam 4" type="0" bombSpace="0" baseIntegral="30" iconUrl="itemSmall/phy_def_gem3.png" getExp="30" luckilyColor="3"/>
+  <gem_jifen id="9" gemColorName="Lam 5" type="0" bombSpace="0" baseIntegral="50" iconUrl="itemSmall/phy_def_gem6.png" getExp="50" luckilyColor="3"/>
+  <gem_jifen id="10" gemColorName="Vàng 3" type="0" bombSpace="0" baseIntegral="10" iconUrl="itemSmall/mag_def_gem1.png" getExp="10" luckilyColor="4"/>
+  <gem_jifen id="11" gemColorName="Vàng 4" type="0" bombSpace="0" baseIntegral="30" iconUrl="itemSmall/mag_def_gem3.png" getExp="30" luckilyColor="4"/>
+  <gem_jifen id="12" gemColorName="Vàng 5" type="0" bombSpace="0" baseIntegral="50" iconUrl="itemSmall/mag_def_gem6.png" getExp="50" luckilyColor="4"/>
+  <gem_jifen id="13" gemColorName="Đỏ 3" type="0" bombSpace="0" baseIntegral="10" iconUrl="itemSmall/phy_att_gem1.png" getExp="10" luckilyColor="5"/>
+  <gem_jifen id="14" gemColorName="Đỏ 4" type="0" bombSpace="0" baseIntegral="30" iconUrl="itemSmall/phy_att_gem3.png" getExp="30" luckilyColor="5"/>
+  <gem_jifen id="15" gemColorName="Đỏ 5" type="0" bombSpace="0" baseIntegral="50" iconUrl="itemSmall/phy_att_gem6.png" getExp="50" luckilyColor="5"/>
+  <gem_jifen id="16" gemColorName="Tím 3" type="0" bombSpace="0" baseIntegral="10" iconUrl="itemSmall/mag_att_gem1.png" getExp="10" luckilyColor="6"/>
+  <gem_jifen id="17" gemColorName="Tím 4" type="0" bombSpace="0" baseIntegral="30" iconUrl="itemSmall/mag_att_gem3.png" getExp="30" luckilyColor="6"/>
+  <gem_jifen id="18" gemColorName="Tím 5" type="0" bombSpace="0" baseIntegral="50" iconUrl="itemSmall/mag_att_gem6.png" getExp="50" luckilyColor="6"/>
+  <gem_jifen id="19" gemColorName="Cam 3" type="0" bombSpace="0" baseIntegral="10" iconUrl="itemSmall/kil_att_gem1.png" getExp="10" luckilyColor="7"/>
+  <gem_jifen id="20" gemColorName="Cam 4" type="0" bombSpace="0" baseIntegral="30" iconUrl="itemSmall/kil_att_gem3.png" getExp="30" luckilyColor="7"/>
+  <gem_jifen id="21" gemColorName="Cam 5" type="0" bombSpace="0" baseIntegral="50" iconUrl="itemSmall/kil_att_gem6.png" getExp="50" luckilyColor="7"/>
+  <gem_jifen id="22" gemColorName="Đạn 1" type="1" bombSpace="3" baseIntegral="0" iconUrl="bomb1" getExp="0" luckilyColor=""/>
+</root>

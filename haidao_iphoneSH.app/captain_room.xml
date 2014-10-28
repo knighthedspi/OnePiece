@@ -1,0 +1,3 @@
+<root>
+  <captain_room id="1" name="Phòng thuyền trưởng" info="Nâng cấp phòng giúp tăng thu nhập ra khơi." resourceID="" icon="chuanzhangshi.png" lv="1" upgradeID="1" sailingIcon="" sail_baseBelly="240" fatigue_param="0" baseSailnum="10" maxSailnum="30" basegold_num="1" growgold_num="1" timepergold="60" CD_num="0" answerID="1" subordinate_maxNumPerLv="1|20,2|40,3|70,4|100,5|120"/>
+</root>

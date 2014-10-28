@@ -1,0 +1,142 @@
+<root>
+  <foreground/>
+  <background>52.jpg</background>
+  <models>
+    <normal>
+      <model x="173" y="528">
+        <looks currentLooks="0">
+          <look modelURL="56.swf" armyID="5102"/>
+        </looks>
+      </model>
+      <model x="97" y="465">
+        <looks currentLooks="0">
+          <look modelURL="64.swf" armyID="5101"/>
+        </looks>
+      </model>
+      <model x="243" y="479">
+        <looks currentLooks="0">
+          <look modelURL="60.swf" armyID="5103"/>
+        </looks>
+      </model>
+      <model x="349" y="481">
+        <looks currentLooks="0">
+          <look modelURL="56.swf" armyID="5104"/>
+        </looks>
+      </model>
+      <model x="353" y="390">
+        <looks currentLooks="0">
+          <look modelURL="96.swf" armyID="5105"/>
+        </looks>
+      </model>
+      <model x="263" y="348">
+        <looks currentLooks="0">
+          <look modelURL="60.swf" armyID="5106"/>
+        </looks>
+      </model>
+      <model x="176" y="296">
+        <looks currentLooks="0">
+          <look modelURL="64.swf" armyID="5107"/>
+        </looks>
+      </model>
+      <model x="264" y="230">
+        <looks currentLooks="0">
+          <look modelURL="56.swf" armyID="5108"/>
+        </looks>
+      </model>
+      <model x="366" y="187">
+        <looks currentLooks="0">
+          <look modelURL="56.swf" armyID="5109"/>
+        </looks>
+      </model>
+      <model x="495" y="267">
+        <looks currentLooks="0">
+          <look modelURL="64.swf" armyID="5111"/>
+        </looks>
+      </model>
+      <model x="541" y="362">
+        <looks currentLooks="0">
+          <look modelURL="56.swf" armyID="5112"/>
+        </looks>
+      </model>
+      <model x="474" y="451">
+        <looks currentLooks="0">
+          <look modelURL="60.swf" armyID="5113"/>
+        </looks>
+      </model>
+      <model x="574" y="458">
+        <looks currentLooks="0">
+          <look modelURL="56.swf" armyID="5114"/>
+        </looks>
+      </model>
+      <model x="773" y="449">
+        <looks currentLooks="0">
+          <look modelURL="64.swf" armyID="5116"/>
+        </looks>
+      </model>
+      <model x="847" y="511">
+        <looks currentLooks="0">
+          <look modelURL="60.swf" armyID="5117"/>
+        </looks>
+      </model>
+      <model x="943" y="551">
+        <looks currentLooks="0">
+          <look modelURL="56.swf" armyID="5118"/>
+        </looks>
+      </model>
+      <model x="1027" y="472">
+        <looks currentLooks="0">
+          <look modelURL="64.swf" armyID="5119"/>
+        </looks>
+      </model>
+      <model x="897" y="306">
+        <looks currentLooks="0">
+          <look modelURL="64.swf" armyID="5121"/>
+        </looks>
+      </model>
+      <model x="783" y="311">
+        <looks currentLooks="0">
+          <look modelURL="56.swf" armyID="5122"/>
+        </looks>
+      </model>
+      <model x="674" y="276">
+        <looks currentLooks="0">
+          <look modelURL="60.swf" armyID="5123"/>
+        </looks>
+      </model>
+      <model x="741" y="192">
+        <looks currentLooks="0">
+          <look modelURL="64.swf" armyID="5124"/>
+        </looks>
+      </model>
+      <model x="862" y="189">
+        <looks currentLooks="0">
+          <look modelURL="96.swf" armyID="5125"/>
+        </looks>
+      </model>
+      <model x="486" y="162">
+        <looks currentLooks="0">
+          <look modelURL="96.swf" armyID="5110"/>
+        </looks>
+      </model>
+      <model x="670" y="445">
+        <looks currentLooks="0">
+          <look modelURL="96.swf" armyID="5115"/>
+        </looks>
+      </model>
+      <model x="948" y="390">
+        <looks currentLooks="0">
+          <look modelURL="96.swf" armyID="5120"/>
+        </looks>
+      </model>
+    </normal>
+    <special/>
+    <copyEntrance/>
+    <corps>
+      <model x="1014" y="235">
+        <looks currentLooks="0">
+          <look modelURL="80.swf" armyID="100046"/>
+        </looks>
+      </model>
+    </corps>
+  </models>
+</root>

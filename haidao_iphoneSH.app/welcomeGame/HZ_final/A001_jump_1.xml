@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="13" actionName="A001_jump_1">
+        <frameInfo frame="0">
+            <frameData bitmapName="A001_jump_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-13.000000,-122.500000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="A001_jump_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-13.000000,-122.500000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="A001_jump_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-23.000000,-122.000000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="A001_jump_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-23.000000,-122.000000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="A001_jump_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-32.000000,-122.000000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="A001_jump_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-32.000000,-122.000000" />
+        </frameInfo>
+        <frameInfo frame="6" />
+        <frameInfo frame="7" />
+        <frameInfo frame="8">
+            <frameData bitmapName="A001_jump_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-32.000000,-122.000000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="A001_jump_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-32.000000,-122.000000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="A001_jump_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-23.000000,-122.000000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="A001_jump_12" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-23.000000,-122.000000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="A001_jump_11" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="-13.000000,-122.500000" />
+        </frameInfo>
+    </action>
+</animation>

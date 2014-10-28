@@ -1,0 +1,260 @@
+﻿<root>
+  <pet_skill id="1" name="Tái sinh" icon="life_base.png" description="Lên 1 cấp tăng 150 HP" changePropertyID="1" increasePerLv="150"/>
+  <pet_skill id="2" name="kéo dài" icon="life_ratio.png" description="Lên 1 cấp tăng 0.5% HP" changePropertyID="2" increasePerLv="50"/>
+  <pet_skill id="3" name="Trọng kích" icon="phy_att_base.png" description="Lên 1 cấp tăng công 40 điểm" changePropertyID="6" increasePerLv="40"/>
+  <pet_skill id="4" name="Tụ khí" icon="ski_att_base.png" description="Lên 1 cấp tăng tất công 40 điểm" changePropertyID="7" increasePerLv="40"/>
+  <pet_skill id="5" name="Lưu tinh" icon="mag_att_base.png" description="Lên 1 cấp tăng công P 40 điểm" changePropertyID="8" increasePerLv="40"/>
+  <pet_skill id="6" name="Khiên cứng" icon="phy_def_base.png" description="Lên 1 cấp tăng thủ 20 điểm" changePropertyID="9" increasePerLv="20"/>
+  <pet_skill id="7" name="Kháng ngự" icon="ski_def_base.png" description="Lên 1 cấp tăng tất thủ 20 điểm" changePropertyID="10" increasePerLv="20"/>
+  <pet_skill id="8" name="Kiên định" icon="mag_def_base.png" description="Lên 1 cấp tăng thủ P" changePropertyID="11" increasePerLv="20"/>
+  <pet_skill id="9" name="Vuốt sắc" icon="phy_att_ratio.png" description="Lên 1 cấp tăng công 0.5%" changePropertyID="25" increasePerLv="50"/>
+  <pet_skill id="10" name="Trọng khôi" icon="ski_att_ratio.png" description="Lên 1 cấp tăng thủ 0.5%" changePropertyID="26" increasePerLv="50"/>
+  <pet_skill id="11" name="Chí mạng" icon="mag_att_ratio.png" description="Lên 1 cấp tăng tất công 0.5%" changePropertyID="27" increasePerLv="50"/>
+  <pet_skill id="12" name="Thiết bích" icon="phy_def_ratio.png" description="Lên 1 cấp tăng tất thủ 0.5%" changePropertyID="28" increasePerLv="50"/>
+  <pet_skill id="13" name="Vòng xoáy" icon="ski_def_ratio.png" description="Lên 1 cấp tăng công P 0.5%" changePropertyID="29" increasePerLv="50"/>
+  <pet_skill id="14" name="Chống cự" icon="mag_def_ratio.png" description="Lên 1 cấp tăng thủ P 0.5%" changePropertyID="30" increasePerLv="50"/>
+  <pet_skill id="1014" name="Chim phương nam" icon="nanniaotianfu.png" description="Tăng thủ P 2%" changePropertyID="30" increasePerLv="200"/>
+  <pet_skill id="1002" name="Sinh tồn" icon="luobusentianfu.png" description="Tăng  HP2 %" changePropertyID="2" increasePerLv="200"/>
+  <pet_skill id="1013" name="Trí tuệ" icon="haimaotianfu.png" description="Tăng công P 2%" changePropertyID="29" increasePerLv="200"/>
+  <pet_skill id="1012" name="Nhanh nhẹn" icon="xiutianfu.png" description="Tăng tất thủ 2%" changePropertyID="28" increasePerLv="200"/>
+  <pet_skill id="1011" name="Dũng mãnh" icon="huolitianfu.png" description="Tăng tất công 3%" changePropertyID="27" increasePerLv="300"/>
+  <pet_skill id="1009" name="Rắn uy hiếp" icon="kaxishentianfu.png" description="Tăng công 3%" changePropertyID="25" increasePerLv="300"/>
+  <pet_skill id="1010" name="Thủ hộ Laboon" icon="labutianfu.png" description="Tăng thủ 2 %" changePropertyID="26" increasePerLv="200"/>
+  <pet_skill id="1021" name="Tinh hoa Rồng" icon="julongtianfu.png" description="Tinh hoa của rồng..." changePropertyID="25|6|7|8|9|10|11|1" increasePerLv="500|80|80|80|40|40|40|300"/>
+  <pet_skill id="1022" name="Bạch tuộc" icon="zhangyutianfu.png" description="Yêu tinh biển Bắc!" changePropertyID="26|6|7|8|9|10|11|1" increasePerLv="500|80|80|80|40|40|40|300"/>
+  <pet_skill id="1023" name="Nụ hôn" icon="yangtuozhiwen.png" description="Tăng tất thủ 3%" changePropertyID="28" increasePerLv="300"/>
+  <pet_skill id="1024" name="Rau quả" icon="tuzitianfu.png" description="Tăng HP 3%, công P 3%" changePropertyID="2|29" increasePerLv="300|300"/>
+  <pet_skill id="1025" name="Tinh thần" icon="aoyunjingshen.png" description="Tăng HP 3%, thủ 3%" changePropertyID="2|26" increasePerLv="300|300"/>
+  <pet_skill id="1026" name="Mật hiệu Lucci" icon="luqianyu.png" description="Tăng HP 3%, tất công 3%" changePropertyID="2|27" increasePerLv="300|300"/>
+  <pet_skill id="1027" name="Mắt thần" icon="zhengningyanshen.png" description="Tăng HP 3%, công 3%" changePropertyID="2|25" increasePerLv="300|300"/>
+  <pet_skill id="1028" name="Chùy trăng" icon="yuetutianfu.png" description="Tăng công 100, tất công 100, công P 100, HP 1000" changePropertyID="1|6|7|8" increasePerLv="1000|100|100|100"/>
+  <pet_skill id="1029" name="Bút màu" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1030" name="Cú đánh của Gấu" icon="kumaxitianfu.png" description="+2% công, +2% tất công, +2% công P, +3% HP" changePropertyID="25|27|29|2" increasePerLv="200|200|200|300"/>
+  <pet_skill id="1031" name="Phổ biến" icon="liuxingyuansu.png" description="+2% thủ, +2% tất thủ, +2% thủ P, +2% HP, +1000 HP" changePropertyID="26|28|30|2|1" increasePerLv="200|200|200|200|1000"/>
+  <pet_skill id="1032" name="Hổ thị uy" icon="zhanhutianfu.png" description="+2% công, +2% thủ, +5% tất công, +3% tất thủ, +1% công P, +1% thủ P, +4% HP" changePropertyID="2|25|26|27|28|29|30" increasePerLv="400|200|200|500|300|100|100"/>
+  <pet_skill id="1033" name="Bá khí cửu xà" icon="jiushebaqi.png" description="+2% công, +2% thủ, +2% tất công, +2% tất thủ, +2% công P, +2% thủ P, +4% HP" changePropertyID="2|25|26|27|28|29|30" increasePerLv="400|200|200|200|200|200|200"/>
+  <pet_skill id="1034" name="Oars hình cầu" icon="aozitianfu.png" description="+50 tất công, +50 tất thủ, +1500 HP" changePropertyID="1|7|10" increasePerLv="1500|50|50"/>
+  <pet_skill id="1035" name="Bộ xương" icon="baqiulatianfu.png" description="+2% công, +2% tất công, +2% công P, +4% HP" changePropertyID="25|27|29|2" increasePerLv="200|200|200|400"/>
+  <pet_skill id="1036" name="Thiên phú 7" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1037" name="Thiên phú 8" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1038" name="Thiên phú 9" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1039" name="Thiên phú 10" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1040" name="Thiên phú 11" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1041" name="Thiên phú 12" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1042" name="Thiên phú 13" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1043" name="Thiên phú 14" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1044" name="Thiên phú 15" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1045" name="Thiên phú 16" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1046" name="Thiên phú 17" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1047" name="Thiên phú 18" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1048" name="Thiên phú 19" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1049" name="Thiên phú 20" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1050" name="Thiên phú 21" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1051" name="Thiên phú 22" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1052" name="Thiên phú 23" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1053" name="Thiên phú 24" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1054" name="Thiên phú 25" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1055" name="Thiên phú 26" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1056" name="Thiên phú 27" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1057" name="Thiên phú 28" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1058" name="Thiên phú 29" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1059" name="Thiên phú 30" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1060" name="Thiên phú 31" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1061" name="Thiên phú 32" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1062" name="Thiên phú 33" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1063" name="Thiên phú 34" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1064" name="Thiên phú 35" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1065" name="Thiên phú 36" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1066" name="Thiên phú 37" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1067" name="Thiên phú 38" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1068" name="Thiên phú 39" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1069" name="Thiên phú 40" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1070" name="Thiên phú 41" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1071" name="Thiên phú 42" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1072" name="Thiên phú 43" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1073" name="Thiên phú 44" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1074" name="Thiên phú 45" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1075" name="Thiên phú 46" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1076" name="Thiên phú 47" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1077" name="Thiên phú 48" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1078" name="Thiên phú 49" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1079" name="Thiên phú 50" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1080" name="Thiên phú 51" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1081" name="Thiên phú 52" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1082" name="Thiên phú 53" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1083" name="Thiên phú 54" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1084" name="Thiên phú 55" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1085" name="Thiên phú 56" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1086" name="Thiên phú 57" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1087" name="Thiên phú 58" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1088" name="Thiên phú 59" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1089" name="Thiên phú 60" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1090" name="Thiên phú 61" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1091" name="Thiên phú 62" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1092" name="Thiên phú 63" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1093" name="Thiên phú 64" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1094" name="Thiên phú 65" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1095" name="Thiên phú 66" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1096" name="Thiên phú 67" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1097" name="Thiên phú 68" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1098" name="Thiên phú 69" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1099" name="Thiên phú 70" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1100" name="Thiên phú 71" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1101" name="Thiên phú 72" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1102" name="Thiên phú 73" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1103" name="Thiên phú 74" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1104" name="Thiên phú 75" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1105" name="Thiên phú 76" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1106" name="Thiên phú 77" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1107" name="Thiên phú 78" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1108" name="Thiên phú 79" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1109" name="Thiên phú 80" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1110" name="Thiên phú 81" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1111" name="Thiên phú 82" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1112" name="Thiên phú 83" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1113" name="Thiên phú 84" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1114" name="Thiên phú 85" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1115" name="Thiên phú 86" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1116" name="Thiên phú 87" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1117" name="Thiên phú 88" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1118" name="Thiên phú 89" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1119" name="Thiên phú 90" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1120" name="Thiên phú 91" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1121" name="Thiên phú 92" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1122" name="Thiên phú 93" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1123" name="Thiên phú 94" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1124" name="Thiên phú 95" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1125" name="Thiên phú 96" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1126" name="Thiên phú 97" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1127" name="Thiên phú 98" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1128" name="Thiên phú 99" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1129" name="Thiên phú 100" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1130" name="Thiên phú 101" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1131" name="Thiên phú 102" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1132" name="Thiên phú 103" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1133" name="Thiên phú 104" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1134" name="Thiên phú 105" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1135" name="Thiên phú 106" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1136" name="Thiên phú 107" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1137" name="Thiên phú 108" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1138" name="Thiên phú 109" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1139" name="Thiên phú 110" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1140" name="Thiên phú 111" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1141" name="Thiên phú 112" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1142" name="Thiên phú 113" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1143" name="Thiên phú 114" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1144" name="Thiên phú 115" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1145" name="Thiên phú 116" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1146" name="Thiên phú 117" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1147" name="Thiên phú 118" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1148" name="Thiên phú 119" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1149" name="Thiên phú 120" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1150" name="Thiên phú 121" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1151" name="Thiên phú 122" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1152" name="Thiên phú 123" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1153" name="Thiên phú 124" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1154" name="Thiên phú 125" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1155" name="Thiên phú 126" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1156" name="Thiên phú 127" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1157" name="Thiên phú 128" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1158" name="Thiên phú 129" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1159" name="Thiên phú 130" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1160" name="Thiên phú 131" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1161" name="Thiên phú 132" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1162" name="Thiên phú 133" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1163" name="Thiên phú 134" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1164" name="Thiên phú 135" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1165" name="Thiên phú 136" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1166" name="Thiên phú 137" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1167" name="Thiên phú 138" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1168" name="Thiên phú 139" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1169" name="Thiên phú 140" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1170" name="Thiên phú 141" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1171" name="Thiên phú 142" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1172" name="Thiên phú 143" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1173" name="Thiên phú 144" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1174" name="Thiên phú 145" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1175" name="Thiên phú 146" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1176" name="Thiên phú 147" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1177" name="Thiên phú 148" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1178" name="Thiên phú 149" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1179" name="Thiên phú 150" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1180" name="Thiên phú 151" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1181" name="Thiên phú 152" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1182" name="Thiên phú 153" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1183" name="Thiên phú 154" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1184" name="Thiên phú 155" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1185" name="Thiên phú 156" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1186" name="Thiên phú 157" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1187" name="Thiên phú 158" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1188" name="Thiên phú 159" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1189" name="Thiên phú 160" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1190" name="Thiên phú 161" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1191" name="Thiên phú 162" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1192" name="Thiên phú 163" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1193" name="Thiên phú 164" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1194" name="Thiên phú 165" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1195" name="Thiên phú 166" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1196" name="Thiên phú 167" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1197" name="Thiên phú 168" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1198" name="Thiên phú 169" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1199" name="Thiên phú 170" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1200" name="Thiên phú 171" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1201" name="Thiên phú 172" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1202" name="Thiên phú 173" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1203" name="Thiên phú 174" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1204" name="Thiên phú 175" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1205" name="Thiên phú 176" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1206" name="Thiên phú 177" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1207" name="Thiên phú 178" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1208" name="Thiên phú 179" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1209" name="Thiên phú 180" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1210" name="Thiên phú 181" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1211" name="Thiên phú 182" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1212" name="Thiên phú 183" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1213" name="Thiên phú 184" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1214" name="Thiên phú 185" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1215" name="Thiên phú 186" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1216" name="Thiên phú 187" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1217" name="Thiên phú 188" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1218" name="Thiên phú 189" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1219" name="Thiên phú 190" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1220" name="Thiên phú 191" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1221" name="Thiên phú 192" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1222" name="Thiên phú 193" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1223" name="Thiên phú 194" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1224" name="Thiên phú 195" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1225" name="Thiên phú 196" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1226" name="Thiên phú 197" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1227" name="Thiên phú 198" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1228" name="Thiên phú 199" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="1229" name="Thiên phú 200" icon="xiongmaotianfu.png" description="Tăng 1000 HP, 3% HP" changePropertyID="1|2" increasePerLv="1000|300"/>
+  <pet_skill id="3001" name="kéo dài" icon="2nd_life_base.png" description="Lên 1 cấp tăng 300 điểm" changePropertyID="1" increasePerLv="300"/>
+  <pet_skill id="3003" name="Vuốt sắc" icon="2nd_phy_att_base.png" description="Lên 1 cấp tăng công 60 điểm" changePropertyID="6" increasePerLv="60"/>
+  <pet_skill id="3004" name="Chí mạng" icon="2nd_ski_att_base.png" description="Lên 1 cấp tăng tất công 60 điểm" changePropertyID="7" increasePerLv="60"/>
+  <pet_skill id="3005" name="Vòng xoáy" icon="2nd_mag_att_base.png" description="Lên 1 cấp tăng công P 60 điểm" changePropertyID="8" increasePerLv="60"/>
+  <pet_skill id="3006" name="Thiết bích" icon="2nd_phy_def_base.png" description="Lên 1 cấp tăng thủ 30 điểm" changePropertyID="9" increasePerLv="30"/>
+  <pet_skill id="3007" name="Phòng hộ" icon="2nd_ski_def_base.png" description="Lên 1 cấp tăng tất thủ 30 điểm" changePropertyID="10" increasePerLv="30"/>
+  <pet_skill id="3008" name="Chống cự" icon="2nd_mag_def_base.png" description="Lên 1 cấp tăng thủ P 30 điểm" changePropertyID="11" increasePerLv="30"/>
+  <pet_skill id="3011" name="Tái sinh" icon="3nd_life_base.png" description="Lên 1 cấp tăng 600 điểm" changePropertyID="1" increasePerLv="600"/>
+  <pet_skill id="3013" name="Trọng kích" icon="3nd_phy_att_base.png" description="Lên 1 cấp tăng công 80 điểm" changePropertyID="6" increasePerLv="80"/>
+  <pet_skill id="3014" name="Tụ khí" icon="3nd_ski_att_base.png" description="Lên 1 cấp tăng tất công 80 điểm" changePropertyID="7" increasePerLv="80"/>
+  <pet_skill id="3015" name="Lưu tinh" icon="3nd_mag_att_base.png" description="Lên 1 cấp tăng công P 80 điểm" changePropertyID="8" increasePerLv="80"/>
+  <pet_skill id="3016" name="Khiên cứng" icon="3nd_phy_def_base.png" description="Lên 1 cấp tăng thủ 40 điểm" changePropertyID="9" increasePerLv="40"/>
+  <pet_skill id="3017" name="Kháng ngự" icon="3nd_ski_def_base.png" description="Lên 1 cấp tăng tất thủ 40 điểm" changePropertyID="10" increasePerLv="40"/>
+  <pet_skill id="3018" name="Kiên định" icon="3nd_mag_def_base.png" description="Lên 1 cấp tăng thủ P 40 điểm" changePropertyID="11" increasePerLv="40"/>
+  <pet_skill id="3021" name="Tái sinh" icon="4nd_life_base.png" description="Lên 1 cấp tăng 900 điểm" changePropertyID="1" increasePerLv="900"/>
+  <pet_skill id="3022" name="Trọng kích" icon="4nd_phy_att_base.png" description="Lên 1 cấp tăng công 100 điểm" changePropertyID="6" increasePerLv="100"/>
+  <pet_skill id="3023" name="Tụ khí" icon="4nd_ski_att_base.png" description="Lên 1 cấp tăng tất công 100 điểm" changePropertyID="7" increasePerLv="100"/>
+  <pet_skill id="3024" name="Lưu tinh" icon="4nd_mag_att_base.png" description="Lên 1 cấp tăng công P 100 điểm" changePropertyID="8" increasePerLv="100"/>
+  <pet_skill id="3025" name="Khiên cứng" icon="4nd_phy_def_base.png" description="Lên 1 cấp tăng thủ 50 điểm" changePropertyID="9" increasePerLv="50"/>
+  <pet_skill id="3026" name="Kháng ngự" icon="4nd_ski_def_base.png" description="Lên 1 cấp tăng tất thủ 50 điểm" changePropertyID="10" increasePerLv="50"/>
+  <pet_skill id="3027" name="Kiên định" icon="4nd_mag_def_base.png" description="Lên 1 cấp tăng thủ P 50 điểm" changePropertyID="11" increasePerLv="50"/>
+  <pet_skill id="4001" name="Sinh trưởng" icon="4nd_life_base.png" description="Lên 1 cấp tăng 0.5%" changePropertyID="2" increasePerLv="50"/>
+  <pet_skill id="4002" name="Trữ lực" icon="4nd_phy_att_base.png" description="Lên 1 cấp tăng công 0.5%" changePropertyID="25" increasePerLv="50"/>
+  <pet_skill id="4003" name="Nhẫn nại" icon="4nd_phy_def_base.png" description="Lên 1 cấp tăng thủ 0.5%" changePropertyID="26" increasePerLv="50"/>
+  <pet_skill id="4004" name="Tu luyện" icon="4nd_ski_att_base.png" description="Lên 1 cấp tăng tất công 0.5%" changePropertyID="27" increasePerLv="50"/>
+  <pet_skill id="4005" name="Nhanh nhẹn" icon="4nd_ski_def_base.png" description="Lên 1 cấp tăng tất thủ 0.5%" changePropertyID="28" increasePerLv="50"/>
+  <pet_skill id="4006" name="Thông linh" icon="4nd_mag_att_base.png" description="Lên 1 cấp tăng công P 0.5%" changePropertyID="29" increasePerLv="50"/>
+  <pet_skill id="4007" name="Chuyên chú" icon="4nd_mag_def_base.png" description="Lên 1 cấp tăng thủ P 0.5%" changePropertyID="30" increasePerLv="50"/>
+</root>

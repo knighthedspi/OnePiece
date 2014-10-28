@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<camp id="1" name="Biển Tây" desc="Nằm ở phía tây núi Reserve, tụ tập nhiều nhà khảo cổ học và thám hiểm. Nơi đây có hòn đảo nhiều năm trước bị chính phủ dùng đồ ma lệnh hủy diệt - O'Hara, là hải vực mà chính phủ luôn theo sát"></camp>
+	<camp id="2" name="Biển Nam" desc="Nằm ở phía nam núi Reserve, từng được thế giới chú ý đến vì có một hòn đảo nhỏ tên là Baterilla. Nghe nói đây là nơi vua hải tặc ROGER sống sau khi hoàn thành kênh đào và Ace cũng được sinh ra ở đây"></camp>
+	<camp id="3" name="Biển Bắc" desc="Nằm ở phía bắc núi Reserve, lưu truyền một truyền thuyết về Làng Vàng, nhưng nhiều người cho rằng đây là câu chuyện do tên bịp Noland bịa ra..."></camp>
+	<camp id="9999" name="Ngẫu nhiên" desc="Hệ thống chọn ngẫu nhiên một trong 3 trận doanh, sẽ có thể nhận được thưởng 100 Xu"></camp>
+</root>

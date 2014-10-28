@@ -1,0 +1,12 @@
+<root>
+  <townnpc townID="1" pubID="12" exploreID="" shopID=""/>
+  <townnpc townID="2" pubID="107" exploreID="" shopID="103"/>
+  <townnpc townID="3" pubID="213" exploreID="208" shopID="209"/>
+  <townnpc townID="4" pubID="311" exploreID="301" shopID="302"/>
+  <townnpc townID="5" pubID="411" exploreID="409" shopID="402"/>
+  <townnpc townID="6" pubID="511" exploreID="503" shopID="502"/>
+  <townnpc townID="7" pubID="611" exploreID="610" shopID="602"/>
+  <townnpc townID="8" pubID="707" exploreID="701" shopID="703"/>
+  <townnpc townID="9" pubID="807" exploreID="803" shopID="801"/>
+  <townnpc townID="10" pubID="906" exploreID="903" shopID="904"/>
+</root>

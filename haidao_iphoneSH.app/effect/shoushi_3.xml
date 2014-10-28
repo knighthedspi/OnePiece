@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="21" actionName="shoushi_3">
+        <frameInfo frame="0">
+            <frameData bitmapName="shoushi_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.450000" />
+        </frameInfo>
+        <frameInfo frame="1" />
+        <frameInfo frame="2" />
+        <frameInfo frame="3" />
+        <frameInfo frame="4" />
+        <frameInfo frame="5" />
+        <frameInfo frame="6" />
+        <frameInfo frame="7" />
+        <frameInfo frame="8" />
+        <frameInfo frame="9" />
+        <frameInfo frame="10">
+            <frameData alpha="0.6015625" bitmapName="shoushi_31" scaleX="-0.500000" scaleY="-0.500000" rotation="179.999985" position="121.199997,-38.700001" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData alpha="0.5" bitmapName="shoushi_31" scaleX="-0.666672" scaleY="-0.666672" rotation="179.999985" position="121.199997,-38.349998" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData alpha="0.40234375" bitmapName="shoushi_31" scaleX="-0.833344" scaleY="-0.833344" rotation="179.999985" position="121.199997,-38.049999" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData alpha="0.30078125" bitmapName="shoushi_31" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="121.199997,-37.700001" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData alpha="0.25" bitmapName="shoushi_31" scaleX="-1.077133" scaleY="-1.077133" rotation="179.999985" position="121.349998,-37.549999" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData alpha="0.19921875" bitmapName="shoushi_31" scaleX="-1.154282" scaleY="-1.154282" rotation="179.999985" position="121.550003,-37.349998" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData alpha="0.15234375" bitmapName="shoushi_31" scaleX="-1.231415" scaleY="-1.231415" rotation="179.999985" position="121.699997,-37.200001" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData alpha="0.1015625" bitmapName="shoushi_31" scaleX="-1.308548" scaleY="-1.308548" rotation="179.999985" position="121.849998,-37.049999" />
+        </frameInfo>
+        <frameInfo frame="18">
+            <frameData alpha="0.05078125" bitmapName="shoushi_31" scaleX="-1.385696" scaleY="-1.385696" rotation="179.999985" position="122.050003,-36.849998" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData alpha="0" bitmapName="shoushi_31" scaleX="-1.462830" scaleY="-1.462830" rotation="179.999985" position="122.199997,-36.700001" />
+        </frameInfo>
+        <frameInfo frame="20" />
+    </action>
+</animation>

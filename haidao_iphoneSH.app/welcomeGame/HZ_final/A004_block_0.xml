@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="1" actionName="A004_block_0">
+        <frameInfo frame="0">
+            <frameData bitmapName="A004_block_dingwei" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.500000,0.500000" />
+        </frameInfo>
+    </action>
+</animation>

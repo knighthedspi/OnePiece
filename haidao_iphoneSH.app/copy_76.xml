@@ -1,0 +1,142 @@
+<root>
+  <foreground/>
+  <background>76.jpg</background>
+  <models>
+    <normal>
+      <model x="258" y="534">
+        <looks currentLooks="0">
+          <look modelURL="228.swf" armyID="7501"/>
+        </looks>
+      </model>
+      <model x="214" y="453">
+        <looks currentLooks="0">
+          <look modelURL="228.swf" armyID="7502"/>
+        </looks>
+      </model>
+      <model x="283" y="396">
+        <looks currentLooks="0">
+          <look modelURL="228.swf" armyID="7503"/>
+        </looks>
+      </model>
+      <model x="229" y="317">
+        <looks currentLooks="0">
+          <look modelURL="228.swf" armyID="7504"/>
+        </looks>
+      </model>
+      <model x="318" y="265">
+        <looks currentLooks="0">
+          <look modelURL="228.swf" armyID="7505"/>
+        </looks>
+      </model>
+      <model x="436" y="299">
+        <looks currentLooks="0">
+          <look modelURL="220.swf" armyID="7506"/>
+        </looks>
+      </model>
+      <model x="484" y="186">
+        <looks currentLooks="0">
+          <look modelURL="221.swf" armyID="7507"/>
+        </looks>
+      </model>
+      <model x="573" y="188">
+        <looks currentLooks="0">
+          <look modelURL="219.swf" armyID="7508"/>
+        </looks>
+      </model>
+      <model x="551" y="314">
+        <looks currentLooks="0">
+          <look modelURL="221.swf" armyID="7510"/>
+        </looks>
+      </model>
+      <model x="665" y="299">
+        <looks currentLooks="0">
+          <look modelURL="220.swf" armyID="7509"/>
+        </looks>
+      </model>
+      <model x="615" y="407">
+        <looks currentLooks="0">
+          <look modelURL="221.swf" armyID="7511"/>
+        </looks>
+      </model>
+      <model x="502" y="445">
+        <looks currentLooks="0">
+          <look modelURL="219.swf" armyID="7512"/>
+        </looks>
+      </model>
+      <model x="417" y="516">
+        <looks currentLooks="0">
+          <look modelURL="221.swf" armyID="7513"/>
+        </looks>
+      </model>
+      <model x="475" y="596">
+        <looks currentLooks="0">
+          <look modelURL="221.swf" armyID="7514"/>
+        </looks>
+      </model>
+      <model x="594" y="590">
+        <looks currentLooks="0">
+          <look modelURL="219.swf" armyID="7515"/>
+        </looks>
+      </model>
+      <model x="678" y="570">
+        <looks currentLooks="0">
+          <look modelURL="220.swf" armyID="7516"/>
+        </looks>
+      </model>
+      <model x="760" y="513">
+        <looks currentLooks="0">
+          <look modelURL="219.swf" armyID="7517"/>
+        </looks>
+      </model>
+      <model x="760" y="398">
+        <looks currentLooks="0">
+          <look modelURL="221.swf" armyID="7518"/>
+        </looks>
+      </model>
+      <model x="873" y="409">
+        <looks currentLooks="0">
+          <look modelURL="220.swf" armyID="7519"/>
+        </looks>
+      </model>
+      <model x="941" y="528">
+        <looks currentLooks="0">
+          <look modelURL="224.swf" armyID="7520"/>
+        </looks>
+      </model>
+      <model x="1016" y="422">
+        <looks currentLooks="0">
+          <look modelURL="228.swf" armyID="7521"/>
+        </looks>
+      </model>
+      <model x="1030" y="285">
+        <looks currentLooks="0">
+          <look modelURL="228.swf" armyID="7522"/>
+        </looks>
+      </model>
+      <model x="983" y="194">
+        <looks currentLooks="0">
+          <look modelURL="228.swf" armyID="7523"/>
+        </looks>
+      </model>
+      <model x="867" y="169">
+        <looks currentLooks="0">
+          <look modelURL="228.swf" armyID="7524"/>
+        </looks>
+      </model>
+      <model x="808" y="105">
+        <looks currentLooks="0">
+          <look modelURL="228.swf" armyID="7525"/>
+        </looks>
+      </model>
+    </normal>
+    <special/>
+    <copyEntrance/>
+    <corps>
+      <model x="682" y="136">
+        <looks currentLooks="0">
+          <look modelURL="216.swf" armyID="100070"/>
+        </looks>
+      </model>
+    </corps>
+  </models>
+</root>

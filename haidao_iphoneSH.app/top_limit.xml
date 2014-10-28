@@ -1,0 +1,13 @@
+<root>
+  <top_limit id="1" name="Bếp" topLimit="30"/>
+  <top_limit id="2" name="P.bản tinh" topLimit="25"/>
+  <top_limit id="3" name="Chat" topLimit="20"/>
+  <top_limit id="4" name="Đào bảo" topLimit="15"/>
+  <top_limit id="5" name="Chế tạo" topLimit="50"/>
+  <top_limit id="6" name="Mua Beri tinh bàn" topLimit="5"/>
+  <top_limit id="7" name="Thu thập mỗi loại ALLBlue" topLimit="15"/>
+  <top_limit id="8" name="Tụ hồn Beri" topLimit="40"/>
+  <top_limit id="9" name="Tổ đội thường" topLimit="30"/>
+  <top_limit id="10" name="Nuôi AlLBlue" topLimit="14"/>
+  <top_limit id="11" name="Đặt và nhận hàng" topLimit="60"/>
+</root>

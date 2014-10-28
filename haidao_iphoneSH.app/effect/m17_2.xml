@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="18" actionName="m17_2">
+        <frameInfo frame="0">
+            <frameData bitmapName="m17_2_1" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="1.000000,-14.650000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="m17_2_1" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="1.000000,-14.650000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="m17_2_2" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="0.950000,-12.000000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData bitmapName="m17_2_2" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="0.950000,-12.000000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData bitmapName="m17_2_3" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="0.200000,-10.950000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData bitmapName="m17_2_3" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="0.200000,-10.950000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData bitmapName="m17_2_4" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="0.350000,-13.950000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData bitmapName="m17_2_4" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="0.350000,-13.950000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData bitmapName="m17_2_5" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="0.400000,-11.950000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData bitmapName="m17_2_5" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="0.400000,-11.950000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData bitmapName="m17_2_6" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-1.450000,-14.950000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData bitmapName="m17_2_6" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-1.450000,-14.950000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData bitmapName="m17_2_7" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-2.000000,-12.800000" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData bitmapName="m17_2_7" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="-2.000000,-12.800000" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData bitmapName="m17_2_8" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="1.000000,-13.800000" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData bitmapName="m17_2_8" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="1.000000,-13.800000" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData bitmapName="m17_2_9" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="0.400000,-15.750000" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData bitmapName="m17_2_9" scaleX="-2.000000" scaleY="-2.000000" rotation="179.999985" position="0.400000,-15.750000" />
+        </frameInfo>
+    </action>
+</animation>

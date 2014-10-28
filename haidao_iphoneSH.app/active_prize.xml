@@ -1,0 +1,6 @@
+<root>
+  <active_prize ID="1001" integral="20" belly="400" exp="40" gold="" prestige="0" itemid=""/>
+  <active_prize ID="1002" integral="50" belly="750" exp="75" gold="" prestige="0" itemid=""/>
+  <active_prize ID="1003" integral="80" belly="1150" exp="115" gold="" prestige="100" itemid=""/>
+  <active_prize ID="1004" integral="100" belly="1500" exp="150" gold="" prestige="200" itemid="70200|1"/>
+</root>

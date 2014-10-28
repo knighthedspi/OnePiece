@@ -1,0 +1,7 @@
+<root>
+  <portresaddtime grade="1" gold="3" execution="1" time="7200" vip="0"/>
+  <portresaddtime grade="2" gold="25" execution="1" time="14400" vip="0"/>
+  <portresaddtime grade="3" gold="60" execution="2" time="28800" vip="0"/>
+  <portresaddtime grade="4" gold="80" execution="3" time="43200" vip="4"/>
+  <portresaddtime grade="5" gold="120" execution="5" time="86400" vip="7"/>
+</root>

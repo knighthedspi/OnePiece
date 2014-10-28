@@ -1,0 +1,3 @@
+<root>
+  <card_config id="1" openlevel="80" maxplay="200" minplayer="100" matchtime="120" preparetime="30" exchange="1|20" chiptime="60" ante="100" minraise="25" maxraise="1000" wager="20000" raisevalue="25|200|500|1000" wagertimes="21" raisetimes="3" goldtime="30" addtime="10" gold="1|5|20|100" formationtime="60" cut="500" congealtime="1|5,6|6,11|7,16|8,21|9,26|10" deduction="0" buyStep="5" bankgold="100|500|1000|2000" bankchip="1000|5000|10000|20000" minUnit="10|50" matchcd="20" openTime="1|1|180000|220000,2|1|180000|220000,3|1|180000|220000,4|1|180000|220000,5|1|180000|220000,6|1|180000|220000,7|1|180000|220000" maxtime="999" buyKongdaobei="100|1000|10000|50000" wonpercentage="3000" buyVipLevel="3" broadCost="60" wordLimit="40" buyMaxNum="2000000"/>
+</root>

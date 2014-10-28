@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<!--动画帧信息表-->
+<animation>
+    <action totalFrame="25" actionName="220_xsj_5">
+        <frameInfo frame="0">
+            <frameData bitmapName="220_xsj_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.550000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="1">
+            <frameData bitmapName="220_xsj_0" scaleX="-1.000000" scaleY="-1.000000" rotation="179.999985" position="0.550000,0.500000" />
+        </frameInfo>
+        <frameInfo frame="2">
+            <frameData bitmapName="220_xsj_51" scaleX="-1.200745" scaleY="-1.200745" rotation="179.999985" position="-35.450001,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="3">
+            <frameData alpha="0.9609375" bitmapName="220_xsj_51" scaleX="-1.217438" scaleY="-1.217438" rotation="179.999985" position="-35.500000,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="4">
+            <frameData alpha="0.83984375" bitmapName="220_xsj_51" scaleX="-1.267609" scaleY="-1.267609" rotation="179.999985" position="-35.450001,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="5">
+            <frameData alpha="0.640625" bitmapName="220_xsj_51" scaleX="-1.351181" scaleY="-1.351181" rotation="179.999985" position="-35.500000,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="6">
+            <frameData alpha="0.359375" bitmapName="220_xsj_51" scaleX="-1.468185" scaleY="-1.468185" rotation="179.999985" position="-35.500000,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="7">
+            <frameData alpha="0" bitmapName="220_xsj_51" scaleX="-1.618652" scaleY="-1.618652" rotation="179.999985" position="-35.450001,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="8">
+            <frameData alpha="0" bitmapName="220_xsj_51" scaleX="-1.618652" scaleY="-1.618652" rotation="179.999985" position="-35.450001,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="9">
+            <frameData alpha="0" bitmapName="220_xsj_51" scaleX="-1.618652" scaleY="-1.618652" rotation="179.999985" position="-35.450001,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="10">
+            <frameData alpha="0" bitmapName="220_xsj_51" scaleX="-1.618652" scaleY="-1.618652" rotation="179.999985" position="-35.450001,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="11">
+            <frameData alpha="0" bitmapName="220_xsj_51" scaleX="-1.618652" scaleY="-1.618652" rotation="179.999985" position="-35.450001,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="12">
+            <frameData alpha="0" bitmapName="220_xsj_51" scaleX="-1.618652" scaleY="-1.618652" rotation="179.999985" position="-35.450001,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="13">
+            <frameData alpha="0" bitmapName="220_xsj_51" scaleX="-1.618652" scaleY="-1.618652" rotation="179.999985" position="-35.450001,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="14">
+            <frameData alpha="0" bitmapName="220_xsj_51" scaleX="-1.618652" scaleY="-1.618652" rotation="179.999985" position="-35.450001,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="15">
+            <frameData alpha="0" bitmapName="220_xsj_51" scaleX="-1.618652" scaleY="-1.618652" rotation="179.999985" position="-35.450001,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="16">
+            <frameData alpha="0" bitmapName="220_xsj_51" scaleX="-1.618652" scaleY="-1.618652" rotation="179.999985" position="-35.450001,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="17">
+            <frameData alpha="0" bitmapName="220_xsj_51" scaleX="-1.618652" scaleY="-1.618652" rotation="179.999985" position="-35.450001,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="18">
+            <frameData alpha="0" bitmapName="220_xsj_51" scaleX="-1.618652" scaleY="-1.618652" rotation="179.999985" position="-35.450001,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="19">
+            <frameData alpha="0" bitmapName="220_xsj_51" scaleX="-1.618652" scaleY="-1.618652" rotation="179.999985" position="-35.450001,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="20">
+            <frameData alpha="0" bitmapName="220_xsj_51" scaleX="-1.618652" scaleY="-1.618652" rotation="179.999985" position="-35.450001,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="21">
+            <frameData alpha="0" bitmapName="220_xsj_51" scaleX="-1.618652" scaleY="-1.618652" rotation="179.999985" position="-35.450001,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="22">
+            <frameData alpha="0" bitmapName="220_xsj_51" scaleX="-1.618652" scaleY="-1.618652" rotation="179.999985" position="-35.450001,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="23">
+            <frameData alpha="0" bitmapName="220_xsj_51" scaleX="-1.618652" scaleY="-1.618652" rotation="179.999985" position="-35.450001,-12.600000" />
+        </frameInfo>
+        <frameInfo frame="24">
+            <frameData alpha="0" bitmapName="220_xsj_51" scaleX="-1.618652" scaleY="-1.618652" rotation="179.999985" position="-35.450001,-12.600000" />
+        </frameInfo>
+    </action>
+</animation>
