@@ -22,4 +22,9 @@ public class StartView : View {
 		viewNames.Add("GamePlay",null);
 		ViewLoader.Instance.CleanLoad(viewNames);
 	}
+
+	protected override void OnOpen (params object[] parameters)
+	{
+		SoundManager.Instance.PlayBGM("main");
+	}
 }
