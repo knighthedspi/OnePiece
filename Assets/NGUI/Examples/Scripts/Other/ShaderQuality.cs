@@ -10,8 +10,7 @@ public class ShaderQuality : MonoBehaviour
 {
 	int mCurrent = 600;
 
-	void Update ()
-	{
+	void Update (){
 		int current = (QualitySettings.GetQualityLevel() + 1) * 100;
 
 		if (mCurrent != current)
