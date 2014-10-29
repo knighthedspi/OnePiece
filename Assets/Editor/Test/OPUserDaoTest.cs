@@ -22,19 +22,25 @@ namespace UnityTest{
         [Test()]
         public void TestSelect ()
         {
-            string dbpath  = Application.streamingAssetsPath + "/master.db";
+            string dbpath  = Application.streamingAssetsPath + "/user.db";
             var db = new SQLiteDB();
             db.Open(dbpath);
-			Debug.Log("I am ok");
             GenericDao<OPUser>.Instance.Drop(db);
             GenericDao<OPUser>.Instance.Create(db);
             
 			OPUser hoge = new OPUser();
-            hoge.User_id = 1;
+            hoge.Id = 1;
+			hoge.Exp = 100;
+			hoge.Health = 5;
 
             GenericDao<OPUser>.Instance.Put(db, hoge);
 
-        }
+			List<OPUser> result = GenericDao<OPUser>.Instance.Get(db, "select * from OPUser where id = 1");
+
+			Assert.AreEqual(1, result[0].Id);
+			Assert.AreEqual(100, result[0].Exp);
+			Assert.AreEqual(5, result[0].Health);
+		}
     }
 }
 

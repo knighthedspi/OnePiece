@@ -2,7 +2,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class OPLevel {
+public class OPLevelCharacter {
 	
 	private int id;
 	private string level;

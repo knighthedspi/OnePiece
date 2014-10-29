@@ -4,7 +4,7 @@ using System.Collections;
 
 public class OPUser {
 	
-	private int? user_id;
+	private int? id;
 	private string user_name;
 	private string facebook_token;
 	private int exp;
@@ -16,12 +16,12 @@ public class OPUser {
 	private string updated_at;
 	private string created_at;
 
-	public int? User_id {
+	public int? Id {
 		get {
-			return this.user_id;
+			return this.id;
 		}
 		set {
-			user_id = value;
+			id = value;
 		}
 	}
 
