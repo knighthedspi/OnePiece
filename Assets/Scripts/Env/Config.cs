@@ -14,6 +14,9 @@ public static class Config {
 	public const string           TAG_COMMON            = "CommonScene";
 	public const string           TAG_MAIN_CAMERA       = "MainCamera";
 
+	public const string			  START_VIEW 			= "Start";
+	public const string			  GAME_PLAY_VIEW 		= "GamePlay";
+
 	// TODO : define tag 
 //	public const string           TAG_MONSTER           = "Monster";
 //	public const string           TAG_UNIT              = "Unit";

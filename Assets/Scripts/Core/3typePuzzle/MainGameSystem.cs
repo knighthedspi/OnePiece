@@ -416,7 +416,8 @@ public class MainGameSystem : MonoBehaviour {
 		TweenAlpha.Begin( obj, 1.5f,  0f);
 		yield return new WaitForSeconds(2f);
 
-		Application.LoadLevel(0);
+		//Application.LoadLevel(0);
+		reloadGame();
 	}
 
 	//will be call game over
@@ -432,7 +433,13 @@ public class MainGameSystem : MonoBehaviour {
 		TweenAlpha.Begin( obj, 1.5f,  0f);
 		yield return new WaitForSeconds(2f);
 
-		Application.LoadLevel(0);
+		//Application.LoadLevel(0);
+		reloadGame();
+	}
+
+	private void reloadGame(){
+		Debug.Log("reload game" );
+		ViewLoader.Instance.CleanLoad(Config.START_VIEW, null);
 	}
 
 	//==================================

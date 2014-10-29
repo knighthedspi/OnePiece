@@ -191,7 +191,7 @@ public class ViewLoader : MonoBehaviour{
     public void DestoryViewAll (string donotDestoryView = ""){
         Dictionary<string, View> buffer = new Dictionary<string, View> (viewCaches);
         foreach (string key in buffer.Keys) {
-            if (key != donotDestoryView) {
+			if (key != donotDestoryView) {
                 View instance = viewCaches [key] as View;
                 instance.Close ();
                 Destroy (instance.gameObject);

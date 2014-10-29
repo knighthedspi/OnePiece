@@ -18,9 +18,7 @@ public class StartView : View {
 
 	private void onStartBtnClicked(){
 		Debug.Log ("start loading game");
-		var viewNames = new Dictionary<string, object[]>();
-		viewNames.Add("GamePlay",null);
-		ViewLoader.Instance.CleanLoad(viewNames);
+		ViewLoader.Instance.CleanLoad(Config.GAME_PLAY_VIEW, null);
 	}
 
 	protected override void OnOpen (params object[] parameters)
