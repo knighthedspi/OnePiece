@@ -25,6 +25,7 @@ Task nào đang làm, task của mình là gì...
 * Làm thêm màn hình mới
   * Thiết kế UI = NGUI rồi lưu ở dạng prefab trong thư mục Resources/Views
   * Xử lý UI = cách dùng class UI chung ở lớp Core
+  * Với mỗi màn hình phải viết script xử lý kế thừa lại lớp View chung
 * Ví dụ : màn hình start loading
   * thiết kế view rồi lưu prefab Start ở thư mục Resources/Views
   * xử lý event click button Start ở màn hình start loading
@@ -71,6 +72,7 @@ Project structure
   * 3typePuzzle: các scene sử dụng trong plugin 3 type puzzle (hiện đang dùng để tham khảo, sau sẽ xử lý load object bằng cách khác: thiết kế prefab để ở thư mục Resources/View)
 * Scripts: code của game
   * App : code xử lý sau này tương ứng với mỗi màn hình thì tạo thêm 1 thư mục ( tạm thời chưa có) 
+  	* Views : script xử lý cho từng màn hình 
   * Core : framework chính của game (tạm thời tham khảo UnityBase)
     * 3typePuzzle: code của plugin 3typePuzzle
     * Animation → Game Animation
