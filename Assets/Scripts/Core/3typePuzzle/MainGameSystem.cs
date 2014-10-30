@@ -54,6 +54,9 @@ public class MainGameSystem : MonoBehaviour {
 
 	public float _hintTime=5f;
 
+	//change stage type to time type
+	public int remain_time = 60;
+
 	//============================
 	//player variables!
 	//============================
@@ -78,7 +81,7 @@ public class MainGameSystem : MonoBehaviour {
 	protected List<GameObject> _hintSpr = new List<GameObject>();
 	private bool _hintDirty = true;
 	private float _hintDt = 0;
-
+	
 	// Use this for initialization
 	public void Start () {
 		if(_tilesNum.x <= 3) _tilesNum.x = 4;
@@ -443,21 +446,32 @@ public class MainGameSystem : MonoBehaviour {
 			}
 		}
 	}
-
+	
 	//update walking
 	protected void updateWorking(){
-		if(_gameState == GameState.GAME_WORK){
-			_currentStage++;
-
-			if( _maxStage < _currentStage){
-				StartCoroutine("GameClear");
-				return ;
-			}
-
+//		if(_gameState == GameState.GAME_WORK){
+//			_currentStage++;
+//
+//			if( _maxStage < _currentStage){
+//				StartCoroutine("GameClear");
+//				return ;
+//			}
+//
+//			_gameState = GameState.GAME_WORKING;
+//				_top_field.Play("InFieldWorking_NGUI_Pro");
+//			_stageLabel.text = "stage "+_currentStage.ToString()+"/"+_maxStage.ToString();
+//			_stageLabel.gameObject.GetComponent<Animator>().Play("StageLabel");
+//		}
+		Debug.Log(remain_time);
+		if(_gameState == GameState.GAME_WORK)
+		{
 			_gameState = GameState.GAME_WORKING;
-				_top_field.Play("InFieldWorking_NGUI_Pro");
-			_stageLabel.text = "stage "+_currentStage.ToString()+"/"+_maxStage.ToString();
-			_stageLabel.gameObject.GetComponent<Animator>().Play("StageLabel");
+			_top_field.Play("InFieldWorking_NGUI_Pro");
+		}
+		if(remain_time <= 0)
+		{
+			StartCoroutine("GameClear");
+			return;
 		}
 	}
 
@@ -514,14 +528,31 @@ public class MainGameSystem : MonoBehaviour {
 			}
 		}
 	}
+
+	private float time = 0;
+	public void updateTimer()
+	{
+
+		time += Time.deltaTime;
+		if (time >= 1.0)
+		{
+			remain_time --;
+			time = 0;
+		}
+	}
 	//==================================
 	// update functions end
 	//==================================
 	public void Update () {
 		updateShakingScreen();
 		updateWorking();
-	
 		updateEmptyFill();
 		updateHint();
+	}
+
+	public void FixedUpdate()
+	{
+		Debug.Log("FixedUpdate");
+		updateTimer();
 	}
 }
