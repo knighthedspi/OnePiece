@@ -14,8 +14,9 @@ public class GameSystem_LinkMatch : MainGameSystem {
 	GameObject _currentLine = null;
 
 	// Use this for initialization
-	void Start () {
+	public virtual void Start () {
 		// super-class(MainGameSystem) start function called
+		Debug.Log("gamesystem link match start");
 		base.Start();
 		_gameState = GameState.GAME_WORK;
 	}
