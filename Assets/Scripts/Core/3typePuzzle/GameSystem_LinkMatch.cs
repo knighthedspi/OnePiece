@@ -22,18 +22,10 @@ public class GameSystem_LinkMatch : MainGameSystem {
 
 	//make prefab
 	GameObject MakeDotPrefab(){
-#if(_NGUI_PRO_VERSION_)
 		return (GameObject)Instantiate(Resources.Load("Prefab/UI/NGUI Pro/Dotting"));
-#else
-		return (GameObject)Instantiate(Resources.Load("Prefab/UI/NGUI Free/Dotting"));
-#endif
 	}
 	GameObject MakeLinePrefab(){
-#if(_NGUI_PRO_VERSION_)
 		return (GameObject)Instantiate(Resources.Load("Prefab/UI/NGUI Pro/ConnectLine"));
-#else
-		return (GameObject)Instantiate(Resources.Load("Prefab/UI/NGUI Free/ConnectLine"));
-#endif
 	}
 
 	// get tiles position... 
@@ -46,13 +38,8 @@ public class GameSystem_LinkMatch : MainGameSystem {
 
 		Transform trans = _board.transform;
 		
-#if(_NGUI_PRO_VERSION_)
 		float width = _board.GetComponent<UISprite>().width;
 		float height = _board.GetComponent<UISprite>().height;
-#else
-		float width = trans.localScale.x;
-		float height = trans.localScale.y;
-#endif
 		float startX = trans.localPosition.x - width/2 + 13;
 		float startY = trans.localPosition.y - height/2 + 45;
 		float posX = (x*_tileSize.x);
@@ -75,13 +62,9 @@ public class GameSystem_LinkMatch : MainGameSystem {
 	void newCurrentLine(Vector3 p){
 		_currentLine = MakeLinePrefab();
 		_currentLine.transform.parent = _panel.transform;
-#if(_NGUI_PRO_VERSION_)
 		_currentLine.transform.localScale = new Vector3(1,1,1);
 		_currentLine.GetComponent<UISprite>().width  = 18;
 		_currentLine.GetComponent<UISprite>().height = 0;
-#else
-		_currentLine.transform.localScale = new Vector3(18,0,1);
-#endif
 		_currentLine.transform.localPosition = p;
 	}
 
@@ -93,13 +76,9 @@ public class GameSystem_LinkMatch : MainGameSystem {
 		//dot generate
 		GameObject dot = MakeDotPrefab();
 		dot.transform.parent = _panel.transform;
-#if(_NGUI_PRO_VERSION_)
 		dot.transform.localScale = new Vector3(1,1,1);
 		dot.GetComponent<UISprite>().width  = 24;
 		dot.GetComponent<UISprite>().height = 24;
-#else
-		dot.transform.localScale = new Vector3(24,24,1);
-#endif
 		dot.transform.localPosition = _b.transform.localPosition;
 
 		_stackDot.Add(dot);
@@ -156,12 +135,8 @@ public class GameSystem_LinkMatch : MainGameSystem {
 		Quaternion _target = Quaternion.Euler(0, 0, -angle);
 		_currentLine.transform.rotation = Quaternion.Slerp(_currentLine.transform.rotation, _target, 1);
 
-#if(_NGUI_PRO_VERSION_)
 		_currentLine.GetComponent<UISprite>().width = 18;
 		_currentLine.GetComponent<UISprite>().height= (int)dis;
-#else
-		_currentLine.transform.localScale = new Vector3(18,dis,0);
-#endif
 	}
 
 	//==================================

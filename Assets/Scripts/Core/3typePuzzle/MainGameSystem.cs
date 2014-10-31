@@ -54,6 +54,9 @@ public class MainGameSystem : MonoBehaviour {
 
 	public float _hintTime=5f;
 
+	//change stage type to time type
+	public int remain_time = 60;
+
 	//============================
 	//player variables!
 	//============================
@@ -78,7 +81,7 @@ public class MainGameSystem : MonoBehaviour {
 	protected List<GameObject> _hintSpr = new List<GameObject>();
 	private bool _hintDirty = true;
 	private float _hintDt = 0;
-
+	
 	// Use this for initialization
 	public void Start () {
 		if(_tilesNum.x <= 3) _tilesNum.x = 4;
@@ -103,19 +106,11 @@ public class MainGameSystem : MonoBehaviour {
 
 	//make particle
 	public GameObject MakeBlockDestroyParticle(){
-#if(_NGUI_PRO_VERSION_)
 			return (GameObject)Instantiate(Resources.Load("Prefab/particle/NGUI Pro/BlockDestroyParticle"));
-#else
-			return (GameObject)Instantiate(Resources.Load("Prefab/particle/NGUI Free/BlockDestroyParticle"));
-#endif
 	}
 
 	public GameObject MakePlayerAttackParticle(){
-#if(_NGUI_PRO_VERSION_)
 			return (GameObject)Instantiate(Resources.Load("Prefab/particle/NGUI Pro/PlayerAttackParticle"));
-#else
-			return (GameObject)Instantiate(Resources.Load("Prefab/particle/NGUI Free/PlayerAttackParticle"));
-#endif
 	}
 
 	// make new block on top y-axis
@@ -127,13 +122,9 @@ public class MainGameSystem : MonoBehaviour {
 		newBlock.transform.parent = _panel.transform;
 		newBlock.transform.localPosition = new Vector3( tilePos(x,0).x , 200 );
 
-#if(_NGUI_PRO_VERSION_)
 			newBlock.transform.localScale = new Vector2(1,1);
 			newBlock.GetComponent<UISprite>().width = (int)_tileSize.x;
 			newBlock.GetComponent<UISprite>().height = (int)_tileSize.y;
-#else
-			newBlock.transform.localScale = new Vector2(_tileSize.x,_tileSize.y);
-#endif
 
 		Block b = newBlock.GetComponent<Block>();
 		b._type = r;
@@ -244,13 +235,8 @@ public class MainGameSystem : MonoBehaviour {
 			case UIWidget.Pivot.Bottom: ax = 0.5f;ay = 0; break;
 			case UIWidget.Pivot.BottomRight: ax = 1.0f;ay = 0; break;
 		}
-#if(_NGUI_PRO_VERSION_)
 		float width = (float)spr.width;
 		float height = (float)spr.height;
-#else
-		float width = node.transform.localScale.x;
-		float height = node.transform.localScale.y;
-#endif
 
 		Vector3 nodePos = new Vector3(
 			node.transform.localPosition.x - width * ax,
@@ -299,11 +285,7 @@ public class MainGameSystem : MonoBehaviour {
 
 		if(_currentCombo > 1){
 			_descriptLabel.text = _currentCombo.ToString()+" Combo";
-#if(_NGUI_PRO_VERSION_)
 			_descriptLabel.gameObject.GetComponent<Animator>().Play("Combo_NGUI_Pro");
-#else
-			_descriptLabel.gameObject.GetComponent<Animator>().Play("Combo");
-#endif
 		}
 	}
 
@@ -368,11 +350,7 @@ public class MainGameSystem : MonoBehaviour {
 			_currentMonster._hp -= _playerAttackPoint;
 			_UI_MonsterHP.fillAmount = _currentMonster._hp / _currentMonster._maxhp;
 
-#if(_NGUI_PRO_VERSION_)
 			GameObject o = (GameObject)Instantiate(Resources.Load("Prefab/UI/NGUI Pro/DamageLabel"));
-#else
-			GameObject o = (GameObject)Instantiate(Resources.Load("Prefab/UI/NGUI Free/DamageLabel"));
-#endif
 			o.GetComponent<DamageLabel>().go(_playerAttackPoint,_panel,lastPos);
 			
 			if(_currentMonster._hp < 0){
@@ -468,25 +446,32 @@ public class MainGameSystem : MonoBehaviour {
 			}
 		}
 	}
-
+	
 	//update walking
 	protected void updateWorking(){
-		if(_gameState == GameState.GAME_WORK){
-			_currentStage++;
-
-			if( _maxStage < _currentStage){
-				StartCoroutine("GameClear");
-				return ;
-			}
-
+//		if(_gameState == GameState.GAME_WORK){
+//			_currentStage++;
+//
+//			if( _maxStage < _currentStage){
+//				StartCoroutine("GameClear");
+//				return ;
+//			}
+//
+//			_gameState = GameState.GAME_WORKING;
+//				_top_field.Play("InFieldWorking_NGUI_Pro");
+//			_stageLabel.text = "stage "+_currentStage.ToString()+"/"+_maxStage.ToString();
+//			_stageLabel.gameObject.GetComponent<Animator>().Play("StageLabel");
+//		}
+		Debug.Log(remain_time);
+		if(_gameState == GameState.GAME_WORK)
+		{
 			_gameState = GameState.GAME_WORKING;
-#if(_NGUI_PRO_VERSION_)
-				_top_field.Play("InFieldWorking_NGUI_Pro");
-#else
-				_top_field.Play("InFieldWorking");
-#endif
-			_stageLabel.text = "stage "+_currentStage.ToString()+"/"+_maxStage.ToString();
-			_stageLabel.gameObject.GetComponent<Animator>().Play("StageLabel");
+			_top_field.Play("InFieldWorking_NGUI_Pro");
+		}
+		if(remain_time <= 0)
+		{
+			StartCoroutine("GameClear");
+			return;
 		}
 	}
 
@@ -537,14 +522,22 @@ public class MainGameSystem : MonoBehaviour {
 		_hintDt+= Time.deltaTime;
 		if(_hintDt > _hintTime){
 			foreach (GameObject go in _hintSpr){
-#if (_NGUI_PRO_VERSION_)
 				go.transform.localScale = new Vector3(1,1,1);
 				go.GetComponent<UISprite>().width  = (int)_tileSize.x;
 				go.GetComponent<UISprite>().height = (int)_tileSize.y;
-#else
-				go.transform.localScale = new Vector3(_tileSize.x,_tileSize.y,1);
-#endif
 			}
+		}
+	}
+
+	private float time = 0;
+	public void updateTimer()
+	{
+
+		time += Time.deltaTime;
+		if (time >= 1.0)
+		{
+			remain_time --;
+			time = 0;
 		}
 	}
 	//==================================
@@ -553,8 +546,13 @@ public class MainGameSystem : MonoBehaviour {
 	public void Update () {
 		updateShakingScreen();
 		updateWorking();
-	
 		updateEmptyFill();
 		updateHint();
+	}
+
+	public void FixedUpdate()
+	{
+		Debug.Log("FixedUpdate");
+		updateTimer();
 	}
 }
