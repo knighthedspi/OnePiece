@@ -502,4 +502,5 @@ public class GameSystem_3Match : MainGameSystem {
 		updateThreeMatching();
 		updateTouchBoard();
 	}
+	
 }
