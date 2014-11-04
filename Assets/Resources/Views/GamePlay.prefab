@@ -642,7 +642,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400076}
-  - 114: {fileID: 11400088}
+  - 114: {fileID: 11400094}
   m_Layer: 0
   m_Name: GameSystem
   m_TagString: Untagged
@@ -1117,7 +1117,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100068}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.11888874, z: 0}
+  m_LocalPosition: {x: -1.57377815, y: -1.57376277, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400060}
@@ -1736,7 +1736,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3011
+  startingRenderQueue: 3012
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -1945,7 +1945,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3004
+  startingRenderQueue: 3010
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -2000,8 +2000,8 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mAtlas: {fileID: 11400000, guid: 328731c61fa46470c9e88d7dd88c731d, type: 2}
-  mSpriteName: haxer
+  mAtlas: {fileID: 11400000, guid: e51d939bea29a4fdd98d42816ded48ca, type: 2}
+  mSpriteName: hexa
   mFillCenter: 1
 --- !u!114 &11400022
 MonoBehaviour:
@@ -2174,7 +2174,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3009
+  startingRenderQueue: 3010
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -2268,7 +2268,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3000
+  startingRenderQueue: 3009
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -2785,7 +2785,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3004
+  startingRenderQueue: 3008
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -2940,7 +2940,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3003
+  startingRenderQueue: 3007
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -2984,7 +2984,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3007
+  startingRenderQueue: 3005
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -3101,7 +3101,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3005
+  startingRenderQueue: 3002
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -3218,7 +3218,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3009
+  startingRenderQueue: 3010
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 300, w: 200}
@@ -3262,7 +3262,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3002
+  startingRenderQueue: 3001
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -3386,7 +3386,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3001
+  startingRenderQueue: 3000
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -3456,51 +3456,6 @@ MonoBehaviour:
   mMaxLineHeight: 0
   mLineWidth: 0
   mMultiline: 1
---- !u!114 &11400088
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d1a06b56ba914af9932dca5655811af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _goldLabel: {fileID: 11400068}
-  _cashLabel: {fileID: 11400074}
-  _scoreLabel: {fileID: 11400024}
-  _hintPrefab: {fileID: 100000, guid: 20e1614b773d246d8bf65136c0e66a77, type: 2}
-  _descriptLabel: {fileID: 11400086}
-  _stageLabel: {fileID: 11400082}
-  _turnLabel: {fileID: 11400044}
-  _panel: {fileID: 100060}
-  _hintPanel: {fileID: 100078}
-  _board: {fileID: 100018}
-  _blocksPrefab:
-  - {fileID: 100000, guid: 616a15f74c3944e0ea7747fdb8105f86, type: 2}
-  - {fileID: 100000, guid: b0dfbccd104234068b415824e1038c62, type: 2}
-  - {fileID: 100000, guid: c27685419e097460cbc693e3ea29f4b6, type: 2}
-  - {fileID: 100000, guid: 2c436d3a161774c3badbe4d07ed7a583, type: 2}
-  - {fileID: 100000, guid: 63fc3dc74ebac4467902659c4e8e804f, type: 2}
-  - {fileID: 100000, guid: 7d70b047c9d774c4db389a8d009b162d, type: 2}
-  _monsterPrefab:
-  - {fileID: 100000, guid: e761289fb022a4026a9507d86f0a9347, type: 2}
-  - {fileID: 100000, guid: a98af6581d5a74543a088a9737ed1d0f, type: 2}
-  - {fileID: 100000, guid: e6a908e56a0dc43d18319cf2c37701ac, type: 2}
-  _UI_PlayerHP: {fileID: 11400016}
-  _UI_MonsterHP: {fileID: 11400058}
-  _top_field: {fileID: 9500002}
-  _tilesNum: {x: 7, y: 7}
-  _tileSize: {x: 72, y: 72}
-  _camera: {fileID: 2000000}
-  _boardPadding: {x: 22, y: 28}
-  _tilesMargin: {x: -.5, y: -7}
-  _maxStage: 5
-  _hintTime: 5
-  _playerHP: 100
-  _playerMaxHP: 100
-  _playerAttackPoint: 3
 --- !u!114 &11400090
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3558,6 +3513,51 @@ MonoBehaviour:
   mDepth: -1
   mSortingOrder: 0
   mClipOffset: {x: 0, y: 0}
+--- !u!114 &11400094
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ae035aba5ad472bbe7dad223ce371c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _goldLabel: {fileID: 11400068}
+  _cashLabel: {fileID: 11400074}
+  _scoreLabel: {fileID: 11400024}
+  _hintPrefab: {fileID: 100000, guid: 20e1614b773d246d8bf65136c0e66a77, type: 2}
+  _descriptLabel: {fileID: 11400086}
+  _stageLabel: {fileID: 11400082}
+  _turnLabel: {fileID: 11400044}
+  _panel: {fileID: 100060}
+  _hintPanel: {fileID: 100078}
+  _board: {fileID: 100018}
+  _blocksPrefab:
+  - {fileID: 100000, guid: 0ab2e381650cc4d6eb1e599ba576077c, type: 2}
+  - {fileID: 100000, guid: 67f229a0a39ff499e8158b88d6fd30bc, type: 2}
+  - {fileID: 100000, guid: 36c04b9d95c574b9cb5114b505e935ce, type: 2}
+  - {fileID: 100000, guid: d12a4acccf5fb421db17bac1c9ee1a1b, type: 2}
+  - {fileID: 100000, guid: 31ad6f32d754c4f5b88d9ca785a59b98, type: 2}
+  _monsterPrefab:
+  - {fileID: 100000, guid: e761289fb022a4026a9507d86f0a9347, type: 2}
+  - {fileID: 100000, guid: a98af6581d5a74543a088a9737ed1d0f, type: 2}
+  - {fileID: 100000, guid: e6a908e56a0dc43d18319cf2c37701ac, type: 2}
+  _UI_PlayerHP: {fileID: 11400016}
+  _UI_MonsterHP: {fileID: 11400058}
+  _top_field: {fileID: 9500002}
+  _tilesNum: {x: 7, y: 6}
+  _tileSize: {x: 72, y: 72}
+  _camera: {fileID: 2000000}
+  _boardPadding: {x: 22, y: 90}
+  _tilesMargin: {x: -.5, y: -7}
+  _maxStage: 5
+  _hintTime: 5
+  remain_time: 60
+  _playerHP: 100
+  _playerMaxHP: 100
+  _playerAttackPoint: 3
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
