@@ -462,7 +462,6 @@ public class MainGameSystem : MonoBehaviour {
 //			_stageLabel.text = "stage "+_currentStage.ToString()+"/"+_maxStage.ToString();
 //			_stageLabel.gameObject.GetComponent<Animator>().Play("StageLabel");
 //		}
-		Debug.Log(remain_time);
 		if(_gameState == GameState.GAME_WORK)
 		{
 			_gameState = GameState.GAME_WORKING;
