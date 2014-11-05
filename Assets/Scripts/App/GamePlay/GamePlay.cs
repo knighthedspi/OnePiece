@@ -48,19 +48,28 @@ public class GamePlay : GameSystem_LinkMatch {
 		_gameState = GameState.GAME_PLAYING;
 		loadCharacters();
 		updateTurnUI();
+		//#TODO update new character when one be defeated
 	}
 
 	private void loadCharacters()
 	{
-		loadCharacters(CharacterService.Instance.initCharacter(), Config.TAG_CHARACTER);
-		loadCharacters(CharacterService.Instance.initUnit(), Config.TAG_UNIT);
+		GameObject character = loadCharacters(CharacterService.Instance.initCharacter(), Config.TAG_CHARACTER);
+		GameObject monster = loadCharacters(CharacterService.Instance.initUnit(), Config.TAG_UNIT);
+		//#TODO add monster to currentMonster
+		_currentMonster = monster.GetComponent<Monster>();
+		_currentMonster.Finish = OnFinishedMonsterAnim;
+		_currentMonster.entryPlay();
 	}
 
-	private void loadCharacters(OPCharacter model, string tag)
+	private GameObject loadCharacters(OPCharacter model, string tag)
 	{
 		//#TODO load prefab by model.id
 		//#TODO load character tu model OPCharacter
 		GameObject gameObj = MonsterService.Instance.createMonster(_monsterPrefab[model.id], _panel, model.position, model.direction);
 		gameObj.tag = tag;
+		return gameObj;
 	}
+
+
+
 }
