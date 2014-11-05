@@ -627,7 +627,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400076}
   - 114: {fileID: 11400094}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: GameSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -708,7 +708,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 290.5, y: 446, z: 0}
+  m_LocalPosition: {x: 280, y: 446, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400056}
@@ -756,7 +756,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -125, z: 0}
+  m_LocalPosition: {x: 0, y: -130, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400060}
@@ -792,7 +792,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -255, y: 445, z: 0}
+  m_LocalPosition: {x: -240, y: 445, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400012}
@@ -1904,13 +1904,13 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 570
-  mHeight: 562
+  mWidth: 610
+  mHeight: 590
   mDepth: 0
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1.0142349
+  aspectRatio: 1.03389835
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
@@ -3469,18 +3469,18 @@ MonoBehaviour:
   _UI_MonsterHP: {fileID: 11400058}
   _top_field: {fileID: 9500002}
   _tilesNum: {x: 7, y: 6}
-  _tileSize: {x: 72, y: 72}
+  _tileSize: {x: 78, y: 86}
   _camera: {fileID: 2000000}
-  _boardPadding: {x: 28, y: 90}
-  _tilesMargin: {x: -2, y: -8}
+  _boardPadding: {x: 32, y: 48}
+  _tilesMargin: {x: -12, y: -8}
   _maxStage: 5
   _hintTime: 5
-  remain_time: 60
+  remain_time: 6000
   _playerHP: 100
   _playerMaxHP: 100
   _playerAttackPoint: 3
-  deltaStartX: 11
-  deltaStartY: -28
+  deltaStartX: 6
+  deltaStartY: -66
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

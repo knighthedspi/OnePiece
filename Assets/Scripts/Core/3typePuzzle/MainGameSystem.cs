@@ -522,8 +522,8 @@ public class MainGameSystem : MonoBehaviour {
 		if(_hintDt > _hintTime){
 			foreach (GameObject go in _hintSpr){
 				go.transform.localScale = new Vector3(1,1,1);
-				go.GetComponent<UISprite>().width  = (int)_tileSize.x;
-				go.GetComponent<UISprite>().height = (int)_tileSize.y;
+				go.GetComponent<UISprite>().width  = (int)_tileSize.y;
+				go.GetComponent<UISprite>().height = (int)_tileSize.x;
 			}
 		}
 	}
@@ -551,7 +551,6 @@ public class MainGameSystem : MonoBehaviour {
 
 	public void FixedUpdate()
 	{
-		Debug.Log("FixedUpdate");
 		updateTimer();
 	}
 }

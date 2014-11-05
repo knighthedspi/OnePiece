@@ -25,7 +25,7 @@ public class GamePlay : GameSystem_LinkMatch {
 		if(x >= (int)_tilesNum.x || x < 0)return new Vector2(0,0);
 		if(y >= (int)_tilesNum.y || y < 0)return new Vector2(0,0);
 		
-		float curve = x%2*40;
+		float curve = x%2*42;
 		
 		Transform trans = _board.transform;
 		
@@ -33,12 +33,13 @@ public class GamePlay : GameSystem_LinkMatch {
 		float height = _board.GetComponent<UISprite>().height;
 		float startX = trans.localPosition.x - width/2 + deltaStartX;
 		float startY = trans.localPosition.y - height/2 + deltaStartY;
-		float posX = (x*_tileSize.x);
-		float posY = ((_tilesNum.y-y-1)*(_tileSize.y));
-		return new Vector2(
-			posX + startX + _tileSize.x/2 + _boardPadding.x + _tilesMargin.x * x,
-			posY + startY + _tileSize.y/2 + _boardPadding.y + _tilesMargin.y * y + curve
-			);
+		float posX = (x*_tileSize.y);
+		float posY = ((_tilesNum.x-y-1)*(_tileSize.x));
+
+		posX = posX + startX + _tileSize.y/2 + _boardPadding.x + _tilesMargin.x * x;
+		posY = posY + startY + _tileSize.x/2 + _boardPadding.y + _tilesMargin.y * y + curve;
+
+		return new Vector2(posX , posY);
 	}
 	
 
