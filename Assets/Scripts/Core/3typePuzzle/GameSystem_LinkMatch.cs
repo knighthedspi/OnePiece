@@ -16,7 +16,6 @@ public class GameSystem_LinkMatch : MainGameSystem {
 	// Use this for initialization
 	public virtual void Start () {
 		// super-class(MainGameSystem) start function called
-		Debug.Log("gamesystem link match start");
 		base.Start();
 		_gameState = GameState.GAME_WORK;
 	}
@@ -83,6 +82,7 @@ public class GameSystem_LinkMatch : MainGameSystem {
 		dot.transform.localPosition = _b.transform.localPosition;
 
 		_stackDot.Add(dot);
+
 
 		if(_currentLine != null){
 			_stackLine.Add(_currentLine);
@@ -156,7 +156,7 @@ public class GameSystem_LinkMatch : MainGameSystem {
         		if(_currentLine != null){
         			drawConnectLine(p);
         		}
-        		if(idx.x >= 0){
+				if(idx.x >= 0){
 					Block _b = _tiles[(int)idx.x,(int)idx.y];
 					if(_stackBlock.Count == 0){
 						Push(_b);
@@ -165,7 +165,8 @@ public class GameSystem_LinkMatch : MainGameSystem {
 						Block last = _stackBlock[_stackBlock.Count - 1];
 						if(last._type == _b._type){
 							float dis = Vector2.Distance(last.transform.localPosition,_b.transform.localPosition);
-							if(dis < 85f){
+							float limit = (float) Math.Sqrt(_tileSize.x * _tileSize.x / 4 + _tileSize.y * _tileSize.y); 
+							if(dis < limit){
 								if(_stackBlock.Count > 1){
 									if(_stackBlock[_stackBlock.Count - 2] == _b){
 										Pop();
