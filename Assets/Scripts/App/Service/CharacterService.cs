@@ -5,18 +5,43 @@ using System.Collections.Generic;
 public class CharacterService{
 
 	public readonly static CharacterService Instance = new CharacterService();
-
-	//create monster function
-	public GameObject createMonster(GameObject prefab, GameObject parent, Vector3 localPosition = default(Vector3)){
-		GameObject monster = (GameObject)UnityEngine.GameObject.Instantiate(prefab);
-		monster.transform.parent = parent.transform;
-		monster.transform.localPosition = localPosition;
-		monster.transform.localScale = new Vector3(0.8f,0.8f,1);
-		return monster;
+	
+	public OPCharacter initCharacter()
+	{
+//		int id, string characterName, int levelID, Vector3 direction, Vector3 position, int soundId
+		return new OPCharacter(
+			1,
+			"Luffy 1",
+			1,
+			new Vector3(0, 0, 0), //direction
+			new Vector3(100, 290, 0), //positon
+			1
+			);
 	}
 
-//	public OPCharacter getCharacter(int id)
-//	{
-//
-//	}
+	public OPCharacter initUnit()
+	{
+		return new OPCharacter(
+			2,
+			"monster 1",
+			1,
+			new Vector3(0, 0, 0),
+			new Vector3(-100, 290, 0),
+			1
+			);
+	}
+
+
+	public OPCharacter getCharacterByLevel(int levelId)
+	{
+		//#TODO get from db
+		return initCharacter();
+	}
+
+	public OPCharacter getCurrentUnit()
+	{
+		//#TODO get from db
+		return initUnit();
+	}
+	
 }

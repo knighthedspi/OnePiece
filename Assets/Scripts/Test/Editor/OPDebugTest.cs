@@ -10,7 +10,7 @@
 using System;
 using NUnit.Framework;
 
-namespace AssemblyCSharp
+namespace OPUnitTest
 {
 		[TestFixture()]
 		public class OPDebugTest
@@ -22,4 +22,3 @@ namespace AssemblyCSharp
 				}
 		}
 }
-
