@@ -41,11 +41,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 824716321331047938afceaa56415905, type: 2}
   mSprites:
-  - name: background
+  - name: backwall
     x: 0
-    y: 1024
-    width: 576
-    height: 1024
+    y: 202
+    width: 717
+    height: 807
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: field
+    x: 836
+    y: 895
+    width: 717
+    height: 474
     borderLeft: 0
     borderRight: 0
     borderTop: 0
@@ -55,7 +68,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hexa
-    x: 577
+    x: 836
     y: 1370
     width: 692
     height: 678
@@ -67,9 +80,22 @@ MonoBehaviour:
     paddingRight: 15
     paddingTop: 0
     paddingBottom: 0
-  - name: hexagon1
+  - name: hexagon
     x: 0
-    y: 139
+    y: 1010
+    width: 835
+    height: 1038
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hexagon1
+    x: 1529
+    y: 1754
     width: 264
     height: 294
     borderLeft: 0
@@ -81,8 +107,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hexagon2
-    x: 0
-    y: 434
+    x: 836
+    y: 10
     width: 264
     height: 294
     borderLeft: 0
@@ -94,8 +120,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hexagon3
-    x: 265
-    y: 729
+    x: 836
+    y: 600
     width: 264
     height: 294
     borderLeft: 0
@@ -107,8 +133,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hexagon4
-    x: 265
-    y: 139
+    x: 1554
+    y: 1075
     width: 264
     height: 294
     borderLeft: 0
@@ -120,8 +146,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hexagon5
-    x: 0
-    y: 729
+    x: 1529
+    y: 1459
     width: 264
     height: 294
     borderLeft: 0
@@ -133,8 +159,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hexagon6
-    x: 265
-    y: 434
+    x: 836
+    y: 305
     width: 264
     height: 294
     borderLeft: 0
