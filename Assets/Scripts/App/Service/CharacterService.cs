@@ -15,8 +15,8 @@ public class CharacterService{
 		return monster;
 	}
 
-	public OPCharacter getCharacter(int id)
-	{
-
-	}
+//	public OPCharacter getCharacter(int id)
+//	{
+//
+//	}
 }
