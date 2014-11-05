@@ -12,6 +12,8 @@ public class GamePlay : GameSystem_LinkMatch {
 	public override void Start () {
 		base.Start();
 		GamePlayService.Instance.initBlock(_tilesNum, _tiles);
+		_top_field.GetComponent<Field>().Finish = OnFinishedWorking;
+//		loadCharacters();
 	}
 
 	// find hint
@@ -41,5 +43,23 @@ public class GamePlay : GameSystem_LinkMatch {
 			);
 	}
 	
+	public void OnFinishedWorking(){
+		_gameState = GameState.GAME_PLAYING;
+		loadCharacters();
+		updateTurnUI();
+	}
 
+	private void loadCharacters()
+	{
+		loadCharacters(CharacterService.Instance.initCharacter(), Config.TAG_CHARACTER);
+		loadCharacters(CharacterService.Instance.initUnit(), Config.TAG_UNIT);
+	}
+
+	private void loadCharacters(OPCharacter model, string tag)
+	{
+		//#TODO load prefab by model.id
+		//#TODO load character tu model OPCharacter
+		GameObject gameObj = MonsterService.Instance.createMonster(_monsterPrefab[model.id], _panel, model.position, model.direction);
+		gameObj.tag = tag;
+	}
 }

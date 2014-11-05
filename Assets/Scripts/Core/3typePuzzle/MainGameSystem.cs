@@ -90,7 +90,7 @@ public class MainGameSystem : MonoBehaviour {
 		_tiles = new Block[(int)_tilesNum.x,(int)_tilesNum.y];
 		_gameState = GameState.GAME_ENTRY;
 
-		_top_field.GetComponent<Field>().Finish = OnFinishedWorking;
+//		_top_field.GetComponent<Field>().Finish = OnFinishedWorking;
 
 		_goldLabel.setNumber(0);
 		_cashLabel.setNumber(0);
@@ -308,16 +308,17 @@ public class MainGameSystem : MonoBehaviour {
 	//===================================
 
 	//finish field walking animation.
-	public void OnFinishedWorking(){
-		_gameState = GameState.GAME_PLAYING;
-		GameObject obj = createMonster(UnityEngine.Random.Range(0,_monsterPrefab.Length));
-
-		_currentMonster = obj.GetComponent<Monster>();
-		_currentMonster.Finish = OnFinishedMonsterAnim;
-		_currentMonster.entryPlay();
-
-		updateTurnUI();
-	}
+//	public void OnFinishedWorking(){
+//
+//		_gameState = GameState.GAME_PLAYING;
+//		GameObject obj = createMonster(UnityEngine.Random.Range(0,_monsterPrefab.Length));
+//
+//		_currentMonster = obj.GetComponent<Monster>();
+//		_currentMonster.Finish = OnFinishedMonsterAnim;
+//		_currentMonster.entryPlay();
+//
+//		updateTurnUI();
+//	}
 
 	// finish any monster animation. 
 	public void OnFinishedMonsterAnim( string type ){
@@ -416,7 +417,7 @@ public class MainGameSystem : MonoBehaviour {
 	}
 
 	private void reloadGame(){
-		Debug.Log("reload game" );
+
 		ViewLoader.Instance.CleanLoad(Config.START_VIEW, null);
 	}
 

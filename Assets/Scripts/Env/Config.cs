@@ -18,10 +18,10 @@ public static class Config {
 	public const string			  GAME_PLAY_VIEW 		= "GamePlay";
 
 	// TODO : define tag 
-//	public const string           TAG_MONSTER           = "Monster";
-//	public const string           TAG_UNIT              = "Unit";
-//	public const string           TAG_UNTAGGED          = "Untagged";
-//	public const string           TAG_DECK              = "Deck";
+	public const string           TAG_CHARACTER         = "CHARACTER";
+	public const string           TAG_UNIT              = "Unit";
+	public const string           TAG_UNTAGGED          = "Untagged";
+	public const string           TAG_DECK              = "Deck";
 
 	// TODO : define layer
 

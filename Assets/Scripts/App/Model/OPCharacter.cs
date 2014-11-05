@@ -2,14 +2,38 @@
 using UnityEngine;
 using System.Collections;
 
-public class OPCharacter {
-	private int id;
-	private string characterName;
-	private int hp;
-	private int sp;
-	private Vector3 direction;
-	private Vector3 position;
-	int soundId;
+[System.Serializable]
+public class OPCharacter{
+	[SerializeField]
+	public int id;
+	[SerializeField]
+	public string characterName;
+	[SerializeField]
+	public int levelID;
+	[SerializeField]
+	public Vector3 direction;
+	[SerializeField]
+	public Vector3 position;
+	[SerializeField]
+	public int soundId;
+	[SerializeField]
+	public Animation animation;
+
+	public OPCharacter()
+	{
+
+	}
+
+	public OPCharacter (int id, string characterName, int levelID, Vector3 direction, Vector3 position, int soundId)
+	{
+		this.id = id;
+		this.characterName = characterName;
+		this.levelID = levelID;
+		this.direction = direction;
+		this.position = position;
+		this.soundId = soundId;
+	}
+	
 
 	public int Id {
 		get {
@@ -29,21 +53,12 @@ public class OPCharacter {
 		}
 	}
 
-	public int Hp {
+	public int LevelID {
 		get {
-			return this.hp;
+			return this.levelID;
 		}
 		set {
-			hp = value;
-		}
-	}
-
-	public int Sp {
-		get {
-			return this.sp;
-		}
-		set {
-			sp = value;
+			levelID = value;
 		}
 	}
 
@@ -74,4 +89,12 @@ public class OPCharacter {
 		}
 	}
 
+	public Animation Animation {
+		get {
+			return this.animation;
+		}
+		set {
+			animation = value;
+		}
+	}
 }

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class GamePlayService{
 
 	public readonly static GamePlayService Instance = new GamePlayService();
-
+	
 	/// <summary>
 	/// The visited boolean. check block is visited or bot
 	/// </summary>
@@ -146,5 +146,5 @@ public class GamePlayService{
 		FindMatches();
 		return best_way;
 	}
-
+	
 }
