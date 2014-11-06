@@ -33,17 +33,19 @@ public class CharacterService{
 		return null;
 	}
 
-
-	public OPCharacter getCharacterByLevel(int levelId)
+	/// <summary>
+	/// Gets the character by level.
+	/// </summary>
+	/// <returns>The character by level.</returns>
+	/// <param name="level">Level.</param>
+	public OPCharacter getCharacterByLevel(int level)
 	{
-		//#TODO get from db
-		return initCharacter();
+		return OPCharacterDAO.Instance.getCharacterByLevel(level);
 	}
 
-	public OPCharacter getCurrentUnit()
+	public OPCharacter getCurrentUnit(int exp = 1)
 	{
-		//#TODO get from db
-		return initUnit();
+		return OPCharacterDAO.Instance.getMonsterByExp(exp);
 	}
 	
 }
