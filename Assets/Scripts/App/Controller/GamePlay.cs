@@ -17,13 +17,15 @@ public class GamePlay : GameSystem_LinkMatch {
 		_top_field.GetComponent<Field>().Finish = OnFinishedWorking;
 		_startGame = true;
 	}
-
-	// find hint
+	
+	/// <summary>
+	/// /Find hint
+	/// </summary>
 	public override void FindHint ()
 	{
 		_hints = GamePlayService.Instance.FindHint();
 	}
-
+	
 	// tile pos
 	public override Vector2 tilePos(int x,int y){
 		if(x >= (int)_tilesNum.x || x < 0)return new Vector2(0,0);
@@ -49,6 +51,7 @@ public class GamePlay : GameSystem_LinkMatch {
 	public void OnFinishedWorking(){
 		_gameState = GameState.GAME_PLAYING;
 		loadCharacters();
+		_UI_MonsterHP.fillAmount = 1;
 		updateTurnUI();
 		//#TODO update new character when one be defeated
 	}
@@ -74,10 +77,9 @@ public class GamePlay : GameSystem_LinkMatch {
 		//#TODO load character tu model OPCharacter
 		GameObject gameObj = MonsterService.Instance.createMonster(_monsterPrefab[model.id], _panel, model.position, model.direction);
 		gameObj.tag = tag;
-		if(tag.Equals(Config.TAG_UNIT))
-			_UI_MonsterHP.fillAmount = 1;
 		return gameObj;
 	}
+
 
 	private void attackEffect(Vector2 lastPos){
 		GameObject o = (GameObject)Instantiate(Resources.Load("Prefab/UI/NGUI Pro/DamageLabel"));
@@ -106,6 +108,8 @@ public class GamePlay : GameSystem_LinkMatch {
 				updateTurnUI();
 				SoundManager.Instance.PlaySE("shoot");
 			}else{
+				if(_currentCharacter ==null)
+					return;
 				_currentCharacter.attackPlay();
 				attackEffect(lastPos);
 				SoundManager.Instance.PlaySE("hit");
@@ -145,8 +149,10 @@ public class GamePlay : GameSystem_LinkMatch {
 			_playerHP -= _currentMonster._attackPoint;
 			_UI_PlayerHP.fillAmount = _playerHP/_playerMaxHP;
 
-			if(_currentCharacter != null)
-				_currentCharacter.attackedPlay();
+			if(_currentCharacter == null)
+				return;
+
+			_currentCharacter.attackedPlay();
 			attackedEffect();
 
 			if(_playerHP <= 0){

@@ -129,7 +129,7 @@ public class GamePlayService{
 					visited[x, y] = true;
 					List<Block> matchingSet = new List<Block>();
 					Search(x, y, _tiles[x,y], matchingSet);
-					if(matchingSet.Count > best_way.Count){
+					if(matchingSet.Count > best_way.Count && matchingSet.Count > 2){
 						best_way = matchingSet;
 					}
 				}

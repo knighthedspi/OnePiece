@@ -430,6 +430,7 @@ public class MainGameSystem : MonoBehaviour {
 		for(int i=0;i < _tilesNum.x ; i++){
 			for(int j=0;j < _tilesNum.y ; j++){
 				if( _tiles[i,j] == null ){
+					OPDebug.Log("update block at " + i + ";" + j);
 					Block block = null;
 					if( j == 0 ){
 						//block = pushNewItem(UnityEngine.Random.Range(0,4),i);
@@ -442,10 +443,23 @@ public class MainGameSystem : MonoBehaviour {
 						block.moveToY(tilePos(i,j).y);
 						_tiles[i,j] = block;
 						_tiles[i,j]._posInBoard = new Vector2(i,j);
+					}else{
+						OPDebug.Log("block (" + i  + ";" + j + ") is null");
 					}
 				}
 			}
 		}
+
+	}
+
+	/// <summary>
+	/// Resets the board.
+	/// </summary>
+	private void resetBoard(){
+		for(int i=0;i < _tilesNum.x ; i++)
+			for(int j=0;j < _tilesNum.y ; j++)		
+				Destroy (_tiles[i,j].gameObject);
+		updateEmptyFill();
 	}
 	
 	//update walking
@@ -493,14 +507,14 @@ public class MainGameSystem : MonoBehaviour {
 
 	// update hint blocks
 	// if not exeists, shaking blocks;
-	void updateHint(){
+	protected void updateHint(){
 		if(isBlocksMoveToAnim())return ;
 		if(_hintDirty){
 			_hints.Clear();
 			FindHint();
 
 			if(_hints.Count == 0){
-				// TODO :: RE-POSITIONING BLOCKS
+				resetBoard();
 			}else{
 				foreach (GameObject go in _hintSpr){
 					Destroy(go);
