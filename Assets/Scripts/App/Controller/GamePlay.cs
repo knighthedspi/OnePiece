@@ -122,7 +122,7 @@ public class GamePlay : GameSystem_LinkMatch {
 
 		OPDebug.Log("current state is " + type);
 
-		if(type == "attack"){
+		if(type == "attack" && _currentMonster != null){
 			_currentMonster.attackedPlay();
 		}
 		else if(type == "die"){
@@ -145,7 +145,8 @@ public class GamePlay : GameSystem_LinkMatch {
 			_playerHP -= _currentMonster._attackPoint;
 			_UI_PlayerHP.fillAmount = _playerHP/_playerMaxHP;
 
-			_currentCharacter.attackedPlay();
+			if(_currentCharacter != null)
+				_currentCharacter.attackedPlay();
 			attackedEffect();
 
 			if(_playerHP <= 0){
