@@ -261,7 +261,9 @@ MonoBehaviour:
   numberOfConcurrentENV: 3
   BGM:
   - {fileID: 8300000, guid: 008b43793ed0e40e2bd80363f35569fc, type: 3}
-  SE: []
+  SE:
+  - {fileID: 8300000, guid: b70c1b0f87fba45a39071e84567b3a5d, type: 3}
+  - {fileID: 8300000, guid: cf0c749e497134d96af54f14be3c5ad8, type: 3}
   ENV: []
   BGM_list: []
   SE_list: []

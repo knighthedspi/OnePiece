@@ -321,7 +321,7 @@ public class MainGameSystem : MonoBehaviour {
 //	}
 
 	// finish any monster animation. 
-	public void OnFinishedMonsterAnim( string type ){
+	public virtual void OnFinishedMonsterAnim( string type ){
 		if(_currentMonster == null) return ;
 
 		if( type == "attack" && _gameState == GameState.GAME_READY ){
@@ -345,7 +345,7 @@ public class MainGameSystem : MonoBehaviour {
 	}
 
 	// finish particle effect that player attack to monster 
-	public void OnFinishedPlayerAttack(Vector2 lastPos){
+	public virtual void OnFinishedPlayerAttack(Vector2 lastPos){
 		if(_currentMonster != null){
 			
 			_currentMonster._hp -= _playerAttackPoint;
