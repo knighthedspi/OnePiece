@@ -22,7 +22,7 @@ namespace UnityTest{
         [Test()]
         public void TestSelect ()
         {
-            string dbpath  = Application.streamingAssetsPath + "/user.db";
+            string dbpath  = Application.streamingAssetsPath + "/test_user.db";
             var db = new SQLiteDB();
             db.Open(dbpath);
             GenericDao<OPUser>.Instance.Drop(db);

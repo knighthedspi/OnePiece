@@ -2,38 +2,14 @@
 using UnityEngine;
 using System.Collections;
 
-[System.Serializable]
+
 public class OPCharacter{
-	[SerializeField]
-	public int id;
-	[SerializeField]
-	public string characterName;
-	[SerializeField]
-	public int levelID;
-	[SerializeField]
-	public Vector3 direction;
-	[SerializeField]
-	public Vector3 position;
-	[SerializeField]
-	public int soundId;
-	[SerializeField]
-	public Animation animation;
-
-	public OPCharacter()
-	{
-
-	}
-
-	public OPCharacter (int id, string characterName, int levelID, Vector3 direction, Vector3 position, int soundId)
-	{
-		this.id = id;
-		this.characterName = characterName;
-		this.levelID = levelID;
-		this.direction = direction;
-		this.position = position;
-		this.soundId = soundId;
-	}
-	
+	private int id;
+	private string characterName;
+	private int kindId;
+	private int evolution;
+	private int initialHP;
+	private int maxHP;
 
 	public int Id {
 		get {
@@ -53,48 +29,40 @@ public class OPCharacter{
 		}
 	}
 
-	public int LevelID {
+	public int KindId {
 		get {
-			return this.levelID;
+			return this.kindId;
 		}
 		set {
-			levelID = value;
+			kindId = value;
 		}
 	}
 
-	public Vector3 Direction {
+	public int Evolution {
 		get {
-			return this.direction;
+			return this.evolution;
 		}
 		set {
-			direction = value;
+			evolution = value;
 		}
 	}
 
-	public Vector3 Position {
+	public int InitialHP {
 		get {
-			return this.position;
+			return this.initialHP;
 		}
 		set {
-			position = value;
+			initialHP = value;
 		}
 	}
 
-	public int SoundId {
+	public int MaxHP {
 		get {
-			return this.soundId;
+			return this.maxHP;
 		}
 		set {
-			soundId = value;
+			maxHP = value;
 		}
 	}
 
-	public Animation Animation {
-		get {
-			return this.animation;
-		}
-		set {
-			animation = value;
-		}
-	}
 }

@@ -9,26 +9,28 @@ public class CharacterService{
 	public OPCharacter initCharacter()
 	{
 //		int id, string characterName, int levelID, Vector3 direction, Vector3 position, int soundId
-		return new OPCharacter(
-			1,
-			"Luffy 1",
-			1,
-			new Vector3(0, 0, 0), //direction
-			new Vector3(100, 290, 0), //positon
-			1
-			);
+//		return new OPCharacter(
+//			1,
+//			"Luffy 1",
+//			1,
+//			new Vector3(0, 0, 0), //direction
+//			new Vector3(100, 290, 0), //positon
+//			1
+//			);
+		return null;
 	}
 
 	public OPCharacter initUnit()
 	{
-		return new OPCharacter(
-			Random.Range(0,2),
-			"monster 1",
-			1,
-			new Vector3(0, 0, 0),
-			new Vector3(-100, 290, 0),
-			1
-			);
+//		return new OPCharacter(
+//			2,
+//			"monster 1",
+//			1,
+//			new Vector3(0, 0, 0),
+//			new Vector3(-100, 290, 0),
+//			1
+//			);
+		return null;
 	}
 
 
