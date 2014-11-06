@@ -22,7 +22,7 @@ public class CharacterService{
 	public OPCharacter initUnit()
 	{
 		return new OPCharacter(
-			2,
+			Random.Range(0,2),
 			"monster 1",
 			1,
 			new Vector3(0, 0, 0),
