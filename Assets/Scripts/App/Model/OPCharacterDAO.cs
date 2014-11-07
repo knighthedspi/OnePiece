@@ -40,9 +40,10 @@ public class OPCharacterDAO : OPCharacter{
 	}
 
 	//#TODO must design how to get monster
-	public OPCharacter getMonsterByExp(int exp)
+	//#TODO add order column not using id order
+	public OPCharacter getNextMonster(int currentMonsterID = 0)
 	{
-		string query = "SELECT * FROM " + tableName + " where kindId != " + KINDID_CHARACTER;
+		string query = "SELECT * FROM " + tableName + " where kindId != " + KINDID_CHARACTER  + " and id > " + currentMonsterID + " order by id ASC";
 		List<OPCharacter> result = GenericDao<OPCharacter>.Instance.Get(db, query);
 		if(result.Count < 1)
 		{

@@ -55,7 +55,7 @@ public class MainGameSystem : MonoBehaviour {
 	public float _hintTime=5f;
 
 	//change stage type to time type
-	public int remain_time = 60;
+	public float remain_time = 60;
 
 	//============================
 	//player variables!
@@ -81,6 +81,8 @@ public class MainGameSystem : MonoBehaviour {
 	protected List<GameObject> _hintSpr = new List<GameObject>();
 	private bool _hintDirty = true;
 	private float _hintDt = 0;
+
+	protected float stage_time;
 	
 	// Use this for initialization
 	public void Start () {
@@ -95,6 +97,9 @@ public class MainGameSystem : MonoBehaviour {
 		_goldLabel.setNumber(0);
 		_cashLabel.setNumber(0);
 		_scoreLabel.setNumber(0);
+
+		stage_time = remain_time;
+
 	}
 
 	// get tiles position... 
@@ -264,7 +269,7 @@ public class MainGameSystem : MonoBehaviour {
 	}
 
 	//update monster turn ui
-	protected void updateTurnUI(){
+	protected virtual void updateTurnUI(){
 		_turnLabel.text = _currentMonster._turn.ToString();
 	}
 
@@ -430,7 +435,6 @@ public class MainGameSystem : MonoBehaviour {
 		for(int i=0;i < _tilesNum.x ; i++){
 			for(int j=0;j < _tilesNum.y ; j++){
 				if( _tiles[i,j] == null ){
-					OPDebug.Log("update block at " + i + ";" + j);
 					Block block = null;
 					if( j == 0 ){
 						//block = pushNewItem(UnityEngine.Random.Range(0,4),i);
@@ -544,7 +548,7 @@ public class MainGameSystem : MonoBehaviour {
 	}
 
 	private float time = 0;
-	public void updateTimer()
+	protected virtual void updateTimer()
 	{
 
 		time += Time.deltaTime;

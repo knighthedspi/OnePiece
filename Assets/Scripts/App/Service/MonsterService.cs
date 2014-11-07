@@ -19,7 +19,7 @@ public class MonsterService{
 
 	public GameObject createMonster(OPCharacter model, GameObject parent, Vector3 localPosition, Vector3 direction)
 	{
-		Debug.Log(model);
+		Debug.Log(model.CharacterName);
 		string prefix = "Prefab/Onepiece/Monster/";
 		GameObject monster = (GameObject)GameObject.Instantiate(Resources.Load(prefix + model.CharacterName));
 		monster.transform.parent = parent.transform;
@@ -27,7 +27,7 @@ public class MonsterService{
 		monster.transform.localRotation = Quaternion.Euler(direction);
 		monster.transform.localScale = new Vector3(0.8f,0.8f,1);
 		if(monster == null)
-			throw new UnityException("Cloud not load monster");
+			throw new UnityException("Could not load monster");
 		return monster;
 	}
 
