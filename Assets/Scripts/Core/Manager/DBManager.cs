@@ -14,18 +14,18 @@ public class DBManager : Singleton<DBManager> {
 
 	void Awake(){
 		// TODO : create and load db 
-//		MASTER_DB_STREAMING_PATH  = Application.streamingAssetsPath + "/master.db";
-//		MASTER_DB_PERSISTENT_PATH = Application.persistentDataPath  + "/master.db";
-//		if(!File.Exists(MASTER_DB_PERSISTENT_PATH))
-//			StartCoroutine(CopyFile(MASTER_DB_STREAMING_PATH, MASTER_DB_PERSISTENT_PATH));
-//
-//		USER_DB_STREAMING_PATH  = Application.streamingAssetsPath + "/user.db";
-//		USER_DB_PERSISTENT_PATH = Application.persistentDataPath  + "/user.db";
-//		if(!File.Exists(USER_DB_PERSISTENT_PATH))
-//			StartCoroutine(CopyFile(USER_DB_STREAMING_PATH, USER_DB_PERSISTENT_PATH));
-//
-//		MasterDb.Open(MASTER_DB_STREAMING_PATH);
-//		UserDb.Open(USER_DB_STREAMING_PATH);
+		MASTER_DB_STREAMING_PATH  = Application.streamingAssetsPath + "/master.db";
+		MASTER_DB_PERSISTENT_PATH = Application.persistentDataPath  + "/master.db";
+		if(!File.Exists(MASTER_DB_PERSISTENT_PATH))
+			StartCoroutine(CopyFile(MASTER_DB_STREAMING_PATH, MASTER_DB_PERSISTENT_PATH));
+
+		USER_DB_STREAMING_PATH  = Application.streamingAssetsPath + "/user.db";
+		USER_DB_PERSISTENT_PATH = Application.persistentDataPath  + "/user.db";
+		if(!File.Exists(USER_DB_PERSISTENT_PATH))
+			StartCoroutine(CopyFile(USER_DB_STREAMING_PATH, USER_DB_PERSISTENT_PATH));
+
+		MasterDb.Open(MASTER_DB_STREAMING_PATH);
+		UserDb.Open(USER_DB_STREAMING_PATH);
 //		MasterDb.Open(MASTER_DB_PERSISTENT_PATH);
 //		UserDb.Open(USER_DB_PERSISTENT_PATH);
 	}

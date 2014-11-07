@@ -59,23 +59,24 @@ public class GamePlay : GameSystem_LinkMatch {
 	private void loadCharacters()
 	{
 		if(_startGame){
-			GameObject character = loadCharacters(CharacterService.Instance.initCharacter(), Config.TAG_CHARACTER);
+			//#TODO get by user level
+			GameObject character = loadCharacters(CharacterService.Instance.getCharacterByLevel(1), Config.TAG_CHARACTER, new Vector3(-100, 290, 0), Vector3.zero);
 			_startGame = false;
 			_currentCharacter = character.GetComponent<Monster>();
 			_currentCharacter.Finish = OnFinishedCharacterAnim;
 			_currentCharacter.entryPlay();
 		}
-		GameObject monster = loadCharacters(CharacterService.Instance.initUnit(), Config.TAG_UNIT);
+		GameObject monster = loadCharacters(CharacterService.Instance.getCurrentUnit(), Config.TAG_UNIT, new Vector3(100, 290, 0), Vector3.zero);
 		_currentMonster = monster.GetComponent<Monster>();
 		_currentMonster.Finish = OnFinishedMonsterAnim;
 		_currentMonster.entryPlay();
 	}
 
-	private GameObject loadCharacters(OPCharacter model, string tag)
+	private GameObject loadCharacters(OPCharacter model, string tag, Vector3 postion, Vector3 direction)
 	{
 		//#TODO load prefab by model.id
 		//#TODO load character tu model OPCharacter
-		GameObject gameObj = MonsterService.Instance.createMonster(_monsterPrefab[model.id], _panel, model.position, model.direction);
+		GameObject gameObj = MonsterService.Instance.createMonster(model, _panel, postion, direction);
 		gameObj.tag = tag;
 		return gameObj;
 	}
