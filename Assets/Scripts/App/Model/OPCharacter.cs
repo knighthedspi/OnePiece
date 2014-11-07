@@ -10,6 +10,7 @@ public class OPCharacter{
 	private int evolution;
 	private int initialHP;
 	private int maxHP;
+	private int attackPoint;
 
 	public int Id {
 		get {
@@ -62,6 +63,15 @@ public class OPCharacter{
 		}
 		set {
 			maxHP = value;
+		}
+	}
+
+	public int AttackPoint {
+		get {
+			return this.attackPoint;
+		}
+		set {
+			attackPoint = value;
 		}
 	}
 
