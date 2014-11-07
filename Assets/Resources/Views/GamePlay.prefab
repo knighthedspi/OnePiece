@@ -2468,7 +2468,7 @@ MonoBehaviour:
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: .5
+  aspectRatio: .277777791
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: 8a6cdbe4a866144329b5266bdc54bd0b, type: 2}
@@ -3461,7 +3461,6 @@ MonoBehaviour:
   - {fileID: 100000, guid: 36c04b9d95c574b9cb5114b505e935ce, type: 2}
   - {fileID: 100000, guid: d12a4acccf5fb421db17bac1c9ee1a1b, type: 2}
   - {fileID: 100000, guid: 31ad6f32d754c4f5b88d9ca785a59b98, type: 2}
-  - {fileID: 100000, guid: 69d5c7066a0334e04b429cf1ccb5b0b5, type: 2}
   _monsterPrefab:
   - {fileID: 100000, guid: e761289fb022a4026a9507d86f0a9347, type: 2}
   - {fileID: 100000, guid: a98af6581d5a74543a088a9737ed1d0f, type: 2}
