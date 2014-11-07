@@ -88,4 +88,14 @@ public class Monster : MonoBehaviour {
 		_animation.state.SetAnimation(0, "die", false);
 		overridePlaying = false;
 	}
+
+	/// <summary>
+	/// Sets the properties for monster: max_hp, hp, _attackPoint
+	/// </summary>
+	/// <param name="obj">Object.</param>
+	public void setProperties(OPCharacter obj){
+		this._hp = Random.Range(obj.InitialHP, obj.MaxHP);
+		this._maxhp = this._hp;
+		this._attackPoint = obj.AttackPoint;
+	}
 }

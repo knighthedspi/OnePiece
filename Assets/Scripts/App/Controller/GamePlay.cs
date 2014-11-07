@@ -64,11 +64,9 @@ public class GamePlay : GameSystem_LinkMatch {
 	private void loadCharacters()
 	{
 		if(_startGame){
-			// TODO : get list monster by character level
 			loadCharacter(new Vector3(-100, 290, 0), Vector3.zero);
 			_startGame = false;
 		}
-		// TODO : get next monster after defeat one
 		loadMonster(new Vector3(100, 290, 0), Vector3.zero);
 	}
 
@@ -81,9 +79,11 @@ public class GamePlay : GameSystem_LinkMatch {
 
 	private void loadCharacter(Vector3 pos, Vector3 direction){
 		//#TODO get by user level
-		GameObject character = loadCharacters(CharacterService.Instance.getCharacterByLevel(1), Config.TAG_CHARACTER, pos, direction);
-		_startGame = false;
+		OPCharacter characterObj = CharacterService.Instance.getCharacterByLevel(1);
+		GameObject character = loadCharacters(characterObj, Config.TAG_CHARACTER, pos, direction);
 		_currentCharacter = character.GetComponent<Monster>();
+		_currentCharacter.setProperties(characterObj);
+		_playerAttackPoint = characterObj.AttackPoint;
 		_currentCharacter.Finish = OnFinishedCharacterAnim;
 		_currentCharacter.entryPlay();
 	}
@@ -94,8 +94,9 @@ public class GamePlay : GameSystem_LinkMatch {
 			cmID = _currentMonster.id;
 		OPCharacter monsterObj = CharacterService.Instance.getCurrentUnit(cmID);
 		GameObject monster = loadCharacters( monsterObj, Config.TAG_UNIT, pos, direction);
-		_currentMonster.id = monsterObj.Id;
 		_currentMonster = monster.GetComponent<Monster>();
+		_currentMonster.setProperties(monsterObj);
+		_currentMonster.id = monsterObj.Id;
 		_currentMonster.Finish = OnFinishedMonsterAnim;
 		_currentMonster.entryPlay();
 	}

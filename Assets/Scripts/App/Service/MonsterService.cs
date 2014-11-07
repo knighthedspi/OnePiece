@@ -27,7 +27,7 @@ public class MonsterService{
 		monster.transform.localRotation = Quaternion.Euler(direction);
 		monster.transform.localScale = new Vector3(0.8f,0.8f,1);
 		if(monster == null)
-			throw new UnityException("Cloud not load monster");
+			throw new UnityException("Could not load monster");
 		return monster;
 	}
 
