@@ -5,8 +5,11 @@ using System.Collections;
 public class OPItem {
 	
 	private int id;
-	private int level_id;
-	private string character_id;
+	private string name;
+	private int category;
+	private string effectName;
+	private int consumItem;
+	private int cost;
 
 	public int Id {
 		get {
@@ -17,21 +20,49 @@ public class OPItem {
 		}
 	}
 
-	public int Level_id {
+	public string Name {
 		get {
-			return this.level_id;
+			return this.name;
 		}
 		set {
-			level_id = value;
+			name = value;
 		}
 	}
 
-	public string Character_id {
+	public int Category {
 		get {
-			return this.character_id;
+			return this.category;
 		}
 		set {
-			character_id = value;
+			category = value;
 		}
 	}
+
+	public string EffectName {
+		get {
+			return this.effectName;
+		}
+		set {
+			effectName = value;
+		}
+	}
+
+	public int ConsumItem {
+		get {
+			return this.consumItem;
+		}
+		set {
+			consumItem = value;
+		}
+	}
+
+	public int Cost {
+		get {
+			return this.cost;
+		}
+		set {
+			cost = value;
+		}
+	}
+
 }
