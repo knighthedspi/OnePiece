@@ -53,38 +53,54 @@ public class GamePlay : GameSystem_LinkMatch {
 		loadCharacters();
 		_UI_MonsterHP.fillAmount = 1;
 		updateTurnUI();
-		//#TODO update new character when one be defeated
+	}
+
+	protected override void updateTurnUI ()
+	{
+		// don't show turn label because we use timer instead
+		_turnLabel.text = "";
 	}
 
 	private void loadCharacters()
 	{
 		if(_startGame){
-			//#TODO get by user level
-			GameObject character = loadCharacters(CharacterService.Instance.getCharacterByLevel(1), Config.TAG_CHARACTER, new Vector3(-100, 290, 0), Vector3.zero);
+			// TODO : get list monster by character level
+			loadCharacter(new Vector3(-100, 290, 0), Vector3.zero);
 			_startGame = false;
-			_currentCharacter = character.GetComponent<Monster>();
-			_currentCharacter.Finish = OnFinishedCharacterAnim;
-			_currentCharacter.entryPlay();
 		}
-		GameObject monster = loadCharacters(CharacterService.Instance.getCurrentUnit(), Config.TAG_UNIT, new Vector3(100, 290, 0), Vector3.zero);
-		_currentMonster = monster.GetComponent<Monster>();
-		_currentMonster.Finish = OnFinishedMonsterAnim;
-		_currentMonster.entryPlay();
+		// TODO : get next monster after defeat one
+		loadMonster(new Vector3(100, 290, 0), Vector3.zero);
 	}
 
 	private GameObject loadCharacters(OPCharacter model, string tag, Vector3 postion, Vector3 direction)
 	{
-		//#TODO load prefab by model.id
-		//#TODO load character tu model OPCharacter
 		GameObject gameObj = MonsterService.Instance.createMonster(model, _panel, postion, direction);
 		gameObj.tag = tag;
 		return gameObj;
+	}
+
+	private void loadCharacter(Vector3 pos, Vector3 direction){
+		//#TODO get by user level
+		GameObject character = loadCharacters(CharacterService.Instance.getCharacterByLevel(1), Config.TAG_CHARACTER, pos, direction);
+		_startGame = false;
+		_currentCharacter = character.GetComponent<Monster>();
+		_currentCharacter.Finish = OnFinishedCharacterAnim;
+		_currentCharacter.entryPlay();
+	}
+
+	private void loadMonster(Vector3 pos, Vector3 direction){
+		GameObject monster = loadCharacters(CharacterService.Instance.getCurrentUnit(), Config.TAG_UNIT, pos, direction);
+		_currentMonster = monster.GetComponent<Monster>();
+		_currentMonster.Finish = OnFinishedMonsterAnim;
+		_currentMonster.entryPlay();
 	}
 
 
 	private void attackEffect(Vector2 lastPos){
 		GameObject o = (GameObject)Instantiate(Resources.Load("Prefab/UI/NGUI Pro/DamageLabel"));
 		o.GetComponent<DamageLabel>().go(_playerAttackPoint,_panel,lastPos);
+		if(_currentMonster == null)
+			return;
 		_currentMonster._hp -= _playerAttackPoint;
 		_UI_MonsterHP.fillAmount = _currentMonster._hp / _currentMonster._maxhp;
 		if(_currentMonster._hp < 0){
@@ -100,22 +116,9 @@ public class GamePlay : GameSystem_LinkMatch {
 	/// </summary>
 	/// <param name="lastPos">Last position.</param>
 	public override void OnFinishedPlayerAttack(Vector2 lastPos){
-		if(_currentMonster != null){
-			if( _currentMonster._turn == 0 ){
-				_gameState = GameState.GAME_READY;
-				
-				_currentMonster.attackPlay();
-				_currentMonster._turn = _currentMonster._maxturn;				
-				updateTurnUI();
-				SoundManager.Instance.PlaySE("shoot");
-			}else{
-				if(_currentCharacter ==null)
-					return;
-				_currentCharacter.attackPlay();
-				attackEffect(lastPos);
-				SoundManager.Instance.PlaySE("hit");
-			}
-		}
+		_currentCharacter.attackPlay();
+		attackEffect(lastPos);
+		SoundManager.Instance.PlaySE("hit");
 	}
 
 	/// <summary>
@@ -124,8 +127,6 @@ public class GamePlay : GameSystem_LinkMatch {
 	/// <param name="type">Type.</param>
 	public void OnFinishedCharacterAnim( string type ){
 		if(_currentCharacter == null) return ;
-
-		OPDebug.Log("current state is " + type);
 
 		if(type == "attack" && _currentMonster != null){
 			_currentMonster.attackedPlay();
@@ -142,30 +143,21 @@ public class GamePlay : GameSystem_LinkMatch {
 	/// </summary>
 	/// <param name="type">Type.</param>
 	public void OnFinishedMonsterAnim( string type ){
-		if(_currentMonster == null) return ;
-		
-		if( type == "attack" && _gameState == GameState.GAME_READY ){
-			_gameState = GameState.GAME_PLAYING;
-			
-			_playerHP -= _currentMonster._attackPoint;
-			_UI_PlayerHP.fillAmount = _playerHP/_playerMaxHP;
-
-			if(_currentCharacter == null)
-				return;
-
-			_currentCharacter.attackedPlay();
-			attackedEffect();
-
-			if(_playerHP <= 0){
-				_currentCharacter.diePlay();
-			}
-			
-		}else if(type == "die"){
+		// monster is only be attacked then die	
+		if(_currentMonster == null)
+			return;
+		if(type == "die"){
 			Destroy(_currentMonster.gameObject);
 			_currentMonster = null;
-			
 			_gameState = GameState.GAME_WORK;
 		}
 	}
 
+	/// <summary>
+	/// Updates the timer.
+	/// </summary>
+	protected override void updateTimer(){
+		base.updateTimer();
+		_UI_PlayerHP.fillAmount = remain_time/stage_time;
+	}
 }
