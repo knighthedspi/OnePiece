@@ -19,7 +19,7 @@ public class MonsterService{
 
 	public GameObject createMonster(OPCharacter model, GameObject parent, Vector3 localPosition, Vector3 direction)
 	{
-		Debug.Log(model);
+		Debug.Log(model.CharacterName);
 		string prefix = "Prefab/Onepiece/Monster/";
 		GameObject monster = (GameObject)GameObject.Instantiate(Resources.Load(prefix + model.CharacterName));
 		monster.transform.parent = parent.transform;

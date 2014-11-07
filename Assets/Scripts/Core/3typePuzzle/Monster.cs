@@ -12,6 +12,7 @@ public class Monster : MonoBehaviour {
 	////////////////////////////////////////
 	//you can customizing game variable in inspector window
 	////////////////////////////////////////
+	public int id = 0;
 	public int _turn = 3;
 	public int _maxturn = 3;
 	

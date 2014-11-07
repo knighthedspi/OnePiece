@@ -89,7 +89,12 @@ public class GamePlay : GameSystem_LinkMatch {
 	}
 
 	private void loadMonster(Vector3 pos, Vector3 direction){
-		GameObject monster = loadCharacters(CharacterService.Instance.getCurrentUnit(), Config.TAG_UNIT, pos, direction);
+		int cmID = 0;
+		if(_currentMonster != null)
+			cmID = _currentMonster.id;
+		OPCharacter monsterObj = CharacterService.Instance.getCurrentUnit(cmID);
+		GameObject monster = loadCharacters( monsterObj, Config.TAG_UNIT, pos, direction);
+		_currentMonster.id = monsterObj.Id;
 		_currentMonster = monster.GetComponent<Monster>();
 		_currentMonster.Finish = OnFinishedMonsterAnim;
 		_currentMonster.entryPlay();

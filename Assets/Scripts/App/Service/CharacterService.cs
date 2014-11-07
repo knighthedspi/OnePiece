@@ -43,9 +43,9 @@ public class CharacterService{
 		return OPCharacterDAO.Instance.getCharacterByLevel(level);
 	}
 
-	public OPCharacter getCurrentUnit(int exp = 1)
+	public OPCharacter getCurrentUnit(int currentMonsterID = 0)
 	{
-		return OPCharacterDAO.Instance.getMonsterByExp(exp);
+		return OPCharacterDAO.Instance.getNextMonster(currentMonsterID);
 	}
 	
 }
