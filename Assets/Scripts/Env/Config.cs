@@ -15,6 +15,7 @@ public static class Config {
 	public const string           TAG_MAIN_CAMERA       = "MainCamera";
 
 	public const string			  START_VIEW 			= "Start";
+	public const string			  FB_VIEW 				= "Facebook";
 	public const string			  GAME_PLAY_VIEW 		= "GamePlay";
 
 	// TODO : define tag 

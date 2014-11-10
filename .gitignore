@@ -20,3 +20,5 @@ sysinfo.txt
 #Test result
 test-results/
 Assets/test-results/*
+Assets/StreamingAssets/test_user.db
+Assets/StreamingAssets/test_user.db.meta
