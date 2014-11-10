@@ -7,7 +7,7 @@ using System.Collections.Generic;
 //  Link-Matching Game Puzzle
 /// </summary>
 public class GameSystem_LinkMatch : MainGameSystem {
-	List<Block> _stackBlock = new List<Block>();
+	protected List<Block> _stackBlock = new List<Block>();
 	List<GameObject> _stackDot = new List<GameObject>();
 	List<GameObject> _stackLine = new List<GameObject>();
 
@@ -188,6 +188,8 @@ public class GameSystem_LinkMatch : MainGameSystem {
 	    		if(_stackBlock.Count >= 3){
 					destroyBlocks(_stackBlock);
 					decreaseTurn();
+					// update score 
+					updateScore();
 				}
 				foreach(Block b in _stackBlock)
 					b.touchUp();
@@ -198,6 +200,11 @@ public class GameSystem_LinkMatch : MainGameSystem {
 
 	    }
 	}
+
+	/// <summary>
+	/// Updates the score.
+	/// </summary>
+	protected virtual void updateScore(){}
 
 	//==================================
 	// update functions end

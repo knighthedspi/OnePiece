@@ -8,7 +8,26 @@ public class GamePlay : GameSystem_LinkMatch {
 	public int deltaStartY  = -20;
 	private bool _startGame;
 	private Monster _currentCharacter;
-	
+
+	// belly count
+	private int _beriCount;
+
+	// score point
+	private int _scorePoint;
+
+	// score calculator
+	public int scoreRatio1 = 40;
+	public int scoreDelta = 3;
+	public int scoreRatio2 = 50;
+
+	// belly calculator
+	public int bellyRatio1 = 2;
+	public int bellyRatio2 = 4;
+
+	// combo
+	public float comboStepTime = 0.2f;
+	private bool _startCombo ;
+	private float _comboTime;
 
 	// Use this for initialization
 	public override void Start () {
@@ -16,6 +35,11 @@ public class GamePlay : GameSystem_LinkMatch {
 		GamePlayService.Instance.initBlock(_tilesNum, _tiles);
 		_top_field.GetComponent<Field>().Finish = OnFinishedWorking;
 		_startGame = true;
+
+		_beriCount = 0;
+		_scorePoint = 0;
+		_startCombo = false;
+		_comboTime = 0.0f;
 	}
 	
 	/// <summary>
@@ -164,6 +188,37 @@ public class GamePlay : GameSystem_LinkMatch {
 	/// </summary>
 	protected override void updateTimer(){
 		base.updateTimer();
+		_comboTime += Time.deltaTime;
+		if(_comboTime >= comboStepTime)
+			resetCombo();
+		else
+			_startCombo = true;
 		_UI_PlayerHP.fillAmount = remain_time/stage_time;
 	}
+
+	/// <summary>
+	/// Resets the combo whether combotime exceeded limit
+	/// </summary>
+	protected override void resetCombo(){
+		base.resetCombo();
+		_comboTime = 0.0f;
+		_startCombo = false;
+	}
+
+	/// <summary>
+	/// Updates score, override base function
+	/// </summary>
+	protected override void updateScore(){
+		OPDebug.Log("update score with count of block is " + _stackBlock.Count + " and combo is " + _currentCombo + "; start combo is " + _startCombo);
+		if(_startCombo)
+			increaseCombo();	
+		_scorePoint += scoreRatio1 * ( _stackBlock.Count - scoreDelta) + _currentCombo + scoreRatio2;
+		if(_stackBlock.Count >= 4)
+			_beriCount += bellyRatio1 * ( _stackBlock.Count - bellyRatio2 );
+
+		// update UI
+		_scoreLabel.setText(_scorePoint.ToString());
+		_goldLabel.setText(_beriCount.ToString());
+	}
+
 }
