@@ -292,24 +292,12 @@ public class MainGameSystem : MonoBehaviour {
 		_currentCombo++;
 
 		if(_currentCombo > 1){
-			_descriptLabel.color = new Color(1, 1, 1, 1);
 			_descriptLabel.text = _currentCombo.ToString()+" Combos";
 			OPDebug.Log("play " + _currentCombo + " combos animation") ;
 			_comboAnimator.Play("Combo_NGUI_Pro");
-//			StartCoroutine(comboAnimation(_descriptLabel.gameObject));
 		}
 	}
-
-	private IEnumerator comboAnimation(GameObject obj){
-		OPDebug.Log("combo animation with " + _currentCombo + " combos");
-		TweenAlpha.Begin( obj, 1.0f,  1f);
-		//TweenPosition.Begin( obj, 1.0f,  new Vector3(0,0,0));
-		yield return new WaitForSeconds(3f);
-		
-		TweenAlpha.Begin( obj, 1.5f,  0f);
-		yield return new WaitForSeconds(2f);
-	}
-
+	
 	//reset combo
 	protected virtual void resetCombo(){
 		_currentCombo = 0;

@@ -3486,6 +3486,8 @@ MonoBehaviour:
   bellyRatio1: 2
   bellyRatio2: 4
   comboStepTime: .200000003
+  feverLimit: 10
+  feverStepTime: .300000012
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

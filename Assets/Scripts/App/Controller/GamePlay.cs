@@ -29,6 +29,13 @@ public class GamePlay : GameSystem_LinkMatch {
 	private bool _startCombo ;
 	private float _comboTime;
 
+	// fever
+	public int feverLimit = 10;
+	public float feverStepTime = 0.3f;
+	private bool _startFever ;
+	private float _feverTime;
+	private Animator _feverAnimator;
+
 	// Use this for initialization
 	public override void Start () {
 		base.Start();
@@ -40,6 +47,9 @@ public class GamePlay : GameSystem_LinkMatch {
 		_scorePoint = 0;
 		_startCombo = false;
 		_comboTime = 0.0f;
+		_startFever = false;
+		_feverTime = 0.0f;
+		_feverAnimator = _stageLabel.GetComponent<Animator>();
 	}
 	
 	/// <summary>
@@ -188,13 +198,94 @@ public class GamePlay : GameSystem_LinkMatch {
 	/// </summary>
 	protected override void updateTimer(){
 		base.updateTimer();
+
+		// update combo time
 		_comboTime += Time.deltaTime;
 		if(_comboTime >= comboStepTime)
 			resetCombo();
 		else
 			_startCombo = true;
+
+		// update fever time when in fever mode
+		if(_startFever)
+			_feverTime += Time.deltaTime;
+		if(_feverTime >= feverStepTime)
+			resetFever();
 		_UI_PlayerHP.fillAmount = remain_time/stage_time;
 	}
+
+	/// <summary>
+	/// Resets fever time
+	/// </summary>
+	private void resetFever(){
+		_startFever = false;
+		_feverTime = 0.0f;
+	}
+
+	/// <summary>
+	/// Starts fever time
+	/// </summary>
+	private void startFever(){
+		_startFever = true;
+		_feverTime = 0.0f;
+
+		// fever animation
+		_stageLabel.text = "Fever time";
+		_feverAnimator.Play("StageLabel");
+	}
+
+	/// <summary>
+	/// Releases blocks when release touch or mouse
+	/// </summary>
+	protected override void releaseBlocks(){
+		if(_stackBlock.Count > 0){
+			if(_stackBlock.Count >= 3){
+				// add neighbor blocks to stack when in fever mode
+				if(_startFever){
+					List<Block> neighbors = new List<Block>();
+					foreach(Block b in _stackBlock){
+						addNeighborBlock2Stack(b, neighbors);
+					}
+					_stackBlock.AddRange(neighbors);
+				}
+				destroyBlocks(_stackBlock);
+				decreaseTurn();
+				// update score 
+				updateScore();
+			}
+			foreach(Block b in _stackBlock)
+				b.touchUp();
+			
+			_stackBlock.Clear();
+			dotLineDestroy();
+		}
+	}
+
+	private void addNeighborBlock2Stack(Block b, List<Block> stackBlocks){
+		Vector2 posInBoard = b._posInBoard;
+		int posX = (int) posInBoard.x;
+		int posY = (int) posInBoard.y;
+		if( posX < _tilesNum.x - 1 && !stackBlocks.Contains(_tiles[ posX + 1 , posY ]) )
+			stackBlocks.Add(_tiles[ posX + 1 , posY ]);
+		if( posY < _tilesNum.y - 1 && !stackBlocks.Contains(_tiles[ posX , posY + 1 ]) )
+			stackBlocks.Add(_tiles[ posX , posY + 1 ]);
+		if( posX > 0 && !stackBlocks.Contains(_tiles[ posX - 1 , posY ]))
+			stackBlocks.Add(_tiles[ posX - 1 , posY ]);
+		if( posY > 0 && !stackBlocks.Contains(_tiles[ posX , posY - 1 ]))
+			stackBlocks.Add(_tiles[ posX , posY - 1 ]);
+		if( posX % 2 != 0){
+			if( posX < _tilesNum.x - 1 && posY > 0 && !stackBlocks.Contains(_tiles[ posX + 1 , posY - 1 ]))
+				stackBlocks.Add(_tiles[ posX + 1 , posY - 1 ]);
+			if( posX > 0 && posY > 0 && !stackBlocks.Contains(_tiles[ posX - 1 , posY - 1 ]))
+				stackBlocks.Add(_tiles[ posX - 1 , posY - 1 ]);
+		}else {
+			if( posX < _tilesNum.x - 1 && posY < _tilesNum.y - 1 && !stackBlocks.Contains(_tiles[ posX + 1 , posY + 1]))
+				stackBlocks.Add(_tiles[ posX + 1 , posY + 1 ]);
+			if( posX > 0 && posY < _tilesNum.y - 1 && !stackBlocks.Contains(_tiles[ posX - 1 , posY + 1 ]))
+				stackBlocks.Add(_tiles[ posX - 1 , posY + 1 ]);
+		}
+	}
+
 
 	/// <summary>
 	/// Resets the combo whether combotime exceeded limit
@@ -206,12 +297,23 @@ public class GamePlay : GameSystem_LinkMatch {
 	}
 
 	/// <summary>
+	/// Increases current combo value when in combo mode
+	/// </summary>
+	protected override void increaseCombo(){
+		base.increaseCombo();
+		// start fever time when combo greater than fever limt
+		if(_currentCombo > feverLimit && !_startFever)
+			startFever();
+	}
+
+	/// <summary>
 	/// Updates score, override base function
 	/// </summary>
 	protected override void updateScore(){
 		OPDebug.Log("update score with count of block is " + _stackBlock.Count + " and combo is " + _currentCombo + "; start combo is " + _startCombo);
 		if(_startCombo)
 			increaseCombo();	
+
 		_scorePoint += scoreRatio1 * ( _stackBlock.Count - scoreDelta) + _currentCombo + scoreRatio2;
 		if(_stackBlock.Count >= 4)
 			_beriCount += bellyRatio1 * ( _stackBlock.Count - bellyRatio2 );

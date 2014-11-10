@@ -51,7 +51,7 @@ public class GameSystem_LinkMatch : MainGameSystem {
 	}
 
 	//find tile in linked stack
-	bool existsBlockInStack(Block _b){
+	protected bool existsBlockInStack(Block _b){
 		foreach(Block b in _stackBlock){
 			if(_b == b)return true;
 		}
@@ -109,7 +109,7 @@ public class GameSystem_LinkMatch : MainGameSystem {
 	}
 
 	// remove all dot and drawLine
-	void dotLineDestroy(){
+	protected void dotLineDestroy(){
 		foreach(GameObject go in _stackDot)
 			Destroy(go);
 		_stackDot.Clear();
@@ -184,21 +184,29 @@ public class GameSystem_LinkMatch : MainGameSystem {
 	        
 	    }else{ // touch end or mouse release
 
-	    	if(_stackBlock.Count > 0){
-	    		if(_stackBlock.Count >= 3){
-					destroyBlocks(_stackBlock);
-					decreaseTurn();
-					// update score 
-					updateScore();
-				}
-				foreach(Block b in _stackBlock)
-					b.touchUp();
-					
-				_stackBlock.Clear();
-				dotLineDestroy();
-	    	}
+			releaseBlocks();
 
 	    }
+	}
+
+	/// <summary>
+	/// Releases blocks when release touch or mouse
+	/// </summary>
+	protected virtual void releaseBlocks(){
+		if(_stackBlock.Count > 0){
+			if(_stackBlock.Count >= 3){
+				destroyBlocks(_stackBlock);
+				decreaseTurn();
+				// update score 
+				updateScore();
+			}
+			foreach(Block b in _stackBlock)
+				b.touchUp();
+			
+			_stackBlock.Clear();
+			dotLineDestroy();
+		}
+
 	}
 
 	/// <summary>
