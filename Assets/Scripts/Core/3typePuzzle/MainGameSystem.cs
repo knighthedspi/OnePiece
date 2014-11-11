@@ -22,7 +22,7 @@ public class MainGameSystem : MonoBehaviour {
 	//you can customizing game variable in inspector window
 	////////////////////////////////////////
 	public NumberLabel _goldLabel;
-	public NumberLabel _cashLabel;
+	//public NumberLabel _cashLabel;
 	public NumberLabel _scoreLabel;
 
 	public GameObject _hintPrefab;
@@ -83,6 +83,9 @@ public class MainGameSystem : MonoBehaviour {
 	private float _hintDt = 0;
 
 	protected float stage_time;
+
+	// combo animation
+	private Animator _comboAnimator;
 	
 	// Use this for initialization
 	public void Start () {
@@ -95,11 +98,11 @@ public class MainGameSystem : MonoBehaviour {
 //		_top_field.GetComponent<Field>().Finish = OnFinishedWorking;
 
 		_goldLabel.setNumber(0);
-		_cashLabel.setNumber(0);
+		//_cashLabel.setNumber(0);
 		_scoreLabel.setNumber(0);
 
 		stage_time = remain_time;
-
+		_comboAnimator = _descriptLabel.gameObject.GetComponent<Animator>();
 	}
 
 	// get tiles position... 
@@ -285,17 +288,18 @@ public class MainGameSystem : MonoBehaviour {
 	}
 
 	// combo increase
-	protected void increaseCombo(){
+	protected virtual void increaseCombo(){
 		_currentCombo++;
 
 		if(_currentCombo > 1){
-			_descriptLabel.text = _currentCombo.ToString()+" Combo";
-			_descriptLabel.gameObject.GetComponent<Animator>().Play("Combo_NGUI_Pro");
+			_descriptLabel.text = _currentCombo.ToString()+" Combos";
+			OPDebug.Log("play " + _currentCombo + " combos animation") ;
+			_comboAnimator.Play("Combo_NGUI_Pro");
 		}
 	}
-
+	
 	//reset combo
-	protected void resetCombo(){
+	protected virtual void resetCombo(){
 		_currentCombo = 0;
 	}
 
@@ -517,6 +521,7 @@ public class MainGameSystem : MonoBehaviour {
 			_hints.Clear();
 			FindHint();
 
+			// reset board if no hint found
 			if(_hints.Count == 0){
 				resetBoard();
 			}else{

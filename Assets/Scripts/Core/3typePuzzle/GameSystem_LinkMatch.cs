@@ -7,11 +7,11 @@ using System.Collections.Generic;
 //  Link-Matching Game Puzzle
 /// </summary>
 public class GameSystem_LinkMatch : MainGameSystem {
-	List<Block> _stackBlock = new List<Block>();
-	List<GameObject> _stackDot = new List<GameObject>();
-	List<GameObject> _stackLine = new List<GameObject>();
+	protected List<Block> _stackBlock = new List<Block>();
+	protected List<GameObject> _stackDot = new List<GameObject>();
+	protected List<GameObject> _stackLine = new List<GameObject>();
 
-	GameObject _currentLine = null;
+	protected GameObject _currentLine = null;
 
 	// Use this for initialization
 	public virtual void Start () {
@@ -51,7 +51,7 @@ public class GameSystem_LinkMatch : MainGameSystem {
 	}
 
 	//find tile in linked stack
-	bool existsBlockInStack(Block _b){
+	protected bool existsBlockInStack(Block _b){
 		foreach(Block b in _stackBlock){
 			if(_b == b)return true;
 		}
@@ -109,7 +109,7 @@ public class GameSystem_LinkMatch : MainGameSystem {
 	}
 
 	// remove all dot and drawLine
-	void dotLineDestroy(){
+	protected void dotLineDestroy(){
 		foreach(GameObject go in _stackDot)
 			Destroy(go);
 		_stackDot.Clear();
@@ -146,8 +146,7 @@ public class GameSystem_LinkMatch : MainGameSystem {
 	
 	// update touching or mouse process 
 	void updateTouchBoard(){
-		if(isBlocksMoveToAnim()) return ;
-
+		if(isBlocksMoveToAnim() || remain_time <= 0 || _currentMonster == null || _currentMonster.getCurrentAnimationState().Equals("die")) return ;
 		if (Input.GetMouseButton(0)){ // touch start or mouse clicked
 
         	Vector3 p = screenTo2DPoint(Input.mousePosition);
@@ -179,25 +178,45 @@ public class GameSystem_LinkMatch : MainGameSystem {
 							}
 						}
 					}
-				}
-	        }
-	        
+					// add neighbor blocks in fever mode
+					updateStackBlock(_b);
+				}		
+	        }  		
 	    }else{ // touch end or mouse release
-
-	    	if(_stackBlock.Count > 0){
-	    		if(_stackBlock.Count >= 3){
-					destroyBlocks(_stackBlock);
-					decreaseTurn();
-				}
-				foreach(Block b in _stackBlock)
-					b.touchUp();
-					
-				_stackBlock.Clear();
-				dotLineDestroy();
-	    	}
-
+			releaseBlocks();
 	    }
 	}
+
+	/// <summary>
+	/// Updates the stack block.
+	/// </summary>
+	/// <param name="b">Main block</param>
+	protected virtual void updateStackBlock(Block b){}
+
+	/// <summary>
+	/// Releases blocks when release touch or mouse
+	/// </summary>
+	protected virtual void releaseBlocks(){
+		if(_stackBlock.Count > 0){
+			if(_stackBlock.Count >= 3){
+				destroyBlocks(_stackBlock);
+				decreaseTurn();
+				// update score 
+				updateScore();
+			}
+			foreach(Block b in _stackBlock)
+				b.touchUp();
+			
+			_stackBlock.Clear();
+			dotLineDestroy();
+		}
+
+	}
+
+	/// <summary>
+	/// Updates the score.
+	/// </summary>
+	protected virtual void updateScore(){}
 
 	//==================================
 	// update functions end

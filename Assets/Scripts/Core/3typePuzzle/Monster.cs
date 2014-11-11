@@ -98,4 +98,12 @@ public class Monster : MonoBehaviour {
 		this._maxhp = this._hp;
 		this._attackPoint = obj.AttackPoint;
 	}
+
+	/// <summary>
+	/// Gets the state of the current animation.
+	/// </summary>
+	/// <returns>The current animation state.</returns>
+	public string getCurrentAnimationState(){
+		return _animation.AnimationName;
+	}
 }
