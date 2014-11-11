@@ -152,7 +152,6 @@ public class GameSystem_LinkMatch : MainGameSystem {
 			if(_stackBlock.Count > 0){
 				foreach(Block b in _stackBlock)
 					b.touchUp();
-				destroyBlocks(_stackBlock);
 				_stackBlock.Clear();
 			}
 			dotLineDestroy();
