@@ -147,7 +147,11 @@ public class GameSystem_LinkMatch : MainGameSystem {
 	
 	// update touching or mouse process 
 	void updateTouchBoard(){
-		if(isBlocksMoveToAnim() || remain_time <= 0 || _currentMonster == null || _currentMonster.getCurrentAnimationState().Equals("die")) return ;
+		if(isBlocksMoveToAnim()) return ;
+		if(remain_time <= 0 || _currentMonster == null || _currentMonster.getCurrentAnimationState().Equals("die")) {
+			dotLineDestroy();
+			return;
+		}
 		if (Input.GetMouseButton(0)){ // touch start or mouse clicked
 
         	Vector3 p = screenTo2DPoint(Input.mousePosition);

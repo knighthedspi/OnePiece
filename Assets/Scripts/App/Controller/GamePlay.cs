@@ -344,5 +344,9 @@ public class GamePlay : GameSystem_LinkMatch {
 		_goldLabel.setText(_beriCount.ToString());
 	}
 
-
+	protected override IEnumerator GameClear ()
+	{
+		dotLineDestroy();
+		return base.GameClear ();
+	}
 }

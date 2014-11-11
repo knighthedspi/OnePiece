@@ -392,7 +392,7 @@ public class MainGameSystem : MonoBehaviour {
 	//===========================================
 
 	//will be call game cleared
-	IEnumerator GameClear(){
+	protected virtual IEnumerator GameClear(){
 		_gameEnd = true;
 
 		GameObject obj = GameObject.Find("GameClear").gameObject;
