@@ -35,6 +35,7 @@ public class GamePlay : GameSystem_LinkMatch {
 	private bool _startFever ;
 	private float _feverTime;
 	private Animator _feverAnimator;
+	private Animator _boardAnimator;
 
 	// Use this for initialization
 	public override void Start () {
@@ -50,6 +51,7 @@ public class GamePlay : GameSystem_LinkMatch {
 		_startFever = false;
 		_feverTime = 0.0f;
 		_feverAnimator = _stageLabel.GetComponent<Animator>();
+		_boardAnimator = _board.GetComponent<Animator>();
 	}
 	
 	/// <summary>
@@ -220,6 +222,8 @@ public class GamePlay : GameSystem_LinkMatch {
 	private void resetFever(){
 		_startFever = false;
 		_feverTime = 0.0f;
+		// stop board animation
+		_boardAnimator.SetBool("startFever", false);
 	}
 
 	/// <summary>
@@ -232,6 +236,8 @@ public class GamePlay : GameSystem_LinkMatch {
 		// fever animation
 		_stageLabel.text = "Fever time";
 		_feverAnimator.Play("StageLabel");
+		// start board animation
+		_boardAnimator.SetBool("startFever", true);
 	}
 
 	/// <summary>
@@ -322,5 +328,6 @@ public class GamePlay : GameSystem_LinkMatch {
 		_scoreLabel.setText(_scorePoint.ToString());
 		_goldLabel.setText(_beriCount.ToString());
 	}
+
 
 }
