@@ -8,10 +8,10 @@ using System.Collections.Generic;
 /// </summary>
 public class GameSystem_LinkMatch : MainGameSystem {
 	protected List<Block> _stackBlock = new List<Block>();
-	List<GameObject> _stackDot = new List<GameObject>();
-	List<GameObject> _stackLine = new List<GameObject>();
+	protected List<GameObject> _stackDot = new List<GameObject>();
+	protected List<GameObject> _stackLine = new List<GameObject>();
 
-	GameObject _currentLine = null;
+	protected GameObject _currentLine = null;
 
 	// Use this for initialization
 	public virtual void Start () {
@@ -146,8 +146,7 @@ public class GameSystem_LinkMatch : MainGameSystem {
 	
 	// update touching or mouse process 
 	void updateTouchBoard(){
-		if(isBlocksMoveToAnim()) return ;
-
+		if(isBlocksMoveToAnim() || remain_time <= 0 || _currentMonster == null || _currentMonster.getCurrentAnimationState().Equals("die")) return ;
 		if (Input.GetMouseButton(0)){ // touch start or mouse clicked
 
         	Vector3 p = screenTo2DPoint(Input.mousePosition);
@@ -179,15 +178,20 @@ public class GameSystem_LinkMatch : MainGameSystem {
 							}
 						}
 					}
-				}
-	        }
-	        
+					// add neighbor blocks in fever mode
+					updateStackBlock(_b);
+				}		
+	        }  		
 	    }else{ // touch end or mouse release
-
 			releaseBlocks();
-
 	    }
 	}
+
+	/// <summary>
+	/// Updates the stack block.
+	/// </summary>
+	/// <param name="b">Main block</param>
+	protected virtual void updateStackBlock(Block b){}
 
 	/// <summary>
 	/// Releases blocks when release touch or mouse

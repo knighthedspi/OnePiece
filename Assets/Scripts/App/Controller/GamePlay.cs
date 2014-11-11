@@ -36,6 +36,7 @@ public class GamePlay : GameSystem_LinkMatch {
 	private float _feverTime;
 	private Animator _feverAnimator;
 	private Animator _boardAnimator;
+	private List<Block> _neighbors;
 
 	// Use this for initialization
 	public override void Start () {
@@ -52,6 +53,7 @@ public class GamePlay : GameSystem_LinkMatch {
 		_feverTime = 0.0f;
 		_feverAnimator = _stageLabel.GetComponent<Animator>();
 		_boardAnimator = _board.GetComponent<Animator>();
+		_neighbors = new List<Block>();
 	}
 	
 	/// <summary>
@@ -224,6 +226,7 @@ public class GamePlay : GameSystem_LinkMatch {
 		_feverTime = 0.0f;
 		// stop board animation
 		_boardAnimator.SetBool("startFever", false);
+		_neighbors.Clear();
 	}
 
 	/// <summary>
@@ -241,55 +244,67 @@ public class GamePlay : GameSystem_LinkMatch {
 	}
 
 	/// <summary>
+	/// Updates the stack block.
+	/// </summary>
+	/// <param name="b">Main block</param>
+	protected override void updateStackBlock(Block b){
+		if(_startFever){
+			addNeighborBlock2Stack(b);
+		}
+	}
+
+	/// <summary>
+	/// Adds the neighbor block to neighbor stack.
+	/// </summary>
+	/// <param name="b">The block</param>
+	private void addNeighborBlock2Stack(Block b){
+		Vector2 posInBoard = b._posInBoard;
+		int posX = (int) posInBoard.x;
+		int posY = (int) posInBoard.y;
+		if( posX < _tilesNum.x - 1 && !_neighbors.Contains(_tiles[ posX + 1 , posY ]) )
+			_neighbors.Add(_tiles[ posX + 1 , posY ]);
+		if( posY < _tilesNum.y - 1 && !_neighbors.Contains(_tiles[ posX , posY + 1 ]) )
+			_neighbors.Add(_tiles[ posX , posY + 1 ]);
+		if( posX > 0 && !_neighbors.Contains(_tiles[ posX - 1 , posY ]))
+			_neighbors.Add(_tiles[ posX - 1 , posY ]);
+		if( posY > 0 && !_neighbors.Contains(_tiles[ posX , posY - 1 ]))
+			_neighbors.Add(_tiles[ posX , posY - 1 ]);
+		if( posX % 2 != 0){
+			if( posX < _tilesNum.x - 1 && posY > 0 && !_neighbors.Contains(_tiles[ posX + 1 , posY - 1 ]))
+				_neighbors.Add(_tiles[ posX + 1 , posY - 1 ]);
+			if( posX > 0 && posY > 0 && !_neighbors.Contains(_tiles[ posX - 1 , posY - 1 ]))
+				_neighbors.Add(_tiles[ posX - 1 , posY - 1 ]);
+		}else {
+			if( posX < _tilesNum.x - 1 && posY < _tilesNum.y - 1 && !_neighbors.Contains(_tiles[ posX + 1 , posY + 1]))
+				_neighbors.Add(_tiles[ posX + 1 , posY + 1 ]);
+			if( posX > 0 && posY < _tilesNum.y - 1 && !_neighbors.Contains(_tiles[ posX - 1 , posY + 1 ]))
+				_neighbors.Add(_tiles[ posX - 1 , posY + 1 ]);
+		}
+	}
+
+	/// <summary>
 	/// Releases blocks when release touch or mouse
 	/// </summary>
 	protected override void releaseBlocks(){
 		if(_stackBlock.Count > 0){
 			if(_stackBlock.Count >= 3){
-				// add neighbor blocks to stack when in fever mode
-				if(_startFever){
-					List<Block> neighbors = new List<Block>();
-					foreach(Block b in _stackBlock){
-						addNeighborBlock2Stack(b, neighbors);
-					}
-					_stackBlock.AddRange(neighbors);
-				}
+				_stackBlock.AddRange(_neighbors);
 				destroyBlocks(_stackBlock);
 				decreaseTurn();
 				// update score 
 				updateScore();
-			}
+			}else
+				_neighbors.Clear();
 			foreach(Block b in _stackBlock)
 				b.touchUp();
 			
 			_stackBlock.Clear();
+			_neighbors.Clear();
 			dotLineDestroy();
+		}else{
+			_neighbors.Clear();
 		}
-	}
-
-	private void addNeighborBlock2Stack(Block b, List<Block> stackBlocks){
-		Vector2 posInBoard = b._posInBoard;
-		int posX = (int) posInBoard.x;
-		int posY = (int) posInBoard.y;
-		if( posX < _tilesNum.x - 1 && !stackBlocks.Contains(_tiles[ posX + 1 , posY ]) )
-			stackBlocks.Add(_tiles[ posX + 1 , posY ]);
-		if( posY < _tilesNum.y - 1 && !stackBlocks.Contains(_tiles[ posX , posY + 1 ]) )
-			stackBlocks.Add(_tiles[ posX , posY + 1 ]);
-		if( posX > 0 && !stackBlocks.Contains(_tiles[ posX - 1 , posY ]))
-			stackBlocks.Add(_tiles[ posX - 1 , posY ]);
-		if( posY > 0 && !stackBlocks.Contains(_tiles[ posX , posY - 1 ]))
-			stackBlocks.Add(_tiles[ posX , posY - 1 ]);
-		if( posX % 2 != 0){
-			if( posX < _tilesNum.x - 1 && posY > 0 && !stackBlocks.Contains(_tiles[ posX + 1 , posY - 1 ]))
-				stackBlocks.Add(_tiles[ posX + 1 , posY - 1 ]);
-			if( posX > 0 && posY > 0 && !stackBlocks.Contains(_tiles[ posX - 1 , posY - 1 ]))
-				stackBlocks.Add(_tiles[ posX - 1 , posY - 1 ]);
-		}else {
-			if( posX < _tilesNum.x - 1 && posY < _tilesNum.y - 1 && !stackBlocks.Contains(_tiles[ posX + 1 , posY + 1]))
-				stackBlocks.Add(_tiles[ posX + 1 , posY + 1 ]);
-			if( posX > 0 && posY < _tilesNum.y - 1 && !stackBlocks.Contains(_tiles[ posX - 1 , posY + 1 ]))
-				stackBlocks.Add(_tiles[ posX - 1 , posY + 1 ]);
-		}
+		
 	}
 
 
