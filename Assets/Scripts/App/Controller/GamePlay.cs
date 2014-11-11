@@ -38,6 +38,9 @@ public class GamePlay : GameSystem_LinkMatch {
 	private Animator _boardAnimator;
 	private List<Block> _neighbors;
 
+	//fever ui
+	public UISprite _UI_FeverBack;
+
 	// Use this for initialization
 	public override void Start () {
 		base.Start();
@@ -216,6 +219,7 @@ public class GamePlay : GameSystem_LinkMatch {
 		if(_feverTime >= feverStepTime)
 			resetFever();
 		_UI_PlayerHP.fillAmount = remain_time/stage_time;
+		updateFeverUI();
 	}
 
 	/// <summary>
@@ -322,6 +326,7 @@ public class GamePlay : GameSystem_LinkMatch {
 	/// </summary>
 	protected override void increaseCombo(){
 		base.increaseCombo();
+		_comboTime = 0;
 		// start fever time when combo greater than fever limt
 		if(_currentCombo > feverLimit && !_startFever)
 			startFever();
@@ -348,5 +353,16 @@ public class GamePlay : GameSystem_LinkMatch {
 	{
 		dotLineDestroy();
 		return base.GameClear ();
+	}
+
+	//Update fever UI
+	protected void updateFeverUI()
+	{
+		float percent = (float)_currentCombo /(float)feverLimit; 
+//		Debug.Log(_currentCombo);
+		percent = 0.0f;
+		Debug.LogError(percent);
+		_UI_FeverBack.fillAmount = percent;
+		Debug.LogError(_UI_FeverBack.fillAmount);
 	}
 }
