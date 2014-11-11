@@ -162,7 +162,7 @@ public class GamePlay : GameSystem_LinkMatch {
 	public override void OnFinishedPlayerAttack(Vector2 lastPos){
 		_currentCharacter.attackPlay();
 		attackEffect(lastPos);
-		SoundManager.Instance.PlaySE("hit");
+//		SoundManager.Instance.PlaySE("water-drop");
 	}
 
 	/// <summary>

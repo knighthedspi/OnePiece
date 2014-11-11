@@ -66,6 +66,7 @@ public class GameSystem_LinkMatch : MainGameSystem {
 		_currentLine.GetComponent<UISprite>().width  = 18;
 		_currentLine.GetComponent<UISprite>().height = 0;
 		_currentLine.transform.localPosition = p;
+		SoundManager.Instance.PlaySE("water-drop");
 	}
 
 	//add tile in linked stack 

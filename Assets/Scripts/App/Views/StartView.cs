@@ -18,11 +18,12 @@ public class StartView : View {
 
 	private void onStartBtnClicked(){
 		Debug.Log ("start loading game");
+		SoundManager.Instance.PlaySE("sakura_voice_r02");
 		ViewLoader.Instance.CleanLoad(Config.GAME_PLAY_VIEW, null);
 	}
 
 	protected override void OnOpen (params object[] parameters)
 	{
-		SoundManager.Instance.PlayBGM("main");
+		SoundManager.Instance.PlayBGM("bgm_01_main");
 	}
 }

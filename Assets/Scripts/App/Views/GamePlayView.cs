@@ -26,4 +26,9 @@ public class GamePlayView : View {
 		else
 			Time.timeScale = 1.0f;
 	}
+
+	protected override void OnOpen (params object[] parameters)
+	{
+		SoundManager.Instance.PlayBGM("bgm_03_fun");
+	}
 }
