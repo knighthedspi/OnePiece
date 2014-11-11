@@ -149,6 +149,12 @@ public class GameSystem_LinkMatch : MainGameSystem {
 	void updateTouchBoard(){
 		if(isBlocksMoveToAnim()) return ;
 		if(remain_time <= 0 || _currentMonster == null || _currentMonster.getCurrentAnimationState().Equals("die")) {
+			if(_stackBlock.Count > 0){
+				foreach(Block b in _stackBlock)
+					b.touchUp();
+				destroyBlocks(_stackBlock);
+				_stackBlock.Clear();
+			}
 			dotLineDestroy();
 			return;
 		}
