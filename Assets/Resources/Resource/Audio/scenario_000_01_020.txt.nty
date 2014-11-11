@@ -1,0 +1,935 @@
+//--------------------------------------------------------
+//エリア１　酒場　バトル開始前
+//--------------------------------------------------------
+//DOUT, 0,0,0,30//
+//DISP, BG, bk50.png, 100, 0, 0
+//DISP, BG, areamap_bg_002.jpg, 100, 0, 0
+
+//デバック
+//CHARAPOSITION, BC, 0, -240
+//DISP,BC,sc_grid_base.png,100,0,0
+//ALPHA, BC, 196, 0
+
+
+//TALKF, 1
+SSZ, 2
+
+// メッセージ枠初期化
+MSGLINK, NARRATION, 0
+MSGLINK, UR, 1
+MSGLINK, UL, 2
+MSGLINK, UC, 3
+MSGLINK, BR, 4
+MSGLINK, BL, 5
+MSGLINK, BC, 6
+MSGLINK, UM, 7
+MSGLINK, UM2, 8
+MSGLINK, UM3, 9
+
+
+
+//UR：キャラ枠
+//UC：メッセージ枠
+//UM：メッセージ枠
+//UM2：メッセージ枠
+//UM3：メッセージ枠
+//BL：キャラ枠
+//BC：メッセージ枠
+//BM：メッセージ枠
+//BM2：メッセージ枠
+//BM3：メッセージ枠
+
+
+BGMSWITCH, 1
+
+
+BGM, bgm_03_fun.ogg
+
+//**************************************************************
+//上下の板スライドイン(共通演出)
+//DIN, 0,0,0,30//
+SSPLAY2, scenario_ui_frame_anim.ssd, 0, 0, 9, 0, 100, 100, 0
+SKIPBTN,1
+//DISP, BG, scenario_bg_cmn_bar001.png, 100, 0, 0
+TAGWAIT, 9
+//WAIT, 10
+//**************************************************************
+
+MSGSET, NARRATION, 30, 50, 0, 0
+MSGFONT, NARRATION, 160, 0, 0, 0//
+CHARAPOSITION, BC, 0, -205
+DISP, BC, event_telop_narration.png, 100, 0, 10
+MSG, NARRATION,ここは小さな港村だ\n港には一年程前から\n海賊船が停泊している
+
+MSGSET, NARRATION, 30, 40, 100, 100
+MSG, NARRATION,風は東\n村はいたって平和である
+CLR,NARRATION
+FOUT, BC, 10
+//-------------------------------------------
+//NAME,ルフィ
+//-------------------------------------------
+SSZ,1
+
+//タグ無しアニメ
+SET
+SSPLAY, scenario_event_000_01_020_1_anim.ssd, 160, 240, 1, 1, 100, 100, 0
+DISP, BG, scenario_bg_cmn_room001.png, 100, 0, 5
+END
+WAIT, 80
+
+SSSTOP,1
+CHARAPOSITION, UM2, -160, -240//左
+CHARAPOSITION, UC, 160, -240//右
+SET
+DISP, UM2, scenario_character_luffy1_11.png, 90, 0, 10//
+MOVE, UM2, 80, 0, 10, 0//左
+DISP, UC, scenario_character_shanks1_10.png, 90, 0, 10//
+MOVE, UC, -80, 0, 10, 0//右
+END
+WAIT, 10//MOVE対応
+
+SSZ,2
+
+TALK, UM2
+MOVE, UM2, 0, 8, 4, 0//
+MOVE, UM2, 0, -8, 6, 0//
+
+SSCNG, scenario_comment_dummy_1.png, scenario_comment_highlight7_2.png
+SSCNG, scenario_comment_dummy_2.png, scenario_comment_highlight7_3.png
+SSPLAY2, scenario_comment3_small_anim.ssd, 160, 170, 0, 0, 100, 100, 1
+WAIT, 10 //フキダシタグ待ち
+
+MSGSET, UM2, -60, -110, 0, 0
+MSG, UM2,連れてってくれよ\n次の航海！！
+MSGLINKSWAP, UM2, UM
+
+SSREPLAY, 0
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UM3, 35, -265, 0, 0
+
+MSG, UM3,おれだって海賊に\nなりたいん\nだよ！！！！
+
+SET
+CLR, UM
+CLR, UM2
+CLR, UM3
+SSSTOP, 0
+END
+SSRESET
+//-------------------------------------------
+//NAME,シャンクス
+//-------------------------------------------
+TALK, UC
+MOVE, UC, 0, 8, 4, 0//
+MOVE, UC, 0, -8, 6, 0//
+SSPLAY2, scenario_comment3_normal_anim.ssd, 160, 240, 0, 0, 100, 100, 0
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UC, 75, -5, 0, 0
+MSG, UC,せめて　あと\n１０歳年とったら\n考えてやるよ
+SET
+CLR, UM
+CLR, UM2
+CLR, UC
+SSSTOP, 0
+END
+SSRESET
+
+
+//-------------------------------------------
+//NAME,マキノ
+//-------------------------------------------
+CHARAPOSITION, UL, -160, -240//左
+SET
+DISP, UL, scenario_character_makino1_00.png, 80, 1, 10//
+MOVE, UL, 60, 0, 10, 0//左
+MOVE, UM2, 20, 0, 10, 0//
+END
+TALK, UL
+MOVE, UL, 0, 8, 4, 0//
+MOVE, UL, 0, -8, 6, 0//
+SSPLAY2, scenario_comment3_normal_anim.ssd, 160, 240, 0, 0, 100, 100, 1
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UL, -60, -5, 0, 0
+MSG, UL,相変わらず\n楽しそうですね\n船長さん
+
+SET
+CLR, UM
+CLR, UM2
+CLR, UL
+SSSTOP, 0
+END
+SSRESET
+//-------------------------------------------
+//NAME,マキノ
+//-------------------------------------------
+TALK, UL
+MOVE, UL, 0, 8, 4, 0//
+MOVE, UL, 0, -8, 6, 0//
+SSPLAY2, scenario_comment3_normal_anim.ssd, 160, 240, 0, 0, 100, 100, 1
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UL, -60, -5, 0, 0
+MSG, UL,ルフィ\nあなたも何か\n食べてく？
+
+SET
+CLR, UM
+CLR, UM2
+CLR, UL
+SSSTOP, 0
+END
+SSRESET
+//-------------------------------------------
+//NAME,ルフィ？
+//-------------------------------------------
+TALK, UM2
+MOVE, UM2, 0, 8, 4, 0//
+MOVE, UM2, 0, -8, 6, 0//
+SSCNG, scenario_comment_dummy_1.png, scenario_comment_normal7_2.png
+SSPLAY2, scenario_comment3_normal_anim.ssd, 190, 210, 0, 0, 100, 100, 1
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UM2, -37, -42, 0, 0
+MSG, UM2,ああ　じゃあ\n“宝払い”で食う
+
+SET
+CLR, UM
+CLR, UM2
+CLR, UM3
+SSSTOP, 0
+END
+SSRESET
+//-------------------------------------------
+//NAME,シャンクス
+//-------------------------------------------
+TALK, UC
+MOVE, UC, 0, 8, 4, 0//
+MOVE, UC, 0, -8, 6, 0//
+SSPLAY2, scenario_comment3_normal_anim.ssd, 160, 240, 0, 0, 100, 100, 0
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UC, 75, -5, 0, 0
+MSG, UC,でたな“宝払い”\nお前　そりゃ\nサギだぜ
+
+SET
+CLR, UM
+CLR, UM2
+CLR, UC
+SSSTOP, 0
+END
+SSRESET
+//-------------------------------------------
+//NAME,ルフィ
+//-------------------------------------------
+TALK, UM2
+MOVE, UM2, 0, 8, 4, 0//
+MOVE, UM2, 0, -8, 6, 0//
+SSCNG, scenario_comment_dummy_1.png, scenario_comment_normal9_3.png
+SSPLAY2, scenario_comment3_normal_anim.ssd, 190, 230, 0, 0, 100, 100, 1
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UM2, -45, -15, 0, 0
+MSG, UM2,違う！！\nちゃんと\nおれは海賊になって
+
+SET
+CLR, UM
+CLR, UM2
+CLR, UM3
+SSSTOP, 0
+END
+SSRESET
+//-------------------------------------------
+//NAME,ルフィ
+//-------------------------------------------
+TALK, UM2
+MOVE, UM2, 0, 8, 4, 0//
+MOVE, UM2, 0, -8, 6, 0//
+SSPLAY2, scenario_comment3_normal_anim.ssd, 180, 220, 0, 0, 100, 100, 1
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UM2, -45, -25, 0, 0
+MSG, UM2,宝を見つけたら\n金を払いに\n来るんだ！！
+
+SET
+CLR, UM
+CLR, UM2
+CLR, UM3
+SSSTOP, 0
+END
+SSRESET
+//-------------------------------------------
+//NAME,マキノ
+//-------------------------------------------
+TALK, UL
+MOVE, UL, 0, 8, 4, 0//
+MOVE, UL, 0, -8, 6, 0//
+SSPLAY2, scenario_comment3_normal_anim.ssd, 160, 240, 0, 0, 100, 100, 1
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UL, -55, -5, 0, 0
+MSG, UL,ふふふ！\n期待して\n待ってるわ
+
+SET
+CLR, UM
+CLR, UM2
+CLR, UL
+SSSTOP, 0
+END
+SSRESET
+
+//-------------------------------------------
+//NAME,ヒグマ
+//-------------------------------------------
+SET
+MOVE, UL, -40, 0, 10, 0//
+FOUT, UL,  10
+MOVE, UM2, -40, 0, 10, 0//
+MOVE, UC, -40, 0, 10, 0//
+FOUT, UM2,  10
+FOUT, UC,  10
+END
+
+BGMFADESTOP, 15
+WAIT, 15
+BGM, bgm_05_stress.ogg
+
+CHARAPOSITION, UM3, 160, -240//左
+EXECHARAPOSITION, UM3
+CHARAPOSITION, UR, 160, -240//右
+EXECHARAPOSITION, UR
+SET
+DISP, UM3, scenario_character_higuma1_00.png, 90, 1, 10//
+MOVE, UM3, -120, 0, 10, 0//左
+DISP, UR, scenario_character_pistol_bandit1_00.png, 80, 0, 10//
+MOVE, UR, -40, 0, 10, 0//右
+END
+WAIT, 10//MOVE対応
+
+TALK, UM3
+MOVE, UM3, 0, 8, 4, 0//
+MOVE, UM3, 0, -8, 6, 0//
+SSCNG, scenario_comment_dummy_1.png, scenario_comment_normal7_2.png
+SSCNG, scenario_comment_dummy_3.png, scenario_comment_normal5_2.png
+SSPLAY2, scenario_comment3_normal_anim.ssd, 160, 240, 0, 0, 100, 100, 0
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UM3, 80, -20, 0, 0
+MSG, UM3,邪魔するぜェ
+MSGLINKSWAP, UM3, UM
+
+SSREPLAY, 0
+WAIT, 10 //フキダシタグ待ち
+
+MSGSET, UM3, -20, -195, 0, 0
+MSG, UM3,ほほう…\nこれが海賊って\n輩かい…
+MSGLINKSWAP, UM3, UM2
+
+SSREPLAY, 0
+WAIT, 10 //フキダシタグ待ち
+
+MSGSET, UM3, 80, -295, 0, 0
+MSG, UM3,おれ達は\n山賊だ
+
+SET
+CLR, UM
+CLR, UM2
+CLR, UM3
+SSSTOP, 0
+END
+SSRESET
+//-------------------------------------------
+//NAME,ヒグマ
+//-------------------------------------------
+TALK, UM3
+MOVE, UM3, 0, 8, 4, 0//
+MOVE, UM3, 0, -8, 6, 0//
+
+SSCNG, scenario_comment_dummy_2.png, scenario_comment_normal7_2.png
+SSPLAY2, scenario_comment3_normal_anim.ssd, 160, 240, 0, 0, 100, 100, 0
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UM3, 75, -5, 0, 0
+MSG, UM3,――が…別に店を\n荒らしにきた\n訳じゃねェ
+MSGLINKSWAP, UM3, UM
+
+SSREPLAY, 0
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UM3, -25, -205, 0, 0
+MSG, UM3,酒を売ってくれ\n樽で１０個ほど
+
+SET
+CLR, UM
+CLR, UM2
+CLR, UM3
+SSSTOP, 0
+END
+SSRESET
+//-------------------------------------------
+//NAME,マキノ
+//-------------------------------------------
+CHARAPOSITION, UL, -160, -240//左
+SET
+DISP, UL, scenario_character_makino1_01.png, 80, 1, 10//
+MOVE, UL, 60, 0, 10, 0//左
+END
+
+TALK, UL
+MOVE, UL, 0, 8, 4, 0//
+MOVE, UL, 0, -8, 6, 0//
+
+SSCNG, scenario_comment_dummy_1.png, scenario_comment_normal7_2.png
+SSCNG, scenario_comment_dummy_2.png, scenario_comment_normal9_3.png
+SSPLAY2, scenario_comment2_normal_anim.ssd, 150, 240, 0, 0, 100, 100, 1
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UL, -65, -20, 0, 0
+MSG, UL,ごめんなさい
+MSGLINKSWAP, UL, UM
+
+SSREPLAY, 0
+WAIT, 10 //フキダシタグ待ち
+
+MSGSET, UL, 17, -195, 0, 0
+MSG, UL,お酒は\n今　ちょうど\n切らしてるんです
+
+SET
+CLR, UM
+CLR, UM2
+CLR, UL
+SSSTOP, 0
+END
+SSRESET
+//-------------------------------------------
+//NAME,ヒグマ
+//-------------------------------------------
+TALK, UM3
+MOVE, UM3, 0, 8, 4, 0//
+SSCNG, scenario_comment_dummy_1.png, scenario_comment_normal7_2.png
+SSCNG, scenario_comment_dummy_2.png, scenario_comment_normal7_2.png
+SSPLAY2, scenario_comment2_normal_anim.ssd, 160, 240, 0, 0, 100, 100, 0
+MOVE, UM3, 0, -8, 6, 0//
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UM3, 77, -14, 0, 0
+MSG, UM3,んん？\nおかしな話だな
+MSGLINKSWAP, UM3, UM
+
+SSREPLAY, 0
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UM3, -25, -203, 0, 0
+MSG, UM3,海賊共が何か\n飲んでる様だが
+
+SET
+CLR, UM
+CLR, UM2
+CLR, UM3
+SSSTOP, 0
+END
+SSRESET
+//-------------------------------------------
+//NAME,シャンクス
+//-------------------------------------------
+
+//SET
+CHARAPOSITION, UC, -200, -240//右
+ZORDERFRONT, UC
+DISP, UC, scenario_character_shanks1_00.png, 80, 0, 10//
+//END
+
+MOVE, UC, 120, 0, 10, 0//右
+MOVE, UL, -150, 0, 10, 0//右
+
+TALK, UC
+MOVE, UC, 0, 8, 4, 0//
+MOVE, UC, 0, -8, 6, 0//
+
+SSCNG, scenario_comment_dummy_1.png, scenario_comment_normal5_3.png
+SSPLAY2, scenario_comment3_normal_anim.ssd, 160, 240, 0, 0, 100, 100, 1
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UC, -65, -5, 0, 0
+MSG, UC,これは\n悪い事を\nしたなァ
+MSGLINKSWAP, UC, UM
+
+SSREPLAY, 0
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UC, 32, -195, 0, 0
+
+MSG, UC,おれ達が店の酒\n飲み尽くしちまった\nみたいですまん
+
+SET
+CLR, UM
+CLR, UM2
+CLR, UC
+SSSTOP, 0
+END
+SSRESET
+//-------------------------------------------
+//NAME,シャンクス
+//-------------------------------------------
+TALK, UC
+MOVE, UC, 0, 8, 4, 0//
+MOVE, UC, 0, -8, 6, 0//
+
+SSCNG, scenario_comment_dummy_1.png, scenario_comment_001_01_020.png
+SSCNG, scenario_comment_dummy_2.png, scenario_comment_normal5_2.png
+SSPLAY2, scenario_comment2_normal_anim.ssd, 160, 240, 0, 0, 100, 100, 1
+
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UC, -70, -5, 0, 0
+MSG, UC,これで\nよかったら\nやるよ
+MSGLINKSWAP, UC, UM
+
+SSREPLAY, 0
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UC, 30, -205, 0, 0
+MSG, UC,まだ栓も\nあけてない
+
+//ヒグマ酒瓶を割る
+
+SET
+CLR, UM
+CLR, UM2
+CLR, UC
+SSSTOP, 0
+END
+SSRESET
+
+
+
+//-------------------------------------------
+//NAME,ヒグマ
+//-------------------------------------------
+//ＳＳＤ設置
+
+//CHARAPOSITION, BM3, 0, -240//左
+//DISP, BM3, scenario_ui_frame_full.png, 100, 0, 0//
+
+SSPLAY2, scenario_event_000_01_020_2_anim.ssd, 160, 240, 2, 1, 100, 100, 0
+DISP, BG, scenario_bg_cmn_bar002.png, 100, 0, 5
+//SSPLAY, scenario_event_000_01_020_anim.ssd, 160, 240, 2, 1, 100, 100, 0
+
+TAGWAIT, 2//WAIT, 40
+
+//TALKF,1
+//TALK, UM3
+
+//SET
+//SE, se_effect_punch_2.ogg
+//MOVE, UM3, -50, 0, 5, 0
+//SSPLAY, scenario_hit_effect_common_basic_01_hits.ssd, 80, 320, 1, 0, 100, 100, 0
+//SSPLAY, scenario_hit_effect_common_02basic_anime_1.ssd, 80, 320, 1, 0, 100, 100, 0
+//END
+
+//SHAKE, UC, 1, 10, 1, 2
+//SHAKE_END, UC
+//SE, se_effect_punch_2.ogg
+//TINT, UC, 200, 30, 30, 5
+
+
+//SET
+//TINT, UC, 255, 255, 255, 5
+//MOVE, UC, 40, -40, 5, 0
+//END
+//MOVE, UM3, 50, 0, 5, 0
+
+//SET
+//ssd削除など
+//FOUT, BM3, 5
+//END
+
+//MOVE, UM3, 0, 8, 4, 0//
+//MOVE, UM3, 0, -8, 6, 0//
+SSPLAY2, scenario_comment2_normal_anim.ssd, 125, 270, 0, 0, 100, 100, 0
+SSPLAY2, scenario_comment3_normal_anim.ssd, 155, 470, 1, 0, 100, 100, 1
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UM3, 45, 25, 0, 0
+MSG, UM3,おい貴様\nこのおれを誰だ\nと思ってる
+
+SET
+SSSTOP,0
+CLR, UM3
+SSSTOP, 0
+END
+SSRESET
+
+SSREPLAY, 1
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UM3, 40, 30, 0, 0
+MSG, UM3,八百万ベリーが\nおれの首に\nかかってる
+MSGLINKSWAP, UM3, UM2
+
+SSREPLAY, 1
+WAIT, 10 //フキダシタグ待ち
+
+MSGSET, UM3, -28, -58, 0, 0
+MSG, UM3,第一級の\nおたずね者って\nわけだ
+
+SET
+CLR, UM
+CLR, UM2
+CLR, UM3
+SSSTOP, 1
+END
+SSRESET
+
+DEFCHARAPOSITION, UC
+CHARAPOSITION, UC, -20, -320
+EXECHARAPOSITION, UC
+WAIT,15
+
+//-------------------------------------------
+//NAME,ヒグマ
+//-------------------------------------------
+
+SSPLAY2, scenario_comment2_normal_anim.ssd, 110, 270, 0, 0, 100, 100, 0
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UM3, 35, 25, 0, 0
+
+MSG, UM3,わかったら…\n今後\n気をつけろ
+SET
+CLR, UM
+CLR, UM2
+CLR, UM3
+SSSTOP, 0
+END
+SSRESET
+
+SSREPLAY, 2
+TAGWAIT, 2//WAIT, 40
+SSSTOP, 2
+
+
+
+
+TALK, UM3
+MOVE, UM3, 0, 8, 4, 0//
+MOVE, UM3, 0, -8, 6, 0//
+SSCNG, scenario_comment_dummy_1.png, scenario_comment_normal5_2.png
+SSPLAY2, scenario_comment2_normal_anim.ssd, 160, 240, 0, 0, 100, 100, 0
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UM3, 120, -15, 0, 0
+
+MSG, UM3,じゃあな\n腰ヌケ共
+
+SET
+CLR, UM
+CLR, UM2
+CLR, UM3
+SSSTOP, 0
+END
+SSRESET
+
+
+
+FOUT, UM3,  10
+ALPHA, UR, 0, 10
+
+//-------------------------------------------
+//NAME,マキノ
+//-------------------------------------------
+ZORDERFRONT, UC
+//MOVE, UC, 80, 0, 10, 0//右
+MOVE, UL, 150, 0, 10, 0//右
+
+TALK, UL
+MOVE, UL, 0, 8, 4, 0//
+MOVE, UL, 0, -8, 6, 0//
+
+SSCNG, scenario_comment_dummy_1.png, scenario_comment_normal9_2.png
+SSPLAY2, scenario_comment3_normal_anim.ssd, 170, 240, 0, 0, 100, 100, 1
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UL, -65, -15, 0, 0
+MSG, UL,船長さん\n大丈夫ですか！？
+
+SET
+CLR, UM
+CLR, UM2
+CLR, UL
+SSSTOP, 0
+END
+SSRESET
+//-------------------------------------------
+//NAME,シャンクス
+//-------------------------------------------
+
+MOVE, UC, -10, 40, 10, 0
+ALPHA, UC, 0, 5
+MOVE, UC, 20, 40, 10, 0
+DISP, UC, scenario_character_shanks1_10.png, 80, 0, 4//
+//SCALE, UC, -80, 80, 0, 0, 0
+ALPHA, UC, 255, 5
+
+TALK, UC
+MOVE, UC, 0, 8, 4, 0//
+MOVE, UC, 0, -8, 6, 0//
+SSCNG, scenario_comment_dummy_1.png, scenario_comment_normal5_3.png
+SSPLAY2, scenario_comment1_normal_anim.ssd, 140, 360, 0, 0, 100, 100, 1
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UC, -5, -7, 0, 0
+MSG, UC,あ―――\n大丈夫\n問題ない
+
+SET
+CLR, UM
+CLR, UM2
+CLR, UC
+SSSTOP, 0
+END
+SSRESET
+
+//原作ではルウですが絵がないなら海賊で
+//一般海賊が敵っぽいのでツライ
+
+//-------------------------------------------
+//NAME,赤髪海賊団
+//-------------------------------------------
+BGMFADESTOP, 15
+WAIT, 15
+BGM, bgm_03_fun.ogg
+
+ZORDERFRONT, UL
+ZORDERFRONT, UC
+ZORDERFRONT, UM2
+//ZORDERFRONT, UM
+CHARAPOSITION, UM, 300, -240
+
+SET
+DISP, UM, scenario_sccut_000_01_020.png, 110, 0, 5
+MOVE, UM, -210, 0, 5, 0
+END
+
+WAIT, 5
+
+MOVE, UM, 0, 8, 4, 0
+MOVE, UM, 0, -8, 4, 0
+MOVE, UM, 0, 8, 4, 0
+MOVE, UM, 0, -8, 4, 0
+
+TALK, UM
+SSPLAY2, scenario_comment1_normal_anim.ssd, 200, 370, 0, 0, 100, 100, 0
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UM, 45, 0, 0, 0
+MSG, UM,っだ――っ\nはっはっは　何て\nざまだ　お頭！！
+//NBMSG, UM,っだ――っ\nはっはっは　何て\nざまだ　お頭！！
+//MSGLINKSWAP, UM, UM3
+MSGSET, UM2, 165, -45, 0, 0
+//MSG, UM2,　
+SET
+CLR, UM
+CLR, UM3
+SSSTOP, 0
+END
+SSRESET
+SSCNG, scenario_comment_dummy_1.png, scenario_comment_normal5_3.png
+SSPLAY2, scenario_comment1_normal_anim.ssd, 200, 370, 0, 0, 100, 100, 0
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UM, 75, 0, 0, 0
+MSG, UM,はでに\nやられた\nなァ！！
+
+SET
+CLR, UM
+SSSTOP, 0
+END
+SSRESET
+//-------------------------------------------
+//NAME,ルフィ
+//-------------------------------------------
+
+DEFCHARAPOSITION, UM2
+ZORDERFRONT, UM2
+CHARAPOSITION, UM2, -160, -240//左
+EXECHARAPOSITION, UM2
+SET
+DISP, UM2, scenario_character_luffy1_11.png, 80, 0, 10//
+MOVE, UM2, 70, 0, 10, 0//左
+END
+TALK, UM2
+MOVE, UM2, 0, 8, 4, 0//
+MOVE, UM2, 0, -8, 6, 0//
+SSCNG, scenario_comment_dummy_1.png, scenario_comment_highlight9_2.png
+SSCNG, scenario_comment_dummy_1.png, scenario_comment_highlight7_3.png
+SSPLAY2, scenario_comment2_small_anim.ssd, 170, 250, 0, 0, 110, 100, 1
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UM2, -70, -28, 0, 0
+MSGFONT, UM2, 165, 0, 0, 0
+MSG, UM2,なんで\n笑ってんだよ！！！
+MSGLINKSWAP, UM2, UM
+
+SSREPLAY, 0
+WAIT, 10 //フキダシタグ待ち
+
+MSGFONT, UM3, 170, 0, 0, 0
+MSGSET, UM2, 45, -185, 0, 0
+MSGSET, UM3, 45, -185, 0, 0
+
+MSG, UM2,あんなの\nかっこ悪いじゃ\nないか！！！
+
+SET
+CLR, UM
+CLR, UM2
+CLR, UM3
+SSSTOP, 0
+END
+SSRESET
+
+SET
+ZORDERFRONT, UM2
+ALPHA, UM2, 0, 10
+MOVE, UM2, 160, 0, 10, 0//左
+END
+
+//WAIT, 10
+
+//ALPHA, UC, 0, 5
+
+//SCALE, UC, 80, 80, 0, 0, 0
+
+//DISP, UC, scenario_character_shanks1_00.png, 80, 0, 4//
+//SET
+//MOVE, UC, 80, 0, 0, 0
+//ALPHA, UC, 255, 5
+//END
+
+
+//WAIT,6
+
+
+//MOVE, UC, 150, 0, 8, 0
+
+MSGFONT, UM, 200, 0, 0, 0
+MSGFONT, UM2, 200, 0, 0, 0
+MSGFONT, UM3, 150, 0, 0, 0
+
+//**************************************************************
+DEFCHARAPOSITION, BM
+
+SET
+//■ANCHOR, BM, 50, 0
+CHARAPOSITION, BM, -300, -400
+DISP, BM, switching.png, 150, 0, 10//
+MOVE, BM, 300, 0, 10, 0//右から左側
+END
+
+//**************************************************************
+//MOVE, BM, -300, 0, 10, 0//右から左側
+//**************************************************************
+
+
+//**************************************************************
+
+//DOUT, 0,0,0,10//
+//キャラクターフェードアウト
+FOUT, UM ,0
+FOUT, UL, 0
+
+SET
+BGM, bgm_21_quest_02.ogg
+END
+ALPHA, UC, 0, 5
+DISP, BG, scenario_bg_cmn_bar001.png, 100, 0, 0
+
+DEFCHARAPOSITION, UC
+ALPHA, UR, 255, 10
+MOVE, UM2, -300, 0, 0, 0//左
+//MOVE, UC, -450, 0, 0, 0//左
+CHARAPOSITION, UC, -300, -240
+DISP, UC, scenario_character_shanks1_00.png, 80, 0, 4//
+//DIN, 0,0,0,10//
+
+SET
+MOVE, BM, 300, 0, 10, 0//右から左側
+FOUT, BM, 10
+END
+//**************************************************************
+
+WAIT, 10
+
+//-------------------------------------------
+//NAME,ルフィ
+//-------------------------------------------
+
+DEFCHARAPOSITION, UM2
+CHARAPOSITION, UM2, -300, -240
+EXECHARAPOSITION, UM2
+
+SET
+ALPHA, UM2, 255, 10
+MOVE, UM2, 260, 0, 10, 0//左
+END
+
+
+SSCNG, scenario_comment_dummy_1.png, scenario_comment_highlight7_2.png
+SSCNG, scenario_comment_dummy_2.png, scenario_comment_highlight7_3.png
+SSPLAY2, scenario_comment2_small_anim.ssd, 160, 170, 0, 0, 110, 100, 1
+WAIT, 10 //フキダシタグ待ち
+
+
+MSGFONT, UM2, 180, 0, 0, 0
+MSGFONT, UM, 180, 0, 0, 0
+MSGSET, UM2, -70, -110, 0, 0
+MSGSET, UM, -70, -110, 0, 0
+MSG, UM2,ちくしょう！\nまてこの野郎！
+
+//原作になしバトル用
+SET
+CLR, UM
+CLR, UM2
+CLR, UM3
+SSSTOP, 0
+END
+SSRESET
+
+
+
+//-------------------------------------------
+//NAME,オノ山賊
+//-------------------------------------------
+TALK, UR
+MOVE, UR, 0, 8, 4, 0//
+MOVE, UR, 0, -8, 6, 0//
+SSPLAY2, scenario_comment3_normal_anim.ssd, 160, 240, 0, 0, 100, 100, 0
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UR, 80, -8, 0, 0
+MSG, UR,おお？\nやろうってのか\nこのガキ？
+
+SET
+CLR, UM
+CLR, UM2
+CLR, UR
+SSSTOP, 0
+END
+SSRESET
+//-------------------------------------------
+//NAME,シャンクス
+//-------------------------------------------
+SET
+ZORDERFRONT, UM2
+ALPHA, UC, 255, 5
+MOVE, UC, 180, 0, 10, 0//左
+END
+
+TALK, UC
+MOVE, UC, 0, 8, 4, 0//
+MOVE, UC, 0, -8, 6, 0//
+
+SSCNG, scenario_comment_dummy_1.png, scenario_comment_highlight9_2.png
+SSPLAY2, scenario_comment3_normal_anim.ssd, 180, 240, 0, 0, 100, 100, 1
+WAIT, 10 //フキダシタグ待ち
+MSGSET, UC, -55, -18, 0, 0
+MSGFONT, UM, -55, -18, 0, 0
+MSG, UC,まて、ルフィ！！
+SET
+CLR, UC
+CLR, UM2
+SSSTOP, 0
+END
+SSRESET
+//BGMFADESTOP, 15
+//WAIT, 15
+//【バトル：ザコ山賊】
+SET
+TITLEVISIBLE, 0
+FOUT, UR,  10
+FOUT, UC,  10
+FOUT, UL,  10
+FOUT, BR,  10
+FOUT, UM,  10
+FOUT, BM,  10
+FOUT, BC,  10
+FOUT, BL,  10
+FOUT, BG,  10
+FOUT, BGD, 10
+FOUT, UM2, 10
+FOUT, UM3, 10
+END
+SSREPLAY, 9
+TAGWAIT, 9//WAIT, 15
+SSSTOP, 9
