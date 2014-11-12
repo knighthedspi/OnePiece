@@ -5,16 +5,17 @@ using System.Collections;
 public class OPUser {
 	
 	private int? id;
-	private string user_name;
-	private string facebook_token;
+	private string userName;
+	private string facebookToken;
 	private int exp;
-	private int level_id;
-	private string lasted_health_res;
+	private int levelId;
+	private string lastedHealthRes;
 	private int health;
 	private int score;
-	private int high_score;
-	private string updated_at;
-	private string created_at;
+	private int highScore;
+	private int currentMonsterID;
+	private string updatedAt;
+	private string createdAt;
 
 	public int? Id {
 		get {
@@ -25,21 +26,21 @@ public class OPUser {
 		}
 	}
 
-	public string User_name {
+	public string UserName {
 		get {
-			return this.user_name;
+			return this.userName;
 		}
 		set {
-			user_name = value;
+			userName = value;
 		}
 	}
-	
-	public string Facebook_token {
+
+	public string FacebookToken {
 		get {
-			return this.facebook_token;
+			return this.facebookToken;
 		}
 		set {
-			facebook_token = value;
+			facebookToken = value;
 		}
 	}
 
@@ -52,21 +53,21 @@ public class OPUser {
 		}
 	}
 
-	public int Level_id {
+	public int LevelId {
 		get {
-			return this.level_id;
+			return this.levelId;
 		}
 		set {
-			level_id = value;
+			levelId = value;
 		}
 	}
 
-	public string Lasted_health_res {
+	public string LastedHealthRes {
 		get {
-			return this.lasted_health_res;
+			return this.lastedHealthRes;
 		}
 		set {
-			lasted_health_res = value;
+			lastedHealthRes = value;
 		}
 	}
 
@@ -88,30 +89,40 @@ public class OPUser {
 		}
 	}
 
-	public int High_score {
+	public int HighScore {
 		get {
-			return this.high_score;
+			return this.highScore;
 		}
 		set {
-			high_score = value;
+			highScore = value;
 		}
 	}
 
-	public string Updated_at {
+	public int CurrentMonsterID {
 		get {
-			return this.updated_at;
+			return this.currentMonsterID;
 		}
 		set {
-			updated_at = value;
+			currentMonsterID = value;
 		}
 	}
 
-	public string Created_at {
+	public string UpdatedAt {
 		get {
-			return this.created_at;
+			return this.updatedAt;
 		}
 		set {
-			created_at = value;
+			updatedAt = value;
 		}
 	}
+
+	public string CreatedAt {
+		get {
+			return this.createdAt;
+		}
+		set {
+			createdAt = value;
+		}
+	}
+
 }
