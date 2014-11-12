@@ -146,5 +146,27 @@ public class GamePlayService{
 		FindMatches();
 		return best_way;
 	}
+
+	//start caculate exp
+	/// <summary>
+	/// Caculates the exp.
+	/// Cách tính belly.
+	///	1. Ăn 3 block k được tính 
+	///	2. Ăn 4 block: 1
+	///	3. Ắn 5 block: 2
+	///	4. Ăn 6 block: 4
+	///	belly = 2^(num_block - 4)
+	/// </summary>
+	/// <returns>The exp.</returns>
+	/// <param name="numBlocks">Number blocks.</param>
+	public int caculateExp(int numBlocks)
+	{
+		if(numBlocks < 4)
+		{
+			return 0;
+		}
+		return 2<<(numBlocks -4);
+	}
+
 	
 }
