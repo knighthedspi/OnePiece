@@ -148,7 +148,7 @@ public class GameSystem_LinkMatch : MainGameSystem {
 	// update touching or mouse process 
 	void updateTouchBoard(){
 		if(isBlocksMoveToAnim()) return ;
-		if(remain_time <= 0 || _currentMonster == null || _currentMonster.getCurrentAnimationState().Equals("die")) {
+		if(remain_time <= 0 || _currentMonster == null || _currentMonster!=null && _currentMonster.getCurrentAnimationState().Equals("die")) {
 			if(_stackBlock.Count > 0){
 				foreach(Block b in _stackBlock)
 					b.touchUp();
@@ -188,7 +188,7 @@ public class GameSystem_LinkMatch : MainGameSystem {
 							}
 						}
 					}
-					// add neighbor blocks in fever mode
+					// update stack block if necessary
 					updateStackBlock(_b);
 				}		
 	        }  		

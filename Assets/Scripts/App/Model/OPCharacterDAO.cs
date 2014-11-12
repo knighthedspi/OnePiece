@@ -51,4 +51,19 @@ public class OPCharacterDAO : OPCharacter{
 		}
 		return result[0];
 	}
+
+	/// <summary>
+	/// Gets the list monster after the current monster
+	/// </summary>
+	/// <returns>The list monster </returns>
+	/// <param name="currentMonsterID">Current monster Id</param>
+	public List<OPCharacter> getListMonster(int currentMonsterID = 0){
+		string query = "SELECT * FROM " + tableName + " where kindId != " + KINDID_CHARACTER  + " and id > " + currentMonsterID + " order by id ASC limit " + Config.COUNT_OF_MONSTERS;
+		List<OPCharacter> result = GenericDao<OPCharacter>.Instance.Get(db, query);
+		if(result.Count < 1)
+		{
+			throw new Exception("Character not found at level: ");
+		}
+		return result;
+	}
 }

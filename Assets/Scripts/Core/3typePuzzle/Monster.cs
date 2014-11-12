@@ -97,6 +97,7 @@ public class Monster : MonoBehaviour {
 		this._hp = Random.Range(obj.InitialHP, obj.MaxHP);
 		this._maxhp = this._hp;
 		this._attackPoint = obj.AttackPoint;
+		this.id = obj.Id;
 	}
 
 	/// <summary>

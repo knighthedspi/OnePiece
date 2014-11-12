@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -146,6 +146,65 @@ public class GamePlayService{
 		FindMatches();
 		return best_way;
 	}
+
+	/// <summary>
+	/// Adds the neighbor block2 stack.
+	/// </summary>
+	/// <param name="b">The block component.</param>
+	/// <param name="_neighbors">_neighbors stack list</param>
+	public void addNeighborBlock2Stack(Block b, List<Block> _neighbors){
+		Vector2 posInBoard = b._posInBoard;
+		int posX = (int) posInBoard.x;
+		int posY = (int) posInBoard.y;
+		if( posX < _tilesNum.x - 1 && !_neighbors.Contains(_tiles[ posX + 1 , posY ]) )
+			_neighbors.Add(_tiles[ posX + 1 , posY ]);
+		if( posY < _tilesNum.y - 1 && !_neighbors.Contains(_tiles[ posX , posY + 1 ]) )
+			_neighbors.Add(_tiles[ posX , posY + 1 ]);
+		if( posX > 0 && !_neighbors.Contains(_tiles[ posX - 1 , posY ]))
+			_neighbors.Add(_tiles[ posX - 1 , posY ]);
+		if( posY > 0 && !_neighbors.Contains(_tiles[ posX , posY - 1 ]))
+			_neighbors.Add(_tiles[ posX , posY - 1 ]);
+		if( posX % 2 != 0){
+			if( posX < _tilesNum.x - 1 && posY > 0 && !_neighbors.Contains(_tiles[ posX + 1 , posY - 1 ]))
+				_neighbors.Add(_tiles[ posX + 1 , posY - 1 ]);
+			if( posX > 0 && posY > 0 && !_neighbors.Contains(_tiles[ posX - 1 , posY - 1 ]))
+				_neighbors.Add(_tiles[ posX - 1 , posY - 1 ]);
+		}else {
+			if( posX < _tilesNum.x - 1 && posY < _tilesNum.y - 1 && !_neighbors.Contains(_tiles[ posX + 1 , posY + 1]))
+				_neighbors.Add(_tiles[ posX + 1 , posY + 1 ]);
+			if( posX > 0 && posY < _tilesNum.y - 1 && !_neighbors.Contains(_tiles[ posX - 1 , posY + 1 ]))
+				_neighbors.Add(_tiles[ posX - 1 , posY + 1 ]);
+		}
+	}
+
+	/// <summary>
+	/// Loads the character
+	/// </summary>
+	/// <returns>The Monster Component of this character.</returns>
+	/// <param name="parent">Parent game object</param>
+	/// <param name="pos">Position of character</param>
+	/// <param name="direction">Direction of character</param>
+	public Monster loadCharacter(GameObject parent, Vector3 pos, Vector3 direction){
+		//#TODO get by user level
+		OPCharacter characterObj = CharacterService.Instance.getCharacterByLevel(1);
+		return MonsterService.Instance.createMonster( characterObj, Config.TAG_CHARACTER, parent, pos, direction);
+	}
+
+	/// <summary>
+	/// Loads list of monster per game level
+	/// </summary>
+	/// <returns>The list of Monster Components</returns>
+	/// <param name="parent">Parent.</param>
+	/// <param name="pos">Position.</param>
+	/// <param name="direction">Direction.</param>
+	public List<Monster> loadMonsterList(GameObject parent, List<Vector3> pos, Vector3 direction){
+		// TODO get by user 's current monster id
+		int cmID = 0;
+		List<OPCharacter> listMonsterModel = OPCharacterDAO.Instance.getListMonster(cmID);
+		List<Monster> listMonster = MonsterService.Instance.createListMonster(listMonsterModel, parent, pos, direction); 
+		return listMonster;	
+	}
+
 
 	//start caculate exp
 	/// <summary>
