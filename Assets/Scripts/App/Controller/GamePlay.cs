@@ -330,6 +330,9 @@ public class GamePlay : GameSystem_LinkMatch {
 		// start fever time when combo greater than fever limt
 		if(_currentCombo > feverLimit && !_startFever)
 			startFever();
+
+		if(_startFever)
+			_feverTime = 0;
 	}
 
 	/// <summary>
