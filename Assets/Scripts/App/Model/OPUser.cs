@@ -14,8 +14,8 @@ public class OPUser {
 	private int score;
 	private int highScore;
 	private int currentMonsterID;
-	private string updatedAt;
-	private string createdAt;
+	private int updatedAt;
+	private int createdAt;
 
 	public int? Id {
 		get {
@@ -107,7 +107,7 @@ public class OPUser {
 		}
 	}
 
-	public string UpdatedAt {
+	public int UpdatedAt {
 		get {
 			return this.updatedAt;
 		}
@@ -116,7 +116,7 @@ public class OPUser {
 		}
 	}
 
-	public string CreatedAt {
+	public int CreatedAt {
 		get {
 			return this.createdAt;
 		}
