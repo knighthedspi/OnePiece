@@ -96,6 +96,11 @@ Project structure
 * Standard Assets: các asset mặc định của Unity
 * UnityTestTools : test tool của Unity
 
+## Viết test code ##
 
-
-
+* Phải viết test code cho.
+  * Model
+  * Service
+* Để file test vào floder Assets/Script/App/Test/Editor
+  * Chú ý bắt buộc phải đẻ vào Editor k thì sẽ k chạy
+  * Tham khảo thêm ở [đây](http://tipsnote.tumblr.com/post/101751195305/unity-memo)
