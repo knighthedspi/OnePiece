@@ -7,7 +7,6 @@ public class GamePlay : GameSystem_LinkMatch {
 
 	public int deltaStartX  = 13;
 	public int deltaStartY  = -20;
-	private bool _startGame;
 	private Monster _currentCharacter;
 
 	// belly count
@@ -46,12 +45,17 @@ public class GamePlay : GameSystem_LinkMatch {
 	private List<Monster> _monsterList;
 	public int deltaMonsterPos = 300;
 
+	// loading progress
+	private float _loadingProgress;
+	private int   _loadedCount;
+	private int   _loadCount;
+	private LoadingView _loadingView;
+
 	// Use this for initialization
-	public override void Start () {
+	public override void Start () {	
 		base.Start();
 		GamePlayService.Instance.initBlock(_tilesNum, _tiles);
 		_top_field.GetComponent<Field>().Finish = OnFinishedWorking;
-		_startGame = true;
 
 		_beriCount = 0;
 		_scorePoint = 0;
@@ -62,8 +66,14 @@ public class GamePlay : GameSystem_LinkMatch {
 		_feverAnimator = _stageLabel.GetComponent<Animator>();
 		_boardAnimator = _board.GetComponent<Animator>();
 		_neighbors = new List<Block>();
-
 		_monsterList = new List<Monster>();
+
+		_loadingProgress = 0;
+		_loadedCount = 0;
+		// total characters that have 2 be loaded
+		_loadCount = Config.COUNT_OF_MONSTERS + 2;
+		// load character and monster
+		loadCharacters();
 	}
 	
 	/// <summary>
@@ -92,18 +102,21 @@ public class GamePlay : GameSystem_LinkMatch {
 		float height = _board.GetComponent<UISprite>().height;
 		float startX = trans.localPosition.x - width/2 + deltaStartX;
 		float startY = trans.localPosition.y - height/2 + deltaStartY;
-		float posX = (x*_tileSize.y);
-		float posY = ((_tilesNum.x-y-1)*(_tileSize.x));
+		float posX = (x*_tileSize.x);
+		float posY = ((_tilesNum.x-y-1)*(_tileSize.y));
 
-		posX = posX + startX + _tileSize.y/2 + _boardPadding.x + _tilesMargin.x * x;
-		posY = posY + startY + _tileSize.x/2 + _boardPadding.y + _tilesMargin.y * y + curve;
+		// TODO : fix width. height because block is rotated 90 degree
+		posX = posX + startX + _tileSize.x/2 + _boardPadding.x + _tilesMargin.x * x;
+		posY = posY + startY + _tileSize.y/2 + _boardPadding.y + _tilesMargin.y * y + curve;
 
 		return new Vector2(posX , posY);
 	}
 	
 	public void OnFinishedWorking(){
 		_gameState = GameState.GAME_PLAYING;
-		loadCharacters();
+		// TODO : just 4 test , should load from start function
+		// load character and monster
+		//loadCharacters();
 		updateTurnUI();
 	}
 
@@ -115,13 +128,10 @@ public class GamePlay : GameSystem_LinkMatch {
 
 	private void loadCharacters()
 	{
-		if(_startGame){
-			loadCharacter(Config.CHARACTER_POSITION, Vector3.zero);
-			loadMonsterList(initMonsterPosition(), Vector3.zero);
-			loadMonster(Config.MONSTER_POSITION);
-			_UI_MonsterHP.fillAmount = 1;
-			_startGame = false;
-		}
+		loadCharacter(Config.CHARACTER_POSITION, Vector3.zero);
+		loadMonsterList(initMonsterPosition(), Vector3.zero);
+		loadMonster(Config.MONSTER_POSITION);
+		_UI_MonsterHP.fillAmount = 1;
 	}
 
 	/// <summary>
@@ -134,6 +144,7 @@ public class GamePlay : GameSystem_LinkMatch {
 		_playerAttackPoint = _currentCharacter._attackPoint;
 		_currentCharacter.Finish = OnFinishedCharacterAnim;
 		_currentCharacter.entryPlay();
+		_loadedCount ++;
 	}
 
 	/// <summary>
@@ -142,7 +153,6 @@ public class GamePlay : GameSystem_LinkMatch {
 	/// <returns>The monster position.</returns>
 	private List<Vector3> initMonsterPosition(){
 		List<Vector3> pos = new List<Vector3>(); 
-		// TODO : fix monster position
 		for(int i = 0; i < Config.COUNT_OF_MONSTERS; i++){
 			pos.Add(new Vector3(Config.MONSTER_POSITION.x, Config.MONSTER_POSITION.y + deltaMonsterPos * i, 0) );
 		}
@@ -151,6 +161,7 @@ public class GamePlay : GameSystem_LinkMatch {
 
 	private void loadMonsterList(List<Vector3> pos, Vector3 direction){
 		_monsterList = GamePlayService.Instance.loadMonsterList(_panel, pos, direction);
+		_loadedCount += _monsterList.Count;
 	}
 
 	/// <summary>
@@ -163,6 +174,11 @@ public class GamePlay : GameSystem_LinkMatch {
 			StartCoroutine("GameClear");
 			return;
 		}
+		// first load
+		else if(_monsterList.Count == Config.COUNT_OF_MONSTERS){
+			_loadedCount ++;
+		}
+
 		// get monster from list
 		_currentMonster = _monsterList[0];
 		// remove from list
@@ -250,7 +266,7 @@ public class GamePlay : GameSystem_LinkMatch {
 		if(_feverTime >= feverStepTime)
 			resetFever();
 		_UI_PlayerHP.fillAmount = remain_time/stage_time;
-		updateFeverUI();
+		//updateFeverUI();
 	}
 
 	/// <summary>
@@ -294,7 +310,8 @@ public class GamePlay : GameSystem_LinkMatch {
 	protected override void releaseBlocks(){
 		if(_stackBlock.Count > 0){
 			if(_stackBlock.Count >= 3){
-				_stackBlock.AddRange(_neighbors);
+				if(_startFever)
+					_stackBlock.AddRange(_neighbors);
 				destroyBlocks(_stackBlock);
 				decreaseTurn();
 				// update score 
@@ -369,5 +386,20 @@ public class GamePlay : GameSystem_LinkMatch {
 		Debug.LogError(percent);
 		_UI_FeverBack.fillAmount = percent;
 		Debug.LogError(_UI_FeverBack.fillAmount);
+	}
+
+	private void updateProgress(){
+		_loadingProgress = (float) _loadedCount/ (float) _loadCount;
+		OPDebug.Log("loading percentage is " + _loadingProgress);
+//		if(_loadingProgress >= 1.0f){
+//			ViewLoader.Instance.DestoryView(Config.LOADING_VIEW);
+//		}
+	}
+
+	protected override void Update(){
+		if(Time.timeScale == 0.0f)
+			return;
+		//updateProgress();
+		base.Update();
 	}
 }

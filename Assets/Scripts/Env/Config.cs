@@ -18,6 +18,7 @@ public static class Config {
 	public const string			  START_VIEW 			= "Start";
 	public const string			  FB_VIEW 				= "Facebook";
 	public const string			  GAME_PLAY_VIEW 		= "GamePlay";
+	public const string			  LOADING_VIEW			= "Loading"; 	
 
 	// TODO : define tag 
 	public const string           TAG_CHARACTER         = "CHARACTER";

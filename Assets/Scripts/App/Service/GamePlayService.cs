@@ -228,4 +228,64 @@ public class GamePlayService{
 	}
 
 	
+	/// <summary>
+	/// check Intersects the node to node.
+	/// </summary>
+	/// <returns><c>true</c>, if node 1 was intersected in node 2, <c>false</c> otherwise.</returns>
+	/// <param name="node1">Node1.</param>
+	/// <param name="node2">Node2.</param>
+	public bool intersectNodeToNode(GameObject node1, GameObject node2){
+		Vector2 node1Pos = getNodePos(node1);
+		Vector2 node2Pos = getNodePos(node2);
+
+		UISprite spr1 = node1.GetComponent<UISprite>();
+		UISprite spr2 = node2.GetComponent<UISprite>();
+
+		float width1 = (float)spr1.width;
+		float height1 = (float)spr1.height;
+		float width2 = (float)spr2.width;
+		float height2 = (float)spr2.height;
+
+		if( node2Pos.x > node1Pos.x && node2Pos.y > node1Pos.y &&
+		   node2Pos.x + width2 < node1Pos.x + width1 &&
+		   node2Pos.y + height2 < node1Pos.y + height1 ){
+			return true;
+		}
+//		if( node1Pos.x + width1 < node2Pos.x || node1Pos.y + height1 < node2Pos.y 
+//		   || node2Pos.x + width2 < node1Pos.x || node2Pos.y + height2 < node1Pos.y ){
+//			OPDebug.Log("failed with " + node1Pos + ";" + width1 + "; " + node2Pos + ";" + width2 + ";" + height1 + ";" + height2);
+//			return false;
+//		}
+		return true;
+	}
+
+	/// <summary>
+	/// Gets the node position.
+	/// </summary>
+	/// <returns>The node position.</returns>
+	/// <param name="node">Node.</param>
+	private Vector2 getNodePos(GameObject node){
+		float ax = 0;
+		float ay = 0;
+		UISprite spr = node.GetComponent<UISprite>();
+		switch(spr.pivot){
+			case UIWidget.Pivot.TopLeft: ax = 0;ay = 1.0f; break;
+			case UIWidget.Pivot.Top: ax = 0.5f;ay = 1.0f; break;
+			case UIWidget.Pivot.TopRight: ax = 1.0f;ay = 1.0f; break;
+			case UIWidget.Pivot.Left: ax = 0;ay = 0.5f; break;
+			case UIWidget.Pivot.Center: ax = 0.5f;ay = 0.5f; break;
+			case UIWidget.Pivot.Right: ax = 1.0f;ay = 0.5f; break;
+			case UIWidget.Pivot.BottomLeft: ax = 0;ay = 0; break;
+			case UIWidget.Pivot.Bottom: ax = 0.5f;ay = 0; break;
+			case UIWidget.Pivot.BottomRight: ax = 1.0f;ay = 0; break;
+		}
+
+		float width = (float)spr.width;
+		float height = (float)spr.height;
+
+		return new Vector2(
+			node.transform.localPosition.x - width * ax,
+			node.transform.localPosition.y - height * ay);
+	}
+
 }

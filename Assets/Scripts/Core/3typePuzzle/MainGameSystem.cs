@@ -218,7 +218,7 @@ public class MainGameSystem : MonoBehaviour {
 		if(_camera == null){
 			Debug.Log("You need set _camera value. recommand NGUI Camera");
 			return new Vector3();
-		}
+		}        
 		if(_panel == null){
 			Debug.Log("You need set _panel value. recommand NGUI Panel");
 			return new Vector3();
@@ -243,8 +243,10 @@ public class MainGameSystem : MonoBehaviour {
 			case UIWidget.Pivot.Bottom: ax = 0.5f;ay = 0; break;
 			case UIWidget.Pivot.BottomRight: ax = 1.0f;ay = 0; break;
 		}
+
 		float width = (float)spr.width;
 		float height = (float)spr.height;
+
 
 		Vector3 nodePos = new Vector3(
 			node.transform.localPosition.x - width * ax,

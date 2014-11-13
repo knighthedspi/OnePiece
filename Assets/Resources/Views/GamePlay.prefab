@@ -3213,7 +3213,7 @@ MonoBehaviour:
   _UI_MonsterHP: {fileID: 11400058}
   _top_field: {fileID: 9500002}
   _tilesNum: {x: 7, y: 6}
-  _tileSize: {x: 78, y: 86}
+  _tileSize: {x: 86, y: 78}
   _camera: {fileID: 2000000}
   _boardPadding: {x: 32, y: 48}
   _tilesMargin: {x: -12, y: -8}
@@ -3234,6 +3234,7 @@ MonoBehaviour:
   feverLimit: 5
   feverStepTime: 1.5
   _UI_FeverBack: {fileID: 11400038}
+  deltaMonsterPos: 300
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
