@@ -107,10 +107,10 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hexagon1
-    x: 0
-    y: 36
-    width: 264
-    height: 294
+    x: 295
+    y: 66
+    width: 294
+    height: 264
     borderLeft: 0
     borderRight: 0
     borderTop: 0
@@ -120,10 +120,10 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hexagon2
-    x: 265
-    y: 36
-    width: 264
-    height: 294
+    x: 836
+    y: 278
+    width: 294
+    height: 264
     borderLeft: 0
     borderRight: 0
     borderTop: 0
@@ -133,10 +133,10 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hexagon3
-    x: 530
-    y: 36
-    width: 264
-    height: 294
+    x: 836
+    y: 808
+    width: 294
+    height: 264
     borderLeft: 0
     borderRight: 0
     borderTop: 0
@@ -146,10 +146,10 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hexagon4
-    x: 1554
-    y: 1754
-    width: 264
-    height: 294
+    x: 836
+    y: 543
+    width: 294
+    height: 264
     borderLeft: 0
     borderRight: 0
     borderTop: 0
@@ -159,10 +159,10 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hexagon5
-    x: 836
-    y: 778
-    width: 264
-    height: 294
+    x: 0
+    y: 66
+    width: 294
+    height: 264
     borderLeft: 0
     borderRight: 0
     borderTop: 0
@@ -172,10 +172,10 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hexagon6
-    x: 836
-    y: 483
-    width: 264
-    height: 294
+    x: 1554
+    y: 1784
+    width: 294
+    height: 264
     borderLeft: 0
     borderRight: 0
     borderTop: 0
