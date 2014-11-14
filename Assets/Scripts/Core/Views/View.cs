@@ -8,8 +8,29 @@ public abstract class View : MonoBehaviour {
 	public bool          Opened {get; private set;}	
 	public bool          Closed {get; private set;}
 
+	public bool 	_loadingView {get; private set;}
+	public bool		_loadViewDone {get; private set;}
 	private static Stack<string> history = new Stack<string>();
-	
+
+	protected virtual void Awake() {
+		ViewLoader.Instance.BeforeLoadView += HandleBeforeLoadView;
+		ViewLoader.Instance.OnViewLoaded += HandleOnViewLoaded;
+	}
+
+	void HandleOnViewLoaded (string viewName, params object[] parameters)
+	{
+		_loadingView = false;
+		_loadViewDone = true;
+		OnViewLoaded(viewName, parameters);
+	}
+
+	void HandleBeforeLoadView (string viewName, params object[] parameters)
+	{
+		_loadingView = true;
+		_loadViewDone = false;
+		OnBeforeViewLoad(viewName, parameters);
+	}
+
 	protected virtual void Start() {
         if(audioListener != null) return;
         audioListener = GetComponentInChildren<AudioListener>();
@@ -63,6 +84,7 @@ public abstract class View : MonoBehaviour {
     protected virtual void OnClose(){}
     protected virtual void OnSuspend(){}
 	protected virtual void OnResume(params object[] parameters){}
-
+	protected virtual void OnBeforeViewLoad(string viewName, params object[] parameters){}
+	protected virtual void OnViewLoaded(string viewName, params object[] parameters){}
 }
 

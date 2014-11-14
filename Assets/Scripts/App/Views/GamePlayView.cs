@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GamePlayView : View {
+public class GamePlayView : OnePieceView {
 
 	public GameObject pauseBtn;
 
