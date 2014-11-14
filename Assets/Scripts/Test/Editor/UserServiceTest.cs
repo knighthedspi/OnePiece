@@ -10,15 +10,17 @@
 using System;
 using NUnit.Framework;
 
-namespace AssemblyCSharpEditor
+namespace OPUnitTest
 {
     [TestFixture()]
     public class UserServiceTest
     {
         [Test()]
-        public void TestCase()
+        public void TestUpdateExp()
         {
+            OPUser user = OPUserDAO.Instance.getCurrentUser();
+            UserService.Instance.increaseExp(user, 10);
+            Assert.AreEqual(user.Exp, 10);
         }
     }
 }
-

@@ -17,7 +17,7 @@ namespace OPUnitTest{
 				[Test()]
 				public void TestSelect ()
 				{
-					OPUserDAO.Instance.getUserWithCondition();
+					OPUserDAO.Instance.getCurrentUser();
 				}
 		}
 }
