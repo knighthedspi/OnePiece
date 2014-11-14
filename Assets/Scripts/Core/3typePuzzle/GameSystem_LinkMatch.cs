@@ -13,11 +13,17 @@ public class GameSystem_LinkMatch : MainGameSystem {
 
 	protected GameObject _currentLine = null;
 
+	private Vector2 _startBlockPosInBoard;
+	private Vector2 _endBlockPosInBoard;
+
+	private float _limit;
+
 	// Use this for initialization
 	public virtual void Start () {
 		// super-class(MainGameSystem) start function called
 		base.Start();
 		_gameState = GameState.GAME_WORK;
+		_limit = (float) Math.Sqrt(_tileSize.x * _tileSize.x / 4 + _tileSize.y * _tileSize.y); 
 	}
 
 	//make prefab
@@ -52,10 +58,7 @@ public class GameSystem_LinkMatch : MainGameSystem {
 
 	//find tile in linked stack
 	protected bool existsBlockInStack(Block _b){
-		foreach(Block b in _stackBlock){
-			if(_b == b)return true;
-		}
-		return false;
+		return _stackBlock.Contains(_b);
 	}
 
 	//make new draw line and set currentLine 
@@ -83,7 +86,6 @@ public class GameSystem_LinkMatch : MainGameSystem {
 		dot.transform.localPosition = _b.transform.localPosition;
 
 		_stackDot.Add(dot);
-
 
 		if(_currentLine != null){
 			_stackLine.Add(_currentLine);
@@ -139,6 +141,8 @@ public class GameSystem_LinkMatch : MainGameSystem {
 
 		_currentLine.GetComponent<UISprite>().width = 18;
 		_currentLine.GetComponent<UISprite>().height= (int)dis;
+		_startBlockPosInBoard = findIntersectBlock(_currentLine.transform.localPosition);
+		_endBlockPosInBoard	  = findIntersectBlock(p);
 	}
 
 	//==================================
@@ -148,7 +152,7 @@ public class GameSystem_LinkMatch : MainGameSystem {
 	// update touching or mouse process 
 	void updateTouchBoard(){
 		if(isBlocksMoveToAnim()) return ;
-		if(remain_time <= 0 || _currentMonster == null || _currentMonster.getCurrentAnimationState().Equals("die")) {
+		if(remain_time <= 0 || _currentMonster == null || _currentMonster!=null && _currentMonster.getCurrentAnimationState().Equals("die")) {
 			if(_stackBlock.Count > 0){
 				foreach(Block b in _stackBlock)
 					b.touchUp();
@@ -174,8 +178,7 @@ public class GameSystem_LinkMatch : MainGameSystem {
 						Block last = _stackBlock[_stackBlock.Count - 1];
 						if(last._type == _b._type){
 							float dis = Vector2.Distance(last.transform.localPosition,_b.transform.localPosition);
-							float limit = (float) Math.Sqrt(_tileSize.x * _tileSize.x / 4 + _tileSize.y * _tileSize.y); 
-							if(dis < limit){
+							if(dis <= _limit){
 								if(_stackBlock.Count > 1){
 									if(_stackBlock[_stackBlock.Count - 2] == _b){
 										Pop();
@@ -185,16 +188,45 @@ public class GameSystem_LinkMatch : MainGameSystem {
 									Push(_b);
 									newCurrentLine(_b.transform.localPosition);
 								}
+							}else{
+								// find intersect block that has the same type
+								OPDebug.Log("draw line from " + _startBlockPosInBoard + " to " + _endBlockPosInBoard);
+								findIntersectBlockWithLine(last._type);
 							}
 						}
 					}
-					// add neighbor blocks in fever mode
+					// update stack block if necessary
 					updateStackBlock(_b);
 				}		
 	        }  		
 	    }else{ // touch end or mouse release
 			releaseBlocks();
 	    }
+	}
+
+	private void findIntersectBlockWithLine(int blockType){
+		int startPosX = _startBlockPosInBoard.x < _endBlockPosInBoard.x ? (int)_startBlockPosInBoard.x : (int)_endBlockPosInBoard.x;
+		int stopPosX = _startBlockPosInBoard.x < _endBlockPosInBoard.x ? (int)_endBlockPosInBoard.x : (int)_startBlockPosInBoard.x;
+		int startPosY = _startBlockPosInBoard.y < _endBlockPosInBoard.y ? (int)_startBlockPosInBoard.y : (int)_endBlockPosInBoard.y;
+		int stopPosY = _startBlockPosInBoard.y < _endBlockPosInBoard.y ? (int)_endBlockPosInBoard.y : (int)_startBlockPosInBoard.y;
+		OPDebug.Log("start:(" + startPosX + ";" + startPosY + ");stop:(" + stopPosX + ";" + stopPosY + ")");
+		for(int i = startPosX ; i <= stopPosX; i++){
+			for(int j = startPosY ; j <= stopPosY; j++){
+				// skip first and last
+				if((i == (int)_startBlockPosInBoard.x && j == (int)_startBlockPosInBoard.y) || (i == (int)_endBlockPosInBoard.x && j == (int)_endBlockPosInBoard.y))
+					continue;
+				Block b = _tiles[i,j];
+				Block last = _stackBlock[_stackBlock.Count - 1];
+				float dis = Vector2.Distance(last.transform.localPosition, b.transform.localPosition);
+				OPDebug.Log( " check intersect with block (" + i + ";" + j + ") is " + GamePlayService.Instance.intersectNodeToNode(_currentLine, b.gameObject));
+				//only add to line iff block has same type and intersected with current line
+				if(b._type == blockType && !existsBlockInStack(b) && GamePlayService.Instance.intersectNodeToNode(_currentLine, b.gameObject) && dis <= _limit ){
+					OPDebug.Log("add block(" + i + ";" + j + ") to stack");
+					Push(b);
+					newCurrentLine(b.transform.localPosition);
+				}
+			}
+		}
 	}
 
 	/// <summary>
@@ -231,7 +263,7 @@ public class GameSystem_LinkMatch : MainGameSystem {
 	//==================================
 	// update functions end
 	//==================================
-	void Update () {
+	protected virtual void Update () {
 		if(_gameEnd)return ;
 		// super-class(MainGameSystem) Update function called
 		base.Update();
