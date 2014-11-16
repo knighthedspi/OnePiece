@@ -16,6 +16,12 @@ public class FacebookView : OnePieceView {
 		UI = gameObject.AddComponent<UI>();
 		UI.AttachButton(loginFacebook, onFBBtnClicked);
 		UI.AttachButton(startGame, onStartGameClick);
+
+		GameObject tDialog = transform.Find ("TestDialog").gameObject;
+		if(tDialog)
+		{
+			UI.AttachButton(tDialog.gameObject,TestDialogClick);
+		}
 	}
 	
 	// handle click event on Pause Button
@@ -30,8 +36,20 @@ public class FacebookView : OnePieceView {
 
 	private void onStartGameClick()
 	{
-		Debug.Log ("start game");
+				Debug.Log ("start game");
 		ViewLoader.Instance.CleanLoad(Config.START_VIEW, null);
+
+	}
+
+	public void TestDialogClick()
+	{
+		DialogOneButton.Create ("Test Dialog",OnOkClick,"Title","_OK");
+	}
+
+	public void OnOkClick()
+	{
+		Debug.Log("OK--------- con de");
+		DialogManager.Instance.Complete ();
 	}
 
 	#region FB.Init() example
