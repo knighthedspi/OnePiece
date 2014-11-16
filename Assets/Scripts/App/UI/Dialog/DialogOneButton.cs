@@ -27,6 +27,6 @@ public class DialogOneButton : DialogBase {
 		dialogData.eventData.Add ("btnCenter", callBack);
 		if(!string.IsNullOrEmpty(button_label))
 			dialogData.textData.Add ("button_label_btnCenter",button_label);
-		DialogManager.Instance.OpenDialog (dialogData, true);
+		DialogManager.Instance.OpenDialog (dialogData);
 	}
 }
