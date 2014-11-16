@@ -17,7 +17,7 @@ public class FacebookView : View {
 		UI.AttachButton(loginFacebook, onFBBtnClicked);
 		UI.AttachButton(startGame, onStartGameClick);
 
-		GameObject tDialog = transform.Find ("TestDialog").gameObject;
+		Transform tDialog = transform.Find ("TestDialog");
 		if(tDialog)
 		{
 			UI.AttachButton(tDialog.gameObject,TestDialogClick);
