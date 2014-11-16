@@ -41,10 +41,10 @@ State:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: ZoomOut
-  m_Speed: -1
+  m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: d0be9fcb55e7c4308ad7c4d402def756, type: 2}
+  - {fileID: 7400000, guid: 8d285003ab76246b6bccb4e69dd21642, type: 2}
   m_ParentStateMachine: {fileID: 110700000}
   m_Position: {x: 133, y: 83, z: 0}
   m_IKOnFeet: 0

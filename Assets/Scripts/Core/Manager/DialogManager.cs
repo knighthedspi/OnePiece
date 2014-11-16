@@ -40,7 +40,7 @@ public class DialogManager : Singleton<DialogManager> {
 	/// </summary>
 	/// <param name="dialogData">Dialog data.</param>
 	/// <param name="immediate">If set to <c>true</c> immediate.</param>
-	public void OpenDialog(DialogData dialogData, bool immediate)
+	public void OpenDialog(DialogData dialogData, bool immediate = false)
 	{
 		if(immediate)
 		{
