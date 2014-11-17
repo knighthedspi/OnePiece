@@ -60,13 +60,29 @@ public class GamePlay : GameSystem_LinkMatch
         service = GamePlayService.Instance;
     }
 
+	// Use this for initialization
+	public override void Start () {	
+		base.Start();
+		GamePlayService.Instance.initBlock(_tilesNum, _tiles);
+		_top_field.GetComponent<Field>().Finish = OnFinishedWorking;
+		
+		_beriCount = 0;
+		_scorePoint = 0;
+		_startCombo = false;
+		_comboTime = 0.0f;
+		_startFever = false;
+		_feverTime = 0.0f;
+		_feverAnimator = _stageLabel.GetComponent<Animator>();
+		_boardAnimator = _board.GetComponent<Animator>();
+		_neighbors = new List<Block>();
+		_monsterList = new List<Monster>();
+		
 		_loadingProgress = 0;
 		_loadedCount = 0;
 		// total characters that have 2 be loaded
 		_loadCount = Config.COUNT_OF_MONSTERS + 2;
 		// load character and monster
-		loadCharacters();
-
+		loadCharacters();		
 	}
 	
     /// <summary>
