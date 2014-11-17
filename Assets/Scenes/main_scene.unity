@@ -86,6 +86,7 @@ GameObject:
   - 114: {fileID: 493571844}
   - 114: {fileID: 493571843}
   - 81: {fileID: 493571847}
+  - 114: {fileID: 493571848}
   m_Layer: 0
   m_Name: main_scene
   m_TagString: Untagged
@@ -151,3 +152,14 @@ AudioListener:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 493571842}
   m_Enabled: 1
+--- !u!114 &493571848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 493571842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1410ebaf0d1554426b65ad7a61fa5998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
