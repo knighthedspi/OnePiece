@@ -25,6 +25,7 @@ public static class Config {
 	public const string           TAG_UNIT              = "Unit";
 	public const string           TAG_UNTAGGED          = "Untagged";
 	public const string           TAG_DECK              = "Deck";
+	public const string 		  VIEWS_PREFABS_PATH    = "Views";
 
 	// TODO : define layer
 
@@ -43,4 +44,7 @@ public static class Config {
 	public static readonly Vector3 CHARACTER_DIRECTION	= Vector3.zero;
 	public static readonly Vector3 MONSTER_POSITION		= new Vector3(100, 290, 0);		 
 	public const float			  TWEEN_DURATION		= 0.5f;
+
+	public const string			  TRANSITION_IN 		= "TransitionIn";
+	public const string			  TRANSITION_OUT 		= "TransitionOut";
 }

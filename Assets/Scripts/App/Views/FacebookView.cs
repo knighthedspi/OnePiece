@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class FacebookView : View {
+public class FacebookView : OnePieceView {
 	
 	public GameObject loginFacebook;
 	public GameObject startGame;

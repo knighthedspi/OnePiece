@@ -9,7 +9,24 @@ public abstract class View : MonoBehaviour {
 	public bool          Closed {get; private set;}
 
 	private static Stack<string> history = new Stack<string>();
-	
+
+	protected virtual void Awake() {
+		ViewLoader.Instance.BeforeLoadView += HandleBeforeLoadView;
+		ViewLoader.Instance.OnViewLoaded += HandleOnViewLoaded;
+	}
+
+	void HandleOnViewLoaded (string viewName, params object[] parameters)
+	{
+		OnViewLoaded(viewName, parameters);
+		ViewLoader.Instance.BeforeLoadView -= HandleBeforeLoadView;
+		ViewLoader.Instance.OnViewLoaded -= HandleOnViewLoaded;
+	}
+
+	void HandleBeforeLoadView (string viewName, params object[] parameters)
+	{
+		OnBeforeViewLoad(viewName, parameters);
+	}
+
 	protected virtual void Start() {
         if(audioListener != null) return;
         audioListener = GetComponentInChildren<AudioListener>();
@@ -63,6 +80,7 @@ public abstract class View : MonoBehaviour {
     protected virtual void OnClose(){}
     protected virtual void OnSuspend(){}
 	protected virtual void OnResume(params object[] parameters){}
-
+	protected virtual void OnBeforeViewLoad(string viewName, params object[] parameters){}
+	protected virtual void OnViewLoaded(string viewName, params object[] parameters){}
 }
 

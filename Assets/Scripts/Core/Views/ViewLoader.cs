@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 using ViewLoaded = System.Action<string, object[]>;
+using BeforeLoadView = System.Action<string, object[]>;
 using System.Linq;
 
 public class ViewLoader : MonoBehaviour{
@@ -12,12 +13,15 @@ public class ViewLoader : MonoBehaviour{
     public string ResourcePath = "Views";
     public GameObject[] ViewPrefabs; 
     private static ViewLoader currentInstance;
-    private static bool isFirstScene = true;
+	private static bool isFirstScene;
     private Dictionary<string, GameObject> viewPrefabDict;
     private Dictionary<string, View> viewCaches;
 	public View CurrentView{get; private set;}
     public event ViewLoaded OnViewLoaded;
     
+	// add transition event 
+	public event BeforeLoadView BeforeLoadView;
+
     public static string GetViewName (GameObject prefab){
         return prefab.name;
     }
@@ -41,7 +45,7 @@ public class ViewLoader : MonoBehaviour{
         } else {
             Debug.LogError ("[ViewLoader] multi instances must not be active at the same time.", this.gameObject);
         }
-
+		isFirstScene = true;
         viewPrefabDict = new Dictionary<string, GameObject> ();
         viewCaches = new Dictionary<string, View> ();
         foreach (GameObject prefab in this.ViewPrefabs) {
@@ -62,6 +66,7 @@ public class ViewLoader : MonoBehaviour{
             currentInstance = null;
         }
         this.OnViewLoaded = null;
+		this.BeforeLoadView = null;
     }
 
     private void Open (object[] parameters){
@@ -219,15 +224,19 @@ public class ViewLoader : MonoBehaviour{
         return instance.gameObject.activeSelf;
     }
 
-    enum SwitchMode{
+	enum SwitchMode{
         Switch,
         Addition,
         Clean,
     }
 	
     private IEnumerator loadView (string nextViewName, GameObject nextViewPrefab, SwitchMode switchMode, params object[] parameters){
-        View nextView = null;
+		View nextView = null;
         viewCaches.TryGetValue (nextViewName, out nextView);
+
+		if(this.BeforeLoadView != null)
+			this.BeforeLoadView( nextViewName, parameters);
+
         if (CurrentView != null)
             View.PushHistory (CurrentView.name);
 		 
@@ -244,6 +253,9 @@ public class ViewLoader : MonoBehaviour{
         }
 
         yield return null;
+
+	
+
         if (nextView != null && nextView != CurrentView) {
 			nextView.gameObject.SetActive (true);
             yield return null;
@@ -262,6 +274,8 @@ public class ViewLoader : MonoBehaviour{
 				go.transform.parent = this.gameObject.transform;
 				nextView = go.GetComponent<View> ();
 				viewCaches.Add (nextViewName, nextView);
+				if(this.BeforeLoadView != null)
+					this.BeforeLoadView( nextViewName, parameters);
 			}else{
 				Debug.Log ("The new view could not be created!");
 			}
