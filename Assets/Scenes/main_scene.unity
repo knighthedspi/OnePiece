@@ -109,7 +109,6 @@ MonoBehaviour:
   ViewPrefabs:
   - {fileID: 100006, guid: 677570f7a6b2a4aa08951a98c5f7ab64, type: 2}
   - {fileID: 100006, guid: 2d0e0118c3d8b45ccac7de7cd7e56cc9, type: 2}
-  - {fileID: 100008, guid: 2d46ffdae4cdd444ba71d1e96defc244, type: 2}
   - {fileID: 100042, guid: 6c2c3efde5f3d4d40aebce2571be03f3, type: 2}
 --- !u!114 &493571844
 MonoBehaviour:

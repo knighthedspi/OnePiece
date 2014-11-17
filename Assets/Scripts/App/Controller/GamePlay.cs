@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -49,11 +49,10 @@ public class GamePlay : GameSystem_LinkMatch
     private List<Monster> _monsterList;
     public int deltaMonsterPos = 300;
 
-    // loading progress
-    private float _loadingProgress;
-    private int   _loadedCount;
-    private int   _loadCount;
-    private LoadingView _loadingView;
+	// loading progress
+	private float _loadingProgress;
+	private int   _loadedCount;
+	private int   _loadCount;
 
 
     public void Awake()
@@ -61,31 +60,14 @@ public class GamePlay : GameSystem_LinkMatch
         service = GamePlayService.Instance;
     }
 
-    // Use this for initialization
-    public override void Start()
-    {	
-        base.Start();
-        service.initBlock(_tilesNum, _tiles);
-        _top_field.GetComponent<Field>().Finish = OnFinishedWorking;
+		_loadingProgress = 0;
+		_loadedCount = 0;
+		// total characters that have 2 be loaded
+		_loadCount = Config.COUNT_OF_MONSTERS + 2;
+		// load character and monster
+		loadCharacters();
 
-        _beriCount = 0;
-        _scorePoint = 0;
-        _startCombo = false;
-        _comboTime = 0.0f;
-        _startFever = false;
-        _feverTime = 0.0f;
-        _feverAnimator = _stageLabel.GetComponent<Animator>();
-        _boardAnimator = _board.GetComponent<Animator>();
-        _neighbors = new List<Block>();
-        _monsterList = new List<Monster>();
-
-        _loadingProgress = 0;
-        _loadedCount = 0;
-        // total characters that have 2 be loaded
-        _loadCount = Config.COUNT_OF_MONSTERS + 2;
-        // load character and monster
-        loadCharacters();
-    }
+	}
 	
     /// <summary>
     /// /Find hint
@@ -141,13 +123,17 @@ public class GamePlay : GameSystem_LinkMatch
         _turnLabel.text = "";
     }
 
-    private void loadCharacters()
-    {
-        loadCharacter(Config.CHARACTER_POSITION, Vector3.zero);
-        loadMonsterList(initMonsterPosition(), Vector3.zero);
-        loadMonster(Config.MONSTER_POSITION);
-        _UI_MonsterHP.fillAmount = 1;
-    }
+	private void loadCharacters()
+	{
+		loadCharacter(Config.CHARACTER_POSITION, Vector3.zero);
+		updateProgress();
+		loadMonsterList(initMonsterPosition(), Vector3.zero);
+		updateProgress();
+		loadMonster(Config.MONSTER_POSITION);
+		updateProgress();
+		_UI_MonsterHP.fillAmount = 1;
+		updateProgress();
+	}
 
     /// <summary>
     /// Loads the character.
@@ -419,14 +405,11 @@ public class GamePlay : GameSystem_LinkMatch
         Debug.LogError(_UI_FeverBack.fillAmount);
     }
 
-    private void updateProgress()
-    {
-        _loadingProgress = (float)_loadedCount / (float)_loadCount;
-        OPDebug.Log("loading percentage is " + _loadingProgress);
-//		if(_loadingProgress >= 1.0f){
-//			ViewLoader.Instance.DestoryView(Config.LOADING_VIEW);
-//		}
-    }
+	private void updateProgress(){
+		_loadingProgress = (float) _loadedCount/ (float) _loadCount;
+		OPDebug.Log("loading percentage is " + _loadingProgress);
+		ViewManager.Instance.loadingView.setLoadingProgress(_loadingProgress);
+	}
 
     protected override void Update()
     {
