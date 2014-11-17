@@ -17,6 +17,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400002}
+  - 114: {fileID: 11400002}
+  m_Layer: 5
+  m_Name: GameOver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 1
@@ -342,7 +358,7 @@ GameObject:
   - 4: {fileID: 400046}
   - 114: {fileID: 11400052}
   m_Layer: 5
-  m_Name: GameOver
+  m_Name: TimeUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -614,6 +630,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 400060}
   m_RootOrder: 6
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 80, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400056}
+  m_RootOrder: 7
 --- !u!4 &400004
 Transform:
   m_ObjectHideFlags: 1
@@ -855,11 +883,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100046}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 80, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: .0859375, y: 80, z: 0}
+  m_LocalScale: {x: .999839962, y: .999839962, z: .999839962}
   m_Children: []
   m_Father: {fileID: 400056}
-  m_RootOrder: 7
+  m_RootOrder: 9
 --- !u!4 &400048
 Transform:
   m_ObjectHideFlags: 1
@@ -931,8 +959,9 @@ Transform:
   - {fileID: 400072}
   - {fileID: 400020}
   - {fileID: 400028}
-  - {fileID: 400046}
+  - {fileID: 400002}
   - {fileID: 400022}
+  - {fileID: 400046}
   m_Father: {fileID: 400060}
   m_RootOrder: 3
 --- !u!4 &400058
@@ -1000,7 +1029,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100068}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.15108764, y: -1.15107524, z: 0}
+  m_LocalPosition: {x: -1.0859592, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400060}
@@ -1377,7 +1406,7 @@ Animator:
   m_GameObject: {fileID: 100018}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 709d6b4a3bb5c46c19f721eb6f3be0b3, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -1433,6 +1462,68 @@ MonoBehaviour:
   mAtlas: {fileID: 11400000, guid: 328731c61fa46470c9e88d7dd88c731d, type: 2}
   mSpriteName: particle
   mFillCenter: 1
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  updateAnchors: 1
+  mColor: {r: 1, g: 1, b: 1, a: 0}
+  mPivot: 4
+  mWidth: 292
+  mHeight: 68
+  mDepth: 10
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 4.29411745
+  keepCrispWhenShrunk: 1
+  mTrueTypeFont: {fileID: 0}
+  mFont: {fileID: 11400000, guid: e63d0444cae254c74be40e9dc2ee763b, type: 2}
+  mText: Game Over
+  mFontSize: 68
+  mFontStyle: 0
+  mAlignment: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mOverflow: 2
+  mMaterial: {fileID: 0}
+  mApplyGradient: 0
+  mGradientTop: {r: 1, g: 1, b: 1, a: 1}
+  mGradientBottom: {r: .699999988, g: .699999988, b: .699999988, a: 1}
+  mSpacingX: 0
+  mSpacingY: 0
+  mShrinkToFit: 0
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mLineWidth: 0
+  mMultiline: 1
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2440,43 +2531,43 @@ MonoBehaviour:
   leftAnchor:
     target: {fileID: 0}
     relative: 0
-    absolute: 0
+    absolute: -98
   rightAnchor:
     target: {fileID: 0}
     relative: 1
-    absolute: 0
+    absolute: 96
   bottomAnchor:
     target: {fileID: 0}
     relative: 0
-    absolute: 0
+    absolute: 46
   topAnchor:
     target: {fileID: 0}
     relative: 1
-    absolute: 0
+    absolute: 114
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 0}
   mPivot: 4
-  mWidth: 292
+  mWidth: 194
   mHeight: 68
   mDepth: 10
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 4.29411745
+  aspectRatio: 2.85294127
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: e63d0444cae254c74be40e9dc2ee763b, type: 2}
-  mText: Game Over
+  mText: TimeUp
   mFontSize: 68
   mFontStyle: 0
   mAlignment: 0
   mEncoding: 1
   mMaxLineCount: 0
-  mEffectStyle: 0
+  mEffectStyle: 1
   mEffectColor: {r: 0, g: 0, b: 0, a: 1}
   mSymbols: 1
   mEffectDistance: {x: 1, y: 1}
-  mOverflow: 2
+  mOverflow: 0
   mMaterial: {fileID: 0}
   mApplyGradient: 0
   mGradientTop: {r: 1, g: 1, b: 1, a: 1}
@@ -3220,7 +3311,7 @@ MonoBehaviour:
   _maxStage: 5
   _hintTime: 5
   remain_time: 60
-  _playerHP: 100
+  _timer: 0
   _playerMaxHP: 100
   _playerAttackPoint: 3
   deltaStartX: 4

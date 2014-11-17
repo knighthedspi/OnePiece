@@ -5,11 +5,13 @@ using System.Collections.Generic;
 
 public class GamePlay : GameSystem_LinkMatch
 {
-
+    #region declaration
     public int deltaStartX = 13;
     public int deltaStartY = -20;
     private Monster _currentCharacter;
     private GamePlayService service;
+    private UserService userService;
+    private OPUser user;
 
     //exp count
     private int _expCount;
@@ -49,15 +51,19 @@ public class GamePlay : GameSystem_LinkMatch
     private List<Monster> _monsterList;
     public int deltaMonsterPos = 300;
 
-	// loading progress
-	private float _loadingProgress;
-	private int   _loadedCount;
-	private int   _loadCount;
+    // loading progress
+    private float _loadingProgress;
+    private int   _loadedCount;
+    private int   _loadCount;
+    private LoadingView _loadingView;
+    #endregion declaration
 
-
+    #region initgame
     public void Awake()
     {
         service = GamePlayService.Instance;
+        userService = UserService.Instance;
+        user = AppManager.Instance.User;
     }
 
 	// Use this for initialization
@@ -85,6 +91,7 @@ public class GamePlay : GameSystem_LinkMatch
 		loadCharacters();		
 	}
 	
+    #endregion initgame
     /// <summary>
     /// /Find hint
     /// </summary>
@@ -250,7 +257,7 @@ public class GamePlay : GameSystem_LinkMatch
         } else if(type == "die") {
             Destroy(_currentCharacter.gameObject);
             _currentCharacter = null;
-            StartCoroutine("GameOver");
+//            StartCoroutine("GameOver");
         }
     }
 
@@ -398,7 +405,6 @@ public class GamePlay : GameSystem_LinkMatch
         _scorePoint += service.calculateScore(_stackBlock.Count, _currentCombo, scoreRatio1, scoreRatio2);
         _beriCount += service.calculateBelly(_stackBlock.Count);
         _expCount += service.calculateExp(_stackBlock.Count);
-        Debug.Log(_scorePoint + " : " + _beriCount + " : " + _expCount);
         // update UI
         _scoreLabel.setText(_scorePoint.ToString());
         _goldLabel.setText(_beriCount.ToString());
@@ -427,6 +433,51 @@ public class GamePlay : GameSystem_LinkMatch
 		ViewManager.Instance.loadingView.setLoadingProgress(_loadingProgress);
 	}
 
+    #region TimeUp
+
+    protected override IEnumerator TimeUp()
+    {
+        //#TODO show timeup animation
+        GameObject obj = GameObject.Find("TimeUp").gameObject;
+        
+        TweenAlpha.Begin(obj, 1.0f, 1f);
+        TweenPosition.Begin(obj, 1.0f, new Vector3(0, 0, 0));
+        yield return new WaitForSeconds(3f);
+        
+        TweenAlpha.Begin(obj, 1.5f, 0f);
+        yield return new WaitForSeconds(2f);
+
+        userService.increaseBelly(user, _beriCount);
+        //#TODO check high score if has
+        if(userService.isHighScore(user, _scorePoint)) {
+            //#TODO Show dialog high score
+        }
+        //#TODO check leveup if has
+        if(userService.isHighScore(user, _scorePoint)) {
+            //#TODO Show dialog high score
+        }
+        //#TODO show load result
+        loadResultDialog();
+        yield return 0;
+    }
+    
+    private void loadResultDialog()
+    {
+        //#TODO pass parameter
+        //#TODO animation bonus score
+        DialogOneButton.Create("Score: " + _scorePoint * 1.1, OnOkClick, "Result", "_OK");
+    }
+
+    private void OnOkClick()
+    {
+        //#TODO close dialog
+        DialogManager.Instance.Complete();
+        //#TODO back to homescreen
+        ViewLoader.Instance.CleanLoad(Config.START_VIEW, null);
+    }
+
+    #endregion TimeUp
+
     protected override void Update()
     {
         if(Time.timeScale == 0.0f)
@@ -434,4 +485,5 @@ public class GamePlay : GameSystem_LinkMatch
         //updateProgress();
         base.Update();
     }
+
 }

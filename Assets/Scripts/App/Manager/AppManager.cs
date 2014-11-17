@@ -3,15 +3,14 @@ using System.Collections;
 
 public class AppManager : Singleton<AppManager>
 {
-    public static OPUser user;    
-
-    void Awake()
-    {
-        user = OPUserDAO.Instance.getCurrentUser();
-    }
-
-    void OnDestroy()
-    {
-
+    public OPUser user;
+   
+    public OPUser User {
+        get {
+            return this.user;
+        }
+        set {
+            user = value;
+        }
     }
 }

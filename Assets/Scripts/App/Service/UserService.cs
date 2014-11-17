@@ -29,4 +29,17 @@ public class UserService
     {
         return false;
     }
+
+    public void updateScore(OPUser user,int score)
+    {
+        user.Score = score;
+        if(isHighScore(user, score))
+            user.HighScore = score;
+        OPUserDAO.Instance.save(user);
+    }
+
+    public bool isHighScore(OPUser user,int score)
+    {
+        return (score > user.HighScore);
+    }
 }

@@ -1,19 +1,20 @@
 using UnityEngine;
 using System;
 
-public static class Config {
+public static class Config
+{
 
-	public const int              TARGET_FRAMERATE      = 60;
-	public const int              VSYNC_COUNT           = 0;
-	public const bool             ASSETBUNDLE_AUTO_SAVE = true;
+    public const int              TARGET_FRAMERATE = 60;
+    public const int              VSYNC_COUNT = 0;
+    public const bool             ASSETBUNDLE_AUTO_SAVE = true;
 
-	public const string           UNITY_VERSION         = "4.5.5f1";
+    public const string           UNITY_VERSION = "4.5.5f1";
 
-	public const string           SCENE_COMMON          = "common_scene";
-	public const string           SCENE_MAIN            = "main_scene";
+    public const string           SCENE_COMMON = "common_scene";
+    public const string           SCENE_MAIN = "main_scene";
 
-	public const string           TAG_COMMON            = "CommonScene";
-	public const string           TAG_MAIN_CAMERA       = "MainCamera";
+    public const string           TAG_COMMON = "CommonScene";
+    public const string           TAG_MAIN_CAMERA = "MainCamera";
 
 	public const string			  START_VIEW 			= "Start";
 	public const string			  FB_VIEW 				= "Facebook";
@@ -28,7 +29,7 @@ public static class Config {
 	public const string           TAG_DECK              = "Deck";
 	public const string 		  VIEWS_PREFABS_PATH    = "Views";
 
-	// TODO : define layer
+    // TODO : define layer
 
 //	public static readonly int    LAYER_NONE            = LayerMask.NameToLayer("None");
 //	public static readonly int    LAYER_DEFAULT         = LayerMask.NameToLayer("Default");
@@ -39,6 +40,7 @@ public static class Config {
 //	public static readonly int    LAYER_DEFENSE_MONSTER = LayerMask.NameToLayer("DefenseMonster");
 //	public static readonly int    LAYER_LABEL           = LayerMask.NameToLayer("Label");
 	
+<<<<<<< HEAD
 	public const int			  COUNT_OF_MONSTERS     = 5;	
 	public const string			  RESOURCE_PREFIX		= "Prefab/Onepiece/Monster/";	
 	public static readonly Vector3 CHARACTER_POSITION	= new Vector3(-100, 290, 0);
@@ -48,4 +50,12 @@ public static class Config {
 
 	public const string			  TRANSITION_IN 		= "TransitionIn";
 	public const string			  TRANSITION_OUT 		= "TransitionOut";
+=======
+    public const int			  COUNT_OF_MONSTERS = 5;	
+    public const string			  RESOURCE_PREFIX = "Prefab/Onepiece/Monster/";	
+    public static readonly Vector3 CHARACTER_POSITION = new Vector3(-100, 290, 0);
+    public static readonly Vector3 CHARACTER_DIRECTION = Vector3.zero;
+    public static readonly Vector3 MONSTER_POSITION = new Vector3(100, 290, 0);		 
+    public const float			  TWEEN_DURATION = 0.5f;
+>>>>>>> Add result screen. update user info
 }
