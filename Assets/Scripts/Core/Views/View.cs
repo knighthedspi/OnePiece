@@ -22,6 +22,8 @@ public abstract class View : MonoBehaviour {
 		_loadingView = false;
 		_loadViewDone = true;
 		OnViewLoaded(viewName, parameters);
+		ViewLoader.Instance.BeforeLoadView -= HandleBeforeLoadView;
+		ViewLoader.Instance.OnViewLoaded -= HandleOnViewLoaded;
 	}
 
 	void HandleBeforeLoadView (string viewName, params object[] parameters)

@@ -25,6 +25,7 @@ public static class Config {
 	public const string           TAG_UNIT              = "Unit";
 	public const string           TAG_UNTAGGED          = "Untagged";
 	public const string           TAG_DECK              = "Deck";
+	public const string 		  VIEWS_PREFABS_PATH    = "Views";
 
 	// TODO : define layer
 

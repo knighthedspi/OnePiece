@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class StartView : View {
+public class StartView : OnePieceView {
 
 	public GameObject StartBtn;
 
@@ -10,7 +10,8 @@ public class StartView : View {
 	public UI 		  UI {get; private set;}
 
 	// init in awake funtion
-	void Awake(){
+	protected override void Awake(){
+		base.Awake();
 		UI = gameObject.AddComponent<UI>();
 		Debug.Log ("add UI class");
 		UI.AttachButton(StartBtn, onStartBtnClicked);

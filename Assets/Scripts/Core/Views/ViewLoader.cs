@@ -134,7 +134,7 @@ public class ViewLoader : MonoBehaviour{
         StartCoroutine (loadView (nextViewPrefab.name, nextViewPrefab, SwitchMode.Clean, parameters));
     }
 	
-      public void AddLoad (string nextViewName, params object[] parameters){
+    public void AddLoad (string nextViewName, params object[] parameters){
         StartCoroutine (loadView (nextViewName, null, SwitchMode.Addition, parameters));
     }
 
@@ -224,15 +224,7 @@ public class ViewLoader : MonoBehaviour{
         return instance.gameObject.activeSelf;
     }
 
-	public bool IsViewExist (string viewName){
-		View instance = null;
-		viewCaches.TryGetValue (viewName, out instance);
-		if (instance == null)
-			return false;
-		return true;
-	}
-
-    enum SwitchMode{
+	enum SwitchMode{
         Switch,
         Addition,
         Clean,

@@ -5,23 +5,30 @@ using System.Reflection;
 
 public class OnePieceView : View{
 
+	private LoadingView _loadingView;
+	
 	protected override void OnBeforeViewLoad (string viewName, params object[] parameters)
 	{
-		OPDebug.Log("Load " + viewName);
-		if(!viewName.Equals(Config.LOADING_VIEW) ){
-			if(!ViewLoader.Instance.IsViewExist(Config.LOADING_VIEW))
-				ViewLoader.Instance.AddLoad(Config.LOADING_VIEW, null);
-			else
-				ViewLoader.Instance.SetViewActive(Config.LOADING_VIEW, true);
-		}
+		OPDebug.Log("Load " + viewName );
+		if(_loadingView == null )
+			_loadingView = ViewManager.Instance.loadingView;
+		_loadingView.gameObject.SetActive(true);
+		_loadingView.setLoadingProgress(0.0f);
 	}
 
 	protected override void OnViewLoaded (string viewName, params object[] parameters)
 	{
 		OPDebug.Log(viewName + " is loaded");
-		if(viewName.Equals(Config.LOADING_VIEW)){
-			ViewLoader.Instance.SetViewActive(Config.LOADING_VIEW, false);
-		}
+		_loadingView.setLoadingProgress(100.0f);
+
+		// TODO : test loading progress , calculate exactly time to transition in
+		CoroutineUtility.Instance.WaitAndExecute(2.0f, transitionIn);
+
+	}
+
+	// TODO : test show loading progress
+	private void transitionIn(){
+		_loadingView.gameObject.SetActive(false);
 	}
 
 }

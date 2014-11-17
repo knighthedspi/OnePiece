@@ -49,7 +49,6 @@ public class GamePlay : GameSystem_LinkMatch {
 	private float _loadingProgress;
 	private int   _loadedCount;
 	private int   _loadCount;
-	private LoadingView _loadingView;
 
 	// Use this for initialization
 	public override void Start () {	
@@ -74,6 +73,7 @@ public class GamePlay : GameSystem_LinkMatch {
 		_loadCount = Config.COUNT_OF_MONSTERS + 2;
 		// load character and monster
 		loadCharacters();
+
 	}
 	
 	/// <summary>
@@ -129,9 +129,13 @@ public class GamePlay : GameSystem_LinkMatch {
 	private void loadCharacters()
 	{
 		loadCharacter(Config.CHARACTER_POSITION, Vector3.zero);
+		updateProgress();
 		loadMonsterList(initMonsterPosition(), Vector3.zero);
+		updateProgress();
 		loadMonster(Config.MONSTER_POSITION);
+		updateProgress();
 		_UI_MonsterHP.fillAmount = 1;
+		updateProgress();
 	}
 
 	/// <summary>
@@ -391,9 +395,7 @@ public class GamePlay : GameSystem_LinkMatch {
 	private void updateProgress(){
 		_loadingProgress = (float) _loadedCount/ (float) _loadCount;
 		OPDebug.Log("loading percentage is " + _loadingProgress);
-//		if(_loadingProgress >= 1.0f){
-//			ViewLoader.Instance.DestoryView(Config.LOADING_VIEW);
-//		}
+		ViewManager.Instance.loadingView.setLoadingProgress(_loadingProgress);
 	}
 
 	protected override void Update(){
