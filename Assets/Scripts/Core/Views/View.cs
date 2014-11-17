@@ -8,8 +8,6 @@ public abstract class View : MonoBehaviour {
 	public bool          Opened {get; private set;}	
 	public bool          Closed {get; private set;}
 
-	public bool 	_loadingView {get; private set;}
-	public bool		_loadViewDone {get; private set;}
 	private static Stack<string> history = new Stack<string>();
 
 	protected virtual void Awake() {
@@ -19,8 +17,6 @@ public abstract class View : MonoBehaviour {
 
 	void HandleOnViewLoaded (string viewName, params object[] parameters)
 	{
-		_loadingView = false;
-		_loadViewDone = true;
 		OnViewLoaded(viewName, parameters);
 		ViewLoader.Instance.BeforeLoadView -= HandleBeforeLoadView;
 		ViewLoader.Instance.OnViewLoaded -= HandleOnViewLoaded;
@@ -28,8 +24,6 @@ public abstract class View : MonoBehaviour {
 
 	void HandleBeforeLoadView (string viewName, params object[] parameters)
 	{
-		_loadingView = true;
-		_loadViewDone = false;
 		OnBeforeViewLoad(viewName, parameters);
 	}
 

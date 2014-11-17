@@ -1,34 +1,39 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Reflection;
+using System.Collections;
 
 
 public class OnePieceView : View{
 
 	private LoadingView _loadingView;
+
+	// fix loading time, should be modified later 
+	protected float loadingTime = 0.0f;
+
+	// load event handler, wait until action done then transit view, should be overrided
+	protected virtual IEnumerator loadEventHandler() { 
+		yield return null;
+	}
 	
 	protected override void OnBeforeViewLoad (string viewName, params object[] parameters)
 	{
 		OPDebug.Log("Load " + viewName );
 		if(_loadingView == null )
 			_loadingView = ViewManager.Instance.loadingView;
-		_loadingView.gameObject.SetActive(true);
-		_loadingView.setLoadingProgress(0.0f);
+		_loadingView.transitionIn();
 	}
 
 	protected override void OnViewLoaded (string viewName, params object[] parameters)
 	{
 		OPDebug.Log(viewName + " is loaded");
-		_loadingView.setLoadingProgress(100.0f);
-
-		// TODO : test loading progress , calculate exactly time to transition in
-		CoroutineUtility.Instance.WaitAndExecute(2.0f, transitionIn);
-
+		if(loadingTime > 0.0f)
+			CoroutineUtility.Instance.WaitAndExecute(loadingTime, transitionOut);
+		CoroutineUtility.Instance.WaitUntilDoneThenExecute( loadEventHandler(), transitionOut);
 	}
 
-	// TODO : test show loading progress
-	private void transitionIn(){
-		_loadingView.gameObject.SetActive(false);
+	private void transitionOut(){
+		_loadingView.transitionOut();
 	}
 
 }
