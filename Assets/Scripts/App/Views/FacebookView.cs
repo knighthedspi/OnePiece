@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class FacebookView : OnePieceView {
 	
@@ -17,11 +18,7 @@ public class FacebookView : OnePieceView {
 		UI.AttachButton(loginFacebook, onFBBtnClicked);
 		UI.AttachButton(startGame, onStartGameClick);
 
-		Transform tDialog = transform.Find ("TestDialog");
-		if(tDialog)
-		{
-			UI.AttachButton(tDialog.gameObject,TestDialogClick);
-		}
+
 	}
 	
 	// handle click event on Pause Button
@@ -36,21 +33,14 @@ public class FacebookView : OnePieceView {
 
 	private void onStartGameClick()
 	{
-				Debug.Log ("start game");
-		ViewLoader.Instance.CleanLoad(Config.START_VIEW, null);
+		Debug.Log ("start game");
+		var viewNames = new Dictionary<string, object []>();
+		viewNames.Add(Config.GLOBAL_VIEW, null);
+		viewNames.Add(Config.START_VIEW, null);
+		ViewLoader.Instance.CleanLoad(viewNames);
 
 	}
-
-	public void TestDialogClick()
-	{
-		DialogOneButton.Create ("Test Dialog",OnOkClick,"Title","_OK");
-	}
-
-	public void OnOkClick()
-	{
-		Debug.Log("OK--------- con de");
-		DialogManager.Instance.Complete ();
-	}
+	
 
 	#region FB.Init() example
 	

@@ -224,6 +224,12 @@ public class ViewLoader : MonoBehaviour{
         return instance.gameObject.activeSelf;
     }
 
+	public View getView (string viewName){
+		View instance = null;
+		viewCaches.TryGetValue (viewName, out instance);
+		return instance;
+	}
+
 	enum SwitchMode{
         Switch,
         Addition,

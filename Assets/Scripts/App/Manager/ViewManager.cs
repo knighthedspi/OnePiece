@@ -7,7 +7,6 @@ public class ViewManager : Singleton<ViewManager> {
 
 	void Awake(){
 		// add Loading view then set it to invisible
-		// TODO : add dialog manager
 		GameObject	go = Instantiate (Resources.Load (Config.VIEWS_PREFABS_PATH + "/" + Config.LOADING_VIEW)) as GameObject;
 		if (go != null){
 			go.name = Config.LOADING_VIEW;
@@ -17,4 +16,9 @@ public class ViewManager : Singleton<ViewManager> {
 			OPDebug.LogError("Cannot instantiate " + Config.LOADING_VIEW);
 	}
 
+	public GameObject globalViewObject {
+		get {
+			return ViewLoader.Instance.getView(Config.GLOBAL_VIEW).gameObject;
+		}
+	}
 }
