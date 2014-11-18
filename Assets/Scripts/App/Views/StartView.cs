@@ -17,10 +17,31 @@ public class StartView : OnePieceView {
 		UI.AttachButton(StartBtn, onStartBtnClicked);
 	}
 
+	protected override void Start(){
+		base.Start();
+		Transform tDialog = transform.Find ("TestDialog");
+		if(tDialog)
+		{
+			UI.AttachButton(tDialog.gameObject,TestDialogClick);
+		}
+	}
+
+	private void TestDialogClick()
+	{
+		DialogOneButton.Create ("Test Dialog",OnOkClick,"Title","_OK");
+	}
+
+	private void OnOkClick()
+	{
+		Debug.Log("OK--------- con de");
+		DialogManager.Instance.Complete ();
+	}
+
+
 	private void onStartBtnClicked(){
 		Debug.Log ("start loading game");
 		SoundManager.Instance.PlaySE("sakura_voice_r02");
-		ViewLoader.Instance.CleanLoad(Config.GAME_PLAY_VIEW, null);
+		ViewLoader.Instance.ReplaceLoad(Config.GAME_PLAY_VIEW, null);
 	}
 
 	protected override void OnOpen (params object[] parameters)

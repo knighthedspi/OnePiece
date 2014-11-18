@@ -89,10 +89,12 @@ public class DialogManager : Singleton<DialogManager> {
 
 	private GameObject GetDialogWindow()
 	{
-		_uiRoot = GameObject.Find ("main_scene").GetComponentInChildren<UIRoot> ();
 		if(!_dialogWindow)
 		{
-			_dialogWindow = NGUITools.AddChild(_uiRoot.gameObject);
+			OPDebug.Log("add dialog window");
+			GameObject root = ViewManager.Instance.globalViewObject;
+			NGUITools.BringForward(root);
+			_dialogWindow = NGUITools.AddChild(root);
 			_dialogWindow.name = "DialogWindow";
 		}
 		return _dialogWindow;
