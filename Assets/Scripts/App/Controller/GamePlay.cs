@@ -108,27 +108,28 @@ public class GamePlay : GameSystem_LinkMatch
     /// <param name="y">The y coordinate.</param>
     public override Vector2 tilePos(int x,int y)
     {
-        if(x >= (int)_tilesNum.x || x < 0)
-            return new Vector2(0, 0);
-        if(y >= (int)_tilesNum.y || y < 0)
-            return new Vector2(0, 0);
-		
-        float curve = x % 2 * 42;
-		
-        Transform trans = _board.transform;
-		
-        float width = _board.GetComponent<UISprite>().width;
-        float height = _board.GetComponent<UISprite>().height;
-        float startX = trans.localPosition.x - width / 2 + deltaStartX;
-        float startY = trans.localPosition.y - height / 2 + deltaStartY;
-        float posX = (x * _tileSize.x);
-        float posY = ((_tilesNum.x - y - 1) * (_tileSize.y));
-
-        // TODO : fix width. height because block is rotated 90 degree
-        posX = posX + startX + _tileSize.x / 2 + _boardPadding.x + _tilesMargin.x * x;
-        posY = posY + startY + _tileSize.y / 2 + _boardPadding.y + _tilesMargin.y * y + curve;
-
-        return new Vector2(posX, posY);
+//        if(x >= (int)_tilesNum.x || x < 0)
+//            return new Vector2(0, 0);
+//        if(y >= (int)_tilesNum.y || y < 0)
+//            return new Vector2(0, 0);
+//		
+//        float curve = x % 2 * 42;
+//		
+//        Transform trans = _board.transform;
+//		
+//        float width = _board.GetComponent<UISprite>().width;
+//        float height = _board.GetComponent<UISprite>().height;
+//        float startX = trans.localPosition.x - width / 2 + deltaStartX;
+//        float startY = trans.localPosition.y - height / 2 + deltaStartY;
+//        float posX = (x * _tileSize.x);
+//        float posY = ((_tilesNum.x - y - 1) * (_tileSize.y));
+//
+//        // TODO : fix width. height because block is rotated 90 degree
+//        posX = posX + startX + _tileSize.x / 2 + _boardPadding.x + _tilesMargin.x * x;
+//        posY = posY + startY + _tileSize.y / 2 + _boardPadding.y + _tilesMargin.y * y + curve;
+//
+//        return new Vector2(posX, posY);
+		return service.blockPos(x, y, deltaStartX, deltaStartY, _tileSize, _boardPadding, _tilesMargin, _board);
     }
 	
     public void OnFinishedWorking()

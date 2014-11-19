@@ -209,18 +209,14 @@ public class GameSystem_LinkMatch : MainGameSystem {
 		int stopPosX = _startBlockPosInBoard.x < _endBlockPosInBoard.x ? (int)_endBlockPosInBoard.x : (int)_startBlockPosInBoard.x;
 		int startPosY = _startBlockPosInBoard.y < _endBlockPosInBoard.y ? (int)_startBlockPosInBoard.y : (int)_endBlockPosInBoard.y;
 		int stopPosY = _startBlockPosInBoard.y < _endBlockPosInBoard.y ? (int)_endBlockPosInBoard.y : (int)_startBlockPosInBoard.y;
-		OPDebug.Log("start:(" + startPosX + ";" + startPosY + ");stop:(" + stopPosX + ";" + stopPosY + ")");
+		OPDebug.Log("start:(" + startPosX + ";" + startPosY + ");stop:(" + stopPosX + ";" + stopPosY + "); line direction: " + _currentLine.gameObject.transform.localRotation.eulerAngles );
 		for(int i = startPosX ; i <= stopPosX; i++){
 			for(int j = startPosY ; j <= stopPosY; j++){
-				// skip first and last
-				if((i == (int)_startBlockPosInBoard.x && j == (int)_startBlockPosInBoard.y) || (i == (int)_endBlockPosInBoard.x && j == (int)_endBlockPosInBoard.y))
-					continue;
 				Block b = _tiles[i,j];
 				Block last = _stackBlock[_stackBlock.Count - 1];
 				float dis = Vector2.Distance(last.transform.localPosition, b.transform.localPosition);
-				OPDebug.Log( " check intersect with block (" + i + ";" + j + ") is " + GamePlayService.Instance.intersectNodeToNode(_currentLine, b.gameObject));
 				//only add to line iff block has same type and intersected with current line
-				if(b._type == blockType && !existsBlockInStack(b) && GamePlayService.Instance.intersectNodeToNode(_currentLine, b.gameObject) && dis <= _limit ){
+				if(b._type == blockType && !existsBlockInStack(b) && dis <= _limit ){
 					OPDebug.Log("add block(" + i + ";" + j + ") to stack");
 					Push(b);
 					newCurrentLine(b.transform.localPosition);

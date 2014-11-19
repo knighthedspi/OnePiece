@@ -12,7 +12,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 public partial class GamePlayService{
-	#region fever_mode
+	#region fever_effect
 	/// <summary>
 	/// Adds the neighbor block2 stack.
 	/// </summary>
@@ -23,62 +23,30 @@ public partial class GamePlayService{
 		Vector2 posInBoard = b._posInBoard;
 		int posX = (int)posInBoard.x;
 		int posY = (int)posInBoard.y;
-		if(posX < _tilesNum.x - 1 && !_neighbors.Contains(_tiles[posX + 1, posY]))
-			_neighbors.Add(_tiles[posX + 1, posY]);
-		if(posY < _tilesNum.y - 1 && !_neighbors.Contains(_tiles[posX, posY + 1]))
-			_neighbors.Add(_tiles[posX, posY + 1]);
-		if(posX > 0 && !_neighbors.Contains(_tiles[posX - 1, posY]))
-			_neighbors.Add(_tiles[posX - 1, posY]);
-		if(posY > 0 && !_neighbors.Contains(_tiles[posX, posY - 1]))
-			_neighbors.Add(_tiles[posX, posY - 1]);
+		if(posX < blockNum.x - 1 && !_neighbors.Contains(block[posX + 1, posY]))
+			_neighbors.Add(block[posX + 1, posY]);
+		if(posY < blockNum.y - 1 && !_neighbors.Contains(block[posX, posY + 1]))
+			_neighbors.Add(block[posX, posY + 1]);
+		if(posX > 0 && !_neighbors.Contains(block[posX - 1, posY]))
+			_neighbors.Add(block[posX - 1, posY]);
+		if(posY > 0 && !_neighbors.Contains(block[posX, posY - 1]))
+			_neighbors.Add(block[posX, posY - 1]);
 		if(posX % 2 != 0) {
-			if(posX < _tilesNum.x - 1 && posY > 0 && !_neighbors.Contains(_tiles[posX + 1, posY - 1]))
-				_neighbors.Add(_tiles[posX + 1, posY - 1]);
-			if(posX > 0 && posY > 0 && !_neighbors.Contains(_tiles[posX - 1, posY - 1]))
-				_neighbors.Add(_tiles[posX - 1, posY - 1]);
+			if(posX < blockNum.x - 1 && posY > 0 && !_neighbors.Contains(block[posX + 1, posY - 1]))
+				_neighbors.Add(block[posX + 1, posY - 1]);
+			if(posX > 0 && posY > 0 && !_neighbors.Contains(block[posX - 1, posY - 1]))
+				_neighbors.Add(block[posX - 1, posY - 1]);
 		} else {
-			if(posX < _tilesNum.x - 1 && posY < _tilesNum.y - 1 && !_neighbors.Contains(_tiles[posX + 1, posY + 1]))
-				_neighbors.Add(_tiles[posX + 1, posY + 1]);
-			if(posX > 0 && posY < _tilesNum.y - 1 && !_neighbors.Contains(_tiles[posX - 1, posY + 1]))
-				_neighbors.Add(_tiles[posX - 1, posY + 1]);
+			if(posX < blockNum.x - 1 && posY < blockNum.y - 1 && !_neighbors.Contains(block[posX + 1, posY + 1]))
+				_neighbors.Add(block[posX + 1, posY + 1]);
+			if(posX > 0 && posY < blockNum.y - 1 && !_neighbors.Contains(block[posX - 1, posY + 1]))
+				_neighbors.Add(block[posX - 1, posY + 1]);
 		}
 	}
 
-	#endregion fever_mode
+	#endregion fever_effect
 
 	#region check_touch_board
-	/// <summary>
-	/// check Intersects the node to node.
-	/// </summary>
-	/// <returns><c>true</c>, if node 1 was intersected in node 2, <c>false</c> otherwise.</returns>
-	/// <param name="node1">Node1.</param>
-	/// <param name="node2">Node2.</param>
-	public bool intersectNodeToNode(GameObject node1,GameObject node2)
-	{
-		Vector2 node1Pos = getNodePos(node1);
-		Vector2 node2Pos = getNodePos(node2);
-		
-		UISprite spr1 = node1.GetComponent<UISprite>();
-		UISprite spr2 = node2.GetComponent<UISprite>();
-		
-		float width1 = (float)spr1.width;
-		float height1 = (float)spr1.height;
-		float width2 = (float)spr2.width;
-		float height2 = (float)spr2.height;
-		
-		if(node2Pos.x > node1Pos.x && node2Pos.y > node1Pos.y &&
-		   node2Pos.x + width2 < node1Pos.x + width1 &&
-		   node2Pos.y + height2 < node1Pos.y + height1) {
-			return true;
-		}
-		//		if( node1Pos.x + width1 < node2Pos.x || node1Pos.y + height1 < node2Pos.y 
-		//		   || node2Pos.x + width2 < node1Pos.x || node2Pos.y + height2 < node1Pos.y ){
-		//			OPDebug.Log("failed with " + node1Pos + ";" + width1 + "; " + node2Pos + ";" + width2 + ";" + height1 + ";" + height2);
-		//			return false;
-		//		}
-		return true;
-	}
-	
 	/// <summary>
 	/// Gets the node position.
 	/// </summary>
@@ -135,8 +103,79 @@ public partial class GamePlayService{
 			node.transform.localPosition.x - width * ax,
 			node.transform.localPosition.y - height * ay);
 	}
-	
+
+	/// <summary>
+	/// check Intersects the node to point.
+	/// </summary>
+	/// <returns><c>true</c>, if node to point was intersected, <c>false</c> otherwise.</returns>
+	/// <param name="node">Node.</param>
+	/// <param name="pos">Position.</param>
+	public bool intersectNodeToPoint(GameObject node,Vector3 pos)
+	{
+		UISprite spr = node.GetComponent<UISprite>();
+		float width = (float)spr.width;
+		float height = (float)spr.height;
+		Vector2 nodePos = getNodePos(node);
+		if(pos.x > nodePos.x && pos.y > nodePos.y &&
+		   pos.x < nodePos.x + width &&
+		   pos.y < nodePos.y + height) {
+			return true;
+		}
+		return false;
+	}
+
+	// 3d position to 2d position
+	public Vector3 screenTo2DPoint(Vector3 pos, Camera camera, GameObject panel)
+	{
+		if(camera == null) {
+			Debug.Log("You need set _camera value. recommand NGUI Camera");
+			return new Vector3();
+		}        
+		if(panel == null) {
+			Debug.Log("You need set _panel value. recommand NGUI Panel");
+			return new Vector3();
+		}
+		Vector3 worldPos = camera.ScreenToWorldPoint(pos);
+		return panel.transform.worldToLocalMatrix.MultiplyPoint3x4(worldPos);
+	}
+
 	#endregion check_touch_board
 
+	#region block_position_calculator
+	/// <summary>
+	/// Calculate the position of block
+	/// </summary>
+	/// <returns>The position of block</returns>
+	/// <param name="x">The x coordinate.</param>
+	/// <param name="y">The y coordinate.</param>
+	/// <param name="deltaStartX">Delta start x.</param>
+	/// <param name="deltaStartY">Delta start y.</param>
+	/// <param name="blockSize">Size of block as pixels.</param>
+	/// <param name="boardPadding">Board padding size</param>
+	/// <param name="board">Board game object</param>
+	public Vector2 blockPos(int x, int y, int deltaStartX, int deltaStartY, Vector2 blockSize, Vector2 boardPadding, Vector2 blockMargin, GameObject board)
+	{
+		if(x >= (int)blockNum.x || x < 0)
+			return new Vector2(0, 0);
+		if(y >= (int)blockNum.y || y < 0)
+			return new Vector2(0, 0);
+		
+		float curve = x % 2 * blockNum.x * blockNum.y;
+		
+		Transform trans = board.transform;
+		
+		float width = board.GetComponent<UISprite>().width;
+		float height = board.GetComponent<UISprite>().height;
+		float startX = trans.localPosition.x - width / 2 + deltaStartX;
+		float startY = trans.localPosition.y - height / 2 + deltaStartY;
+		float posX = (x * blockSize.x);
+		float posY = ((blockNum.x - y - 1) * (blockSize.y));
+		
+		posX = posX + startX + blockSize.x / 2 + boardPadding.x + blockMargin.x * x;
+		posY = posY + startY + blockSize.y / 2 + boardPadding.y + blockMargin.y * y + curve;
+		
+		return new Vector2(posX, posY);
+	}
+	#endregion block_position_calculator
 }
 
