@@ -15,6 +15,8 @@ public class DBManager : Singleton<DBManager>
     public readonly static SQLiteDB MasterDb = new SQLiteDB();
     public readonly static SQLiteDB UserDb = new SQLiteDB();
 
+    public delegate void OnInitComplete();
+    public OnInitComplete onInitComplete;
 
     void Awake()
     {
@@ -28,6 +30,8 @@ public class DBManager : Singleton<DBManager>
         OPDebug.Log("Load database");
         MasterDb.Open(MASTER_DB_PERSISTENT_PATH);
         UserDb.Open(USER_DB_PERSISTENT_PATH);
+        yield return new WaitForSeconds(1);
+        onInitComplete();
     }
 
     private bool checkUpdate()
@@ -105,5 +109,5 @@ public class DBManager : Singleton<DBManager>
         MasterDb.Close();
         UserDb.Close();
     }
-    
+
 }

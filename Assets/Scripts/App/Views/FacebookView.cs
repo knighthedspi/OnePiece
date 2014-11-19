@@ -24,8 +24,8 @@ public class FacebookView : OnePieceView {
         }
 
         //#TODO Init User right place
-        OPUser user = OPUserDAO.Instance.getCurrentUser();
-        AppManager.Instance.User = user;
+//        OPUser user = OPUserDAO.Instance.getCurrentUser();
+//        AppManager.Instance.User = user;
     }
 	
     // handle click event on Pause Button
