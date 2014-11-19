@@ -16,6 +16,7 @@ public static class Config
     public const string           TAG_COMMON = "CommonScene";
     public const string           TAG_MAIN_CAMERA = "MainCamera";
 
+	public const string 		  VIEWS_PREFABS_PATH    = "Views";
 	public const string			  START_VIEW 			= "Start";
 	public const string			  FB_VIEW 				= "Facebook";
 	public const string			  GAME_PLAY_VIEW 		= "GamePlay";
@@ -27,19 +28,15 @@ public static class Config
 	public const string           TAG_UNIT              = "Unit";
 	public const string           TAG_UNTAGGED          = "Untagged";
 	public const string           TAG_DECK              = "Deck";
-	public const string 		  VIEWS_PREFABS_PATH    = "Views";
 
     // TODO : define layer
 
-//	public static readonly int    LAYER_NONE            = LayerMask.NameToLayer("None");
-//	public static readonly int    LAYER_DEFAULT         = LayerMask.NameToLayer("Default");
-//	public static readonly int    LAYER_UI              = LayerMask.NameToLayer("UI");
-//	public static readonly int    LAYER_ATTACK          = LayerMask.NameToLayer("Attack");
-//	public static readonly int    LAYER_DEFENSE         = LayerMask.NameToLayer("Defense");
-//	public static readonly int    LAYER_ATTACK_MONSTER  = LayerMask.NameToLayer("AttackMonster");
-//	public static readonly int    LAYER_DEFENSE_MONSTER = LayerMask.NameToLayer("DefenseMonster");
-//	public static readonly int    LAYER_LABEL           = LayerMask.NameToLayer("Label");
-	
+	public static readonly int    LAYER_NONE            = LayerMask.NameToLayer("None");
+	public static readonly int    LAYER_DEFAULT         = LayerMask.NameToLayer("Default");
+	public static readonly int    LAYER_UI              = LayerMask.NameToLayer("UI");
+	public static readonly int    LAYER_LABEL           = LayerMask.NameToLayer("Label");
+	public static readonly int    LAYER_MONSTER         = LayerMask.NameToLayer("Monster");
+
 	public const int			  COUNT_OF_MONSTERS     = 5;	
 	public const string			  RESOURCE_PREFIX		= "Prefab/Onepiece/Monster/";	
 	public static readonly Vector3 CHARACTER_POSITION	= new Vector3(-100, 290, 0);
@@ -49,4 +46,10 @@ public static class Config
 
 	public const string			  TRANSITION_IN 		= "TransitionIn";
 	public const string			  TRANSITION_OUT 		= "TransitionOut";
+
+	// animation name for each character: entry, attacked, idle, die
+	public const string			  ENTRY_ANIM			= "Entry";
+	public const string			  ATTACKED_ANIM			= "Attacked";
+	public const string			  DIE_ANIM				= "Die";
+	public const string			  IDLE_ANIM				= "Idle";
 }
