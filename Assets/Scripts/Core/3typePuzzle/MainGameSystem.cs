@@ -560,6 +560,7 @@ public class MainGameSystem : MonoBehaviour
             _top_field.Play("InFieldWorking_NGUI_Pro");
         }
         if(remain_time <= 0) {
+            //#TODO TimeUp will be called many time when update -> must fix it
             StartCoroutine("TimeUp");
             return;
         }

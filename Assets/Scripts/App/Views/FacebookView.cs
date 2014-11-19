@@ -2,13 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-<<<<<<< HEAD
-public class FacebookView : OnePieceView {
-=======
-public class FacebookView : View
-{
->>>>>>> Add result screen. update user info
-	
+public class FacebookView : OnePieceView {	
     public GameObject loginFacebook;
     public GameObject startGame;
 
@@ -44,7 +38,6 @@ public class FacebookView : View
         }
     }
 
-<<<<<<< HEAD
 	private void onStartGameClick()
 	{
 		Debug.Log ("start game");
@@ -55,13 +48,6 @@ public class FacebookView : View
 
 	}
 	
-=======
-    private void onStartGameClick()
-    {
-        Debug.Log("start game");
-        ViewLoader.Instance.CleanLoad(Config.START_VIEW, null);
-
-    }
 
     public void TestDialogClick()
     {
@@ -73,7 +59,6 @@ public class FacebookView : View
         Debug.Log("OK--------- con de");
         DialogManager.Instance.Complete();
     }
->>>>>>> Add result screen. update user info
 
 	#region FB.Init() example
 	

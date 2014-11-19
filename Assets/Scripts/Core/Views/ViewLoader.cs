@@ -48,19 +48,11 @@ public class ViewLoader : MonoBehaviour
         } else {
             Debug.LogError("[ViewLoader] multi instances must not be active at the same time.", this.gameObject);
         }
-<<<<<<< HEAD
 		isFirstScene = true;
         viewPrefabDict = new Dictionary<string, GameObject> ();
         viewCaches = new Dictionary<string, View> ();
         foreach (GameObject prefab in this.ViewPrefabs) {
             viewPrefabDict.Add (GetViewName (prefab), prefab);
-=======
-
-        viewPrefabDict = new Dictionary<string, GameObject>();
-        viewCaches = new Dictionary<string, View>();
-        foreach(GameObject prefab in this.ViewPrefabs) {
-            viewPrefabDict.Add(GetViewName(prefab), prefab);
->>>>>>> Add result screen. update user info
         }
     }
 
@@ -255,7 +247,6 @@ public class ViewLoader : MonoBehaviour
         return instance.gameObject.activeSelf;
     }
 
-<<<<<<< HEAD
 	public View getView (string viewName){
 		View instance = null;
 		viewCaches.TryGetValue (viewName, out instance);
@@ -263,16 +254,11 @@ public class ViewLoader : MonoBehaviour
 	}
 
 	enum SwitchMode{
-=======
-    enum SwitchMode
-    {
->>>>>>> Add result screen. update user info
         Switch,
         Addition,
         Clean,
     }
 	
-<<<<<<< HEAD
     private IEnumerator loadView (string nextViewName, GameObject nextViewPrefab, SwitchMode switchMode, params object[] parameters){
 		View nextView = null;
         viewCaches.TryGetValue (nextViewName, out nextView);
@@ -282,14 +268,6 @@ public class ViewLoader : MonoBehaviour
 
         if (CurrentView != null)
             View.PushHistory (CurrentView.name);
-=======
-    private IEnumerator loadView(string nextViewName,GameObject nextViewPrefab,SwitchMode switchMode,params object[] parameters)
-    {
-        View nextView = null;
-        viewCaches.TryGetValue(nextViewName, out nextView);
-        if(CurrentView != null)
-            View.PushHistory(CurrentView.name);
->>>>>>> Add result screen. update user info
 		 
         yield return null;
 
@@ -304,16 +282,11 @@ public class ViewLoader : MonoBehaviour
         }
 
         yield return null;
-<<<<<<< HEAD
 
 	
 
         if (nextView != null && nextView != CurrentView) {
 			nextView.gameObject.SetActive (true);
-=======
-        if(nextView != null && nextView != CurrentView) {
-            nextView.gameObject.SetActive(true);
->>>>>>> Add result screen. update user info
             yield return null;
             nextView.Resume();
         } else if(nextView == null) {
@@ -325,15 +298,6 @@ public class ViewLoader : MonoBehaviour
             } else if(!string.IsNullOrEmpty(nextViewName)) {
                 go = Instantiate(Resources.Load(ResourcePath + "/" + nextViewName)) as GameObject;
             }
-            if(go != null) {
-                go.name = nextViewName;
-                go.transform.parent = this.gameObject.transform;
-                nextView = go.GetComponent<View>();
-                viewCaches.Add(nextViewName, nextView);
-            } else {
-                Debug.Log("The new view could not be created!");
-            }
-<<<<<<< HEAD
             if (go != null){
 				go.name = nextViewName;
 				go.transform.parent = this.gameObject.transform;
@@ -344,8 +308,6 @@ public class ViewLoader : MonoBehaviour
 			}else{
 				Debug.Log ("The new view could not be created!");
 			}
-=======
->>>>>>> Add result screen. update user info
         }
 
         yield return null;

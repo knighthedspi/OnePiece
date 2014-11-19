@@ -9,13 +9,13 @@ public class UserService
 
     public void increaseBelly(OPUser user,int belly)
     {
-        user.Belly -= belly;
+        user.Belly += belly;
         OPUserDAO.Instance.save(user);
     }
 
     public void decreaseBelly(OPUser user,int belly)
     {
-        user.Belly += belly;
+        user.Belly -= belly;
         OPUserDAO.Instance.save(user);   
     }
 

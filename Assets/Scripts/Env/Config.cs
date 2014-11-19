@@ -40,7 +40,6 @@ public static class Config
 //	public static readonly int    LAYER_DEFENSE_MONSTER = LayerMask.NameToLayer("DefenseMonster");
 //	public static readonly int    LAYER_LABEL           = LayerMask.NameToLayer("Label");
 	
-<<<<<<< HEAD
 	public const int			  COUNT_OF_MONSTERS     = 5;	
 	public const string			  RESOURCE_PREFIX		= "Prefab/Onepiece/Monster/";	
 	public static readonly Vector3 CHARACTER_POSITION	= new Vector3(-100, 290, 0);
@@ -50,12 +49,4 @@ public static class Config
 
 	public const string			  TRANSITION_IN 		= "TransitionIn";
 	public const string			  TRANSITION_OUT 		= "TransitionOut";
-=======
-    public const int			  COUNT_OF_MONSTERS = 5;	
-    public const string			  RESOURCE_PREFIX = "Prefab/Onepiece/Monster/";	
-    public static readonly Vector3 CHARACTER_POSITION = new Vector3(-100, 290, 0);
-    public static readonly Vector3 CHARACTER_DIRECTION = Vector3.zero;
-    public static readonly Vector3 MONSTER_POSITION = new Vector3(100, 290, 0);		 
-    public const float			  TWEEN_DURATION = 0.5f;
->>>>>>> Add result screen. update user info
 }
