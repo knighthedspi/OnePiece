@@ -29,12 +29,6 @@ public class OPUserDAO : OPUser
 
     public OPUser getCurrentUser()
     {
-//		OPUser user = new OPUser();
-//		QueryCondition<OPUser> condition = new QueryCondition<OPUser>();
-//		var list = new List<OPUser>(){user};
-//		condition.WithEqualConditions(list);
-//		condition.Limit = 1;
-//		Debug.LogError("select user");
         string query = "select * from OPUser limit 1";
         List<OPUser> users = GenericDao<OPUser>.Instance.Get(db, query);
         if(users.Count < 0) {

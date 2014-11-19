@@ -1,19 +1,20 @@
 using UnityEngine;
 using System;
 
-public static class Config {
+public static class Config
+{
 
-	public const int              TARGET_FRAMERATE      = 60;
-	public const int              VSYNC_COUNT           = 0;
-	public const bool             ASSETBUNDLE_AUTO_SAVE = true;
+    public const int              TARGET_FRAMERATE = 60;
+    public const int              VSYNC_COUNT = 0;
+    public const bool             ASSETBUNDLE_AUTO_SAVE = true;
 
-	public const string           UNITY_VERSION         = "4.5.5f1";
+    public const string           UNITY_VERSION = "4.5.5f1";
 
-	public const string           SCENE_COMMON          = "common_scene";
-	public const string           SCENE_MAIN            = "main_scene";
+    public const string           SCENE_COMMON = "common_scene";
+    public const string           SCENE_MAIN = "main_scene";
 
-	public const string           TAG_COMMON            = "CommonScene";
-	public const string           TAG_MAIN_CAMERA       = "MainCamera";
+    public const string           TAG_COMMON = "CommonScene";
+    public const string           TAG_MAIN_CAMERA = "MainCamera";
 
 	public const string			  START_VIEW 			= "Start";
 	public const string			  FB_VIEW 				= "Facebook";
@@ -28,7 +29,7 @@ public static class Config {
 	public const string           TAG_DECK              = "Deck";
 	public const string 		  VIEWS_PREFABS_PATH    = "Views";
 
-	// TODO : define layer
+    // TODO : define layer
 
 //	public static readonly int    LAYER_NONE            = LayerMask.NameToLayer("None");
 //	public static readonly int    LAYER_DEFAULT         = LayerMask.NameToLayer("Default");

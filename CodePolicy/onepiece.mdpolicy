@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PolicySet name="onepiece">
+  <TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp">
+    <FileWidth>120</FileWidth>
+    <EolMarker>Unix</EolMarker>
+  </TextStylePolicy>
+  <CSharpFormattingPolicy inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp">
+    <BeforeMethodDeclarationParentheses>False</BeforeMethodDeclarationParentheses>
+    <AfterMethodDeclarationParameterComma>False</AfterMethodDeclarationParameterComma>
+    <BeforeMethodCallParentheses>False</BeforeMethodCallParentheses>
+    <BeforeConstructorDeclarationParentheses>False</BeforeConstructorDeclarationParentheses>
+    <AfterConstructorDeclarationParameterComma>False</AfterConstructorDeclarationParameterComma>
+    <BeforeIndexerDeclarationBracket>False</BeforeIndexerDeclarationBracket>
+    <AfterIndexerDeclarationParameterComma>False</AfterIndexerDeclarationParameterComma>
+    <BeforeDelegateDeclarationParentheses>False</BeforeDelegateDeclarationParentheses>
+    <NewParentheses>False</NewParentheses>
+    <IfParentheses>False</IfParentheses>
+    <WhileParentheses>False</WhileParentheses>
+    <ForParentheses>False</ForParentheses>
+    <ForeachParentheses>False</ForeachParentheses>
+    <CatchParentheses>False</CatchParentheses>
+    <SwitchParentheses>False</SwitchParentheses>
+    <UsingParentheses>False</UsingParentheses>
+    <SpacesBeforeBrackets>False</SpacesBeforeBrackets>
+    <SpacesAfterForSemicolon>False</SpacesAfterForSemicolon>
+  </CSharpFormattingPolicy>
+  <TextStylePolicy inheritsSet="Mono" inheritsScope="text/plain" scope="text/plain">
+    <FileWidth>120</FileWidth>
+    <TabWidth>4</TabWidth>
+    <EolMarker>Unix</EolMarker>
+  </TextStylePolicy>
+</PolicySet>

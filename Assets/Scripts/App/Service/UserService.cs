@@ -9,13 +9,13 @@ public class UserService
 
     public void increaseBelly(OPUser user,int belly)
     {
-        user.Belly -= belly;
+        user.Belly += belly;
         OPUserDAO.Instance.save(user);
     }
 
     public void decreaseBelly(OPUser user,int belly)
     {
-        user.Belly += belly;
+        user.Belly -= belly;
         OPUserDAO.Instance.save(user);   
     }
 
@@ -28,5 +28,18 @@ public class UserService
     public bool isLevelUp()
     {
         return false;
+    }
+
+    public void updateScore(OPUser user,int score)
+    {
+        user.Score = score;
+        if(isHighScore(user, score))
+            user.HighScore = score;
+        OPUserDAO.Instance.save(user);
+    }
+
+    public bool isHighScore(OPUser user,int score)
+    {
+        return (score > user.HighScore);
     }
 }
