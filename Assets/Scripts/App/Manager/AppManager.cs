@@ -13,4 +13,14 @@ public class AppManager : Singleton<AppManager>
             user = value;
         }
     }
+
+    void Start()
+    {
+        DBManager.Instance.onInitComplete = onInitDBComplete;
+    }
+
+    private void onInitDBComplete()
+    {
+        user = OPUserDAO.Instance.getCurrentUser();
+    }
 }
