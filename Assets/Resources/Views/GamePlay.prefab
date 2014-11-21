@@ -110,7 +110,7 @@ GameObject:
   - 4: {fileID: 400014}
   - 114: {fileID: 11400016}
   m_Layer: 5
-  m_Name: MyHP_Guage
+  m_Name: Timer_Guage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -291,7 +291,7 @@ GameObject:
   - 4: {fileID: 400038}
   - 114: {fileID: 11400042}
   m_Layer: 5
-  m_Name: MyHP_Back
+  m_Name: Timer_Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -512,7 +512,7 @@ GameObject:
   - 114: {fileID: 11400078}
   - 54: {fileID: 5400020}
   m_Layer: 5
-  m_Name: Hp
+  m_Name: Timer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -545,7 +545,7 @@ GameObject:
   - 114: {fileID: 11400082}
   - 95: {fileID: 9500006}
   m_Layer: 5
-  m_Name: StageLabel
+  m_Name: FeverLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -579,7 +579,7 @@ GameObject:
   - 114: {fileID: 11400086}
   - 95: {fileID: 9500008}
   m_Layer: 5
-  m_Name: Descript
+  m_Name: ComboLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -789,7 +789,7 @@ Transform:
   m_Children:
   - {fileID: 400068}
   m_Father: {fileID: 400042}
-  m_RootOrder: 1
+  m_RootOrder: 0
 --- !u!4 &400032
 Transform:
   m_ObjectHideFlags: 1
@@ -860,8 +860,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: .00208333344, y: .00208333344, z: .00208333344}
   m_Children:
-  - {fileID: 400076}
   - {fileID: 400030}
+  - {fileID: 400076}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &400044
@@ -1029,7 +1029,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100068}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.16787469, y: 1.16786945, z: 0}
+  m_LocalPosition: {x: 0, y: 1.79775226, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400060}
@@ -1085,7 +1085,7 @@ Transform:
   m_LocalScale: {x: 479.999969, y: 479.999969, z: 479.999969}
   m_Children: []
   m_Father: {fileID: 400042}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!4 &400078
 Transform:
   m_ObjectHideFlags: 1
@@ -3226,6 +3226,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioListener: {fileID: 0}
   pauseBtn: {fileID: 100010}
+  goldLabel: {fileID: 11400068}
+  scoreLabel: {fileID: 11400024}
+  hintPrefab: {fileID: 100000, guid: 20e1614b773d246d8bf65136c0e66a77, type: 2}
+  comboLabel: {fileID: 11400086}
+  feverLabel: {fileID: 11400082}
+  panel: {fileID: 100060}
+  hintPanel: {fileID: 100078}
+  board: {fileID: 100018}
+  blocksPrefab:
+  - {fileID: 100000, guid: 0ab2e381650cc4d6eb1e599ba576077c, type: 2}
+  - {fileID: 100000, guid: 67f229a0a39ff499e8158b88d6fd30bc, type: 2}
+  - {fileID: 100000, guid: 36c04b9d95c574b9cb5114b505e935ce, type: 2}
+  - {fileID: 100000, guid: d12a4acccf5fb421db17bac1c9ee1a1b, type: 2}
+  - {fileID: 100000, guid: 31ad6f32d754c4f5b88d9ca785a59b98, type: 2}
+  UI_TimerBar: {fileID: 11400016}
+  UI_MonsterHP: {fileID: 11400058}
+  deltaStartX: 4
+  deltaStartY: -62
+  UI_FeverBack: {fileID: 11400004}
+  UI_TimeUp: {fileID: 100046}
+  topFieldAnimator: {fileID: 9500002}
+  comboAnimator: {fileID: 9500008}
+  feverAnimator: {fileID: 9500006}
+  boardAnimator: {fileID: 9500010}
+  blockNum: {x: 7, y: 6}
+  blockSize: {x: 86, y: 78}
+  boardPadding: {x: 32, y: 48}
+  blockMargin: {x: -12, y: -8}
+  remain_time: 60
+  hintTime: 5
+  scoreRatio1: 20
+  scoreDelta: 3
+  scoreRatio2: 50
+  bellyRatio1: 2
+  bellyRatio2: 4
+  comboStepTime: 1.5
+  feverLimit: 5
+  feverStepTime: 1.5
+  deltaMonsterPos: 300
+  camera: {fileID: 2000000}
 --- !u!114 &11400092
 MonoBehaviour:
   m_ObjectHideFlags: 1
