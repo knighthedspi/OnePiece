@@ -14,38 +14,6 @@ using System.Collections.Generic;
 public partial class GamePlayService{
 
 	/// <summary>
-	/// The visited boolean. check block is visited or bot
-	/// </summary>
-	private bool[,] visited ;
-	
-	/// <summary>
-	/// The best_way , use 2 hint 
-	/// </summary>
-	private List<Block> best_way;
-	
-	/// <summary>
-	/// The number of block
-	/// </summary>
-	private Vector2 blockNum ;
-	
-	/// <summary>
-	/// The array of blocks
-	/// </summary>
-	private Block[,] block;
-	
-	/// <summary>
-	/// Inits the block data
-	/// </summary>
-	/// <param name="blockNum">number of block</param>
-	public void initBlock(Vector2 blockNum,Block[,] block)
-	{
-		this.blockNum = blockNum;
-		this.block = block;
-		visited = new bool[(int)blockNum.x, (int)blockNum.y];
-		best_way = new List<Block>();
-	}
-	
-	/// <summary>
 	/// Checks the is same type of block.
 	/// </summary>
 	/// <returns><c>true</c>, if is same type of block was checked, <c>false</c> otherwise.</returns>
@@ -66,39 +34,39 @@ public partial class GamePlayService{
 	private void Search(int x,int y,Block type,List<Block> matchingSet)
 	{
 		
-		if(checkIsSameTypeOfBlock(block[x, y], type)) {
-			matchingSet.Add(block[x, y]);
-			visited[x, y] = true;
-			if(x < blockNum.x - 1 && !visited[x + 1, y]) {
+		if(checkIsSameTypeOfBlock(_blocks[x, y], type)) {
+			matchingSet.Add(_blocks[x, y]);
+			_visited[x, y] = true;
+			if(x < _blockNum.x - 1 && !_visited[x + 1, y]) {
 				Search(x + 1, y, type, matchingSet);
 			}
 			
-			if(y < blockNum.y - 1 && !visited[x, y + 1]) {
+			if(y < _blockNum.y - 1 && !_visited[x, y + 1]) {
 				Search(x, y + 1, type, matchingSet);
 			}
 			
-			if(x > 0 && !visited[x - 1, y]) {
+			if(x > 0 && !_visited[x - 1, y]) {
 				Search(x - 1, y, type, matchingSet);
 			}
 			
-			if(y > 0 && !visited[x, y - 1]) {
+			if(y > 0 && !_visited[x, y - 1]) {
 				Search(x, y - 1, type, matchingSet);
 			}
 			
 			if(x % 2 != 0) {
-				if(x < blockNum.x - 1 && y > 0 && !visited[x + 1, y - 1]) {
+				if(x < _blockNum.x - 1 && y > 0 && !_visited[x + 1, y - 1]) {
 					Search(x + 1, y - 1, type, matchingSet);
 				}
 				
-				if(x > 0 && y > 0 && !visited[x - 1, y - 1]) {
+				if(x > 0 && y > 0 && !_visited[x - 1, y - 1]) {
 					Search(x - 1, y - 1, type, matchingSet);
 				}
 			} else {
-				if(x < blockNum.x - 1 && y < blockNum.y - 1 && !visited[x + 1, y + 1]) {
+				if(x < _blockNum.x - 1 && y < _blockNum.y - 1 && !_visited[x + 1, y + 1]) {
 					Search(x + 1, y + 1, type, matchingSet);
 				}
 				
-				if(x > 0 && y < blockNum.y - 1 && !visited[x - 1, y + 1]) {
+				if(x > 0 && y < _blockNum.y - 1 && !_visited[x - 1, y + 1]) {
 					Search(x - 1, y + 1, type, matchingSet);
 				}
 			}
@@ -106,13 +74,13 @@ public partial class GamePlayService{
 	}
 	
 	/// <summary>
-	/// Clears the visited match.
+	/// Clears the _visited match.
 	/// </summary>
 	private void ClearVisitedMatch()
 	{
-		for(int x = 0;x < (int) blockNum.x;x ++) {
-			for(int y = 0;y < (int) blockNum.y;y++) {
-				visited[x, y] = false;
+		for(int x = 0;x < (int) _blockNum.x;x ++) {
+			for(int y = 0;y < (int) _blockNum.y;y++) {
+				_visited[x, y] = false;
 			}
 		}
 	}
@@ -123,16 +91,16 @@ public partial class GamePlayService{
 	private void FindMatches()
 	{
 		ClearVisitedMatch();
-		best_way.Clear();
+		_hints.Clear();
 		
-		for(int x = 0;x < (int) blockNum.x;x++) {
-			for(int y = 0;y <  (int) blockNum.y;y++) {
-				if(!visited[x, y]) {
-					visited[x, y] = true;
+		for(int x = 0;x < (int) _blockNum.x;x++) {
+			for(int y = 0;y <  (int) _blockNum.y;y++) {
+				if(!_visited[x, y]) {
+					_visited[x, y] = true;
 					List<Block> matchingSet = new List<Block>();
-					Search(x, y, block[x, y], matchingSet);
-					if(matchingSet.Count > best_way.Count && matchingSet.Count > 2) {
-						best_way = matchingSet;
+					Search(x, y, _blocks[x, y], matchingSet);
+					if(matchingSet.Count > _hints.Count && matchingSet.Count > 2) {
+						_hints = matchingSet;
 					}
 				}
 			}
@@ -146,7 +114,7 @@ public partial class GamePlayService{
 	public List<Block> FindHint()
 	{
 		FindMatches();
-		return best_way;
+		return _hints;
 	}
 
 }
