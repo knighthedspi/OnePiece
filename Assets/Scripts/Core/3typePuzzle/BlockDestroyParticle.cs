@@ -20,7 +20,7 @@ public class BlockDestroyParticle : MonoBehaviour {
 		Color color = _b._particleColor;
 
 		_particles = new List<Particle>();
-		for(int i=0;i<30;i++){
+		for(int i = 0; i < Config.PARTICLE_NUM; i++){
 			GameObject particle = (GameObject)Instantiate(_imgPrefab);
 			particle.transform.parent = this.transform.parent;
 			particle.transform.localPosition = this.transform.localPosition;
