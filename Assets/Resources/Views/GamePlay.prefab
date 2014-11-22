@@ -585,22 +585,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &100076
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400076}
-  - 114: {fileID: 11400094}
-  m_Layer: 5
-  m_Name: GameSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &100078
 GameObject:
   m_ObjectHideFlags: 1
@@ -861,7 +845,6 @@ Transform:
   m_LocalScale: {x: .00208333344, y: .00208333344, z: .00208333344}
   m_Children:
   - {fileID: 400030}
-  - {fileID: 400076}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &400044
@@ -1074,18 +1057,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 400060}
   m_RootOrder: 5
---- !u!4 &400076
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100076}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 479.999969, y: 479.999969, z: 479.999969}
-  m_Children: []
-  m_Father: {fileID: 400042}
-  m_RootOrder: 1
 --- !u!4 &400078
 Transform:
   m_ObjectHideFlags: 1
@@ -1819,7 +1790,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3003
+  startingRenderQueue: 3005
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -2615,7 +2586,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3003
+  startingRenderQueue: 3005
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -2814,7 +2785,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3007
+  startingRenderQueue: 3003
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -2931,7 +2902,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3005
+  startingRenderQueue: 3007
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -3310,62 +3281,6 @@ MonoBehaviour:
   mDepth: -1
   mSortingOrder: 0
   mClipOffset: {x: 0, y: 0}
---- !u!114 &11400094
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5ae035aba5ad472bbe7dad223ce371c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _goldLabel: {fileID: 11400068}
-  _scoreLabel: {fileID: 11400024}
-  _hintPrefab: {fileID: 100000, guid: 20e1614b773d246d8bf65136c0e66a77, type: 2}
-  _descriptLabel: {fileID: 11400086}
-  _stageLabel: {fileID: 11400082}
-  _turnLabel: {fileID: 11400044}
-  _panel: {fileID: 100060}
-  _hintPanel: {fileID: 100078}
-  _board: {fileID: 100018}
-  _blocksPrefab:
-  - {fileID: 100000, guid: 0ab2e381650cc4d6eb1e599ba576077c, type: 2}
-  - {fileID: 100000, guid: 67f229a0a39ff499e8158b88d6fd30bc, type: 2}
-  - {fileID: 100000, guid: 36c04b9d95c574b9cb5114b505e935ce, type: 2}
-  - {fileID: 100000, guid: d12a4acccf5fb421db17bac1c9ee1a1b, type: 2}
-  - {fileID: 100000, guid: 31ad6f32d754c4f5b88d9ca785a59b98, type: 2}
-  _monsterPrefab:
-  - {fileID: 100000, guid: e761289fb022a4026a9507d86f0a9347, type: 2}
-  - {fileID: 100000, guid: a98af6581d5a74543a088a9737ed1d0f, type: 2}
-  - {fileID: 100000, guid: e6a908e56a0dc43d18319cf2c37701ac, type: 2}
-  _UI_PlayerHP: {fileID: 11400016}
-  _UI_MonsterHP: {fileID: 11400058}
-  _top_field: {fileID: 9500002}
-  _tilesNum: {x: 7, y: 6}
-  _tileSize: {x: 86, y: 78}
-  _camera: {fileID: 2000000}
-  _boardPadding: {x: 32, y: 48}
-  _tilesMargin: {x: -12, y: -8}
-  _maxStage: 5
-  _hintTime: 5
-  remain_time: 60
-  _timer: 0
-  _playerMaxHP: 100
-  _playerAttackPoint: 3
-  deltaStartX: 4
-  deltaStartY: -62
-  scoreRatio1: 40
-  scoreDelta: 3
-  scoreRatio2: 50
-  bellyRatio1: 2
-  bellyRatio2: 4
-  comboStepTime: 1.5
-  feverLimit: 5
-  feverStepTime: 1.5
-  _UI_FeverBack: {fileID: 11400038}
-  deltaMonsterPos: 300
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
