@@ -183,7 +183,7 @@ public class GamePlayView : OnePieceView {
 	#region 	UPDATE_HANDLER
 	protected virtual void Update()
 	{
-		if(gameState == GameState.GAME_CLEAR)
+		if(gameState == GameState.GAME_CLEAR || _isPaused)
 			return;
 		updateWorking();
 		updateEmptyFill();
