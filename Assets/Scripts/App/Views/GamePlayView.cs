@@ -24,7 +24,6 @@ public class GamePlayView : OnePieceView {
 	public      GameObject 									board;
 	public      GameObject[] 								blocksPrefab;
 	public      UISprite 									UI_TimerBar;
-	public      UISprite 									UI_MonsterHP;
 	public 		float 										deltaStartX 			= 4;
 	public 		float 										deltaStartY				= -62;
 	public 		UISprite 									UI_FeverBack;
@@ -86,11 +85,8 @@ public class GamePlayView : OnePieceView {
 	#endregion 	GAME_STATEMENT
 
 	#region 	MONSTER_OBJECTS
-	// TODO : use CharacterController instead
-	protected 	Monster 									_currentMonster 		= null;
-	private 	List<Monster> 								_monsterList 			= new List<Monster>();
-	// TODO : delete current character
-	private 	Monster 									_currentCharacter;
+	protected 	CharacterController 						_currentMonster 		= null;
+	private 	List<CharacterController> 					_monsterList 			= new List<CharacterController>();
 	#endregion 	MONSTER_OBJECTS
 
 	#region  	HINT_SUGGESTION
@@ -135,6 +131,8 @@ public class GamePlayView : OnePieceView {
 		stage_time = remain_time;
 		gameState = GameState.GAME_WORK;
 	 	topFieldAnimator.GetComponent<Field>().Finish = OnFinishedWorking;
+		// TODO : get player attack point from DB
+		_playerAttackPoint = 100;
 	}
 
 	private void InitializeGameService()
@@ -145,14 +143,9 @@ public class GamePlayView : OnePieceView {
 		_user = AppManager.Instance.User;
 	}
 	
-	// TODO :unload character, load monster only
 	private void loadCharacters()
 	{
-		_service.loadCharacters(Config.CHARACTER_POSITION, Vector3.zero, initMonsterPosition(), Vector3.zero, ref _currentCharacter, ref _monsterList);
-		_playerAttackPoint = _currentCharacter._attackPoint;
-		_currentCharacter.Finish = OnFinishedCharacterAnim;
-		_currentCharacter.entryPlay();
-		loadMonster(Config.MONSTER_POSITION);
+		_service.loadCharacters(Config.CHARACTER_POSITION, Vector3.zero, initMonsterPosition(), Vector3.zero, ref _monsterList);
 	}
 
 	private List<Vector3> initMonsterPosition()
@@ -167,15 +160,15 @@ public class GamePlayView : OnePieceView {
 	private void loadMonster(Vector3 pos)
 	{
 		if(_monsterList.Count == 0) {
-			StartCoroutine("GameClear");
+			StartCoroutine(TimeUp());
 			return;
 		}
 		_currentMonster = _monsterList[0];
 		_monsterList.Remove(_currentMonster);
-		TweenPosition.Begin(_currentMonster.gameObject, Config.TWEEN_DURATION, pos); 
-		_currentMonster.Finish = OnFinishedMonsterAnim;
+		// TODO : update entry animation
+		TweenPosition.Begin(_currentMonster.entireMonsterObj, Config.TWEEN_DURATION, pos); 
+		_currentMonster.Finish = OnFinishMonsterAnim;
 		_currentMonster.entryPlay();
-		UI_MonsterHP.fillAmount = 1;	
 	}
 
 	#endregion 	INITIALIZE_GAME
@@ -199,7 +192,7 @@ public class GamePlayView : OnePieceView {
 	protected virtual void updateWorking(){
 		if(gameState == GameState.GAME_WORK) {
 			gameState = GameState.GAME_WORKING;
-			topFieldAnimator.Play("InFieldWorking_NGUI_Pro");
+			topFieldAnimator.Play(Config.FIELD_WORKING_ANIM);
 		}
 	}
 
@@ -211,7 +204,7 @@ public class GamePlayView : OnePieceView {
 	protected virtual void updateTouchBoard()
 	{
 		if(_service.isBlocksMoveToAnim()) return ;
-		if(remain_time <= 0 || _currentMonster == null || _currentMonster!=null && _currentMonster.getCurrentAnimationState().Equals("die")) {
+		if(remain_time <= 0 || _currentMonster == null || _currentMonster!=null && _currentMonster.getCurrentAnimationState().Equals(Config.DIE_ANIM)) {
 			_service.clearStackBlock();
 			_service.dotLineDestroy();
 			return;
@@ -334,6 +327,7 @@ public class GamePlayView : OnePieceView {
 	protected virtual void OnFinishedWorking()
 	{
 		gameState = GameState.GAME_PLAYING;
+		loadMonster(Config.MONSTER_POSITION);
 		updateTurnUI();
 	}
 	
@@ -341,31 +335,17 @@ public class GamePlayView : OnePieceView {
 	{
 
 	}
-
-	protected virtual void OnFinishedCharacterAnim(string type)
+	
+	public void OnFinishMonsterAnim(string type)
 	{
-		if(_currentCharacter == null)
-			return;
-		
-		if(type == "attack" && _currentMonster != null) {
-			_currentMonster.attackedPlay();
-		} else if(type == "die") {
-			Destroy(_currentCharacter.gameObject);
-			_currentCharacter = null;
-		}
-	}
-
-	public void OnFinishedMonsterAnim(string type)
-	{
-		// monster is only be attacked then die	
 		if(_currentMonster == null)
 			return;
-		if(type == "die") {
-			Destroy(_currentMonster.gameObject);
+		OPDebug.Log("finish anim: " + type);
+		if(type.Equals(Config.DIE_ANIM))
+	 	{
+			Destroy(_currentMonster.entireMonsterObj);
 			_currentMonster = null;
-			gameState = GameState.GAME_WORK;
-			loadMonster(Config.MONSTER_POSITION);
-			UI_MonsterHP.fillAmount = 1;
+			gameState = GameState.GAME_WORK;	
 		}
 	}
 
@@ -390,9 +370,9 @@ public class GamePlayView : OnePieceView {
 		o.GetComponent<DamageLabel>().go(_playerAttackPoint, panel, lastPos);
 		if(_currentMonster == null)
 			return;
-		_currentMonster._hp -= _playerAttackPoint;
-		UI_MonsterHP.fillAmount = _currentMonster._hp / _currentMonster._maxhp;
-		if(_currentMonster._hp < 0) {
+		_currentMonster.attackedPlay();
+		_currentMonster.decreaseHPAmount(_playerAttackPoint);
+		if(_currentMonster._currentHP < 0) {
 			if(gameState == GameState.GAME_PLAYING) {
 				_currentMonster.diePlay();
 			}
@@ -401,7 +381,6 @@ public class GamePlayView : OnePieceView {
 	
 	private void OnFinishedPlayerAttack(Vector2 lastPos)
 	{
-		_currentCharacter.attackPlay();
 		attackEffect(lastPos);
 		//		SoundManager.Instance.PlaySE("water-drop");
 	}
