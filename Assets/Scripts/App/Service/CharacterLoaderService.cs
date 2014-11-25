@@ -16,8 +16,7 @@ public partial class GamePlayService
     /// <param name="direction">Direction of character</param>
     public Monster loadCharacter(Vector3 pos, Vector3 direction)
     {
-        //#TODO get by user level
-        OPCharacter characterObj = CharacterService.Instance.getCharacterByLevel(1);
+       	OPCharacter characterObj = CharacterService.Instance.getCharacterByLevel(AppManager.Instance.user.LevelId);
         return MonsterService.Instance.createMonster(characterObj, Config.TAG_CHARACTER, _panel, pos, direction);
     }
 
@@ -30,9 +29,7 @@ public partial class GamePlayService
     /// <param name="direction">Direction.</param>
     public List<Monster> loadMonsterList(List<Vector3> pos, Vector3 direction)
     {
-        // TODO get by user 's current monster id
-        int cmID = 0;
-        List<OPCharacter> listMonsterModel = OPCharacterDAO.Instance.getListMonster(cmID);
+        List<OPCharacter> listMonsterModel = OPCharacterDAO.Instance.getListMonster(AppManager.Instance.user.CurrentMonsterID);
         List<Monster> listMonster = MonsterService.Instance.createListMonster(listMonsterModel, _panel, pos, direction); 
         return listMonster;	
     }
