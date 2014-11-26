@@ -4,50 +4,46 @@ using System.Collections;
 public class CharacterController : MonoBehaviour {
 
 	public delegate void OnFinished(string type);
-	
-	private Animator _animator;
 
-
-	////////////////////////////////////////
-	//character attributes, set from model
-	////////////////////////////////////////
+	public UISprite	UIMonsterHp;
 
 	[HideInInspector]
-	public int id {get; private set;}
+	public OPCharacter monsterModel {get; set;}
 
-	public float hp {get; private set;}
-	public float maxhp {get; private set;}
-	
-	public float attackPoint {get; private set;}
+	public GameObject entireMonsterObj 
+	{
+		get
+		{
+			return gameObject.transform.parent.gameObject;
+		}
+	}
 
-	// finish event after each animation
+	private Animator _animator;
 	public OnFinished Finish;
-	
-	private bool overridePlaying = true;
 
+	private bool overridePlaying = true;
+	private float _initialHP;
+	public float _currentHP {get; private set;}
 	// Use this for initialization
 	void Start () {
 		initialize();
 	}
 	
 	// initialize monster values
-	void initialize(){
+	protected virtual void initialize(){
 		_animator = gameObject.GetComponent<Animator>();
+		initMonsterAttributes();
+	}
+
+	protected virtual void initMonsterAttributes(){
+		this._initialHP = Random.Range(monsterModel.InitialHP, monsterModel.MaxHP);
+		this._currentHP = this._initialHP;
+		this.UIMonsterHp.fillAmount = 1;
 	}
 
 	/// <summary>
-	/// Sets the properties for monster: max_hp, hp, attackPoint.
-	/// Should call b4 playing any animation
+	/// Play entry animation
 	/// </summary>
-	/// <param name="obj">Object.</param>
-	public void setProperties(OPCharacter obj){
-		this.hp = Random.Range(obj.InitialHP, obj.MaxHP);
-		this.maxhp = this.hp;
-		this.attackPoint = obj.AttackPoint;
-		this.id = obj.Id;
-	}
-
-	//start animation entry
 	public void entryPlay(){
 		if(_animator == null){
 			initialize();
@@ -57,7 +53,9 @@ public class CharacterController : MonoBehaviour {
 		_animator.Play(Config.ENTRY_ANIM);
 	}
 
-	//start animation attacked
+	/// <summary>
+	/// Play attacked animation
+	/// </summary>
 	public void attackedPlay(){
 		if(_animator == null){
 			initialize();
@@ -67,7 +65,9 @@ public class CharacterController : MonoBehaviour {
 		_animator.Play(Config.ATTACKED_ANIM);
 	}
 	
-	//start animation die
+	/// <summary>
+	/// Play die animation
+	/// </summary>
 	public void diePlay(){
 		if(_animator == null){
 			initialize();
@@ -75,33 +75,39 @@ public class CharacterController : MonoBehaviour {
 		_animator.Play(Config.DIE_ANIM);
 		overridePlaying = false;
 	}
-	
+
+	/// <summary>
+	/// Decrease the HP amount of Monster
+	/// </summary>
+	/// <param name="amount">HP amount of monster will be decreased</param>
+	public void decreaseHPAmount(float amount)
+	{
+		this._currentHP -= amount;
+		this.UIMonsterHp.fillAmount = this._currentHP / this._initialHP;
+		OPDebug.Log("current HP is " + _currentHP);
+	}
+
 	/// <summary>
 	/// Gets the current state of the current animation.
 	/// </summary>
 	/// <returns>The current animation state.</returns>
 	public string getCurrentAnimationState(){
-		AnimatorStateInfo _currentStateInfo = _animator.GetCurrentAnimatorStateInfo(Config.LAYER_MONSTER);
-		string entry_anim = "Monster." + Config.ENTRY_ANIM;
-		string attacked_anim = "Monster." + Config.ATTACKED_ANIM;
-		string idle_anim = "Monster." + Config.IDLE_ANIM;
-		string die_anim = "Monster." + Config.DIE_ANIM;
-		if(_currentStateInfo.IsName(entry_anim))
+		AnimatorStateInfo _currentStateInfo = _animator.GetCurrentAnimatorStateInfo(0);
+		if(_currentStateInfo.IsName(Config.ENTRY_ANIM))
 			return Config.ENTRY_ANIM;
-		else if(_currentStateInfo.IsName(attacked_anim))
+		else if(_currentStateInfo.IsName(Config.ATTACKED_ANIM))
 			return Config.ATTACKED_ANIM;
-		else if(_currentStateInfo.IsName(idle_anim))
+		else if(_currentStateInfo.IsName(Config.IDLE_ANIM))
 			return Config.IDLE_ANIM;
-		else if(_currentStateInfo.IsName(die_anim))
+		else if(_currentStateInfo.IsName(Config.DIE_ANIM))
 			return Config.DIE_ANIM;
 		else
 			return null;
 	}
-
+	
 	/// <summary>
-	/// Raises the finish event after each animation, should be set from animation file
+	/// Raises the finish event after die animation, should be set from animation file
 	/// </summary>
-	/// <param name="type">Type.</param>
 	public void OnFinish(){
 		overridePlaying = true;
 		if(Finish != null)

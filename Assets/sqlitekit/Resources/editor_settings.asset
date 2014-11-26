@@ -13,9 +13,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   database: master.db
   tables:
-  - url: https://docs.google.com/spreadsheets/d/1yBByIg6IT6j-Z1u-NNW0zD3kYryesMJtzekFK1Xqmdk/export?format=csv&id=1yBByIg6IT6j-Z1u-NNW0zD3kYryesMJtzekFK1Xqmdk&gid=653338118&single=true&output=csv
+  - url: https://docs.google.com/spreadsheets/d/1eGLLQuBuhgZUB2p9D9OCH-WvVqK6Zoww77Gh2_xsdaM/export?format=csv&id=1yBByIg6IT6j-Z1u-NNW0zD3kYryesMJtzekFK1Xqmdk&gid=653338118&single=true&output=csv
     tableName: OPCharacter
-  - url: https://docs.google.com/a/oneofthem.jp/spreadsheets/d/1yBByIg6IT6j-Z1u-NNW0zD3kYryesMJtzekFK1Xqmdk/export?format=csv&id=1yBByIg6IT6j-Z1u-NNW0zD3kYryesMJtzekFK1Xqmdk&gid=0&single=true&output=csv
+  - url: https://docs.google.com/spreadsheets/d/1eGLLQuBuhgZUB2p9D9OCH-WvVqK6Zoww77Gh2_xsdaM/export?format=csv&id=1eGLLQuBuhgZUB2p9D9OCH-WvVqK6Zoww77Gh2_xsdaM&gid=0&single=true&output=csv
     tableName: OPLevel
-  - url: https://docs.google.com/a/oneofthem.jp/spreadsheets/d/1yBByIg6IT6j-Z1u-NNW0zD3kYryesMJtzekFK1Xqmdk/export?format=csv&id=1yBByIg6IT6j-Z1u-NNW0zD3kYryesMJtzekFK1Xqmdk&gid=1384232802&single=true&output=csv
+  - url: https://docs.google.com/spreadsheets/d/1eGLLQuBuhgZUB2p9D9OCH-WvVqK6Zoww77Gh2_xsdaM/export?format=csv&id=1eGLLQuBuhgZUB2p9D9OCH-WvVqK6Zoww77Gh2_xsdaM&gid=1384232802&single=true&output=csv
     tableName: OPItem
