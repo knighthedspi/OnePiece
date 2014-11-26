@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: StageLabel
+  m_Name: FeverLabel
   serializedVersion: 2
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -45,7 +45,7 @@ State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: StageLabel
+  m_Name: FeverAnim
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
@@ -60,7 +60,7 @@ State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: New State
+  m_Name: Not Animation
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:

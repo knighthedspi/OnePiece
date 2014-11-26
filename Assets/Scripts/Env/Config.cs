@@ -44,6 +44,8 @@ public static class Config
 	public const string			  		TRANSITION_OUT 					= "TransitionOut";
 
 	public const string			  		FIELD_WORKING_ANIM				= "InFieldWorking_NGUI_Pro";
+	public const string					COMBO_ANIM						= "Combo_NGUI_Pro";
+	public const string					FEVER_ANIM						= "FeverAnim";
 
 	public const string			  		ENTRY_ANIM						= "Monster.Entry";
 	public const string			  		ATTACKED_ANIM					= "Monster.Attacked";

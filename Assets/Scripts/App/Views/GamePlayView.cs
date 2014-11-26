@@ -409,7 +409,7 @@ public class GamePlayView : OnePieceView {
 		if(_currentCombo > 1) {
 			comboLabel.text = _currentCombo.ToString() + " Combos";
 			OPDebug.Log("play " + _currentCombo + " combos animation");
-			comboAnimator.Play("Combo_NGUI_Pro");
+			comboAnimator.Play(Config.COMBO_ANIM);
 		}
 		_comboTime = 0;
 		if(_currentCombo > feverLimit && !_startFever)
@@ -425,7 +425,7 @@ public class GamePlayView : OnePieceView {
 		_feverTime = 0.0f;
 
 		feverLabel.text = "Fever time";
-		feverAnimator.Play("StageLabel");
+		feverAnimator.Play(Config.FEVER_ANIM);
 		boardAnimator.SetBool("startFever", true);
 	}
 
