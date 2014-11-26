@@ -152,7 +152,7 @@ public class GamePlayView : OnePieceView {
 	{
 		List<Vector3> pos = new List<Vector3>(); 
 		for(int i = 0;i < Config.COUNT_OF_MONSTERS;i++) {
-			pos.Add(new Vector3(Config.MONSTER_POSITION.x, Config.MONSTER_POSITION.y + deltaMonsterPos * i, 0));
+			pos.Add(new Vector3(Config.MONSTER_POSITION.x, Config.MONSTER_POSITION.y + deltaMonsterPos * (i + 1) , 0));
 		}
 		return pos;
 	}
