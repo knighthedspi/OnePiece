@@ -4,6 +4,7 @@ using System.Collections;
 public class AppManager : Singleton<AppManager>
 {
     public OPUser user;
+	public OPGameSetup gameSetup { set; get;}
    
     public OPUser User {
         get {
