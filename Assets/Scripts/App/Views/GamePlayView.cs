@@ -176,8 +176,13 @@ public class GamePlayView : OnePieceView {
 	#region 	UPDATE_HANDLER
 	protected virtual void Update()
 	{
-		if(gameState == GameState.GAME_CLEAR || _isPaused)
+		if(_isPaused)
 			return;
+		if(gameState == GameState.GAME_CLEAR)
+		{
+			clearBlocksLines();
+			return;
+		}
 		updateWorking();
 		updateEmptyFill();
 		updateTouchBoard();
@@ -204,9 +209,8 @@ public class GamePlayView : OnePieceView {
 	protected virtual void updateTouchBoard()
 	{
 		if(_service.isBlocksMoveToAnim()) return ;
-		if(remain_time <= 0 || _currentMonster == null || _currentMonster!=null && _currentMonster.getCurrentAnimationState().Equals(Config.DIE_ANIM)) {
-			_service.clearStackBlock();
-			_service.dotLineDestroy();
+		if(_currentMonster == null || _currentMonster!=null && _currentMonster.getCurrentAnimationState().Equals(Config.DIE_ANIM)) {
+			clearBlocksLines();
 			return;
 		}
 		// TODO : improve performance
@@ -252,8 +256,8 @@ public class GamePlayView : OnePieceView {
 		if(_hintTime > hintTime) {
 			foreach(GameObject go in _hintObjs) {
 				go.transform.localScale = new Vector3(1, 1, 1);
-				go.GetComponent<UISprite>().width = (int)blockSize.y;
-				go.GetComponent<UISprite>().height = (int)blockSize.x;
+				go.GetComponent<UISprite>().width = (int)blockSize.x ;
+				go.GetComponent<UISprite>().height = (int)blockSize.y ;
 			}
 		}
 		
@@ -433,6 +437,16 @@ public class GamePlayView : OnePieceView {
 	{
 		_service.clearBlocks();
 		updateEmptyFill();
+	}
+
+	private void clearBlocksLines()
+	{
+		_service.clearStackBlock();
+		_service.dotLineDestroy();
+		_hints.Clear();
+		foreach(GameObject go in _hintObjs)
+			Destroy(go);
+		_hintObjs.Clear();
 	}
 	#endregion	GAME_EFFECT
 

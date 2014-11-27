@@ -35,6 +35,9 @@ public static class Config
 
 	public const int			  		COUNT_OF_MONSTERS     			= 5;	
 	public const string			  		MONSTER_RESOURCE_PREFIX			= "Prefab/Monster/";	
+	public const string					DIALOG_RESOURCE_PREFIX			= "Prefab/Dialog/";
+	public const string					PARTICLE_RESOURCE_PREFIX		= "Prefab/particle/";
+	public const string					UI_RESOURCE_PREFIX				= "Prefab/UI/";
 	public static readonly Vector3		CHARACTER_POSITION				= new Vector3(-100, 290, 0);
 	public static readonly Vector3 		CHARACTER_DIRECTION				= Vector3.zero;
 	public static readonly Vector3 		MONSTER_POSITION				= new Vector3(100, 290, 0);		 
@@ -46,6 +49,7 @@ public static class Config
 	public const string			  		FIELD_WORKING_ANIM				= "InFieldWorking_NGUI_Pro";
 	public const string					COMBO_ANIM						= "Combo_NGUI_Pro";
 	public const string					FEVER_ANIM						= "FeverAnim";
+
 
 	public const string			  		ENTRY_ANIM						= "Monster.Entry";
 	public const string			  		ATTACKED_ANIM					= "Monster.Attacked";

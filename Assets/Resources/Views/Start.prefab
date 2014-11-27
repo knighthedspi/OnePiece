@@ -401,8 +401,8 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mAtlas: {fileID: 11400000, guid: 328731c61fa46470c9e88d7dd88c731d, type: 2}
-  mSpriteName: back_bottom
+  mAtlas: {fileID: 11400000, guid: e51d939bea29a4fdd98d42816ded48ca, type: 2}
+  mSpriteName: background
   mFillCenter: 1
 --- !u!114 &11400006
 MonoBehaviour:

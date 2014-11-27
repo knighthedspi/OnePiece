@@ -76,7 +76,7 @@ public class DialogManager : Singleton<DialogManager> {
 	private void CreateDialog(DialogData dialogData)
 	{
 		_isProcessing = true;
-		string path = string.Format ("DialogPrefabs/{0}", dialogData.dialogType.ToString ());
+		string path = string.Format(Config.DIALOG_RESOURCE_PREFIX +  "{0}", dialogData.dialogType.ToString ());
 		GameObject dialogPrb = Resources.Load (path, typeof(GameObject)) as GameObject;
 		GameObject parent = GetDialogWindow ();
 		GameObject go = NGUITools.AddChild (parent, dialogPrb);

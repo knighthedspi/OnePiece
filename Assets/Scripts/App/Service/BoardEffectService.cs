@@ -333,7 +333,7 @@ public partial class GamePlayService{
 	// TODO : improve performance by using object pooling manager
 	public GameObject MakeBlockDestroyParticle()
 	{
-		return (GameObject)UnityEngine.Object.Instantiate(Resources.Load("Prefab/particle/NGUI Pro/BlockDestroyParticle"));
+		return (GameObject)UnityEngine.Object.Instantiate(Resources.Load(Config.PARTICLE_RESOURCE_PREFIX + "BlockDestroyParticle"));
 	}
 
 	/// <summary>
@@ -343,7 +343,7 @@ public partial class GamePlayService{
 	// TODO : improve performance by using object pooling manager
 	public GameObject MakePlayerAttackParticle()
 	{
-		return (GameObject)UnityEngine.Object.Instantiate(Resources.Load("Prefab/particle/NGUI Pro/PlayerAttackParticle"));
+		return (GameObject)UnityEngine.Object.Instantiate(Resources.Load(Config.PARTICLE_RESOURCE_PREFIX + "PlayerAttackParticle"));
 	}
 
 	/// <summary>
@@ -353,7 +353,7 @@ public partial class GamePlayService{
 	// TODO : improve performance by using object pooling manager
 	public GameObject MakeDamageEffect()
 	{
-		return (GameObject)UnityEngine.Object.Instantiate(Resources.Load("Prefab/UI/NGUI Pro/DamageLabel"));
+		return (GameObject)UnityEngine.Object.Instantiate(Resources.Load(Config.UI_RESOURCE_PREFIX + "DamageLabel"));
 	}
 
 	/// <summary>
@@ -362,7 +362,7 @@ public partial class GamePlayService{
 	/// <returns>The dot prefab.</returns>
 	// TODO : improve performance by using object pooling manager
 	public GameObject MakeDotObject(){
-		return (GameObject)UnityEngine.Object.Instantiate(Resources.Load("Prefab/UI/NGUI Pro/Dotting"));
+		return (GameObject)UnityEngine.Object.Instantiate(Resources.Load(Config.UI_RESOURCE_PREFIX + "Dotting"));
 	}
 
 	/// <summary>
@@ -371,7 +371,7 @@ public partial class GamePlayService{
 	/// <returns>The line prefab.</returns>
 	// TODO : improve performance by using object pooling manager
 	public GameObject MakeLineObject(){
-		return (GameObject)UnityEngine.Object.Instantiate(Resources.Load("Prefab/UI/NGUI Pro/ConnectLine"));
+		return (GameObject)UnityEngine.Object.Instantiate(Resources.Load(Config.UI_RESOURCE_PREFIX + "ConnectLine"));
 	}
 
 	/// <summary>

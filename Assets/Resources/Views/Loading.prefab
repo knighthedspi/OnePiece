@@ -316,7 +316,7 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mAtlas: {fileID: 11400000, guid: 328731c61fa46470c9e88d7dd88c731d, type: 2}
+  mAtlas: {fileID: 0}
   mSpriteName: ui_monster_hp_back
   mFillCenter: 1
 --- !u!114 &11400002
@@ -531,7 +531,7 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mAtlas: {fileID: 11400000, guid: 328731c61fa46470c9e88d7dd88c731d, type: 2}
+  mAtlas: {fileID: 0}
   mSpriteName: ui_myhp_guage
   mFillCenter: 1
 --- !u!114 &11400016
