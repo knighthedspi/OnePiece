@@ -118,6 +118,7 @@ public class GamePlayView : OnePieceView {
 	{
 		InitializeGameStatement();
 		InitializeGameService();
+		InitializeGameSetup();
 		loadCharacters();		
 	}
 
@@ -142,7 +143,16 @@ public class GamePlayView : OnePieceView {
 		_userService = UserService.Instance;
 		_user = AppManager.Instance.User;
 	}
-	
+
+	private void InitializeGameSetup()
+	{
+		OPGameSetup setup = new OPGameSetup();
+		setup.blockMargin = blockMargin;
+		setup.blockNum	  = blockNum;
+		setup.blockSize   = blockSize;
+		AppManager.Instance.gameSetup = setup;
+	}
+
 	private void loadCharacters()
 	{
 		_service.loadCharacters(Config.CHARACTER_POSITION, Vector3.zero, initMonsterPosition(), Vector3.zero, ref _monsterList);
