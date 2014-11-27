@@ -24,8 +24,6 @@ public class GamePlayView : OnePieceView {
 	public      GameObject 									board;
 	public      GameObject[] 								blocksPrefab;
 	public      UISprite 									UI_TimerBar;
-	public 		float 										deltaStartX 			= 4;
-	public 		float 										deltaStartY				= -62;
 	public 		UISprite 									UI_FeverBack;
 	public		GameObject									UI_TimeUp;
 	#endregion	UI
@@ -36,28 +34,7 @@ public class GamePlayView : OnePieceView {
 	public		Animator 									feverAnimator;
 	public		Animator 									boardAnimator;
 	#endregion 	ANIMATION
-
-	#region 	BLOCK_N_BOARD
-	public      Vector2 									blockNum				= new Vector2(7,  6)  ;
-	public      Vector2 									blockSize 				= new Vector2(86, 78) ;
-	public      Vector2 									boardPadding			= new Vector2(32, 48) ;
-	public      Vector2 									blockMargin				= new Vector2(-12, -8);
-	#endregion 	BLOCK_N_BOARD
-
-	#region 	PLAYER_SETTING
-	public      float 										remain_time 			= 60;
-	public      float 										hintTime 				= 5;
-	public 		int 										scoreRatio1 			= 20;
-	public 		int 										scoreDelta 				= 3;
-	public 		int 										scoreRatio2 			= 50;
-	public 		int 										bellyRatio1 			= 2;
-	public 		int 										bellyRatio2 			= 4;
-	public 		float 										comboStepTime 			= 1.5f;
-	public 		int 										feverLimit 				= 5;
-	public 		float 										feverStepTime 			= 1.5f;
-	public 		float 										deltaMonsterPos 		= 300;
-	#endregion 	PLAYER_SETTING
-
+	
 	#region 	CAMERA_SETTING 
 	public      Camera 										camera;
 	#endregion 	CAMERA_SETTING 
@@ -69,8 +46,9 @@ public class GamePlayView : OnePieceView {
 
 	#region 	GAME_STATEMENT
 	protected   GameState 									gameState;
-	private      float 										_playerAttackPoint;
+	private     float 										_playerAttackPoint;
 	protected   bool 										_gameEnd				= false;
+	protected  	float 										remain_time				;
 	protected   float 										stage_time;
 	private     bool 										_isPaused;
 	protected   int 										_currentCombo 			= 0;
@@ -101,6 +79,10 @@ public class GamePlayView : OnePieceView {
 	private 	UserService 								_userService;
 	private 	OPUser 										_user;
 	#endregion  SERVICE
+
+	#region     SETUP
+	private		OPGameSetup									_gameSetup;
+	#endregion
 	
 	#region 	INITIALIZE_GAME
 	protected override void Start() 
@@ -118,7 +100,6 @@ public class GamePlayView : OnePieceView {
 	{
 		InitializeGameStatement();
 		InitializeGameService();
-		InitializeGameSetup();
 		loadCharacters();		
 	}
 
@@ -129,6 +110,8 @@ public class GamePlayView : OnePieceView {
 		_isPaused = false;
 		goldLabel.setNumber(0);
 		scoreLabel.setNumber(0);
+		_gameSetup = AppManager.Instance.gameSetup;
+		remain_time = _gameSetup.stage_time;
 		stage_time = remain_time;
 		gameState = GameState.GAME_WORK;
 	 	topFieldAnimator.GetComponent<Field>().Finish = OnFinishedWorking;
@@ -139,20 +122,11 @@ public class GamePlayView : OnePieceView {
 	private void InitializeGameService()
 	{
 		_service = GamePlayService.Instance;
-		_service.initialize(blockNum, deltaStartX, deltaStartY, blockSize, boardPadding, blockMargin, board, panel, camera);
+		_service.initialize(_gameSetup.blockNum, _gameSetup.deltaStartX, _gameSetup.deltaStartY, _gameSetup.blockSize, _gameSetup.boardPadding, _gameSetup.blockMargin, board, panel, camera);
 		_userService = UserService.Instance;
 		_user = AppManager.Instance.User;
 	}
-
-	private void InitializeGameSetup()
-	{
-		OPGameSetup setup = new OPGameSetup();
-		setup.blockMargin = blockMargin;
-		setup.blockNum	  = blockNum;
-		setup.blockSize   = blockSize;
-		AppManager.Instance.gameSetup = setup;
-	}
-
+	
 	private void loadCharacters()
 	{
 		_service.loadCharacters(Config.CHARACTER_POSITION, Vector3.zero, initMonsterPosition(), Vector3.zero, ref _monsterList);
@@ -162,7 +136,7 @@ public class GamePlayView : OnePieceView {
 	{
 		List<Vector3> pos = new List<Vector3>(); 
 		for(int i = 0;i < Config.COUNT_OF_MONSTERS;i++) {
-			pos.Add(new Vector3(Config.MONSTER_POSITION.x, Config.MONSTER_POSITION.y + deltaMonsterPos * (i + 1) , 0));
+			pos.Add(new Vector3(Config.MONSTER_POSITION.x, Config.MONSTER_POSITION.y + _gameSetup.deltaMonsterPos * (i + 1) , 0));
 		}
 		return pos;
 	}
@@ -263,11 +237,11 @@ public class GamePlayView : OnePieceView {
 			_hintTime = 0;
 		}
 		_hintTime += Time.deltaTime;
-		if(_hintTime > hintTime) {
+		if(_hintTime > _gameSetup.hintTime) {
 			foreach(GameObject go in _hintObjs) {
 				go.transform.localScale = new Vector3(1, 1, 1);
-				go.GetComponent<UISprite>().width = (int)blockSize.x ;
-				go.GetComponent<UISprite>().height = (int)blockSize.y ;
+				go.GetComponent<UISprite>().width = (int) _gameSetup.blockSize.x ;
+				go.GetComponent<UISprite>().height = (int)_gameSetup.blockSize.y ;
 			}
 		}
 		
@@ -279,7 +253,7 @@ public class GamePlayView : OnePieceView {
 		if(_startCombo)
 			increaseCombo();	
 		
-		_scorePoint += _service.calculateScore(destroyedBlocks, _currentCombo, scoreRatio1, scoreRatio2);
+		_scorePoint += _service.calculateScore(destroyedBlocks, _currentCombo, _gameSetup.scoreRatio1, _gameSetup.scoreRatio2);
 		_beriCount += _service.calculateBelly(destroyedBlocks);
 		_expCount += _service.calculateExp(destroyedBlocks);
 		scoreLabel.setText(_scorePoint.ToString());
@@ -305,7 +279,7 @@ public class GamePlayView : OnePieceView {
 
 	protected virtual void updateCombo(){
 		_comboTime += Time.deltaTime;
-		if(_comboTime >= comboStepTime)
+		if(_comboTime >= _gameSetup.comboStepTime)
 			resetCombo();
 		else
 			_startCombo = true;
@@ -315,7 +289,7 @@ public class GamePlayView : OnePieceView {
 	protected virtual void updateFever(){
 		if(_startFever)
 			_feverTime += Time.deltaTime;
-		if(_feverTime >= feverStepTime)
+		if(_feverTime >= _gameSetup.feverStepTime)
 			resetFever();
 		updateFeverUI();
 	}
@@ -426,7 +400,7 @@ public class GamePlayView : OnePieceView {
 			comboAnimator.Play(Config.COMBO_ANIM);
 		}
 		_comboTime = 0;
-		if(_currentCombo > feverLimit && !_startFever)
+		if(_currentCombo > _gameSetup.feverLimit && !_startFever)
 			startFever();		
 		if(_startFever)
 			_feverTime = 0;
