@@ -12,12 +12,12 @@ public class FacebookView : OnePieceView {
     private bool isPaused;
 	
     // Use this for initialization
-    void Start()
+    IEnumerator Start()
     {
         UI = gameObject.AddComponent<UI>();
         UI.AttachButton(loginFacebook, onFBBtnClicked);
         UI.AttachButton(startGame, onStartGameClick);
-
+        yield return new WaitForSeconds(10);
         Transform tDialog = transform.Find("TestDialog");
         if(tDialog) {
             UI.AttachButton(tDialog.gameObject, TestDialogClick);
