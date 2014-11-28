@@ -1199,7 +1199,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3007
+  startingRenderQueue: 3006
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -1659,7 +1659,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3007
+  startingRenderQueue: 3006
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -1815,7 +1815,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3003
+  startingRenderQueue: 3002
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -1932,7 +1932,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3005
+  startingRenderQueue: 3004
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -1976,7 +1976,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3007
+  startingRenderQueue: 3006
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 300, w: 200}
@@ -2193,7 +2193,7 @@ MonoBehaviour:
   hintPanel: {fileID: 100078}
   board: {fileID: 100018}
   blocksPrefab:
-  - {fileID: 100000, guid: 0ab2e381650cc4d6eb1e599ba576077c, type: 2}
+  - {fileID: 100000, guid: 69d5c7066a0334e04b429cf1ccb5b0b5, type: 2}
   - {fileID: 100000, guid: 67f229a0a39ff499e8158b88d6fd30bc, type: 2}
   - {fileID: 100000, guid: 36c04b9d95c574b9cb5114b505e935ce, type: 2}
   - {fileID: 100000, guid: d12a4acccf5fb421db17bac1c9ee1a1b, type: 2}
