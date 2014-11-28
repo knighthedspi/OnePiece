@@ -14,22 +14,21 @@ public enum GameState
 public class GamePlayView : OnePieceView {
 	#region 	UI
 	public      GameObject 									pauseBtn;
-	public      NumberLabel 								goldLabel;
+	public      NumberLabel 								beriLabel;
 	public      NumberLabel 								scoreLabel;
 	public      GameObject 									hintPrefab;
 	public      UILabel										comboLabel;
 	public      UILabel 									feverLabel;
+	public		NumberLabel									timeLabel;
 	public      GameObject 									panel;
 	public      GameObject 									hintPanel;
 	public      GameObject 									board;
 	public      GameObject[] 								blocksPrefab;
 	public      UISprite 									UI_TimerBar;
-	public 		UISprite 									UI_FeverBack;
 	public		GameObject									UI_TimeUp;
 	#endregion	UI
 
 	#region 	ANIMATION
-	public      Animator 									topFieldAnimator;
 	public      Animator 									comboAnimator;
 	public		Animator 									feverAnimator;
 	public		Animator 									boardAnimator;
@@ -108,14 +107,13 @@ public class GamePlayView : OnePieceView {
 		UI = gameObject.AddComponent<UI>();
 		UI.AttachButton(pauseBtn, onPauseBtnClicked);
 		_isPaused = false;
-		goldLabel.setNumber(0);
+		beriLabel.setNumber(0);
 		scoreLabel.setNumber(0);
 		_gameSetup = AppManager.Instance.gameSetup;
 		remain_time = _gameSetup.stage_time;
 		stage_time = remain_time;
 		gameState = GameState.GAME_WORK;
-	 	topFieldAnimator.GetComponent<Field>().Finish = OnFinishedWorking;
-		// TODO : get player attack point from DB
+	 	// TODO : get player attack point from DB
 		_playerAttackPoint = 100;
 	}
 
@@ -181,7 +179,7 @@ public class GamePlayView : OnePieceView {
 	protected virtual void updateWorking(){
 		if(gameState == GameState.GAME_WORK) {
 			gameState = GameState.GAME_WORKING;
-			topFieldAnimator.Play(Config.FIELD_WORKING_ANIM);
+			OnFinishedWorking();
 		}
 	}
 
@@ -257,7 +255,7 @@ public class GamePlayView : OnePieceView {
 		_beriCount += _service.calculateBelly(destroyedBlocks);
 		_expCount += _service.calculateExp(destroyedBlocks);
 		scoreLabel.setText(_scorePoint.ToString());
-		goldLabel.setText(_beriCount.ToString());
+		beriLabel.setText(_beriCount.ToString());
 	}
 	
 	protected virtual void updateTimer(){
@@ -265,10 +263,12 @@ public class GamePlayView : OnePieceView {
 			return;
 		_stepTime += Time.deltaTime;
 		if(_stepTime >= 1.0) {
+			timeLabel.setText(remain_time.ToString());
 			remain_time --;
 			_stepTime = 0;
 		}
 		if(remain_time <= 0) {
+			timeLabel.setText(remain_time.ToString());
 			gameState = GameState.GAME_CLEAR;
 			StartCoroutine(TimeUp());
 		}
