@@ -34,7 +34,7 @@ public class GenericDao<T>
     public void Create(SQLiteDB db)
     {
         StringBuilder sb = new StringBuilder();
-        sb.Append("CREATE TABLE ").Append(typeof(T).Name).Append("(");
+        sb.Append("CREATE TABLE IF NOT EXISTS ").Append(typeof(T).Name).Append("(");
         int i = 0;
         foreach(FieldInfo f in sFields) {
             if(i > 0)

@@ -18,7 +18,6 @@ public class OPUserDAO : OPUser
                 sInstance = new OPUserDAO();
                 db = DBManager.UserDb;
                 if(!_isTableExist()) {
-                    Debug.LogError("table not exist");
                     initUser();
                 }
             }
@@ -75,8 +74,6 @@ public class OPUserDAO : OPUser
 
     private static bool _isTableExist()
     {
-//		string query = "select name from sqlite_master where type='table' and name = " + tableName;
-        //#TODO must implement right way
-        return true;
+        return false;
     }
 }
