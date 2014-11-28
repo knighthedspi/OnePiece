@@ -7,6 +7,7 @@ public class OPItem {
 	private int id;
 	private string name;
 	private int category;
+    private int unlockLevel;
 	private string effectName;
 	private int consumItem;
 	private int cost;
@@ -37,6 +38,15 @@ public class OPItem {
 			category = value;
 		}
 	}
+
+    public int UnlockLevel {
+        get {
+            return this.unlockLevel;
+        }
+        set {
+            unlockLevel = value;
+        }
+    }
 
 	public string EffectName {
 		get {
