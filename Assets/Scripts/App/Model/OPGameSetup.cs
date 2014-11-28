@@ -12,7 +12,6 @@ public class OPGameSetup  {
 	public      float 			stage_time 			{ set; get;}
 	public      float 			hintTime 			{ set; get;}
 	public 		int 			scoreRatio1 		{ set; get;}
-	public 		int 			scoreDelta 			{ set; get;}
 	public 		int 			scoreRatio2 		{ set; get;}
 	public 		float 			comboStepTime 		{ set; get;}
 	public 		int 			feverLimit 			{ set; get;}

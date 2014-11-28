@@ -76,8 +76,8 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mAtlas: {fileID: 11400000, guid: e51d939bea29a4fdd98d42816ded48ca, type: 2}
-  mSpriteName: hexagon6
+  mAtlas: {fileID: 11400000, guid: e1cf3a919d821455884ac52d17f51a47, type: 2}
+  mSpriteName: 0zoro
   mFillCenter: 1
 --- !u!114 &11400002
 MonoBehaviour:

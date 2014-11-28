@@ -30,16 +30,15 @@ public class AppManager : Singleton<AppManager>
 	private void InitializeGameSetup()
 	{
 		this.gameSetup = new OPGameSetup();
-		this.gameSetup.deltaStartX 			= 4;
-		this.gameSetup.deltaStartY			= -62;
+		this.gameSetup.deltaStartX 			= 24;
+		this.gameSetup.deltaStartY			= -38;
 		this.gameSetup.blockNum				= new Vector2(7,  6)  ;
-		this.gameSetup.blockSize 			= new Vector2(86, 78) ;
-		this.gameSetup.boardPadding			= new Vector2(32, 48) ;
-		this.gameSetup.blockMargin			= new Vector2(-12, -8);
+		this.gameSetup.blockSize 			= new Vector2(80, 80) ;
+		this.gameSetup.boardPadding			= new Vector2(0, 0) ;
+		this.gameSetup.blockMargin			= new Vector2(-4, -6);
 		this.gameSetup.stage_time 			= 60;
 		this.gameSetup.hintTime 			= 5;
 		this.gameSetup.scoreRatio1 			= 20;
-		this.gameSetup.scoreDelta 			= 3;
 		this.gameSetup.scoreRatio2 			= 50;
 		this.gameSetup.comboStepTime 		= 1.5f;
 		this.gameSetup.feverLimit 			= 5;

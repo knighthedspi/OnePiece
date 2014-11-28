@@ -49,7 +49,7 @@ public class DBManager : Singleton<DBManager>
         OPDebug.Log("update database");
         if(checkUpdate()) {
             yield return StartCoroutine(CopyFile(MASTER_DB_STREAMING_PATH, MASTER_DB_PERSISTENT_PATH));	
-//			yield return StartCoroutine(CopyFile(USER_DB_STREAMING_PATH, USER_DB_PERSISTENT_PATH));
+			//yield return StartCoroutine(CopyFile(USER_DB_STREAMING_PATH, USER_DB_PERSISTENT_PATH));
         } else {
             OPDebug.Log("dont need to update " + MASTER_DB_PERSISTENT_PATH + ";" + USER_DB_PERSISTENT_PATH);
         }
