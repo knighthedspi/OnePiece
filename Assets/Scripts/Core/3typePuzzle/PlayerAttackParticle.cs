@@ -114,7 +114,7 @@ public class PlayerAttackParticle : MonoBehaviour {
 		this.transform.parent = panel.transform;
 		this.transform.localPosition = new Vector3(0,0,0);
 		this.transform.localScale = new Vector3(1,1,1);
-		_color = b._particleColor;
+		_color = b.particleColor;
 
 		float r = UnityEngine.Random.Range(0,400)-200;
 
