@@ -7,5 +7,5 @@ public class OPGameSetup  {
 	public Vector2 blockNum { set; get;}
 	public Vector2 blockSize { set; get;}
 	public Vector2 blockMargin { set; get;}
-
+	public BlockType[] listBlockTypes { set; get;}	
 }

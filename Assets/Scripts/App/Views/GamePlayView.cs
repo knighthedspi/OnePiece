@@ -22,7 +22,7 @@ public class GamePlayView : OnePieceView {
 	public      GameObject 									panel;
 	public      GameObject 									hintPanel;
 	public      GameObject 									board;
-	public      GameObject[] 								blocksPrefab;
+	public      Block 										blocksPrefab;
 	public      UISprite 									UI_TimerBar;
 	public 		float 										deltaStartX 			= 4;
 	public 		float 										deltaStartY				= -62;
@@ -246,14 +246,14 @@ public class GamePlayView : OnePieceView {
 				resetBoard();
 			} else {
 				foreach(GameObject go in _hintObjs) {
-					Destroy(go);
+					go.Recycle();
 				}
 				_hintObjs.Clear();
 				
-				foreach(Block _b in _hints) {
-					GameObject obj = (GameObject)Instantiate(hintPrefab);
+				foreach(Block b in _hints) {
+					GameObject obj = hintPrefab.Spawn();
 					obj.transform.parent = hintPanel.transform;
-					obj.transform.localPosition = new Vector3(_b.transform.localPosition.x, _b.transform.localPosition.y, 10000);
+					obj.transform.localPosition = new Vector3(b.transform.localPosition.x, b.transform.localPosition.y, 10000);
 					obj.transform.localScale = new Vector3(0, 0, 1);
 					
 					_hintObjs.Add(obj);
