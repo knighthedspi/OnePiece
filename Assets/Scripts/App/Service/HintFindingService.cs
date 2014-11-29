@@ -21,7 +21,7 @@ public partial class GamePlayService{
 	/// <param name="b2">B2.</param>
 	private bool checkIsSameTypeOfBlock(Block b1,Block b2)
 	{
-		return (b1._type == b2._type);
+		return (b1.blockType == b2.blockType);
 	}
 	
 	/// <summary>

@@ -44,6 +44,13 @@ public class AppManager : Singleton<AppManager>
 		this.gameSetup.feverLimit 			= 5;
 		this.gameSetup.feverStepTime 		= 1.5f;
 		this.gameSetup.deltaMonsterPos 		= 300;
+		this.gameSetup.listBlockTypes = new BlockType[4]
+					{
+						BlockType.luffy,
+						BlockType.chopper,
+						BlockType.nami,
+						BlockType.zoro,
+		};
 	}
 
 }

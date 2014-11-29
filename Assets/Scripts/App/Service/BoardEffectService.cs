@@ -180,15 +180,15 @@ public partial class GamePlayService{
 	/// Fills the board with block
 	/// </summary>
 	/// <param name="blockPrefabs">List of block prefabs</param>
-	public void fillBoard(GameObject[] blockPrefabs, ref bool hintDirty, ref List<GameObject> hintObjs)
+	public void fillBoard(Block blockPrefabs, ref bool hintDirty, ref List<GameObject> hintObjs)
 	{
 		for(int i=0;i < _blockNum.x;i++) {
 			for(int j=0;j < _blockNum.y;j++) {
 				if(_blocks[i, j] == null) {
 					Block block = null;
 					if(j == 0) {
-						int index = UnityEngine.Random.Range(0, blockPrefabs.Length);
-						block = pushNewItem(blockPrefabs[index], i, index, ref hintDirty, ref hintObjs);
+//						int index = UnityEngine.Random.Range(0, blockPrefabs.Length);
+						block = pushNewItem(blockPrefabs, i, ref hintDirty, ref hintObjs);
 					} else {
 						block = _blocks[i, j - 1];
 						_blocks[i, j - 1] = null;
@@ -196,7 +196,7 @@ public partial class GamePlayService{
 					if(block) {
 						block.moveToY(getBlockPosition(i, j).y);
 						_blocks[i, j] = block;
-						_blocks[i, j]._posInBoard = new Vector2(i, j);
+						_blocks[i, j].posInBoard = new Vector2(i, j);
 					} else {
 						OPDebug.Log("block (" + i + ";" + j + ") is null");
 					}
@@ -206,31 +206,24 @@ public partial class GamePlayService{
 		
 	}
 
-	private Block pushNewItem(GameObject blockPrefab, int position, int type, ref bool hintDirty, ref List<GameObject> hintObjs)
+	private Block pushNewItem(Block sample, int position, ref bool hintDirty, ref List<GameObject> hintObjs)
 	{
 		if(_blocks[position, 0] != null)
 			return null;
 		
-		GameObject newBlock = (GameObject)UnityEngine.GameObject.Instantiate(blockPrefab);
+		Block newBlock = sample.Spawn<Block>();
 		newBlock.transform.parent = _panel.transform;
 		newBlock.transform.localPosition = new Vector3(getBlockPosition(position, 0).x, 200);
-		
-		newBlock.transform.localScale = new Vector2(1, 1);
-		newBlock.GetComponent<UISprite>().width = (int)_blockSize.x;
-		newBlock.GetComponent<UISprite>().height = (int)_blockSize.y;
-		
-		Block b = newBlock.GetComponent<Block>();
-		b._type = type;
-		
-		_blocks[position, 0] = b;
+		newBlock.InitRand ();				
+		_blocks[position, 0] = newBlock;
 
 		hintDirty = true;
 		foreach(GameObject go in hintObjs) {
-			UnityEngine.GameObject.Destroy(go);
+			go.Recycle();
 		}
 		hintObjs.Clear();
 		
-		return b;
+		return newBlock;
 	}
 
 	/// <summary>
@@ -294,7 +287,7 @@ public partial class GamePlayService{
 	#region effect
 	private void addNeighborBlock2Stack(Block b)
 	{
-		Vector2 posInBoard = b._posInBoard;
+		Vector2 posInBoard = b.posInBoard;
 		int posX = (int)posInBoard.x;
 		int posY = (int)posInBoard.y;
 		if(posX < _blockNum.x - 1 && !_neighborBlocks.Contains(_blocks[posX + 1, posY]))
@@ -384,7 +377,7 @@ public partial class GamePlayService{
 			for(int j=0;j < _blockNum.y;j++) {
 				if(_blocks[i, j] == null)
 					return true;
-				if(_blocks[i, j].isAnimation()) {
+				if(_blocks[i, j].isAnimation) {
 					return true;
 				}
 			}
@@ -399,7 +392,7 @@ public partial class GamePlayService{
 			if(except == _b)
 				continue;
 			
-			_blocks[(int)_b._posInBoard.x, (int)_b._posInBoard.y] = null;
+			_blocks[(int)_b.posInBoard.x, (int)_b.posInBoard.y] = null;
 			
 			GameObject _p = MakeBlockDestroyParticle();
 			_p.transform.parent = _panel.transform;
@@ -419,7 +412,7 @@ public partial class GamePlayService{
 
 	private void pushToStack(Block _b){
 		_stackBlock.Add(_b);
-		_b.touchDown();
+		_b.TouchDown();
 		
 		GameObject dot = MakeDotObject();
 		dot.transform.parent = _panel.transform;
@@ -440,7 +433,7 @@ public partial class GamePlayService{
 		Block last = _stackBlock[_stackBlock.Count - 1];
 		
 		_stackBlock.Remove(last);
-		last.touchUp();
+		last.TouchUp();
 		
 		GameObject _golast = _stackDot[_stackDot.Count - 1];
 		_stackDot.Remove(_golast);
@@ -472,7 +465,7 @@ public partial class GamePlayService{
 	public void clearStackBlock(){
 		if(_stackBlock.Count > 0){
 			foreach(Block b in _stackBlock)
-				b.touchUp();
+				b.TouchUp();
 			_stackBlock.Clear();
 		}
 	}
@@ -507,7 +500,7 @@ public partial class GamePlayService{
 		SoundManager.Instance.PlaySE("water-drop");
 	}
 
-	private void insertIntersectBlocksBetweenLines(int blockType){
+	private void insertIntersectBlocksBetweenLines(BlockType blockType){
 		int startPosX = _startBlockPosInBoard.x < _endBlockPosInBoard.x ? (int)_startBlockPosInBoard.x : (int)_endBlockPosInBoard.x;
 		int stopPosX = _startBlockPosInBoard.x < _endBlockPosInBoard.x ? (int)_endBlockPosInBoard.x : (int)_startBlockPosInBoard.x;
 		int startPosY = _startBlockPosInBoard.y < _endBlockPosInBoard.y ? (int)_startBlockPosInBoard.y : (int)_endBlockPosInBoard.y;
@@ -519,7 +512,7 @@ public partial class GamePlayService{
 				Block last = _stackBlock[_stackBlock.Count - 1];
 				float dis = Vector2.Distance(last.transform.localPosition, b.transform.localPosition);
 				//only add to line iff block has same type and intersected with current line
-				if(b._type == blockType && !_stackBlock.Contains(b) && dis <= _blockDistanceLimit ){
+				if(b.blockType == blockType && !_stackBlock.Contains(b) && dis <= _blockDistanceLimit ){
 					OPDebug.Log("add block(" + i + ";" + j + ") to stack");
 					pushToStack(b);
 					newCurrentLine(b.transform.localPosition);
@@ -552,7 +545,7 @@ public partial class GamePlayService{
 						newCurrentLine(_b.transform.localPosition);
 					}else{
 						Block last = _stackBlock[_stackBlock.Count - 1];
-						if(last._type == _b._type){
+						if(last.blockType == _b.blockType){
 							float dis = Vector2.Distance(last.transform.localPosition,_b.transform.localPosition);
 							if(dis <= _blockDistanceLimit){
 								if(_stackBlock.Count > 1){
@@ -567,7 +560,7 @@ public partial class GamePlayService{
 							}else{
 								// find intersect block that has the same type
 								OPDebug.Log("draw line from " + _startBlockPosInBoard + " to " + _endBlockPosInBoard);
-								insertIntersectBlocksBetweenLines(last._type);
+								insertIntersectBlocksBetweenLines(last.blockType);
 							}
 						}
 					}
@@ -589,7 +582,7 @@ public partial class GamePlayService{
 				destroyedBlock = destroyBlocks(_stackBlock, callback);
 			} 
 			foreach(Block b in _stackBlock)
-				b.touchUp();
+				b.TouchUp();
 			
 			_stackBlock.Clear();
 			dotLineDestroy();

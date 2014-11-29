@@ -17,7 +17,7 @@ public class BlockDestroyParticle : MonoBehaviour {
 		this.transform.localPosition = new Vector3(_b.transform.localPosition.x,_b.transform.localPosition.y,0);
 		this.transform.localScale = new Vector3(1,1,1);
 
-		Color color = _b._particleColor;
+		Color color = _b.particleColor;
 
 		_particles = new List<Particle>();
 		for(int i = 0; i < Config.PARTICLE_NUM; i++){
