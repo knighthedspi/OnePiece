@@ -86,6 +86,7 @@ public class Block : MonoBehaviour {
 		_uiSprite.width 	= (int)_gameSetup.blockSize.x;
 		_uiSprite.height 	= (int)_gameSetup.blockSize.y;
 		transform.localScale = new Vector3 (1, 1, 1);
+		NGUITools.BringForward (gameObject);
 
 	}
 
@@ -114,7 +115,7 @@ public class Block : MonoBehaviour {
 	
 	public virtual void TouchUp()
 	{
-		_uiSprite.spriteName = spriteName;
+		_uiSprite.spriteName = _spriteName;
 		if(_scale.x == 0) _scale = this.transform.localScale;
 		this.transform.localScale = new Vector2(_scale.x,_scale.y);
 	}
