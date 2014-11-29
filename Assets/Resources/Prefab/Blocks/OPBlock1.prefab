@@ -87,13 +87,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f1d33d8b3e254ae39bd3f58bfcc7558, type: 3}
+  m_Script: {fileID: 11500000, guid: fa1cea788c70c40b1942d220f009acd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _type: 0
-  _posInBoard: {x: 0, y: 0}
-  _dieAfterAnim: 0
-  _particleColor: {r: 0, g: 0, b: 0, a: 0}
+  speed: .200000003
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

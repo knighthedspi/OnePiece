@@ -219,7 +219,7 @@ public partial class GamePlayService{
 
 		hintDirty = true;
 		foreach(GameObject go in hintObjs) {
-			UnityEngine.GameObject.Destroy(go);
+			go.Recycle();
 		}
 		hintObjs.Clear();
 		

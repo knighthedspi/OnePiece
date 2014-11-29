@@ -4,11 +4,12 @@ using System;
 
 public enum BlockType
 {
-	Luffy = 1,
-	Nami,
-	Robin,
-	Sanji,
-	Zoro,
+	luffy = 1,
+	nami,
+	robin,
+	sanji,
+	zoro,
+	chopper,
 	
 }
 
@@ -79,9 +80,11 @@ public class Block : MonoBehaviour {
 	public virtual void Init(BlockType type)
 	{
 		// Init Block here
-		spriteName = type.ToString ();
+		spriteName = "0" + type.ToString ();
+		blockType = type;
 		_uiSprite.width 	= (int)_gameSetup.blockSize.x;
 		_uiSprite.height 	= (int)_gameSetup.blockSize.y;
+		transform.localScale = new Vector3 (1, 1, 1);
 	}
 
 	public void InitRand ()
