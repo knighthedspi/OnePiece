@@ -10,6 +10,7 @@ public enum BlockType
 	sanji,
 	zoro,
 	chopper,
+
 	
 }
 
@@ -85,6 +86,7 @@ public class Block : MonoBehaviour {
 		_uiSprite.width 	= (int)_gameSetup.blockSize.x;
 		_uiSprite.height 	= (int)_gameSetup.blockSize.y;
 		transform.localScale = new Vector3 (1, 1, 1);
+
 	}
 
 	public void InitRand ()

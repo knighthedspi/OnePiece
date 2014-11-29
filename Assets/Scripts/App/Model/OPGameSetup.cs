@@ -20,4 +20,5 @@ public class OPGameSetup  {
 	public 		float 			deltaStartX 		{ set; get;}
 	public 		float 			deltaStartY			{ set; get;}
 	public BlockType[] 			listBlockTypes 		{ set; get;}	
+
 }
