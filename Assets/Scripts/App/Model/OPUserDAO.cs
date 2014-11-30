@@ -18,7 +18,7 @@ public class OPUserDAO : OPUser
                 sInstance = new OPUserDAO();
                 db = DBManager.UserDb;
                 if(!_isTableExist()) {
-                    initUser();
+					createTable();
                 }
             }
             return sInstance;
@@ -26,17 +26,34 @@ public class OPUserDAO : OPUser
     }
 
 
-    public OPUser getCurrentUser()
+    public static OPUser GetUser(string fbID)
     {
-        string query = "select * from OPUser limit 1";
-        List<OPUser> users = GenericDao<OPUser>.Instance.Get(db, query);
-        if(users.Count < 0) {
-            throw new EntryPointNotFoundException("user not found");
-        }
-        return users[0];
+		string query = "select * from OPUser where fbId = '" + fbID + "'";
+		List<OPUser> users = GenericDao<OPUser>.Instance.Get(db, query);
+		if(users.Count < 0) {
+			return null;
+		}
+		return users[0];
     }
 
-    public bool save(OPUser user)
+	public void Save (Dictionary<string,string> userFB)
+	{
+		OPUser user = new OPUser();
+		user = GetUser (userFB["id"]);
+		if (user != null)
+		{
+			user.UserName = userFB["name"];
+			user.LastName = userFB["last_name"];
+			user.FirstName = userFB["first_name"];
+			Update (user);
+		}
+		else
+		{
+			CreateNewUserFB (userFB);
+		}
+
+	}
+    public bool Update(OPUser user)
     {
         try {
             GenericDao<OPUser>.Instance.Update(db, user, new QueryCondition<OPUser>());
@@ -49,14 +66,15 @@ public class OPUserDAO : OPUser
     /// <summary>
     /// create user
     /// </summary>
-    private static void initUser()
+    private void CreateNewUserFB(Dictionary<string,string> userFB)
     {
-        //Create table
-        createTable();
         //create user
         OPUser user = new OPUser();
-        user.UserName = "luffy"; //#TODO random some meaning name with each language
-        user.Exp = 0;
+		user.UserName = userFB["name"];
+		user.LastName = userFB["last_name"];
+		user.FirstName = userFB["first_name"];
+		user.FbId = userFB["id"];
+		user.Exp = 0;
         user.LevelId = 1;
         user.Health = MAX_HEALTH;
         user.Score = 0;
@@ -66,7 +84,7 @@ public class OPUserDAO : OPUser
         user.UpdatedAt = TimeStampUtility.convertTimeToInt(DateTime.UtcNow);
         GenericDao<OPUser>.Instance.Put(db, user);
     }
-
+	
     private static void createTable()
     {
         GenericDao<OPUser>.Instance.Create(db);

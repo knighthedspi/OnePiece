@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class AppManager : Singleton<AppManager>
@@ -23,7 +23,7 @@ public class AppManager : Singleton<AppManager>
 
     private void onInitDBComplete()
     {
-        user = OPUserDAO.Instance.getCurrentUser();
+//        user = OPUserDAO.Instance.GetUser();
     }
 
 	// TODO : load from file

@@ -10,19 +10,19 @@ public class UserService
     public void increaseBelly(OPUser user,int belly)
     {
         user.Belly += belly;
-        OPUserDAO.Instance.save(user);
+        OPUserDAO.Instance.Update(user);
     }
 
     public void decreaseBelly(OPUser user,int belly)
     {
         user.Belly -= belly;
-        OPUserDAO.Instance.save(user);   
+        OPUserDAO.Instance.Update(user);   
     }
 
     public void increaseExp(OPUser user,int exp)
     {
         user.Exp += exp;
-        OPUserDAO.Instance.save(user);
+        OPUserDAO.Instance.Update(user);
     }
 
     public bool isLevelUp()
@@ -35,7 +35,7 @@ public class UserService
         user.Score = score;
         if(isHighScore(user, score))
             user.HighScore = score;
-        OPUserDAO.Instance.save(user);
+        OPUserDAO.Instance.Update(user);
     }
 
     public bool isHighScore(OPUser user,int score)
