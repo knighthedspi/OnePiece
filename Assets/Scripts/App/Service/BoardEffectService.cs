@@ -34,6 +34,7 @@ public partial class GamePlayService{
 	private 	GameObject 						_currentLine ;
 	private 	float 							_blockDistanceLimit;
 	private 	List<Block> 					_neighborBlocks;
+	private 	OPGameSetup						_gameSetup;
 
 
 
@@ -49,17 +50,15 @@ public partial class GamePlayService{
 	/// <param name="blockMargin">Block margin.</param>
 	/// <param name="board">Board.</param>
 	/// <param name="mainCamera">Main camera.</param>
-	public void initialize(Vector2 blockNum, float deltaStartX, float deltaStartY, Vector2 blockSize, Vector2 boardPadding, Vector2 blockMargin, GameObject board, GameObject panel, Camera mainCamera)
+	public void initialize(GameObject board, GameObject panel, Camera mainCamera)
 	{
-		this._blockNum = blockNum;
-		this._blocks = new Block[(int)_blockNum.x, (int)_blockNum.y];
-		this._visited = new bool[(int)_blockNum.x, (int)_blockNum.y];
-		this._hints = new List<Block>();
-		this._deltaStartX = deltaStartX;
-		this._deltaStartY = deltaStartY;
-		this._blockSize 	= blockSize;
-		this._boardPadding = boardPadding;
-		this._blockMargin = blockMargin;
+		_gameSetup 			= AppManager.Instance.gameSetup;
+		this._blockNum 		= _gameSetup.blockNum;
+		this._deltaStartX 	= _gameSetup.deltaStartX;
+		this._deltaStartY 	= _gameSetup.deltaStartY;
+		this._blockSize 	= _gameSetup.blockSize;
+		this._boardPadding 	= _gameSetup.boardPadding;
+		this._blockMargin 	= _gameSetup.blockMargin;
 		this._board = board;
 		this._panel = panel;
 		this._mainCamera = mainCamera;
@@ -68,8 +67,12 @@ public partial class GamePlayService{
 		this._stackDot 	= new List<GameObject>();
 		this._stackLine = new List<GameObject>();
 		this._currentLine 			= null;
-		this._blockDistanceLimit = (float) Math.Sqrt(blockSize.x * blockSize.x / 4 + blockSize.y * blockSize.y); 
+		this._blockDistanceLimit = (float) Math.Sqrt(_blockSize.x * _blockSize.x / 4 + _blockSize.y * _blockSize.y); 
 		this._neighborBlocks		= new List<Block>();
+
+		this._hints = new List<Block>();
+		this._blocks = new Block[(int)_blockNum.x, (int)_blockNum.y];
+		this._visited = new bool[(int)_blockNum.x, (int)_blockNum.y];
 		generateBlockPosition();
 	}
 
@@ -233,7 +236,7 @@ public partial class GamePlayService{
 	{
 		for(int i=0;i < _blockNum.x;i++)
 			for(int j=0;j < _blockNum.y;j++)		
-				UnityEngine.GameObject.Destroy(_blocks[i, j].gameObject);
+				_blocks[i, j].Recycle();
 	}
 
 	#endregion touch_board
@@ -339,15 +342,7 @@ public partial class GamePlayService{
 		return (GameObject)UnityEngine.Object.Instantiate(Resources.Load(Config.PARTICLE_RESOURCE_PREFIX + "PlayerAttackParticle"));
 	}
 
-	/// <summary>
-	/// Makes the damage effect.
-	/// </summary>
-	/// <returns>The damage effect.</returns>
-	// TODO : improve performance by using object pooling manager
-	public GameObject MakeDamageEffect()
-	{
-		return (GameObject)UnityEngine.Object.Instantiate(Resources.Load(Config.UI_RESOURCE_PREFIX + "DamageLabel"));
-	}
+
 
 	/// <summary>
 	/// Makes the dot object when touch in block.
@@ -388,6 +383,7 @@ public partial class GamePlayService{
 	private int destroyBlocks(List<Block> v, PlayerAttackParticle.OnFinished callback, Block except = null )
 	{
 		int count = 0;
+//		Time.timeScale = 0.01f;
 		foreach(Block _b in v) {
 			if(except == _b)
 				continue;
@@ -403,7 +399,8 @@ public partial class GamePlayService{
 			__.generate(_panel, _b, _b.transform.localPosition, new Vector2(0, 300));
 			__.Finish = callback;
 
-			UnityEngine.Object.Destroy(_b.gameObject);	
+//			UnityEngine.Object.Destroy(_b.gameObject);	
+			_b.Recycle();
 			
 			count++;
 		}

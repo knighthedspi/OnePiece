@@ -120,7 +120,7 @@ public class GamePlayView : OnePieceView {
 	private void InitializeGameService()
 	{
 		_service = GamePlayService.Instance;
-		_service.initialize(_gameSetup.blockNum, _gameSetup.deltaStartX, _gameSetup.deltaStartY, _gameSetup.blockSize, _gameSetup.boardPadding, _gameSetup.blockMargin, board, panel, camera);
+		_service.initialize( board, panel, camera);
 		_userService = UserService.Instance;
 		_user = AppManager.Instance.User;
 	}
@@ -354,8 +354,10 @@ public class GamePlayView : OnePieceView {
 
 	private void attackEffect(Vector2 lastPos)
 	{
-		GameObject o = _service.MakeDamageEffect();
-		o.GetComponent<DamageLabel>().go(_playerAttackPoint, panel, lastPos);
+//		GameObject o = _service.MakeDamageEffect();
+//		o.GetComponent<DamageLabel>().go(_playerAttackPoint, panel, lastPos);
+		Vector3 pos = new Vector3 (lastPos.x, lastPos.y, 1);
+		DamageEffect.Create (_playerAttackPoint.ToString (), pos, pos + new Vector3 (0, 40, 0));
 		if(_currentMonster == null)
 			return;
 		_currentMonster.attackedPlay();

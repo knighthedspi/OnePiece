@@ -82,6 +82,10 @@ public class UISpriteAnimation : MonoBehaviour
 				{
 					mIndex = 0;
 					mActive = mLoop;
+					if(!mActive)
+					{
+						SendMessage("OnAnimationFinish");
+					}
 				}
 
 				if (mActive)
