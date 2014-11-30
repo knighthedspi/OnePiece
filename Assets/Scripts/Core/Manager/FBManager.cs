@@ -136,6 +136,39 @@ public class FBManager : Singleton<FBManager>
 			Debug.Log(result.Text);
 		}
 	#endregion
+	#region invite
+	public void onChallengeClicked()                                                                                              
+	{ 
+		FB.AppRequest(
+			to: null,
+			filters : "",
+			excludeIds : null,
+			message: "Game nay hay vai! Vao choi di cac ban oi :)))",
+			title: "Co dam choi Onepice voi tao khong (devil)!",
+			callback:appRequestCallback
+			);                                                                                                                
+		
+	}                                                                                                                              
+	private void appRequestCallback (FBResult result)                                                                              
+	{                                                                                                                              
+		Debug.Log("appRequestCallback");                                                                                         
+		if (result != null)                                                                                                        
+		{                                                                                                                          
+			var responseObject = Json.Deserialize(result.Text) as Dictionary<string, object>;                                      
+			object obj = 0;                                                                                                        
+			if (responseObject.TryGetValue ("cancelled", out obj))                                                                 
+			{                                                                                                                      
+				Debug.Log("Request cancelled");                                                                                  
+			}                                                                                                                      
+			else if (responseObject.TryGetValue ("request", out obj))                                                              
+			{                
+//				AddPopupMessage("Request Sent", ChallengeDisplayTime);
+				Debug.Log("Request sent");                                                                                       
+			}                                                                                                                      
+		}                                                                                                                          
+	} 
+
+	#endregion
 
 	#region load picture
 		delegate void LoadPictureCallback (Texture texture);
