@@ -14,12 +14,27 @@ public class FBManager : Singleton<FBManager>
 		private static List<object>                 scores = null;
 		string meQueryString = "/me?fields=id,first_name,last_name,name";
 	#region FB.Init()
-	
-		private void CallFBInit ()
+		public void CallFBInit ()
 		{
-				FB.Init (OnInitComplete, OnHideUnity);
+			FB.Init (SetInit, OnHideUnity);
 		}
-	
+		private void SetInit()
+		{
+			Debug.Log("SetInit");
+			enabled = true; // "enabled" is a property inherited from MonoBehaviour
+			if (FB.IsLoggedIn) 
+			{
+				Debug.Log("Already logged in");
+				OnLoggedIn();
+			}
+			else
+			{
+				Debug.Log("Not loggin!");
+				isFLogined  = false;
+			}
+		}
+		
+		
 		private void OnInitComplete ()
 		{
 				Debug.Log ("FB.Init completed: Is user logged in? " + FB.IsLoggedIn);
@@ -39,7 +54,7 @@ public class FBManager : Singleton<FBManager>
 	
 	#region FB.Login()
 	
-		private void CallFBLogin ()
+		public void CallFBLogin ()
 		{
 				FB.Login ("email,publish_actions,user_friends", LoginCallback);
 		}
@@ -49,10 +64,11 @@ public class FBManager : Singleton<FBManager>
 				Debug.Log (result.Text);
 				string lastResponse;
 				if (result.Error != null)
-						lastResponse = "Error Response:\n" + result.Error;
+				 		lastResponse = "Error Response:\n" + result.Error;
 				else if (!FB.IsLoggedIn) {
 						lastResponse = "Login cancelled by Player";
 				} else {
+						OnLoggedIn();
 						lastResponse = "Login was successful!";
 				}
 				Debug.Log (lastResponse);
@@ -76,11 +92,12 @@ public class FBManager : Singleton<FBManager>
 						FB.API (meQueryString, Facebook.HttpMethod.GET, APICallback);
 						return;
 				}
-			
+				isFLogined  = true;
+				Debug.Log ("Text="+result.Text);
 				profile = FBUtility.DeserializeJSONProfile (result.Text);
 				Debug.Log (profile["id"]);
 				//create or update user to database
-				OPUserDAO.Instance.Save (profile);
+				AppManager.Instance.user = OPUserDAO.Instance.Save (profile);
 		}
 		
 		private void CallFBLogout ()
@@ -104,7 +121,19 @@ public class FBManager : Singleton<FBManager>
 
 		public int GetHighScore ()
 		{
+				FB.API("/app/scores?fields=score,user.limit(20)", Facebook.HttpMethod.GET, ScoresCallback);
 				return 0;
+		}
+
+		void ScoresCallback(FBResult result) 
+		{
+			Debug.Log("ScoresCallback");
+			if (result.Error != null)
+			{
+				Debug.LogError(result.Error);
+				return;
+			}
+			Debug.Log(result.Text);
 		}
 	#endregion
 

@@ -23,7 +23,7 @@ public class AppManager : Singleton<AppManager>
 
     private void onInitDBComplete()
     {
-//        user = OPUserDAO.Instance.GetUser();
+		FBManager.Instance.CallFBInit();
     }
 
 	// TODO : load from file
