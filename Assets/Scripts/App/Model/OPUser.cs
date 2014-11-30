@@ -6,7 +6,10 @@ public class OPUser
 {
 	
     private int? id;
-    private string userName;
+    private string userName; 
+	private string lastName;
+	private string firstName;
+	private string fbId;
     private string facebookToken;
     private int exp;
     private int belly;
@@ -27,6 +30,33 @@ public class OPUser
             id = value;
         }
     }
+
+	public string LastName {
+		get {
+			return this.lastName;
+		}
+		set {
+			lastName = value;
+		}
+	}
+
+	public string FirstName {
+		get {
+			return this.firstName;
+		}
+		set {
+			firstName = value;
+		}
+	}
+
+	public string FbId {
+		get {
+			return this.fbId;
+		}
+		set {
+			fbId = value;
+		}
+	}
 
     public string UserName {
         get {
