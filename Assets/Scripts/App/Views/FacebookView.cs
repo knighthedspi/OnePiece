@@ -31,15 +31,19 @@ public class FacebookView : OnePieceView {
     // handle click event on Pause Button
     private void onFBBtnClicked()
     {
-        Debug.Log("isInit: " + isInit);
-        if(!isInit) {
-            Debug.Log("Call FB Init");
-            CallFBInit();
-        }
+		if(FBManager.isFLogined)
+			Debug.Log("Logined!");
+		else
+			FBManager.Instance.CallFBLogin();
     }
 
 	private void onStartGameClick()
 	{
+		if(!FBManager.isFLogined)
+		{
+			Debug.Log ("Login please!");
+			return;
+		}
 		Debug.Log ("start game");
 		var viewNames = new Dictionary<string, object []>();
 		viewNames.Add(Config.GLOBAL_VIEW, null);

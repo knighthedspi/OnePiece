@@ -34,10 +34,15 @@ public class FBUtility : ScriptableObject
 		var responseObject = Json.Deserialize(response) as Dictionary<string, object>;
 		object nameH;
 		var profile = new Dictionary<string, string>();
-		if (responseObject.TryGetValue("first_name", out nameH))
+		foreach(KeyValuePair<string,object> entry in responseObject)
 		{
-			profile["first_name"] = (string)nameH;
+			// do something with entry.Value or entry.Key
+			if (responseObject.TryGetValue(entry.Key, out nameH))
+			{
+				profile[entry.Key] = (string)nameH;
+			}
 		}
+
 		return profile;
 	}
 	

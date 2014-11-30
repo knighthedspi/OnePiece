@@ -26,17 +26,18 @@ public class OPUserDAO : OPUser
     }
 
 
-    public static OPUser GetUser(string fbID)
+
+    public OPUser GetUser(string fbID)
     {
 		string query = "select * from OPUser where fbId = '" + fbID + "'";
 		List<OPUser> users = GenericDao<OPUser>.Instance.Get(db, query);
-		if(users.Count < 0) {
+		if(users.Count < 1 ) {
 			return null;
 		}
 		return users[0];
     }
 
-	public void Save (Dictionary<string,string> userFB)
+	public OPUser Save (Dictionary<string,string> userFB)
 	{
 		OPUser user = new OPUser();
 		user = GetUser (userFB["id"]);
@@ -46,10 +47,11 @@ public class OPUserDAO : OPUser
 			user.LastName = userFB["last_name"];
 			user.FirstName = userFB["first_name"];
 			Update (user);
+			return user;
 		}
 		else
 		{
-			CreateNewUserFB (userFB);
+			return CreateNewUserFB (userFB);
 		}
 
 	}
@@ -66,7 +68,7 @@ public class OPUserDAO : OPUser
     /// <summary>
     /// create user
     /// </summary>
-    private void CreateNewUserFB(Dictionary<string,string> userFB)
+	private OPUser CreateNewUserFB(Dictionary<string,string> userFB)
     {
         //create user
         OPUser user = new OPUser();
@@ -83,6 +85,7 @@ public class OPUserDAO : OPUser
         user.CreatedAt = TimeStampUtility.convertTimeToInt(DateTime.UtcNow);
         user.UpdatedAt = TimeStampUtility.convertTimeToInt(DateTime.UtcNow);
         GenericDao<OPUser>.Instance.Put(db, user);
+		return user;
     }
 	
     private static void createTable()
