@@ -28,7 +28,8 @@ public class StartView : OnePieceView {
 
 	private void TestDialogClick()
 	{
-		DialogOneButton.Create ("Test Dialog",OnOkClick,"Title","_OK");
+//		DialogOneButton.Create ("Test Dialog",OnOkClick,"Title","_OK");
+		FBManager.Instance.onChallengeClicked();
 	}
 
 	private void OnOkClick()
