@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -349,7 +349,7 @@ public class GamePlayView : OnePieceView {
 		//#TODO close dialog
 		DialogManager.Instance.Complete();
 		//#TODO back to homescreen
-		ViewLoader.Instance.ReplaceLoad(Config.START_VIEW, null);
+		ViewLoader.Instance.ReplaceLoad(Config.MAIN_VIEW, null);
 	}
 
 	private void attackEffect(Vector2 lastPos)
