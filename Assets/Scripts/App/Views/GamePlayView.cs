@@ -381,7 +381,7 @@ public class GamePlayView : OnePieceView {
 			return;
 		if(type.Equals(Config.DIE_ANIM))
 		{
-			Destroy(_currentTroop.entireMonsterObj);
+			_currentTroop.entireMonsterObj.Recycle();
 			if(_troopList.Count > 0)
 				loadCurrentTroop();
 			else
