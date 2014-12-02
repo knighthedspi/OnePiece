@@ -24,6 +24,10 @@ public partial class GamePlayService{
 	private 	Vector2 						_blockMargin;
 	private		GameObject 						_board;
 	private		GameObject 						_panel;
+	private		GameObject						_blockDestroyParticle;
+	private		GameObject						_playerAttackParticle;
+	private		GameObject						_dotting;
+	private		GameObject						_connectLine;
 	private		Camera							_mainCamera;
 	private 	Dictionary<Vector2,Vector2> 	_blockPositions;
 	private 	Vector2 						_startBlockPosInBoard;
@@ -50,7 +54,7 @@ public partial class GamePlayService{
 	/// <param name="blockMargin">Block margin.</param>
 	/// <param name="board">Board.</param>
 	/// <param name="mainCamera">Main camera.</param>
-	public void initialize(GameObject board, GameObject panel, Camera mainCamera)
+	public void initialize(GameObject board, GameObject panel, Camera mainCamera, GameObject blockDestroyParticle, GameObject playerAttackParticle, GameObject dotting, GameObject connectLine)
 	{
 		_gameSetup 			= AppManager.Instance.gameSetup;
 		this._blockNum 		= _gameSetup.blockNum;
@@ -61,6 +65,10 @@ public partial class GamePlayService{
 		this._blockMargin 	= _gameSetup.blockMargin;
 		this._board = board;
 		this._panel = panel;
+		this._blockDestroyParticle = blockDestroyParticle;
+		this._playerAttackParticle = playerAttackParticle;
+		this._dotting = dotting;
+		this._connectLine = connectLine;
 		this._mainCamera = mainCamera;
 		this._blockPositions = new Dictionary<Vector2,Vector2>();
 		this._stackBlock = new List<Block>();
@@ -326,20 +334,18 @@ public partial class GamePlayService{
 	/// Makes the block destroy particle.
 	/// </summary>
 	/// <returns>The block destroy particle.</returns>
-	// TODO : improve performance by using object pooling manager
 	public GameObject MakeBlockDestroyParticle()
 	{
-		return (GameObject)UnityEngine.Object.Instantiate(Resources.Load(Config.PARTICLE_RESOURCE_PREFIX + "BlockDestroyParticle"));
+		return _blockDestroyParticle.Spawn();
 	}
 
 	/// <summary>
 	/// Makes the player attack particle.
 	/// </summary>
 	/// <returns>The player attack particle.</returns>
-	// TODO : improve performance by using object pooling manager
 	public GameObject MakePlayerAttackParticle()
 	{
-		return (GameObject)UnityEngine.Object.Instantiate(Resources.Load(Config.PARTICLE_RESOURCE_PREFIX + "PlayerAttackParticle"));
+		return _playerAttackParticle.Spawn();
 	}
 
 
@@ -348,18 +354,16 @@ public partial class GamePlayService{
 	/// Makes the dot object when touch in block.
 	/// </summary>
 	/// <returns>The dot prefab.</returns>
-	// TODO : improve performance by using object pooling manager
 	public GameObject MakeDotObject(){
-		return (GameObject)UnityEngine.Object.Instantiate(Resources.Load(Config.UI_RESOURCE_PREFIX + "Dotting"));
+		return _dotting.Spawn();
 	}
 
 	/// <summary>
 	/// Makes the line object connect between two block
 	/// </summary>
 	/// <returns>The line prefab.</returns>
-	// TODO : improve performance by using object pooling manager
 	public GameObject MakeLineObject(){
-		return (GameObject)UnityEngine.Object.Instantiate(Resources.Load(Config.UI_RESOURCE_PREFIX + "ConnectLine"));
+		return _connectLine.Spawn();
 	}
 
 	/// <summary>
