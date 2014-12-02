@@ -438,7 +438,7 @@ public partial class GamePlayService{
 		
 		GameObject _golast = _stackDot[_stackDot.Count - 1];
 		_stackDot.Remove(_golast);
-		UnityEngine.GameObject.Destroy(_golast);
+		_golast.Recycle();
 		
 		if(_stackLine.Count > 0){
 			UnityEngine.GameObject.Destroy(_currentLine);
@@ -452,11 +452,11 @@ public partial class GamePlayService{
 	/// </summary>
 	public void dotLineDestroy(){
 		foreach(GameObject go in _stackDot)
-			UnityEngine.GameObject.Destroy(go);
+			go.Recycle();
 		_stackDot.Clear();
 		
 		foreach(GameObject go in _stackLine)
-			UnityEngine.GameObject.Destroy(go);
+			go.Recycle();
 		_stackLine.Clear();
 		
 		UnityEngine.GameObject.Destroy(_currentLine);
