@@ -22,6 +22,17 @@ public class FBManager : Singleton<FBManager>
 		{
 			Debug.Log("SetInit");
 			enabled = true; // "enabled" is a property inherited from MonoBehaviour
+#if UNITY_EDITOR
+		Debug.Log("UNITY_EDITOR");
+		Dictionary<string,string> testUser = new Dictionary<string,string>();
+		testUser.Add("id","5395743982710432");
+		testUser.Add("name","User Test");
+		testUser.Add("first_name","User");
+		testUser.Add("last_name","Test");
+		isFLogined = true;
+		AppManager.Instance.user = OPUserDAO.Instance.Save (testUser);
+		return;
+#endif
 			if (FB.IsLoggedIn) 
 			{
 				Debug.Log("Already logged in");
