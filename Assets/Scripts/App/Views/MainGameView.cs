@@ -2,9 +2,16 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class StartView : OnePieceView {
+public class MainGameView : OnePieceView {
 
 	public GameObject StartBtn;
+    public GameObject InviteBtn;
+    public GameObject SoundSettingBtn;
+    public UILabel BeriLbl;
+
+   
+    private OPUser user;
+
 
 	[HideInInspector]
 	public UI 		  UI {get; private set;}
@@ -13,20 +20,20 @@ public class StartView : OnePieceView {
 	protected override void Awake(){
 		base.Awake();
 		UI = gameObject.AddComponent<UI>();
-		Debug.Log ("add UI class");
-		UI.AttachButton(StartBtn, onStartBtnClicked);
+		UI.AttachButton(StartBtn, OnStartBtnClicked);
+        UI.AttachButton(InviteBtn, OnInviteBtnClick);
+        UI.AttachButton(SoundSettingBtn, OnSSBtnClick);
 	}
 
 	protected override void Start(){
 		base.Start();
-		Transform tDialog = transform.Find ("TestDialog");
-		if(tDialog)
-		{
-			UI.AttachButton(tDialog.gameObject,TestDialogClick);
-		}
+        user = AppManager.Instance.user;
+        Debug.LogError("uruse");
+        Debug.Log(user.Belly);
+        BeriLbl.text = user.Belly.ToString();
 	}
 
-	private void TestDialogClick()
+	private void OnInviteBtnClick()
 	{
 //		DialogOneButton.Create ("Test Dialog",OnOkClick,"Title","_OK");
 		FBManager.Instance.onChallengeClicked();
@@ -39,11 +46,17 @@ public class StartView : OnePieceView {
 	}
 
 
-	private void onStartBtnClicked(){
+	private void OnStartBtnClicked(){
 		Debug.Log ("start loading game");
 		SoundManager.Instance.PlaySE("sakura_voice_r02");
 		ViewLoader.Instance.ReplaceLoad(Config.GAME_PLAY_VIEW, null);
 	}
+
+    private void OnSSBtnClick()
+    {
+        //#TODO setting sound
+    }
+
 
 	protected override void OnOpen (params object[] parameters)
 	{

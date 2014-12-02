@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -47,7 +47,7 @@ public class FacebookView : OnePieceView {
 		Debug.Log ("start game");
 		var viewNames = new Dictionary<string, object []>();
 		viewNames.Add(Config.GLOBAL_VIEW, null);
-		viewNames.Add(Config.START_VIEW, null);
+		viewNames.Add(Config.MAIN_VIEW, null);
 		ViewLoader.Instance.CleanLoad(viewNames);
 
 	}
