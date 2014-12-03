@@ -17,6 +17,10 @@ public class GamePlayView : OnePieceView {
 	public      NumberLabel 								beriLabel;
 	public      NumberLabel 								scoreLabel;
 	public      GameObject 									hintPrefab;
+	public		GameObject									BlockDestroyParticle;
+	public		GameObject									PlayerAttackParticle;
+	public		GameObject									Dotting;
+	public		GameObject									ConnectLine;
 	public      UILabel										comboLabel;
 	public      UILabel 									feverLabel;
 	public		NumberLabel									timeLabel;
@@ -64,6 +68,9 @@ public class GamePlayView : OnePieceView {
 	#region 	MONSTER_OBJECTS
 	protected 	CharacterController 						_currentMonster 		= null;
 	private 	List<CharacterController> 					_monsterList 			= new List<CharacterController>();
+	private 	CharacterController							_currentTroop			= null;
+	private		List<CharacterController>					_troopList				= new List<CharacterController>();
+	private		bool										_killAllTroops			;
 	#endregion 	MONSTER_OBJECTS
 
 	#region  	HINT_SUGGESTION
@@ -120,14 +127,16 @@ public class GamePlayView : OnePieceView {
 	private void InitializeGameService()
 	{
 		_service = GamePlayService.Instance;
-		_service.initialize( board, panel, camera);
+		_service.initialize( board, panel, camera, BlockDestroyParticle, PlayerAttackParticle, Dotting, ConnectLine);
 		_userService = UserService.Instance;
 		_user = AppManager.Instance.User;
 	}
-	
+
+	//TODO : load from previous stage
 	private void loadCharacters()
 	{
-		_service.loadCharacters(Config.CHARACTER_POSITION, Vector3.zero, initMonsterPosition(), Vector3.zero, ref _monsterList);
+		_service.loadMonters(initMonsterPosition(), Vector3.zero, ref _monsterList);
+		_service.createTroops();
 	}
 
 	private List<Vector3> initMonsterPosition()
@@ -135,6 +144,15 @@ public class GamePlayView : OnePieceView {
 		List<Vector3> pos = new List<Vector3>(); 
 		for(int i = 0;i < Config.COUNT_OF_MONSTERS;i++) {
 			pos.Add(new Vector3(Config.MONSTER_POSITION.x, Config.MONSTER_POSITION.y + _gameSetup.deltaMonsterPos * (i + 1) , 0));
+		}
+		return pos;
+	}
+
+	private List<Vector3> initTroopPosition()
+	{
+		List<Vector3> pos = new List<Vector3>(); 
+		for(int i = 0;i < Config.COUNT_OF_TROOPS;i++) {
+			pos.Add(new Vector3(Config.TROOP_POSITION[i].x, Config.TROOP_POSITION[i].y + _gameSetup.deltaMonsterPos * (i + 1) , 0));
 		}
 		return pos;
 	}
@@ -153,6 +171,24 @@ public class GamePlayView : OnePieceView {
 		_currentMonster.entryPlay();
 	}
 
+	private void loadTroops(Vector3[] posList)
+	{
+		_service.loadTroops(initTroopPosition(), Vector3.zero, ref _troopList);
+		for( int i = 0; i < _troopList.Count; i++)
+		{
+			TweenPosition.Begin(_troopList[i].entireMonsterObj, Config.TWEEN_DURATION, posList[i]);
+			_troopList[i].Finish = OnFinishTroopAnim;
+			_troopList[i].entryPlay();
+		}
+		_killAllTroops = false;
+	}
+
+	private void loadCurrentTroop()
+	{
+		_currentTroop = _troopList[0];
+		_troopList.Remove(_currentTroop);
+	}
+	
 	#endregion 	INITIALIZE_GAME
 
 	#region 	UPDATE_HANDLER
@@ -316,6 +352,8 @@ public class GamePlayView : OnePieceView {
 	{
 		gameState = GameState.GAME_PLAYING;
 		loadMonster(Config.MONSTER_POSITION);
+		loadTroops(Config.TROOP_POSITION);
+		loadCurrentTroop();
 		updateTurnUI();
 	}
 	
@@ -324,7 +362,7 @@ public class GamePlayView : OnePieceView {
 
 	}
 	
-	public void OnFinishMonsterAnim(string type)
+	protected virtual void OnFinishMonsterAnim(string type)
 	{
 		if(_currentMonster == null)
 			return;
@@ -334,6 +372,20 @@ public class GamePlayView : OnePieceView {
 			Destroy(_currentMonster.entireMonsterObj);
 			_currentMonster = null;
 			gameState = GameState.GAME_WORK;	
+		}
+	}
+
+	protected virtual void OnFinishTroopAnim(string type)
+	{
+		if(_currentTroop == null)
+			return;
+		if(type.Equals(Config.DIE_ANIM))
+		{
+			_currentTroop.entireMonsterObj.Recycle();
+			if(_troopList.Count > 0)
+				loadCurrentTroop();
+			else
+				_killAllTroops = true;
 		}
 	}
 
@@ -354,21 +406,28 @@ public class GamePlayView : OnePieceView {
 
 	private void attackEffect(Vector2 lastPos)
 	{
-//		GameObject o = _service.MakeDamageEffect();
-//		o.GetComponent<DamageLabel>().go(_playerAttackPoint, panel, lastPos);
-		Vector3 pos = new Vector3 (lastPos.x, lastPos.y, 1);
-		DamageEffect.Create (_playerAttackPoint.ToString (), pos, pos + new Vector3 (0, 40, 0));
-		if(_currentMonster == null)
+		if(!_killAllTroops)
+			applyAttack(_currentTroop, lastPos);
+		else
+			applyAttack(_currentMonster, lastPos);
+	}
+
+	private void applyAttack(CharacterController character, Vector3 lastPos)
+	{
+		if(character == null)
 			return;
-		_currentMonster.attackedPlay();
-		_currentMonster.decreaseHPAmount(_playerAttackPoint);
-		if(_currentMonster._currentHP < 0) {
-			if(gameState == GameState.GAME_PLAYING) {
-				_currentMonster.diePlay();
-			}
+		Vector3 pos = new Vector3 (lastPos.x, lastPos.y, 1);
+		Vector3 target = new Vector3(character.entireMonsterObj.transform.localPosition.x, character.entireMonsterObj.transform.localPosition.y , 1);
+		Debug.Log(pos + " ->>>>>" + target);
+		DamageEffect.Create (_playerAttackPoint.ToString (), pos, target);
+		character.attackedPlay();
+		character.decreaseHPAmount(_playerAttackPoint);
+		if(character._currentHP < 0)
+		{
+			character.diePlay();
 		}
 	}
-	
+
 	private void OnFinishedPlayerAttack(Vector2 lastPos)
 	{
 		attackEffect(lastPos);

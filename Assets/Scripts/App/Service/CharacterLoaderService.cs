@@ -6,7 +6,7 @@ public partial class GamePlayService
 {
 
     public readonly static GamePlayService Instance = new GamePlayService();
-	
+
 	/// <summary>
     /// Loads the character
     /// </summary>
@@ -33,20 +33,38 @@ public partial class GamePlayService
         List<CharacterController> listMonster = MonsterService.Instance.createListMonster(listMonsterModel, _panel, pos, direction); 
         return listMonster;	
     }
-
+	
 	/// <summary>
-	/// Loads the characters ,now only focus on monsters
+	/// Loads the monsters 
 	/// </summary>
 	/// <param name="parent">Parent game object</param>
-	/// <param name="characterPosition">Character position.</param>
-	/// <param name="characterDirection">Character direction.</param>
 	/// <param name="monsterPosition">Monster position.</param>
 	/// <param name="monsterDirection">Monster direction.</param>
 	/// <param name="currentCharacter">Current character will be loaded</param>
 	/// <param name="monsterList">Monster list will be loded</param>
-	public void loadCharacters(Vector3 characterPosition, Vector3 characterDirection, List<Vector3> monsterPosition, Vector3 monsterDirection, ref List<CharacterController> monsterList)
+	public void loadMonters(List<Vector3> monsterPosition, Vector3 monsterDirection, ref List<CharacterController> monsterList)
 	{
 		monsterList = loadMonsterList(monsterPosition, monsterDirection);
+	}
+
+	/// <summary>
+	/// Creates the troops (pooled objects 4 use in future)
+	/// </summary>
+	public void createTroops()
+	{
+		List<OPCharacter> listTroopModel = OPCharacterDAO.Instance.getListTroop();
+		MonsterService.Instance.createTroops(listTroopModel);
+	}
+
+	/// <summary>
+	/// Loads the troops into desired postition
+	/// </summary>
+	/// <param name="troopPosition">List of Troop position.</param>
+	/// <param name="troopDirection">Troop direction.</param>
+	/// <param name="troopList">Troop list will be loaded</param>
+	public void loadTroops(List<Vector3> troopPosition, Vector3 troopDirection, ref List<CharacterController> troopList)
+	{
+		troopList = MonsterService.Instance.loadTroops(_panel, troopPosition, troopDirection);
 	}
 
 }

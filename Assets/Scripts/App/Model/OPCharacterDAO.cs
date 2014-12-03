@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 public class OPCharacterDAO : OPCharacter{
 	
-	private static int KINDID_CHARACTER = 1;
+	private static int KINDID_TROOP = 1;
 	//#TODO get class name static from base class
 	private static string tableName = "OPCharacter";
 	private static OPCharacterDAO sInstance;
@@ -30,7 +30,7 @@ public class OPCharacterDAO : OPCharacter{
 	/// <param name="level">Level.</param>
 	public OPCharacter getCharacterByLevel(int level)
 	{
-		string query = "SELECT * FROM " + tableName + " where kindId = " + KINDID_CHARACTER + " and evolution = " + level;
+		string query = "SELECT * FROM " + tableName + " where kindId = " + KINDID_TROOP + " and evolution = " + level;
 		List<OPCharacter> result = GenericDao<OPCharacter>.Instance.Get(db, query);
 		if(result.Count < 1)
 		{
@@ -43,7 +43,7 @@ public class OPCharacterDAO : OPCharacter{
 	//#TODO add order column not using id order
 	public OPCharacter getNextMonster(int currentMonsterID = 0)
 	{
-		string query = "SELECT * FROM " + tableName + " where kindId != " + KINDID_CHARACTER  + " and id > " + currentMonsterID + " order by id ASC";
+		string query = "SELECT * FROM " + tableName + " where kindId != " + KINDID_TROOP  + " and id > " + currentMonsterID + " order by id ASC";
 		List<OPCharacter> result = GenericDao<OPCharacter>.Instance.Get(db, query);
 		if(result.Count < 1)
 		{
@@ -58,7 +58,7 @@ public class OPCharacterDAO : OPCharacter{
 	/// <returns>The list monster </returns>
 	/// <param name="currentMonsterID">Current monster Id</param>
 	public List<OPCharacter> getListMonster(int currentMonsterID = 0){
-		string query = "SELECT * FROM " + tableName + " where kindId != " + KINDID_CHARACTER  + " and id > " + currentMonsterID + " order by id ASC limit " + Config.COUNT_OF_MONSTERS;
+		string query = "SELECT * FROM " + tableName + " where kindId != " + KINDID_TROOP  + " and id > " + currentMonsterID + " order by id ASC limit " + Config.COUNT_OF_MONSTERS;
 		List<OPCharacter> result = GenericDao<OPCharacter>.Instance.Get(db, query);
 		if(result.Count < 1)
 		{
@@ -66,4 +66,16 @@ public class OPCharacterDAO : OPCharacter{
 		}
 		return result;
 	}
+
+	public List<OPCharacter> getListTroop()
+	{
+		string query = "SELECT * FROM " + tableName + " where kindId = " + KINDID_TROOP ;
+		List<OPCharacter> result = GenericDao<OPCharacter>.Instance.Get(db, query);
+		if(result.Count < 1)
+		{
+			throw new Exception("Character not found at level: ");
+		}
+		return result;
+	}
+
 }

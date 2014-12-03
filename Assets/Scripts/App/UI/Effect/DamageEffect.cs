@@ -45,7 +45,7 @@ public class DamageEffect : EffectBase {
 		Vector3 v = gameObject.transform.localPosition;
 		
 		TweenAlpha.Begin( gameObject, 0.5f,  1f);
-		Vector3 to = (_textData.targetPosition == null) ? new Vector3(0,0,0) : v + new Vector3(0,40,0) ;
+		Vector3 to = (_textData.targetPosition == null) ? new Vector3(0,0,0) : _textData.targetPosition ;
 		TweenPosition.Begin( gameObject, 0.5f, to)	;
 		yield return new WaitForSeconds(0.8f);
 		

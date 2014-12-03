@@ -34,6 +34,7 @@ public static class Config
 	public static readonly int    		LAYER_MONSTER         			= LayerMask.NameToLayer("Monster");
 
 	public const int			  		COUNT_OF_MONSTERS     			= 5;	
+	public const int					COUNT_OF_TROOPS					= 3;
 	public const string			  		MONSTER_RESOURCE_PREFIX			= "Prefab/Monster/";	
 	public const string					DIALOG_RESOURCE_PREFIX			= "Prefab/Dialog/";
 	public const string					PARTICLE_RESOURCE_PREFIX		= "Prefab/particle/";
@@ -42,8 +43,11 @@ public static class Config
 
 	public static readonly Vector3		CHARACTER_POSITION				= new Vector3(-100, 290, 0);
 	public static readonly Vector3 		CHARACTER_DIRECTION				= Vector3.zero;
-	public static readonly Vector3 		MONSTER_POSITION				= new Vector3(100, 290, 0);		 
+	public static readonly Vector3 		MONSTER_POSITION				= new Vector3(30, 290, 0);		 
+	public static readonly Vector3		COMMON_LOCAL_SCALE				= new Vector3(0.8f,0.8f,1);
+	public static readonly Vector3[]	TROOP_POSITION					= {new Vector3(-100, 290, 0), new Vector3(130, 290, 0) , new Vector3(200, 290, 0) };
 	public const float			  		TWEEN_DURATION					= 0.5f;
+
 
 	public const string			  		TRANSITION_IN 					= "TransitionIn";
 	public const string			  		TRANSITION_OUT 					= "TransitionOut";
