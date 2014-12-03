@@ -8,6 +8,7 @@ public class MainGameView : OnePieceView {
     public GameObject InviteBtn;
     public GameObject SoundSettingBtn;
     public UILabel BeriLbl;
+    public UISprite LevelGuage;
 
    
     private OPUser user;
@@ -28,9 +29,8 @@ public class MainGameView : OnePieceView {
 	protected override void Start(){
 		base.Start();
         user = AppManager.Instance.user;
-        Debug.LogError("uruse");
-        Debug.Log(user.Belly);
         BeriLbl.text = user.Belly.ToString();
+        LevelGuage.fillAmount = (float)(user.Exp / (user.Exp* 1.2));
 	}
 
 	private void OnInviteBtnClick()

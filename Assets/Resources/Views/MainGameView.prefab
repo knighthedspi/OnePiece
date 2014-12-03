@@ -369,7 +369,7 @@ Transform:
   m_GameObject: {fileID: 100006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: .001953125, y: .001953125, z: .001953125}
+  m_LocalScale: {x: .00187441427, y: .00187441427, z: .00187441427}
   m_Children:
   - {fileID: 400004}
   - {fileID: 400002}
@@ -682,7 +682,8 @@ MonoBehaviour:
   StartBtn: {fileID: 100014}
   InviteBtn: {fileID: 100010}
   SoundSettingBtn: {fileID: 100038}
-  BeriLbl: {fileID: 100008}
+  BeriLbl: {fileID: 11400014}
+  LevelGuage: {fileID: 11400028}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
