@@ -14,7 +14,7 @@ public static class Config
 	public const string           		SCENE_MAIN 						= "main_scene";
 
 	public const string 		  		VIEWS_PREFABS_PATH    			= "Views";
-	public const string			  		START_VIEW 						= "Start";
+	public const string			  		MAIN_VIEW 						= "MainGameView";
 	public const string			  		FB_VIEW 						= "Facebook";
 	public const string			  		GAME_PLAY_VIEW 					= "GamePlay";
 	public const string			  		LOADING_VIEW					= "Loading"; 	
