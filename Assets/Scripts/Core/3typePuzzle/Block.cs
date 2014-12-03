@@ -6,7 +6,7 @@ public enum BlockType
 {
 	luffy = 1,
 	nami,
-	robin,
+	usop,
 	sanji,
 	zoro,
 	chopper,
@@ -81,7 +81,7 @@ public class Block : MonoBehaviour {
 	public virtual void Init(BlockType type)
 	{
 		// Init Block here
-		spriteName = "0" + type.ToString ();
+		spriteName = type.ToString ();
 		blockType = type;
 		_uiSprite.width 	= (int)_gameSetup.blockSize.x;
 		_uiSprite.height 	= (int)_gameSetup.blockSize.y;

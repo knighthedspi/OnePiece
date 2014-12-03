@@ -28,7 +28,7 @@ GameObject:
   - 4: {fileID: 400002}
   m_Layer: 8
   m_Name: 101Troop
-  m_TagString: Unit
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,8 +101,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 292.89151, y: 377.91687, z: 0}
-  m_LocalScale: {x: .800000012, y: .800000012, z: 1}
+  m_LocalPosition: {x: 0, y: 300, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400000}
   - {fileID: 400008}
@@ -139,7 +139,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7, y: -128, z: 0}
+  m_LocalPosition: {x: 0, y: -98, z: 0}
   m_LocalScale: {x: .800000012, y: .660000026, z: 1}
   m_Children:
   - {fileID: 400006}
@@ -352,7 +352,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3b1841e7acdd74e34a66ed7734b145c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8364e611101d54e68a20c7219a9ca71f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:

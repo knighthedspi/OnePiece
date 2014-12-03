@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: GamePlay
+  m_Name: GamePlayAtlas
   m_Shader: {fileID: 4800000, guid: ed5591596df551e4c8f4b05ce88a7a07, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1

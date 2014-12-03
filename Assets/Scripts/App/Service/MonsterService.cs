@@ -93,8 +93,8 @@ public class MonsterService{
 	/// <param name="direction">Direction of troop</param>
 	public List<CharacterController> loadTroops(GameObject parent, List<Vector3> localPosition, Vector3 direction)
 	{
-		OPDebug.Log("load troop");
 		int countOfTroop = UnityEngine.Random.Range(1, Config.COUNT_OF_TROOPS + 1);
+		OPDebug.Log("Load " + countOfTroop + " troops");
 		List<CharacterController> troopList = new List<CharacterController>();
 		for(int i = 0; i < countOfTroop; i++)
 		{
