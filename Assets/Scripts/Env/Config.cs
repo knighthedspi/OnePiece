@@ -64,4 +64,7 @@ public static class Config
 
 	public const int			  		PARTICLE_NUM					= 10;
 
+	public const string					CURRENT_MONSTER_INITIAL_HP_KEY	= "CurrentMonsterInitialHP";
+	public const string					CURRENT_MONSTER_CURRENT_HP_KEY	= "CurrentMonsterHP";
+	public const string					CURRENT_MONSTER_NAME			= "CurrentMonsterName";
 }

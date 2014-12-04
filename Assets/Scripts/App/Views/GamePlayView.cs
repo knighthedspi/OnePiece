@@ -66,8 +66,8 @@ public class GamePlayView : OnePieceView {
 	#endregion 	GAME_STATEMENT
 
 	#region 	MONSTER_OBJECTS
-	protected 	CharacterController 						_currentMonster 		= null;
-	private 	List<CharacterController> 					_monsterList 			= new List<CharacterController>();
+	private 	MonsterController 							_currentMonster 		= null;
+	private 	List<MonsterController> 					_monsterList 			= new List<MonsterController>();
 	private 	CharacterController							_currentTroop			= null;
 	private		List<CharacterController>					_troopList				= new List<CharacterController>();
 	private		bool										_killAllTroops			;
@@ -422,7 +422,7 @@ public class GamePlayView : OnePieceView {
 		DamageEffect.Create (_playerAttackPoint.ToString (), pos, target);
 		character.attackedPlay();
 		character.decreaseHPAmount(_playerAttackPoint);
-		if(character._currentHP < 0)
+		if(character.currentHP < 0)
 		{
 			character.diePlay();
 		}
@@ -504,19 +504,33 @@ public class GamePlayView : OnePieceView {
 		
 		TweenAlpha.Begin(UI_TimeUp, 1.5f, 0f);
 		yield return new WaitForSeconds(2f);
-		
-		_userService.increaseBelly(_user, _beriCount);
+
 		//#TODO check high score if has
 		if(_userService.isHighScore(_user, _scorePoint)) {
 			//#TODO Show dialog high score
 		}
 		//#TODO check leveup if has
-		if(_userService.isHighScore(_user, _scorePoint)) {
+		if(_userService.isLevelUp()) {
 			//#TODO Show dialog high score
 		}
+
+		saveGameState();
+
 		//#TODO show load result
 		loadResultDialog();
 		yield return 0;
+	}
+
+	private void saveGameState()
+	{
+		_userService.increaseBelly(_user, _beriCount);
+		int currentMonterId;
+		if(_currentMonster != null)
+			currentMonterId = _currentMonster.monsterModel.Id;
+		else
+			currentMonterId = _currentMonster.monsterModel.Id + 1;
+		_user.CurrentMonsterID = currentMonterId;
+		_userService.updateState(_user, _currentMonster);
 	}
 	#endregion
 }

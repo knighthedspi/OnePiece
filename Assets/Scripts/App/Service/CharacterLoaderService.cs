@@ -20,20 +20,18 @@ public partial class GamePlayService
         return MonsterService.Instance.createMonster(characterObj, Config.TAG_CHARACTER, _panel, pos, direction);
     }
 
-    /// <summary>
-    /// Loads list of monster per game level
-    /// </summary>
-    /// <returns>The list of Monster Components</returns>
-    /// <param name="parent">Parent.</param>
-    /// <param name="pos">Position.</param>
-    /// <param name="direction">Direction.</param>
-    public List<CharacterController> loadMonsterList(List<Vector3> pos, Vector3 direction)
+    private List<MonsterController> loadMonsterList(List<Vector3> pos, Vector3 direction, int countOfMonster)
     {
-        List<OPCharacter> listMonsterModel = OPCharacterDAO.Instance.getListMonster(AppManager.Instance.user.CurrentMonsterID);
-        List<CharacterController> listMonster = MonsterService.Instance.createListMonster(listMonsterModel, _panel, pos, direction); 
+		List<OPCharacter> listMonsterModel = OPCharacterDAO.Instance.getListMonster(countOfMonster , AppManager.Instance.user.CurrentMonsterID);
+		List<MonsterController> listMonster = MonsterService.Instance.createListMonster(listMonsterModel, _panel, pos, direction); 
         return listMonster;	
     }
-	
+
+	private MonsterController loadCurrentMonster(string monsterName, float initialHP, float currentHP, Vector3 pos, Vector3 direction)
+	{
+		return MonsterService.Instance.loadCurrentMonster(monsterName, initialHP, currentHP, Config.TAG_UNIT, _panel, pos, direction);
+	}
+
 	/// <summary>
 	/// Loads the monsters 
 	/// </summary>
@@ -42,9 +40,20 @@ public partial class GamePlayService
 	/// <param name="monsterDirection">Monster direction.</param>
 	/// <param name="currentCharacter">Current character will be loaded</param>
 	/// <param name="monsterList">Monster list will be loded</param>
-	public void loadMonters(List<Vector3> monsterPosition, Vector3 monsterDirection, ref List<CharacterController> monsterList)
+	public void loadMonters(List<Vector3> monsterPosition, Vector3 monsterDirection, ref List<MonsterController> monsterList)
 	{
-		monsterList = loadMonsterList(monsterPosition, monsterDirection);
+		if(AppManager.Instance.user.CurrentMonsterID !=0)
+		{
+			string monsterName = PlayerPrefs.GetString(Config.CURRENT_MONSTER_NAME);
+			float initialMonsterHP = PlayerPrefs.GetFloat(Config.CURRENT_MONSTER_INITIAL_HP_KEY);
+			float currentMonsterHP = PlayerPrefs.GetFloat(Config.CURRENT_MONSTER_CURRENT_HP_KEY);
+			MonsterController currentMonster = loadCurrentMonster(monsterName, initialMonsterHP, currentMonsterHP, monsterPosition[0], monsterDirection);
+			monsterPosition.RemoveAt(0);
+			monsterList.Add(currentMonster);
+			monsterList.AddRange(loadMonsterList(monsterPosition, monsterDirection, Config.COUNT_OF_MONSTERS - 1));
+		}
+		else
+			monsterList = loadMonsterList(monsterPosition, monsterDirection, Config.COUNT_OF_MONSTERS);
 	}
 
 	/// <summary>

@@ -184,7 +184,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100002}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bc894c7756804010965f0d53b2194e3, type: 3}
+  m_Script: {fileID: 11500000, guid: 18f6552c1c9304f8689d5fc4efc3f783, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   UIMonsterHp: {fileID: 11400004}

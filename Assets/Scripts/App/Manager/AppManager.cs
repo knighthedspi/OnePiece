@@ -15,7 +15,7 @@ public class AppManager : Singleton<AppManager>
         }
     }
 
-    void Start()
+	void Start()
     {
         DBManager.Instance.onInitComplete = onInitDBComplete;
 		InitializeGameSetup();
