@@ -10,7 +10,6 @@ public class UserService
     public void increaseBelly(OPUser user,int belly)
     {
         user.Belly += belly;
-        OPUserDAO.Instance.Update(user);
     }
 
     public void decreaseBelly(OPUser user,int belly)
@@ -25,21 +24,37 @@ public class UserService
         OPUserDAO.Instance.Update(user);
     }
 
+	//#TODO : check level up 
     public bool isLevelUp()
     {
         return false;
     }
-
-    public void updateScore(OPUser user,int score)
-    {
-        user.Score = score;
-        if(isHighScore(user, score))
-            user.HighScore = score;
-        OPUserDAO.Instance.Update(user);
-    }
-
+	
     public bool isHighScore(OPUser user,int score)
     {
-        return (score > user.HighScore);
+        if (score > user.HighScore)
+		{
+			user.HighScore = score;
+			return true;
+		}
+		return false;
     }
+
+	public void updateState(OPUser user, MonsterController currentMonster)
+	{
+		OPUserDAO.Instance.Update(user);
+		if(currentMonster != null)
+		{
+			PlayerPrefs.SetString( Config.CURRENT_MONSTER_NAME, currentMonster.monsterModel.CharacterName);
+			PlayerPrefs.SetFloat( Config.CURRENT_MONSTER_INITIAL_HP_KEY, currentMonster.initialHP);
+			PlayerPrefs.SetFloat( Config.CURRENT_MONSTER_CURRENT_HP_KEY, currentMonster.currentHP);
+		}
+		else
+		{
+			PlayerPrefs.DeleteKey( Config.CURRENT_MONSTER_NAME);
+			PlayerPrefs.DeleteKey( Config.CURRENT_MONSTER_INITIAL_HP_KEY);
+			PlayerPrefs.DeleteKey( Config.CURRENT_MONSTER_CURRENT_HP_KEY);
+		}
+		PlayerPrefs.Save();
+	}
 }

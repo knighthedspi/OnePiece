@@ -28,7 +28,7 @@ public class MonsterService{
 	/// <param name="parent">Parent game object</param>
 	/// <param name="localPosition">Local position</param>
 	/// <param name="direction">Direction</param>
-	public CharacterController createMonster(OPCharacter model, string tag, GameObject parent, Vector3 localPosition, Vector3 direction)
+	public MonsterController createMonster(OPCharacter model, string tag, GameObject parent, Vector3 localPosition, Vector3 direction)
 	{
 		OPDebug.Log(model.CharacterName + " is loaded!!!");
 		GameObject monsterObj = (GameObject) GameObject.Instantiate(Resources.Load(Config.MONSTER_RESOURCE_PREFIX + model.CharacterName));
@@ -37,10 +37,39 @@ public class MonsterService{
 		monsterObj.transform.localRotation = Quaternion.Euler(direction);
 		monsterObj.transform.localScale = Config.COMMON_LOCAL_SCALE;
 		monsterObj.tag = tag;
-		CharacterController monster = monsterObj.GetComponentInChildren<CharacterController>();
-		monster.monsterModel = model;
+		MonsterController monster = monsterObj.GetComponentInChildren<MonsterController>();
 		if(monster == null)
 			throw new UnityException("Could not load monster " + model.CharacterName);
+		monster.monsterModel = model;
+		return monster;
+	}
+
+	/// <summary>
+	/// Loads the current monster from previous battle
+	/// </summary>
+	/// <returns>The current monster.</returns>
+	/// <param name="monsterName">Monster name.</param>
+	/// <param name="initialHP">Initial HP</param>
+	/// <param name="currentHP">Current HP</param>
+	/// <param name="tag">Tag.</param>
+	/// <param name="parent">Parent game object</param>
+	/// <param name="localPosition">Local position.</param>
+	/// <param name="direction">Direction.</param>
+	public MonsterController loadCurrentMonster(string monsterName, float initialHP, float currentHP, string tag, GameObject parent, Vector3 localPosition, Vector3 direction)
+	{
+		OPDebug.Log("Load current monster " + monsterName);
+		GameObject monsterObj = (GameObject) GameObject.Instantiate(Resources.Load(Config.MONSTER_RESOURCE_PREFIX + monsterName));
+		monsterObj.transform.parent = parent.transform;
+		monsterObj.transform.localPosition = localPosition;
+		monsterObj.transform.localRotation = Quaternion.Euler(direction);
+		monsterObj.transform.localScale = Config.COMMON_LOCAL_SCALE;
+		monsterObj.tag = tag;
+		MonsterController monster = monsterObj.GetComponentInChildren<MonsterController>();
+		if(monster == null)
+			throw new UnityException("Could not load monster " + monsterName);
+		monster.isRestored = true;
+		monster.initialHP = initialHP;
+		monster.currentHP = currentHP;
 		return monster;
 	}
 
@@ -62,8 +91,8 @@ public class MonsterService{
 	/// <param name="parent">Parent GameObject</param>
 	/// <param name="localPosition">Local position of monster object</param>
 	/// <param name="direction">Direction of monster object</param>
-	public List<CharacterController> createListMonster(List<OPCharacter> listMonster, GameObject parent , List<Vector3> localPosition, Vector3 direction){
-		List<CharacterController> monsterList = new List<CharacterController>();
+	public List<MonsterController> createListMonster(List<OPCharacter> listMonster, GameObject parent , List<Vector3> localPosition, Vector3 direction){
+		List<MonsterController> monsterList = new List<MonsterController>();
 		foreach(OPCharacter character in listMonster){
 			monsterList.Add(createMonster(character, Config.TAG_UNIT, parent, localPosition[listMonster.IndexOf(character)], direction ));
 		}

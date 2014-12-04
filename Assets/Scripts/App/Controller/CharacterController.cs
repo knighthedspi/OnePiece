@@ -21,9 +21,9 @@ public class CharacterController : MonoBehaviour {
 	private Animator _animator;
 	public OnFinished Finish;
 
-	private bool overridePlaying = true;
-	private float _initialHP;
-	public float _currentHP {get; private set;}
+	protected bool overridePlaying = true;
+	public float initialHP {get; set;}
+	public float currentHP {get; set;}
 	// Use this for initialization
 	void Start () {
 		initialize();
@@ -36,8 +36,8 @@ public class CharacterController : MonoBehaviour {
 	}
 
 	protected virtual void initMonsterAttributes(){
-		this._initialHP = Random.Range(monsterModel.InitialHP, monsterModel.MaxHP);
-		this._currentHP = this._initialHP;
+		this.initialHP = Random.Range(monsterModel.InitialHP, monsterModel.MaxHP );
+		this.currentHP = this.initialHP;
 		this.UIMonsterHp.fillAmount = 1;
 	}
 
@@ -82,9 +82,9 @@ public class CharacterController : MonoBehaviour {
 	/// <param name="amount">HP amount of monster will be decreased</param>
 	public void decreaseHPAmount(float amount)
 	{
-		this._currentHP -= amount;
-		this.UIMonsterHp.fillAmount = this._currentHP / this._initialHP;
-		OPDebug.Log("current HP is " + _currentHP);
+		this.currentHP -= amount;
+		this.UIMonsterHp.fillAmount = this.currentHP / this.initialHP;
+		OPDebug.Log("current HP is " + currentHP);
 	}
 
 	/// <summary>
