@@ -23,8 +23,6 @@ public class MonsterController : CharacterController
 			base.initMonsterAttributes ();
 		else
 		{
-			this.initialHP = PlayerPrefs.GetFloat(Config.CURRENT_MONSTER_INITIAL_HP_KEY);
-			this.currentHP = PlayerPrefs.GetFloat(Config.CURRENT_MONSTER_CURRENT_HP_KEY);
 			this.UIMonsterHp.fillAmount = this.currentHP / this.initialHP;
 		}
 	}	

@@ -68,8 +68,12 @@ public class MonsterService{
 		if(monster == null)
 			throw new UnityException("Could not load monster " + monsterName);
 		monster.isRestored = true;
+		OPCharacter monsterModel = new OPCharacter();
+		monsterModel.CharacterName = monsterName;
+		monsterModel.Id	  = AppManager.Instance.user.CurrentMonsterID;	
 		monster.initialHP = initialHP;
 		monster.currentHP = currentHP;
+		monster.monsterModel = monsterModel;
 		return monster;
 	}
 
