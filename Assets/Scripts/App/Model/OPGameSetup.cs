@@ -19,6 +19,6 @@ public class OPGameSetup  {
 	public 		float 			deltaMonsterPos 	{ set; get;}
 	public 		float 			deltaStartX 		{ set; get;}
 	public 		float 			deltaStartY			{ set; get;}
-	public BlockType[] 			listBlockTypes 		{ set; get;}	
-
+	public   	BlockType[] 	listBlockTypes 		{ set; get;}	
+	public		float			count_down_time		{ set; get;}
 }

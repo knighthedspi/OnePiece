@@ -5,8 +5,8 @@ using System.Collections.Generic;
 
 public enum GameState
 {
+	GAME_START,
 	GAME_WORK,
-	GAME_WORKING,
 	GAME_PLAYING,
 	GAME_CLEAR
 }
@@ -29,13 +29,14 @@ public class GamePlayView : OnePieceView {
 	public      GameObject 									board;
 	public      Block 										blocksPrefab;
 	public      UISprite 									UI_TimerBar;
-	public		GameObject									UI_TimeUp;
+	public		NumberLabel									timeUpLabel;
 	#endregion	UI
 
 	#region 	ANIMATION
 	public      Animator 									comboAnimator;
 	public		Animator 									feverAnimator;
 	public		Animator 									boardAnimator;
+	public		Animator									timeUpAnimator;
 	#endregion 	ANIMATION
 	
 	#region 	CAMERA_SETTING 
@@ -63,6 +64,8 @@ public class GamePlayView : OnePieceView {
 	private 	float 										_feverTime				= 0;				
 	private 	bool 										_startFever 			= false;
 	private 	float										_stepTime				= 0;
+	protected	float										count_down_time			;			
+	private		int											_currentMonsterId		;
 	#endregion 	GAME_STATEMENT
 
 	#region 	MONSTER_OBJECTS
@@ -106,7 +109,8 @@ public class GamePlayView : OnePieceView {
 	{
 		InitializeGameStatement();
 		InitializeGameService();
-		loadCharacters();		
+		loadCharacters();	
+		playCountDownAnim();
 	}
 
 	private void InitializeGameStatement()
@@ -119,9 +123,11 @@ public class GamePlayView : OnePieceView {
 		_gameSetup = AppManager.Instance.gameSetup;
 		remain_time = _gameSetup.stage_time;
 		stage_time = remain_time;
-		gameState = GameState.GAME_WORK;
+		gameState = GameState.GAME_START;
+		count_down_time = _gameSetup.count_down_time;
 	 	// TODO : get player attack point from DB
 		_playerAttackPoint = 100;
+		timeUpLabel.gameObject.GetComponent<TimeUpController>().Finish = OnFinishCountDown;
 	}
 
 	private void InitializeGameService()
@@ -164,6 +170,7 @@ public class GamePlayView : OnePieceView {
 			return;
 		}
 		_currentMonster = _monsterList[0];
+		_currentMonsterId = _currentMonster.monsterModel.Id;
 		_monsterList.Remove(_currentMonster);
 		// TODO : update entry animation
 		TweenPosition.Begin(_currentMonster.entireMonsterObj, Config.TWEEN_DURATION, pos); 
@@ -188,13 +195,18 @@ public class GamePlayView : OnePieceView {
 		_currentTroop = _troopList[0];
 		_troopList.Remove(_currentTroop);
 	}
-	
+
+	protected void playCountDownAnim()
+	{
+		timeUpAnimator.Play(Config.COUNT_DOWN_ANIM);
+	}
+
 	#endregion 	INITIALIZE_GAME
 
 	#region 	UPDATE_HANDLER
 	protected virtual void Update()
 	{
-		if(_isPaused)
+		if(gameState == GameState.GAME_START || _isPaused )
 			return;
 		if(gameState == GameState.GAME_CLEAR)
 		{
@@ -209,12 +221,13 @@ public class GamePlayView : OnePieceView {
 	
 	protected virtual void FixedUpdate()
 	{
+		if(gameState ==  GameState.GAME_START || gameState == GameState.GAME_CLEAR || _isPaused)
+			return;
 		updateTimer();
 	}
-
+	
 	protected virtual void updateWorking(){
 		if(gameState == GameState.GAME_WORK) {
-			gameState = GameState.GAME_WORKING;
 			OnFinishedWorking();
 		}
 	}
@@ -295,19 +308,22 @@ public class GamePlayView : OnePieceView {
 	}
 	
 	protected virtual void updateTimer(){
-		if(gameState == GameState.GAME_CLEAR)
-			return;
 		_stepTime += Time.deltaTime;
-		if(_stepTime >= 1.0) {
+
+		if(_stepTime >= 1.0)
+		{
 			timeLabel.setText(remain_time.ToString());
 			remain_time --;
 			_stepTime = 0;
 		}
-		if(remain_time <= 0) {
+
+		if(remain_time <= 0) 
+		{
 			timeLabel.setText(remain_time.ToString());
 			gameState = GameState.GAME_CLEAR;
 			StartCoroutine(TimeUp());
 		}
+
 		UI_TimerBar.fillAmount = remain_time/stage_time;
 		updateCombo();
 		updateFever();
@@ -339,7 +355,9 @@ public class GamePlayView : OnePieceView {
 	#endregion 
 
 	#region 	CALLBACK_FUNCTION
-	protected virtual void onPauseBtnClicked(){
+
+	protected virtual void onPauseBtnClicked()
+	{
 		_isPaused = !_isPaused;
 		Debug.Log("check pause: " + _isPaused);
 		if(_isPaused)
@@ -347,7 +365,13 @@ public class GamePlayView : OnePieceView {
 		else
 			Time.timeScale = 1.0f;
 	}
-	
+
+	protected virtual void OnFinishCountDown()
+	{
+		gameState = GameState.GAME_WORK;
+		timeUpLabel.gameObject.SetActive(false);
+	}
+
 	protected virtual void OnFinishedWorking()
 	{
 		gameState = GameState.GAME_PLAYING;
@@ -458,6 +482,7 @@ public class GamePlayView : OnePieceView {
 		if(_currentCombo > 1) {
 			comboLabel.text = _currentCombo.ToString() + " Combos";
 			OPDebug.Log("play " + _currentCombo + " combos animation");
+			NGUITools.BringForward(comboLabel.gameObject);
 			comboAnimator.Play(Config.COMBO_ANIM);
 		}
 		_comboTime = 0;
@@ -474,6 +499,7 @@ public class GamePlayView : OnePieceView {
 		_feverTime = 0.0f;
 
 		feverLabel.text = "Fever time";
+		NGUITools.BringForward(feverLabel.gameObject);
 		feverAnimator.Play(Config.FEVER_ANIM);
 		boardAnimator.SetBool("startFever", true);
 	}
@@ -498,11 +524,12 @@ public class GamePlayView : OnePieceView {
 	#region 	CLEAR_STATE 
 	protected virtual IEnumerator TimeUp()
 	{
-		TweenAlpha.Begin(UI_TimeUp, 1.0f, 1f);
-		TweenPosition.Begin(UI_TimeUp, 1.0f, new Vector3(0, 0, 0));
+		timeUpLabel.gameObject.SetActive(true);
+		TweenAlpha.Begin(timeUpLabel.gameObject, 1.0f, 1f);
+		TweenPosition.Begin(timeUpLabel.gameObject, 1.0f, new Vector3(0, 0, 0));
 		yield return new WaitForSeconds(3f);
 		
-		TweenAlpha.Begin(UI_TimeUp, 1.5f, 0f);
+		TweenAlpha.Begin(timeUpLabel.gameObject, 1.5f, 0f);
 		yield return new WaitForSeconds(2f);
 
 		//#TODO check high score if has
@@ -524,12 +551,8 @@ public class GamePlayView : OnePieceView {
 	private void saveGameState()
 	{
 		_userService.increaseBelly(_user, _beriCount);
-		int currentMonterId;
-		if(_currentMonster != null)
-			currentMonterId = _currentMonster.monsterModel.Id;
-		else
-			currentMonterId = _currentMonster.monsterModel.Id + 1;
-		_user.CurrentMonsterID = currentMonterId;
+		int currentMonsterId = _currentMonster != null ? _currentMonsterId : (_currentMonsterId + 1);
+		_user.CurrentMonsterID = _currentMonsterId;
 		_userService.updateState(_user, _currentMonster);
 	}
 	#endregion
