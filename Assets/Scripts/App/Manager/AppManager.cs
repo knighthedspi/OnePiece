@@ -36,7 +36,7 @@ public class AppManager : Singleton<AppManager>
 		this.gameSetup.blockSize 			= new Vector2(80, 80) ;
 		this.gameSetup.boardPadding			= new Vector2(0, 0) ;
 		this.gameSetup.blockMargin			= new Vector2(-4, -6);
-		this.gameSetup.stage_time 			= 6000;
+		this.gameSetup.stage_time 			= 60;
 		this.gameSetup.hintTime 			= 5;
 		this.gameSetup.scoreRatio1 			= 20;
 		this.gameSetup.scoreRatio2 			= 50;
