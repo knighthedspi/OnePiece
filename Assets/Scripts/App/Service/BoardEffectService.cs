@@ -198,7 +198,6 @@ public partial class GamePlayService{
 				if(_blocks[i, j] == null) {
 					Block block = null;
 					if(j == 0) {
-//						int index = UnityEngine.Random.Range(0, blockPrefabs.Length);
 						block = pushNewItem(blockPrefabs, i, ref hintDirty, ref hintObjs);
 					} else {
 						block = _blocks[i, j - 1];
@@ -221,12 +220,11 @@ public partial class GamePlayService{
 	{
 		if(_blocks[position, 0] != null)
 			return null;
-		
+	
 		Block newBlock = sample.Spawn<Block>();
 		newBlock.transform.parent = _panel.transform;
 		newBlock.transform.localPosition = new Vector3(getBlockPosition(position, 0).x, 200);
 		newBlock.InitRand ();				
-		_blocks[position, 0] = newBlock;
 
 		hintDirty = true;
 		foreach(GameObject go in hintObjs) {
@@ -243,8 +241,13 @@ public partial class GamePlayService{
 	public void clearBlocks()
 	{
 		for(int i=0;i < _blockNum.x;i++)
-			for(int j=0;j < _blockNum.y;j++)		
-				_blocks[i, j].Recycle();
+		{
+			for(int j=0;j < _blockNum.y;j++)
+			{
+				NGUITools.Destroy(_blocks[i,j].gameObject);
+				_blocks[i, j] = null;
+			}
+		}
 	}
 
 	#endregion touch_board

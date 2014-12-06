@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: FeverLabel
+  m_Name: Combo
   serializedVersion: 2
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -20,53 +20,53 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1101 &110100000
+--- !u!1101 &110106845
 Transition:
   serializedVersion: 2
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
-  m_SrcState: {fileID: 110200000}
-  m_DstState: {fileID: 110251745}
-  m_TransitionDuration: 0
+  m_SrcState: {fileID: 110209900}
+  m_DstState: {fileID: 110234940}
+  m_TransitionDuration: .375
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 5
     m_ConditionEvent: 
     m_EventTreshold: 0
-    m_ExitTime: 1
+    m_ExitTime: .625
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
   m_CanTransitionToSelf: 0
---- !u!1102 &110200000
+--- !u!1102 &110209900
 State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: FeverAnim
+  m_Name: ComboAnim
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: f1a46b837f3ac480685474c6e8a304d6, type: 2}
+  - {fileID: 7400000, guid: 7de569e26fd1d450ca88f10beee66621, type: 2}
   m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: 84, y: 120, z: 0}
+  m_Position: {x: -120, y: 60, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
---- !u!1102 &110251745
+--- !u!1102 &110234940
 State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Not Animation
+  m_Name: Empty
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
   - {fileID: 0}
   m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: 312, y: 120, z: 0}
+  m_Position: {x: 144, y: 60, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -77,17 +77,26 @@ StateMachine:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Base Layer
-  m_DefaultState: {fileID: 110251745}
+  m_DefaultState: {fileID: 110234940}
   m_States:
-  - {fileID: 110200000}
-  - {fileID: 110251745}
+  - {fileID: 110234940}
+  - {fileID: 110209900}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
-      first: {fileID: 110200000}
+      first: {fileID: 0}
+      second: []
+    data:
+      first: {fileID: 0}
+      second: []
+    data:
+      first: {fileID: 0}
+      second: []
+    data:
+      first: {fileID: 110209900}
       second:
-      - {fileID: 110100000}
+      - {fileID: 110106845}
   m_MotionSetCount: 1
-  m_AnyStatePosition: {x: 192, y: 72, z: 0}
+  m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}

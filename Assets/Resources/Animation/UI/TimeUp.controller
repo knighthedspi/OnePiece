@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Field
+  m_Name: TimeUp
   serializedVersion: 2
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -28,34 +28,14 @@ Transition:
   m_PrefabInternal: {fileID: 0}
   m_Name: 
   m_SrcState: {fileID: 110200000}
-  m_DstState: {fileID: 110258882}
-  m_TransitionDuration: 0
+  m_DstState: {fileID: 110247683}
+  m_TransitionDuration: .075000003
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 5
     m_ConditionEvent: 
     m_EventTreshold: 0
-    m_ExitTime: 1
-  m_Atomic: 1
-  m_Solo: 0
-  m_Mute: 0
-  m_CanTransitionToSelf: 0
---- !u!1101 &110111784
-Transition:
-  serializedVersion: 2
-  m_ObjectHideFlags: 3
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_SrcState: {fileID: 110296245}
-  m_DstState: {fileID: 110258882}
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_Conditions:
-  - m_ConditionMode: 5
-    m_ConditionEvent: 
-    m_EventTreshold: 0
-    m_ExitTime: 1
+    m_ExitTime: .925000012
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
@@ -65,43 +45,28 @@ State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: InFieldWorking
+  m_Name: CountDown
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: feb028568bc2f4ecbb1986b49151909d, type: 2}
+  - {fileID: 7400000, guid: eeba97619760c450f936da88ab080a7b, type: 2}
   m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: 96, y: 96, z: 0}
+  m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
---- !u!1102 &110258882
+--- !u!1102 &110247683
 State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: NotAnimation
+  m_Name: ReadyGo
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 0}
+  - {fileID: 7400000, guid: e9aa06482f8d5412f96f94bda68fdf4b, type: 2}
   m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: 144, y: -84, z: 0}
-  m_IKOnFeet: 0
-  m_Mirror: 0
-  m_Tag: 
---- !u!1102 &110296245
-State:
-  m_ObjectHideFlags: 3
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: InFieldWorking_NGUI_Pro
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Motions:
-  - {fileID: 7400000, guid: 2ce48fbbe59b148c09809cce0e01a1a8, type: 2}
-  m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: 300, y: 36, z: 0}
+  m_Position: {x: 300, y: 48, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -112,22 +77,20 @@ StateMachine:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Base Layer
-  m_DefaultState: {fileID: 110258882}
+  m_DefaultState: {fileID: 110200000}
   m_States:
   - {fileID: 110200000}
-  - {fileID: 110258882}
-  - {fileID: 110296245}
+  - {fileID: 110247683}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
+      first: {fileID: 110247683}
+      second: []
+    data:
       first: {fileID: 110200000}
       second:
       - {fileID: 110100000}
-    data:
-      first: {fileID: 110296245}
-      second:
-      - {fileID: 110111784}
   m_MotionSetCount: 1
-  m_AnyStatePosition: {x: 50, y: 20, z: 0}
+  m_AnyStatePosition: {x: 192, y: 0, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
