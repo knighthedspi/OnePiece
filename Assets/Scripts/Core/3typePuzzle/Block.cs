@@ -10,7 +10,7 @@ public enum BlockType
 	sanji,
 	zoro,
 	chopper,
-
+	rainbow,
 	
 }
 
