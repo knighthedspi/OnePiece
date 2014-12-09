@@ -423,7 +423,10 @@ public class GamePlayView : OnePieceView {
 	{
 		//#TODO pass parameter
 		//#TODO animation bonus score
-		DialogOneButton.Create("Score: " + _scorePoint * 1.1, OnOkClick, "Result", "_OK");
+//		DialogOneButton.Create("Score: " + _scorePoint * 1.1, OnOkClick, "Result", "_OK");
+//        DialogResult.Create(_scorePoint, OnOkClick, "Result", "_OK");
+        DialogResult dialogResult = new DialogResult();
+        dialogResult.Create(_scorePoint, OnOkClick);
 	}
 
 	private void OnOkClick()
@@ -528,13 +531,13 @@ public class GamePlayView : OnePieceView {
 	#region 	CLEAR_STATE 
 	protected virtual IEnumerator TimeUp()
 	{
-		timeUpLabel.gameObject.SetActive(true);
-		TweenAlpha.Begin(timeUpLabel.gameObject, 1.0f, 1f);
-		TweenPosition.Begin(timeUpLabel.gameObject, 1.0f, new Vector3(0, 0, 0));
-		yield return new WaitForSeconds(3f);
-		
-		TweenAlpha.Begin(timeUpLabel.gameObject, 1.5f, 0f);
-		yield return new WaitForSeconds(2f);
+//		timeUpLabel.gameObject.SetActive(true);
+//		TweenAlpha.Begin(timeUpLabel.gameObject, 1.0f, 1f);
+//		TweenPosition.Begin(timeUpLabel.gameObject, 1.0f, new Vector3(0, 0, 0));
+//		yield return new WaitForSeconds(3f);
+//		
+//		TweenAlpha.Begin(timeUpLabel.gameObject, 1.5f, 0f);
+//		yield return new WaitForSeconds(2f);
 
 		//#TODO check high score if has
 		if(_userService.isHighScore(_user, _scorePoint)) {
