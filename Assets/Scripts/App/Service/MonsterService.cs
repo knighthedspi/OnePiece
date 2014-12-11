@@ -51,7 +51,7 @@ public class MonsterService{
 	/// <param name="monsterName">Monster name.</param>
 	/// <param name="initialHP">Initial HP</param>
 	/// <param name="currentHP">Current HP</param>
-	/// <param name="tag">Tag.</param>
+	/// <param name="tag">Tag.</param>	
 	/// <param name="parent">Parent game object</param>
 	/// <param name="localPosition">Local position.</param>
 	/// <param name="direction">Direction.</param>
