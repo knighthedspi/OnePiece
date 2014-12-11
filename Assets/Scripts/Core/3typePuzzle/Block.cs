@@ -10,7 +10,7 @@ public enum BlockType
 	sanji,
 	zoro,
 	chopper,
-
+	rainbow,
 	
 }
 
@@ -140,4 +140,5 @@ public class Block : MonoBehaviour {
 		gameObject.Recycle ();
 	}
 	
+
 }
