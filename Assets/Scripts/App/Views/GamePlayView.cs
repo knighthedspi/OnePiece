@@ -37,6 +37,7 @@ public class GamePlayView : OnePieceView {
 	public		Animator 									feverAnimator;
 	public		Animator 									boardAnimator;
 	public		Animator									timeUpAnimator;
+	public		Animator									quickUpAnimator;
 	#endregion 	ANIMATION
 	
 	#region 	CAMERA_SETTING 
@@ -315,6 +316,11 @@ public class GamePlayView : OnePieceView {
 			timeLabel.setText(remain_time.ToString());
 			remain_time --;
 			_stepTime = 0;
+		}
+
+		if(remain_time <= 5)
+		{
+			quickUpAnimator.SetBool("showQuickUp", true);
 		}
 
 		if(remain_time <= 0) 
