@@ -5,6 +5,7 @@ public enum DialogType
 {
 	DialogOneButton,
 	DialogTwoButton,
+    DialogResult,
 }
 
 public enum DialogTransition
