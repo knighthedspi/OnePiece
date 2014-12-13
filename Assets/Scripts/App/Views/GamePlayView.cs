@@ -425,8 +425,8 @@ public class GamePlayView : OnePieceView {
 		//#TODO animation bonus score
 //		DialogOneButton.Create("Score: " + _scorePoint * 1.1, OnOkClick, "Result", "_OK");
 //        DialogResult.Create(_scorePoint, OnOkClick, "Result", "_OK");
-        DialogResult dialogResult = new DialogResult();
-        dialogResult.Create(_scorePoint, OnOkClick);
+//        DialogResult dialogResult = new DialogResult();
+		DialogResult.Create(_scorePoint, OnOkClick);
 	}
 
 	private void OnOkClick()

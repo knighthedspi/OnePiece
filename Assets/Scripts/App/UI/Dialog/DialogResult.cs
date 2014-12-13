@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class DialogResult : DialogBase {
 
@@ -14,10 +15,19 @@ public class DialogResult : DialogBase {
 	
 	}
 
-    public void Create(int score, EventDelegate.Callback callBack,string title= "", string button_label = "")
+	public override void InitUI ()
+	{
+		base.InitUI ();
+		int score = (!dialogData.textData.ContainsKey ("ScoreLbl")) ? 0 : Int32.Parse (dialogData.textData ["ScoreLbl"]);
+		Debug.Log("Here-----------------" + score.ToString());
+		numberLabel.setNumberTo (score);
+	}
+
+    public static void Create(int score, EventDelegate.Callback callBack,string title= "", string button_label = "")
     {
         DialogData dialogData = new DialogData ();
         dialogData.dialogType = DialogType.DialogResult;
+		Debug.Log ("sore  " + score.ToString ());
         dialogData.textData.Add("ScoreLbl", score.ToString());
         //        numberLabel.setNumberTo(score);
         dialogData.eventData.Add ("CloseBtn", callBack);

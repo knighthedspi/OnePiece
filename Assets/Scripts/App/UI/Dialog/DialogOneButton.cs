@@ -8,7 +8,7 @@ public class DialogOneButton : DialogBase {
 	
 	}
 	
-	// Update is called once per frame
+	// Update is called once per frame 
 	void Update () {
 	
 	}
