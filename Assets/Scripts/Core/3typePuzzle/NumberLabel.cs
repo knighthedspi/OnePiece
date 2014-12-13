@@ -19,7 +19,7 @@ public class NumberLabel : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(_toN == _number)return ;
-
+		Debug.Log ("toN --------------- " + _toN.ToString ());
 		int i = (_toN - _number)/50;
 		if(i <= 0)i = 1;
 
@@ -52,6 +52,7 @@ public class NumberLabel : MonoBehaviour {
 
 	//set target number. Update Function checked _toN and increments now number
 	public void setNumberTo(int toN){
+		Debug.Log("OK -------------------");
 		_toN = toN;
 	}
 
