@@ -264,13 +264,13 @@ MonoBehaviour:
   - size: 10
     prefab: {fileID: 100000, guid: 20e1614b773d246d8bf65136c0e66a77, type: 2}
   - size: 10
-    prefab: {fileID: 100000, guid: ce220641105c943dca542a4a3119261d, type: 2}
-  - size: 10
     prefab: {fileID: 100000, guid: f720bd5539f8042afb6d7477d6949d36, type: 2}
   - size: 10
     prefab: {fileID: 100000, guid: 74d395b029a1146b795a671462be48da, type: 2}
   - size: 10
     prefab: {fileID: 100000, guid: a936efb502af14994b58b94ec3192386, type: 2}
+  - size: 10
+    prefab: {fileID: 100000, guid: 0ca9dbf58b32c465588f1930246d9759, type: 2}
 --- !u!4 &670522385
 Transform:
   m_ObjectHideFlags: 0

@@ -34,6 +34,7 @@ public class DamageEffect : EffectBase {
 		}
 		_textData = _data as EffectTextData;
 		base.StartEffect ();
+		_label.text = _textData.mainText;
 		transform.localPosition = (_textData.originPosition == null) ? new Vector3 (0, 0, 0) : _textData.originPosition;
 		transform.localScale = new Vector3 (3, 3, 1);
 		StartCoroutine("animStart");

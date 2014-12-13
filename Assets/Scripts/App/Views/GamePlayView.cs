@@ -17,8 +17,7 @@ public class GamePlayView : OnePieceView {
 	public      NumberLabel 								beriLabel;
 	public      NumberLabel 								scoreLabel;
 	public      GameObject 									hintPrefab;
-	public		GameObject									BlockDestroyParticle;
-	public		GameObject									PlayerAttackParticle;
+	public		GameObject									effectParticle;
 	public		GameObject									Dotting;
 	public		GameObject									ConnectLine;
 	public      UILabel										comboLabel;
@@ -134,7 +133,7 @@ public class GamePlayView : OnePieceView {
 	private void InitializeGameService()
 	{
 		_service = GamePlayService.Instance;
-		_service.initialize( board, panel, camera, BlockDestroyParticle, PlayerAttackParticle, Dotting, ConnectLine);
+		_service.initialize( board, panel, camera, effectParticle, Dotting, ConnectLine);
 		_userService = UserService.Instance;
 		_user = AppManager.Instance.User;
 	}
@@ -325,6 +324,7 @@ public class GamePlayView : OnePieceView {
 
 		if(remain_time <= 0) 
 		{
+			quickUpAnimator.SetBool("showQuickUp", false);
 			timeLabel.setText(remain_time.ToString());
 			gameState = GameState.GAME_CLEAR;
 			StartCoroutine(TimeUp());
