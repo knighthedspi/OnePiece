@@ -24,8 +24,7 @@ public partial class GamePlayService{
 	private 	Vector2 						_blockMargin;
 	private		GameObject 						_board;
 	private		GameObject 						_panel;
-	private		GameObject						_blockDestroyParticle;
-	private		GameObject						_playerAttackParticle;
+	private		GameObject						_effectParticle;
 	private		GameObject						_dotting;
 	private		GameObject						_connectLine;
 	private		Camera							_mainCamera;
@@ -54,7 +53,7 @@ public partial class GamePlayService{
 	/// <param name="blockMargin">Block margin.</param>
 	/// <param name="board">Board.</param>
 	/// <param name="mainCamera">Main camera.</param>
-	public void initialize(GameObject board, GameObject panel, Camera mainCamera, GameObject blockDestroyParticle, GameObject playerAttackParticle, GameObject dotting, GameObject connectLine)
+	public void initialize(GameObject board, GameObject panel, Camera mainCamera,  GameObject effectParticle, GameObject dotting, GameObject connectLine)
 	{
 		_gameSetup 			= AppManager.Instance.gameSetup;
 		this._blockNum 		= _gameSetup.blockNum;
@@ -65,8 +64,7 @@ public partial class GamePlayService{
 		this._blockMargin 	= _gameSetup.blockMargin;
 		this._board = board;
 		this._panel = panel;
-		this._blockDestroyParticle = blockDestroyParticle;
-		this._playerAttackParticle = playerAttackParticle;
+		this._effectParticle = effectParticle;
 		this._dotting = dotting;
 		this._connectLine = connectLine;
 		this._mainCamera = mainCamera;
@@ -332,26 +330,16 @@ public partial class GamePlayService{
 	{
 		_neighborBlocks.Clear();
 	}
+	
 
 	/// <summary>
-	/// Makes the block destroy particle.
+	/// Makes the effect particle.
 	/// </summary>
-	/// <returns>The block destroy particle.</returns>
-	public GameObject MakeBlockDestroyParticle()
+	/// <returns>The effect particle.</returns>
+	public GameObject MakeEffectParticle()
 	{
-		return _blockDestroyParticle.Spawn();
+		return _effectParticle.Spawn();
 	}
-
-	/// <summary>
-	/// Makes the player attack particle.
-	/// </summary>
-	/// <returns>The player attack particle.</returns>
-	public GameObject MakePlayerAttackParticle()
-	{
-		return _playerAttackParticle.Spawn();
-	}
-
-
 
 	/// <summary>
 	/// Makes the dot object when touch in block.
@@ -387,28 +375,29 @@ public partial class GamePlayService{
 		return false;
 	}
 
-	private int destroyBlocks(List<Block> v, PlayerAttackParticle.OnFinished callback, Block except = null )
+	private int destroyBlocks(List<Block> v, AttackEffectController.OnFinished callback, Block except = null )
 	{
 		int count = 0;
-//		Time.timeScale = 0.01f;
+		Vector2 endPos = _panel.transform.TransformPoint(Config.MONSTER_POSITION);
 		foreach(Block _b in v) {
 			if(except == _b)
 				continue;
 			
 			_blocks[(int)_b.posInBoard.x, (int)_b.posInBoard.y] = null;
 			
-			GameObject _p = MakeBlockDestroyParticle();
-			_p.transform.parent = _panel.transform;
-			_p.SendMessage("generate", _b);
+			AttackEffectController effectParticle = (MakeEffectParticle()).GetComponent<AttackEffectController>();
+			Vector2 startPos = _panel.transform.TransformPoint(_b.transform.localPosition);
+
+			effectParticle.generate(startPos, endPos);
+			effectParticle.Finish = callback;
 
 			// TODO : improve performance 
-			PlayerAttackParticle __ = (MakePlayerAttackParticle()).GetComponent<PlayerAttackParticle>();
-			__.generate(_panel, _b, _b.transform.localPosition, new Vector2(0, 300));
-			__.Finish = callback;
+//			PlayerAttackParticle __ = (MakePlayerAttackParticle()).GetComponent<PlayerAttackParticle>();
+//			__.generate(_panel, _b, _b.transform.localPosition, Config.MONSTER_POSITION);
+//			__.Finish = callback;
 
-//			UnityEngine.Object.Destroy(_b.gameObject);	
 			_b.Recycle();
-			
+
 			count++;
 		}
 		return count;
@@ -532,7 +521,7 @@ public partial class GamePlayService{
 	/// <param name="startFever">in fever mode or not.</param>
 	/// <param name="callback">Callback when user get points</param>
 	//	TODO : improve performance when use callback
-	public void updateBoard(bool startFever, PlayerAttackParticle.OnFinished callback, ref int destroyedBlock)
+	public void updateBoard(bool startFever, AttackEffectController.OnFinished callback, ref int destroyedBlock)
 	{
 		if (Input.GetMouseButton(0)){ // touch start or mouse clicked
 			
@@ -577,7 +566,7 @@ public partial class GamePlayService{
 		}	
 	}
 
-	private void releaseBlocks(bool startFever, PlayerAttackParticle.OnFinished callback, ref int destroyedBlock)
+	private void releaseBlocks(bool startFever, AttackEffectController.OnFinished callback, ref int destroyedBlock)
 	{
 		if(_stackBlock.Count > 0) {
 			if(_stackBlock.Count >= 3) {
