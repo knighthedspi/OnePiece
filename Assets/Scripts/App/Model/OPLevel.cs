@@ -5,7 +5,7 @@ using System.Collections;
 public class OPLevel {
 	
 	private int id;
-	private string level;
+	private int level;
 	private int exp;
     private int diff;
 
@@ -18,7 +18,7 @@ public class OPLevel {
 		}
 	}
 
-	public string Level {
+	public int Level {
 		get {
 			return this.level;
 		}
