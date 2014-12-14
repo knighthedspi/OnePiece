@@ -64,4 +64,5 @@ public static class Config
 	public const string					CURRENT_MONSTER_INITIAL_HP_KEY	= "CurrentMonsterInitialHP";
 	public const string					CURRENT_MONSTER_CURRENT_HP_KEY	= "CurrentMonsterHP";
 	public const string					CURRENT_MONSTER_NAME			= "CurrentMonsterName";
+	public const string 				FB_ID_DEFAULT					= "123456789";
 }
