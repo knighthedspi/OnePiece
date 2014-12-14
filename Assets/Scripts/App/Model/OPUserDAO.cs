@@ -25,11 +25,19 @@ public class OPUserDAO : OPUser
         }
     }
 
-
+	public OPUser CreateUserDefault()
+	{
+		Dictionary<string,string> defaultUser = new Dictionary<string,string>();
+		defaultUser.Add("id",Config.FB_ID_DEFAULT);
+		defaultUser.Add("name","GameTech");
+		defaultUser.Add("first_name","Game");
+		defaultUser.Add("last_name","Tech");
+		return Save (defaultUser);
+	}
 
     public OPUser GetUser(string fbID)
     {
-		string query = "select * from OPUser where fbId = '" + fbID + "'";
+		string query = "select * from OPUser where fbId = '" + fbID + "' or fbId='"+Config.FB_ID_DEFAULT+"'";
 		List<OPUser> users = GenericDao<OPUser>.Instance.Get(db, query);
 		if(users.Count < 1 ) {
 			return null;
@@ -43,6 +51,7 @@ public class OPUserDAO : OPUser
 		user = GetUser (userFB["id"]);
 		if (user != null)
 		{
+			user.FbId		= userFB["id"];
 			user.UserName = userFB["name"];
 			user.LastName = userFB["last_name"];
 			user.FirstName = userFB["first_name"];

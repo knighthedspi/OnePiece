@@ -49,7 +49,14 @@ public class MainGameView : OnePieceView {
 	private void OnStartBtnClicked(){
 		Debug.Log ("start loading game");
 		SoundManager.Instance.PlaySE("sakura_voice_r02");
-		ViewLoader.Instance.ReplaceLoad(Config.GAME_PLAY_VIEW, null);
+
+		var viewNames = new Dictionary<string, object []>();
+		viewNames.Add(Config.GLOBAL_VIEW, null);
+		viewNames.Add(Config.GAME_PLAY_VIEW, null);
+		ViewLoader.Instance.CleanLoad(viewNames);
+
+
+//		ViewLoader.Instance.ReplaceLoad(Config.GAME_PLAY_VIEW, null);
 	}
 
     private void OnSSBtnClick()
