@@ -7,6 +7,7 @@ public class OPLevel {
 	private int id;
 	private string level;
 	private int exp;
+    private int diff;
 
 	public int Id {
 		get {
@@ -34,4 +35,13 @@ public class OPLevel {
 			exp = value;
 		}
 	}
+
+    public int Diff {
+        get {
+            return this.diff;
+        }
+        set {
+            diff = value;
+        }
+    }
 }

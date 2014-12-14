@@ -2,7 +2,7 @@
 using System.Collections;
 using System;
 
-public class DialogResult : DialogBase {
+public class DialogHighScore : DialogBase {
 
     public NumberLabel numberLabel;
 	// Use this for initialization
@@ -26,7 +26,7 @@ public class DialogResult : DialogBase {
     public static void Create(int score, EventDelegate.Callback callBack,string title= "", string button_label = "")
     {
         DialogData dialogData = new DialogData ();
-        dialogData.dialogType = DialogType.DialogResult;
+        dialogData.dialogType = DialogType.DialogHighScore;
 		Debug.Log ("sore  " + score.ToString ());
         dialogData.textData.Add("ScoreLbl", score.ToString());
         //        numberLabel.setNumberTo(score);

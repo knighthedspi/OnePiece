@@ -42,8 +42,8 @@ MonoBehaviour:
   material: {fileID: 2100000, guid: da541d4344e0645068dfe9f4ad7eb615, type: 2}
   mSprites:
   - name: close
-    x: 674
-    y: 1933
+    x: 1576
+    y: 909
     width: 298
     height: 115
     borderLeft: 0
@@ -55,8 +55,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: facebook
-    x: 674
-    y: 1857
+    x: 1576
+    y: 757
     width: 202
     height: 75
     borderLeft: 0
@@ -68,8 +68,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: luffyteam
-    x: 0
-    y: 961
+    x: 1047
+    y: 511
     width: 592
     height: 136
     borderLeft: 0
@@ -82,7 +82,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: newbestscore
     x: 0
-    y: 842
+    y: 27
     width: 475
     height: 46
     borderLeft: 0
@@ -94,8 +94,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: result
-    x: 674
-    y: 1734
+    x: 1576
+    y: 710
     width: 199
     height: 46
     borderLeft: 0
@@ -108,7 +108,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: resultbg
     x: 0
-    y: 1238
+    y: 214
     width: 673
     height: 810
     borderLeft: 0
@@ -121,7 +121,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: scorebg
     x: 0
-    y: 1098
+    y: 74
     width: 591
     height: 139
     borderLeft: 0
@@ -132,9 +132,22 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: star
+    x: 674
+    y: 261
+    width: 372
+    height: 386
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 20
+    paddingRight: 8
+    paddingTop: 14
+    paddingBottom: 0
   - name: topbg
-    x: 0
-    y: 889
+    x: 1047
+    y: 439
     width: 639
     height: 71
     borderLeft: 0
@@ -145,9 +158,22 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: twitter
+  - name: trans
     x: 674
-    y: 1781
+    y: 648
+    width: 901
+    height: 376
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: twitter
+    x: 1576
+    y: 833
     width: 202
     height: 75
     borderLeft: 0
