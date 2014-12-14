@@ -426,7 +426,7 @@ public class GamePlayView : OnePieceView {
 //		DialogOneButton.Create("Score: " + _scorePoint * 1.1, OnOkClick, "Result", "_OK");
 //        DialogResult.Create(_scorePoint, OnOkClick, "Result", "_OK");
 //        DialogResult dialogResult = new DialogResult();
-		DialogResult.Create(_scorePoint, OnOkClick);
+//		DialogResult.Create(_scorePoint, OnOkClick);
 	}
 
 	private void OnOkClick()
@@ -544,7 +544,8 @@ public class GamePlayView : OnePieceView {
 			//#TODO Show dialog high score
 		}
 		//#TODO check leveup if has
-		if(_userService.isLevelUp()) {
+		if(_userService.isLevelUp(_user)) {
+            _user.LevelId += 1;
 			//#TODO Show dialog high score
 		}
 

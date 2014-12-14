@@ -24,10 +24,10 @@ public class UserService
         OPUserDAO.Instance.Update(user);
     }
 
-	//#TODO : check level up 
-    public bool isLevelUp()
+    public bool isLevelUp(OPUser user)
     {
-        return false;
+        OPLevel curLevel = LevelService.Instance.GetUserLevel(user);
+        return LevelService.Instance.IsLevelUp(curLevel, user.Exp);
     }
 	
     public bool isHighScore(OPUser user,int score)
