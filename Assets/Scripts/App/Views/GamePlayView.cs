@@ -423,15 +423,17 @@ public class GamePlayView : OnePieceView {
 	{
 		//#TODO pass parameter
 		//#TODO animation bonus score
-//		DialogOneButton.Create("Score: " + _scorePoint * 1.1, OnOkClick, "Result", "_OK");
-//        DialogResult.Create(_scorePoint, OnOkClick, "Result", "_OK");
-//        DialogResult dialogResult = new DialogResult();
-//		DialogResult.Create(_scorePoint, OnOkClick);
+        int bonusScore = _scorePoint * ((5+_user.LevelId)/100);
+        _scorePoint += bonusScore;
+        int bonusBelly = _beriCount * ((10+ _user.LevelId)/100);
+        _beriCount += bonusBelly;
+
+        DialogResult.Create(_scorePoint, _user.HighScore, _expCount, _beriCount, bonusBelly, OnOkClick);
 	}
 
 	private void OnOkClick()
 	{
-		//#TODO close dialog
+        //#TODO close dialog
 		DialogManager.Instance.Complete();
 		//#TODO back to homescreen
 		ViewLoader.Instance.ReplaceLoad(Config.MAIN_VIEW, null);
