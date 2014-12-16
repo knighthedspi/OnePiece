@@ -88,6 +88,7 @@ public class SoundManager  : Singleton<SoundManager> {
 		BGMsource.Stop();
 		BGMsource.clip = clip;
 		BGMsource.Play();
+		BGMsource.mute = true;
 	}
 
 	public void StopBGM(){
