@@ -53,7 +53,7 @@ public class MainGameView : OnePieceView {
 		var viewNames = new Dictionary<string, object []>();
 		viewNames.Add(Config.GLOBAL_VIEW, null);
 		viewNames.Add(Config.GAME_PLAY_VIEW, null);
-		ViewLoader.Instance.CleanLoad(viewNames);
+		ViewLoader.Instance.CleanLoad(viewNames, true);
 
 
 //		ViewLoader.Instance.ReplaceLoad(Config.GAME_PLAY_VIEW, null);
