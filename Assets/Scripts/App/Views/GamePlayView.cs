@@ -367,9 +367,36 @@ public class GamePlayView : OnePieceView {
 		_isPaused = !_isPaused;
 		Debug.Log("check pause: " + _isPaused);
 		if(_isPaused)
+		{
 			Time.timeScale = 0.0f;
-		else
-			Time.timeScale = 1.0f;
+			DialogPause.Create(continueAction, returnMainAction, retryAction);
+		}
+//		else
+//		{
+//			Time.timeScale = 1.0f;
+//			DialogManager.Instance.Complete();
+//		}
+	}
+
+	protected virtual void continueAction()
+	{
+		_isPaused = false;
+		Time.timeScale = 1.0f;
+		DialogManager.Instance.Complete();
+	}
+
+	protected virtual void returnMainAction()
+	{
+		Time.timeScale = 1.0f;
+		DialogManager.Instance.Complete();
+		ViewLoader.Instance.ReplaceLoad(Config.MAIN_VIEW);
+	}
+
+	protected virtual void retryAction()
+	{
+		Time.timeScale = 1.0f;
+		DialogManager.Instance.Complete();
+		ViewLoader.Instance.ReplaceLoad(Config.GAME_PLAY_VIEW);
 	}
 
 	protected virtual void OnFinishCountDown()
