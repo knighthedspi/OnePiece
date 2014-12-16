@@ -56,8 +56,10 @@ public class ViewLoader : MonoBehaviour
         }
     }
 
-    private void Start()
+    private IEnumerator Start()
     {
+		while(AppManager.Instance.user == null)
+			yield return null;
         if(isFirstScene) {
             Load(this.FirstViewName, true);
             isFirstScene = false;
