@@ -66,6 +66,6 @@ public class MainGameView : OnePieceView {
 
 	protected override void OnOpen (params object[] parameters)
 	{
-		SoundManager.Instance.PlayBGM("bgm_01_main");
+		SoundManager.Instance.PlayBGM("bgm_rainy_ray_games");
 	}
 }

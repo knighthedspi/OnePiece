@@ -102,7 +102,7 @@ public class GamePlayView : OnePieceView {
 
 	protected override void OnOpen (params object[] parameters)
 	{
-		SoundManager.Instance.PlayBGM("bgm_03_fun");
+		SoundManager.Instance.PlayBGM("bgm_hemispheres");
 	}
 
 	protected virtual void Initialize()
