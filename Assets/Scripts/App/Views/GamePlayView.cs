@@ -455,7 +455,7 @@ public class GamePlayView : OnePieceView {
         int bonusBelly = _beriCount * ((10+ _user.LevelId)/100);
         _beriCount += bonusBelly;
 
-        DialogResult.Create(_scorePoint, _user.HighScore, _expCount, _beriCount, bonusBelly, OnOkClick);
+        DialogResult.Create(_scorePoint, _user.HighScore, _expCount, _beriCount, bonusBelly, _user.Exp/(_user.Exp * 2 + 1), OnOkClick);
 	}
 
 	private void OnOkClick()

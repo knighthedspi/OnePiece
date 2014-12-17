@@ -8,6 +8,7 @@ public enum DialogType
     DialogResult,
     DialogHighScore,
 	DialogPause
+    DialogLevelUp,
 }
 
 public enum DialogTransition

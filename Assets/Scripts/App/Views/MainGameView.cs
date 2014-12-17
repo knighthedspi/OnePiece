@@ -30,7 +30,7 @@ public class MainGameView : OnePieceView {
 		base.Start();
         user = AppManager.Instance.user;
         BeriLbl.text = user.Belly.ToString();
-        LevelGuage.fillAmount = (float)(user.Exp / (user.Exp* 1.2));
+        LevelGuage.fillAmount = LevelService.Instance.fillAmount(user);
 	}
 
 	private void OnInviteBtnClick()
@@ -56,7 +56,6 @@ public class MainGameView : OnePieceView {
 		ViewLoader.Instance.CleanLoad(viewNames, true);
 
 
-//		ViewLoader.Instance.ReplaceLoad(Config.GAME_PLAY_VIEW, null);
 	}
 
     private void OnSSBtnClick()
