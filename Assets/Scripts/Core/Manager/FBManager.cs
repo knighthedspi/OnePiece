@@ -108,7 +108,7 @@ public class FBManager : Singleton<FBManager>
 						onChallengeClicked ();
 						break;
 				case FBNextFunc.SHARE_FUNC:
-						share ();
+						Share ();
 						break;
 				case FBNextFunc.NONE_FUNC:
 				default:
@@ -156,22 +156,48 @@ public class FBManager : Singleton<FBManager>
 	#endregion
 
 	#region share
-		private void share ()
-		{             
+	public void Share ()
+		{        
+//				string folderPath = Application.persistentDataPath;
+//				DateTime saveNow = DateTime.Now;
+//				string filename = "picoonepice-"+saveNow.ToString("yyyymmddHHmmss")+".png";
+//				string filePath = folderPath+filename;
+//
+//				if(!System.IO.Directory.Exists(folderPath))
+//					System.IO.Directory.CreateDirectory(folderPath);
+//				Application.CaptureScreenshot(filePath);
 				if (FB.IsLoggedIn) {
 						Debug.Log ("share facebook");                                                                                            
 						FB.Feed (
-			        linkCaption: "I just smashed " + AppManager.Instance.user.Score.ToString () + " friends! Can you beat it?",               
-			        picture: "http://gametech.vn/apple-touch-icon.png",                                                     
-			        linkName: "PokoLungtung!",  
-					linkDescription : "Choi game PoKoLungTung hay lam :)))",
-			        link: "http://apps.facebook.com/" + FB.AppId + "/?challenge_brag=" + (FB.IsLoggedIn ? FB.UserId : "guest")       
+							link: "http://gametech.vn/picoonepice.html",
+					        linkCaption: "I just smashed " + AppManager.Instance.user.Score.ToString () + " friends! Can you beat it?",               
+					        linkName: "Picopiece!",  
+							linkDescription : "Choi game Picopiece hay lam :)))",
+//							picture: "File://"+filePath,
+							callback:ShareCallBack
 						); 
+//			TakeScreenshot();
 				} else {
 						fbNextFunc = FBNextFunc.SHARE_FUNC;
 						CallFBLogin ();
 				}
 		} 
+	private void ShareCallBack(FBResult result)
+	{
+		Debug.Log ("share callback");                                                                                         
+		if (result != null) {                                                                                                                          
+			var responseObject = Json.Deserialize (result.Text) as Dictionary<string, object>;                                      
+			object obj = 0;                                                                                                        
+			if (responseObject.TryGetValue ("cancelled", out obj)) {                                                                                                                      
+				Debug.Log ("Request cancelled");                                                                                  
+			} else if (responseObject.TryGetValue ("id", out obj)) {                
+				Debug.Log("Shared");
+				//bonus belly
+				AppManager.Instance.user.Belly += Config.BELLY_FB_SHARE;
+				OPUserDAO.Instance.Update(AppManager.Instance.user);
+			}                                                                                                                      
+		}
+	}
 	#endregion
 	#region invite
 		//Logined
@@ -201,8 +227,10 @@ public class FBManager : Singleton<FBManager>
 						if (responseObject.TryGetValue ("cancelled", out obj)) {                                                                                                                      
 								Debug.Log ("Request cancelled");                                                                                  
 						} else if (responseObject.TryGetValue ("request", out obj)) {                
-//				AddPopupMessage("Request Sent", ChallengeDisplayTime);
-								Debug.Log ("Request sent");                                                                                       
+							Debug.Log ("Request sent");
+							//bonus belly
+							AppManager.Instance.user.Belly += Config.BELLY_FB_INVITE;
+							OPUserDAO.Instance.Update(AppManager.Instance.user);
 						}                                                                                                                      
 				}                                                                                                                          
 		} 

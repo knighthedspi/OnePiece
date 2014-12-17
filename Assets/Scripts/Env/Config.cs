@@ -65,4 +65,8 @@ public static class Config
 	public const string					CURRENT_MONSTER_CURRENT_HP_KEY	= "CurrentMonsterHP";
 	public const string					CURRENT_MONSTER_NAME			= "CurrentMonsterName";
 	public const string 				FB_ID_DEFAULT					= "123456789";
+
+	//present of game
+	public const int 					BELLY_FB_INVITE					= 1000 ;// when invite fb, get 1000belly
+	public const int					BELLY_FB_SHARE					= 300; // when share fb,get 300 belly
 }
