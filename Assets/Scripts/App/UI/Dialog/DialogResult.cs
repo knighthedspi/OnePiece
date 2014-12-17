@@ -13,7 +13,7 @@ public class DialogResult : DialogBase {
 	
 	}
 
-    public static void Create(int score, int highScore, int bonusExp, int belly, int bonusBelly, EventDelegate.Callback callBack,string title= "", string button_label = "")
+    public static void Create(int score, int highScore, int bonusExp, int belly, int bonusBelly, float expAmount,EventDelegate.Callback callBack,string title= "", string button_label = "")
     {
         DialogData dialogData = new DialogData ();
         dialogData.dialogType = DialogType.DialogResult;
@@ -24,6 +24,7 @@ public class DialogResult : DialogBase {
         dialogData.textData.Add("BestScoreLbl", "High Score: " + highScore.ToString());
         dialogData.textData.Add("BonusBelly", bonusBelly.ToString());
         dialogData.textData.Add("BonusExp", bonusExp.ToString());
+        dialogData.textData.Add("Level_guage", expAmount.ToString());
         dialogData.eventData.Add ("CloseBtn", callBack);
         DialogManager.Instance.OpenDialog (dialogData);
     }

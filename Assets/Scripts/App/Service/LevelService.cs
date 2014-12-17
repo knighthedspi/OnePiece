@@ -16,4 +16,10 @@ public class LevelService
         return (exp > (level.Exp + level.Diff));
     }
 
+    public float fillAmount(OPUser user)
+    {
+        OPLevel level = GetUserLevel(user);
+        return (user.Exp / (level.Exp + level.Diff));
+    }
+
 }

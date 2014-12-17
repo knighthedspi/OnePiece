@@ -41,11 +41,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 3eb49957d7f18451eb831b3aaeaf28bd, type: 2}
   mSprites:
-  - name: berry
+  - name: background
     x: 0
-    y: 495
-    width: 236
-    height: 90
+    y: 3072
+    width: 683
+    height: 1024
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: berry
+    x: 1368
+    y: 3484
+    width: 273
+    height: 118
     borderLeft: 0
     borderRight: 0
     borderTop: 0
@@ -55,8 +68,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: bg
-    x: 0
-    y: 1024
+    x: 684
+    y: 3072
     width: 683
     height: 1024
     borderLeft: 0
@@ -68,8 +81,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: invite
-    x: 237
-    y: 514
+    x: 1368
+    y: 3210
     width: 191
     height: 71
     borderLeft: 0
@@ -81,8 +94,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: invitepressed
-    x: 429
-    y: 519
+    x: 1368
+    y: 3143
     width: 176
     height: 66
     borderLeft: 0
@@ -93,22 +106,61 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: luffyteam
-    x: 0
-    y: 699
-    width: 583
-    height: 139
+  - name: levelhat
+    x: 1890
+    y: 3858
+    width: 147
+    height: 53
     borderLeft: 0
     borderRight: 0
     borderTop: 0
     borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 1
-    paddingTop: 1
-    paddingBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: levelstatus
+    x: 1617
+    y: 3431
+    width: 260
+    height: 52
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: levelstatustop
+    x: 1617
+    y: 3321
+    width: 196
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: luffyteam
+    x: 1368
+    y: 3603
+    width: 585
+    height: 141
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: lv
-    x: 0
-    y: 464
+    x: 1617
+    y: 3361
     width: 319
     height: 30
     borderLeft: 0
@@ -120,8 +172,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: lv0
-    x: 320
-    y: 475
+    x: 1704
+    y: 3301
     width: 238
     height: 19
     borderLeft: 0
@@ -132,9 +184,22 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: merryship
+    x: 694
+    y: 2335
+    width: 693
+    height: 736
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: midle
-    x: 684
-    y: 1274
+    x: 0
+    y: 2297
     width: 693
     height: 774
     borderLeft: 0
@@ -146,8 +211,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mute
-    x: 536
-    y: 944
+    x: 1904
+    y: 3937
     width: 94
     height: 79
     borderLeft: 0
@@ -159,8 +224,21 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mutepressed
-    x: 528
-    y: 626
+    x: 1890
+    y: 3785
+    width: 86
+    height: 72
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mutepressing
+    x: 1617
+    y: 3248
     width: 86
     height: 72
     borderLeft: 0
@@ -172,8 +250,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: onepiece
-    x: 0
-    y: 839
+    x: 1368
+    y: 3912
     width: 535
     height: 184
     borderLeft: 0
@@ -184,9 +262,22 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: picopiece
+    x: 1368
+    y: 3745
+    width: 521
+    height: 166
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 14
+    paddingRight: 12
+    paddingTop: 11
+    paddingBottom: 7
   - name: play
-    x: 0
-    y: 586
+    x: 1642
+    y: 3490
     width: 278
     height: 112
     borderLeft: 0
@@ -198,8 +289,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: playpressed
-    x: 279
-    y: 598
+    x: 1368
+    y: 3383
     width: 248
     height: 100
     borderLeft: 0
@@ -210,9 +301,35 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: playpressing
+    x: 1368
+    y: 3282
+    width: 248
+    height: 100
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: quang cao
+    x: 1617
+    y: 3392
+    width: 305
+    height: 38
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: sound
-    x: 536
-    y: 864
+    x: 1904
+    y: 4017
     width: 94
     height: 79
     borderLeft: 0
@@ -224,8 +341,21 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: soundpressed
-    x: 584
-    y: 766
+    x: 1954
+    y: 3672
+    width: 86
+    height: 72
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: soundpressing
+    x: 1921
+    y: 3530
     width: 86
     height: 72
     borderLeft: 0
