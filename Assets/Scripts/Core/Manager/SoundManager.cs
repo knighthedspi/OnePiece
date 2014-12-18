@@ -7,6 +7,7 @@ public class SoundManager  : Singleton<SoundManager> {
 
 	private SoundVolume volume = new SoundVolume();
 
+	public static bool isSound = false;
 	public int numberOfConcurrentSE = 30;
 	public int numberOfConcurrentENV = 3;
 
@@ -33,10 +34,11 @@ public class SoundManager  : Singleton<SoundManager> {
 		audioSources = GameObjectUtility.AddChild("Audio Sources", gameObject);
 		BGMsource    = GameObjectUtility.AddChild<AudioSource>("BGM", audioSources);
 		BGMsource.loop = true;
-		
-		volume.BGM	 = PlayerPrefs.GetFloat("bgm_value",   1f);
-		volume.SE    = PlayerPrefs.GetFloat("se_value",    1f);
-		volume.VOICE = PlayerPrefs.GetFloat("voice_value", 1f);
+
+		isSound = PlayerPrefs.GetInt("isSound",1) == 1 ? true : false;
+//		volume.BGM	 = PlayerPrefs.GetFloat("bgm_value",   1f);
+//		volume.SE    = PlayerPrefs.GetFloat("se_value",    1f);
+//		volume.VOICE = PlayerPrefs.GetFloat("voice_value", 1f);
 	
         enabledSEsources = new LinkedList<AudioSE>();
         cachedSEsources = new Queue<AudioSE>();
@@ -83,6 +85,8 @@ public class SoundManager  : Singleton<SoundManager> {
 	}
 
 	public void PlayBGM(AudioClip clip) {
+		if(!isSound)
+			return;
 		if(BGMsource.clip == clip)
 			return;
 		BGMsource.Stop();
@@ -123,6 +127,8 @@ public class SoundManager  : Singleton<SoundManager> {
 	}
 
     public AudioSE PlaySE(AudioClip clip, float volume = 1f) {
+		if(!isSound)
+			return null;
         AudioSE se;
         if(enabledSEsources.Count >= numberOfConcurrentSE) {
             se = enabledSEsources.First.Value;
@@ -143,6 +149,8 @@ public class SoundManager  : Singleton<SoundManager> {
     }
 
     public void PlaySE(AudioSE se) {
+		if(!isSound)
+			return;
         if(enabledSEsources.Count >= numberOfConcurrentSE) {
             se = enabledSEsources.First.Value;
             enabledSEsources.RemoveFirst();
@@ -177,6 +185,8 @@ public class SoundManager  : Singleton<SoundManager> {
 	}
 
     public void PlayENV(AudioClip clip) {
+		if(!isSound)
+			return;
         AudioSource source;
         if(enabledENVsources.Count >= numberOfConcurrentENV) {
             source = enabledENVsources.First.Value;

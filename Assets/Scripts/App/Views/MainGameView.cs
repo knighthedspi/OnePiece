@@ -60,7 +60,12 @@ public class MainGameView : OnePieceView {
 
     private void OnSSBtnClick()
     {
-        //#TODO setting sound
+		SoundManager.isSound = !SoundManager.isSound;
+		PlayerPrefs.SetInt("isSound",SoundManager.isSound ? 1 : 0 );
+		if (SoundManager.isSound)
+			SoundManager.Instance.PlayBGM("bgm_rainy_ray_games");
+		else
+			SoundManager.Instance.StopBGM();
     }
 
 
