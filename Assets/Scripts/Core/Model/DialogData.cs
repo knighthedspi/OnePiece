@@ -7,7 +7,7 @@ public enum DialogType
 	DialogTwoButton,
     DialogResult,
     DialogHighScore,
-	DialogPause
+	DialogPause,
     DialogLevelUp,
 }
 
