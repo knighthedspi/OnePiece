@@ -16,6 +16,7 @@ public class MonsterService{
 		monster.transform.localPosition = localPosition;
 		monster.transform.localRotation = Quaternion.Euler(direction);
 		monster.transform.localScale = Config.COMMON_LOCAL_SCALE;
+		monster.layer = parent.layer;
 		return monster;
 	}
 
@@ -31,12 +32,10 @@ public class MonsterService{
 	public MonsterController createMonster(OPCharacter model, string tag, GameObject parent, Vector3 localPosition, Vector3 direction)
 	{
 		OPDebug.Log(model.CharacterName + " is loaded!!!");
-		GameObject monsterObj = (GameObject) GameObject.Instantiate(Resources.Load(Config.MONSTER_RESOURCE_PREFIX + model.CharacterName));
-		monsterObj.transform.parent = parent.transform;
+		GameObject monsterObj = NGUITools.AddChild(parent, Resources.Load(Config.MONSTER_RESOURCE_PREFIX + model.CharacterName) as GameObject);
 		monsterObj.transform.localPosition = localPosition;
 		monsterObj.transform.localRotation = Quaternion.Euler(direction);
 		monsterObj.transform.localScale = Config.COMMON_LOCAL_SCALE;
-		monsterObj.tag = tag;
 		MonsterController monster = monsterObj.GetComponentInChildren<MonsterController>();
 		if(monster == null)
 			throw new UnityException("Could not load monster " + model.CharacterName);
@@ -58,12 +57,10 @@ public class MonsterService{
 	public MonsterController loadCurrentMonster(string monsterName, float initialHP, float currentHP, string tag, GameObject parent, Vector3 localPosition, Vector3 direction)
 	{
 		OPDebug.Log("Load current monster " + monsterName);
-		GameObject monsterObj = (GameObject) GameObject.Instantiate(Resources.Load(Config.MONSTER_RESOURCE_PREFIX + monsterName));
-		monsterObj.transform.parent = parent.transform;
+		GameObject monsterObj = NGUITools.AddChild(parent, Resources.Load(Config.MONSTER_RESOURCE_PREFIX + monsterName) as GameObject);
 		monsterObj.transform.localPosition = localPosition;
 		monsterObj.transform.localRotation = Quaternion.Euler(direction);
 		monsterObj.transform.localScale = Config.COMMON_LOCAL_SCALE;
-		monsterObj.tag = tag;
 		MonsterController monster = monsterObj.GetComponentInChildren<MonsterController>();
 		if(monster == null)
 			throw new UnityException("Could not load monster " + monsterName);

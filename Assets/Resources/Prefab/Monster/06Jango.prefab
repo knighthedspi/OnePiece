@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400002}
   - 114: {fileID: 11400002}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: Monster_HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,7 +25,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400004}
   - 114: {fileID: 11400004}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: Monster_HP_Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
   - 54: {fileID: 5400000}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: MonsterHP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60,7 +60,7 @@ GameObject:
   - 95: {fileID: 9500000}
   - 212: {fileID: 21200000}
   - 114: {fileID: 11400006}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: Monster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400008}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: 06Jango
   m_TagString: Untagged
   m_Icon: {fileID: 0}

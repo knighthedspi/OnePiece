@@ -578,22 +578,19 @@ public class GamePlayView : OnePieceView {
         _expCount = _user.LevelId + 20;
         _user.Exp += _expCount;
 
-		//#TODO check high score if has
+		resetCombo();
+		resetFever();
+
 		if(_userService.isHighScore(_user, totalScore)) {
-			//#TODO Show dialog high score
-            //calculate bonus point
-            _user.HighScore = _scorePoint;
+		    _user.HighScore = _scorePoint;
             loadHighScoreDialog(_user.HighScore);
 		}
-		//#TODO check leveup if has
 		if(_userService.isLevelUp(_user)) {
             _user.LevelId += 1;
             loadLevelUpDialog(_user.LevelId);
 		}
 
-        //#TODO show load result
-        // int score, int bonusScore, int highScore, int belly, int bonusBelly, int level, int exp, int expFillAmount
-        loadResultDialog(totalScore, bonusScore, _user.HighScore, _user.Belly, totalBelly, _user.Exp, LevelService.Instance.fillAmount(_user));
+  		loadResultDialog(totalScore, bonusScore, _user.HighScore, _user.Belly, totalBelly, _user.Exp, LevelService.Instance.fillAmount(_user));
 
 		saveGameState(totalBelly);
 		yield return 0;
