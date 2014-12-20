@@ -76,7 +76,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   m_Layer: 8
-  m_Name: 10Donkrieg
+  m_Name: 09Smoker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -352,7 +352,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5a022e73025ec41ab9c9893c602178fc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 039298c479d144711b2b74af67d1acb4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:

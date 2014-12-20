@@ -44,7 +44,7 @@ public partial class GamePlayService{
 	//            5. Fever time
 	//            Score 1 lần ăn
 	//            
-	//            score = a * 2^(block -3) + (combo + b)
+	//            score = a * 2*(block -3) + (combo + b)
 	//            trong đó
 	//            Block: số block ăn được trong 1 lần vuốt
 	//            combo: số lượng combo hiện tại
@@ -58,7 +58,7 @@ public partial class GamePlayService{
 	{
 		if(numBlocks < 3)
 			return (combo + b);
-		return (a * (2 << (numBlocks - 3)) + (combo + b));
+		return (a * (2 * (numBlocks - 3)) + (combo + b));
 	}
 	
 	/// <summary>
@@ -68,7 +68,7 @@ public partial class GamePlayService{
 	//            3. Ắn 5 block: 2
 	//            4. Ăn 6 block: 4
 	//            
-	//            belly = 2^(num_block - 4)
+	//            belly = 2*(num_block - 4)
 	/// </summary>
 	/// <returns>The belly.</returns>
 	/// <param name="numBlocks">Number blocks.</param>
@@ -77,7 +77,7 @@ public partial class GamePlayService{
 		if(numBlocks < 4) {
 			return 0;
 		}
-		return 2 << (numBlocks - 4);
+		return 2 * (numBlocks - 4);
 	}
 
 }

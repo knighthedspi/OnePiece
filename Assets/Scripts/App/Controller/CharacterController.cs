@@ -84,7 +84,7 @@ public class CharacterController : MonoBehaviour {
 	{
 		this.currentHP -= amount;
 		this.UIMonsterHp.fillAmount = this.currentHP / this.initialHP;
-		OPDebug.Log("current HP is " + currentHP);
+//		OPDebug.Log("current HP is " + currentHP);
 	}
 
 	/// <summary>
