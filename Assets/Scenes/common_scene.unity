@@ -283,6 +283,49 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1566544844}
   m_RootOrder: 5
+--- !u!1 &732331158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 732331159}
+  - 114: {fileID: 732331160}
+  m_Layer: 0
+  m_Name: GoogelAnalyticsMG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &732331159
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 732331158}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .0235295296, y: .0854574442, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1566544844}
+  m_RootOrder: 8
+--- !u!114 &732331160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 732331158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d5cd24b0d0ed4feba5824f8fb629ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propertyID: UA-57896605-1
+  bundleID: vn.ktech.picopiece
+  appName: picopiece
+  appVersion: 1
 --- !u!1 &971055918
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,6 +434,7 @@ Transform:
   - {fileID: 670522385}
   - {fileID: 657944710}
   - {fileID: 1980580901}
+  - {fileID: 732331159}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!1 &1638582029

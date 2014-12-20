@@ -67,7 +67,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  iPhoneBundleIdentifier: onepiece.vn.onepiecepuzzle
+  iPhoneBundleIdentifier: vn.ktech.picopiece
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   productGUID: 2b0265783a320e74da6075bebf5b6627
