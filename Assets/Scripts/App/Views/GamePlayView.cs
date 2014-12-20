@@ -26,6 +26,7 @@ public class GamePlayView : OnePieceView {
 	public      GameObject 									panel;
 	public      GameObject 									hintPanel;
 	public      GameObject 									board;
+	public		UITexture									background;
 	public      Block 										blocksPrefab;
 	public      UISprite 									UI_TimerBar;
 	public		NumberLabel									timeUpLabel;
@@ -127,6 +128,7 @@ public class GamePlayView : OnePieceView {
 		count_down_time = _gameSetup.count_down_time;
 	 	// TODO : get player attack point from DB
 		_playerAttackPoint = 100;
+		background.mainTexture = Resources.Load(Config.BACKGROUND_TEXTURE_PREFIX + AppManager.Instance.user.LevelId) as Texture;
 		timeUpLabel.gameObject.GetComponent<TimeUpController>().Finish = OnFinishCountDown;
 	}
 

@@ -40,6 +40,7 @@ public static class Config
 	public const string					PARTICLE_RESOURCE_PREFIX		= "Prefab/particle/";
 	public const string					UI_RESOURCE_PREFIX				= "Prefab/UI/";
 	public const string 				EFFECT_PATH						= "Prefab/Effect/";
+	public const string					BACKGROUND_TEXTURE_PREFIX		= "Texture/Background/bg";
 
 	public static readonly Vector3		CHARACTER_POSITION				= new Vector3(-100, 290, 0);
 	public static readonly Vector3 		CHARACTER_DIRECTION				= Vector3.zero;
