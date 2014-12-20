@@ -458,6 +458,17 @@ public class GamePlayView : OnePieceView {
         DialogResult.Create(_scorePoint, _user.HighScore, _expCount, _beriCount, bonusBelly, _user.Exp/(_user.Exp * 2 + 1), OnOkClick);
 	}
 
+    private void loadHighScoreDialog(int highScore)
+    {
+        DialogHighScore.Create(highScore, OnOkClick);
+    }
+
+    private void loadLevelUpDialog(int level)
+    {
+        DialogLevelUp.Create(level, OnOkClick);
+    }
+
+
 	private void OnOkClick()
 	{
         //#TODO close dialog
@@ -571,11 +582,14 @@ public class GamePlayView : OnePieceView {
 		//#TODO check high score if has
 		if(_userService.isHighScore(_user, _scorePoint)) {
 			//#TODO Show dialog high score
+            //calculate bonus point
+            _user.HighScore = _scorePoint;
+            loadHighScoreDialog(_user.HighScore);
 		}
 		//#TODO check leveup if has
 		if(_userService.isLevelUp(_user)) {
             _user.LevelId += 1;
-			//#TODO Show dialog high score
+            loadLevelUpDialog(_user.LevelId);
 		}
 
 		saveGameState();

@@ -152,6 +152,7 @@ GameObject:
   - 4: {fileID: 400032}
   - 114: {fileID: 11400026}
   - 54: {fileID: 5400000}
+  - 114: {fileID: 11400008}
   m_Layer: 5
   m_Name: DialogLevelUp
   m_TagString: Untagged
@@ -560,6 +561,17 @@ MonoBehaviour:
   disabledSprite2D: {fileID: 0}
   pixelSnap: 0
   onClick: []
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ea850d7ba6d2461e847c4de9203b169, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11400014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -696,7 +708,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3002
+  startingRenderQueue: 3000
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 300, w: 200}
@@ -736,7 +748,7 @@ MonoBehaviour:
   mPivot: 4
   mWidth: 268
   mHeight: 50
-  mDepth: 1
+  mDepth: 2
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
@@ -786,7 +798,7 @@ MonoBehaviour:
   mPivot: 4
   mWidth: 640
   mHeight: 72
-  mDepth: 0
+  mDepth: 1
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
