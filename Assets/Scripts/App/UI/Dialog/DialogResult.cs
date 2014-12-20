@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class DialogResult : DialogBase {
 
+	public NumberLabel numberLabel;
 	// Use this for initialization
 	void Start () {
 	
@@ -11,6 +13,14 @@ public class DialogResult : DialogBase {
 	// Update is called once per frame
 	void Update () {
 	
+	}
+
+	public override void InitUI ()
+	{
+		base.InitUI ();
+		int score = (!dialogData.textData.ContainsKey ("ScoreLbl")) ? 0 : Int32.Parse (dialogData.textData ["ScoreLbl"]);
+		Debug.Log("Result-----------------" + score.ToString());
+		numberLabel.setNumberTo (score);
 	}
 
     public static void Create(int score, int bonusScore, int highScore, int userBelly, int belly, int level, float expFillAmount, EventDelegate.Callback callBack)

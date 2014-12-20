@@ -26,6 +26,7 @@ public class GamePlayView : OnePieceView {
 	public      GameObject 									panel;
 	public      GameObject 									hintPanel;
 	public      GameObject 									board;
+	public		UITexture									background;
 	public      Block 										blocksPrefab;
 	public      UISprite 									UI_TimerBar;
 	public		NumberLabel									timeUpLabel;
@@ -128,7 +129,7 @@ public class GamePlayView : OnePieceView {
 		stage_time = remain_time;
 		gameState = GameState.GAME_START;
 		count_down_time = _gameSetup.count_down_time;
-	 	
+		background.mainTexture = Resources.Load(Config.BACKGROUND_TEXTURE_PREFIX + AppManager.Instance.user.LevelId) as Texture;
 		timeUpLabel.gameObject.GetComponent<TimeUpController>().Finish = OnFinishCountDown;
 	}
 
@@ -375,11 +376,6 @@ public class GamePlayView : OnePieceView {
 			Time.timeScale = 0.0f;
 			DialogPause.Create(continueAction, returnMainAction, retryAction);
 		}
-//		else
-//		{
-//			Time.timeScale = 1.0f;
-//			DialogManager.Instance.Complete();
-//		}
 	}
 
 	protected virtual void continueAction()
