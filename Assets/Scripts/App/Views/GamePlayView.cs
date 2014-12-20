@@ -371,11 +371,6 @@ public class GamePlayView : OnePieceView {
 			Time.timeScale = 0.0f;
 			DialogPause.Create(continueAction, returnMainAction, retryAction);
 		}
-//		else
-//		{
-//			Time.timeScale = 1.0f;
-//			DialogManager.Instance.Complete();
-//		}
 	}
 
 	protected virtual void continueAction()

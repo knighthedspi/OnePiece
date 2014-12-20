@@ -54,6 +54,7 @@ public class NumberLabel : MonoBehaviour {
 	public void setNumberTo(int toN){
 		Debug.Log("OK -------------------");
 		_toN = toN;
+		_number = _toN / 2 >= 100 ? (_toN /2) : 100;
 	}
 
 	//add target number.
