@@ -22,6 +22,7 @@ test-results/
 Assets/test-results/*
 Assets/StreamingAssets/test_user.db
 Assets/StreamingAssets/test_user.db.meta
+Assets/PersistentDataPath/*
 onepieceand.apk
 Assets/PersistentDataPath/master.db
 Assets/PersistentDataPath/user.db

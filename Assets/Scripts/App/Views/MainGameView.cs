@@ -31,6 +31,9 @@ public class MainGameView : OnePieceView {
         user = AppManager.Instance.user;
         BeriLbl.text = user.Belly.ToString();
         LevelGuage.fillAmount = LevelService.Instance.fillAmount(user);
+        // Reports that the user is viewing the Main Menu
+        if (GoogleAnalytics.instance)
+            GoogleAnalytics.instance.LogScreen("MainGameView");
 	}
 
 	private void OnInviteBtnClick()

@@ -115,6 +115,8 @@ public class GamePlayView : OnePieceView {
 		InitializeGameService();
 		loadCharacters();	
 		playCountDownAnim();
+        if (GoogleAnalytics.instance)
+            GoogleAnalytics.instance.LogScreen("GamePlayView");
 	}
 
 	private void InitializeGameStatement()
