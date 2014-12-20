@@ -26,14 +26,13 @@ public class UserService
 
     public bool isLevelUp(OPUser user)
     {
-        return true;
+//        return true;
         OPLevel curLevel = LevelService.Instance.GetUserLevel(user);
         return LevelService.Instance.IsLevelUp(curLevel, user.Exp);
     }
 	
     public bool isHighScore(OPUser user,int score)
     {
-        return true;
         if (score > user.HighScore)
 		{
 			user.HighScore = score;
