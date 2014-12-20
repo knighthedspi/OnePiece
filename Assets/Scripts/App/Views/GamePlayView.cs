@@ -66,6 +66,9 @@ public class GamePlayView : OnePieceView {
 	private 	float										_stepTime				= 0;
 	protected	float										count_down_time			;			
 	private		int											_currentMonsterId		;
+
+    private     int                                         LEVEL_EPX = 200;
+    private     int                                         ATTACK_POINT = 10;
 	#endregion 	GAME_STATEMENT
 
 	#region 	MONSTER_OBJECTS
@@ -125,8 +128,7 @@ public class GamePlayView : OnePieceView {
 		stage_time = remain_time;
 		gameState = GameState.GAME_START;
 		count_down_time = _gameSetup.count_down_time;
-	 	// TODO : get player attack point from DB
-		_playerAttackPoint = 100;
+	 	
 		timeUpLabel.gameObject.GetComponent<TimeUpController>().Finish = OnFinishCountDown;
 	}
 
@@ -136,9 +138,10 @@ public class GamePlayView : OnePieceView {
 		_service.initialize( board, panel, camera, effectParticle, Dotting, ConnectLine);
 		_userService = UserService.Instance;
 		_user = AppManager.Instance.User;
-	}
-
-	//TODO : load from previous stage
+        _playerAttackPoint = ATTACK_POINT + _user.LevelId;
+    }
+    
+    //TODO : load from previous stage
 	private void loadCharacters()
 	{
 		_service.loadMonters(initMonsterPosition(), Vector3.zero, ref _monsterList);
@@ -298,8 +301,9 @@ public class GamePlayView : OnePieceView {
 	{
 		OPDebug.Log("update score with count of block is " + destroyedBlocks + " and combo is " + _currentCombo + "; start combo is " + _startCombo);
 		if(_startCombo)
-			increaseCombo();	
-		
+			increaseCombo();
+        Debug.Log("destroyed blogk" + destroyedBlocks);
+        Debug.Log(_service.calculateScore(destroyedBlocks, _currentCombo, _gameSetup.scoreRatio1, _gameSetup.scoreRatio2));
 		_scorePoint += _service.calculateScore(destroyedBlocks, _currentCombo, _gameSetup.scoreRatio1, _gameSetup.scoreRatio2);
 		_bellyCount += _service.calculateBelly(destroyedBlocks);
 		_expCount += _service.calculateExp(destroyedBlocks);
@@ -575,7 +579,7 @@ public class GamePlayView : OnePieceView {
         int bonusBelly = _bellyCount * (1 + (10+ _user.LevelId)/100);
         int totalBelly = _bellyCount + bonusBelly;
 
-        _expCount = _user.LevelId + 20;
+        _expCount = _user.LevelId * 2 + LEVEL_EPX;
         _user.Exp += _expCount;
 
 		resetCombo();

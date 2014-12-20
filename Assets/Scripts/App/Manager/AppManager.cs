@@ -36,13 +36,13 @@ public class AppManager : Singleton<AppManager>
 		this.gameSetup.blockSize 			= new Vector2(80, 80) ;
 		this.gameSetup.boardPadding			= new Vector2(0, 0) ;
 		this.gameSetup.blockMargin			= new Vector2(-4, -6);
-		this.gameSetup.stage_time 			= 15;
+		this.gameSetup.stage_time 			= 60;
 		this.gameSetup.hintTime 			= 5;
 		this.gameSetup.scoreRatio1 			= 20;
 		this.gameSetup.scoreRatio2 			= 50;
 		this.gameSetup.comboStepTime 		= 5;
 		this.gameSetup.feverLimit 			= 5;
-		this.gameSetup.feverStepTime 		= 5;
+		this.gameSetup.feverStepTime 		= 2;
 		this.gameSetup.deltaMonsterPos 		= 300;
 		this.gameSetup.listBlockTypes 		= new BlockType[5]
 												{
