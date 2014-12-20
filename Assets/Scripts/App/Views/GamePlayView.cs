@@ -454,14 +454,18 @@ public class GamePlayView : OnePieceView {
 
     private void loadHighScoreDialog(int highScore)
     {
-        DialogHighScore.Create(highScore, OnOkClick);
+        DialogHighScore.Create(highScore, OnOkClickNull);
     }
 
     private void loadLevelUpDialog(int level)
     {
-        DialogLevelUp.Create(level, OnOkClick);
+        DialogLevelUp.Create(level, OnOkClickNull);
     }
 
+    private void OnOkClickNull()
+    {
+        DialogManager.Instance.Complete();
+    }
 
 	private void OnOkClick()
 	{
