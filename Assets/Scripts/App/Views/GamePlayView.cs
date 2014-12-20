@@ -57,7 +57,7 @@ public class GamePlayView : OnePieceView {
 	private     bool 										_isPaused;
 	protected   int 										_currentCombo 			= 0;
 	private 	int 										_expCount;
-	private 	int 										_beriCount				= 0;		
+	private 	int 										_bellyCount				= 0;		
 	private 	int 										_scorePoint				= 0;
 	private 	bool 										_startCombo				= false;
 	private 	float 										_comboTime				= 0;
@@ -301,10 +301,10 @@ public class GamePlayView : OnePieceView {
 			increaseCombo();	
 		
 		_scorePoint += _service.calculateScore(destroyedBlocks, _currentCombo, _gameSetup.scoreRatio1, _gameSetup.scoreRatio2);
-		_beriCount += _service.calculateBelly(destroyedBlocks);
+		_bellyCount += _service.calculateBelly(destroyedBlocks);
 		_expCount += _service.calculateExp(destroyedBlocks);
 		scoreLabel.setText(_scorePoint.ToString());
-		beriLabel.setText(_beriCount.ToString());
+		beriLabel.setText(_bellyCount.ToString());
 	}
 	
 	protected virtual void updateTimer(){
@@ -446,17 +446,22 @@ public class GamePlayView : OnePieceView {
 		}
 	}
 
-	protected virtual void loadResultDialog()
+	protected virtual void loadResultDialog(int score, int bonusScore, int highScore, int userBelly, int belly, int level, float expFillAmount)
 	{
-		//#TODO pass parameter
-		//#TODO animation bonus score
-        int bonusScore = _scorePoint * ((5+_user.LevelId)/100);
-        _scorePoint += bonusScore;
-        int bonusBelly = _beriCount * ((10+ _user.LevelId)/100);
-        _beriCount += bonusBelly;
-
-        DialogResult.Create(_scorePoint, _user.HighScore, _expCount, _beriCount, bonusBelly, _user.Exp/(_user.Exp * 2 + 1), OnOkClick);
+        Debug.LogError(bonusScore);
+        DialogResult.Create(score, bonusScore, highScore, userBelly, belly, level, expFillAmount, OnOkClick);
 	}
+
+    private void loadHighScoreDialog(int highScore)
+    {
+        DialogHighScore.Create(highScore, OnOkClick);
+    }
+
+    private void loadLevelUpDialog(int level)
+    {
+        DialogLevelUp.Create(level, OnOkClick);
+    }
+
 
 	private void OnOkClick()
 	{
@@ -560,34 +565,39 @@ public class GamePlayView : OnePieceView {
 	#region 	CLEAR_STATE 
 	protected virtual IEnumerator TimeUp()
 	{
-//		timeUpLabel.gameObject.SetActive(true);
-//		TweenAlpha.Begin(timeUpLabel.gameObject, 1.0f, 1f);
-//		TweenPosition.Begin(timeUpLabel.gameObject, 1.0f, new Vector3(0, 0, 0));
-//		yield return new WaitForSeconds(3f);
-//		
-//		TweenAlpha.Begin(timeUpLabel.gameObject, 1.5f, 0f);
-//		yield return new WaitForSeconds(2f);
+
+        int bonusScore = _scorePoint * (1 + (5+_user.LevelId)/100);
+        int totalScore = _scorePoint + bonusScore;
+        int bonusBelly = _bellyCount * (1 + (10+ _user.LevelId)/100);
+        int totalBelly = _bellyCount + bonusBelly;
+
+        _expCount = _user.LevelId + 20;
+        _user.Exp += _expCount;
 
 		//#TODO check high score if has
-		if(_userService.isHighScore(_user, _scorePoint)) {
+		if(_userService.isHighScore(_user, totalScore)) {
 			//#TODO Show dialog high score
+            //calculate bonus point
+            _user.HighScore = _scorePoint;
+            loadHighScoreDialog(_user.HighScore);
 		}
 		//#TODO check leveup if has
 		if(_userService.isLevelUp(_user)) {
             _user.LevelId += 1;
-			//#TODO Show dialog high score
+            loadLevelUpDialog(_user.LevelId);
 		}
 
-		saveGameState();
+        //#TODO show load result
+        // int score, int bonusScore, int highScore, int belly, int bonusBelly, int level, int exp, int expFillAmount
+        loadResultDialog(totalScore, bonusScore, _user.HighScore, _user.Belly, totalBelly, _user.Exp, LevelService.Instance.fillAmount(_user));
 
-		//#TODO show load result
-		loadResultDialog();
+		saveGameState(totalBelly);
 		yield return 0;
 	}
 
-	private void saveGameState()
+	private void saveGameState(int totalBelly)
 	{
-		_userService.increaseBelly(_user, _beriCount);
+		_userService.increaseBelly(_user, totalBelly);
 		int currentMonsterId = _currentMonster != null ? _currentMonsterId : (_currentMonsterId + 1);
 		_user.CurrentMonsterID = _currentMonsterId;
 		_userService.updateState(_user, _currentMonster);

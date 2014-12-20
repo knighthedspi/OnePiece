@@ -26,6 +26,7 @@ public class UserService
 
     public bool isLevelUp(OPUser user)
     {
+//        return true;
         OPLevel curLevel = LevelService.Instance.GetUserLevel(user);
         return LevelService.Instance.IsLevelUp(curLevel, user.Exp);
     }

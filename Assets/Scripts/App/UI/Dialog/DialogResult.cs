@@ -13,18 +13,20 @@ public class DialogResult : DialogBase {
 	
 	}
 
-    public static void Create(int score, int highScore, int bonusExp, int belly, int bonusBelly, float expAmount,EventDelegate.Callback callBack,string title= "", string button_label = "")
+    public static void Create(int score, int bonusScore, int highScore, int userBelly, int belly, int level, float expFillAmount, EventDelegate.Callback callBack)
     {
+        Debug.LogError(bonusScore);
         DialogData dialogData = new DialogData ();
         dialogData.dialogType = DialogType.DialogResult;
 //        BeriLbl
         //#TODO exp
-        dialogData.textData.Add("BeriLbl", belly.ToString());
+        dialogData.textData.Add("BellyLbl", userBelly.ToString());
         dialogData.textData.Add("ScoreLbl", score.ToString());
         dialogData.textData.Add("BestScoreLbl", "High Score: " + highScore.ToString());
-        dialogData.textData.Add("BonusBelly", bonusBelly.ToString());
-        dialogData.textData.Add("BonusExp", bonusExp.ToString());
-        dialogData.textData.Add("Level_guage", expAmount.ToString());
+        dialogData.textData.Add("BonusScore", bonusScore.ToString());
+        dialogData.textData.Add("Belly", belly.ToString());
+        //#TODO lam sao de add float?
+        dialogData.textData.Add("Level_guage", expFillAmount.ToString());
         dialogData.eventData.Add ("CloseBtn", callBack);
         DialogManager.Instance.OpenDialog (dialogData);
     }
