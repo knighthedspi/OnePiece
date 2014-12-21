@@ -533,12 +533,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scalingStyle: 2
-  manualWidth: 1280
-  manualHeight: 720
+  manualWidth: 720
+  manualHeight: 1280
   minimumHeight: 1280
   maximumHeight: 720
   fitWidth: 0
-  fitHeight: 1
+  fitHeight: 0
   adjustByDPI: 0
   shrinkPortraitUI: 0
 --- !u!114 &11400012
