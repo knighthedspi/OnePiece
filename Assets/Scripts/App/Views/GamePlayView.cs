@@ -352,8 +352,9 @@ public class GamePlayView : OnePieceView {
 
 
 	protected virtual void updateFever(){
-		if(_startFever)
-			_feverTime += Time.deltaTime;
+		if(!_startFever)
+			return;
+		_feverTime += Time.deltaTime;
 		if(_feverTime >= _gameSetup.feverStepTime)
 			resetFever();
 		updateFeverUI();
@@ -536,8 +537,6 @@ public class GamePlayView : OnePieceView {
 		_comboTime = 0;
 		if(_currentCombo > _gameSetup.feverLimit && !_startFever)
 			startFever();		
-		if(_startFever)
-			_feverTime = 0;
 	}
 
 	// TODO : improve fever animation
@@ -545,7 +544,7 @@ public class GamePlayView : OnePieceView {
 	{
 		_startFever = true;
 		_feverTime = 0.0f;
-
+	
 		feverLabel.text = "Fever time";
 		feverAnimator.Play(Config.FEVER_ANIM);
 		boardAnimator.SetBool("startFever", true);

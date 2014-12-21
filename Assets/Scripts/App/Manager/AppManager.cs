@@ -40,9 +40,9 @@ public class AppManager : Singleton<AppManager>
 		this.gameSetup.hintTime 			= 5;
 		this.gameSetup.scoreRatio1 			= 20;
 		this.gameSetup.scoreRatio2 			= 50;
-		this.gameSetup.comboStepTime 		= 5;
+		this.gameSetup.comboStepTime 		= 2;
 		this.gameSetup.feverLimit 			= 5;
-		this.gameSetup.feverStepTime 		= 2;
+		this.gameSetup.feverStepTime 		= 5;
 		this.gameSetup.deltaMonsterPos 		= 300;
 		this.gameSetup.listBlockTypes 		= new BlockType[5]
 												{
