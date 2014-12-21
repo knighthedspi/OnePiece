@@ -106,7 +106,7 @@ public class GamePlayView : OnePieceView {
 
 	protected override void OnOpen (params object[] parameters)
 	{
-		SoundManager.Instance.PlayBGM("bgm_hemispheres");
+		SoundManager.Instance.PlayBGM("bgm_hemispheres",0.6f);
 	}
 
 	protected virtual void Initialize()
@@ -352,8 +352,9 @@ public class GamePlayView : OnePieceView {
 
 
 	protected virtual void updateFever(){
-		if(_startFever)
-			_feverTime += Time.deltaTime;
+		if(!_startFever)
+			return;
+		_feverTime += Time.deltaTime;
 		if(_feverTime >= _gameSetup.feverStepTime)
 			resetFever();
 		updateFeverUI();
@@ -450,7 +451,6 @@ public class GamePlayView : OnePieceView {
 
 	protected virtual void loadResultDialog(int score, int bonusScore, int highScore, int userBelly, int belly, int level, float expFillAmount)
 	{
-        Debug.LogError(bonusScore);
         DialogResult.Create(score, bonusScore, highScore, userBelly, belly, level, expFillAmount, OnOkClick);
 	}
 
@@ -536,8 +536,6 @@ public class GamePlayView : OnePieceView {
 		_comboTime = 0;
 		if(_currentCombo > _gameSetup.feverLimit && !_startFever)
 			startFever();		
-		if(_startFever)
-			_feverTime = 0;
 	}
 
 	// TODO : improve fever animation
@@ -545,7 +543,7 @@ public class GamePlayView : OnePieceView {
 	{
 		_startFever = true;
 		_feverTime = 0.0f;
-
+	
 		feverLabel.text = "Fever time";
 		feverAnimator.Play(Config.FEVER_ANIM);
 		boardAnimator.SetBool("startFever", true);
@@ -572,9 +570,9 @@ public class GamePlayView : OnePieceView {
 	protected virtual IEnumerator TimeUp()
 	{
 
-        int bonusScore = _scorePoint * (1 + (5+_user.LevelId)/100);
+        int bonusScore = (int)(_scorePoint * (5.0f+_user.LevelId)/100.0f);
         int totalScore = _scorePoint + bonusScore;
-        int bonusBelly = _bellyCount * (1 + (10+ _user.LevelId)/100);
+        int bonusBelly = (int)(_bellyCount * ((10.0f+ _user.LevelId)/100.0f));
         int totalBelly = _bellyCount + bonusBelly;
 
         _expCount = _user.LevelId * 2 + LEVEL_EPX;
@@ -584,7 +582,7 @@ public class GamePlayView : OnePieceView {
 		resetFever();
 
 		if(_userService.isHighScore(_user, totalScore)) {
-		    _user.HighScore = _scorePoint;
+            _user.HighScore = totalScore;
             loadHighScoreDialog(_user.HighScore);
 		}
 		if(_userService.isLevelUp(_user)) {
@@ -592,7 +590,7 @@ public class GamePlayView : OnePieceView {
             loadLevelUpDialog(_user.LevelId);
 		}
 
-  		loadResultDialog(totalScore, bonusScore, _user.HighScore, _user.Belly, totalBelly, _user.Exp, LevelService.Instance.fillAmount(_user));
+        loadResultDialog(totalScore, bonusScore, _user.HighScore, _user.Belly, totalBelly, _user.Exp, LevelService.Instance.fillAmount(_user));
 
 		saveGameState(totalBelly);
 		yield return 0;

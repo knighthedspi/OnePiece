@@ -20,7 +20,7 @@ public class NumberLabel : MonoBehaviour {
 	void Update () {
 		if(_toN == _number)return ;
 		Debug.Log ("toN --------------- " + _toN.ToString ());
-		int i = (_toN - _number)/50;
+		int i = (_toN - _number)/20;
 		if(i <= 0)i = 1;
 
 		if(_toN > _number){

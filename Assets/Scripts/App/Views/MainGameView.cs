@@ -20,10 +20,13 @@ public class MainGameView : OnePieceView {
 	// init in awake funtion
 	protected override void Awake(){
 		base.Awake();
+
 		UI = gameObject.AddComponent<UI>();
 		UI.AttachButton(StartBtn, OnStartBtnClicked);
         UI.AttachButton(InviteBtn, OnInviteBtnClick);
         UI.AttachButton(SoundSettingBtn, OnSSBtnClick);
+
+
 	}
 
 	protected override void Start(){
@@ -32,6 +35,7 @@ public class MainGameView : OnePieceView {
         BeriLbl.text = user.Belly.ToString();
         LevelGuage.fillAmount = LevelService.Instance.fillAmount(user);
         // Reports that the user is viewing the Main Menu
+		ChangeSpriteSoundBtn ();
         if (GoogleAnalytics.instance)
             GoogleAnalytics.instance.LogScreen("MainGameView");
 	}
@@ -68,20 +72,32 @@ public class MainGameView : OnePieceView {
 		PlayerPrefs.SetInt("isSound",SoundManager.isSound ? 1 : 0 );
 		if (SoundManager.isSound)
 		{
+			SoundManager.Instance.PlayBGM("bgm_rainy_ray_games");
+		}
+		else
+		{
+			SoundManager.Instance.StopBGM();
+		}
+		ChangeSpriteSoundBtn();
+    }
+
+	public void ChangeSpriteSoundBtn ()
+	{
+		UIButton btn = SoundSettingBtn.GetComponentInChildren<UIButton>();
+		if (SoundManager.isSound)
+		{
+
 			btn.normalSprite = "sound";
 			btn.hoverSprite = "soundpressing";
 			btn.pressedSprite = "soundpressed";
-			SoundManager.Instance.PlayBGM("bgm_rainy_ray_games");
 		}
 		else
 		{
 			btn.normalSprite = "mute";
 			btn.hoverSprite = "mutepressing";
-			btn.pressedSprite = "mutepressed";
-			SoundManager.Instance.StopBGM();
-		}
-    }
-
+            btn.pressedSprite = "mutepressed";
+        }
+	}
 
 	protected override void OnOpen (params object[] parameters)
 	{

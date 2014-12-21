@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -71,20 +71,20 @@ public class SoundManager  : Singleton<SoundManager> {
 		return false;
 	}
 	
-	public void PlayBGM(string name) {
+	public void PlayBGM(string name,float vol=1.0f) {
 		int index = BGM_list.IndexOf(name);
 		if (index >= 0)
-			PlayBGM(index);
+			PlayBGM(index,vol);
 	}
 	
-	public void PlayBGM(int index){
+	public void PlayBGM(int index,float vol){
 		if(0 > index || BGM.Length <= index)
 			return;
 		
-        PlayBGM(BGM[index]);
+        PlayBGM(BGM[index],vol);
 	}
 
-	public void PlayBGM(AudioClip clip) {
+	public void PlayBGM(AudioClip clip,float vol=1.0f) {
 		if(!isSound)
 			return;
 		if(BGMsource.clip == clip)
@@ -92,6 +92,7 @@ public class SoundManager  : Singleton<SoundManager> {
 		BGMsource.Stop();
 		BGMsource.clip = clip;
 		BGMsource.Play();
+		BGMsource.volume = vol;
 //		BGMsource.mute = true;
 	}
 
