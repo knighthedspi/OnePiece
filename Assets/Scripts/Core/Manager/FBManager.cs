@@ -230,15 +230,15 @@ public class FBManager : Singleton<FBManager>
 	public void onChallengeClicked ()
 	{ 
 		if (FB.IsLoggedIn) {
-//			FB.AppRequest (
-//				to: null,
-//				filters : "",
-//				excludeIds : null,
-//				message: "Are you ready! Lets take an adventure with luffy team!",
-//				title: "Play with me on Picopiece",
-//				callback: appRequestCallback
-//				);   
-			TakeScreenshot();
+			FB.AppRequest (
+				to: null,
+				filters : "",
+				excludeIds : null,
+				message: "Are you ready! Lets take an adventure with luffy team!",
+				title: "Play with me on Picopiece",
+				callback: appRequestCallback
+				);   
+//			TakeScreenshot();
 		} else {
 			fbNextFunc = FBNextFunc.INVITE_FUNC;
 			if(isInit)
