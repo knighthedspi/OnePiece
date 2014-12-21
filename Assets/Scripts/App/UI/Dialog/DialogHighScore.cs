@@ -31,6 +31,7 @@ public class DialogHighScore : DialogBase {
         dialogData.textData.Add("ScoreLbl", score.ToString());
         //        numberLabel.setNumberTo(score);
         dialogData.eventData.Add ("CloseBtn", callBack);
+		dialogData.eventData.Add ("fbshare", FBManager.Instance.TakeScreenshot);
         DialogManager.Instance.OpenDialog (dialogData);
     }
 }

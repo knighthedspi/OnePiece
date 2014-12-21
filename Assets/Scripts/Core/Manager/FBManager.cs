@@ -159,24 +159,41 @@ public class FBManager : Singleton<FBManager>
 	#endregion
 	
 	#region share
+	public void TakeScreenshot()
+	{
+		var snap = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
+		snap.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
+		snap.Apply();
+		var screenshot = snap.EncodeToPNG();
+		
+		var wwwForm = new WWWForm();
+		wwwForm.AddBinaryData("image", screenshot, "barcrawling.png");
+//		wwwForm.AddField("description","Share image of picopiece");
+		
+		FB.API("me/photos", Facebook.HttpMethod.POST, LogCallback, wwwForm);
+	}
+	private void LogCallback(FBResult rs)
+	{
+		Debug.Log(rs.Text);
+	}
 	public void Share ()
 	{ 
-//		string folderPath = Application.persistentDataPath;
-//		DateTime saveNow = DateTime.Now;
-//		string filename = "picoonepice.png";
-//		string filePath = folderPath+filename;
-//
-//		if(!System.IO.Directory.Exists(folderPath))
-//			System.IO.Directory.CreateDirectory(folderPath);
-//		Application.CaptureScreenshot(filePath);
+		string folderPath = Application.persistentDataPath;
+		DateTime saveNow = DateTime.Now;
+		string filename = "picoonepice.png";
+		string filePath = folderPath+filename;
+
+		if(!System.IO.Directory.Exists(folderPath))
+			System.IO.Directory.CreateDirectory(folderPath);
+		Application.CaptureScreenshot(filePath);
 		if (FB.IsLoggedIn) {
 			Debug.Log ("share facebook");                                                                                            
 			FB.Feed (
-				link: "http://gametech.vn/picoonepice.html",
+				link: "https://www.facebook.com/photo.php?fbid=863937643650345",
 				linkCaption: "Picopiece",               
 				linkName: "Ho ho ho! My best score is " + AppManager.Instance.user.HighScore + ". Play with me on Picopiece!",  
 				linkDescription : "Are you ready! Lets take an adventure with luffy team!",
-//				picture: "File://"+filePath,
+//				picture: "https://www.facebook.com/photo.php?fbid=863937643650345",
 //				picture:"http://gametech.vn/wp-content/uploads/2014/12/3DProfiler.png",
 				callback: ShareCallBack
 			); 
@@ -213,14 +230,15 @@ public class FBManager : Singleton<FBManager>
 	public void onChallengeClicked ()
 	{ 
 		if (FB.IsLoggedIn) {
-			FB.AppRequest (
-				to: null,
-				filters : "",
-				excludeIds : null,
-				message: "Are you ready! Lets take an adventure with luffy team!",
-				title: "Play with me on Picopiece",
-				callback: appRequestCallback
-				);                                                                                                                
+//			FB.AppRequest (
+//				to: null,
+//				filters : "",
+//				excludeIds : null,
+//				message: "Are you ready! Lets take an adventure with luffy team!",
+//				title: "Play with me on Picopiece",
+//				callback: appRequestCallback
+//				);   
+			TakeScreenshot();
 		} else {
 			fbNextFunc = FBNextFunc.INVITE_FUNC;
 			if(isInit)
