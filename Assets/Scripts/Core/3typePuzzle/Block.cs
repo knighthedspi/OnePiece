@@ -26,6 +26,7 @@ public class Block : MonoBehaviour {
 	
 	protected UISprite 	_uiSprite;
 	protected OPGameSetup _gameSetup;
+	protected UISprite _touchSprite;
 
 	public UISprite uiSprite 
 	{ 
@@ -55,8 +56,10 @@ public class Block : MonoBehaviour {
 	
 	void Awake()
 	{
-		_uiSprite 	= GetComponent<UISprite> ();
+		_uiSprite 	= transform.Find("MainBlock").GetComponent<UISprite> ();
 		_gameSetup 	= AppManager.Instance.gameSetup;
+		_touchSprite = transform.Find ("TouchEffect").GetComponent<UISprite> ();
+		_touchSprite.gameObject.SetActive (false);
 	}
 	
 	// Use this for initialization
@@ -105,8 +108,9 @@ public class Block : MonoBehaviour {
 	
 	public virtual void TouchDown()
 	{
-		_uiSprite.spriteName = spriteName+"_down";
+//		_uiSprite.spriteName = spriteName+"_down";
 		_scale = this.transform.localScale;
+		_touchSprite.gameObject.SetActive (true);
 		this.transform.localScale = new Vector2(
 			_scale.x + _scale.x/30,
 			_scale.y + _scale.y/30
@@ -118,6 +122,7 @@ public class Block : MonoBehaviour {
 		_uiSprite.spriteName = _spriteName;
 		if(_scale.x == 0) _scale = this.transform.localScale;
 		this.transform.localScale = new Vector2(_scale.x,_scale.y);
+		_touchSprite.gameObject.SetActive (false);
 	}
 	
 	public void moveToX(float x){
@@ -137,6 +142,8 @@ public class Block : MonoBehaviour {
 	
 	public virtual void Destroy()
 	{
+		Debug.Log("Destroy");
+		_touchSprite.gameObject.SetActive (false);
 		gameObject.Recycle ();
 	}
 	

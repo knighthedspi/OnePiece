@@ -55,8 +55,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: berry
-    x: 0
-    y: 88
+    x: 494
+    y: 381
     width: 146
     height: 55
     borderLeft: 0
@@ -107,8 +107,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: itemBoom
-    x: 472
-    y: 426
+    x: 1660
+    y: 1859
     width: 190
     height: 189
     borderLeft: 0
@@ -133,7 +133,7 @@ MonoBehaviour:
     paddingTop: 1
     paddingBottom: 1
   - name: mess
-    x: 1156
+    x: 1392
     y: 1884
     width: 267
     height: 164
@@ -146,7 +146,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: nami
-    x: 236
+    x: 258
     y: 144
     width: 235
     height: 235
@@ -159,8 +159,8 @@ MonoBehaviour:
     paddingTop: 1
     paddingBottom: 1
   - name: pause
-    x: 472
-    y: 201
+    x: 494
+    y: 437
     width: 179
     height: 178
     borderLeft: 0
@@ -172,8 +172,8 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 9
   - name: pausepressed
-    x: 472
-    y: 46
+    x: 0
+    y: 1
     width: 154
     height: 154
     borderLeft: 0
@@ -184,9 +184,22 @@ MonoBehaviour:
     paddingRight: 17
     paddingTop: 29
     paddingBottom: 17
+  - name: pressing
+    x: 0
+    y: 392
+    width: 257
+    height: 223
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: sanji
-    x: 236
-    y: 380
+    x: 0
+    y: 156
     width: 235
     height: 235
     borderLeft: 0
@@ -198,8 +211,8 @@ MonoBehaviour:
     paddingTop: 1
     paddingBottom: 1
   - name: time
-    x: 1424
-    y: 2000
+    x: 1004
+    y: 1802
     width: 296
     height: 10
     borderLeft: 0
@@ -211,8 +224,8 @@ MonoBehaviour:
     paddingTop: 23
     paddingBottom: 5
   - name: timebg
-    x: 1424
-    y: 2011
+    x: 684
+    y: 1775
     width: 319
     height: 37
     borderLeft: 0
@@ -237,8 +250,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: usop
-    x: 0
-    y: 144
+    x: 258
+    y: 380
     width: 235
     height: 235
     borderLeft: 0
@@ -250,8 +263,8 @@ MonoBehaviour:
     paddingTop: 1
     paddingBottom: 1
   - name: zoro
-    x: 0
-    y: 380
+    x: 1156
+    y: 1813
     width: 235
     height: 235
     borderLeft: 0

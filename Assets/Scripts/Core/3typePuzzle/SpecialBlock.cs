@@ -30,6 +30,7 @@ public class SpecialBlock : Block {
 
 	public override void Destroy ()
 	{
+		Debug.Log ("detroys ------- " + _isActive.ToString ());
 		if(_isActive)
 			base.Destroy ();
 	}

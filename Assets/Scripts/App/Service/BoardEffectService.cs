@@ -87,7 +87,7 @@ public partial class GamePlayService{
 	{
 		float ax = 0;
 		float ay = 0;
-		UISprite spr = node.GetComponent<UISprite>();
+		UISprite spr = node.GetComponentInChildren<UISprite>();
 		switch(spr.pivot) {
 		case UIWidget.Pivot.TopLeft:
 			ax = 0;
@@ -143,7 +143,7 @@ public partial class GamePlayService{
 	/// <param name="pos">Position.</param>
 	public bool intersectNodeToPoint(GameObject node,Vector3 pos)
 	{
-		UISprite spr = node.GetComponent<UISprite>();
+		UISprite spr = node.GetComponentInChildren<UISprite>();
 		float width = (float)spr.width;
 		float height = (float)spr.height;
 		Vector2 nodePos = getNodePos(node);
@@ -396,7 +396,7 @@ public partial class GamePlayService{
 //			__.generate(_panel, _b, _b.transform.localPosition, Config.MONSTER_POSITION);
 //			__.Finish = callback;
 
-			_b.Recycle();
+			_b.Destroy();
 
 			count++;
 		}
