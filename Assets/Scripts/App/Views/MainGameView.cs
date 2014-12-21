@@ -63,12 +63,23 @@ public class MainGameView : OnePieceView {
 
     private void OnSSBtnClick()
     {
+		UIButton btn = SoundSettingBtn.GetComponentInChildren<UIButton>();
 		SoundManager.isSound = !SoundManager.isSound;
 		PlayerPrefs.SetInt("isSound",SoundManager.isSound ? 1 : 0 );
 		if (SoundManager.isSound)
+		{
+			btn.normalSprite = "sound";
+			btn.hoverSprite = "soundpressing";
+			btn.pressedSprite = "soundpressed";
 			SoundManager.Instance.PlayBGM("bgm_rainy_ray_games");
+		}
 		else
+		{
+			btn.normalSprite = "mute";
+			btn.hoverSprite = "mutepressing";
+			btn.pressedSprite = "mutepressed";
 			SoundManager.Instance.StopBGM();
+		}
     }
 
 
