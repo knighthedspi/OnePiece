@@ -91,7 +91,7 @@ PlayerSettings:
   uIStatusBarHidden: 0
   uIExitOnSuspend: 1
   uIStatusBarStyle: 0
-  iPhoneSplashScreen: {fileID: 0}
+  iPhoneSplashScreen: {fileID: 2800000, guid: 3867215996da74c898f81ecf6300bcea, type: 3}
   iPhoneHighResSplashScreen: {fileID: 0}
   iPhoneTallHighResSplashScreen: {fileID: 0}
   iPhone47inSplashScreen: {fileID: 0}
@@ -102,7 +102,7 @@ PlayerSettings:
   iPadLandscapeSplashScreen: {fileID: 0}
   iPadHighResLandscapeSplashScreen: {fileID: 0}
   AndroidTargetDevice: 0
-  AndroidSplashScreenScale: 0
+  AndroidSplashScreenScale: 2
   AndroidKeystoreName: op_keystore.keystore
   AndroidKeyaliasName: onepiecevn
   resolutionDialogBanner: {fileID: 0}
