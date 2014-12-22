@@ -1243,7 +1243,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3002
+  startingRenderQueue: 3003
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -1547,7 +1547,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3007
+  startingRenderQueue: 3008
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 300, w: 200}
@@ -1691,7 +1691,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3009
+  startingRenderQueue: 3010
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 300, w: 200}
@@ -1890,7 +1890,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3007
+  startingRenderQueue: 3008
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -1984,7 +1984,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3005
+  startingRenderQueue: 3006
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -2101,7 +2101,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3004
+  startingRenderQueue: 3005
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
@@ -2145,7 +2145,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3007
+  startingRenderQueue: 3008
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 300, w: 200}
@@ -2365,7 +2365,7 @@ MonoBehaviour:
   hintPanel: {fileID: 100078}
   board: {fileID: 100018}
   background: {fileID: 11400006}
-  blocksPrefab: {fileID: 11400002, guid: 0ab2e381650cc4d6eb1e599ba576077c, type: 2}
+  blocksPrefab: {fileID: 11400008, guid: 0ab2e381650cc4d6eb1e599ba576077c, type: 2}
   UI_TimerBar: {fileID: 11400016}
   timeUpLabel: {fileID: 11400002}
   comboAnimator: {fileID: 9500008}
@@ -2410,7 +2410,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3007
+  startingRenderQueue: 3008
   mAlpha: 1
   mClipping: 0
   mClipRange: {x: 0, y: 0, z: 300, w: 200}
