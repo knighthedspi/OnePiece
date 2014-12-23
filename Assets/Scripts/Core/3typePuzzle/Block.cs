@@ -61,7 +61,12 @@ public class Block : MonoBehaviour {
 		_touchSprite = transform.Find ("TouchEffect").GetComponent<UISprite> ();
 		_touchSprite.gameObject.SetActive (false);
 	}
-	
+	void OnEnable()
+	{
+		ResetDepth ();
+	}
+
+
 	// Use this for initialization
 	void Start () {
 		
@@ -89,8 +94,7 @@ public class Block : MonoBehaviour {
 		_uiSprite.width 	= (int)_gameSetup.blockSize.x;
 		_uiSprite.height 	= (int)_gameSetup.blockSize.y;
 		transform.localScale = new Vector3 (1, 1, 1);
-//		NGUITools.BringForward (gameObject);
-
+		ResetDepth ();
 	}
 
 	public void InitRand ()
@@ -108,9 +112,12 @@ public class Block : MonoBehaviour {
 	
 	public virtual void TouchDown()
 	{
-//		_uiSprite.spriteName = spriteName+"_down";
+
+		ResetDepth ();
 		_scale = this.transform.localScale;
 		_touchSprite.gameObject.SetActive (true);
+
+
 		this.transform.localScale = new Vector2(
 			_scale.x + _scale.x/30,
 			_scale.y + _scale.y/30
@@ -144,7 +151,16 @@ public class Block : MonoBehaviour {
 	{
 		Debug.Log("Destroy");
 		_touchSprite.gameObject.SetActive (false);
+//		_uiSprite.RemoveFromPanel ();
+//		_touchSprite.RemoveFromPanel ();
 		gameObject.Recycle ();
+	}
+
+	private void ResetDepth()
+	{
+		_uiSprite.depth 	= 0;
+		_touchSprite.depth 	= 1;
+		_uiSprite.GetComponent<UIWidget> ().ParentHasChanged ();
 	}
 	
 
