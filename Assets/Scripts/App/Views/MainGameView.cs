@@ -32,12 +32,19 @@ public class MainGameView : OnePieceView {
 	protected override void Start(){
 		base.Start();
         user = AppManager.Instance.user;
-        BeriLbl.text = user.Belly.ToString();
-        LevelGuage.fillAmount = LevelService.Instance.fillAmount(user);
+        BeriLbl.text = user.Belly.ToString(); 
         // Reports that the user is viewing the Main Menu
 		ChangeSpriteSoundBtn ();
         if (GoogleAnalytics.instance)
             GoogleAnalytics.instance.LogScreen("MainGameView");
+	}
+
+	void Update()
+	{
+		if(LevelGuage.fillAmount == 0)
+		{
+			LevelGuage.fillAmount = LevelService.Instance.fillAmount(user);
+		}
 	}
 
 	private void OnInviteBtnClick()
