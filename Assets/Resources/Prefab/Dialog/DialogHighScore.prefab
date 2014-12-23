@@ -27,6 +27,7 @@ GameObject:
   - 114: {fileID: 11400002}
   - 54: {fileID: 5400000}
   - 114: {fileID: 11400022}
+  - 95: {fileID: 9500000}
   m_Layer: 5
   m_Name: DialogHighScore
   m_TagString: Untagged
@@ -446,6 +447,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 202, y: 76, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &9500000
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 58d8f292c44294aaf92c5eaaeb10108e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -744,7 +760,7 @@ MonoBehaviour:
   mMaterial: {fileID: 0}
   mApplyGradient: 1
   mGradientTop: {r: 1, g: 1, b: 1, a: 1}
-  mGradientBottom: {r: .699999988, g: .699999988, b: .699999988, a: 1}
+  mGradientBottom: {r: 1, g: 1, b: 1, a: 1}
   mSpacingX: 0
   mSpacingY: 0
   mShrinkToFit: 0
