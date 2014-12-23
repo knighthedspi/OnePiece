@@ -68,7 +68,11 @@ public class DialogManager : Singleton<DialogManager> {
 		if (_isProcessing)
 						return;
 		if (_dialogQueue.Count <= 0)
-						return;
+		{
+			UIManager.Instance.disable = false;
+			return;
+		}
+		UIManager.Instance.disable = true;	
 		CreateDialog (_dialogQueue [0]);
 		_dialogQueue.RemoveAt (0);
 	}
