@@ -70,6 +70,7 @@ public class GamePlayView : OnePieceView {
 
     private     int                                         LEVEL_EPX = 200;
     private     int                                         ATTACK_POINT = 10;
+    private     string                                      BGM = "bgm_04_advantures";
 	#endregion 	GAME_STATEMENT
 
 	#region 	MONSTER_OBJECTS
@@ -93,6 +94,7 @@ public class GamePlayView : OnePieceView {
 	private 	OPUser 										_user;
 	#endregion  SERVICE
 
+
 	#region     SETUP
 	private		OPGameSetup									_gameSetup;
 	#endregion
@@ -106,7 +108,7 @@ public class GamePlayView : OnePieceView {
 
 	protected override void OnOpen (params object[] parameters)
 	{
-		SoundManager.Instance.PlayBGM("bgm_hemispheres",0.6f);
+		SoundManager.Instance.PlayBGM(BGM);
 	}
 
 	protected virtual void Initialize()

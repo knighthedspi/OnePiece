@@ -12,7 +12,7 @@ public class MainGameView : OnePieceView {
 
    
     private OPUser user;
-
+    private string BGM = "bgm_06_full_dream_box";
 
 	[HideInInspector]
 	public UI 		  UI {get; private set;}
@@ -72,7 +72,7 @@ public class MainGameView : OnePieceView {
 		PlayerPrefs.SetInt("isSound",SoundManager.isSound ? 1 : 0 );
 		if (SoundManager.isSound)
 		{
-			SoundManager.Instance.PlayBGM("bgm_rainy_ray_games");
+			SoundManager.Instance.PlayBGM(BGM);
 		}
 		else
 		{
@@ -101,6 +101,6 @@ public class MainGameView : OnePieceView {
 
 	protected override void OnOpen (params object[] parameters)
 	{
-		SoundManager.Instance.PlayBGM("bgm_rainy_ray_games");
+        SoundManager.Instance.PlayBGM(BGM);
 	}
 }

@@ -481,8 +481,8 @@ MonoBehaviour:
   BGM:
   - {fileID: 8300000, guid: 59835270f2a224de1af8163363dfa23f, type: 3}
   - {fileID: 8300000, guid: 241a1817da82f4432ad0c011bd3f2808, type: 3}
-  - {fileID: 8300000, guid: a85a9c7f15e284220b424c4360714466, type: 3}
-  - {fileID: 8300000, guid: 7aa1ec42e4e9249488165567f614fc40, type: 3}
+  - {fileID: 8300000, guid: 481edaf44f7154536801e28f735e3f66, type: 3}
+  - {fileID: 8300000, guid: 63c51e11554874c86b3ca5314767ae43, type: 3}
   SE:
   - {fileID: 8300000, guid: 2378cb798cc84458998f8c83654391f0, type: 3}
   - {fileID: 8300000, guid: bd0c353bd86ed4a9e9f662b3ad6aad87, type: 3}
