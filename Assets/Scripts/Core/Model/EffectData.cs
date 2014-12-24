@@ -5,6 +5,7 @@ public enum EffectType
 {
 	Explosion = 1,
 	DamageEffect,
+	DestroyEffect,
 
 }
 public class EffectData {
