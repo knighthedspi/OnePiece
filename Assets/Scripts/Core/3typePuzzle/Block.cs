@@ -153,6 +153,7 @@ public class Block : MonoBehaviour {
 		_touchSprite.gameObject.SetActive (false);
 //		_uiSprite.RemoveFromPanel ();
 //		_touchSprite.RemoveFromPanel ();
+		DestroyBlockEffect.Create (transform.localPosition);
 		gameObject.Recycle ();
 	}
 

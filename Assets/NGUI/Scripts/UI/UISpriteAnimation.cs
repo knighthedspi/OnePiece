@@ -84,7 +84,7 @@ public class UISpriteAnimation : MonoBehaviour
 					mActive = mLoop;
 					if(!mActive)
 					{
-						SendMessage("OnAnimationFinish");
+						SendMessage("OnAnimationFinish",SendMessageOptions.DontRequireReceiver);
 					}
 				}
 

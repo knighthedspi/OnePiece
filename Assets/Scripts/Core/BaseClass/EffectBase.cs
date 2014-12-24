@@ -4,15 +4,6 @@ using System.Collections;
 public class EffectBase : MonoBehaviour {
 
 	protected EffectData _data;
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
 	public virtual void Init(EffectData data)
 	{
