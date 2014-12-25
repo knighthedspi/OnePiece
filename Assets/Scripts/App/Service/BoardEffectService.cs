@@ -541,11 +541,11 @@ public partial class GamePlayService{
 						if(last.blockType == _b.blockType){
 							float dis = Vector2.Distance(last.transform.localPosition,_b.transform.localPosition);
 							if(dis <= _blockDistanceLimit){
-								if(_stackBlock.Count > 1){
-									if(_stackBlock[_stackBlock.Count - 2] == _b){
-										popFromStack();
-									}
-								}
+//								if(_stackBlock.Count > 1){
+//									if(_stackBlock[_stackBlock.Count - 2] == _b){
+//										popFromStack();
+//									}
+//								}
 								if(!_stackBlock.Contains(_b)){
 									pushToStack(_b);
 									newCurrentLine(_b.transform.localPosition);
