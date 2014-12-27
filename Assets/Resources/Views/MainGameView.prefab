@@ -158,7 +158,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400020}
-  - 114: {fileID: 11400020}
   m_Layer: 5
   m_Name: Ads
   m_TagString: Untagged
@@ -1103,17 +1102,6 @@ MonoBehaviour:
   mAtlas: {fileID: 11400000, guid: be199dabf62994f958a9b74e4a1f73e2, type: 2}
   mSpriteName: midle
   mFillCenter: 1
---- !u!114 &11400020
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce28a8b86c3794df88b2eb24e62b5534, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11400022
 MonoBehaviour:
   m_ObjectHideFlags: 1
