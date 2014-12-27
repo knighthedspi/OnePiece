@@ -99,6 +99,7 @@ public class DialogManager : Singleton<DialogManager> {
 			GameObject root = ViewManager.Instance.globalViewObject;
 			NGUITools.BringForward(root);
 			_dialogWindow = NGUITools.AddChild(root);
+            _dialogWindow.transform.localScale = new Vector3(0.8f, 0.8f, 0.8f);
 			_dialogWindow.name = "DialogWindow";
 		}
 		return _dialogWindow;

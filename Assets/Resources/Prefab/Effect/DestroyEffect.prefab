@@ -41,7 +41,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df9bfb5c080dac24cbbc6c9f595ed413, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mFPS: 10
+  mFPS: 20
   mPrefix: effect1
   mLoop: 0
   mSnap: 1
