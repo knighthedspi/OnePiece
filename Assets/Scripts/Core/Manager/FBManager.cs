@@ -175,6 +175,7 @@ public class FBManager : Singleton<FBManager>
 	private void LogCallback(FBResult rs)
 	{
 		Debug.Log(rs.Text);
+		DialogBonus.Create("You just got "+Config.BELLY_FB_SHARE+" belly!",ClosePopUp,"Congratulations!","Ok");
 	}
 	public void Share ()
 	{ 
@@ -249,6 +250,7 @@ public class FBManager : Singleton<FBManager>
 			}
 		}
 	}
+
 	private void appRequestCallback (FBResult result)
 	{                                                                                                                              
 		Debug.Log ("appRequestCallback");                                                                                         
@@ -260,12 +262,16 @@ public class FBManager : Singleton<FBManager>
 			} else if (responseObject.TryGetValue ("request", out obj)) {                
 				Debug.Log ("Request sent");
 				//bonus belly
+				DialogBonus.Create("You just got "+Config.BELLY_FB_INVITE+" belly!",ClosePopUp,"Congratulations!","Ok");
 				AppManager.Instance.user.Belly += Config.BELLY_FB_INVITE;
 				OPUserDAO.Instance.Update (AppManager.Instance.user);
 			}                                                                                                                      
 		}                                                                                                                          
 	} 
-	
+	public void ClosePopUp()
+	{
+		DialogManager.Instance.Complete();
+	}
 	#endregion
 	
 	#region load picture
