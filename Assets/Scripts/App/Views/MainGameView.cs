@@ -25,9 +25,7 @@ public class MainGameView : OnePieceView {
 		UI.AttachButton(StartBtn, OnStartBtnClicked);
         UI.AttachButton(InviteBtn, OnInviteBtnClick);
         UI.AttachButton(SoundSettingBtn, OnSSBtnClick);
-		var viewNames = new Dictionary<string, object []>();
-		viewNames.Add(Config.GLOBAL_VIEW, null);
-		ViewLoader.Instance.CleanLoad(viewNames, true);
+		ViewLoader.Instance.AddLoad(Config.GLOBAL_VIEW);
 
 	}
 
