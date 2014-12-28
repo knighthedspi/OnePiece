@@ -71,6 +71,7 @@ public class GamePlayView : OnePieceView {
     private     int                                         LEVEL_EPX = 200;
     private     int                                         ATTACK_POINT = 10;
     private     string                                      BGM = "bgm_04_advantures";
+	private		UISprite									boardSprite;
 	#endregion 	GAME_STATEMENT
 
 	#region 	MONSTER_OBJECTS
@@ -135,6 +136,7 @@ public class GamePlayView : OnePieceView {
 		count_down_time = _gameSetup.count_down_time;
 		background.mainTexture = Resources.Load(Config.BACKGROUND_TEXTURE_PREFIX + AppManager.Instance.user.LevelId) as Texture;
 		timeUpLabel.gameObject.GetComponent<TimeUpController>().Finish = OnFinishCountDown;
+		boardSprite = board.GetComponent<UISprite>();
 	}
 
 	private void InitializeGameService()
@@ -523,6 +525,8 @@ public class GamePlayView : OnePieceView {
 	{
 		_startFever = false;
 		_feverTime = 0.0f;
+
+		boardSprite.spriteName = "hexagon";
 		boardAnimator.SetBool("startFever", false);
 		_service.clearFeverEffects();
 	}
@@ -548,6 +552,7 @@ public class GamePlayView : OnePieceView {
 	
 		feverLabel.text = "Fever time";
 		feverAnimator.Play(Config.FEVER_ANIM);
+		boardSprite.spriteName = "hexagon_light";
 		boardAnimator.SetBool("startFever", true);
 	}
 
