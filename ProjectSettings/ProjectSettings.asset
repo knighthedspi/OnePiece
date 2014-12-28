@@ -10,8 +10,8 @@ PlayerSettings:
   targetGlesGraphics: 1
   targetResolution: 0
   accelerometerFrequency: 60
-  companyName: RememeberTheName
-  productName: OnePieceVn
+  companyName: kTech
+  productName: Picopiece
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
@@ -111,8 +111,23 @@ PlayerSettings:
     m_Icons:
     - m_Icon: {fileID: 0}
       m_Size: 128
+  - m_BuildTarget: Android
+    m_Icons:
+    - m_Icon: {fileID: 2800000, guid: d496799d7476b4efebd5b681d022ddf4, type: 3}
+      m_Size: 144
+    - m_Icon: {fileID: 2800000, guid: f4d9396d8963840f19e4ad13991d4e63, type: 3}
+      m_Size: 96
+    - m_Icon: {fileID: 2800000, guid: d7fad390ebaf54fd1827acbf58e8253c, type: 3}
+      m_Size: 72
+    - m_Icon: {fileID: 2800000, guid: 7114ddfa9ad10411eb2bfaea8563805a, type: 3}
+      m_Size: 48
+    - m_Icon: {fileID: 2800000, guid: 813470336d12d4c54893b291b86d54d2, type: 3}
+      m_Size: 36
   m_BuildTargetBatching:
   - m_BuildTarget: iPhone
+    m_StaticBatching: 1
+    m_DynamicBatching: 1
+  - m_BuildTarget: Android
     m_StaticBatching: 1
     m_DynamicBatching: 1
   webPlayerTemplate: APPLICATION:Default
@@ -159,8 +174,8 @@ PlayerSettings:
   spritePackerPolicy: 
   scriptingDefineSymbols:
     1: 
-    4: _NGUI_PRO_VERSION_
-    7: _NGUI_PRO_VERSION_
+    4: 15
+    7: 15
   metroPackageName: Match3Rpg
   metroPackageLogo: 
   metroPackageLogo140: 
