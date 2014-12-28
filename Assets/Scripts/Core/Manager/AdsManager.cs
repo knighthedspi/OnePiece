@@ -10,7 +10,7 @@ public class AdsManager : MonoBehaviour {
 	public static int idAdsBanner = -1;
 	public static bool isShowing = false;
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		#if UNITY_IPHONE || UNITY_ANDROID
 		IMobileSdkAdsUnityPlugin.registerInline(PUBLISHER_ID,MEDIA_ID,FOOTER_SPOT_ID);
 		IMobileSdkAdsUnityPlugin.start(FOOTER_SPOT_ID);
@@ -22,7 +22,10 @@ public class AdsManager : MonoBehaviour {
 		isShowing = true;
 		#endif
 	}
-	
+	void Start()
+	{
+		Debug.Log("Ads manager");
+	}
 	// Update is called once per frame
 	void Update () {
 		if(idAdsBanner != -1)
