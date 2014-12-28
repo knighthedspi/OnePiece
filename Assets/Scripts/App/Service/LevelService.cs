@@ -19,7 +19,7 @@ public class LevelService
     public float fillAmount(OPUser user)
     {
         OPLevel level = GetUserLevel(user);
-        return (user.Exp / (level.Exp + level.Diff));
+		return ((float) user.Exp / (float) (level.Exp + level.Diff));
     }
 
 }

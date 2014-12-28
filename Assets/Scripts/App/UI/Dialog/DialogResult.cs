@@ -5,6 +5,7 @@ using System;
 public class DialogResult : DialogBase {
 
 	public NumberLabel numberLabel;
+	public UISprite	   levelGause;	
 	// Use this for initialization
 	void Start () {
 	
@@ -21,6 +22,8 @@ public class DialogResult : DialogBase {
 		int score = (!dialogData.textData.ContainsKey ("ScoreLbl")) ? 0 : Int32.Parse (dialogData.textData ["ScoreLbl"]);
 		Debug.Log("Result-----------------" + score.ToString());
 		numberLabel.setNumberTo (score);
+		float fillLevel = (!dialogData.textData.ContainsKey ("Level_guage")) ? 0 : float.Parse (dialogData.textData ["Level_guage"]);
+		levelGause.fillAmount = fillLevel;
 	}
 
     public static void Create(int score, int bonusScore, int highScore, int userBelly, int belly, int level, float expFillAmount, EventDelegate.Callback callBack)
