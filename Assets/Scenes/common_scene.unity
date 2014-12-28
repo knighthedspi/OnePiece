@@ -571,8 +571,15 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f1425bd34a98d470e9ffd0457ae361af, type: 3}
   - {fileID: 8300000, guid: c47f9c613b37f46feb0efbf43b8c95f6, type: 3}
   - {fileID: 8300000, guid: 0afa9b750ed4245b5b670e9179fb9724, type: 3}
-  - {fileID: 8300000, guid: ff53b884b9ca747578383e6baf563fc0, type: 3}
+  - {fileID: 8300000, guid: 5e306acad768541c9a73cb3922446731, type: 3}
   - {fileID: 8300000, guid: 4b625c3ff4ced44d3a2ca3472bdb99e8, type: 3}
+  - {fileID: 8300000, guid: 8737862eb491442b9aab078a86b2262f, type: 3}
+  - {fileID: 8300000, guid: d5dfe0a4af5d7424894d24f20078103a, type: 3}
+  - {fileID: 8300000, guid: 03e534657fc32474c98250a0613d9445, type: 3}
+  - {fileID: 8300000, guid: d577b412f9f2e4a08a87237710e80fad, type: 3}
+  - {fileID: 8300000, guid: ae10529616d4d4e6b96f7043d68a2b87, type: 3}
+  - {fileID: 8300000, guid: 6f00fdf213b6f44dc97d6e86095802cf, type: 3}
+  - {fileID: 8300000, guid: 821e749f96a4c4f73be488fa98fb9eb9, type: 3}
   ENV: []
   BGM_list: []
   SE_list: []

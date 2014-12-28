@@ -39,6 +39,8 @@ public partial class GamePlayService{
 	private 	List<Block> 					_neighborBlocks;
 	private 	OPGameSetup						_gameSetup;
 
+    private     int                             _soundIndex;
+    private     string[]                        _soundName;
 
 
 	/// <summary>
@@ -80,6 +82,9 @@ public partial class GamePlayService{
 		this._blocks = new Block[(int)_blockNum.x, (int)_blockNum.y];
 		this._visited = new bool[(int)_blockNum.x, (int)_blockNum.y];
 		generateBlockPosition();
+
+        _soundIndex = 2;
+        _soundName = new string[]{"pianoA", "pianoB", "pianoC", "pianoD", "pianoE", "pianoF", "pianoG"};
 	}
 
 	#region touch_board
@@ -490,7 +495,9 @@ public partial class GamePlayService{
 		_currentLine.GetComponent<UISprite>().width  = 18;
 		_currentLine.GetComponent<UISprite>().height = 0;
 		_currentLine.transform.localPosition = p;
-		SoundManager.Instance.PlaySE("water-drop");
+        SoundManager.Instance.PlaySE(_soundName[_soundIndex]);
+        _soundIndex +=1;
+        _soundIndex = _soundIndex % 7;
 	}
 
 	private void insertIntersectBlocksBetweenLines(BlockType blockType){

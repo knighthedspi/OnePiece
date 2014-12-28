@@ -94,11 +94,12 @@ public class GamePlayView : OnePieceView {
 	private 	OPUser 										_user;
 	#endregion  SERVICE
 
-
 	#region     SETUP
 	private		OPGameSetup									_gameSetup;
 	#endregion
 	
+    private     string                                      feverTimeSound = "fever_time";  
+
 	#region 	INITIALIZE_GAME
 	protected override void Start() 
 	{
@@ -355,11 +356,15 @@ public class GamePlayView : OnePieceView {
 
 	protected virtual void updateFever(){
 		if(!_startFever)
+        {
+            SoundManager.Instance.PlayBGM(feverTimeSound);
 			return;
+        }
 		_feverTime += Time.deltaTime;
 		if(_feverTime >= _gameSetup.feverStepTime)
 			resetFever();
 		updateFeverUI();
+        SoundManager.Instance.PlayBGM(feverTimeSound);
 	}
 
 	// TODO : update fever ui
