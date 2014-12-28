@@ -9,7 +9,7 @@ public class MainGameView : OnePieceView {
     public GameObject SoundSettingBtn;
     public UILabel BeriLbl;
     public UISprite LevelGuage;
-
+	public UILabel 	LevelLbl;
    
     private OPUser user;
     private string BGM = "bgm_06_full_dream_box";
@@ -46,6 +46,10 @@ public class MainGameView : OnePieceView {
 		if(LevelGuage.fillAmount == 0)
 		{
 			LevelGuage.fillAmount = LevelService.Instance.fillAmount(user);
+		}
+		if(LevelLbl.text == "")
+		{
+			LevelLbl.text = user.LevelId.ToString();
 		}
 	}
 

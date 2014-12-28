@@ -55,18 +55,18 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: berry
-    x: 494
-    y: 381
-    width: 146
-    height: 55
+    x: 397
+    y: 683
+    width: 220
+    height: 81
     borderLeft: 0
     borderRight: 0
     borderTop: 0
     borderBottom: 0
-    paddingLeft: 1
-    paddingRight: 3
-    paddingTop: 4
-    paddingBottom: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: choper
     x: 397
     y: 765
@@ -81,7 +81,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chopper
-    x: 920
+    x: 1628
     y: 1813
     width: 235
     height: 235
@@ -95,6 +95,19 @@ MonoBehaviour:
     paddingBottom: 1
   - name: hexagon
     x: 0
+    y: 208
+    width: 396
+    height: 407
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hexagon_light
+    x: 0
     y: 616
     width: 396
     height: 407
@@ -107,8 +120,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: itemBoom
-    x: 1660
-    y: 1859
+    x: 684
+    y: 1467
     width: 190
     height: 189
     borderLeft: 0
@@ -120,7 +133,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 1
   - name: luffy
-    x: 684
+    x: 1392
     y: 1813
     width: 235
     height: 235
@@ -133,8 +146,8 @@ MonoBehaviour:
     paddingTop: 1
     paddingBottom: 1
   - name: mess
-    x: 1392
-    y: 1884
+    x: 0
+    y: 43
     width: 267
     height: 164
     borderLeft: 0
@@ -146,8 +159,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: nami
-    x: 258
-    y: 144
+    x: 1156
+    y: 1813
     width: 235
     height: 235
     borderLeft: 0
@@ -159,33 +172,33 @@ MonoBehaviour:
     paddingTop: 1
     paddingBottom: 1
   - name: pause
-    x: 494
-    y: 437
-    width: 179
-    height: 178
+    x: 628
+    y: 969
+    width: 55
+    height: 54
     borderLeft: 0
     borderRight: 0
     borderTop: 0
     borderBottom: 0
-    paddingLeft: 10
-    paddingRight: 11
-    paddingTop: 13
-    paddingBottom: 9
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: pausepressed
-    x: 0
-    y: 1
-    width: 154
-    height: 154
+    x: 628
+    y: 919
+    width: 53
+    height: 49
     borderLeft: 0
     borderRight: 0
     borderTop: 0
     borderBottom: 0
-    paddingLeft: 29
-    paddingRight: 17
-    paddingTop: 29
-    paddingBottom: 17
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: pressing
-    x: 0
+    x: 397
     y: 392
     width: 257
     height: 223
@@ -198,8 +211,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: sanji
-    x: 0
-    y: 156
+    x: 920
+    y: 1813
     width: 235
     height: 235
     borderLeft: 0
@@ -210,35 +223,61 @@ MonoBehaviour:
     paddingRight: 1
     paddingTop: 1
     paddingBottom: 1
-  - name: time
-    x: 1004
-    y: 1802
-    width: 296
-    height: 10
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 17
-    paddingRight: 7
-    paddingTop: 23
-    paddingBottom: 5
-  - name: timebg
-    x: 684
-    y: 1775
-    width: 319
-    height: 37
+  - name: scorebg
+    x: 397
+    y: 641
+    width: 244
+    height: 41
     borderLeft: 0
     borderRight: 0
     borderTop: 0
     borderBottom: 0
     paddingLeft: 0
-    paddingRight: 1
+    paddingRight: 0
     paddingTop: 0
-    paddingBottom: 1
+    paddingBottom: 0
+  - name: statusbg
+    x: 684
+    y: 1737
+    width: 720
+    height: 75
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: time
+    x: 1405
+    y: 1786
+    width: 592
+    height: 26
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: timebg
+    x: 684
+    y: 1657
+    width: 656
+    height: 79
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: timeup
     x: 397
-    y: 682
+    y: 73
     width: 140
     height: 82
     borderLeft: 0
@@ -250,8 +289,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: usop
-    x: 258
-    y: 380
+    x: 684
+    y: 1813
     width: 235
     height: 235
     borderLeft: 0
@@ -263,8 +302,8 @@ MonoBehaviour:
     paddingTop: 1
     paddingBottom: 1
   - name: zoro
-    x: 1156
-    y: 1813
+    x: 397
+    y: 156
     width: 235
     height: 235
     borderLeft: 0

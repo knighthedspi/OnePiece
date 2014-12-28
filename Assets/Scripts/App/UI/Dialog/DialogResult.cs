@@ -35,6 +35,7 @@ public class DialogResult : DialogBase {
         dialogData.textData.Add("BestScoreLbl", "High Score: " + highScore.ToString());
         dialogData.textData.Add("BonusScore", bonusScore.ToString());
         dialogData.textData.Add("Belly", belly.ToString());
+		dialogData.textData.Add("LevelLbl", level.ToString());
         //#TODO lam sao de add float?
         dialogData.textData.Add("Level_guage", expFillAmount.ToString());
         dialogData.eventData.Add ("CloseBtn", callBack);
