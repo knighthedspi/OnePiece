@@ -1,16 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SpecialBolckDetail : MonoBehaviour {
+public class SpecialBlockDetail : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
+	protected Block ownBlock;
+
+	void Awake()
+	{
+		ownBlock = GetComponent<Block> ();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	public void Init()
+	{
+
 	}
 
 	public virtual void StartAnim()

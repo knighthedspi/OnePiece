@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Rainbow : SpecialBolckDetail {
+public class Rainbow1 : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -11,11 +11,5 @@ public class Rainbow : SpecialBolckDetail {
 	// Update is called once per frame
 	void Update () {
 	
-	}
-
-	public override void StartAnim ()
-	{
-		base.StartAnim ();
-		Debug.Log ("------- rainbow  anim ------");
 	}
 }

@@ -521,6 +521,75 @@ public partial class GamePlayService{
 		}
 	}
 
+	public void AddItemTo(Vector2 pos, BlockType type)
+	{
+		Block block = _blocks [(int)pos.x, (int)pos.y];
+
+		SpecialBlock newSpecial = GamePlayView.Instance.specialBlockPrefab.Spawn ();
+		newSpecial.transform.parent = _panel.transform;
+		newSpecial.transform.localPosition = block.transform.localPosition;
+		newSpecial.Init (type);	
+		newSpecial.posInBoard = pos;
+		_blocks [(int)pos.x, (int)pos.y] = newSpecial;
+
+		_hints.Clear ();
+		block.Destroy ();
+
+	}
+
+	public void RemoveBlock(Vector2 pos)
+	{
+		if ((int)pos.x > _blockSize.x || (int)pos.y > _blockSize.y)
+						return;
+		Block block = _blocks [(int)pos.x, (int)pos.y];
+		if (block == null)
+						return;
+		_blocks [(int)pos.x, (int)pos.y] = null;
+		Debug.Log ("block type ------------- " + block.blockType.ToString ());
+		block.Destroy ();
+	}
+
+	public void RainBow()
+	{
+		int x = (int)UnityEngine.Random.Range (0, _blockNum.x);
+		int y = (int)UnityEngine.Random.Range (0, _blockNum.y);
+		Block block = _blocks [x, y];
+		if(block == null || IsItem(block.blockType))
+			RainBow();
+		else
+			block.ChangeBlock(BlockType.rainbow);
+	}
+
+	public bool IsItem(BlockType type)
+	{
+		return Array.Exists (_gameSetup.listItem, element => element == type);
+	}
+
+	public List<Block> GetListBlockType(BlockType type)
+	{
+		List<Block> listType = new List<Block> ();
+		for(int i = 0;i < _blockNum.x; i++)
+		{
+			for(int j = 0; j < _blockNum.y; j++)
+			{
+				Block block = _blocks[i,j];
+				if(block != null && block.blockType == type)
+				{
+					listType.Add(block);
+				}
+			}
+		}
+
+		return listType;
+
+	}
+
+	public BlockType GetRandType()
+	{
+		int rand = UnityEngine.Random.Range (0, _gameSetup.listBlockTypes.Length);
+		return _gameSetup.listBlockTypes [rand];
+	}
+
 
 	/// <summary>
 	/// Updates the board.

@@ -311,6 +311,8 @@ MonoBehaviour:
     prefab: {fileID: 100000, guid: a936efb502af14994b58b94ec3192386, type: 2}
   - size: 10
     prefab: {fileID: 100000, guid: 0ca9dbf58b32c465588f1930246d9759, type: 2}
+  - size: 10
+    prefab: {fileID: 100000, guid: 6a3233974189940bd8fd83c32c416c95, type: 2}
 --- !u!4 &670522385
 Transform:
   m_ObjectHideFlags: 0
