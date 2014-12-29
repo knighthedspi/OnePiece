@@ -28,7 +28,6 @@ public class DialogResult : DialogBase {
 
     public static void Create(int score, int bonusScore, int highScore, int userBelly, int belly, int level, float expFillAmount, EventDelegate.Callback callBack)
     {
-        Debug.LogError(bonusScore);
         DialogData dialogData = new DialogData ();
         dialogData.dialogType = DialogType.DialogResult;
 //        BeriLbl
