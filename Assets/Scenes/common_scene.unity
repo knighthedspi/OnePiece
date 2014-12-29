@@ -562,16 +562,9 @@ MonoBehaviour:
   numberOfConcurrentSE: 10
   numberOfConcurrentENV: 3
   BGM:
-  - {fileID: 8300000, guid: 59835270f2a224de1af8163363dfa23f, type: 3}
-  - {fileID: 8300000, guid: 241a1817da82f4432ad0c011bd3f2808, type: 3}
   - {fileID: 8300000, guid: 481edaf44f7154536801e28f735e3f66, type: 3}
   - {fileID: 8300000, guid: 63c51e11554874c86b3ca5314767ae43, type: 3}
   SE:
-  - {fileID: 8300000, guid: 2378cb798cc84458998f8c83654391f0, type: 3}
-  - {fileID: 8300000, guid: bd0c353bd86ed4a9e9f662b3ad6aad87, type: 3}
-  - {fileID: 8300000, guid: 9d6bec1a6a14844ef90d88e38404f795, type: 3}
-  - {fileID: 8300000, guid: f1425bd34a98d470e9ffd0457ae361af, type: 3}
-  - {fileID: 8300000, guid: c47f9c613b37f46feb0efbf43b8c95f6, type: 3}
   - {fileID: 8300000, guid: 0afa9b750ed4245b5b670e9179fb9724, type: 3}
   - {fileID: 8300000, guid: 5e306acad768541c9a73cb3922446731, type: 3}
   - {fileID: 8300000, guid: 4b625c3ff4ced44d3a2ca3472bdb99e8, type: 3}

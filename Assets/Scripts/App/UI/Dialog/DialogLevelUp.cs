@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class DialogLevelUp : DialogBase {
-
+	 
 	// Use this for initialization
 	void Start () {
 	
@@ -17,7 +17,7 @@ public class DialogLevelUp : DialogBase {
     {
         DialogData dialogData = new DialogData ();
         dialogData.dialogType = DialogType.DialogLevelUp;
-		dialogData.textData.Add("LevelLbl", "Level " + level.ToString());
+		dialogData.textData.Add("LevelLbl", "Level " + level.ToString()); 
         //        numberLabel.setNumberTo(score);
         dialogData.eventData.Add ("CloseBtn", callBack);
         DialogManager.Instance.OpenDialog (dialogData);
