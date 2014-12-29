@@ -307,23 +307,23 @@ public partial class GamePlayService{
 		Vector2 posInBoard = b.posInBoard;
 		int posX = (int)posInBoard.x;
 		int posY = (int)posInBoard.y;
-		if(posX < _blockNum.x - 1 && !_neighborBlocks.Contains(_blocks[posX + 1, posY]))
+		if(posX < _blockNum.x - 1 && !_neighborBlocks.Contains(_blocks[posX + 1, posY]) && _blocks[posX + 1, posY ].blockType != BlockType.rainbow)
 			_neighborBlocks.Add(_blocks[posX + 1, posY]);
-		if(posY < _blockNum.y - 1 && !_neighborBlocks.Contains(_blocks[posX, posY + 1]))
+		if(posY < _blockNum.y - 1 && !_neighborBlocks.Contains(_blocks[posX, posY + 1]) && _blocks[posX, posY + 1].blockType != BlockType.rainbow)
 			_neighborBlocks.Add(_blocks[posX, posY + 1]);
-		if(posX > 0 && !_neighborBlocks.Contains(_blocks[posX - 1, posY]))
+		if(posX > 0 && !_neighborBlocks.Contains(_blocks[posX - 1, posY]) && _blocks[posX - 1, posY].blockType != BlockType.rainbow)
 			_neighborBlocks.Add(_blocks[posX - 1, posY]);
-		if(posY > 0 && !_neighborBlocks.Contains(_blocks[posX, posY - 1]))
+		if(posY > 0 && !_neighborBlocks.Contains(_blocks[posX, posY - 1]) && _blocks[posX, posY - 1].blockType != BlockType.rainbow)
 			_neighborBlocks.Add(_blocks[posX, posY - 1]);
 		if(posX % 2 != 0) {
-			if(posX < _blockNum.x - 1 && posY > 0 && !_neighborBlocks.Contains(_blocks[posX + 1, posY - 1]))
+			if(posX < _blockNum.x - 1 && posY > 0 && !_neighborBlocks.Contains(_blocks[posX + 1, posY - 1]) && _blocks[posX + 1, posY - 1].blockType != BlockType.rainbow)
 				_neighborBlocks.Add(_blocks[posX + 1, posY - 1]);
-			if(posX > 0 && posY > 0 && !_neighborBlocks.Contains(_blocks[posX - 1, posY - 1]))
+			if(posX > 0 && posY > 0 && !_neighborBlocks.Contains(_blocks[posX - 1, posY - 1]) && _blocks[posX - 1, posY - 1].blockType != BlockType.rainbow)
 				_neighborBlocks.Add(_blocks[posX - 1, posY - 1]);
 		} else {
-			if(posX < _blockNum.x - 1 && posY < _blockNum.y - 1 && !_neighborBlocks.Contains(_blocks[posX + 1, posY + 1]))
+			if(posX < _blockNum.x - 1 && posY < _blockNum.y - 1 && !_neighborBlocks.Contains(_blocks[posX + 1, posY + 1]) && _blocks[posX + 1, posY + 1].blockType != BlockType.rainbow)
 				_neighborBlocks.Add(_blocks[posX + 1, posY + 1]);
-			if(posX > 0 && posY < _blockNum.y - 1 && !_neighborBlocks.Contains(_blocks[posX - 1, posY + 1]))
+			if(posX > 0 && posY < _blockNum.y - 1 && !_neighborBlocks.Contains(_blocks[posX - 1, posY + 1]) && _blocks[posX - 1, posY + 1].blockType != BlockType.rainbow)
 				_neighborBlocks.Add(_blocks[posX - 1, posY + 1]);
 		}
 	}
@@ -565,8 +565,9 @@ public partial class GamePlayService{
 		return Array.Exists (_gameSetup.listItem, element => element == type);
 	}
 
-	public List<Block> GetListBlockType(BlockType type)
+	private List<Block> GetListBlockRainbow()
 	{
+		BlockType type = GetRandType();
 		List<Block> listType = new List<Block> ();
 		for(int i = 0;i < _blockNum.x; i++)
 		{
@@ -582,6 +583,13 @@ public partial class GamePlayService{
 
 		return listType;
 
+	}
+
+	public void updateRainbowBlocks(Block ownBlock)
+	{
+		List<Block> rainbows = GetListBlockRainbow();
+		rainbows.Add(ownBlock);
+		_stackBlock.AddRange(rainbows);
 	}
 
 	public BlockType GetRandType()
