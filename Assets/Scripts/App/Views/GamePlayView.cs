@@ -483,7 +483,7 @@ public class GamePlayView : OnePieceView {
         //#TODO close dialog
 		DialogManager.Instance.Complete();
 		//#TODO back to homescreen
-		ViewLoader.Instance.ReplaceLoad(Config.MAIN_VIEW, null);
+		ViewLoader.Instance.ReplaceLoad(Config.MAIN_VIEW);
 	}
 
 	private void attackEffect(Vector2 lastPos)
