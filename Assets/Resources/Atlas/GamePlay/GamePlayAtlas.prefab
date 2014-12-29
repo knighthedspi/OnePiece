@@ -81,7 +81,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chopper
-    x: 1628
+    x: 684
     y: 1813
     width: 235
     height: 235
@@ -95,7 +95,7 @@ MonoBehaviour:
     paddingBottom: 1
   - name: hexagon
     x: 0
-    y: 208
+    y: 616
     width: 396
     height: 407
     borderLeft: 0
@@ -108,7 +108,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: hexagon_light
     x: 0
-    y: 616
+    y: 208
     width: 396
     height: 407
     borderLeft: 0
@@ -133,7 +133,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 1
   - name: luffy
-    x: 1392
+    x: 920
     y: 1813
     width: 235
     height: 235
@@ -159,7 +159,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: nami
-    x: 1156
+    x: 1392
     y: 1813
     width: 235
     height: 235
@@ -210,8 +210,21 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: rainbow
+    x: 268
+    y: 121
+    width: 87
+    height: 86
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: sanji
-    x: 920
+    x: 1156
     y: 1813
     width: 235
     height: 235
@@ -289,7 +302,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: usop
-    x: 684
+    x: 1628
     y: 1813
     width: 235
     height: 235
