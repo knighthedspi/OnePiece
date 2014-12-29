@@ -14,6 +14,10 @@ public class Rainbow : SpecialBlockDetail {
 		foreach(Block block in sameType)
 		{
 			gamePlay.RemoveBlock(block.posInBoard);
+
+
+
+
 		}
 		gamePlay.RemoveBlock (ownBlock.posInBoard);
 //		GamePlayService.Instance.fi
