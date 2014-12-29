@@ -28,22 +28,24 @@ public class AdsManager : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
+		if(ViewLoader.Instance.CurrentView == null)
+			return;
 		if(idAdsBanner != -1)
 		{
-			if(ViewLoader.Instance.CurrentView.name == Config.MAIN_VIEW)
-			{
-				if(!isShowing)
-				{
-					IMobileSdkAdsUnityPlugin.setVisibility(idAdsBanner,true);
-					isShowing = true;
-				}
-			}
-			else
+			if(ViewLoader.Instance.CurrentView.name == Config.GAME_PLAY_VIEW)
 			{
 				if(isShowing)
 				{
 					IMobileSdkAdsUnityPlugin.setVisibility(idAdsBanner,false);
 					isShowing = false;
+				}
+			}
+			else
+			{
+				if(!isShowing)
+				{
+					IMobileSdkAdsUnityPlugin.setVisibility(idAdsBanner,true);
+					isShowing = true;
 				}
 			}
 		}
