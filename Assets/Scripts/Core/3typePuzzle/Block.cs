@@ -11,8 +11,11 @@ public enum BlockType
 	zoro,
 	chopper,
 	rainbow,
+	boom,
+	clock,
 	
 }
+
 
 public class Block : MonoBehaviour {
 	
@@ -27,6 +30,8 @@ public class Block : MonoBehaviour {
 	protected UISprite 	_uiSprite;
 	protected OPGameSetup _gameSetup;
 	protected UISprite _touchSprite;
+	protected Animator _animator;
+	protected BlockAnim _blockAnim;
 
 	public UISprite uiSprite 
 	{ 
@@ -60,6 +65,8 @@ public class Block : MonoBehaviour {
 		_gameSetup 	= AppManager.Instance.gameSetup;
 		_touchSprite = transform.Find ("TouchEffect").GetComponent<UISprite> ();
 		_touchSprite.gameObject.SetActive (false);
+		_animator 	= GetComponentInChildren<Animator> ();
+		_blockAnim = GetComponentInChildren<BlockAnim> ();
 	}
 	void OnEnable()
 	{
@@ -105,8 +112,8 @@ public class Block : MonoBehaviour {
 			return;
 		}
 			
-		int rand = UnityEngine.Random.Range (0, _gameSetup.listBlockTypes.Length);
-		Init (_gameSetup.listBlockTypes [rand]);
+
+		Init (GamePlayService.Instance.GetRandType());
 
 	}
 	
@@ -151,8 +158,6 @@ public class Block : MonoBehaviour {
 	{
 		Debug.Log("Destroy");
 		_touchSprite.gameObject.SetActive (false);
-//		_uiSprite.RemoveFromPanel ();
-//		_touchSprite.RemoveFromPanel ();
 		DestroyBlockEffect.Create (transform.localPosition);
 		gameObject.Recycle ();
 	}
@@ -164,5 +169,25 @@ public class Block : MonoBehaviour {
 		_uiSprite.GetComponent<UIWidget> ().ParentHasChanged ();
 	}
 	
+	public void ChangeBlock(BlockType type)
+	{
+		switch(type)
+		{
+		case BlockType.rainbow:
+			_blockAnim.onComplete = StartRainbow;
+			break;
+		default :
+			break;
+		}
+		if (_animator != null)
+				_animator.Play (BlockAnimType.ChangeBlock.ToString());
+		else
+			Debug.LogError("Not found animator");
+	}
 
+	private void StartRainbow()
+	{
+		_animator.Play (BlockAnimType.Empty.ToString());
+		GamePlayService.Instance.AddItemTo (posInBoard, BlockType.rainbow);
+	}
 }

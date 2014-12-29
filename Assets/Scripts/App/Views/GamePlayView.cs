@@ -28,6 +28,7 @@ public class GamePlayView : OnePieceView {
 	public      GameObject 									board;
 	public		UITexture									background;
 	public      Block 										blocksPrefab;
+	public 		SpecialBlock 								specialBlockPrefab;
 	public      UISprite 									UI_TimerBar;
 	public		NumberLabel									timeUpLabel;
 	#endregion	UI
@@ -101,7 +102,16 @@ public class GamePlayView : OnePieceView {
 	
     private     string                                      feverTimeSound = "fever_time";  
 
+	public static GamePlayView Instance;
+
 	#region 	INITIALIZE_GAME
+
+	protected override void Awake ()
+	{
+		base.Awake ();
+		Instance = this;
+	}
+
 	protected override void Start() 
 	{
 		base.Start();
@@ -545,6 +555,8 @@ public class GamePlayView : OnePieceView {
 			comboAnimator.Play(Config.COMBO_ANIM);
 		}
 		_comboTime = 0;
+		if (_currentCombo == _gameSetup.rainbowLimit)
+						_service.RainBow ();
 		if(_currentCombo > _gameSetup.feverLimit && !_startFever)
 			startFever();		
 	}

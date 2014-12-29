@@ -42,6 +42,7 @@ public class AppManager : Singleton<AppManager>
 		this.gameSetup.scoreRatio2 			= 50;
 		this.gameSetup.comboStepTime 		= 2;
 		this.gameSetup.feverLimit 			= 5;
+		this.gameSetup.rainbowLimit 		= 2;
 		this.gameSetup.feverStepTime 		= 5;
 		this.gameSetup.deltaMonsterPos 		= 300;
 		this.gameSetup.listBlockTypes 		= new BlockType[5]
@@ -52,6 +53,12 @@ public class AppManager : Singleton<AppManager>
 													BlockType.zoro,
 													BlockType.usop
 												};
+		this.gameSetup.listItem = new BlockType[3] 
+									{ 
+									BlockType.rainbow,
+									BlockType.clock, 
+									BlockType.boom
+									};
 		this.gameSetup.count_down_time		= 3;
 		}
 }

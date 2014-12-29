@@ -15,10 +15,12 @@ public class OPGameSetup  {
 	public 		int 			scoreRatio2 		{ set; get;}
 	public 		float 			comboStepTime 		{ set; get;}
 	public 		int 			feverLimit 			{ set; get;}
+	public 		int				rainbowLimit			{ set; get;}
 	public 		float 			feverStepTime 		{ set; get;}
 	public 		float 			deltaMonsterPos 	{ set; get;}
 	public 		float 			deltaStartX 		{ set; get;}
 	public 		float 			deltaStartY			{ set; get;}
-	public   	BlockType[] 	listBlockTypes 		{ set; get;}	
+	public   	BlockType[] 	listBlockTypes 		{ set; get;}
+	public 		BlockType[]     listItem 			{ set; get;}
 	public		float			count_down_time		{ set; get;}
 }

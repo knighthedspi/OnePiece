@@ -2508,6 +2508,7 @@ MonoBehaviour:
   board: {fileID: 100018}
   background: {fileID: 11400006}
   blocksPrefab: {fileID: 11400008, guid: 0ab2e381650cc4d6eb1e599ba576077c, type: 2}
+  specialBlockPrefab: {fileID: 11400002, guid: 6a3233974189940bd8fd83c32c416c95, type: 2}
   UI_TimerBar: {fileID: 11400016}
   timeUpLabel: {fileID: 11400002}
   comboAnimator: {fileID: 9500008}
